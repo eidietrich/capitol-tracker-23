@@ -24,3 +24,4 @@ app
 - Add GTag from Nate - `G-179R4DKQFZ`
 - add MTFP config/styles from election guide
 - copy over components
+- Add in meta stuff / fix SEO component
