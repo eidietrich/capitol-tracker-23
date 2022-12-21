@@ -15,6 +15,9 @@ inputs
 process
 - replicate data workflow
 - Work out how to deploy (use GH actions for build step?)
+- specifics
+    - Vote
+        - Write vote classification logic (e.g., simple majority)
 
 app
 - verify emotion is working as intended

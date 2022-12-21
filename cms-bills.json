@@ -1,0 +1,40 @@
+[
+  {
+    "Identifier": "HB 2",
+    "isKeyBill": true,
+    "Explanation": "Primary state budget bill",
+    "BillPageText": "This is text that goes on the **bill page** if we want to add additional information there prose style.\n\nHouse Bill 2 is traditionally state's primary two-year appropriations bill, the vehicle [the Legislature](https://leg.mt.gov/) uses to set most of the state budget. TK TK TK ",
+    "createdAt": "2022-12-21T16:45:47.143Z",
+    "updatedAt": "2022-12-21T17:16:04.053Z",
+    "bill_category": {
+      "data": {
+        "id": 1,
+        "attributes": {
+          "CategoryLabel": "Major budget bills",
+          "CategoryDescription": null,
+          "createdAt": "2022-12-21T16:51:15.522Z",
+          "updatedAt": "2022-12-21T16:51:15.522Z"
+        }
+      }
+    }
+  },
+  {
+    "Identifier": "HB 702",
+    "isKeyBill": true,
+    "Explanation": "Vaccine choice bill",
+    "BillPageText": null,
+    "createdAt": "2022-12-21T16:53:59.970Z",
+    "updatedAt": "2022-12-21T16:53:59.970Z",
+    "bill_category": {
+      "data": {
+        "id": 2,
+        "attributes": {
+          "CategoryLabel": "Health care policy",
+          "CategoryDescription": null,
+          "createdAt": "2022-12-21T16:51:43.016Z",
+          "updatedAt": "2022-12-21T16:51:43.016Z"
+        }
+      }
+    }
+  }
+]
