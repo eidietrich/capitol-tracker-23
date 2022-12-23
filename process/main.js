@@ -1,65 +1,51 @@
 import { getJson, writeJson } from './utils.js'
 
-// import Article from './models/MTFPArticle.js'
-// import Lawmaker from './models/Lawmaker.js'
+import Article from './models/MTFPArticle.js'
 import Lawmaker from './models/Lawmaker.js'
 import Bill from './models/Bill.js'
-import Vote from './models/Vote.js'
+// import Vote from './models/Vote.js'
 
+/*
+Approach here — each of these input buckets has a fetch script that needs to be run independently to update their contents
+*/
 
-
-
-// Data models
-// const Article = require('./models/MTFPArticle.js')
-// const Lawmaker = require('./models/Lawmaker.js')
-
+// LAWS scraper inputs
 const billsRaw = getJson('./inputs/laws/bills.json')
 const actionsRaw = getJson('./inputs/laws/actions.json')
 const votesRaw = getJson('./inputs/laws/votes.json')
 
+// Pre-baked lawmaker inputs
 const districtsRaw = getJson('./inputs/lawmakers/districts-2021.json')
 const lawmakersRaw = getJson('./inputs/lawmakers/lawmakers-2021.json')
 
+// Legislative article list from Montana Free Press CMS
 const articlesRaw = getJson('./inputs/coverage/articles.json')
 
-const annotations = {
-    bills: [],
-    lawmakers: [],
-} // TODO
-const legalNotes = [] // TODO
-const vetoMemos = [] // TODO
-const articles = []
+// Bill annotations from standalone Strapi CMS
+const billAnnotations = getJson('./inputs/cms/bill-annotations.json')
+const lawmakerAnnotations = getJson('./inputs/cms/lawmaker-annotations.json')
+const processAnnotations = getJson('./inputs/cms/process-annotations.json')
+const guideText = getJson('./inputs/cms/guide-text.json')
 
-// const articles = articlesRaw
-//     .filter(d => d.status === 'publish')
-//     .map(article => new Article({ article }))
 
-// const votes = votesRaw.map(vote => new Vote({ vote })) // won't work because this will need majority requirements from bill
+const articles = articlesRaw.map(article => new Article({ article }).export())
 
 /// do lawmakers first, then bills
 const lawmakers = lawmakersRaw.map(lawmaker => new Lawmaker({
     lawmaker,
     district: districtsRaw.find(d => d.key === lawmaker.district),
-    annotations: annotations.lawmakers.filter(d => d.lawmaker === lawmaker.key),
-    articles: articles.filter(d => lawmaker.key.includes(d.lawmakersRelated)),
+    annotation: lawmakerAnnotations.find(d => d.Name === lawmaker.name) || {}, // Unwired currently
+    articles: articles.filter(d => d.lawmakerTags.includes(lawmaker.name)),
     // leave sponsoredBills until after bills objects are created
     // same with keyVotes
 }))
-
-
-
 
 const bills = billsRaw.map(bill => new Bill({
     bill,
     actions: actionsRaw.filter(d => d.bill === bill.key),
     votes: votesRaw.filter(d => d.bill === bill.key),
-    // TODO: Add lawmaker as object here
-
-    annotations: annotations.bills.filter(d => d.bill === bill.key),
-    isMajorBill: (['HB 2', 'HB 702'].includes(bill.key)), // TODO
-    articles: articles.filter(d => bill.key.includes(d.billsRelated)),
-    legalNote: legalNotes.find(d => d.bill === bill.key),
-    vetoMemo: vetoMemos.find(d => d.bill === bill.key),
+    annotation: billAnnotations.find(d => d.Identifier === bill.key) || {},
+    articles: articles.filter(d => d.billTags.includes(bill.key)),
 }))
 
 // TODO Here - export votes from bills to create a list of Votes
@@ -98,11 +84,9 @@ lawmakers.forEach(lawmaker => {
 // })
 // writeJson('./lawmaker-roster-2021.json', summaryRoster)
 
-// const output = bills[0].export()
-// console.log(output)
 
 // Outputs 
-const billsOutput = bills.slice(0, 10).map(b => b.exportMerged())
+const billsOutput = bills.slice(100, 120).map(b => b.exportMerged())
 writeJson('./app/src/data-nodes/bills.json', billsOutput)
 
 const lawmakerOutput = lawmakers.map(l => l.exportMerged())

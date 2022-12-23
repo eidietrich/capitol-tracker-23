@@ -1,10 +1,7 @@
-const fetch = (...args) => import('node-fetch').then(({ default: fetch }) => fetch(...args));
+import fetch from 'node-fetch'
+import { writeJson } from '../../utils/functions.js'
 
-const {
-  writeJson,
-} = require('../../utils/functions.js')
-
-const TAG = "2023-legislature" // Replace spaces in tag as seen in CMS with hyphens here
+const TAG = "2021-legislature" // Replace spaces in tag as seen in CMS with hyphens here
 const EXCLUDE_TAG = 'Tracker Exclude'
 const QUERY_LIMIT = 1000
 const OUT_PATH = './inputs/coverage/articles.json'
@@ -65,11 +62,6 @@ async function getStories(cursor) {
   return stories
 }
 
-// function writeFile(data, path) {
-//   const json = JSON.stringify(data, null, 2)
-//   fs.writeFile(path, json, 'utf8', () => console.log(`Written to ${path}`));
-// }
-
 async function main() {
   let stories = []
   let hasNextPage = true
@@ -80,11 +72,12 @@ async function main() {
     cursor = query.posts.pageInfo.endCursor
     hasNextPage = query.posts.pageInfo.hasNextPage
   }
-  const filtered = stories.filter(d => !d.tags.nodes.map(t => t.name).includes(EXCLUDE_TAG))
+  const filtered = stories
+    .filter(d => !d.tags.nodes.map(t => t.name).includes(EXCLUDE_TAG))
+    .filter(d => d.status === 'publish')
   console.log(`Found ${stories.length} MTFP stories tagged ${TAG}`)
   console.log(`Returned ${filtered.length} excluding tag ${EXCLUDE_TAG}`)
 
   writeJson(OUT_PATH, filtered)
-  console.log('MTFP articles fetch done\n')
 }
 main()

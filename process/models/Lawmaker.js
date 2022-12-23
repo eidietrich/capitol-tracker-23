@@ -1,6 +1,6 @@
 import {
     LAWMAKER_REPLACEMENTS,
-} from '../config/config.js'
+} from '../config/overrides.js'
 
 import {
     // filterToFloorVotes,
@@ -15,26 +15,24 @@ export default class Lawmaker {
     constructor({
         lawmaker,
         district,
-        annotations,
+        annotation,
         articles,
-        // votes,
-        // bills,
-        // districts
     }) {
 
         const {
             name,
-            // district,
             party,
             phone,
             email,
             committees,
             image_path,
             sessions,
-
         } = lawmaker
-        // this.sponsoredBills = this.getSponsoredBills(lawmaker, bills)
-        // this.votes = this.getVotes(lawmaker, votes)
+
+        const {
+            LawmakerPageText
+        } = annotation
+
         const standardName = standardizeLawmakerName(name)
         this.name = standardName
         this.summary = getLawmakerSummary(standardName)
@@ -42,13 +40,12 @@ export default class Lawmaker {
         this.data = {
             key: lawmakerKey(name),
             name: standardName,
-            // summary: this.summary, // includes name, party, etc. from standard roster
             district: district.key,
-            // lastName: lawmakerLastName(lawmaker.name),
             districtElexHistory: {
                 last_election: district.last_election,
                 pri_elex: district.pri_elex,
                 gen_elex: district.gen_elex,
+                replacementNote: this.lookForReplacementNote(district.key)
             },
             districtNum: +district.key.replace('HD ', '').replace('SD ', ''),
             locale: district.locale,
@@ -66,7 +63,9 @@ export default class Lawmaker {
             legislativeHistory: sessions.map(({ year, chamber }) => ({ year, chamber })),
 
             articles,
-            annotations, // TODO - workflow this
+
+            // annotations
+            lawmakerPageText: LawmakerPageText,
 
             imageSlug: image_path.replace('images/', ''),
 
@@ -81,11 +80,9 @@ export default class Lawmaker {
     }
 
 
-    getDistrictInfo = (lawmaker, districts) => {
-        const district = districts.find(d => d.key === lawmaker.district)
-        const replacement = LAWMAKER_REPLACEMENTS.find(d => d.district === district.key)
-        if (replacement) district.replacementNote = replacement.note
-        return district
+    lookForReplacementNote = (districtKey) => {
+        const replacement = LAWMAKER_REPLACEMENTS.find(d => d.district === districtKey)
+        return replacement && replacement.note || null
     }
     // getLocales = (lawmaker, districts) => {
     //     const district = districts.find(d => d.key === lawmaker.district)

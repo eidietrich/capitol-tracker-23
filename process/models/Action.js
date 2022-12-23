@@ -1,4 +1,4 @@
-import { ACTIONS } from '../config/config.js'
+import { ACTIONS } from '../config/procedure.js'
 
 export default class Action {
     constructor({ action, vote }) {
@@ -15,6 +15,14 @@ export default class Action {
         } = action
 
         const description = action.action.replace(/\((C|H|S)\) /, '').replace(/\&nbsp/g, '')
+        const posessionSearch = action.action.match(/(?<=\()(C|H|S)(?=\))/)
+        const posessionKey = posessionSearch && posessionSearch[0] || 'O'
+        const posession = {
+            'C': 'staff',
+            'H': 'house',
+            'S': 'senate',
+            'O': 'other'
+        }[posessionKey]
 
         this.vote = vote
 
@@ -23,6 +31,7 @@ export default class Action {
             bill,
             date: new Date(date),
             description,
+            posession,
             committee,
             actionUrl,
             recordings,

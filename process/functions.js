@@ -1,7 +1,7 @@
 
 import {
     LAWMAKER_NAME_CLEANING
-} from './config/config.js'
+} from './config/people.js'
 
 import { getJson } from './utils.js'
 
@@ -9,6 +9,8 @@ const roster = getJson('./process/config/lawmaker-roster-2021.json')
 
 export const billKey = (identifier) => identifier.substring(0, 2).toLowerCase() + '-' + identifier.substring(3,)
 export const lawmakerKey = (name) => name.replace(/\s/g, '-')
+
+export const capitalize = string => string[0].toUpperCase() + string.slice(1).toLowerCase()
 
 export const standardLawmakerNames = Array.from(new Set(Object.values(LAWMAKER_NAME_CLEANING)))
 export const standardizeLawmakerName = name => {
