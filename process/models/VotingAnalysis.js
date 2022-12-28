@@ -1,7 +1,7 @@
 /*
 For calculating lawmaker voting records
 
-/*
+*/
 
 const average = (data, accessor) => {
     const total = data.reduce((acc, obj) => acc + accessor(obj), 0)
