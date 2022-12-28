@@ -337,6 +337,16 @@ export default class Bill {
         return controllingThreshold
     }
 
+    getLastVoteInvolvingLawmaker = (name) => {
+        // returns bill's most recent vote object 
+        // assumes actions are sorted least to most recent 
+        const billVotes = this.actions.filter(a => a.vote).map(a => a.vote)
+        const votesWithLawmakerInvolved = billVotes.filter(v => v.votes.map(d => d.name).includes(name))
+        if (votesWithLawmakerInvolved.length == 0) return null
+        const lastVoteInvolvingLawmaker = votesWithLawmakerInvolved.slice(-1)[0]
+        return lastVoteInvolvingLawmaker
+    }
+
     exportBillDataOnly = () => this.data
     exportActionData = () => this.actions.map(a => a.exportActionDataOnly())
     exportVoteData = () => this.actions.filter(a => a.vote !== null).map(a => a.exportVote())

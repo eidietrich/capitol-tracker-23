@@ -54,7 +54,7 @@ export default class Vote {
             gopSupported: this.didMotionPass(gopCount, thresholdRequired, billStartingChamber, voteChamber),
             demSupported: this.didMotionPass(demCount, thresholdRequired, billStartingChamber, voteChamber),
 
-            votes: this.votes,
+            // votes: this.votes,
         }
     }
 
@@ -142,6 +142,9 @@ export default class Vote {
         }
     }
 
-    export = () => ({ ...this.data })
+    export = () => ({
+        ...this.data,
+        votes: this.votes,
+    })
 
 }

@@ -23,7 +23,7 @@ export default class Article {
             subtitle: '',
             date: new Date(article.date),
             link: article.link,
-            tags: this.tags,
+            // tags: this.tags,
             author: article.author.node.name,
             imageUrl: article.featuredImage && article.featuredImage.node.link,
 

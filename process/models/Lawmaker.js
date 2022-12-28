@@ -120,6 +120,20 @@ export default class Lawmaker {
         })
     }
 
+    addKeyBillVotes = ({ name, keyBills }) => {
+        const keyBillVotes = keyBills
+            .map(bill => bill.getLastVoteInvolvingLawmaker(name))
+            .filter(vote => vote !== null)
+            .map(vote => {
+                return {
+                    lawmakerVote: vote.votes.find(d => d.name === name).option,
+                    voteData: vote.data,
+                }
+            })
+        this.keyBillVotes = keyBillVotes
+
+    }
+
     getVotes = (lawmaker, votes) => {
         const lawmakerVotes = votes.filter(vote => {
             const voters = vote.votes.map(d => d.name)
@@ -232,8 +246,9 @@ export default class Lawmaker {
     exportMerged = () => {
         return {
             ...this.data,
-            sponsoredBills: this.sponsoredBills,
+            sponsoredBills: this.sponsoredBills || [],
             votingSummary: this.votingSummary,
+            keyBillVotes: this.keyBillVotes || [],
         }
     }
 

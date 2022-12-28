@@ -3,6 +3,7 @@ import { getJson, writeJson } from './utils.js'
 import Article from './models/MTFPArticle.js'
 import Lawmaker from './models/Lawmaker.js'
 import Bill from './models/Bill.js'
+import VotingAnalysis from './models/VotingAnalysis.js'
 // import Vote from './models/Vote.js'
 
 /*
@@ -48,29 +49,40 @@ const bills = billsRaw.map(bill => new Bill({
     articles: articles.filter(d => d.billTags.includes(bill.key)),
 }))
 
-// TODO Here - export votes from bills to create a list of Votes
-// Product lawmaker record calculations from that, then merge with lawmakers
-// Add comparative numbers to lawmaker record calculations
+const votes = bills.map(bill => bill.exportVoteData()).flat()
+const houseFloorVotes = votes.filter(v => v.type === 'floor' && v.voteChamber === 'house')
+const senateFloorVotes = votes.filter(v => v.type === 'floor' && v.voteChamber === 'senate')
+const houseFloorVoteAnalysis = new VotingAnalysis({ votes: houseFloorVotes })
+const senateFloorVoteAnalysis = new VotingAnalysis({ votes: senateFloorVotes })
 
 // Calculations that need both lawmakers and bills populated
 lawmakers.forEach(lawmaker => {
     lawmaker.addSponsoredBills({
         sponsoredBills: bills.filter(bill => bill.sponsor === lawmaker.name)
     })
+    lawmaker.addKeyBillVotes({
+        name: lawmaker.name,
+        keyBills: bills.filter(bill => bill.data.isMajorBill)
+    })
     // TODO - Add last vote on key bills
-    lawmaker.votingSummary = {
-        // placeholder data
-        numVotesRecorded: 0,
-        fractionVotesNotPresent: 0,
-        fractionVotesWithDemMajority: 0,
-        fractionVotesWithGopMajority: 0,
-        fractionVotesWithMajority: 0,
-        numVotesCast: 0,
-        numVotesNotPresent: 0,
-        votesWithDemMajority: 0,
-        votesWithGopMajority: 0,
-        votesWithMajority: 0,
+    if (lawmaker.data.chamber === 'house') {
+        lawmaker.votingSummary = houseFloorVoteAnalysis.getLawmakerStats(lawmaker.name)
+    } else if (lawmaker.data.chamber === 'senate') {
+        lawmaker.votingSummary = senateFloorVoteAnalysis.getLawmakerStats(lawmaker.name)
     }
+    // lawmaker.votingSummary = {
+    //     // placeholder data
+    //     numVotesRecorded: 0,
+    //     fractionVotesNotPresent: 0,
+    //     fractionVotesWithDemMajority: 0,
+    //     fractionVotesWithGopMajority: 0,
+    //     fractionVotesWithMajority: 0,
+    //     numVotesCast: 0,
+    //     numVotesNotPresent: 0,
+    //     votesWithDemMajority: 0,
+    //     votesWithGopMajority: 0,
+    //     votesWithMajority: 0,
+    // }
 })
 
 // const summaryRoster = lawmakers.map(d => {
