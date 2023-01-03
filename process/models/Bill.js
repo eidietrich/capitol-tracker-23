@@ -170,7 +170,7 @@ export default class Bill {
         // actions should be in order
         const progressFlagInActions = (actions, flag) => actions.map(d => d[flag]).includes(true)
         const actionsWithFlag = (actions, flag) => actions.filter(a => a[flag])
-        const firstActionWithFlag = (actions, flag) => actions.find(a => a[flag])
+        const firstActionWithFlag = (actions, flag) => actions.find(a => a[flag]) || null
         const lastActionWithFlag = (actions, flag) => {
             const all = actions.filter(d => d[flag])
             if (all.length === 0) return null

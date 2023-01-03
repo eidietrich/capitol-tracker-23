@@ -16,8 +16,8 @@ const actionsRaw = getJson('./inputs/laws/actions.json')
 const votesRaw = getJson('./inputs/laws/votes.json')
 
 // Pre-baked lawmaker inputs
-const districtsRaw = getJson('./inputs/lawmakers/districts-2021.json')
-const lawmakersRaw = getJson('./inputs/lawmakers/lawmakers-2021.json')
+const districtsRaw = getJson('./inputs/lawmakers/districts-2023.json')
+const lawmakersRaw = getJson('./inputs/lawmakers/leg-roster-2023.json')
 
 // Legislative article list from Montana Free Press CMS
 const articlesRaw = getJson('./inputs/coverage/articles.json')
@@ -70,39 +70,39 @@ lawmakers.forEach(lawmaker => {
     } else if (lawmaker.data.chamber === 'senate') {
         lawmaker.votingSummary = senateFloorVoteAnalysis.getLawmakerStats(lawmaker.name)
     }
-    // lawmaker.votingSummary = {
-    //     // placeholder data
-    //     numVotesRecorded: 0,
-    //     fractionVotesNotPresent: 0,
-    //     fractionVotesWithDemMajority: 0,
-    //     fractionVotesWithGopMajority: 0,
-    //     fractionVotesWithMajority: 0,
-    //     numVotesCast: 0,
-    //     numVotesNotPresent: 0,
-    //     votesWithDemMajority: 0,
-    //     votesWithGopMajority: 0,
-    //     votesWithMajority: 0,
-    // }
 })
 
 // const summaryRoster = lawmakers.map(d => {
 //     return {
 //         title: d.data.title,
 //         name: d.data.name,
+//         lastName: d.data.name,
 //         party: d.data.party,
-//         locale: d.data.locale_short,
+//         locale: d.data.locale_short || '',
 //         district: d.data.district
 //     }
 // })
-// writeJson('./lawmaker-roster-2021.json', summaryRoster)
+// writeJson('./process/config/lawmaker-roster-2023.json', summaryRoster)
+
+const keyBillCategoryKeys = Array.from(new Set(billAnnotations.map(d => d.category)))
+const keyBillCategoryList = keyBillCategoryKeys.map(category => {
+    const match = billAnnotations.find(d => d.category === category)
+    return {
+        category,
+        categoryDescription: match.categoryDescription
+    }
+})
 
 
 // Outputs 
-const billsOutput = bills.slice(100, 120).map(b => b.exportMerged())
-writeJson('./app/src/data-nodes/bills.json', billsOutput)
+const billsOutput = bills.map(b => b.exportMerged())
+writeJson('./app/src/data-nodes/bills.json', billsOutput.slice(0, 150))
+// console.log(bills[1])
 
 const lawmakerOutput = lawmakers.map(l => l.exportMerged())
 writeJson('./app/src/data-nodes/lawmakers.json', lawmakerOutput)
+
+writeJson('./app/src/data/bill-categories.json', keyBillCategoryList)
 
 // // Possibly experiment with doing this data merge in gatsby-node
 // // For performance optimization

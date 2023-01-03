@@ -3,7 +3,8 @@ import fetch from 'node-fetch'
 
 import { writeJson } from '../../utils/functions.js'
 
-const SESSION_ID = '20211'
+// const SESSION_ID = '20211'
+const SESSION_ID = '20231'
 const repoUrl = (session, file) => `https://raw.githubusercontent.com/eidietrich/laws-interface/main/output/${session}/${file}`
 const outPath = file => `./inputs/laws/${file}`
 

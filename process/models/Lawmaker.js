@@ -9,6 +9,8 @@ import {
     billKey,
     standardizeLawmakerName,
     getLawmakerSummary,
+    getLawmakerLastName,
+    getLawmakerLocale,
 } from '../functions.js'
 
 export default class Lawmaker {
@@ -27,6 +29,7 @@ export default class Lawmaker {
             committees,
             image_path,
             sessions,
+            locale,
         } = lawmaker
 
         const {
@@ -38,8 +41,9 @@ export default class Lawmaker {
         this.summary = getLawmakerSummary(standardName)
 
         this.data = {
-            key: lawmakerKey(name),
+            key: lawmakerKey(standardName),
             name: standardName,
+            lastName: getLawmakerLastName(standardName),
             district: district.key,
             districtElexHistory: {
                 last_election: district.last_election,
@@ -48,7 +52,7 @@ export default class Lawmaker {
                 replacementNote: this.lookForReplacementNote(district.key)
             },
             districtNum: +district.key.replace('HD ', '').replace('SD ', ''),
-            locale: district.locale,
+            locale: getLawmakerLocale(standardName),
             localeLong: district.locale_description,
 
             chamber: district.key[0] === 'S' ? 'senate' : 'house',
@@ -57,7 +61,7 @@ export default class Lawmaker {
             party,
             phone,
             email,
-            committees, // Actually 2021 committees - label needs updating
+            committees,
             leadershipRoles: [], // TODO (annotate Speaker of the House etc.)
 
             legislativeHistory: sessions.map(({ year, chamber }) => ({ year, chamber })),
@@ -91,7 +95,9 @@ export default class Lawmaker {
                 key,
                 identifier,
                 title,
+                chamber,
                 status,
+                progress,
                 label,
                 textUrl,
                 fiscalNoteUrl,
@@ -102,7 +108,9 @@ export default class Lawmaker {
                 key,
                 identifier,
                 title,
+                chamber,
                 status, // object
+                progress, // 
                 label,
                 textUrl,
                 fiscalNoteUrl,

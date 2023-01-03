@@ -5,7 +5,7 @@ import {
 
 import { getJson } from './utils.js'
 
-const roster = getJson('./process/config/lawmaker-roster-2021.json')
+const roster = getJson('./process/config/lawmaker-roster-2023.json')
 
 export const billKey = (identifier) => identifier.substring(0, 2).toLowerCase() + '-' + identifier.substring(3,)
 export const lawmakerKey = (name) => name.replace(/\s/g, '-')
@@ -20,14 +20,25 @@ export const standardizeLawmakerName = name => {
     return clean
 }
 
+export const getLawmakerLastName = standardName => {
+    const match = roster.find(d => d.name === standardName)
+    if (!match) console.error(`Roster missing name ${standardName}`)
+    return match.lastName
+}
+export const getLawmakerLocale = standardName => {
+    const match = roster.find(d => d.name === standardName)
+    return match.locale
+}
+
 export const getLawmakerSummary = standardName => {
     // Pulls basic lawmaker info from pre-packaged roster file
     // Avoids circular data merge issues
-    const match = roster.find(d => d.name === standardName)
-    if (!match) console.error(`Roster missing name ${standardName}`)
+    const match = roster.find(d => d.name === standardName) || {}
+    if (!match.name) console.error(`Roster missing name ${standardName}`)
     // This is used for bill sponsor summaries, vote analyses, etc.
     return {
         name: standardName,
+        lastName: match.lastName,
         party: match.party,
         locale: match.locale,
         district: match.district,

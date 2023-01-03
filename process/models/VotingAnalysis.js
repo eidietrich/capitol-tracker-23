@@ -49,7 +49,7 @@ export default class VotingAnalysis {
                 votesWithGopCaucus,
                 fractionVotesWithGopCaucus: votesWithGopCaucus / votesPresent.length || 0,
                 votesWithDemCaucus,
-                fractionWithDemCaucus: votesWithDemCaucus / votesPresent.length || 0,
+                fractionVotesWithDemCaucus: votesWithDemCaucus / votesPresent.length || 0,
             }
         })
 
@@ -65,8 +65,8 @@ export default class VotingAnalysis {
             averageVotesWithGopCaucusGop: average(gops, d => d.fractionVotesWithGopCaucus),
             averageVotesWithGopCaucusDem: average(dems, d => d.fractionVotesWithGopCaucus),
 
-            averageVotesWithDemCaucusGop: average(gops, d => d.fractionWithDemCaucus),
-            averageVotesWithDemCaucusDem: average(dems, d => d.fractionWithDemCaucus),
+            averageVotesWithDemCaucusGop: average(gops, d => d.fractionVotesWithDemCaucus),
+            averageVotesWithDemCaucusDem: average(dems, d => d.fractionVotesWithDemCaucus),
         }
     }
 
