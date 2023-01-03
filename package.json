@@ -7,13 +7,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "data:refresh": "sh refresh-inputs.sh",
-    "data:process": "node process/main.js",
+    "data:process": "node process/main.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "csv-parse": "^5.3.3",
+    "d3-time": "^3.1.0",
+    "d3-time-format": "^4.1.0",
     "fs-extra": "^11.1.0",
     "glob": "^8.0.3",
     "node-fetch": "^3.3.0"

@@ -349,6 +349,7 @@ export default class Bill {
 
     exportBillDataOnly = () => this.data
     exportActionData = () => this.actions.map(a => a.exportActionDataOnly())
+    exportActionDataWithVotes = () => this.actions.map(a => a.export())
     exportVoteData = () => this.actions.filter(a => a.vote !== null).map(a => a.exportVote())
 
     exportMerged = () => {
