@@ -6,6 +6,7 @@ import Bill from './models/Bill.js'
 import VotingAnalysis from './models/VotingAnalysis.js'
 // import Vote from './models/Vote.js'
 
+console.log('### Bundling tracker data')
 /*
 Approach here — each of these input buckets has a fetch script that needs to be run independently to update their contents
 */
@@ -23,10 +24,10 @@ const lawmakersRaw = getJson('./inputs/lawmakers/leg-roster-2023.json')
 const articlesRaw = getJson('./inputs/coverage/articles.json')
 
 // Bill annotations from standalone Strapi CMS
-const billAnnotations = getJson('./inputs/cms/bill-annotations.json')
-const lawmakerAnnotations = getJson('./inputs/cms/lawmaker-annotations.json')
-const processAnnotations = getJson('./inputs/cms/process-annotations.json')
-const guideText = getJson('./inputs/cms/guide-text.json')
+const billAnnotations = getJson('./inputs/annotations/bill-annotations.json')
+const lawmakerAnnotations = getJson('./inputs/annotations/lawmaker-annotations.json')
+const processAnnotations = getJson('./inputs/annotations/process-annotations.json')
+const guideText = getJson('./inputs/annotations/guide-text.json')
 
 
 const articles = articlesRaw.map(article => new Article({ article }).export())

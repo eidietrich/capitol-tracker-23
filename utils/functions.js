@@ -25,14 +25,14 @@ export const getJson = (path) => JSON.parse(fs.readFileSync(path))
 export const writeText = (path, string) => {
     fs.writeFile(path, string, err => {
         if (err) throw err
-        console.log('Text written to', path)
+        console.log('    Text written to', path)
     })
 }
 
 export const writeJson = (path, data) => {
     fs.writeFile(path, JSON.stringify(data, null, 2), err => {
         if (err) throw err
-        console.log('JSON written to', path)
+        console.log('    JSON written to', path)
     }
     );
 }
@@ -40,14 +40,14 @@ export const writeJson = (path, data) => {
 export const copyFile = (src, dest) => {
     fs.copyFile(src, dest, err => {
         if (err) throw err
-        console.log('Copied to', dest)
+        console.log('    Copied to', dest)
     })
 }
 
 export const copyFolderContents = (src, dest) => {
     fs.copy(src, dest, err => {
         if (err) throw err
-        console.log('Copied dir to', dest)
+        console.log('    Copied dir to', dest)
     })
 }
 

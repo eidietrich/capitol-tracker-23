@@ -40,19 +40,20 @@ const getGuideText = async () => {
 
 
 const main = async () => {
+    console.log('### Fetching annotations from', API_BASE)
     const bills = await getBillAnnotations()
     // linkage cleaning
     bills.forEach(bill => {
         bill.category = bill.bill_category.data.attributes.CategoryLabel
         bill.categoryDescription = bill.bill_category.data.attributes.CategoryDescription
     })
-    writeJson('./inputs/cms/bill-annotations.json', bills)
+    writeJson('./inputs/annotations/bill-annotations.json', bills)
     const lawmakers = await getLawmakerAnnotations()
-    writeJson('./inputs/cms/lawmaker-annotations.json', lawmakers)
+    writeJson('./inputs/annotations/lawmaker-annotations.json', lawmakers)
     const annotations = await getProcessAnnotations()
-    writeJson('./inputs/cms/process-annotations.json', annotations)
+    writeJson('./inputs/annotations/process-annotations.json', annotations)
     const guideText = await getGuideText()
-    writeJson('./inputs/cms/guide-text.json', guideText)
+    writeJson('./inputs/annotations/guide-text.json', guideText)
 }
 
 main()

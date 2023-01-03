@@ -15,6 +15,7 @@ const fetchJson = async url => {
 }
 
 const main = async () => {
+    console.log('### Fetching bill info from', repoUrl(SESSION_ID, ''))
     const bills = await fetchJson(repoUrl(SESSION_ID, 'all-bills.json'))
     const actions = await fetchJson(repoUrl(SESSION_ID, 'all-bill-actions.json'))
     const votes = await fetchJson(repoUrl(SESSION_ID, 'all-votes.json'))

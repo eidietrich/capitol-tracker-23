@@ -1,7 +1,8 @@
 import fetch from 'node-fetch'
 import { writeJson } from '../../utils/functions.js'
 
-const TAG = "2021-legislature" // Replace spaces in tag as seen in CMS with hyphens here
+// const TAG = "2021-legislature" // Replace spaces in tag as seen in CMS with hyphens here
+const TAG = '2023-legislature'
 const EXCLUDE_TAG = 'Tracker Exclude'
 const QUERY_LIMIT = 1000
 const OUT_PATH = './inputs/coverage/articles.json'
@@ -63,6 +64,7 @@ async function getStories(cursor) {
 }
 
 async function main() {
+  console.log(`### Fetching stories from MTFP CMS`)
   let stories = []
   let hasNextPage = true
   let cursor = ""
@@ -75,8 +77,7 @@ async function main() {
   const filtered = stories
     .filter(d => !d.tags.nodes.map(t => t.name).includes(EXCLUDE_TAG))
     .filter(d => d.status === 'publish')
-  console.log(`Found ${stories.length} MTFP stories tagged ${TAG}`)
-  console.log(`Returned ${filtered.length} excluding tag ${EXCLUDE_TAG}`)
+  console.log(`    Found ${filtered.length} MTFP stories tagged "${TAG}", excluding tag "${EXCLUDE_TAG}"`)
 
   writeJson(OUT_PATH, filtered)
 }

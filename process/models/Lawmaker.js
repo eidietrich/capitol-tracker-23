@@ -71,7 +71,7 @@ export default class Lawmaker {
             // annotations
             lawmakerPageText: LawmakerPageText,
 
-            imageSlug: image_path.replace('images/', ''),
+            imageSlug: image_path.replace('portraits/', ''),
 
             // Merge this stuff in later, see main.js
             // votingSummary: this.getVotingSummary(lawmaker, this.votes), 
