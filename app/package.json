@@ -1,0 +1,38 @@
+{
+  "name": "montana-capitol-tracker-2023",
+  "version": "1.0.0",
+  "private": true,
+  "description": "montana-capitol-tracker-2023",
+  "author": "eidietrich",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "d3-format": "^3.1.0",
+    "d3-scale": "^4.0.2",
+    "d3-time-format": "^4.1.0",
+    "gatsby": "^5.3.2",
+    "gatsby-plugin-anchor-links": "^1.2.1",
+    "gatsby-plugin-emotion": "^8.3.0",
+    "gatsby-plugin-google-gtag": "^5.3.0",
+    "gatsby-plugin-image": "^3.3.2",
+    "gatsby-plugin-manifest": "^5.3.1",
+    "gatsby-plugin-sharp": "^5.3.2",
+    "gatsby-source-filesystem": "^5.3.1",
+    "gatsby-transformer-json": "^5.3.0",
+    "gatsby-transformer-sharp": "^5.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
+    "react-markdown": "^8.0.4"
+  }
+}
