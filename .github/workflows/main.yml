@@ -26,3 +26,11 @@ jobs:
         run: npm install
       - name: Refresh inputs
         run: sh refresh-inputs.sh
+      - name: Commit changes
+        run: EndBug/add-and-commit@v9
+        with:
+          committer_name: "Automated"
+          committer_email: "action@users.noreply.github.com"
+          message: "Latest data"
+      - name: Push changes
+        run: git push
