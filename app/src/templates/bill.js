@@ -64,12 +64,13 @@ const BillPage = (props) => {
   </div>;
 };
 
-export const Head = () => (
-  <Seo
+export const Head = ({ pageContext }) => {
+  const { key, identifier, title } = pageContext.bill
+  return <Seo
     title={`${identifier}: ${title}`}
     description={`Bill details, sponsor, text, procedural status and more.`}
     pageRelativeUrl={`bills/${key}/`}
   />
-)
+}
 
 export default BillPage;

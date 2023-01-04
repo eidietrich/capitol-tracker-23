@@ -196,13 +196,14 @@ const History = ({ name, history }) => {
 
 }
 
-export const Head = () => (
-  <Seo
+export const Head = ({ pageContext }) => {
+  const { title, name, district, key } = pageContext.lawmaker
+  return <Seo
     title={`${title} ${name}, ${district}`}
     description="Election history, sponsored bills, committee assignments and more."
     pageRelativeUrl={`lawmakers/${key}/`}
   />
-)
+}
 
 export const query = graphql`
   query($imageSlug: String!) {
