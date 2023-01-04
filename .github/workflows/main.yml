@@ -19,6 +19,9 @@ jobs:
         with:
           path: |
             node_modules
+          key: ${{ runner.os }}-eidietrich-capitol-tracker-23-processing-$${ github.run_id }
+          restore-keys: |
+            ${{ runner.os }}-eidietrich-capitol-tracker-23-processing-
       - name: Install dependencies
         run: npm install
       - name: Refresh inputs
