@@ -33,7 +33,8 @@ export default class Lawmaker {
         } = lawmaker
 
         const {
-            LawmakerPageText
+            LawmakerPageText,
+            LeadershipRole
         } = annotation
 
         const standardName = standardizeLawmakerName(name)
@@ -44,6 +45,7 @@ export default class Lawmaker {
             key: lawmakerKey(standardName),
             name: standardName,
             lastName: getLawmakerLastName(standardName),
+            locale: getLawmakerLocale(standardName),
             district: district.key,
             districtElexHistory: {
                 last_election: district.last_election,
@@ -52,8 +54,7 @@ export default class Lawmaker {
                 replacementNote: this.lookForReplacementNote(district.key)
             },
             districtNum: +district.key.replace('HD ', '').replace('SD ', ''),
-            locale: getLawmakerLocale(standardName),
-            localeLong: district.locale_description,
+            districtLocale: district.locale,
 
             chamber: district.key[0] === 'S' ? 'senate' : 'house',
             title: district.key[0] === 'S' ? 'Sen.' : 'Rep.',
@@ -62,7 +63,7 @@ export default class Lawmaker {
             phone,
             email,
             committees,
-            leadershipRoles: [], // TODO (annotate Speaker of the House etc.)
+            leadershipTitle: LeadershipRole,
 
             legislativeHistory: sessions.map(({ year, chamber }) => ({ year, chamber })),
 

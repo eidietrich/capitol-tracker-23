@@ -130,6 +130,7 @@ const blasted = true
 const preliminaryPassage = true // for 2nd readings
 const finalPassage = true // for 3rd readings
 
+const transmittedToGovernor = true // for bills in governor's posession
 const vetoed = true
 const signed = true
 const vetoOverridePending = true
@@ -270,7 +271,7 @@ export const ACTIONS = [
     // Transmittal milestones
     { key: 'Transmitted to House', isMajor, },
     { key: 'Transmitted to Senate', isMajor, },
-    { key: 'Transmitted to Governor', isMajor, },
+    { key: 'Transmitted to Governor', isMajor, transmittedToGovernor },
 
 
 

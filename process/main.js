@@ -7,6 +7,9 @@ import VotingAnalysis from './models/VotingAnalysis.js'
 
 import CalendarPage from './models/CalendarPage.js'
 import RecapPage from './models/RecapPage.js'
+import HousePage from './models/HousePage.js'
+import SenatePage from './models/SenatePage.js'
+import GovernorPage from './models/GovernorPage.js'
 
 
 /*
@@ -101,9 +104,26 @@ const keyBillCategoryList = keyBillCategoryKeys.map(category => {
         categoryDescription: match.categoryDescription
     }
 })
-const headerOutput = {
-    updateTime,
+const headerOutput = { updateTime }
+
+const overviewPageOutput = {
+    aboveFoldText: guideText.HomePageAboveTheFold,
+    // TODO figure out what else needs to be in here
 }
+const housePageOutput = new HousePage({
+    text: guideText.HousePageText
+}).export()
+const senatePageOutput = new SenatePage({
+    text: guideText.SenatePageText
+}).export()
+const governorPageOutput = new GovernorPage({
+    text: guideText.GovernorPageText,
+    articles: articles.filter(article => article.governorTags.includes('Greg Gianforte'))
+}).export()
+const participationPageOutput = {
+    text: guideText.ParticipationPage
+}
+
 
 
 // Outputs 
@@ -115,10 +135,18 @@ writeJson('./app/src/data-nodes/bills.json', billsOutput.slice(0, 150))
 const lawmakerOutput = lawmakers.map(l => l.exportMerged())
 writeJson('./app/src/data-nodes/lawmakers.json', lawmakerOutput)
 
+writeJson('./app/src/data/header.json', headerOutput)
+writeJson('./app/src/data/process-annotations.json', processAnnotations)
+writeJson('./app/src/data/bill-categories.json', keyBillCategoryList)
 writeJson('./app/src/data/calendar.json', calendarOutput)
 writeJson('./app/src/data/recap.json', recapOutput)
-writeJson('./app/src/data/bill-categories.json', keyBillCategoryList)
-writeJson('./app/src/data/header.json', headerOutput)
+writeJson('./app/src/data/participation.json', participationPageOutput)
+writeJson('./app/src/data/house.json', housePageOutput)
+writeJson('./app/src/data/senate.json', senatePageOutput)
+writeJson('./app/src/data/governor.json', governorPageOutput)
+
+
+
 
 // // // Possibly experiment with doing this data merge in gatsby-node
 // // // For performance optimization

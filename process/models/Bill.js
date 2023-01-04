@@ -79,6 +79,7 @@ export default class Bill {
 
             status: this.getStatus(key, billStatus),
             progress: this.progress,
+            hasBeenSentToGovernor: this.hasBeenSentToGovernor(),
             // TODO: add progression classification here
 
             sponsor: getLawmakerSummary(this.sponsor), // object
@@ -162,6 +163,10 @@ export default class Bill {
             throw `Missing bill status match for ${status}`
         }
         return match
+    }
+    hasBeenSentToGovernor = () => {
+        const actions = this.actions.map(a => a.data)
+        return actions.map(d => d.transmittedToGovernor).includes(true)
     }
     getProgress = ({ billType, firstChamber, actions }) => {
         // Get bill progression as calculated from actions

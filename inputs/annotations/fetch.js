@@ -9,7 +9,7 @@ import { writeJson } from '../../utils/functions.js'
 const API_BASE = 'http://54.202.231.117:1337/api' // production
 
 const getBillAnnotations = async () => {
-    const result = await fetch(`${API_BASE}/bills?populate=*`)
+    const result = await fetch(`${API_BASE}/bills?populate=*&pagination[pageSize]=200`)
     const resultData = await result.json()
     if (resultData.meta.pagination.pageCount > 1) throw `Too many bill results; Figure out pagination`
     const results = resultData.data.map(d => d.attributes)
@@ -17,7 +17,7 @@ const getBillAnnotations = async () => {
 }
 
 const getLawmakerAnnotations = async () => {
-    const result = await fetch(`${API_BASE}/lawmakers?populate=*`)
+    const result = await fetch(`${API_BASE}/lawmakers?populate=*&pagination[pageSize]=200`)
     const resultData = await result.json()
     if (resultData.meta.pagination.pageCount > 1) throw `Too many lawmaker results; Figure out pagination`
     const results = resultData.data.map(d => d.attributes)
