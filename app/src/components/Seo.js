@@ -42,14 +42,14 @@ function SEO({
       <meta charSet="utf-8" />
       <title>{metaTitle}</title>
       <link rel="canonical" href={metaUrl} />
-      <meta name="description" content={metaDescription} />
-      <meta name="og:locale" content="en_US" />
-      <meta name="og:site_name" content="Montana Free Press" />
-      <meta name="og:title" content={metaTitle} />
-      <meta name="og:image" content={metaImage} />
-      <meta name="og:image:width" content="1200" />
-      <meta name="og:image:height" content="630" />
-      <meta name="og:type" content="website" />
+      <meta property="description" content={metaDescription} />
+      <meta property="og:locale" content="en_US" />
+      <meta property="og:site_name" content="Montana Free Press" />
+      <meta property="og:title" content={metaTitle} />
+      <meta property="og:image" content={metaImage} />
+      <meta property="og:image:width" content="1200" />
+      <meta property="og:image:height" content="630" />
+      <meta property="og:type" content="website" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:creator" content="@mtfreepress" />
       <meta name="twitter:title" content={metaTitle} />
