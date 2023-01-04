@@ -130,7 +130,6 @@ const participationPageOutput = {
 console.log('### Bundling tracker data')
 const billsOutput = bills.map(b => b.exportMerged())
 writeJson('./app/src/data-nodes/bills.json', billsOutput)
-// console.log(bills[1])
 
 const lawmakerOutput = lawmakers.map(l => l.exportMerged())
 writeJson('./app/src/data-nodes/lawmakers.json', lawmakerOutput)
