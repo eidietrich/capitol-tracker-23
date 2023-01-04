@@ -7,7 +7,7 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { Helmet } from "react-helmet"
+// import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
 function SEO({
@@ -38,7 +38,7 @@ function SEO({
   const metaUrl = `${site.siteMetadata.siteUrl}${pageRelativeUrl}`
 
   return (
-    <Helmet>
+    <>
       <meta charSet="utf-8" />
       <title>{metaTitle}</title>
       <meta name="description" content={metaDescription} />
@@ -85,7 +85,7 @@ function SEO({
           }
         `}
       </script>
-    </Helmet>
+    </>
   )
 }
 

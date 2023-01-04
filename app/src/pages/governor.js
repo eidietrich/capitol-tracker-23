@@ -25,11 +25,7 @@ const Governor = ({ data }) => {
   const bills = data.governorBills.edges.map(d => d.node)
 
   return <div>
-    <Seo
-      title="Gov. Greg Gianforte"
-      description="Vetos, signatures and bills on the Montana governor's desk."
-      pageRelativeUrl='governor/'
-    />
+
     <Layout>
       <h1>Gov. Greg Gianforte</h1>
       <ReactMarkdown>{text}</ReactMarkdown>
@@ -64,6 +60,14 @@ const Governor = ({ data }) => {
     </Layout>
   </div>
 }
+
+export const Head = () => (
+  <Seo
+    title="Gov. Greg Gianforte"
+    description="Vetos, signatures and bills on the Montana governor's desk."
+    pageRelativeUrl='governor/'
+  />
+)
 
 export const query = graphql`
   query GovernorPageQuery {

@@ -34,10 +34,6 @@ const Actions = () => {
     })
 
     return <div>
-        <Seo
-            title="Actions"
-            description="What Montana lawmakers have done day by date"
-        />
         <Layout>
             <h1>Legislative activity by day</h1>
             {actions}
@@ -50,6 +46,13 @@ const Actions = () => {
     </div>
 }
 export default Actions
+
+export const Head = () => (
+    <Seo
+        title="Actions"
+        description="What Montana lawmakers have done day by date"
+    />
+)
 
 const Action = (props) => {
     const { id, date, description, bill, title, explanation, committee } = props.data

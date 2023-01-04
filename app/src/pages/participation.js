@@ -9,10 +9,7 @@ import participationData from '../data/participation.json'
 const Participate = () => {
     const { text } = participationData
     return <div>
-        <Seo title="Participation"
-            description="How to participate in Montana's 2023 Legislature"
-            pageRelativeUrl='participation/'
-        />
+
         <Layout>
 
             <h1 id="participation">Participating in the 2021 Legislature</h1>
@@ -23,5 +20,12 @@ const Participate = () => {
         </Layout>
     </div>
 }
+
+export const Head = () => (
+    <Seo title="Participation"
+        description="How to participate in Montana's 2023 Legislature"
+        pageRelativeUrl='participation/'
+    />
+)
 
 export default Participate

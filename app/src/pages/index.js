@@ -29,10 +29,6 @@ const Index = ({ data, location }) => {
 
   // const keyBillCategories = Array.from(new Set(keyBills.map(d => d.majorBillCategory)))
   return <div>
-    <Seo
-      title="Overview"
-      pageRelativeUrl=''
-    />
     <Layout>
       <div id="overview">[TK determine what we want to emphasize above the fold. Links to bill hearings? Status counts for different types of bills?.]</div>
 
@@ -71,6 +67,16 @@ const Index = ({ data, location }) => {
     </Layout>
   </div>
 }
+
+// ref: https://www.gatsbyjs.com/docs/how-to/adding-common-features/adding-seo-component/
+export const Head = () => (
+  <Seo
+    title="Overview"
+    pageRelativeUrl=''
+  />
+)
+
+
 
 export const query = graphql`
   query IndexPageQuery {

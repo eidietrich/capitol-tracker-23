@@ -106,11 +106,7 @@ const LawmakerPage = ({ pageContext, data }) => {
     border-top: 6px solid ${partyColors(party)};
   `
   return <div>
-    <Seo
-      title={`${title} ${name}, ${district}`}
-      description="Election history, sponsored bills, committee assignments and more."
-      pageRelativeUrl={`lawmakers/${key}/`}
-    />
+
     <Layout>
       <div css={topperBar}>
         <div css={[portraitColCss, portraitTopper]}>
@@ -199,6 +195,14 @@ const History = ({ name, history }) => {
   }
 
 }
+
+export const Head = () => (
+  <Seo
+    title={`${title} ${name}, ${district}`}
+    description="Election history, sponsored bills, committee assignments and more."
+    pageRelativeUrl={`lawmakers/${key}/`}
+  />
+)
 
 export const query = graphql`
   query($imageSlug: String!) {

@@ -24,11 +24,7 @@ const BillPage = (props) => {
     billPageText, isMajorBill
   } = bill
   return <div>
-    <Seo
-      title={`${identifier}: ${title}`}
-      description={`Bill details, sponsor, text, procedural status and more.`}
-      pageRelativeUrl={`bills/${key}/`}
-    />
+
     <Layout>
       <h1>{identifier}: {title}</h1>
       <div>{explanation}</div>
@@ -67,5 +63,13 @@ const BillPage = (props) => {
     </Layout>
   </div>;
 };
+
+export const Head = () => (
+  <Seo
+    title={`${identifier}: ${title}`}
+    description={`Bill details, sponsor, text, procedural status and more.`}
+    pageRelativeUrl={`bills/${key}/`}
+  />
+)
 
 export default BillPage;

@@ -24,11 +24,7 @@ const Senate = ({ data }) => {
   const { text } = senateData
   const senators = data.allLawmakersJson.edges.map(d => d.node)
   return <div>
-    <Seo
-      title="Montana Senate"
-      description="Senators and committees of the Montana Senate"
-      pageRelativeUrl='senate/'
-    />
+
     <Layout>
       <h1>The Montana Senate</h1>
       <ReactMarkdown>{text}</ReactMarkdown>
@@ -47,6 +43,14 @@ const Senate = ({ data }) => {
     </Layout>
   </div>
 }
+
+export const Head = () => (
+  <Seo
+    title="Montana Senate"
+    description="Senators and committees of the Montana Senate"
+    pageRelativeUrl='senate/'
+  />
+)
 
 export const query = graphql`
   query SenatePageQuery {

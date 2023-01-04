@@ -36,10 +36,7 @@ const Calendar = () => {
     })
 
     return <div>
-        <Seo
-            title="Calendar"
-            description="Upcoming bill hearings"
-        />
+
         <Layout>
             <h1>What's coming up at the Legislature</h1>
 
@@ -68,5 +65,12 @@ const Hearing = (props) => {
     </li >
 
 }
+
+export const Head = () => (
+    <Seo
+        title="Calendar"
+        description="Upcoming bill hearings"
+    />
+)
 
 export default Calendar

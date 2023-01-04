@@ -26,11 +26,7 @@ const House = ({ data }) => {
   const representatives = data.allLawmakersJson.edges.map(d => d.node)
 
   return <div>
-    <Seo
-      title="Montana House"
-      description="Representatives and committees of the Montana House"
-      pageRelativeUrl='house/'
-    />
+
     <Layout>
       <h1>The Montana House</h1>
       <div>67 Republicans, 33 Democrats</div>
@@ -52,6 +48,14 @@ const House = ({ data }) => {
     </Layout>
   </div>
 }
+
+export const Head = () => (
+  <Seo
+    title="Montana House"
+    description="Representatives and committees of the Montana House"
+    pageRelativeUrl='house/'
+  />
+)
 
 export const query = graphql`
   query HousePageQuery {
