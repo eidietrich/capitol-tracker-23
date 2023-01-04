@@ -11,3 +11,6 @@ node inputs/coverage/fetch.js
 
 # Check laws-interface repo for bill/vote info pulled from official legislative system
 node inputs/laws/fetch.js
+
+# Run data process
+node  process/main.js
