@@ -67,4 +67,11 @@ jobs:
       - name: Deploy to S3
         run: aws s3 sync app/public s3://apps.montanafreepress.org/capitol-tracker-2023 --delete
       - name: Cache bust
-        run: export AWS_PAGER=""; aws cloudfront create-invalidation --distribution-id E3LVPS3XLJHLL5 --paths \"/capitol-tracker-2023/*\",
+        run: export AWS_PAGER=""; aws cloudfront create-invalidation --distribution-id E3LVPS3XLJHLL5 --paths "/capitol-tracker-2023/*"
+      - name: Slack Notification on SUCCESS
+        if: success()
+        uses: tokorom/action-slack-incoming-webhook@main
+        env:
+          INCOMING_WEBHOOK_URL: ${{ secrets.SLACK_ERIC_TEST_NOTIFICATIONS_WEBHOOK_URL }}
+        with:
+          text: "Capitol Tracker successfully redeployed"
