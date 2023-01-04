@@ -37,6 +37,7 @@ jobs:
   deploy:
     needs: process
     runs-on: ubuntu-latest
+    environment: "MTFP projects"
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v3
