@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  process:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
@@ -34,3 +34,26 @@ jobs:
           message: "Latest data"
       - name: Push changes
         run: git push
+  deploy:
+    needs: process
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - name: Cache
+        uses: actions/cache@v3
+        with:
+          path: |
+            app/public
+            app/.cache
+            app/node_modules
+          key: ${{ runner.os }}-eidietrich-capitol-tracker-23-deploying-$${ github.run_id }
+          restore-keys: |
+            ${{ runner.os }}-eidietrich-capitol-tracker-23-deploying-
+      - name: Install dependencies
+        run: (cd app && npm install)
+      - name: Build
+        run: gatsby build --prefix-paths
