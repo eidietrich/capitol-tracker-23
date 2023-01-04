@@ -57,3 +57,13 @@ jobs:
         run: (cd app && npm install)
       - name: Build
         run: (cd app && npm run build)
+      - name: Set AWS credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: us-west-2
+      - name: Deploy to S3
+        run: aws s3 sync public s3://apps.montanafreepress.org/capitol-tracker-2023 --delete
+      - name: Cache bust
+        run: export AWS_PAGER=""; aws cloudfront create-invalidation --distribution-id E3LVPS3XLJHLL5 --paths \"/capitol-tracker-2023/*\",
