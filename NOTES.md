@@ -1,5 +1,7 @@
 
 ### References
+Deploying via GH Actions: https://www.alexhyett.com/github-actions-deploy-to-s3/
+Cross-repo workflow coordination: https://utensils.io/articles/trigger-github-actions-from-another-repo
 
 
 

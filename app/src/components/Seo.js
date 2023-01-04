@@ -41,8 +41,11 @@ function SEO({
     <Helmet>
       <meta charSet="utf-8" />
       <title>{metaTitle}</title>
+      <meta name="description" content={metaDescription} />
+      <meta name="image" content={metaImage} />
       <link rel="canonical" href={metaUrl} />
-      <meta property="description" content={metaDescription} />
+      {/* OpenGraph / FB */}
+      <meta property="og:url" content={metaUrl} />
       <meta property="og:locale" content="en_US" />
       <meta property="og:site_name" content="Montana Free Press" />
       <meta property="og:title" content={metaTitle} />
@@ -50,11 +53,13 @@ function SEO({
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
       <meta property="og:type" content="website" />
+      {/* Twitter */}
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:creator" content="@mtfreepress" />
       <meta name="twitter:title" content={metaTitle} />
       <meta name="twitter:image" content={metaImage} />
       <meta name="twitter:description" content={metaDescription} />
+      {/* Google Analytics */}
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-179R4DKQFZ"></script>
       <script>
         {`
@@ -65,8 +70,8 @@ function SEO({
         gtag('config', 'G-179R4DKQFZ');
       `}
       </script>
+      {/* Parsely information */}
       <script type="application/ld+json">
-        {/* Parsely information */}
         {`
           {
             "@context": "http://schema.org",
