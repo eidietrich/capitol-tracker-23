@@ -3,6 +3,7 @@ import { graphql } from "gatsby"
 import { css } from '@emotion/react'
 import { AnchorLink } from "gatsby-plugin-anchor-links";
 
+import "../config/base.css"
 import { embedInputContainerStyle } from '../config/styles'
 import LawmakerPortrait from '../components/lawmaker/Portrait'
 

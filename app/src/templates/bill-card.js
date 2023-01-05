@@ -2,7 +2,9 @@ import React from "react";
 import { css } from '@emotion/react'
 import { AnchorLink } from "gatsby-plugin-anchor-links";
 
+import "../config/base.css"
 import { embedInputContainerStyle } from '../config/styles'
+
 
 import {
     billStatusSymbols,
