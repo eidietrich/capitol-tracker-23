@@ -111,11 +111,10 @@ const lawmakerCardCss = css`
 
 `
 
-const LawmakerPage = ({ pageContext, location, data }) => {
+const LawmakerPage = ({ pageContext, data }) => {
     const {
         lawmaker
     } = pageContext
-    const embedUrl = location.href
     const {
         key,
         title,
@@ -151,7 +150,7 @@ const LawmakerPage = ({ pageContext, location, data }) => {
     title="Card embed ${title} ${name}"
     style="border: 1px solid #666;
     box-shadow: 1px 1px 2px #444;"
-    src=${embedUrl}#embed"
+    src=https://apps.montanafreepress.org/capitol-tracker-2023/lawmaker-cards/${key}/#embed"
     ></iframe>
 </div>
 `

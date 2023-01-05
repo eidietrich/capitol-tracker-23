@@ -108,11 +108,10 @@ const progressStepStyle = css`
   }
 `
 
-const BillCard = ({ pageContext, location }) => {
+const BillCard = ({ pageContext }) => {
     const {
         bill,
     } = pageContext
-    const embedUrl = location.href
     const {
         key, identifier, title, status, progress, chamber,
         lawsUrl, vetoMemoUrl, articles, actions, textUrl, fiscalNoteUrl, legalNoteUrl,
@@ -127,7 +126,7 @@ const BillCard = ({ pageContext, location }) => {
     title="Card embed ${identifier}: ${title}"
     style="border: 1px solid #666;
     box-shadow: 1px 1px 2px #444;"
-    src=${embedUrl}#embed"
+    src=https://apps.montanafreepress.org/capitol-tracker-2023/bill-cards/${key}/#embed"
     ></iframe>
 </div>
 `
