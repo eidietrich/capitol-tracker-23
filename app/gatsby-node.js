@@ -223,14 +223,14 @@ exports.createPages = async ({ graphql, actions: { createPage } }) => {
             },
         })
 
-        // createPage({
-        //     path: `/lawmaker-embeds/${key}`,
-        //     component: require.resolve('./src/templates/lawmaker-card.js'),
-        //     context: {
-        //         lawmaker,
-        //         imageSlug, // For portrait image, needs to be top-level so graphql page query can access it
-        //     },
-        // })
+        createPage({
+            path: `/lawmaker-cards/${key}`,
+            component: require.resolve('./src/templates/lawmaker-card.js'),
+            context: {
+                lawmaker,
+                imageSlug, // For portrait image, needs to be top-level so graphql page query can access it
+            },
+        })
     })
 
     bills.forEach(bill => {
@@ -245,6 +245,14 @@ exports.createPages = async ({ graphql, actions: { createPage } }) => {
                 // Abbreviated info on sponsor for sake of data bundle size
                 // TODO: It would probably be more elegant to do this data merge in data processing step
                 // sponsor: { key, title, name, district, party, locale }
+            },
+        })
+
+        createPage({
+            path: `/bill-cards/${key}`,
+            component: require.resolve('./src/templates/bill-card.js'),
+            context: {
+                bill,
             },
         })
     })

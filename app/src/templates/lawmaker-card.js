@@ -2,24 +2,11 @@ import React from "react";
 import { graphql } from "gatsby"
 import { css } from '@emotion/react'
 import { AnchorLink } from "gatsby-plugin-anchor-links";
-import ReactMarkdown from 'react-markdown'
 
-import Layout from '../components/Layout'
-import Seo from "../components/Seo"
-import ContactUs from '../components/ContactUs'
-import Newsletter from '../components/Newsletter'
-import LinksList from '../components/LinksList'
-import BillTable from '../components/BillTable'
-
+import { embedInputContainerStyle } from '../config/styles'
 import LawmakerPortrait from '../components/lawmaker/Portrait'
-import LawmakerElectionHistory from '../components/lawmaker/ElectionHistory'
-import LawmakerCommittees from '../components/lawmaker/Commitees'
-import LawmakerVotingSummary from '../components/lawmaker/VotingSummary'
-import LawmakerKeyVotes from '../components/lawmaker/KeyVotes'
 
 import {
-    listToText,
-    cleanPhoneString,
     pluralize,
     ordinalize
 } from '../config/utils'
@@ -27,54 +14,6 @@ import {
 import {
     partyColors,
 } from '../config/config'
-
-const topperBar = css`
-  display: flex;
-  flex-wrap: wrap;
-  border: 1px solid #806F47;
-  background-color: #eae3da;
-  padding: 0.5em;
-`
-const portraitColCss = css`
-  margin-right: 1em;
-`
-const infoCol = css`
-  /* margin-left: 1em; */
-  flex: 1 0 100px;
-  h1 {
-    font-size: 1.5em;
-    margin-top: 0;
-    margin-bottom: 0.1em;
-  }
-`
-const residenceLineCss = css``
-const districtLineCss = css`
-  font-size: 0.9em;
-`
-const localeLineCss = css`
-  font-size: 0.9em;
-  font-style: italic;
-  color: #444;
-`
-const contactLineCss = css`
-  font-size: 0.9em;
-  margin-top: 0.4em;
-`
-const leadershipLineCss = css`
-  font-weight: bold;
-  font-size: 1.1em;
-`
-const anchorLinksBoxStyle = css`
-  color: var(--tan4);
-  padding: 0.5em 0;
-`
-
-const getPartyLabel = (key) => {
-    return {
-        'R': 'Republican',
-        'D': 'Democrat'
-    }[key]
-}
 
 const lawmakerCardCss = css`
     width: 300px;
@@ -171,10 +110,11 @@ const lawmakerCardCss = css`
 
 `
 
-const LawmakerPage = ({ pageContext, data }) => {
+const LawmakerPage = ({ pageContext, location, data }) => {
     const {
         lawmaker
     } = pageContext
+    const embedUrl = location.href
     const {
         key,
         title,
@@ -200,7 +140,20 @@ const LawmakerPage = ({ pageContext, data }) => {
     } = data
     const color = partyColors(party)
     const mainCommittee = committees[0] // assume we've ranked this list elsewhere
-    const otherCommittees = committees.slice(1, 0)
+    const otherCommittees = committees.slice(1,)
+
+    const embedCode = `<div class="alignleft">
+<iframe
+    width="300px"
+    height="450px"
+    scrolling="no"
+    title="Card embed ${title} ${name}"
+    style="border: 1px solid #666;
+    box-shadow: 1px 1px 2px #444;"
+    src=${embedUrl}#embed"
+    ></iframe>
+</div>
+`
     return <div style={{
         padding: 0
     }}>
@@ -221,11 +174,21 @@ const LawmakerPage = ({ pageContext, data }) => {
             </div>
             <div className="bottom-section">
                 <div className="session">2023 Legislature – {ordinalize(legislativeHistory.length)} session</div>
-                <div className="item">👥 {mainCommittee.committee} {mainCommittee.role} and <strong>{otherCommittees.length}</strong> <AnchorLink to={`/lawmakers/${key}#committees`}>other committee assignment{pluralize(otherCommittees.length)}</AnchorLink></div>
-                <div className="item">📋 <strong>{sponsoredBills.length}</strong> <AnchorLink to={`/lawmakers/${key}#bills-sponsored`}> bill{pluralize(sponsoredBills.length)} sponsored</AnchorLink></div>
+                <div className="item">
+                    {committees.length > 0 ?
+                        <>👥 {mainCommittee.role} {mainCommittee.committee} and <strong>{otherCommittees.length}</strong> <AnchorLink to={`/lawmakers/${key}#committees`}>other committee assignment{pluralize(otherCommittees.length)}</AnchorLink></>
+                        : <>👥 <strong>0</strong> committee assignments</>
+                    }
+                </div>
+                <div className="item">📋 <strong>{sponsoredBills.length}</strong> <AnchorLink to={`/lawmakers/${key}#bills-sponsored`}> bill{pluralize(sponsoredBills.length)} introduced</AnchorLink></div>
                 <div className="item">📰 <strong>{articles.length}</strong> <AnchorLink to={`/lawmakers/${key}#mtfp-coverage`}>reference{pluralize(articles.length)} in MTFP coverage</AnchorLink></div>
-                <div className="promo">🗒 <AnchorLink to={`/`}>See more</AnchorLink> on MTFP's 2023 Capitol Tracker .</div>
+                <div className="promo">🗒 <AnchorLink to={`/`}>See more</AnchorLink> on MTFP's 2023 Capitol Tracker</div>
             </div>
+        </div>
+
+        <div css={embedInputContainerStyle}>
+            <div>Embed code (Copy into HTML block in MTFP CMS)</div>
+            <textarea rows="20" cols="80" value={embedCode}></textarea>
         </div>
     </div >
 };

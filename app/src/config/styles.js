@@ -1,6 +1,14 @@
 // Central storage point for reused styles
 import { css } from '@emotion/react'
 
+export const embedInputContainerStyle = css`
+    margin: 1em 2em;
+
+    textarea {
+        font-family: Courier New;
+    }
+`
+
 export const containerStyle = css`
     max-width: 1200px;
     width: 100%;
