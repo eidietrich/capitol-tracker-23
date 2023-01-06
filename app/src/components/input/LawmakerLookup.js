@@ -93,7 +93,6 @@ const labelCss = css`margin-bottom: 0.2em;`
 
 const LawmakerEntry = ({ lawmaker }) => {
     const { key, title, name, party, district, locale, phone, email } = lawmaker
-    console.log(lawmaker)
     return <div css={resultItem}>
         <div css={resultLabel}>{district.key}</div>
         <div css={resultName}>
