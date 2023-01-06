@@ -22,6 +22,7 @@ const Actions = () => {
         const committeesWithActions = Array.from(new Set(d.actions
             .filter(a => !EXCLUDE_TYPES.includes(a.description))
             .map(a => a.committee)))
+        if (committeesWithActions.length === 0) return null
         return <div key={d.date}>
             <h3>{shortDateWithWeekday(new Date(d.date))}</h3>
             <div>

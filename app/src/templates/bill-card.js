@@ -4,6 +4,9 @@ import { css } from '@emotion/react'
 import "../config/base.css"
 import { embedInputContainerStyle } from '../config/styles'
 
+import {
+    lawmakerUrl
+} from '../config/utils'
 
 import {
     billStatusSymbols,
@@ -151,11 +154,11 @@ const BillCard = ({ pageContext }) => {
     return <div>
         <div id="embed" css={billCardCss}>
             <div className="title">
-                <div>{identifier}: <a href={`${BASE_URL}/bills/${key}`}>{title}</a></div>
+                <div>{identifier}: <a href={`${BASE_URL}/bills/${key}`} target="_parent">{title}</a></div>
                 <div className="explanation">{explanation}</div>
             </div>
 
-            <div className="sponsor">Sponsor: {sponsor.name} ({sponsor.party}-{sponsor.locale})</div>
+            <div className="sponsor">Sponsor: <a href={`${BASE_URL}/lawmakers/${lawmakerUrl(sponsor.name)}`}>{sponsor.name}</a> ({sponsor.party}-{sponsor.locale})</div>
             {/* <div className="requestor">Requestor: {requestor}</div> */}
             <div className="status">{status.key.replace('--', ' — ')}</div>
             <div className="row">
@@ -179,12 +182,12 @@ const BillCard = ({ pageContext }) => {
                     {progression}
                 </div>
             </div>
-            <div className="promo">🗒 <a href={`${BASE_URL}/bills/${key}`}>More info</a> on MTFP's 2023 Capitol Tracker</div>
+            <div className="promo">🗒 <a href={`${BASE_URL}/bills/${key}`} target="_parent">More info</a> on MTFP's 2023 Capitol Tracker</div>
         </div>
 
         <div css={embedInputContainerStyle}>
             <div>Embed code (Copy into HTML block in MTFP CMS)</div>
-            <textarea rows="20" cols="80" value={embedCode}></textarea>
+            <textarea rows="20" cols="80" value={embedCode} readOnly></textarea>
         </div>
 
     </div>;

@@ -177,7 +177,7 @@ const LawmakerPage = ({ pageContext, data }) => {
                 <div className="session">2023 Legislature – {ordinalize(legislativeHistory.length)} session</div>
                 <div className="item">
                     {committees.length > 0 ?
-                        <>👥 {mainCommittee.role} {mainCommittee.committee} and <strong>{otherCommittees.length}</strong> <a href={`${BASE_URL}/lawmakers/${key}#committees`}>other committee assignment{pluralize(otherCommittees.length)}</a></>
+                        <>👥 {mainCommittee.role} {mainCommittee.committee} and <strong>{otherCommittees.length}</strong> <a href={`${BASE_URL}/lawmakers/${key}#committees`} target="_parent">other committee assignment{pluralize(otherCommittees.length)}</a></>
                         : <>👥 <strong>0</strong> committee assignments</>
                     }
                 </div>
@@ -189,7 +189,7 @@ const LawmakerPage = ({ pageContext, data }) => {
 
         <div css={embedInputContainerStyle}>
             <div>Embed code (Copy into HTML block in MTFP CMS)</div>
-            <textarea rows="20" cols="80" value={embedCode}></textarea>
+            <textarea rows="20" cols="80" value={embedCode} readOnly></textarea>
         </div>
     </div >
 };
