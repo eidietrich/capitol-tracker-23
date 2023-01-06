@@ -10,7 +10,7 @@ import InfoPopup from '../components/InfoPopup'
 import Newsletter from '../components/Newsletter'
 import ContactUs from '../components/ContactUs'
 
-import BillStatusOverview from '../components/overview/BillStatuses'
+// import BillStatusOverview from '../components/overview/BillStatuses'
 import BillLookup from '../components/input/BillLookup'
 import LawmakerLookup from '../components/input/LawmakerLookup'
 import DistrictLookup from '../components/input/DistrictLookup'

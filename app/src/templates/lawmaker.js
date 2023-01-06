@@ -80,7 +80,7 @@ const LawmakerPage = ({ pageContext, data }) => {
     lawmaker
   } = pageContext
   const {
-    key,
+    // key,
     title,
     name,
     lastName,
@@ -163,7 +163,7 @@ const LawmakerPage = ({ pageContext, data }) => {
       <h3 id="mtfp-coverage">Montana Free Press coverage</h3>
       <div>MTFP legislative reporting involving {lastName}.</div>
       {(articles.length > 0) && <LinksList articles={articles} />}
-      {(articles.length == 0) && <div className="note">Nothing currently tagged in our archive.</div>}
+      {(articles.length === 0) && <div className="note">Nothing currently tagged in our archive.</div>}
       {/* {
         (articles.length > 0) && <div>
           <h3 id="mtfp-coverage">Montana Free Press coverage</h3>

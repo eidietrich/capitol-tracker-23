@@ -1,5 +1,5 @@
 import React from "react"
-import { AnchorLink } from "gatsby-plugin-anchor-links";
+// import { AnchorLink } from "gatsby-plugin-anchor-links";
 import { Link } from "gatsby";
 
 import { shortDateWithWeekday, billUrl } from '../config/utils.js'
@@ -55,7 +55,11 @@ export const Head = () => (
 )
 
 const Action = (props) => {
-    const { id, date, description, bill, title, explanation, committee } = props.data
+    const {
+        // id, date, 
+        description, bill, title, explanation,
+        // committee 
+    } = props.data
     const url = billUrl(bill)
     return <li>
         <div>{description} - {bill}: <Link to={`/bills/${url}`}>{title}</Link></div>

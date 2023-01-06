@@ -5,54 +5,43 @@ import { css } from '@emotion/react'
 import { partyColors } from '../config/config'
 import { lawmakerUrl } from '../config/utils'
 
-const spanStyle = css`
-  
-`
-const tag = css`
-  border: 1px solid #ddd;
-  font-size: 0.8em;
-  line-height: 1em;
+
+const lawmakerInlineStyle = css`
+  display: inline-block;
   margin-right: 0.5em;
-  display: inline-block;
+  .name {
+    padding: 3px 0.2em;
+    height: 18px;
+    display: inline-block;
+  }
+  .info {
+    display: inline-block;
+    font-size: 0.8em;
+    
+  }
+  .info .party {
+    color: white;
+    padding: 0 0.5em;
+    
+  }
+  .info .district {
+    font-weight: bold; 
+    color: #444;
+    padding: 0 0.2em;
+  }
 `
-const tagParty = css`
-  color: white;
-  padding: 0.25em 0.5em;
-  display: inline-block;
-  
-`
-const tagDistrict = css`
-  /* font-family: Arial, Helvetica, sans-serif; */
-  
-  font-weight: bold; 
-  padding: 0 0.25em;
-  color: #444;
-  
-  
-`
-const residenceCss = css`
-  /* font-size: 0.8em; */
-`
+
 
 const LawmakerInline = ({ lawmaker }) => {
   const { name, party, district, locale } = lawmaker
   const partyColor = partyColors(party)
-  const tagPartyStyle = css`
-    border: 1px solid ${partyColor};
-  `
-  const tagPartyPartySyle = css`
-    background-color: ${partyColor};
-  `
-  return <Link css={spanStyle} to={`/lawmakers/${lawmakerUrl(name)}`}>
-    <span>{name} </span>
-    <span css={[tag, tagPartyStyle]}>
-      <span css={[tagParty, tagPartyPartySyle]}>{party}</span>
-      <span css={tagDistrict}>{locale}</span>
-      {/* <span css={tagDistrict}>{district}</span> */}
-
+  return <div css={lawmakerInlineStyle}><Link className="span" to={`/lawmakers/${lawmakerUrl(name)}`}>
+    <span className="name">{name} </span>
+    <span className="info">
+      <span className="party" style={{ backgroundColor: partyColor, border: `1px solid ${partyColor}` }}>{party}</span>
+      <span className="district" style={{ border: `1px solid ${partyColor}` }}>{locale} / {district}</span>
     </span>
-    {/* <span css={residenceCss}>({locale})</span> */}
-  </Link>
+  </Link></div >
 };
 
 export default LawmakerInline

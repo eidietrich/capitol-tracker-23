@@ -8,7 +8,7 @@ import {
 
 import {
     lawmakerUrl,
-    percentFormat
+    // percentFormat
 } from '../config/utils'
 import {
     tableStyle,
@@ -20,14 +20,14 @@ const lawmakerTableCss = css`
 const tableLinkStyle = css`
     font-weight: bold;
 `
-const colorGopCss = css`
-    color: ${partyColors('R')};
-    font-weight: bold;
-`
-const colorDemCss = css`
-    color: ${partyColors('D')};
-    font-weight: bold;
-`
+// const colorGopCss = css`
+//     color: ${partyColors('R')};
+//     font-weight: bold;
+// `
+// const colorDemCss = css`
+//     color: ${partyColors('D')};
+//     font-weight: bold;
+// `
 const partyControlCss = party => css`
     background-color: ${partyColors(party)};
     font-weight: bold;
@@ -44,15 +44,15 @@ const col2 = css`
         min-width: 8em;
     }
 `
-const col3 = css`
-    min-width: 4.5em;
-    padding: 0.5em 0 !important;
-    text-align: right;
-`
-const col4 = css`
-    min-width: 6.5em;
-    text-align: right;
-`
+// const col3 = css`
+//     min-width: 4.5em;
+//     padding: 0.5em 0 !important;
+//     text-align: right;
+// `
+// const col4 = css`
+//     min-width: 6.5em;
+//     text-align: right;
+// `
 const clickableCol = css`
     cursor: pointer;
     :hover {
@@ -131,7 +131,7 @@ const LawmakerTable = ({ lawmakers }) => {
 };
 
 const Row = ({ name, party, district, locale, votingSummary }) => {
-    const { fractionVotesOnWinningSide, fractionVotesWithGopCaucus, fractionVotesWithDemCaucus } = votingSummary
+    // const { fractionVotesOnWinningSide, fractionVotesWithGopCaucus, fractionVotesWithDemCaucus } = votingSummary
     return (<tr key={name}>
         <td css={[col1, partyControlCss(party)]}>
             <div>{district.slice(0, 2)}</div>

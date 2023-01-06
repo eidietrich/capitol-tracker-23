@@ -1,6 +1,5 @@
 import React from "react";
 import { css } from '@emotion/react'
-import { AnchorLink } from "gatsby-plugin-anchor-links";
 
 import "../config/base.css"
 import { embedInputContainerStyle } from '../config/styles'
@@ -9,8 +8,8 @@ import { embedInputContainerStyle } from '../config/styles'
 import {
     billStatusSymbols,
     billProgressStepLabels,
-    statusColors,
-    partyColors
+    // statusColors,
+    // partyColors
 } from '../config/config'
 
 const billCardCss = css`
@@ -108,14 +107,19 @@ const progressStepStyle = css`
   }
 `
 
+// Using <a> tags instead of anchor tags bc these are intended as embeds
+const BASE_URL = 'https://apps.montanafreepress.org/capitol-tracker-2023'
+
 const BillCard = ({ pageContext }) => {
     const {
         bill,
     } = pageContext
     const {
         key, identifier, title, status, progress, chamber,
-        lawsUrl, vetoMemoUrl, articles, actions, textUrl, fiscalNoteUrl, legalNoteUrl,
-        explanation, type, sponsor, requestor,
+        // lawsUrl, vetoMemoUrl, articles, actions,
+        textUrl, fiscalNoteUrl, legalNoteUrl,
+        explanation, sponsor,
+        // requestor,
     } = bill
 
     const embedCode = `<div class="alignleft">
@@ -147,7 +151,7 @@ const BillCard = ({ pageContext }) => {
     return <div>
         <div id="embed" css={billCardCss}>
             <div className="title">
-                <div>{identifier}: <AnchorLink to={`/bills/${key}`}>{title}</AnchorLink></div>
+                <div>{identifier}: <a href={`${BASE_URL}/bills/${key}`}>{title}</a></div>
                 <div className="explanation">{explanation}</div>
             </div>
 
@@ -175,7 +179,7 @@ const BillCard = ({ pageContext }) => {
                     {progression}
                 </div>
             </div>
-            <div className="promo">🗒 <AnchorLink to={`/bills/${key}`}>More info</AnchorLink> on MTFP's 2023 Capitol Tracker</div>
+            <div className="promo">🗒 <a href={`${BASE_URL}/bills/${key}`}>More info</a> on MTFP's 2023 Capitol Tracker</div>
         </div>
 
         <div css={embedInputContainerStyle}>

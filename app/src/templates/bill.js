@@ -18,10 +18,12 @@ const BillPage = (props) => {
     bill,
   } = props.pageContext
   const {
-    key, identifier, title, status, progress, chamber,
+    // key, 
+    identifier, title, status, progress, chamber,
     lawsUrl, vetoMemoUrl, articles, actions,
     explanation, type,
-    billPageText, isMajorBill
+    billPageText,
+    // isMajorBill
   } = bill
   return <div>
 

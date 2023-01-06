@@ -1,16 +1,16 @@
 import React from "react"
-import { AnchorLink } from "gatsby-plugin-anchor-links";
-import { Link, graphql } from "gatsby";
+// import { AnchorLink } from "gatsby-plugin-anchor-links";
+import { Link } from "gatsby";
 
-import { shortDateWithWeekday, formatTime, billUrl } from '../config/utils.js'
+import { shortDateWithWeekday, billUrl } from '../config/utils.js'
 
 import Layout from '../components/Layout'
 import Seo from '../components/Seo'
 // import Text from '../components/Text'
 import ContactUs from '../components/ContactUs'
 import Newsletter from '../components/Newsletter'
-import UpcomingHearings from '../components/overview/UpcomingHearings'
-import UpcomingFloorActions from '../components/overview/UpcomingFloorActions'
+// import UpcomingHearings from '../components/overview/UpcomingHearings'
+// import UpcomingFloorActions from '../components/overview/UpcomingFloorActions'
 
 import calendar from '../data/calendar.json'
 
@@ -57,7 +57,11 @@ const Calendar = () => {
 }
 
 const Hearing = (props) => {
-    const { id, date, bill, title, explanation, committee } = props.data
+    const {
+        // id, date, 
+        bill, title, explanation,
+        // committee 
+    } = props.data
     const url = billUrl(bill)
     return <li>
         <div>{bill}: <Link to={`/bills/${url}`}>{title}</Link></div>

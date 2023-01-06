@@ -5,7 +5,7 @@
 
 import React, { Component } from 'react';
 import PropTypes from "prop-types"
-import { Link, graphql } from 'gatsby'
+import { Link } from 'gatsby'
 import { css } from '@emotion/react'
 
 // import { AnchorLink } from "gatsby-plugin-anchor-links";
@@ -136,11 +136,11 @@ const identifierCss = css`
   color: #444;
 
 `
-const stepCss = css`
-`
-const labelCss = css`
-  font-style: italic;
-`
+// const stepCss = css`
+// `
+// const labelCss = css`
+//   font-style: italic;
+// `
 const billInfoLineCss = css`
   color: #ae9864;
 `

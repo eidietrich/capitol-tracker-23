@@ -40,7 +40,7 @@ export const ordinalize = value => ({
 // Adapted from https://stackoverflow.com/questions/196972/convert-string-to-title-case-with-javascript
 export const titleCase = string => string.replace(/\w\S*/g, txt => txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase())
   .replace('Mt', 'MT') // for addresses
-export const cleanPhoneString = string => string && string.replace(/\s|-|\(|\)/g, '') || ''
+export const cleanPhoneString = string => (string && string.replace(/\s|-|\(|\)/g, '')) || ''
 
 
 // Adapted from https://stackoverflow.com/questions/14763997/javascript-array-to-sentence

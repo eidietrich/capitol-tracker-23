@@ -1,13 +1,5 @@
 import { standardLawmakerNames } from '../functions.js'
 
-// const {
-//     getCanonicalLawmakerNames,
-// } = require('../functions.js')
-
-
-// // TODO - think through whether this is the right approach
-// const lawmakerTagNames = getCanonicalLawmakerNames()
-
 const govTagTest = tag => tag.match(/(Greg Gianforte|Steve Bullock)/)
 const billTagTest = tag => tag.match(/(House|Senate|Joint) (Bill|Resolution) [0-9]{1,4}/)
 const lawmakerTagTest = tag => standardLawmakerNames.includes(tag)

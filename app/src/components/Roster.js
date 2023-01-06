@@ -16,8 +16,10 @@ const tableContainerCss = css`
 `
 
 const Roster = (props) => {
-  const { title, lawmakers, chamberLabel } = props
-  const numVotesRecorded = lawmakers.map(d => d.votingSummary.numVotesRecorded)[1]
+  const { title, lawmakers,
+    // chamberLabel 
+  } = props
+  // const numVotesRecorded = lawmakers.map(d => d.votingSummary.numVotesRecorded)[1]
   return <div>
     <h3>{title}</h3>
 

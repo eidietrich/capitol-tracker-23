@@ -10,9 +10,10 @@ import BillTable from '../components/BillTable'
 import Newsletter from '../components/Newsletter'
 
 import governorData from '../data/governor.json'
-import { numberFormat, dateFormat } from "../config/utils"
 
-const plural = value => (value !== 1) ? 's' : ''
+// import { numberFormat, dateFormat } from "../config/utils"
+// const plural = value => (value !== 1) ? 's' : ''
+
 // filter functions
 // const toGovernor = d => d.data.progress.toGovernor
 // const awaitingGovernorAction = d => d.progress.governorStatus === 'pending'

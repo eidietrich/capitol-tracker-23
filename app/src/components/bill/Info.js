@@ -3,9 +3,9 @@ import { css } from '@emotion/react'
 
 import LawmakerInline from '../LawmakerInline'
 
-import {
-    dateFormat,
-} from '../../config/utils'
+// import {
+//     dateFormat,
+// } from '../../config/utils'
 
 const infoRowCss = css`
   display: flex;
@@ -43,7 +43,8 @@ const sponsorCss = css`
 const BillInfo = ({ bill }) => {
     const {
         lawsUrl, textUrl, fiscalNoteUrl, legalNoteUrl,
-        transmittalDeadline, secondHouseReturnIfAmendedDeadline, voteMajorityRequired,
+        // transmittalDeadline, secondHouseReturnIfAmendedDeadline, 
+        voteMajorityRequired,
         sponsor, requestor
     } = bill
     return <div>

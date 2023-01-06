@@ -4,7 +4,6 @@ import ReactMarkdown from 'react-markdown'
 
 import Layout from '../components/Layout'
 import Seo from "../components/Seo"
-import Text from '../components/Text'
 import TruncatedContainer from '../components/TruncatedContainer'
 import Roster from '../components/Roster'
 import ChamberLeadership from '../components/ChamberLeadership'

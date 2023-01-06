@@ -4,9 +4,9 @@ import { Link } from 'gatsby'
 
 import { AnchorLink } from "gatsby-plugin-anchor-links";
 
-import {
-    partyColors
-} from '../config/config'
+// import {
+//     partyColors
+// } from '../config/config'
 
 const navStyle = css`
     border-bottom: 1px solid #444;
@@ -84,7 +84,6 @@ const navSecondaryStyle = css`
     margin-bottom: 0.25em;
 `
 
-const color = partyColors('R')
 const Nav = (props) => <div css={navStyle}>
 
     <div css={[navRowStyle, navRowSecondary]}>

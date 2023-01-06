@@ -1,7 +1,6 @@
 import React from "react";
 import { graphql } from "gatsby"
 import { css } from '@emotion/react'
-import { AnchorLink } from "gatsby-plugin-anchor-links";
 
 import "../config/base.css"
 import { embedInputContainerStyle } from '../config/styles'
@@ -110,6 +109,8 @@ const lawmakerCardCss = css`
     }
 
 `
+// Using <a> tags instead of anchor tags bc these are intended as embeds
+const BASE_URL = 'https://apps.montanafreepress.org/capitol-tracker-2023'
 
 const LawmakerPage = ({ pageContext, data }) => {
     const {
@@ -159,7 +160,7 @@ const LawmakerPage = ({ pageContext, data }) => {
     }}>
         <div id="embed" css={lawmakerCardCss}>
             <div>
-                <AnchorLink to={`/lawmakers/${key}`}><div className="name">{title} {name}</div></AnchorLink>
+                <a href={`${BASE_URL}/lawmakers/${key}`} target="_parent"><div className="name">{title} {name}</div></a>
             </div>
             <div className="top-section" style={{ borderBottom: `3px solid ${color}` }}>
                 <div className="left">
@@ -176,13 +177,13 @@ const LawmakerPage = ({ pageContext, data }) => {
                 <div className="session">2023 Legislature – {ordinalize(legislativeHistory.length)} session</div>
                 <div className="item">
                     {committees.length > 0 ?
-                        <>👥 {mainCommittee.role} {mainCommittee.committee} and <strong>{otherCommittees.length}</strong> <AnchorLink to={`/lawmakers/${key}#committees`}>other committee assignment{pluralize(otherCommittees.length)}</AnchorLink></>
+                        <>👥 {mainCommittee.role} {mainCommittee.committee} and <strong>{otherCommittees.length}</strong> <a href={`${BASE_URL}/lawmakers/${key}#committees`}>other committee assignment{pluralize(otherCommittees.length)}</a></>
                         : <>👥 <strong>0</strong> committee assignments</>
                     }
                 </div>
-                <div className="item">📋 <strong>{sponsoredBills.length}</strong> <AnchorLink to={`/lawmakers/${key}#bills-sponsored`}> bill{pluralize(sponsoredBills.length)} introduced</AnchorLink></div>
-                <div className="item">📰 <strong>{articles.length}</strong> <AnchorLink to={`/lawmakers/${key}#mtfp-coverage`}>reference{pluralize(articles.length)} in MTFP coverage</AnchorLink></div>
-                <div className="promo">🗒 <AnchorLink to={`/`}>See more</AnchorLink> on MTFP's 2023 Capitol Tracker</div>
+                <div className="item">📋 <strong>{sponsoredBills.length}</strong> <a href={`${BASE_URL}/lawmakers/${key}#bills-sponsored`} target="_parent"> bill{pluralize(sponsoredBills.length)} introduced</a></div>
+                <div className="item">📰 <strong>{articles.length}</strong> <a href={`${BASE_URL}/lawmakers/${key}#mtfp-coverage`} target="_parent">reference{pluralize(articles.length)} in MTFP coverage</a></div>
+                <div className="promo">🗒 <a href={`${BASE_URL}/`} target="_parent">See more</a> on MTFP's 2023 Capitol Tracker</div>
             </div>
         </div>
 
