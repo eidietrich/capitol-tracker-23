@@ -332,8 +332,8 @@
       }
     ],
     "voteRequirements": [
-      "3/4 of Each House",
       "Simple",
+      "3/4 of Each House",
       "2/3 of Each House"
     ],
     "deadlineCategory": "Appropriation Bills",
@@ -1531,8 +1531,8 @@
     "sponsorParty": "R",
     "sponsorDistrict": "HD 40",
     "statusDate": "01/06/2023",
-    "lastAction": "(H) Committee Executive Action--Bill Passed as Amended -- (H) Judiciary",
-    "billStatus": "In First House Committee--Nontabled",
+    "lastAction": "(H) Committee Report--Bill Passed as Amended",
+    "billStatus": "In First House--Out of Committee",
     "fiscalNotesListUrl": "https://leg.mt.gov/laws/bills/2023/FNPDF/HB0038",
     "amendmentListUrl": "https://leg.mt.gov/laws/bills/2023/AmdPublicWeb/?bill=HB0038",
     "draftRequestor": null,
@@ -1574,8 +1574,8 @@
     "sponsorParty": "R",
     "sponsorDistrict": "HD 6",
     "statusDate": "01/06/2023",
-    "lastAction": "(H) 3rd Reading Passed",
-    "billStatus": "In First House--Through 3rd Reading",
+    "lastAction": "(H) Transmitted to Senate",
+    "billStatus": "Transmitted to Second House",
     "fiscalNotesListUrl": null,
     "amendmentListUrl": null,
     "draftRequestor": null,
@@ -2021,9 +2021,9 @@
     "sponsor": "Tony Brockman",
     "sponsorParty": "R",
     "sponsorDistrict": "HD 9",
-    "statusDate": "01/05/2023",
-    "lastAction": "(H) Committee Report--Bill Passed",
-    "billStatus": "In First House--Out of Committee",
+    "statusDate": "01/06/2023",
+    "lastAction": "(H) 2nd Reading Passed",
+    "billStatus": "In First House--Through 2nd Reading",
     "fiscalNotesListUrl": null,
     "amendmentListUrl": null,
     "draftRequestor": null,
@@ -2136,8 +2136,8 @@
     "sponsorParty": "R",
     "sponsorDistrict": "HD 39",
     "statusDate": "01/06/2023",
-    "lastAction": "(H) 3rd Reading Passed",
-    "billStatus": "In First House--Through 3rd Reading",
+    "lastAction": "(H) Transmitted to Senate",
+    "billStatus": "Transmitted to Second House",
     "fiscalNotesListUrl": null,
     "amendmentListUrl": null,
     "draftRequestor": null,
@@ -2355,8 +2355,8 @@
     "sponsor": "Michael Yakawich",
     "sponsorParty": "R",
     "sponsorDistrict": "HD 51",
-    "statusDate": "01/04/2023; 09:00 AM, Rm 152",
-    "lastAction": "(H) Hearing -- (H) Taxation",
+    "statusDate": "01/05/2023",
+    "lastAction": "(H) Committee Executive Action--Bill Passed -- (H) Taxation",
     "billStatus": "In First House Committee--Nontabled",
     "fiscalNotesListUrl": null,
     "amendmentListUrl": null,
@@ -2911,8 +2911,8 @@
     "sponsorParty": "R",
     "sponsorDistrict": "HD 14",
     "statusDate": "01/06/2023",
-    "lastAction": "(H) 3rd Reading Passed",
-    "billStatus": "In First House--Through 3rd Reading",
+    "lastAction": "(H) Transmitted to Senate",
+    "billStatus": "Transmitted to Second House",
     "fiscalNotesListUrl": null,
     "amendmentListUrl": null,
     "draftRequestor": null,
@@ -4839,10 +4839,10 @@
     "sponsor": "Russel Miner",
     "sponsorParty": "R",
     "sponsorDistrict": "HD 19",
-    "statusDate": "01/04/2023; 09:00 AM, Rm 152",
-    "lastAction": "(H) Hearing -- (H) Taxation",
+    "statusDate": "01/05/2023",
+    "lastAction": "(H) Committee Executive Action--Bill Passed -- (H) Taxation",
     "billStatus": "In First House Committee--Nontabled",
-    "fiscalNotesListUrl": null,
+    "fiscalNotesListUrl": "https://leg.mt.gov/laws/bills/2023/FNPDF/HB0121",
     "amendmentListUrl": null,
     "draftRequestor": null,
     "billRequestor": "Department of Revenue",
@@ -4958,8 +4958,8 @@
     "sponsor": "James Bergstrom",
     "sponsorParty": "R",
     "sponsorDistrict": "HD 30",
-    "statusDate": "01/05/2023; 09:00 AM, Rm 152",
-    "lastAction": "(H) Hearing -- (H) Taxation",
+    "statusDate": "01/06/2023",
+    "lastAction": "(H) Committee Executive Action--Bill Passed -- (H) Taxation",
     "billStatus": "In First House Committee--Nontabled",
     "fiscalNotesListUrl": null,
     "amendmentListUrl": null,
@@ -8374,6 +8374,49 @@
     "amendedReturnDeadline": "04/26/2023"
   },
   {
+    "key": "HB 213",
+    "session": "20231",
+    "billPageUrl": "http://laws.leg.mt.gov/legprd/LAW0210W$BSIV.ActionQuery?P_BILL_NO1=213&P_BLTP_BILL_TYP_CD=HB&Z_ACTION=Find&P_SESS=20231",
+    "billTextUrl": "http://leg.mt.gov/bills/2023/lchtml/LC1470.htm",
+    "billPdfUrl": "http://leg.mt.gov/bills/2023/billpdf/LC1470.pdf",
+    "lc": "LC1470",
+    "title": "Provide certificate of nonviable birth",
+    "sponsor": "Braxton Mitchell",
+    "sponsorParty": "R",
+    "sponsorDistrict": "HD 3",
+    "statusDate": "01/06/2023",
+    "lastAction": "(H) Introduced",
+    "billStatus": "In First House--Introduced",
+    "fiscalNotesListUrl": null,
+    "amendmentListUrl": null,
+    "draftRequestor": null,
+    "billRequestor": null,
+    "primarySponsor": "Braxton Mitchell",
+    "subjects": [
+      {
+        "subject": "Health Care Services (see also: Health)",
+        "fiscalCode": "",
+        "voteReq": "Simple"
+      },
+      {
+        "subject": "Minors  (see also: Family Law)",
+        "fiscalCode": "",
+        "voteReq": "Simple"
+      },
+      {
+        "subject": "State Government",
+        "fiscalCode": "",
+        "voteReq": "Simple"
+      }
+    ],
+    "voteRequirements": [
+      "Simple"
+    ],
+    "deadlineCategory": "General Bills",
+    "transmittalDeadline": "03/03/2023",
+    "amendedReturnDeadline": "04/17/2023"
+  },
+  {
     "key": "HJ 1",
     "session": "20231",
     "billPageUrl": "http://laws.leg.mt.gov/legprd/LAW0210W$BSIV.ActionQuery?P_BILL_NO1=1&P_BLTP_BILL_TYP_CD=HJ&Z_ACTION=Find&P_SESS=20231",
@@ -9839,8 +9882,8 @@
     "sponsor": "Mike Cuffe",
     "sponsorParty": "R",
     "sponsorDistrict": "SD 1",
-    "statusDate": "12/28/2022",
-    "lastAction": "(S) Referred to Committee -- (S) Highways and Transportation",
+    "statusDate": "01/12/2023; 03:00 PM, Rm 405",
+    "lastAction": "(S) Hearing -- (S) Highways and Transportation",
     "billStatus": "In First House Committee--Nontabled",
     "fiscalNotesListUrl": "https://leg.mt.gov/laws/bills/2023/FNPDF/SB0033",
     "amendmentListUrl": null,
@@ -10746,10 +10789,10 @@
     "sponsor": "Theresa Manzella",
     "sponsorParty": "R",
     "sponsorDistrict": "SD 44",
-    "statusDate": "12/28/2022",
-    "lastAction": "(S) Referred to Committee -- (S) Highways and Transportation",
+    "statusDate": "01/10/2023; 03:00 PM, Rm 405",
+    "lastAction": "(S) Hearing -- (S) Highways and Transportation",
     "billStatus": "In First House Committee--Nontabled",
-    "fiscalNotesListUrl": null,
+    "fiscalNotesListUrl": "https://leg.mt.gov/laws/bills/2023/FNPDF/SB0057",
     "amendmentListUrl": null,
     "draftRequestor": null,
     "billRequestor": "Department of Transportation",
@@ -12918,8 +12961,8 @@
     "sponsor": "Carl Glimm",
     "sponsorParty": "R",
     "sponsorDistrict": "SD 2",
-    "statusDate": "01/04/2023",
-    "lastAction": "(S) Referred to Committee -- (S) Highways and Transportation",
+    "statusDate": "01/10/2023; 03:00 PM, Rm 405",
+    "lastAction": "(S) Hearing -- (S) Highways and Transportation",
     "billStatus": "In First House Committee--Nontabled",
     "fiscalNotesListUrl": null,
     "amendmentListUrl": null,
@@ -13295,8 +13338,8 @@
     "sponsor": "Susan Webber",
     "sponsorParty": "D",
     "sponsorDistrict": "SD 8",
-    "statusDate": "01/04/2023",
-    "lastAction": "(S) Referred to Committee -- (S) Highways and Transportation",
+    "statusDate": "01/12/2023; 03:00 PM, Rm 405",
+    "lastAction": "(S) Hearing -- (S) Highways and Transportation",
     "billStatus": "In First House Committee--Nontabled",
     "fiscalNotesListUrl": null,
     "amendmentListUrl": null,
@@ -13880,6 +13923,257 @@
     "subjects": [
       {
         "subject": "Gambling",
+        "fiscalCode": "",
+        "voteReq": "Simple"
+      }
+    ],
+    "voteRequirements": [
+      "Simple"
+    ],
+    "deadlineCategory": "General Bills",
+    "transmittalDeadline": "03/03/2023",
+    "amendedReturnDeadline": "04/17/2023"
+  },
+  {
+    "key": "SB 134",
+    "session": "20231",
+    "billPageUrl": "http://laws.leg.mt.gov/legprd/LAW0210W$BSIV.ActionQuery?P_BILL_NO1=134&P_BLTP_BILL_TYP_CD=SB&Z_ACTION=Find&P_SESS=20231",
+    "billTextUrl": "http://leg.mt.gov/bills/2023/lchtml/LC0573.htm",
+    "billPdfUrl": "http://leg.mt.gov/bills/2023/billpdf/LC0573.pdf",
+    "lc": "LC0573",
+    "title": "Revise injunction laws",
+    "sponsor": "Steve Fitzpatrick",
+    "sponsorParty": "R",
+    "sponsorDistrict": "SD 10",
+    "statusDate": "01/06/2023",
+    "lastAction": "(S) Introduced",
+    "billStatus": "In First House--Introduced",
+    "fiscalNotesListUrl": null,
+    "amendmentListUrl": null,
+    "draftRequestor": null,
+    "billRequestor": null,
+    "primarySponsor": "Steve Fitzpatrick",
+    "subjects": [
+      {
+        "subject": "Civil Procedure",
+        "fiscalCode": "",
+        "voteReq": "Simple"
+      },
+      {
+        "subject": "Courts  (see also: Judges and Justices; Juries and Jurors)",
+        "fiscalCode": "",
+        "voteReq": "Simple"
+      }
+    ],
+    "voteRequirements": [
+      "Simple"
+    ],
+    "deadlineCategory": "General Bills",
+    "transmittalDeadline": "03/03/2023",
+    "amendedReturnDeadline": "04/17/2023"
+  },
+  {
+    "key": "SB 135",
+    "session": "20231",
+    "billPageUrl": "http://laws.leg.mt.gov/legprd/LAW0210W$BSIV.ActionQuery?P_BILL_NO1=135&P_BLTP_BILL_TYP_CD=SB&Z_ACTION=Find&P_SESS=20231",
+    "billTextUrl": "http://leg.mt.gov/bills/2023/lchtml/LC0577.htm",
+    "billPdfUrl": "http://leg.mt.gov/bills/2023/billpdf/LC0577.pdf",
+    "lc": "LC0577",
+    "title": "Revise injunction laws",
+    "sponsor": "Steve Fitzpatrick",
+    "sponsorParty": "R",
+    "sponsorDistrict": "SD 10",
+    "statusDate": "01/06/2023",
+    "lastAction": "(S) Introduced",
+    "billStatus": "In First House--Introduced",
+    "fiscalNotesListUrl": null,
+    "amendmentListUrl": null,
+    "draftRequestor": null,
+    "billRequestor": null,
+    "primarySponsor": "Steve Fitzpatrick",
+    "subjects": [
+      {
+        "subject": "Civil Procedure",
+        "fiscalCode": "",
+        "voteReq": "Simple"
+      },
+      {
+        "subject": "Courts  (see also: Judges and Justices; Juries and Jurors)",
+        "fiscalCode": "",
+        "voteReq": "Simple"
+      }
+    ],
+    "voteRequirements": [
+      "Simple"
+    ],
+    "deadlineCategory": "General Bills",
+    "transmittalDeadline": "03/03/2023",
+    "amendedReturnDeadline": "04/17/2023"
+  },
+  {
+    "key": "SB 136",
+    "session": "20231",
+    "billPageUrl": "http://laws.leg.mt.gov/legprd/LAW0210W$BSIV.ActionQuery?P_BILL_NO1=136&P_BLTP_BILL_TYP_CD=SB&Z_ACTION=Find&P_SESS=20231",
+    "billTextUrl": "http://leg.mt.gov/bills/2023/lchtml/LC0576.htm",
+    "billPdfUrl": "http://leg.mt.gov/bills/2023/billpdf/LC0576.pdf",
+    "lc": "LC0576",
+    "title": "Revise injunction laws",
+    "sponsor": "Steve Fitzpatrick",
+    "sponsorParty": "R",
+    "sponsorDistrict": "SD 10",
+    "statusDate": "01/06/2023",
+    "lastAction": "(S) Introduced",
+    "billStatus": "In First House--Introduced",
+    "fiscalNotesListUrl": null,
+    "amendmentListUrl": null,
+    "draftRequestor": null,
+    "billRequestor": null,
+    "primarySponsor": "Steve Fitzpatrick",
+    "subjects": [
+      {
+        "subject": "Civil Procedure",
+        "fiscalCode": "",
+        "voteReq": "Simple"
+      },
+      {
+        "subject": "Courts  (see also: Judges and Justices; Juries and Jurors)",
+        "fiscalCode": "",
+        "voteReq": "Simple"
+      }
+    ],
+    "voteRequirements": [
+      "Simple"
+    ],
+    "deadlineCategory": "General Bills",
+    "transmittalDeadline": "03/03/2023",
+    "amendedReturnDeadline": "04/17/2023"
+  },
+  {
+    "key": "SB 137",
+    "session": "20231",
+    "billPageUrl": "http://laws.leg.mt.gov/legprd/LAW0210W$BSIV.ActionQuery?P_BILL_NO1=137&P_BLTP_BILL_TYP_CD=SB&Z_ACTION=Find&P_SESS=20231",
+    "billTextUrl": "http://leg.mt.gov/bills/2023/lchtml/LC0062.htm",
+    "billPdfUrl": "http://leg.mt.gov/bills/2023/billpdf/LC0062.pdf",
+    "lc": "LC0062",
+    "title": "Revise bike safety laws",
+    "sponsor": "Steve Fitzpatrick",
+    "sponsorParty": "R",
+    "sponsorDistrict": "SD 10",
+    "statusDate": "01/06/2023",
+    "lastAction": "(S) Introduced",
+    "billStatus": "In First House--Introduced",
+    "fiscalNotesListUrl": null,
+    "amendmentListUrl": null,
+    "draftRequestor": null,
+    "billRequestor": null,
+    "primarySponsor": "Steve Fitzpatrick",
+    "subjects": [
+      {
+        "subject": "Transportation  (see also: Motor Vehicles; Taxation--Transportation)",
+        "fiscalCode": "",
+        "voteReq": "Simple"
+      }
+    ],
+    "voteRequirements": [
+      "Simple"
+    ],
+    "deadlineCategory": "General Bills",
+    "transmittalDeadline": "03/03/2023",
+    "amendedReturnDeadline": "04/17/2023"
+  },
+  {
+    "key": "SB 138",
+    "session": "20231",
+    "billPageUrl": "http://laws.leg.mt.gov/legprd/LAW0210W$BSIV.ActionQuery?P_BILL_NO1=138&P_BLTP_BILL_TYP_CD=SB&Z_ACTION=Find&P_SESS=20231",
+    "billTextUrl": "http://leg.mt.gov/bills/2023/lchtml/LC0589.htm",
+    "billPdfUrl": "http://leg.mt.gov/bills/2023/billpdf/LC0589.pdf",
+    "lc": "LC0589",
+    "title": "Provide for preservation of prescriptive easements on land acquired by state",
+    "sponsor": "Steve Fitzpatrick",
+    "sponsorParty": "R",
+    "sponsorDistrict": "SD 10",
+    "statusDate": "01/06/2023",
+    "lastAction": "(S) Introduced",
+    "billStatus": "In First House--Introduced",
+    "fiscalNotesListUrl": null,
+    "amendmentListUrl": null,
+    "draftRequestor": null,
+    "billRequestor": null,
+    "primarySponsor": "Steve Fitzpatrick",
+    "subjects": [
+      {
+        "subject": "Property",
+        "fiscalCode": "",
+        "voteReq": "Simple"
+      },
+      {
+        "subject": "State Lands",
+        "fiscalCode": "",
+        "voteReq": "Simple"
+      }
+    ],
+    "voteRequirements": [
+      "Simple"
+    ],
+    "deadlineCategory": "General Bills",
+    "transmittalDeadline": "03/03/2023",
+    "amendedReturnDeadline": "04/17/2023"
+  },
+  {
+    "key": "SB 139",
+    "session": "20231",
+    "billPageUrl": "http://laws.leg.mt.gov/legprd/LAW0210W$BSIV.ActionQuery?P_BILL_NO1=139&P_BLTP_BILL_TYP_CD=SB&Z_ACTION=Find&P_SESS=20231",
+    "billTextUrl": "http://leg.mt.gov/bills/2023/lchtml/LC4278.htm",
+    "billPdfUrl": "http://leg.mt.gov/bills/2023/billpdf/LC4278.pdf",
+    "lc": "LC4278",
+    "title": "Revise non resident license laws related to harvesting mountain lions",
+    "sponsor": "Tom McGillvray",
+    "sponsorParty": "R",
+    "sponsorDistrict": "SD 23",
+    "statusDate": "01/06/2023",
+    "lastAction": "(S) Introduced",
+    "billStatus": "In First House--Introduced",
+    "fiscalNotesListUrl": null,
+    "amendmentListUrl": null,
+    "draftRequestor": null,
+    "billRequestor": null,
+    "primarySponsor": "Tom McGillvray",
+    "subjects": [
+      {
+        "subject": "Fish and Wildlife",
+        "fiscalCode": "",
+        "voteReq": "Simple"
+      }
+    ],
+    "voteRequirements": [
+      "Simple"
+    ],
+    "deadlineCategory": "General Bills",
+    "transmittalDeadline": "03/03/2023",
+    "amendedReturnDeadline": "04/17/2023"
+  },
+  {
+    "key": "SB 140",
+    "session": "20231",
+    "billPageUrl": "http://laws.leg.mt.gov/legprd/LAW0210W$BSIV.ActionQuery?P_BILL_NO1=140&P_BLTP_BILL_TYP_CD=SB&Z_ACTION=Find&P_SESS=20231",
+    "billTextUrl": "http://leg.mt.gov/bills/2023/lchtml/LC0924.htm",
+    "billPdfUrl": "http://leg.mt.gov/bills/2023/billpdf/LC0924.pdf",
+    "lc": "LC0924",
+    "title": "Revise union membership laws",
+    "sponsor": "Keith Regier",
+    "sponsorParty": "R",
+    "sponsorDistrict": "SD 3",
+    "statusDate": "01/06/2023",
+    "lastAction": "(S) Introduced",
+    "billStatus": "In First House--Introduced",
+    "fiscalNotesListUrl": null,
+    "amendmentListUrl": null,
+    "draftRequestor": null,
+    "billRequestor": null,
+    "primarySponsor": "Keith Regier",
+    "subjects": [
+      {
+        "subject": "Labor and Employment  (see also: Unemployment Insurance; Workers' Comp)",
         "fiscalCode": "",
         "voteReq": "Simple"
       }
