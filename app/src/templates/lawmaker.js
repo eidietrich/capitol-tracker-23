@@ -136,7 +136,7 @@ const LawmakerPage = ({ pageContext, data }) => {
         <AnchorLink to="#floor-statistics">Stats</AnchorLink> •
         {(articles.length > 0) && <><AnchorLink to="#mtfp-coverage">MTFP Coverage</AnchorLink> •</>}
         <AnchorLink to="#committees">Committees</AnchorLink> •
-        <AnchorLink to="#election-history">2022 Election margin</AnchorLink>
+        <AnchorLink to="#election-history">2022 election margin</AnchorLink>
       </div>
 
       <ReactMarkdown>{lawmakerPageText}</ReactMarkdown>
@@ -184,7 +184,7 @@ const History = ({ name, history }) => {
   const pastSessions = history.filter(d => d.year !== '2023')
   const pastHouseSessions = pastSessions.filter(d => d.chamber === 'house')
   const pastSenateSessions = pastSessions.filter(d => d.chamber === 'senate')
-  if ((history.length) === 0) {
+  if ((pastSessions.length) === 0) {
     return <p>2023 is the first session {name} has served in the Legislature.</p>
   } else if (pastSenateSessions.length === 0) {
     return <p>{name} previously served in the Montana House in {listToText(pastHouseSessions.map(d => d.year))}.</p>

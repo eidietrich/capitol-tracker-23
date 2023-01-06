@@ -26,7 +26,7 @@ const Calendar = () => {
                     committeesWithHearings.map(committee => {
                         const hearings = d.actions.filter(d => d.hearing && d.committee === committee)
                         return <div key={committee}>
-                            <h4>{committee.replace('(H)', 'House').replace('(S)', 'Senate')}</h4>
+                            <h4>{committee.replace('(H)', 'House').replace('(S)', 'Senate')} Cmte.</h4>
                             <ul>{hearings.map(hearing => <Hearing key={hearing.id} data={hearing} />)}</ul>
                         </div>
                     })
@@ -42,11 +42,11 @@ const Calendar = () => {
 
             <h2 id="upcoming-bill-hearings">Scheduled bill hearings</h2>
             <p>Hearings are an opportunity for the sponsor to explain a bill and for lobbyists and other members of the public to testify in support or opposition. Hearings are typically announced at least a few days in advance. Committees votes on forwarding bills for full floor debates typically happen at later committee meetings and often aren't announced in advance.</p>
-            <p>For more information on hearing times and locations, see <a href="http://laws.leg.mt.gov/legprd/LAW0240W$CMTE.ActionQuery?P_SESS=20231&P_COM_NM=&P_ACTN_DTM=01%2F02%2F2023&U_ACTN_DTM=05%2F01%2F2023&Z_ACTION2=Find#h_list">here for House committee hearings</a> and <a href="http://laws.leg.mt.gov/legprd/LAW0240W$CMTE.ActionQuery?P_SESS=20231&P_COM_NM=&P_ACTN_DTM=01%2F02%2F2023&U_ACTN_DTM=05%2F01%2F2023&Z_ACTION2=Find#s_list">here for Senate committee hearings</a>.</p>
+            <p>For more information on hearing times and locations, see <a href="http://laws.leg.mt.gov/legprd/LAW0240W$CMTE.ActionQuery?P_SESS=20231&P_COM_NM=&P_ACTN_DTM=01%2F02%2F2023&U_ACTN_DTM=05%2F01%2F2023&Z_ACTION2=Find#h_list" target="_blank" rel="noopener noreferrer">here for House committee hearings</a> and <a href="http://laws.leg.mt.gov/legprd/LAW0240W$CMTE.ActionQuery?P_SESS=20231&P_COM_NM=&P_ACTN_DTM=01%2F02%2F2023&U_ACTN_DTM=05%2F01%2F2023&Z_ACTION2=Find#s_list" target="_blank" rel="noopener noreferrer">here for Senate committee hearings</a>.</p>
             {upcomingHearings}
 
             <h2 id="upcoming-floor-actions">Scheduled House and Senate floor actions</h2>
-            <div>See also: <a href="http://laws.leg.mt.gov/legprd/laws_agendas.agendarpt?chamber=H&P_SESS=20211">Official House agendas</a>. <a href="http://laws.leg.mt.gov/legprd/laws_agendas.agendarpt?chamber=S&P_SESS=20211">Official Senate agendas</a>.</div>
+            <div>See also: <a href="http://laws.leg.mt.gov/legprd/laws_agendas.agendarpt?chamber=H&P_SESS=20231" target="_blank" rel="noopener noreferrer">Official House agendas</a>. <a href="http://laws.leg.mt.gov/legprd/laws_agendas.agendarpt?chamber=S&P_SESS=20231" target="_blank" rel="noopener noreferrer">Official Senate agendas</a>.</div>
 
             < Newsletter />
 

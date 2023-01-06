@@ -55,25 +55,27 @@ const navPrimaryStyle = css`
     padding: 0.2em;
     border: 1px solid #404040;
     background-color: #eee;
-    box-shadow: 1px 1px 2px #ddd;
+    box-shadow: 1px 1px 2px #ccc;
     display: flex;
     flex-direction: column;
 
     :hover {
         border: 1px solid #ce5a00;
-        background-color: #f8f8f8;
+        /* background-color: #f8f8f8; */
         text-decoration: none;
+        box-shadow: 1px 1px 2px #666;
     }
 `
 const navPrimaryTitle = css`
     font-weight: bold;
     text-transform: uppercase;
+    font-size: 13px;
     margin: 0.2em 0;
 `
 const navPrimaryInfo = css`
     color: #666;
     font-size: 0.8em;
-    font-weight: bold;
+    /* font-weight: bold; */
 `
 const navSecondaryStyle = css`
     display: block;

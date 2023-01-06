@@ -42,7 +42,6 @@ const House = ({ data }) => {
 
       <Newsletter />
 
-
       <ContactUs />
 
     </Layout>

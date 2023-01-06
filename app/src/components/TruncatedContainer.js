@@ -8,6 +8,9 @@ const centeredButtonCss = css`
     margin: 0 auto;
     font-size: 1.1em;
 `
+const contentCss = css`
+    margin-bottom: 0.5em;
+`
 
 const TruncatedContainer = (props) => {
     const { children } = props
@@ -23,7 +26,7 @@ const TruncatedContainer = (props) => {
         overflow: hidden;
     `
     return <div>
-        <div css={isClosed ? [truncateCss, bottomFadeCss] : []}>{children}</div>
+        <div css={isClosed ? [truncateCss, bottomFadeCss, contentCss] : [contentCss]}>{children}</div>
         <button css={[inlineButtonCss, centeredButtonCss]} onClick={toggleClosedState}>
             {
                 isClosed ? closedText : openedText

@@ -30,7 +30,7 @@ const Governor = ({ data }) => {
       <h1>Gov. Greg Gianforte</h1>
       <ReactMarkdown>{text}</ReactMarkdown>
 
-      <h2>Bills advanced to the governor</h2>
+      <h3>Bills advanced to the governor</h3>
       <BillTable bills={bills} />
 
       {/* <h2 id="governor-bills">The governor's desk</h2>

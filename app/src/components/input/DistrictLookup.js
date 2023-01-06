@@ -63,7 +63,7 @@ const messageLineCss = css`
     font-style: italic;
 `
 
-const defaultAddress = 'e.g. 1301 E 6th Ave, Helena'
+const defaultAddress = 'e.g., 1301 E 6th Ave, Helena'
 class DistrictLookup extends Component {
     constructor(props) {
         super(props)
@@ -124,13 +124,13 @@ class DistrictLookup extends Component {
                 <button css={searchButton} onClick={this.handleSubmit}>Look up</button>
             </div>
             {errorMessage && <div css={messageLineCss}>{errorMessage}</div>}
-            {matchedAddress && <div css={messageLineCss}>Districts for {matchedAddress}</div> }
+            {matchedAddress && <div css={messageLineCss}>Districts for {matchedAddress}</div>}
             <div css={resultContainer}>
                 {
-                    representative ? <LawmakerEntry lawmaker={representative} subtitle="House District"/> : null
+                    representative ? <LawmakerEntry lawmaker={representative} subtitle="House District" /> : null
                 }
                 {
-                    senator ? <LawmakerEntry lawmaker={senator} subtitle="Senate District"/> : null
+                    senator ? <LawmakerEntry lawmaker={senator} subtitle="Senate District" /> : null
                 }
                 {
                     (!representative && !senator) && <div css={placeholderCss}>Search results</div>

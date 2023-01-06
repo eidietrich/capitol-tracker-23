@@ -438,7 +438,7 @@
             },
             {
                 "committee": "House House Taxation",
-                "role": "Vice Chair"
+                "role": "Member"
             },
             {
                 "committee": "House House Joint Rules Committee",
@@ -4406,7 +4406,7 @@
         "committees": [
             {
                 "committee": "House House Taxation",
-                "role": "Member"
+                "role": "Vice Chair"
             },
             {
                 "committee": "House House Human Services",
@@ -4701,15 +4701,27 @@
         ],
         "committees": [
             {
-                "committee": "House House Transportation",
-                "role": "Member"
-            },
-            {
                 "committee": "House House Taxation",
                 "role": "Chair"
             },
             {
+                "committee": "Senate Senate Highways and Transportation",
+                "role": "Member"
+            },
+            {
+                "committee": "House House Transportation",
+                "role": "Member"
+            },
+            {
+                "committee": "Senate Senate Taxation",
+                "role": "Member"
+            },
+            {
                 "committee": "House House Agriculture",
+                "role": "Member"
+            },
+            {
+                "committee": "Senate Senate Public Health, Welfare and Safety",
                 "role": "Member"
             }
         ],
@@ -5169,6 +5181,10 @@
             {
                 "committee": "Joint Senate Committee of Whole",
                 "role": "Chair"
+            },
+            {
+                "committee": "Senate Senate Taxation",
+                "role": "Member"
             },
             {
                 "committee": "Senate Senate Fish and Game",
@@ -7614,6 +7630,26 @@
                 "year": "2023",
                 "url": "https://leg.mt.gov//legislator-information/roster/individual/7652",
                 "chamber": "senate"
+            },
+            {
+                "year": "2019",
+                "url": "https://leg.mt.gov/legislator-information/roster/individual/5104",
+                "chamber": "house"
+            },
+            {
+                "year": "2017",
+                "url": "https://leg.mt.gov/legislator-information/roster/individual/4787",
+                "chamber": "house"
+            },
+            {
+                "year": "2015",
+                "url": "https://leg.mt.gov/legislator-information/roster/individual/4545",
+                "chamber": "house"
+            },
+            {
+                "year": "2013",
+                "url": "https://leg.mt.gov/legislator-information/roster/individual/4158",
+                "chamber": "house"
             }
         ],
         "committees": [

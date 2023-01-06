@@ -42,7 +42,7 @@ class LawmakerLookup extends Component {
             <div css={labelCss}>Type to search by name.</div>
             <TextInput
                 handleInput={this.searchByName}
-                placeholder='e.g. Matt Regier'
+                placeholder='e.g., Matt Regier'
             />
             <div css={resultContainer}>
                 {
