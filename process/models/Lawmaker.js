@@ -3,6 +3,11 @@ import {
 } from '../config/overrides.js'
 
 import {
+    COMMITTEES,
+    EXCLUDE_COMMITTEES,
+} from '../config/committees.js'
+
+import {
     // filterToFloorVotes,
     // lawmakerLastName,
     lawmakerKey,
@@ -11,6 +16,7 @@ import {
     getLawmakerSummary,
     getLawmakerLastName,
     getLawmakerLocale,
+    cleanCommitteeName,
 } from '../functions.js'
 
 export default class Lawmaker {
@@ -41,6 +47,17 @@ export default class Lawmaker {
         this.name = standardName
         this.summary = getLawmakerSummary(standardName)
 
+        const committeeOrder = COMMITTEES.map(d => d.key)
+        const committeesCleaned = committees
+            .filter(d => !EXCLUDE_COMMITTEES.includes(d.committee))
+            .sort((a, b) => committeeOrder.indexOf(a.committee) - committeeOrder.indexOf(b.committee))
+            .map(d => {
+                return {
+                    committee: cleanCommitteeName(d.committee),
+                    role: d.role,
+                }
+            })
+
         this.data = {
             key: lawmakerKey(standardName),
             name: standardName,
@@ -62,7 +79,7 @@ export default class Lawmaker {
             party,
             phone,
             email,
-            committees,
+            committees: committeesCleaned,
             leadershipTitle: LeadershipRole,
 
             legislativeHistory: sessions.map(({ year, chamber }) => ({ year, chamber })),

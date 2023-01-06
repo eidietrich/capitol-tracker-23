@@ -73,6 +73,7 @@ export default class Action {
 
     getActionFlags = (description) => {
         const match = ACTIONS.find(d => d.key === description)
+
         if (!match) console.log('Missing cat for bill action', description)
         return { ...match }
     }

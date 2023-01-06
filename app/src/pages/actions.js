@@ -12,19 +12,27 @@ import Newsletter from '../components/Newsletter'
 
 import recap from '../data/recap.json'
 
+const EXCLUDE_TYPES = ['Introduced', 'First Reading', 'Referred to Committee', "Rereferred to Committee"]
+// TODO - push more of this into data processing step
+
 const Actions = () => {
     const { actionsByDate } = recap
 
     const actions = actionsByDate.map(d => {
-        const committeesWithActions = Array.from(new Set(d.actions.map(a => a.committee)))
+        const committeesWithActions = Array.from(new Set(d.actions
+            .filter(a => !EXCLUDE_TYPES.includes(a.description))
+            .map(a => a.committee)))
         return <div key={d.date}>
             <h3>{shortDateWithWeekday(new Date(d.date))}</h3>
             <div>
                 {
                     committeesWithActions.map(committee => {
-                        const actions = d.actions.filter(d => d.committee === committee)
+                        const actions = d.actions
+                            .filter(d => d.committee === committee)
+                            .filter(d => !EXCLUDE_TYPES.includes(d.description))
+                            .sort((a, b) => a.description.localeCompare(b.description))
                         return <div key={committee}>
-                            <h4>{committee && committee.replace('(H)', 'House').replace('(S)', 'Senate')}</h4>
+                            <h4>{committee ? committee : 'House and Senate floor'}</h4>
                             <ul>{actions.map(action => <Action key={action.id} data={action} />)}</ul>
                         </div>
                     })
@@ -62,8 +70,8 @@ const Action = (props) => {
     } = props.data
     const url = billUrl(bill)
     return <li>
-        <div>{description} - {bill}: <Link to={`/bills/${url}`}>{title}</Link></div>
-        <div class="note">{explanation}</div>
+        <div>{description} ({bill}: <Link to={`/bills/${url}`}>{title}</Link>)</div>
+        <div className="note">{explanation}</div>
     </li >
 
 }

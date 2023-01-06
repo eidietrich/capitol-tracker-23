@@ -34,7 +34,6 @@ const lawmakerAnnotations = getJson('./inputs/annotations/lawmaker-annotations.j
 const processAnnotations = getJson('./inputs/annotations/process-annotations.json')
 const guideText = getJson('./inputs/annotations/guide-text.json')
 
-
 const articles = articlesRaw.map(article => new Article({ article }).export())
 
 /// do lawmakers first, then bills
@@ -79,6 +78,9 @@ lawmakers.forEach(lawmaker => {
         lawmaker.votingSummary = senateFloorVoteAnalysis.getLawmakerStats(lawmaker.name)
     }
 })
+
+// const committeeList = Array.from(new Set(lawmakersRaw.map(d => d.committees.map(c => c.committee)).flat())).map(c => ({key: c}))
+// writeJson('./process/config/committees.json', committeeList)
 
 // const summaryRoster = lawmakers.map(d => {
 //     return {

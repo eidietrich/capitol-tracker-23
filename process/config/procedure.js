@@ -139,10 +139,14 @@ const vetoOverriddenSenate = true
 const vetoOverridden = true // would be used by successful veto override poll?
 const vetoOverrideFailed = true
 
+const scheduledForFloorDebate = true
+const scheduledForFinalVote = true
+
 const missedDeadline = true
 
 const ultimatelyFailed = true
 const ultimatelyPassed = true
+
 
 export const ACTIONS = [
     // omitting {flag: false} fields here for clarity
@@ -362,10 +366,10 @@ export const ACTIONS = [
     { key: 'Revised Fiscal Note Received', },
     { key: 'Revised Fiscal Note Requested', },
     { key: 'Revised Fiscal Note Signed', },
-    { key: 'Scheduled for 2nd Reading', },
+    { key: 'Scheduled for 2nd Reading', scheduledForFloorDebate },
     { key: '2nd Reading Pass Consideration' },
     { key: '2nd Reading Indefinitely Postpone Motion Failed' },
-    { key: 'Scheduled for 3rd Reading', },
+    { key: 'Scheduled for 3rd Reading', scheduledForFinalVote },
     { key: '3rd Reading Pass Consideration' },
     { key: 'Scheduled for Executive Action', },
     { key: 'Sent to Enrolling', },

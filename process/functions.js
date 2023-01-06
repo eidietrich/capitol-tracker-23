@@ -3,6 +3,11 @@ import {
     LAWMAKER_NAME_CLEANING
 } from './config/people.js'
 
+import {
+    COMMITTEES,
+    EXCLUDE_COMMITTEES,
+} from './config/committees.js'
+
 import { getJson } from './utils.js'
 
 const roster = getJson('./process/config/lawmaker-roster-2023.json')
@@ -43,4 +48,10 @@ export const getLawmakerSummary = standardName => {
         locale: match.locale,
         district: match.district,
     }
+}
+
+export const cleanCommitteeName = rawCommitteeName => {
+    const match = COMMITTEES.find(d => d.key === rawCommitteeName)
+    if (!match) console.error(`Committee list missing`, rawCommitteeName)
+    return match.name
 }

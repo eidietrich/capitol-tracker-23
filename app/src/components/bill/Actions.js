@@ -46,28 +46,28 @@ const actionCss = css`
   vertical-align: top;
 `
 const actionWidth = css`
-  width: 35em;
+  width: 45em;
   @media screen and (max-width: 760px) {
-    width: 25em;
+    width: 35em;
   }
   @media screen and (max-width: 600px) {
-    width: 20em;
+    width: 30em;
   }
   @media screen and (max-width: 468px) {
-    width: 16em;
+    width: 21em;
   }
 `
 
-const committeeCss = css`
-  font-style: italic;
-  vertical-align: top;
-`
-const committeeColWidth = css`
-  width: 10em;
-  @media screen and (max-width: 468px) {
-    width: 5em;
-  }
-`
+// const committeeCss = css`
+//   font-style: italic;
+//   vertical-align: top;
+// `
+// const committeeColWidth = css`
+//   width: 10em;
+//   @media screen and (max-width: 468px) {
+//     width: 5em;
+//   }
+// `
 const highlightRow = css`
   background-color: #cebc9f;
 `
@@ -145,7 +145,7 @@ class BillActions extends Component {
             {/* <th>Symbol</th> */}
             <th>Date</th>
             <th>Action</th>
-            <th>Location</th>
+            {/* <th>Location</th> */}
           </tr>
         </thead>
         <tbody>
@@ -181,7 +181,8 @@ const Action = (action, showVotes, annotations) => {
 
     <td css={actionCss}><div css={actionWidth}>
       <div css={descriptionCss}>
-        {description}
+        <div>{description}</div>
+        <div>{committee && <>👥 <em>{committee}</em></>}</div>
       </div>
       {/* <div css={descriptionCss}>
         { classification ? <span>Classification: {classification}</span> : null }
@@ -211,7 +212,7 @@ const Action = (action, showVotes, annotations) => {
         })
       }
     </div></td>
-    <td css={committeeCss}><div css={committeeColWidth}>{committee}</div></td>
+    {/* <td css={committeeCss}><div css={committeeColWidth}>{committee}</div></td> */}
   </tr >
 }
 
@@ -383,14 +384,14 @@ const voteIndicator = css`
   text-transform: capitalize;
 `
 const nameLine = css`
-  width: 13em;
+  width: 18em;
   padding: 0.1em;
 `
 
 const VoteItem = (vote) => {
-  const { option, name, city, party } = vote
+  const { option, name, locale, party } = vote
   const choice = option.replace('absent', 'abs').replace('excused', 'exc')
-  const locale = city.replace(' ', '\u00a0') // prevents line break on space
+  const localeRender = locale.replace(' ', '\u00a0') // prevents line break on space
   const voteColor = css`
     background-color: ${positionColors(choice.toUpperCase()[0])};
   `
@@ -400,7 +401,7 @@ const VoteItem = (vote) => {
   return <div key={name} css={voteItemCss}>
     <div css={[voteIndicator, voteColor]}>{choice}</div>
     <div css={nameLine}>
-      <strong css={nameColor}>{name}</strong> (<em>{locale}</em>)
+      <strong css={nameColor}>{name}</strong> (<em>{localeRender}</em>)
     </div>
   </div>
 }

@@ -94,8 +94,8 @@ class DistrictLookup extends Component {
 
     handleResult({ hd, sd, location }) {
         const lawmakers = this.props.lawmakers
-        const representative = lawmakers.find(lawmaker => lawmaker.district.key.replace(' ', '') === hd)
-        const senator = lawmakers.find(lawmaker => lawmaker.district.key.replace(' ', '') === sd)
+        const representative = lawmakers.find(lawmaker => lawmaker.district.replace(' ', '') === hd)
+        const senator = lawmakers.find(lawmaker => lawmaker.district.replace(' ', '') === sd)
         this.setState({
             matchedAddress: location,
             errorMessage: null,
@@ -145,15 +145,13 @@ class DistrictLookup extends Component {
 
 const LawmakerEntry = ({ lawmaker, subtitle }) => {
     const { key, title, name, party, district, locale, phone, email } = lawmaker
-    const districtKey = district.key
     return <div css={resultItem}>
-        <div>{subtitle}</div>
-        <div css={resultLabel}>{districtKey}</div>
+        <div css={resultLabel}>{district.replace('SD', 'Senate District').replace('HD', 'House District')}</div>
         <div css={resultName}>
             <Link to={`/lawmakers/${key}`}>{title} {name}</Link>
         </div>
-        <div>({party}-{locale.short})</div>
-        <div><a href={`tel:${cleanPhoneString(phone)}`}>{phone}</a> | <a href={`mailto:${email}`}>{email}</a></div>
+        <div>({party}-{locale})</div>
+        <div><a href={`tel:${cleanPhoneString(phone)}`}>{phone}</a> • <a href={`mailto:${email}`}>{email}</a></div>
     </div>
 }
 

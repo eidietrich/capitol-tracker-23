@@ -92,8 +92,9 @@ const Nav = (props) => <div css={navStyle}>
         <AnchorLink css={[navItemStyle, navSecondaryStyle]} to='/#find-bill'>🔎 Find a bill</AnchorLink>
         <AnchorLink css={[navItemStyle, navSecondaryStyle]} to='/#find-lawmaker'>🔎 Find a lawmaker</AnchorLink>
         <AnchorLink css={[navItemStyle, navSecondaryStyle]} to='/#find-district'>🏡 Your district</AnchorLink>
-        <AnchorLink css={[navItemStyle, navSecondaryStyle]} to='/calendar'>🗓 What's upcoming</AnchorLink>
-        <AnchorLink css={[navItemStyle, navSecondaryStyle]} to='/participation#participation'>🙋 How to participate</AnchorLink>
+        <Link css={[navItemStyle, navSecondaryStyle]} to='/calendar'>🗓 Calendar</Link>
+        <Link css={[navItemStyle, navSecondaryStyle]} to='/actions'>⏳ What's happened</Link>
+        <Link css={[navItemStyle, navSecondaryStyle]} to='/participation#participation'>🙋 How to participate</Link>
     </div>
 
     <div css={[navRowStyle, navRowPrimary]}>
