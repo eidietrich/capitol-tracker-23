@@ -1,12 +1,12 @@
-// import { timeFormat } from 'd3-time-format'
-// const dateFormat = timeFormat('%x')
+import { timeFormat } from 'd3-time-format'
+const dateFormat = timeFormat('%x')
 
 
 export default class CalendarPage {
     constructor({ actions, bills, updateTime, calendarAnnotations }) {
         const beginningOfToday = new Date(updateTime).setUTCHours(0, 0, 0, 0)
-        
-        
+
+
         const todayOrLaterActions = actions.filter(d => d.date >= beginningOfToday)
             .map(a => {
                 // This adds data to allow more fulsome bill listings
@@ -21,6 +21,8 @@ export default class CalendarPage {
         const scheduledHearings = todayOrLaterActions.filter(d => d.hearing)
         const scheduledFloorDebates = todayOrLaterActions.filter(d => d.scheduledForFloorDebate)
         const scheduledFinalVotes = todayOrLaterActions.filter(d => d.scheduledForFinalVote)
+        const datesOnCalendar = Array.from(new Set(scheduledHearings.concat(scheduledFloorDebates).concat(scheduledFinalVotes).map(d => dateFormat(d.date))))
+            .sort((a, b) => a - b)
 
         // const actionTypes = Array.from(new Set(majorActions.map(d => d.description)))
 
@@ -41,6 +43,7 @@ export default class CalendarPage {
         // })
 
         this.data = {
+            datesOnCalendar,
             scheduledHearings,
             scheduledFloorDebates,
             scheduledFinalVotes

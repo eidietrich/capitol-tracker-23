@@ -15,12 +15,9 @@ const getDay = d => shortDateWithWeekday(new Date(d))
 const urlizeDay = day => day.replaceAll(',', '').replaceAll(' ', '-')
 
 const Calendar = () => {
-    const { scheduledHearings, scheduledFloorDebates, scheduledFinalVotes } = calendar
+    const { scheduledHearings, scheduledFloorDebates, scheduledFinalVotes, datesOnCalendar } = calendar
 
-    const days = Array.from(new Set(scheduledHearings.concat(scheduledFloorDebates).concat(scheduledFinalVotes).map(d => d.date)))
-        .sort((a, b) => a - b)
-        .map(d => getDay(d))
-
+    const days = datesOnCalendar.map(d => getDay(d))
     const schedule = days.map(day => {
 
         const floorDebates = scheduledFloorDebates.filter(d => getDay(d.date) === day)
@@ -41,7 +38,7 @@ const Calendar = () => {
                     {
                         chambersWithDebates.map(chamber => {
                             const chamberVotes = floorDebates.filter(d => d.posession === chamber)
-                            return <div key={`${day}-${chamber}`}>
+                            return <div key={`second-${day}-${chamber}`}>
                                 <h5>{capitalize(chamber)} floor session</h5>
                                 <ul>{chamberVotes.map(d => <FloorDebate key={d.id} data={d} />)}</ul>
                             </div>
@@ -56,7 +53,7 @@ const Calendar = () => {
                     {
                         chambersWithFinalVotes.map(chamber => {
                             const chamberVotes = finalVotes.filter(d => d.posession === chamber)
-                            return <div key={`${day}-${chamber}`}>
+                            return <div key={`third-${day}-${chamber}`}>
                                 <h5>{capitalize(chamber)} floor session</h5>
                                 <ul>{chamberVotes.map(d => <FinalVote key={d.id} data={d} />)}</ul>
                             </div>
@@ -88,7 +85,7 @@ const Calendar = () => {
             <h1>What's coming up at the Legislature</h1>
 
             <div>
-                {days.map((day, i) => <>{i !== 0 ? ' • ' : ''}<AnchorLink key={day} to={`calendar/#${urlizeDay(day)}`}>{day}</AnchorLink></>)}
+                {days.map((day, i) => <span key={day}>{i !== 0 ? ' • ' : ''}<AnchorLink to={`calendar/#${urlizeDay(day)}`}>{day}</AnchorLink></span>)}
             </div>
 
             {schedule}
