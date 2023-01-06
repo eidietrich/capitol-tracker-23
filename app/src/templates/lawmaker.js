@@ -120,11 +120,11 @@ const LawmakerPage = ({ pageContext, data }) => {
             <div css={leadershipLineCss}>{leadershipTitle}</div>
             <hr />
           </>}
-          <div css={districtLineCss}>Representing {district}</div>
+          <div css={districtLineCss}>Representing <strong>{district.replace('SD', 'Senate District').replace('HD', 'House District>')}</strong></div>
           <div css={localeLineCss}>{districtLocale}</div>
           <div css={contactLineCss}>
             {phone && <a href={`tel:${cleanPhoneString(phone)}`}>{phone}</a>}
-            {(phone && email) && <span> | </span>}
+            {(phone && email) && <span> • </span>}
             {email && <a href={`mailto:${email}`}>{email}</a>}
           </div>
         </div>

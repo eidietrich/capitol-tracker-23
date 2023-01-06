@@ -67,6 +67,7 @@ exports.createSchemaCustomization = ({ actions }) => {
             date: Date
             link: String
             author: String
+            category: String
             imageUrl: String
             billTags: [String]
             lawmakerTags: [String]

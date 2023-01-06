@@ -12,7 +12,8 @@ export default class Article {
         this.tags = article.tags.nodes.map(d => d.name)
         this.data = {
             title: article.title,
-            subtitle: '',
+            category: article.categories.nodes[0].name,
+            subtitle: '', // Hard to get
             date: new Date(article.date),
             link: article.link,
             // tags: this.tags,

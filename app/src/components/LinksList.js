@@ -2,7 +2,7 @@ import React from 'react'
 import { css } from '@emotion/react'
 
 import {
-    dateFormat
+    dateFormatWithYear
 } from '../config/utils'
 
 import {
@@ -20,7 +20,7 @@ const linkStyle = css`
     display: block;
     background-color: #EAE3DA;
     color: #222;
-    padding: 0.3em 0.5em;
+    padding: 0.7em 0.7em;
     border: 1px solid #806F47;
     margin: 0.3em;
 
@@ -39,19 +39,28 @@ const linkStyle = css`
         
     }
 
+    /* .image {
+        width: 100%;
+        height: auto;
+    } */
+
     .dek {
         font-size: 0.8em;
         line-height: 0.9em;
-        font-weight: bold;
+        text-transform: uppercase;
+        color: var(--gray4) !important;
+        margin-bottom: 0.5em;
     }
 
     .title {
         font-size: 1em;
+        font-weight: bold;
         line-height: 1em;
         color: #ce5a00;
+        margin-bottom: 0.3em;
     }
 
-    .date {
+    .detail {
         font-size: 0.8em;
         font-style: italic;
         color: #666;
@@ -60,7 +69,7 @@ const linkStyle = css`
 `
 
 // Handles null dates from improperly parsed links
-const presentDate = date => date ? dateFormat(new Date(date)) : null
+const presentDate = date => date ? dateFormatWithYear(new Date(date)) : null
 
 const LinksList = ({ articles }) => {
     if (articles.length === 0) return <div css={containerStyle}>
@@ -72,13 +81,7 @@ const LinksList = ({ articles }) => {
             {
                 articles
                     .sort((a, b) => new Date(b.date) - new Date(a.date))
-                    .map((article, i) => <Link
-                        key={String(i)}
-                        link={article.link}
-                        // dek={article.publication}
-                        title={article.title}
-                        date={article.date}
-                    />)
+                    .map((article, i) => <Link key={String(i)} {...article} />)
             }
         </div>
     </div>
@@ -86,10 +89,11 @@ const LinksList = ({ articles }) => {
 export default LinksList
 
 const Link = (props) => {
-    const { link, dek, title, date } = props
+    const { link, title, date, category, author } = props
     return <a css={linkStyle} href={link}>
-        <div className='dek'>{dek}</div>
+        {/* <div><img className="image" src={imageUrl} /></div> */}
+        <div className='dek'>📰 {category}</div>
         <div className='title'>{title}</div>
-        <div className='date'>{presentDate(date)}</div>
+        <div className='detail'>{presentDate(date)} • {author}</div>
     </a>
 }
