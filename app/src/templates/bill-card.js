@@ -154,7 +154,7 @@ const BillCard = ({ pageContext }) => {
     return <div>
         <div id="embed" css={billCardCss}>
             <div className="title">
-                <div>{identifier}: <a href={`${BASE_URL}/bills/${key}`} target="_parent">{title}</a></div>
+                <div>{identifier}: <a href={`${BASE_URL}/bills/${key}`} target="_blank" rel="noopener noreferrer">{title}</a></div>
                 <div className="explanation">{explanation}</div>
             </div>
 
@@ -182,7 +182,7 @@ const BillCard = ({ pageContext }) => {
                     {progression}
                 </div>
             </div>
-            <div className="promo">🗒 <a href={`${BASE_URL}/bills/${key}`} target="_parent">More info</a> on MTFP's 2023 Capitol Tracker</div>
+            <div className="promo">🗒 <a href={`${BASE_URL}/bills/${key}`} target="_blank" rel="noopener noreferrer">More info</a> on MTFP's 2023 Capitol Tracker</div>
         </div>
 
         <div css={embedInputContainerStyle}>

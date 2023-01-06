@@ -160,7 +160,7 @@ const LawmakerPage = ({ pageContext, data }) => {
     }}>
         <div id="embed" css={lawmakerCardCss}>
             <div>
-                <a href={`${BASE_URL}/lawmakers/${key}`} target="_parent"><div className="name">{title} {name}</div></a>
+                <a href={`${BASE_URL}/lawmakers/${key}`} target="_blank" rel="noopener noreferrer"><div className="name">{title} {name}</div></a>
             </div>
             <div className="top-section" style={{ borderBottom: `3px solid ${color}` }}>
                 <div className="left">
@@ -177,13 +177,13 @@ const LawmakerPage = ({ pageContext, data }) => {
                 <div className="session">2023 Legislature – {ordinalize(legislativeHistory.length)} session</div>
                 <div className="item">
                     {committees.length > 0 ?
-                        <>👥 {mainCommittee.role} {mainCommittee.committee} and <strong>{otherCommittees.length}</strong> <a href={`${BASE_URL}/lawmakers/${key}#committees`} target="_parent">other committee assignment{pluralize(otherCommittees.length)}</a></>
+                        <>👥 {mainCommittee.role} {mainCommittee.committee} and <strong>{otherCommittees.length}</strong> <a href={`${BASE_URL}/lawmakers/${key}#committees`} target="_blank" rel="noopener noreferrer">other committee assignment{pluralize(otherCommittees.length)}</a></>
                         : <>👥 <strong>0</strong> committee assignments</>
                     }
                 </div>
-                <div className="item">📋 <strong>{sponsoredBills.length}</strong> <a href={`${BASE_URL}/lawmakers/${key}#bills-sponsored`} target="_parent"> bill{pluralize(sponsoredBills.length)} introduced</a></div>
-                <div className="item">📰 <strong>{articles.length}</strong> <a href={`${BASE_URL}/lawmakers/${key}#mtfp-coverage`} target="_parent">reference{pluralize(articles.length)} in MTFP coverage</a></div>
-                <div className="promo">🗒 <a href={`${BASE_URL}/`} target="_parent">See more</a> on MTFP's 2023 Capitol Tracker</div>
+                <div className="item">📋 <strong>{sponsoredBills.length}</strong> <a href={`${BASE_URL}/lawmakers/${key}#bills-sponsored`} target="_blank" rel="noopener noreferrer"> bill{pluralize(sponsoredBills.length)} introduced</a></div>
+                <div className="item">📰 <strong>{articles.length}</strong> <a href={`${BASE_URL}/lawmakers/${key}#mtfp-coverage`} target="_blank" rel="noopener noreferrer">reference{pluralize(articles.length)} in MTFP coverage</a></div>
+                <div className="promo">🗒 <a href={`${BASE_URL}/`} target="_blank" rel="noopener noreferrer">See more</a> on MTFP's 2023 Capitol Tracker</div>
             </div>
         </div>
 
