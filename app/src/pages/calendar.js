@@ -28,12 +28,10 @@ const getDay = d => shortDateWithWeekday(new Date(d))
 const urlizeDay = day => day.replaceAll(',', '').replaceAll(' ', '-')
 
 const Calendar = ({ data }) => {
-    const { scheduledHearings, scheduledFloorDebates, scheduledFinalVotes, datesOnCalendar } = calendar
+    const { scheduledHearings, scheduledFloorDebates, scheduledFinalVotes, datesOnCalendar, billsOnCalendar } = calendar
     const onCalendarBills = data.onCalendarBills.edges.map(d => d.node)
 
-    // console.log(onCalendarBills)
-
-
+    // console.log(billsOnCalendar)
 
     const days = datesOnCalendar.map(d => getDay(d))
     const schedule = days.map((day, i) => {
