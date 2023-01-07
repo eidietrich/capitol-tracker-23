@@ -32,7 +32,6 @@ export default class CalendarPage {
             scheduledHearings,
             scheduledFloorDebates,
             scheduledFinalVotes,
-
         }
     }
     export = () => ({ ...this.data })
