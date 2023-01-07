@@ -75,32 +75,7 @@ export const query = graphql`
     governorBills: allBillsJson(filter: {hasBeenSentToGovernor: {eq: true}}) {
       edges {
         node {
-          title
-          identifier
-          chamber
-          status {
-            key
-            step
-            label
-            status
-          }
-          progress {
-            step
-            status
-            statusLabel
-            statusDate
-          }
-          explanation
-          majorBillCategory
-          textUrl
-          fiscalNoteUrl
-          legalNoteUrl
-          vetoMemoUrl
-          sponsor {
-            name
-            district
-            party
-          }
+          ...BillTableData
         }
       }
     }

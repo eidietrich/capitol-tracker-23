@@ -5,7 +5,7 @@
 
 import React, { Component } from 'react';
 import PropTypes from "prop-types"
-import { Link } from 'gatsby'
+import { Link, graphql } from 'gatsby'
 import { css } from '@emotion/react'
 
 // import { AnchorLink } from "gatsby-plugin-anchor-links";
@@ -151,7 +151,7 @@ const billLinkCss = css`
   display: inline-block;
   color: #ae9864;
   border: 1px solid #ae9864;
-  padding: 0.2em 0.5em;
+  padding: 0.5em 0.5em;
 
   :hover {
     color:  #ce5a00;
@@ -161,6 +161,12 @@ const billLinkCss = css`
 `
 const progressStepStyle = css`
   margin-bottom: 0.1em;
+  font-size: 12px;
+  border-top: 1px solid var(--tan4);
+
+  :first-of-type {
+    border-top: none;
+  }
   
   .icon {
     /* background-color: var(--gray1); */
@@ -237,17 +243,24 @@ Bill.propTypes = {
 
 export default BillTable
 
-/* export const BillTableDataFragment = graphql`
+export const BillTableDataFragment = graphql`
   fragment BillTableData on BillsJson {
     title
     identifier
+    chamber
     status {
       key
       step
       label
       status
     }
-    label
+    progress {
+      step
+      status
+      statusLabel
+      statusDate
+    }
+    explanation
     majorBillCategory
     textUrl
     fiscalNoteUrl
@@ -259,4 +272,4 @@ export default BillTable
       party
     }
   }
-` */
+`

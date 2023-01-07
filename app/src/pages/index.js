@@ -7,7 +7,8 @@ import Seo from '../components/Seo'
 // import TruncatedContainer from '../components/TruncatedContainer'
 import BillTable from '../components/BillTable'
 import InfoPopup from '../components/InfoPopup'
-import Newsletter from '../components/Newsletter'
+// import Newsletter from '../components/Newsletter'
+import NewsletterSignup from '../components/NewsletterSignup'
 import ContactUs from '../components/ContactUs'
 
 // import BillStatusOverview from '../components/overview/BillStatuses'
@@ -52,7 +53,7 @@ const Index = ({ data, location }) => {
       }
       {/* </TruncatedContainer> */}
 
-      <Newsletter />
+      <NewsletterSignup />
 
       <h2 id="find-bill">Find a bill</h2>
       <BillLookup bills={billIndex} />
@@ -83,33 +84,7 @@ export const query = graphql`
     keyBills: allBillsJson (filter: {isMajorBill: {eq: true}}){
       edges {
         node {
-          # ...BillTableData
-          title
-          identifier
-          chamber
-          status {
-            key
-            step
-            label
-            status
-          }
-          progress {
-            step
-            status
-            statusLabel
-            statusDate
-          }
-          explanation
-          majorBillCategory
-          textUrl
-          fiscalNoteUrl
-          legalNoteUrl
-          vetoMemoUrl
-          sponsor {
-            name
-            district
-            party
-          }
+          ...BillTableData
         }
       }
     }

@@ -8,45 +8,31 @@ export default class CalendarPage {
 
 
         const todayOrLaterActions = actions.filter(d => d.date >= beginningOfToday)
-            .map(a => {
-                // This adds data to allow more fulsome bill listings
-                const actionBill = bills.find(d => d.data.identifier === a.bill)
-                if (!actionBill) throw `Error, bad action match, ${a.bill}`
-                return {
-                    ...a,
-                    title: actionBill.data.title,
-                    explanation: actionBill.data.explanation,
-                }
-            })
+        // .map(a => {
+        //     // This adds data to allow more fulsome bill listings
+        //     const actionBill = bills.find(d => d.data.identifier === a.bill)
+        //     if (!actionBill) throw `Error, bad action match, ${a.bill}`
+        //     return {
+        //         ...a,
+        //         title: actionBill.data.title,
+        //         explanation: actionBill.data.explanation,
+        //     }
+        // })
         const scheduledHearings = todayOrLaterActions.filter(d => d.hearing)
         const scheduledFloorDebates = todayOrLaterActions.filter(d => d.scheduledForFloorDebate)
         const scheduledFinalVotes = todayOrLaterActions.filter(d => d.scheduledForFinalVote)
         const datesOnCalendar = Array.from(new Set(scheduledHearings.concat(scheduledFloorDebates).concat(scheduledFinalVotes).map(d => dateFormat(d.date))))
             .sort((a, b) => a - b)
 
-        // const actionTypes = Array.from(new Set(majorActions.map(d => d.description)))
-
-        // const datesOnCalendar = Array.from(new Set(todayOrLaterActions.sort((a, b) => a.date - b.date).map(d => dateFormat(d.date))))
-        // const actionsByDate = datesOnCalendar.map(date => {
-        //     return {
-        //         date,
-        //         actions: todayOrLaterActions.filter(d => dateFormat(d.date) === date).map(a => {
-        //             const actionBill = bills.find(d => d.data.identifier === a.bill)
-        //             if (!actionBill) throw `Error, bad action match, ${a.bill}`
-        //             return {
-        //                 ...a,
-        //                 title: actionBill.data.title,
-        //                 explanation: actionBill.data.explanation,
-        //             }
-        //         })
-        //     }
-        // })
+        const billsOnCalendar = Array.from(new Set([...scheduledHearings, ...scheduledFloorDebates, ...scheduledFinalVotes].map(d => d.bill)))
 
         this.data = {
             datesOnCalendar,
+            billsOnCalendar,
             scheduledHearings,
             scheduledFloorDebates,
-            scheduledFinalVotes
+            scheduledFinalVotes,
+
         }
     }
     export = () => ({ ...this.data })

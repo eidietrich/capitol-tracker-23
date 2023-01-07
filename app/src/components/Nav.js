@@ -69,8 +69,12 @@ const navPrimaryStyle = css`
 const navPrimaryTitle = css`
     font-weight: bold;
     text-transform: uppercase;
-    font-size: 13px;
+    font-size: 1.1em;
     margin: 0.2em 0;
+
+    @media screen and (max-width: 400px) {
+        font-size: 13px;
+    }
 `
 const navPrimaryInfo = css`
     color: #666;
@@ -78,22 +82,25 @@ const navPrimaryInfo = css`
     /* font-weight: bold; */
 `
 const navSecondaryStyle = css`
+    flex: 1 0 8em;
     display: block;
-    max-width: 12em;
-    margin: 0em 0.5em;
+    border: 1px solid var(--gray2);
+    padding: 0.2em 0.5em;
+    
+    margin: 0em 0.25em;
     margin-bottom: 0.25em;
 `
 
 const Nav = (props) => <div css={navStyle}>
 
     <div css={[navRowStyle, navRowSecondary]}>
-        <AnchorLink css={[navItemStyle, navSecondaryStyle]} to='/'>🧭 Overview</AnchorLink>
+        <Link css={[navItemStyle, navSecondaryStyle]} to='/'>🐾 Overview</Link>
         <AnchorLink css={[navItemStyle, navSecondaryStyle]} to='/#key-bill-status'>📑 Key bills</AnchorLink>
         <AnchorLink css={[navItemStyle, navSecondaryStyle]} to='/#find-bill'>🔎 Find a bill</AnchorLink>
         <AnchorLink css={[navItemStyle, navSecondaryStyle]} to='/#find-lawmaker'>🔎 Find a lawmaker</AnchorLink>
         <AnchorLink css={[navItemStyle, navSecondaryStyle]} to='/#find-district'>🏡 Your district</AnchorLink>
         <Link css={[navItemStyle, navSecondaryStyle]} to='/calendar'>🗓 Calendar</Link>
-        <Link css={[navItemStyle, navSecondaryStyle]} to='/actions'>⏳ What's happened</Link>
+        <Link css={[navItemStyle, navSecondaryStyle]} to='/actions'>📝 What's happened</Link>
         <Link css={[navItemStyle, navSecondaryStyle]} to='/participation#participation'>🙋 How to participate</Link>
     </div>
 

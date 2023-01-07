@@ -27,6 +27,7 @@ exports.createSchemaCustomization = ({ actions }) => {
             progress: [BillProgressStep]
             sponsor: BillSponsor
             hasBeenSentToGovernor: Boolean
+            isOnCalendar: Boolean
             requestor: String
             deadlineCategory: String
             transmittalDeadline: Date

@@ -86,17 +86,17 @@ const LawmakerVotingSummary = ({ lawmaker, votingSummary }) => {
     <div className="text">Calculations based on {numberFormat(votingSummary.numVotesCast)} {capitalize(lawmaker.chamber)} floor votes in 2023 involving bills.</div>
     <div className="pull-stat-container">
       <div className="pull-stat-item">
-        <div className="stat">{percentFormat(votingSummary.fractionVotesWithGopCaucus)}</div>
+        <div className="stat">🥇{percentFormat(votingSummary.fractionVotesOnWinningSide)}</div>
         <div className="stat-label">of votes cast on winning side</div>
         <div className="stat-context">Average for {capitalize(lawmaker.chamber)} {partyLabeled} is {percentFormat(winningSideComparison)}.</div>
       </div>
       <div className="pull-stat-item">
-        <div className="stat">{percentFormat(votingSummary.fractionVotesWithGopCaucus)}</div>
+        <div className="stat">🔴{percentFormat(votingSummary.fractionVotesWithGopCaucus)}</div>
         <div className="stat-label">of votes cast on side taken by most Republicans</div>
         <div className="stat-context">Average for {capitalize(lawmaker.chamber)} {partyLabeled} is {percentFormat(gopVoteComparison)}.</div>
       </div>
       <div className="pull-stat-item">
-        <div className="stat">{percentFormat(votingSummary.fractionVotesWithDemCaucus)}</div>
+        <div className="stat">🔵{percentFormat(votingSummary.fractionVotesWithDemCaucus)}</div>
         <div className="stat-label">of votes cast on side taken by most Democrats</div>
         <div className="stat-context">Average for {capitalize(lawmaker.chamber)} {partyLabeled} is {percentFormat(demVoteComparison)}.</div>
       </div>

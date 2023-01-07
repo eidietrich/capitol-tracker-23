@@ -14,7 +14,7 @@ export const formatTime = timeFormat('%-I:%M %p, %-m/%-d/%y')
 export const formatTimeLong = timeFormat('%-I:%M %p %b %-d, %Y')
 export const dateFormatLong = timeFormat('%B %-d')
 export const dateFormatWithWeekday = timeFormat('%A, %B %-d')
-export const shortDateWithWeekday = timeFormat('%a, %b %-d')
+export const shortDateWithWeekday = timeFormat('%A, %b %-d')
 
 
 // Routing

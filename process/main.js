@@ -96,6 +96,7 @@ lawmakers.forEach(lawmaker => {
 
 const updateTime = new Date()
 const calendarOutput = new CalendarPage({ actions, bills, updateTime }).export()
+bills.forEach(bill => bill.data.isOnCalendar = calendarOutput.billsOnCalendar.includes(bill.data.identifier))
 const recapOutput = new RecapPage({ actions, bills, updateTime }).export()
 
 const keyBillCategoryKeys = Array.from(new Set(billAnnotations.map(d => d.category)))
