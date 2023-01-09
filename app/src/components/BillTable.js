@@ -162,11 +162,11 @@ const billLinkCss = css`
 const progressStepStyle = css`
   margin-bottom: 0.1em;
   font-size: 12px;
-  border-top: 1px solid var(--tan4);
+  /* border-top: 1px solid var(--tan4);
 
   :first-of-type {
     border-top: none;
-  }
+  } */
   
   .icon {
     /* background-color: var(--gray1); */

@@ -7,8 +7,8 @@ import {
 } from './utils'
 
 export const billStatusSymbols = {
-    'future': { icon: '⏺', color: '#666', bgcolor: '#eee' },
-    'current': { icon: '➡️', color: '#e6ab02', bgcolor: 'var(--tan2)' }, //#e8dc74
+    'future': { icon: '⚪️', color: '#666', bgcolor: '#eee' },
+    'current': { icon: '✴️', color: '#e6ab02', bgcolor: 'var(--tan2)' }, //#e8dc74
     'passed': { icon: '✅', color: '#91cf60', bgcolor: 'var(--tan1)' },
     'blocked': { icon: '🚫', color: '#fc8d59', bgcolor: 'var(--tan1)' },
     'skipped': { icon: '', color: 'none', bgcolor: 'none' },
