@@ -6,11 +6,11 @@ import Seo from '../components/Seo'
 
 import participationData from '../data/participation.json'
 
-const Participate = () => {
+const Participate = ({ location }) => {
     const { text } = participationData
     return <div>
 
-        <Layout>
+        <Layout location={location}>
 
             <h1 id="participation">Participating in the 2021 Legislature</h1>
             <div className="note">Compiled by Amanda Eggert</div>

@@ -1,5 +1,6 @@
 import React from "react"
 // import { AnchorLink } from "gatsby-plugin-anchor-links";
+import { css } from '@emotion/react'
 import { Link } from "gatsby";
 
 import { shortDateWithWeekday, billUrl } from '../config/utils.js'
@@ -12,10 +13,29 @@ import Newsletter from '../components/Newsletter'
 
 import recap from '../data/recap.json'
 
-const EXCLUDE_TYPES = ['Introduced', 'First Reading', 'Referred to Committee', "Rereferred to Committee"]
+const actionsDayStyle = css`
+    h2 {
+        color: white;
+        background-color: var(--gray5);
+        padding: 0.5em 0.5em;
+        position: sticky;
+        top: 130px;
+        z-index: 10;
+    }
+`
+
+const EXCLUDE_TYPES = [
+    // 'Introduced',
+    'First Reading',
+    'Referred to Committee',
+    "Rereferred to Committee",
+    'Transmitted to Senate',
+    'Transmitted to House',
+    'Transmitted to Governor',
+]
 // TODO - push more of this into data processing step
 
-const Actions = () => {
+const Actions = ({ location }) => {
     const { actionsByDate } = recap
 
     const actions = actionsByDate.map(d => {
@@ -23,9 +43,20 @@ const Actions = () => {
             .filter(a => !EXCLUDE_TYPES.includes(a.description))
             .map(a => a.committee)))
         if (committeesWithActions.length === 0) return null
-        return <div key={d.date}>
-            <h3>{shortDateWithWeekday(new Date(d.date))}</h3>
+
+        return <div css={actionsDayStyle} key={d.date}>
+            <h2>{shortDateWithWeekday(new Date(d.date))}</h2>
             <div>
+                <div>
+                    <h3>House Floor</h3>
+                    <div>TK</div>
+                    {/* <ul>{actions.map(action => <Action key={action.id} data={action} />)}</ul> */}
+                </div>
+                <div>
+                    <h3>Senate Floor</h3>
+                    <div>TK</div>
+                    {/* <ul>{actions.map(action => <Action key={action.id} data={action} />)}</ul> */}
+                </div>
                 {
                     committeesWithActions.map(committee => {
                         const actions = d.actions
@@ -33,7 +64,7 @@ const Actions = () => {
                             .filter(d => !EXCLUDE_TYPES.includes(d.description))
                             .sort((a, b) => a.description.localeCompare(b.description))
                         return <div key={committee}>
-                            <h4>{committee ? committee : 'House and Senate floor'}</h4>
+                            <h3>{committee ? committee : 'House and Senate floor'}</h3>
                             <ul>{actions.map(action => <Action key={action.id} data={action} />)}</ul>
                         </div>
                     })
@@ -43,7 +74,7 @@ const Actions = () => {
     })
 
     return <div>
-        <Layout>
+        <Layout location={location}>
             <h1>Legislative activity by day</h1>
             {actions}
 

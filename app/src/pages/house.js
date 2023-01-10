@@ -20,13 +20,13 @@ const leadership = [
   { role: 'Minority Leader', name: 'Rep. Kim Abbott (D-Helena)', key: 'Kim-Abbott' },
 ]
 
-const House = ({ data }) => {
+const House = ({ data, location }) => {
   const { text } = houseData
   const representatives = data.allLawmakersJson.edges.map(d => d.node)
 
   return <div>
 
-    <Layout>
+    <Layout location={location}>
       <h1>The Montana House</h1>
       <div>67 Republicans, 33 Democrats</div>
 

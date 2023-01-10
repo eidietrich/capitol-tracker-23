@@ -13,10 +13,10 @@ import BillStatus from '../components/bill/Status'
 import BillInfo from '../components/bill/Info'
 import BillActions from '../components/bill/Actions'
 
-const BillPage = (props) => {
+const BillPage = ({ pageContext, location }) => {
   const {
     bill,
-  } = props.pageContext
+  } = pageContext
   const {
     // key, 
     identifier, title, status, progress, chamber,
@@ -27,7 +27,7 @@ const BillPage = (props) => {
   } = bill
   return <div>
 
-    <Layout>
+    <Layout location={location}>
       <h1>{identifier}: {title}</h1>
       <div>{explanation}</div>
 

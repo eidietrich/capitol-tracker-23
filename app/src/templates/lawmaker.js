@@ -75,7 +75,7 @@ const getPartyLabel = (key) => {
   }[key]
 }
 
-const LawmakerPage = ({ pageContext, data }) => {
+const LawmakerPage = ({ pageContext, data, location }) => {
   const {
     lawmaker
   } = pageContext
@@ -107,7 +107,7 @@ const LawmakerPage = ({ pageContext, data }) => {
   `
   return <div>
 
-    <Layout>
+    <Layout location={location}>
       <div css={topperBar}>
         <div css={[portraitColCss, portraitTopper]}>
           <LawmakerPortrait image={portrait} alt={`${title} ${name}, ${district}`} />

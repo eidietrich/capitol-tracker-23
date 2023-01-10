@@ -21,13 +21,13 @@ import governorData from '../data/governor.json'
 // const vetoedByGovernor = d => d.progress.governorStatus === 'vetoed'
 // const enactedWithNoGovernorSignature = d => d.progress.governorStatus === 'became law unsigned'
 
-const Governor = ({ data }) => {
+const Governor = ({ data, location }) => {
   const { text, articles } = governorData
   const bills = data.governorBills.edges.map(d => d.node)
 
   return <div>
 
-    <Layout>
+    <Layout location={location}>
       <h1>Gov. Greg Gianforte</h1>
       <ReactMarkdown>{text}</ReactMarkdown>
 

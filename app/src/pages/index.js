@@ -30,7 +30,7 @@ const Index = ({ data, location }) => {
 
   // const keyBillCategories = Array.from(new Set(keyBills.map(d => d.majorBillCategory)))
   return <div>
-    <Layout>
+    <Layout location={location}>
       <div id="overview">[TK determine what we want to emphasize above the fold. Links to bill hearings? Status counts for different types of bills?.]</div>
 
       {/* <p>The 2021 Montana Legislature was in session from Jan. 4 to April 29.</p>

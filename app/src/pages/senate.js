@@ -19,12 +19,12 @@ const leadership = [
   { role: 'Senate Minority Leader', name: 'Sen. Pat Flowers (D-Belgrade)', key: 'Pat-Flowers' },
 ]
 
-const Senate = ({ data }) => {
+const Senate = ({ data, location }) => {
   const { text } = senateData
   const senators = data.allLawmakersJson.edges.map(d => d.node)
   return <div>
 
-    <Layout>
+    <Layout location={location}>
       <h1>The Montana Senate</h1>
       <ReactMarkdown>{text}</ReactMarkdown>
       {/* <Text paragraphs={text.description} /> */}

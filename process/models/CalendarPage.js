@@ -1,13 +1,13 @@
 import { timeFormat } from 'd3-time-format'
 const dateFormat = timeFormat('%x')
+const f = timeFormat('%x %X')
 
 
 export default class CalendarPage {
     constructor({ actions, bills, updateTime, calendarAnnotations }) {
-        const beginningOfToday = new Date(updateTime).setUTCHours(0, 0, 0, 0)
-
-
-        const todayOrLaterActions = actions.filter(d => d.date >= beginningOfToday)
+        const beginningOfToday = new Date(updateTime).setUTCHours(7, 0, 0, 0) // 7 accounts for Montana vs GMT time
+        // const todayOrLaterActions = actions.filter(d => d.date >= beginningOfToday)
+        const todayOrLaterActions = actions
         // .map(a => {
         //     // This adds data to allow more fulsome bill listings
         //     const actionBill = bills.find(d => d.data.identifier === a.bill)

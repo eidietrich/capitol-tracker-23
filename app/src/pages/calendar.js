@@ -27,11 +27,9 @@ const scheduleDayStyle = css`
 const getDay = d => shortDateWithWeekday(new Date(d))
 const urlizeDay = day => day.replaceAll(',', '').replaceAll(' ', '-')
 
-const Calendar = ({ data }) => {
+const Calendar = ({ data, location }) => {
     const { scheduledHearings, scheduledFloorDebates, scheduledFinalVotes, datesOnCalendar, billsOnCalendar } = calendar
     const onCalendarBills = data.onCalendarBills.edges.map(d => d.node)
-
-    // console.log(billsOnCalendar)
 
     const days = datesOnCalendar.map(d => getDay(d))
     const schedule = days.map((day, i) => {
@@ -44,6 +42,8 @@ const Calendar = ({ data }) => {
 
         const hearings = scheduledHearings.filter(d => getDay(d.date) === day)
         const committeesWithHearings = Array.from(new Set(hearings.map(a => a.committee)))
+
+        console.log({ day, floorDebates, finalVotes, hearings })
 
         return <div key={day} id={urlizeDay(day)} css={scheduleDayStyle}>
             <hr />
@@ -65,7 +65,7 @@ const Calendar = ({ data }) => {
                     }
                 </div>
             </>}
-            {(floorDebates.length > 0) && <>
+            {(finalVotes.length > 0) && <>
                 <h3>Final floor votes</h3>
                 <div className="note">Third reading votes on bills that have passed their Second Reading.</div>
                 <div>
@@ -106,7 +106,7 @@ const Calendar = ({ data }) => {
 
     return <div>
 
-        <Layout>
+        <Layout location={location}>
 
             <h1>What's coming up at the Legislature</h1>
 
@@ -114,14 +114,12 @@ const Calendar = ({ data }) => {
                 {days.map((day, i) => <span key={day}>{i !== 0 ? ' • ' : ''}<AnchorLink to={`calendar/#${urlizeDay(day)}`}>{day}</AnchorLink></span>)}
             </div>
 
-
-
             {schedule}
 
-            < h2> See also</h2>
-            <p>Hearings are an opportunity for the sponsor to explain a bill and for lobbyists and other members of the public to testify in support or opposition. Hearings are typically announced at least a few days in advance. Committees votes on forwarding bills for full floor debates typically happen at later committee meetings and often aren't announced in advance.</p>
+            {/* < h2> See also</h2>
+
             <p>For more information on hearing times and locations, see <a href="http://laws.leg.mt.gov/legprd/LAW0240W$CMTE.ActionQuery?P_SESS=20231&P_COM_NM=&P_ACTN_DTM=01%2F02%2F2023&U_ACTN_DTM=05%2F01%2F2023&Z_ACTION2=Find#h_list" target="_blank" rel="noopener noreferrer">here for House committee hearings</a> and <a href="http://laws.leg.mt.gov/legprd/LAW0240W$CMTE.ActionQuery?P_SESS=20231&P_COM_NM=&P_ACTN_DTM=01%2F02%2F2023&U_ACTN_DTM=05%2F01%2F2023&Z_ACTION2=Find#s_list" target="_blank" rel="noopener noreferrer">here for Senate committee hearings</a>.</p>
-            <p><a href="http://laws.leg.mt.gov/legprd/laws_agendas.agendarpt?chamber=H&P_SESS=20231" target="_blank" rel="noopener noreferrer">Official House agendas</a>. <a href="http://laws.leg.mt.gov/legprd/laws_agendas.agendarpt?chamber=S&P_SESS=20231" target="_blank" rel="noopener noreferrer">Official Senate agendas</a></p>
+            <p><a href="http://laws.leg.mt.gov/legprd/laws_agendas.agendarpt?chamber=H&P_SESS=20231" target="_blank" rel="noopener noreferrer">Official House agendas</a>. <a href="http://laws.leg.mt.gov/legprd/laws_agendas.agendarpt?chamber=S&P_SESS=20231" target="_blank" rel="noopener noreferrer">Official Senate agendas</a>.</p> */}
 
 
 

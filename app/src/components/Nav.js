@@ -2,8 +2,6 @@ import React from 'react'
 import { css } from '@emotion/react'
 import { Link } from 'gatsby'
 
-import { AnchorLink } from "gatsby-plugin-anchor-links";
-
 // import {
 //     partyColors
 // } from '../config/config'
@@ -91,37 +89,54 @@ const navSecondaryStyle = css`
     margin-bottom: 0.25em;
 `
 
-const Nav = (props) => <div css={navStyle}>
+const activeStyle = css`
+    background: var(--gray1);
+    border: var(--gray6);
+`
 
-    <div css={[navRowStyle, navRowSecondary]}>
-        <Link css={[navItemStyle, navSecondaryStyle]} to='/'>🐾 Overview</Link>
-        <AnchorLink css={[navItemStyle, navSecondaryStyle]} to='/#key-bill-status'>📑 Key bills</AnchorLink>
-        <AnchorLink css={[navItemStyle, navSecondaryStyle]} to='/#find-bill'>🔎 Find a bill</AnchorLink>
-        <AnchorLink css={[navItemStyle, navSecondaryStyle]} to='/#find-lawmaker'>🔎 Find a lawmaker</AnchorLink>
-        <AnchorLink css={[navItemStyle, navSecondaryStyle]} to='/#find-district'>🏡 Your district</AnchorLink>
-        <Link css={[navItemStyle, navSecondaryStyle]} to='/calendar'>🗓 Calendar</Link>
-        <Link css={[navItemStyle, navSecondaryStyle]} to='/actions'>📝 What's happened</Link>
-        <Link css={[navItemStyle, navSecondaryStyle]} to='/participation#participation'>🙋 How to participate</Link>
-    </div>
+const PAGE_LINKS = [
+    // {type: 'link', path: '/', label: '🐾 Overview'},
+    { path: '/#key-bill-status', label: '📑 Key bills' },
+    { path: '/all-bills/', label: '🗂 All bills' },
+    { path: '/#find-bill', label: '🔎 Find a bill' },
+    { path: '/#find-lawmaker', label: '🔎 Find a lawmaker' },
+    { path: '/#find-district', label: '🏡 Your district' },
+    { path: '/calendar/', label: '🗓 Calendar' },
+    { path: '/actions/', label: '📝 What\'s happened' },
+    { path: '/participation/', label: '🙋 How to participate' },
+]
 
-    <div css={[navRowStyle, navRowPrimary]}>
-        <Link css={[navItemStyle, navPrimaryStyle]} to='/house'>
-            <div css={navPrimaryTitle}>🏛 House</div>
-            <div css={navPrimaryInfo}>GOP-held 68-32</div>
-        </Link>
-        <Link css={[navItemStyle, navPrimaryStyle]} to='/senate'>
-            <div css={navPrimaryTitle}>🏛 Senate</div>
-            <div css={navPrimaryInfo}>GOP-held 34-16</div>
-        </Link>
-        <Link css={[navItemStyle, navPrimaryStyle]} to='/governor'>
-            <div css={navPrimaryTitle}>🖋 Governor</div>
-            <div css={navPrimaryInfo}>Greg Gianforte (R)</div>
-        </Link>
-    </div>
+const Nav = ({ location }) => {
+    const currentPath = `${location.pathname}${location.hash}`
+
+    const links = PAGE_LINKS.map(l => {
+        return <Link key={l.path} css={[navItemStyle, navSecondaryStyle, (currentPath === l.path) ? activeStyle : null]} to={l.path}>{l.label}</Link>
+    })
+
+    return <div css={navStyle}>
+        <div css={[navRowStyle, navRowSecondary]}>
+            {links}
+        </div>
+
+        < div css={[navRowStyle, navRowPrimary]} >
+            <Link css={[navItemStyle, navPrimaryStyle]} to='/house'>
+                <div css={navPrimaryTitle}>🏛 House</div>
+                <div css={navPrimaryInfo}>GOP-held 68-32</div>
+            </Link>
+            <Link css={[navItemStyle, navPrimaryStyle]} to='/senate'>
+                <div css={navPrimaryTitle}>🏛 Senate</div>
+                <div css={navPrimaryInfo}>GOP-held 34-16</div>
+            </Link>
+            <Link css={[navItemStyle, navPrimaryStyle]} to='/governor'>
+                <div css={navPrimaryTitle}>🖋 Governor</div>
+                <div css={navPrimaryInfo}>Greg Gianforte (R)</div>
+            </Link>
+        </div >
 
 
 
-</div>
+    </div >
+}
 
 export default Nav
 

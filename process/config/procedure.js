@@ -10,7 +10,7 @@ export const VOTE_THRESHOLDS = [
 export const BILL_TYPES = [
     // bill is rawBill data here so bill.key should be un-urlized bill number, e.g. HB 205
     {
-        key: 'constitutonal amandment',
+        key: 'constitutonal amendment',
         test: bill => bill.subjects.map(d => d.subject).includes('Constitutional Amendment Proposals'),
         steps: ['introduced', 'first committee', 'first chamber', 'second chamber'],
     },
@@ -47,14 +47,28 @@ export const BILL_TYPES = [
     {
         // Decide if this should be applied to other standard budget bills
         key: 'budget bill',
-        test: bill => ['HB 2'].includes(bill.key),
+        test: bill => [
+            'HB 1', 'HB 2', 'HB 3', 'HB 4', 'HB 5',
+            'HB 6', 'HB 7', 'HB 8', 'HB 9', 'HB 10',
+            'HB 11', 'HB 12', 'HB 13', 'HB 14', 'HB 15'
+        ].includes(bill.key),
         steps: ['introduced', 'first committee', 'first chamber', 'second chamber', 'reconciliation', 'governor'],
     },
     {
-        key: 'bill',
-        test: d => true, // fallback
+        key: 'house bill',
+        test: bill => bill.key.slice(0, 2) === 'HB',
         steps: ['introduced', 'first committee', 'first chamber', 'second chamber', 'reconciliation', 'governor'],
-    }
+    },
+    {
+        key: 'senate bill',
+        test: bill => bill.key.slice(0, 2) === 'SB',
+        steps: ['introduced', 'first committee', 'first chamber', 'second chamber', 'reconciliation', 'governor'],
+    },
+    // {
+    //     key: 'other bill',
+    //     test: d => true, // fallback
+    //     steps: ['introduced', 'first committee', 'first chamber', 'second chamber', 'reconciliation', 'governor'],
+    // }
 ]
 
 export const BILL_STATUSES = [
@@ -366,10 +380,10 @@ export const ACTIONS = [
     { key: 'Revised Fiscal Note Received', },
     { key: 'Revised Fiscal Note Requested', },
     { key: 'Revised Fiscal Note Signed', },
-    { key: 'Scheduled for 2nd Reading', scheduledForFloorDebate },
+    { key: 'Scheduled for 2nd Reading', isMajor, scheduledForFloorDebate },
     { key: '2nd Reading Pass Consideration' },
     { key: '2nd Reading Indefinitely Postpone Motion Failed' },
-    { key: 'Scheduled for 3rd Reading', scheduledForFinalVote },
+    { key: 'Scheduled for 3rd Reading', isMajor, scheduledForFinalVote },
     { key: '3rd Reading Pass Consideration' },
     { key: 'Scheduled for Executive Action', },
     { key: 'Sent to Enrolling', },

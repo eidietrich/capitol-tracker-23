@@ -81,7 +81,7 @@ const headerDonateLink = "https://checkout.fundjournalism.org/memberform?org_id=
 const title = '2023 Capitol Tracker [BETA]'
 const subtitle = 'The lawmakers, bills and votes of the 68th Montana Legislature'
 
-const Layout = ({ children }) => {
+const Layout = ({ children, location }) => {
   const { updateTime } = headerData
   return (
     <div css={bodyStyles}>
@@ -98,7 +98,7 @@ const Layout = ({ children }) => {
         </div>
 
         <div css={navCss}>
-          <Nav />
+          <Nav location={location} />
         </div>
 
 
