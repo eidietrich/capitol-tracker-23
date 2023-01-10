@@ -1,3 +1,4 @@
+import { timeFormat, timeParse } from 'd3-time-format'
 
 import {
     LAWMAKER_NAME_CLEANING
@@ -5,7 +6,7 @@ import {
 
 import {
     COMMITTEES,
-    EXCLUDE_COMMITTEES,
+    // EXCLUDE_COMMITTEES,
 } from './config/committees.js'
 
 import { getJson } from './utils.js'
@@ -16,6 +17,13 @@ export const billKey = (identifier) => identifier.substring(0, 2).toLowerCase() 
 export const lawmakerKey = (name) => name.replace(/\s/g, '-')
 
 export const capitalize = string => string[0].toUpperCase() + string.slice(1).toLowerCase()
+
+export const dateFormat = timeFormat('%m/%d/%Y')
+export const dateParse = timeParse('%m/%d/%Y')
+export const standardizeDate = date => {
+    if (!date) return null
+    return dateFormat(new Date(date))
+}
 
 export const standardLawmakerNames = Array.from(new Set(Object.values(LAWMAKER_NAME_CLEANING)))
 export const standardizeLawmakerName = name => {

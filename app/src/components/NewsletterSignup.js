@@ -58,21 +58,38 @@ const style = css`
 
 const NewsletterSignup = props => {
     return <div css={style}>
-        <div className="message">Subscribe to Capitolized</div>
-        <div className="message-2">MTFP's twice-weekly email detailing the inner workings of the 2023 Legislature</div>
+        <div className="message">Sign up for CAPITOLIZED</div>
+        <div className="message-2">Expert reporting and insight from the Montana Capitol, emailed Tuesdays and Fridays.</div>
         <div className="signup">
-            <form action="https://montanafreepress.us12.list-manage.com/subscribe/post?u=488e8508eb4796685ba32c7a7&amp;id=8a3ae13501&amp;f_id=005abbe0f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" noValidate>
+            {/* <form action="https://montanafreepress.us12.list-manage.com/subscribe/post?u=488e8508eb4796685ba32c7a7&amp;id=8a3ae13501&amp;f_id=005abbe0f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" noValidate>
                 <div className="signupGroup">
                     <input className="textInput" type="email" placeholder="Email address" name="EMAIL" id="mce-EMAIL" />
                     <div style={{ 'position': 'absolute', 'left': '-5000px' }} aria-hidden="true">
                         <input type="text" name="b_488e8508eb4796685ba32c7a7_8a3ae13501" tabIndex="-1" defaultValue="" />
-                        {/* <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups--> */}
                     </div>
                     <button className="submitButton" type="submit" name="subscribe" id="mc-embedded-subscribe">Subscribe</button>
                 </div>
-            </form >
+            </form > */}
+            <form action="https://montanafreepress.us12.list-manage.com/subscribe/post?u=488e8508eb4796685ba32c7a7&amp;id=8a3ae13501&amp;f_id=005abbe0f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" noValidate>
+                <div id="mc_embed_signup_scroll">
+                    <div className="signupGroup">
+                        <input type="email" value="" name="EMAIL" className="required email" id="mce-EMAIL" required placeholder="Email address" readOnly />
+                        <span id="mce-EMAIL-HELPERTEXT" className="helper_text"></span>
+                    </div>
+                    <div hidden={true}><input type="hidden" name="tags" value="10502557" /></div>
+                    <div id="mce-responses" className="clear">
+                        <div className="response" id="mce-error-response" style={{ display: "none" }}></div>
+                        <div className="response" id="mce-success-response" style={{ display: "none" }}></div>
+                    </div>
+                    {/* <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups--> */}
+                    <div style={{ position: "absolute", left: "-5000px" }} aria-hidden={true}><input type="text" name="b_488e8508eb4796685ba32c7a7_8a3ae13501" tabIndex="-1" value="" readOnly /></div>
+                    <button className="submitButton" type="submit" name="subscribe" id="mc-embedded-subscribe">Subscribe</button>
+                </div>
+            </form>
         </div >
     </div >
 }
 
 export default NewsletterSignup
+
+

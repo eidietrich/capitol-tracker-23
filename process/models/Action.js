@@ -1,3 +1,5 @@
+import { standardizeDate } from '../functions.js'
+
 import { ACTIONS } from '../config/procedure.js'
 
 export default class Action {
@@ -29,7 +31,7 @@ export default class Action {
         this.data = {
             id,
             bill,
-            date: new Date(date),
+            date: standardizeDate(date),
             description,
             posession,
             committee,

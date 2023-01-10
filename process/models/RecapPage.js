@@ -1,12 +1,12 @@
-import { timeFormat } from 'd3-time-format'
-const dateFormat = timeFormat('%x')
+import { dateParse } from '../functions.js'
 
 export default class RecapPage {
     constructor({ actions, bills, updateTime, recapAnnotations }) {
         const beginningOfToday = new Date(updateTime).setUTCHours(7, 0, 0, 0)
         const majorActions = actions.filter(d => d.isMajor) // && !d.introduction
-        const pastActions = majorActions.filter(d => d.date < beginningOfToday)
-        const datesThatHaveHappened = Array.from(new Set(pastActions.sort((a, b) => b.date - a.date).map(d => dateFormat(d.date))))
+        const pastActions = majorActions.filter(d => dateParse(d.date) <= beginningOfToday)
+        const datesThatHaveHappened = Array.from(new Set(pastActions.sort((a, b) => b.date - a.date).map(d => d.date)))
+        console.log(datesThatHaveHappened)
         const actionsByDate = datesThatHaveHappened.map(date => {
             return {
                 date,

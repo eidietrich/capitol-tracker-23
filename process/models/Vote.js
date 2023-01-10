@@ -1,5 +1,9 @@
 
-import { standardizeLawmakerName, getLawmakerSummary } from '../functions.js'
+import {
+    standardizeLawmakerName,
+    getLawmakerSummary,
+    standardizeDate,
+} from '../functions.js'
 
 export default class Vote {
     constructor({ vote, billVoteMajorityRequired, billStartingChamber }) {
@@ -36,7 +40,7 @@ export default class Vote {
         this.data = {
             action: action_id,
             bill,
-            date,
+            date: standardizeDate(date),
             type,
             seqNumber: seq_number,
             voteChamber,
