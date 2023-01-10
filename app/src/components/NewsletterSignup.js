@@ -73,7 +73,7 @@ const NewsletterSignup = props => {
             <form action="https://montanafreepress.us12.list-manage.com/subscribe/post?u=488e8508eb4796685ba32c7a7&amp;id=8a3ae13501&amp;f_id=005abbe0f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" noValidate>
                 <div id="mc_embed_signup_scroll">
                     <div className="signupGroup">
-                        <input type="email" value="" name="EMAIL" className="required email" id="mce-EMAIL" required placeholder="Email address" readOnly />
+                        <input className="textInput" type="email" placeholder="Email address" name="EMAIL" id="mce-EMAIL" />
                         <span id="mce-EMAIL-HELPERTEXT" className="helper_text"></span>
                     </div>
                     <div hidden={true}><input type="hidden" name="tags" value="10502557" /></div>

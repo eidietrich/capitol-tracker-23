@@ -28,7 +28,6 @@ const House = ({ data, location }) => {
 
     <Layout location={location}>
       <h1>The Montana House</h1>
-      <div>67 Republicans, 33 Democrats</div>
 
       <ReactMarkdown>{text}</ReactMarkdown>
 
