@@ -865,30 +865,36 @@
     "votes": []
   },
   {
-    "url": null,
+    "url": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0021EDH230109.pdf",
     "bill": "HB 21",
     "session": "20231",
     "action_id": "HB21-0014",
     "type": "committee",
     "seq_number": null,
-    "error": "Missing URL",
+    "error": null,
+    "date": "January 09, 2023",
+    "description": "Rep. Reksten made a Motion that HB 21 Do Pass",
     "totals": {
       "Y": 13,
       "N": 0
-    }
+    },
+    "votes": []
   },
   {
-    "url": null,
+    "url": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0022EDH230109.pdf",
     "bill": "HB 22",
     "session": "20231",
     "action_id": "HB22-0019",
     "type": "committee",
     "seq_number": null,
-    "error": "Missing URL",
+    "error": null,
+    "date": "January 09, 2023",
+    "description": "Rep. Reksten made a Motion that HB 22 Do Pass",
     "totals": {
       "Y": 13,
       "N": 0
-    }
+    },
+    "votes": []
   },
   {
     "url": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0024TAH230105.pdf",
@@ -7947,6 +7953,22 @@
     "votes": []
   },
   {
+    "url": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0085NAH230109.pdf",
+    "bill": "HB 85",
+    "session": "20231",
+    "action_id": "HB85-0015",
+    "type": "committee",
+    "seq_number": null,
+    "error": null,
+    "date": "January 09, 2023",
+    "description": "Rep. France made a Motion that HB0085.001.002 Be Amended",
+    "totals": {
+      "Y": 5,
+      "N": 10
+    },
+    "votes": []
+  },
+  {
     "url": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0086FIH230103.pdf",
     "bill": "HB 86",
     "session": "20231",
@@ -8799,17 +8821,20 @@
     ]
   },
   {
-    "url": null,
+    "url": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0088NAH230109.pdf",
     "bill": "HB 88",
     "session": "20231",
     "action_id": "HB88-0014",
     "type": "committee",
     "seq_number": null,
-    "error": "Missing URL",
+    "error": null,
+    "date": "January 09, 2023",
+    "description": "Rep. Gist made a Motion that HB 88 Do Pass",
     "totals": {
       "Y": 15,
       "N": 0
-    }
+    },
+    "votes": []
   },
   {
     "url": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0090STH230105.pdf",
@@ -11070,6 +11095,19 @@
     "type": "committee",
     "seq_number": null,
     "error": "Skipped previously missing vote page",
+    "totals": {
+      "Y": 18,
+      "N": 0
+    }
+  },
+  {
+    "url": null,
+    "bill": "HB 145",
+    "session": "20231",
+    "action_id": "HB145-0015",
+    "type": "committee",
+    "seq_number": null,
+    "error": "Missing URL",
     "totals": {
       "Y": 18,
       "N": 0
@@ -13684,6 +13722,19 @@
     }
   },
   {
+    "url": null,
+    "bill": "SB 5",
+    "session": "20231",
+    "action_id": "SB5-0021",
+    "type": "committee",
+    "seq_number": null,
+    "error": "Missing URL",
+    "totals": {
+      "Y": 9,
+      "N": 0
+    }
+  },
+  {
     "url": "http://leg.mt.gov/bills/2023/minutes/senate/votesheets/SB0006JUS230106.pdf",
     "bill": "SB 6",
     "session": "20231",
@@ -13717,9 +13768,35 @@
   },
   {
     "url": null,
+    "bill": "SB 26",
+    "session": "20231",
+    "action_id": "SB26-0014",
+    "type": "committee",
+    "seq_number": null,
+    "error": "Missing URL",
+    "totals": {
+      "Y": 9,
+      "N": 0
+    }
+  },
+  {
+    "url": null,
     "bill": "SB 34",
     "session": "20231",
     "action_id": "SB34-0015",
+    "type": "committee",
+    "seq_number": null,
+    "error": "Missing URL",
+    "totals": {
+      "Y": 9,
+      "N": 0
+    }
+  },
+  {
+    "url": null,
+    "bill": "SB 34",
+    "session": "20231",
+    "action_id": "SB34-0016",
     "type": "committee",
     "seq_number": null,
     "error": "Missing URL",
