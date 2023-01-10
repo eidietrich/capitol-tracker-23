@@ -27,7 +27,7 @@ const STEP_ICONS = {
     'skipped': ' ',
 }
 
-const About = () => {
+const AllBillsProgress = ({ location }) => {
     const rows = bills.map(bill => {
         const dataCells = bill.progress.map(step => {
             return <td>
@@ -43,7 +43,7 @@ const About = () => {
     })
     return <div>
         <Seo title="All bills" />
-        <Layout>
+        <Layout location={location}>
 
             <h1>List of all bills</h1>
             <table css={tableStyle}>
@@ -65,4 +65,4 @@ const About = () => {
     </div>
 }
 
-export default About
+export default AllBillsProgress
