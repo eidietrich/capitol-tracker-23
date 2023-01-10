@@ -6,12 +6,11 @@ export default class RecapPage {
         const majorActions = actions.filter(d => d.isMajor) // && !d.introduction
         const pastActions = majorActions.filter(d => dateParse(d.date) <= beginningOfToday)
         const datesThatHaveHappened = Array.from(new Set(pastActions.sort((a, b) => b.date - a.date).map(d => d.date)))
-        console.log(datesThatHaveHappened)
         const actionsByDate = datesThatHaveHappened.map(date => {
-            const isDateBeforeSession = (date)
+            // const isDateBeforeSession = (date) // TODO - bundle pre-session dates together
             return {
                 date,
-                actions: pastActions.filter(d => dateFormat(d.date) === date).map(a => {
+                actions: pastActions.filter(d => d.date === date).map(a => {
                     const actionBill = bills.find(d => d.data.identifier === a.bill)
                     if (!actionBill) throw `Error, bad action match, ${a.bill}`
                     return {
