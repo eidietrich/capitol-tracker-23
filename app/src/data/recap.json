@@ -589,6 +589,22 @@
                     "title": "Revise laws related to the tourism advisory council"
                 },
                 {
+                    "id": "HB145-0015",
+                    "bill": "HB 145",
+                    "date": "2023-01-10T00:00:00.000Z",
+                    "description": "Committee Executive Action--Bill Passed",
+                    "posession": "house",
+                    "committee": "(H) Business and Labor",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "title": "Generally revise laws related to alcohol license applications"
+                },
+                {
                     "id": "HB146-0014",
                     "bill": "HB 146",
                     "date": "2023-01-10T00:00:00.000Z",
@@ -931,6 +947,24 @@
                     "isMajor": true,
                     "hearing": true,
                     "title": "Require county to approve certain condominiums"
+                },
+                {
+                    "id": "SB26-0014",
+                    "bill": "SB 26",
+                    "date": "2023-01-10T00:00:00.000Z",
+                    "description": "Tabled in Committee",
+                    "posession": "senate",
+                    "committee": "(S) Public Health, Welfare and Safety",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Tabled in Committee",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "secondChamberAction": true,
+                    "failed": true,
+                    "tabled": true,
+                    "title": "Revise laws related to fentanyl test strips"
                 },
                 {
                     "id": "SB27-0018",
@@ -2454,7 +2488,9 @@
                     "posession": "house",
                     "committee": "(H) Business and Labor",
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/45312?agendaId=244153"
+                    ],
                     "key": "Hearing",
                     "isMajor": true,
                     "hearing": true,
@@ -7986,14 +8022,16 @@
                     "title": "Revise laws related to alcohol fingerprint requirements"
                 },
                 {
-                    "id": "SB26-0012",
+                    "id": "SB26-0013",
                     "bill": "SB 26",
                     "date": "2023-01-04T00:00:00.000Z",
                     "description": "Hearing",
                     "posession": "senate",
                     "committee": "(S) Public Health, Welfare and Safety",
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/47248?agendaId=243380"
+                    ],
                     "key": "Hearing",
                     "isMajor": true,
                     "hearing": true,
@@ -11531,6 +11569,20 @@
                     "isMajor": true,
                     "introduction": true,
                     "title": "Increase MUS-RP Supplemental Contribution to TRS"
+                },
+                {
+                    "id": "SB26-0012",
+                    "bill": "SB 26",
+                    "date": "2023-01-02T00:00:00.000Z",
+                    "description": "First Reading",
+                    "posession": "senate",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "First Reading",
+                    "isMajor": true,
+                    "introduction": true,
+                    "title": "Revise laws related to fentanyl test strips"
                 },
                 {
                     "id": "SB27-0017",
