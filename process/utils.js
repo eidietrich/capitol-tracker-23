@@ -9,10 +9,9 @@ export const collectJsons = (glob_path) => {
 }
 
 export const writeJson = (path, data) => {
-    fs.writeFile(path, JSON.stringify(data), function (err) {
+    fs.writeFile(path, JSON.stringify(data, null, 4), function (err) {
         if (err) throw err;
         console.log('    JSON written to', path);
-    }
-    );
+    });
 }
 

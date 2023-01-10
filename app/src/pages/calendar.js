@@ -30,15 +30,15 @@ const urlizeDay = day => day.replaceAll(',', '').replaceAll(' ', '-')
 const Calendar = ({ data, location }) => {
     const { scheduledHearings, scheduledFloorDebates, scheduledFinalVotes, datesOnCalendar, billsOnCalendar } = calendar
     const onCalendarBills = data.onCalendarBills.edges.map(d => d.node)
-    console.log(datesOnCalendar)
     const days = datesOnCalendar.map(d => getDay(d))
     const schedule = days.map((day, i) => {
 
-
-        const floorDebates = scheduledFloorDebates.filter(d => getDay(d.date) === day)
+        // NOTE: As of 1/10/23 LAWs has a bug that's keeping "Scheduled for Second Reading" actions from 
+        // being caught by MTFP's scraper consistently
+        // const floorDebates = scheduledFloorDebates.filter(d => getDay(d.date) === day)
         // const chambersWithDebates = Array.from(new Set(floorDebates.map(a => a.posession)))
 
-        const finalVotes = scheduledFinalVotes.filter(d => getDay(d.date) === day)
+        // const finalVotes = scheduledFinalVotes.filter(d => getDay(d.date) === day)
         // const chambersWithFinalVotes = Array.from(new Set(finalVotes.map(a => a.posession)))
 
         const hearings = scheduledHearings.filter(d => getDay(d.date) === day)
@@ -49,18 +49,17 @@ const Calendar = ({ data, location }) => {
         return <div key={day} id={urlizeDay(day)} css={scheduleDayStyle}>
             <hr />
             <h2 >📅 {day}</h2>
-            {(floorDebates.length > 0) && <>
+            {/* {(floorDebates.length > 0) && <>
                 <h3>Floor debates</h3>
                 <div className="note">Debates are followed by Second Reading votes.</div>
                 <div>
                     {
-                        ['house', 'senate'].map(chamber => {
+                        chambersWithDebates.map(chamber => {
                             const debateBills = floorDebates.filter(d => d.posession === chamber).map(d => d.bill)
                             const bills = onCalendarBills.filter(d => debateBills.includes(d.identifier))
                             return <div key={`second-${day}-${chamber}`}>
                                 <h4>{capitalize(chamber)} floor session</h4>
                                 <BillTable bills={bills} displayLimit={10} suppressCount={true} />
-                                {/* <ul>{chamberVotes.map(d => <FloorDebate key={d.id} data={d} />)}</ul> */}
                             </div>
                         })
                     }
@@ -71,18 +70,17 @@ const Calendar = ({ data, location }) => {
                 <div className="note">Third reading votes on bills that have passed their Second Reading.</div>
                 <div>
                     {
-                        ['house', 'senate'].map(chamber => {
+                        chambersWithFinalVotes.map(chamber => {
                             const finalVoteBills = finalVotes.filter(d => d.posession === chamber).map(d => d.bill)
                             const bills = onCalendarBills.filter(d => finalVoteBills.includes(d.identifier))
                             return <div key={`third-${day}-${chamber}`}>
                                 <h4>{capitalize(chamber)} floor session</h4>
                                 <BillTable bills={bills} displayLimit={10} suppressCount={true} />
-                                {/* <ul>{chamberVotes.map(d => <FinalVote key={d.id} data={d} />)}</ul> */}
                             </div>
                         })
                     }
                 </div>
-            </>}
+            </>} */}
             {(hearings.length > 0) && <>
                 <h3>Commitee hearings</h3>
                 <div className="note">Bill hearings are an opportunity for the sponsor to explain a bill. They also allow for lobbyists and other members of the public to testify in support or opposition.</div>
@@ -101,7 +99,7 @@ const Calendar = ({ data, location }) => {
                 </div>
             </>}
             {/* Add newsletter promo after first day on calendar */}
-            {(i == 1) && < NewsletterSignup />}
+            {(i === 1) && < NewsletterSignup />}
         </div>
     })
 
@@ -109,21 +107,15 @@ const Calendar = ({ data, location }) => {
 
         <Layout location={location}>
 
-            <h1>What's coming up at the Legislature</h1>
+            <h1>Calendar</h1>
 
             <div>
                 {days.map((day, i) => <span key={day}>{i !== 0 ? ' • ' : ''}<AnchorLink to={`calendar/#${urlizeDay(day)}`}>{day}</AnchorLink></span>)}
             </div>
 
+            <p>This listing currently includes only committee bill hearings. Official calendars listing floor debates are available <a href="http://laws.leg.mt.gov/legprd/laws_agendas.agendarpt?chamber=H&P_SESS=20231" target="_blank" rel="noopener noreferrer">here for the House</a> and <a href="http://laws.leg.mt.gov/legprd/laws_agendas.agendarpt?chamber=S&P_SESS=20231" target="_blank" rel="noopener noreferrer">here for the Senate</a>.</p>
+
             {schedule}
-
-            {/* < h2> See also</h2>
-
-            <p>For more information on hearing times and locations, see <a href="http://laws.leg.mt.gov/legprd/LAW0240W$CMTE.ActionQuery?P_SESS=20231&P_COM_NM=&P_ACTN_DTM=01%2F02%2F2023&U_ACTN_DTM=05%2F01%2F2023&Z_ACTION2=Find#h_list" target="_blank" rel="noopener noreferrer">here for House committee hearings</a> and <a href="http://laws.leg.mt.gov/legprd/LAW0240W$CMTE.ActionQuery?P_SESS=20231&P_COM_NM=&P_ACTN_DTM=01%2F02%2F2023&U_ACTN_DTM=05%2F01%2F2023&Z_ACTION2=Find#s_list" target="_blank" rel="noopener noreferrer">here for Senate committee hearings</a>.</p>
-            <p><a href="http://laws.leg.mt.gov/legprd/laws_agendas.agendarpt?chamber=H&P_SESS=20231" target="_blank" rel="noopener noreferrer">Official House agendas</a>. <a href="http://laws.leg.mt.gov/legprd/laws_agendas.agendarpt?chamber=S&P_SESS=20231" target="_blank" rel="noopener noreferrer">Official Senate agendas</a>.</p> */}
-
-
-
             <ContactUs />
 
         </Layout>
