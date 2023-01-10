@@ -30,20 +30,21 @@ const urlizeDay = day => day.replaceAll(',', '').replaceAll(' ', '-')
 const Calendar = ({ data, location }) => {
     const { scheduledHearings, scheduledFloorDebates, scheduledFinalVotes, datesOnCalendar, billsOnCalendar } = calendar
     const onCalendarBills = data.onCalendarBills.edges.map(d => d.node)
-
+    console.log(datesOnCalendar)
     const days = datesOnCalendar.map(d => getDay(d))
     const schedule = days.map((day, i) => {
 
+
         const floorDebates = scheduledFloorDebates.filter(d => getDay(d.date) === day)
-        const chambersWithDebates = Array.from(new Set(floorDebates.map(a => a.posession)))
+        // const chambersWithDebates = Array.from(new Set(floorDebates.map(a => a.posession)))
 
         const finalVotes = scheduledFinalVotes.filter(d => getDay(d.date) === day)
-        const chambersWithFinalVotes = Array.from(new Set(finalVotes.map(a => a.posession)))
+        // const chambersWithFinalVotes = Array.from(new Set(finalVotes.map(a => a.posession)))
 
         const hearings = scheduledHearings.filter(d => getDay(d.date) === day)
         const committeesWithHearings = Array.from(new Set(hearings.map(a => a.committee)))
 
-        console.log({ day, floorDebates, finalVotes, hearings })
+        // console.log({ day, floorDebates, finalVotes, hearings })
 
         return <div key={day} id={urlizeDay(day)} css={scheduleDayStyle}>
             <hr />
@@ -53,7 +54,7 @@ const Calendar = ({ data, location }) => {
                 <div className="note">Debates are followed by Second Reading votes.</div>
                 <div>
                     {
-                        chambersWithDebates.map(chamber => {
+                        ['house', 'senate'].map(chamber => {
                             const debateBills = floorDebates.filter(d => d.posession === chamber).map(d => d.bill)
                             const bills = onCalendarBills.filter(d => debateBills.includes(d.identifier))
                             return <div key={`second-${day}-${chamber}`}>
@@ -70,7 +71,7 @@ const Calendar = ({ data, location }) => {
                 <div className="note">Third reading votes on bills that have passed their Second Reading.</div>
                 <div>
                     {
-                        chambersWithFinalVotes.map(chamber => {
+                        ['house', 'senate'].map(chamber => {
                             const finalVoteBills = finalVotes.filter(d => d.posession === chamber).map(d => d.bill)
                             const bills = onCalendarBills.filter(d => finalVoteBills.includes(d.identifier))
                             return <div key={`third-${day}-${chamber}`}>

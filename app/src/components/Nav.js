@@ -91,7 +91,7 @@ const navSecondaryStyle = css`
 
 const activeStyle = css`
     background: var(--gray1);
-    border: var(--gray6);
+    border: 1px solid var(--gray2);
 `
 
 const PAGE_LINKS = [
