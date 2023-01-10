@@ -8,6 +8,7 @@ export default class RecapPage {
         const datesThatHaveHappened = Array.from(new Set(pastActions.sort((a, b) => b.date - a.date).map(d => d.date)))
         console.log(datesThatHaveHappened)
         const actionsByDate = datesThatHaveHappened.map(date => {
+            const isDateBeforeSession = (date)
             return {
                 date,
                 actions: pastActions.filter(d => dateFormat(d.date) === date).map(a => {
