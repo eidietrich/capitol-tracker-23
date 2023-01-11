@@ -36499,6 +36499,67 @@
                 }
             },
             {
+                "key": "sb-156",
+                "identifier": "SB 156",
+                "title": "Require elected county clerks to run nonpartisan",
+                "chamber": "senate",
+                "status": {
+                    "key": "In First House--Introduced",
+                    "step": "First chamber",
+                    "label": "Introduced",
+                    "status": "live",
+                    "statusAtSessionEnd": "failed"
+                },
+                "progress": [
+                    {
+                        "step": "introduced",
+                        "status": "passed",
+                        "statusLabel": "Introduced",
+                        "statusDate": "01/10/2023"
+                    },
+                    {
+                        "step": "first committee",
+                        "status": "current",
+                        "statusLabel": "Pending",
+                        "statusDate": null
+                    },
+                    {
+                        "step": "first chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "second chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "reconciliation",
+                        "status": "skipped",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "governor",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    }
+                ],
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC1935.pdf",
+                "fiscalNoteUrl": null,
+                "numArticles": 0,
+                "sponsor": {
+                    "name": "Wendy McKamey",
+                    "lastName": "McKamey",
+                    "party": "R",
+                    "locale": "Great Falls",
+                    "district": "SD 12"
+                }
+            },
+            {
                 "key": "sj-4",
                 "identifier": "SJ 4",
                 "title": "Provide for interim study of PERS and TRS",

@@ -22,6 +22,7 @@
         "HB 97",
         "HB 101",
         "HB 102",
+        "HB 104",
         "HB 115",
         "HB 136",
         "HB 140",
@@ -36,7 +37,6 @@
         "HB 178",
         "HB 179",
         "HB 180",
-        "HB 183",
         "HB 184",
         "HB 185",
         "HB 186",
@@ -447,6 +447,19 @@
             "hearing": true
         },
         {
+            "id": "HB104-0015",
+            "bill": "HB 104",
+            "date": "01/12/2023",
+            "description": "Hearing",
+            "posession": "house",
+            "committee": "(H) Agriculture",
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
             "id": "HB115-0019",
             "bill": "HB 115",
             "date": "01/19/2023",
@@ -629,19 +642,6 @@
             "hearing": true
         },
         {
-            "id": "HB183-0018",
-            "bill": "HB 183",
-            "date": "01/12/2023",
-            "description": "Hearing",
-            "posession": "house",
-            "committee": "(H) Judiciary",
-            "actionUrl": null,
-            "recordings": [],
-            "key": "Hearing",
-            "isMajor": true,
-            "hearing": true
-        },
-        {
             "id": "HB184-0016",
             "bill": "HB 184",
             "date": "01/13/2023",
@@ -720,9 +720,9 @@
             "hearing": true
         },
         {
-            "id": "HB193-0020",
+            "id": "HB193-0021",
             "bill": "HB 193",
-            "date": "01/13/2023",
+            "date": "01/12/2023",
             "description": "Hearing",
             "posession": "house",
             "committee": "(H) Judiciary",
