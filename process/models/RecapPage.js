@@ -123,10 +123,18 @@ export default class RecapPage {
 
         const beginningOfToday = new Date(updateTime).setUTCHours(7, 0, 0, 0)
         const majorActions = actions.filter(d => INCLUDE_ACTIONS.includes(d.description)) // && !d.introduction
+
+        // For checking that server is handling dates the same as my local machine
+        // console.log({
+        //     updateTime,
+        //     beginningOfToday: new Date(beginningOfToday),
+        //     parseCheck: new Date(dateParse('01/11/2023')),
+        //     compare: dateParse('01/11/2023') <= beginningOfToday,
+        // })
+
         const pastActions = majorActions.filter(d => dateParse(d.date) <= beginningOfToday)
 
         const datesThatHaveHappened = Array.from(new Set(pastActions.sort((a, b) => dateParse(b.date) - dateParse(a.date)).map(d => d.date)))
-
         // TODO - build this out to allow richer bill info on actions page
         // const billsThatHaveMoved = Array.from(new Set(pastActions.map(d => d.bill)))
 
@@ -148,6 +156,7 @@ export default class RecapPage {
 
         this.data = {
             actionsByDate,
+            recapAnnotations,
         }
     }
     export = () => ({ ...this.data })
