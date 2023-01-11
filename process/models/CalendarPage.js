@@ -6,7 +6,7 @@ export default class CalendarPage {
         console.log({
             updateTime,
             beginningOfToday: new Date(beginningOfToday),
-            parseCheck: dateParse('01/11/2023'),
+            parseCheck: new Date(dateParse('01/11/2023')),
             compare: dateParse('01/11/2023') >= beginningOfToday,
         })
         const todayOrLaterActions = actions.filter(d => dateParse(d.date) >= beginningOfToday)

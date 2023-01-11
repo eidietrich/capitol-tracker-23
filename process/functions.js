@@ -21,7 +21,7 @@ export const lawmakerKey = (name) => name.replace(/\s/g, '-')
 export const capitalize = string => string[0].toUpperCase() + string.slice(1).toLowerCase()
 
 export const dateFormat = timeFormat('%m/%d/%Y')
-export const dateParse = timeParse('%m/%d/%Y')
+export const dateParse = date => timeParse('%m/%d/%Y')(date).setUTCHours(7, 0, 0, 0) // setUTC specifies MT time
 export const standardizeDate = date => {
     if (!date) return null
     return dateFormat(new Date(date))
