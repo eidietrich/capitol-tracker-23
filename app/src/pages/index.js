@@ -4,14 +4,11 @@ import { graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
 import Seo from '../components/Seo'
-// import TruncatedContainer from '../components/TruncatedContainer'
 import BillTable from '../components/BillTable'
 import InfoPopup from '../components/InfoPopup'
-// import Newsletter from '../components/Newsletter'
 import NewsletterSignup from '../components/NewsletterSignup'
 import ContactUs from '../components/ContactUs'
 
-// import BillStatusOverview from '../components/overview/BillStatuses'
 import BillLookup from '../components/input/BillLookup'
 import LawmakerLookup from '../components/input/LawmakerLookup'
 import DistrictLookup from '../components/input/DistrictLookup'
@@ -28,10 +25,9 @@ const Index = ({ data, location }) => {
   const billIndex = data.billIndex.edges.map(d => d.node)
   const lawmakerIndex = data.lawmakerIndex.edges.map(d => d.node)
 
-  // const keyBillCategories = Array.from(new Set(keyBills.map(d => d.majorBillCategory)))
   return <div>
     <Layout location={location}>
-      <div id="overview">[TK determine what we want to emphasize above the fold. Links to bill hearings? Status counts for different types of bills?.]</div>
+      {/* <div id="overview">[TK determine what we want to emphasize above the fold. Links to bill hearings? Status counts for different types of bills?.]</div> */}
 
       {/* <p>The 2021 Montana Legislature was in session from Jan. 4 to April 29.</p>
       <BillStatusOverview summary={summary} mostRecentActionDate={mostRecentActionDate} /> */}

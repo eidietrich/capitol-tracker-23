@@ -7,15 +7,15 @@ const iconSvg = css`
     fill: white;
     position: relative;
     top: 3px;
-    height: 16px;
-    width: 16px;
+    height: 18px;
+    width: 18px;
     margin-right: 3px;
 `
 
 // From: https://material.io/resources/icons/?search=infor&icon=help&style=baseline
 const questionMarkSvg = <svg css={iconSvg} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-    <path fill={color} d="M0 0h24v24H0z" />
-    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H8c0-2.21 1.79-4 4-4s4 1.79 4 4c0 .88-.36 1.68-.93 2.25z" />
+    <path fill="none" d="M0 0h24v24H0z" />
+    <path fill="#444" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H8c0-2.21 1.79-4 4-4s4 1.79 4 4c0 .88-.36 1.68-.93 2.25z" />
 </svg>
 
 // Adapted from https://codesandbox.io/s/how-to-make-an-extremely-reusable-tooltip-component-with-react-and-nothing-else-7opo3?from-embed=&file=/src/Tooltip.css
@@ -24,23 +24,23 @@ const tipWrapperCss = css`
     display: inline-block;
     position: relative;
 
-    border: 2px solid${color};
+    border: 1px solid var(--gray2);
     padding: 0.2em 0.4em;
-    background-color: ${color};
-    color: white;
+    background-color: var(--gray1);
+    color: black;
     /* border-radius: 0.2em; */
     font-size: 1em;
 
-    margin: 0.5em;
+    margin: 0.5em 0;
 
-    width: 90%;
-    max-width: 400px;
+    width: 100%;
+    /* max-width: 400px; */
 
     cursor: pointer;
 
     :hover {
-        background-color: ${color};
-        border: 2px solid #222;
+        background-color: var(--gray2);
+        border: 1px solid #222;
         box-shadow: 1px 1px 2px #eee;
     }
 
@@ -49,7 +49,7 @@ const tipWrapperCss = css`
     }
 `
 const isActiveCss = css`
-    color: #ddd;
+    border: 1px solid #222;
 `
 const tipCss = css`
 
@@ -59,12 +59,12 @@ const tipCss = css`
     transform: translateX(-50%);
     padding: 6px;
     color: #222;
-    background: #eee;
+    background: var(--gray1);
     font-size: 0.9em;
     line-height: 1.1;
     z-index: 100;
     /* white-space: nowrap; */
-    border: 1px solid #666;
+    border: 1px solid var(--gray4);
     width: 90%;
     max-width: 400px;
 
@@ -120,8 +120,9 @@ const InfoPopup = ({ label, content }) => {
     return <div css={[tipWrapperCss, active ? isActiveCss : null]}
         onClick={toggleTip}
     >
+
         {questionMarkSvg}
-        {label}
+        <em>{label}</em>
         {
             (active) && (
                 <div css={[tipCss, bottomCss]}>
