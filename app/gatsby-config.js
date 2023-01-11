@@ -3,8 +3,8 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Montana Free Press Capitol Tracker 2023`,
-    description: `The lawmakers, bills and votes of the 68th Montana Legislature`,
+    title: `2023 MT Capitol Tracker | Montana Free Press`,
+    description: `The lawmakers, bills and votes of the 68th Montana Legislature.`,
     author: `Eric Dietrich / Montana Free Press`,
     seoTitle: '2023 Montana Capitol Tracker | Montana Free Press',
     siteUrl: `https://apps.montanafreepress.org/capitol-tracker-2023/`,

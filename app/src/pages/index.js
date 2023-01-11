@@ -71,7 +71,7 @@ const Index = ({ data, location }) => {
 // ref: https://www.gatsbyjs.com/docs/how-to/adding-common-features/adding-seo-component/
 export const Head = () => (
   <Seo
-    title="Overview"
+    title=""
     pageRelativeUrl=''
   />
 )

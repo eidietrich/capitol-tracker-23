@@ -50,6 +50,7 @@ const Actions = ({ location }) => {
             <div>
                 <div>
                     <h3>🏛 HOUSE FLOOR</h3>
+                    {houseActionTypes.length === 0 && <div className="note">Nothing recorded. The House usually convenes in early afternoon.</div>}
                     {
                         houseActionTypes.map(description => {
                             const actionsOfType = houseActions.filter(d => d.description === description)
@@ -62,6 +63,7 @@ const Actions = ({ location }) => {
                 </div>
                 <div>
                     <h3>🏛 SENATE FLOOR</h3>
+                    {senateActionTypes.length === 0 && <div className="note">Nothing recorded. The Senate usually convenes in early afternoon.</div>}
                     {
                         senateActionTypes.map(description => {
                             const actionsOfType = senateActions.filter(d => d.description === description)
