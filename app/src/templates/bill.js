@@ -7,7 +7,7 @@ import Layout from '../components/Layout'
 import Seo from "../components/Seo"
 import ContactUs from '../components/ContactUs'
 import LinksList from '../components/LinksList'
-import Newsletter from '../components/Newsletter'
+import NewsletterSignup from '../components/NewsletterSignup'
 
 import BillStatus from '../components/bill/Status'
 import BillInfo from '../components/bill/Info'
@@ -57,7 +57,7 @@ const BillPage = ({ pageContext, location }) => {
         </div>
       }
 
-      <Newsletter />
+      <NewsletterSignup />
 
       <BillActions actions={actions} lawsUrl={lawsUrl} vetoMemoUrl={vetoMemoUrl} />
 

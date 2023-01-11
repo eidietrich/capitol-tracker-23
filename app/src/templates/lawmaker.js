@@ -7,7 +7,7 @@ import ReactMarkdown from 'react-markdown'
 import Layout from '../components/Layout'
 import Seo from "../components/Seo"
 import ContactUs from '../components/ContactUs'
-import Newsletter from '../components/Newsletter'
+import NewsletterSignup from '../components/NewsletterSignup'
 import LinksList from '../components/LinksList'
 import BillTable from '../components/BillTable'
 
@@ -145,7 +145,7 @@ const LawmakerPage = ({ pageContext, data, location }) => {
       <h3 id="bills-sponsored">Bills sponsored</h3>
       <BillTable bills={sponsoredBills} />
 
-      <Newsletter />
+      <NewsletterSignup />
 
       <h3 id="key-votes">Key bill votes</h3>
       <div>Most recent votes on bills identified as notable by MTFP staff.</div>

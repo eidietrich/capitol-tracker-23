@@ -7,7 +7,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "data:refresh": "sh refresh-inputs.sh",
-    "data:process": "node process/main.js"
+    "data:process": "node process/main.js",
+    "sync": "git pull -X theirs --no-edit && git push"
   },
   "keywords": [],
   "author": "",
