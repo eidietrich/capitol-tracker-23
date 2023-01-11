@@ -34428,6 +34428,67 @@
                     "locale": "Billings",
                     "district": "SD 27"
                 }
+            },
+            {
+                "key": "sb-163",
+                "identifier": "SB 163",
+                "title": "Establish volunteer program in child protective services",
+                "chamber": "senate",
+                "status": {
+                    "key": "In First House--Introduced",
+                    "step": "First chamber",
+                    "label": "Introduced",
+                    "status": "live",
+                    "statusAtSessionEnd": "failed"
+                },
+                "progress": [
+                    {
+                        "step": "introduced",
+                        "status": "passed",
+                        "statusLabel": "Introduced",
+                        "statusDate": "01/11/2023"
+                    },
+                    {
+                        "step": "first committee",
+                        "status": "current",
+                        "statusLabel": "Pending",
+                        "statusDate": null
+                    },
+                    {
+                        "step": "first chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "second chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "reconciliation",
+                        "status": "skipped",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "governor",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    }
+                ],
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC0529.pdf",
+                "fiscalNoteUrl": null,
+                "numArticles": 0,
+                "sponsor": {
+                    "name": "Dennis Lenz",
+                    "lastName": "Lenz",
+                    "party": "R",
+                    "locale": "Billings",
+                    "district": "SD 27"
+                }
             }
         ],
         "votingSummary": {
