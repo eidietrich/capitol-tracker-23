@@ -99,7 +99,7 @@ const calendarOutput = new CalendarPage({ actions, bills, updateTime }).export()
 bills.forEach(bill => bill.data.isOnCalendar = calendarOutput.billsOnCalendar.includes(bill.data.identifier))
 const recapOutput = new RecapPage({ actions, bills, updateTime }).export()
 
-const keyBillCategoryKeys = Array.from(new Set(billAnnotations.map(d => d.category)))
+const keyBillCategoryKeys = Array.from(new Set(billAnnotations.map(d => d.category))).filter(d => d !== null)
 const keyBillCategoryList = keyBillCategoryKeys.map(category => {
     const match = billAnnotations.find(d => d.category === category)
     return {

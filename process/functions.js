@@ -1,10 +1,12 @@
 import { timeFormat, timeParse } from 'd3-time-format'
 
+
 import {
     LAWMAKER_NAME_CLEANING
 } from './config/people.js'
 
 import {
+    COMMITEE_NAME_CLEANING,
     COMMITTEES,
     // EXCLUDE_COMMITTEES,
 } from './config/committees.js'
@@ -25,9 +27,20 @@ export const standardizeDate = date => {
     return dateFormat(new Date(date))
 }
 
+export const standardCommiteeNames = Array.from(new Set(Object.values(COMMITEE_NAME_CLEANING)))
+export const standardizeCommiteeNames = name => {
+    if (standardCommiteeNames.includes(name)) return name
+    if ([null, '', ' '].includes(name)) return null
+    const preClean = name.replace('(H) (H)', '(H)').replace('(S) (S)', '(S)')
+    const clean = COMMITEE_NAME_CLEANING[preClean]
+    if (!clean) console.error(`NAME_CLEANING in config.js missing "${preClean}"`)
+    return clean
+}
+
 export const standardLawmakerNames = Array.from(new Set(Object.values(LAWMAKER_NAME_CLEANING)))
 export const standardizeLawmakerName = name => {
     if (standardLawmakerNames.includes(name)) return name
+
     const clean = LAWMAKER_NAME_CLEANING[name]
     if (!clean) console.error(`NAME_CLEANING in config.js missing ${name}`)
     return clean

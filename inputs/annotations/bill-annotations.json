@@ -11,14 +11,14 @@
       "data": {
         "id": 1,
         "attributes": {
-          "CategoryLabel": "Major budget bill",
+          "CategoryLabel": "Major budget bills",
           "CategoryDescription": null,
           "createdAt": "2022-12-21T19:36:32.011Z",
-          "updatedAt": "2023-01-10T02:49:24.626Z"
+          "updatedAt": "2023-01-11T00:38:38.707Z"
         }
       }
     },
-    "category": "Major budget bill",
+    "category": "Major budget bills",
     "categoryDescription": null
   },
   {
@@ -45,25 +45,17 @@
   },
   {
     "Identifier": "HB 192",
-    "isKeyBill": true,
+    "isKeyBill": false,
     "Explanation": null,
     "BillPageText": null,
     "legalNoteLink": null,
     "createdAt": "2023-01-10T02:50:22.021Z",
-    "updatedAt": "2023-01-10T02:50:27.390Z",
+    "updatedAt": "2023-01-11T00:49:25.672Z",
     "bill_category": {
-      "data": {
-        "id": 3,
-        "attributes": {
-          "CategoryLabel": "Governor's budget",
-          "CategoryDescription": "Bills implementing parts of Gov. Greg Gianforte's proposed state budget.",
-          "createdAt": "2023-01-10T02:48:37.145Z",
-          "updatedAt": "2023-01-10T02:57:20.780Z"
-        }
-      }
+      "data": null
     },
-    "category": "Governor's budget",
-    "categoryDescription": "Bills implementing parts of Gov. Greg Gianforte's proposed state budget."
+    "category": null,
+    "categoryDescription": null
   },
   {
     "Identifier": "HB 212",

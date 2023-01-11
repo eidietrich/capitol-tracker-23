@@ -1,4 +1,4 @@
-import { standardizeDate } from '../functions.js'
+import { standardizeDate, standardizeCommiteeNames } from '../functions.js'
 
 import { ACTIONS } from '../config/procedure.js'
 
@@ -34,7 +34,7 @@ export default class Action {
             date: standardizeDate(date),
             description,
             posession,
-            committee,
+            committee: standardizeCommiteeNames(committee),
             actionUrl,
             recordings,
             // Flags

@@ -90,7 +90,7 @@ const Calendar = ({ data, location }) => {
                             const committeeHearingBills = hearings.filter(d => d.committee === committee).map(d => d.bill)
                             const bills = onCalendarBills.filter(d => committeeHearingBills.includes(d.identifier))
                             return <div key={`${day}-${committee}`}>
-                                <h4>{committee}</h4>
+                                <h4>👥 {committee}</h4>
                                 <BillTable bills={bills} displayLimit={10} suppressCount={true} />
                                 {/* <ul>{committeeHearings.map(d => <Hearing key={d.id} data={d} />)}</ul> */}
                             </div>
@@ -107,7 +107,7 @@ const Calendar = ({ data, location }) => {
 
         <Layout location={location}>
 
-            <h1>Calendar</h1>
+            <h1>What's coming up at the Legislature</h1>
 
             <div>
                 {days.map((day, i) => <span key={day}>{i !== 0 ? ' • ' : ''}<AnchorLink to={`calendar/#${urlizeDay(day)}`}>{day}</AnchorLink></span>)}

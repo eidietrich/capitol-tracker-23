@@ -102,15 +102,17 @@ const PAGE_LINKS = [
     { path: '/#find-lawmaker', label: '🔎 Find a lawmaker' },
     { path: '/#find-district', label: '🏡 Your district' },
     { path: '/calendar/', label: '🗓 Calendar' },
-    { path: '/actions/', label: '📝 What\'s happened' },
+    { path: '/recap/', label: '📝 What\'s happened' },
     { path: '/participation/', label: '🙋 How to participate' },
 ]
 
 const Nav = ({ location }) => {
-    const currentPath = `${location.pathname}${location.hash}`
+    // const currentPath = `${location.pathname}${location.hash}`
+    // const isActiveStyle = (currentPath === l.path) ? activeStyle : null]
+    const isActiveStyle = null
 
     const links = PAGE_LINKS.map(l => {
-        return <Link key={l.path} css={[navItemStyle, navSecondaryStyle, (currentPath === l.path) ? activeStyle : null]} to={l.path}>{l.label}</Link>
+        return <Link key={l.path} css={[navItemStyle, navSecondaryStyle, isActiveStyle]} to={l.path}>{l.label}</Link>
     })
 
     return <div css={navStyle}>

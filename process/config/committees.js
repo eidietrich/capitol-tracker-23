@@ -3,66 +3,128 @@
 // TODO - switch over to model analogous to lawmakers to capture variation in committe names from different places in LAWS
 // }
 
+export const COMMITEE_NAME_CLEANING = {
+    // standardizeCommiteeNames in functions.js accounts for '(H) (H)' and '(S) (S)' quirk
+    '(H) Appropriations': 'House Appropriations',
+    '(H) Judiciary': 'House Judiciary',
+    '(H) Business and Labor': 'House Business and Labor',
+    '(H) Taxation': 'House Taxation',
+    '(H) State Administration': 'House State Administration',
+    '(H) Human Services': 'House Human Services',
+    '(H) Natural Resources': 'House Natural Resources',
+    '(H) Transportation': 'House Transportation',
+    '(H) Education': 'House Education',
+    '(H) Energy, Technology and Federal Relations': 'House Energy, Technology and Federal Relations',
+    '(H) Agriculture': 'House Agriculture',
+    '(H) Fish, Wildlife and Parks': 'House Fish, Wildlife and Parks',
+    '(H) Local Government': 'House Local Government',
+    '(H) Rules': 'House Rules',
+    '(H) Ethics': 'House Ethics',
+    '(H) Legislative Administration': 'House Legislative Administration',
+
+    '(S) Finance and Claims': 'Senate Finance and Claims',
+    '(S) Judiciary': 'Senate Judiciary',
+    '(S) Business, Labor, and Economic Affairs': 'Senate Business, Labor, and Economic Affairs',
+    '(S) Taxation': 'Senate Taxation',
+    '(S) Energy and Telecommunications': 'Senate Education and Cultural Resources',
+    '(S) Local Government': 'Senate Local Government',
+    '(S) Natural Resources': 'Senate Natural Resources',
+    '(S) Public Health, Welfare and Safety': 'Senate Public Health, Welfare and Safety',
+    '(S) State Administration': 'Senate State Administration',
+    '(S) Agriculture, Livestock and Irrigation': 'Senate Agriculture, Livestock and Irrigation',
+    '(S) Education and Cultural Resources': 'Senate Energy and Telecommunications',
+    '(S) Fish and Game': 'Senate Fish and Game',
+    '(S) Highways and Transportation': 'Senate Highways and Transportation',
+    '(S) Committee on Committees': 'Senate Committee on Committees',
+    '(S) Ethics': 'Senate Ethics',
+    '(S) Rules': 'Senate Rules',
+    '(S) Legislative Administration': 'Senate Legislative Administration',
+
+    '(H) Joint Appropriations Subcommittee on General Government': 'Joint Appropriations Section A — General Government',
+    '(H) Joint Appropriations Subcommittee on Health and Human Services': 'Joint Appropriations Section B — Health and Human Services',
+    '(H) Joint Appropriations Subcommittee on Health & Human Services': 'Joint Appropriations Section B — Health and Human Services',
+    '(H) Joint Appropriations Subcommittee on Natural Resources and Transportation': 'Joint Appropriations Section C — Natural Resources and Transportation',
+    '(H)Joint Approps Subcom on Judicial Branch, Law Enforcement, and Justice': 'Joint Appropriations Section D — Judicial Branch, Law Enforcement, and Justice',
+    '(H) Joint Approps Subcom on Judicial Branch, Law Enforcement, and Justice': 'Joint Appropriations Section D — Judicial Branch, Law Enforcement, and Justice',
+    '(H) Joint Appropriations Subcommittee on Education': 'Joint Appropriations Section E — Education',
+    '(H) Joint Appropriations Subcommittee on Long Range Planning': 'Joint Appropriations Section F — Long-Range Planning',
+    '(H) Joint Appropriations Subcommittee on Long-Range Planning': 'Joint Appropriations Section F — Long-Range Planning',
+
+    '(H) Joint Rules Committee': 'Joint Rules',
+
+    '(S) Select Committee on Judicial Transparency and Accountability': 'Select Committee on Judicial Transparency and Accountability',
+
+    "(J) (S) Committee of Whole": 'Senate Committee of the Whole',
+    "(J) (H) Committee of the Whole": 'House Committee of the Whole',
+    "(J) (H) Joint Education": 'Joint Education',
+    "(J) (S) Joint State Admin": 'Joint State Admin',
+    "(J) (H) Joint Fish, Wildlife & Parks and Senate Fish & Game": 'Joint Fish, Wildlife & Parks',
+    "(J) (H) Joint Appropriations and Finance & Claims": 'Joint Appropriations',
+    "(J) (H) Joint Natural Resources": 'Joint Natural Resources',
+}
+
 export const COMMITTEES = [
     // HOUSE
-    { key: "(H) (H) Appropriations", name: 'House Appropriations', daysOfWeek: 'daily', time: '8 a.m.', type: 'fiscal', },
+    { name: 'House Appropriations', daysOfWeek: 'daily', time: '8 a.m.', type: 'fiscal', },
 
-    { key: "(H) (H) Judiciary", name: 'House Judiciary', daysOfWeek: 'daily', time: '8 a.m.', type: 'policy', },
-    { key: "(H) (H) Business and Labor", name: 'House Business and Labor', daysOfWeek: 'daily', time: '8 a.m.', type: 'policy', },
-    { key: "(H) (H) Taxation", name: 'House Taxation', daysOfWeek: 'daily', time: '8 a.m.', type: 'policy', },
-    { key: "(H) (H) State Administration", name: 'House State Administration', daysOfWeek: 'daily', time: '8 a.m.', type: 'policy', },
-    { key: "(H) (H) Human Services", name: 'House Human Services', daysOfWeek: 'daily', time: '3 p.m.', type: 'policy', },
+    { name: 'House Judiciary', daysOfWeek: 'daily', time: '8 a.m.', type: 'policy', },
+    { name: 'House Business and Labor', daysOfWeek: 'daily', time: '8 a.m.', type: 'policy', },
+    { name: 'House Taxation', daysOfWeek: 'daily', time: '8 a.m.', type: 'policy', },
+    { name: 'House State Administration', daysOfWeek: 'daily', time: '8 a.m.', type: 'policy', },
+    { name: 'House Human Services', daysOfWeek: 'daily', time: '3 p.m.', type: 'policy', },
 
-    { key: "(H) (H) Natural Resources", name: 'House Natural Resources', daysOfWeek: 'M/W/F', time: '3 p.m.', type: 'policy', },
-    { key: "(H) (H) Transportation", name: 'House Transportation', daysOfWeek: 'M/W/F', time: '3 p.m.', type: 'policy', },
-    { key: "(H) (H) Education", name: 'House Education', daysOfWeek: 'M/W/F', time: '3 p.m.', type: 'policy', },
-    { key: "(H) (H) Energy, Technology and Federal Relations", name: 'House Energy, Technology and Federal Relations', daysOfWeek: 'M/W/F', time: '3 p.m.', type: 'policy', },
+    { name: 'House Natural Resources', daysOfWeek: 'M/W/F', time: '3 p.m.', type: 'policy', },
+    { name: 'House Transportation', daysOfWeek: 'M/W/F', time: '3 p.m.', type: 'policy', },
+    { name: 'House Education', daysOfWeek: 'M/W/F', time: '3 p.m.', type: 'policy', },
+    { name: 'House Energy, Technology and Federal Relations', daysOfWeek: 'M/W/F', time: '3 p.m.', type: 'policy', },
 
-    { key: "(H) (H) Agriculture", name: 'House Agriculture', daysOfWeek: 'T/Th', time: '3 p.m.', type: 'policy', },
-    { key: "(H) (H) Fish, Wildlife and Parks", name: 'House Fish, Wildlife and Parks', daysOfWeek: 'T/Th', time: '3 p.m.', type: 'policy', },
-    { key: "(H) (H) Local Government", name: 'House Local Government', daysOfWeek: 'T/Th', time: '3 p.m.', type: 'policy', },
+    { name: 'House Agriculture', daysOfWeek: 'T/Th', time: '3 p.m.', type: 'policy', },
+    { name: 'House Fish, Wildlife and Parks', daysOfWeek: 'T/Th', time: '3 p.m.', type: 'policy', },
+    { name: 'House Local Government', daysOfWeek: 'T/Th', time: '3 p.m.', type: 'policy', },
 
-    { key: "(H) (H) Rules", name: 'House Rules', daysOfWeek: 'on call', time: '', type: 'policy', },
-    { key: "(H) (H) Ethics", name: 'House Ethics', daysOfWeek: 'on call', time: '', type: 'policy', suppress: true },
-    { key: "(H) (H) Legislative Administration", name: 'House Legislative Administration', daysOfWeek: 'on call', time: '', type: 'policy', },
+    { name: 'House Rules', daysOfWeek: 'on call', time: '', type: 'policy', },
+    { name: 'House Ethics', daysOfWeek: 'on call', time: '', type: 'policy', suppress: true },
+    { name: 'House Legislative Administration', daysOfWeek: 'on call', time: '', type: 'policy', },
 
 
     // SENATE
-    { key: "(S) (S) Finance and Claims", name: 'Senate Finance and Claims', daysOfWeek: 'daily', time: '8 a.m.', type: 'fiscal', },
+    { name: 'Senate Finance and Claims', daysOfWeek: 'daily', time: '8 a.m.', type: 'fiscal', },
 
-    { key: "(S) (S) Judiciary", name: 'Senate Judiciary', daysOfWeek: 'daily', time: '9 a.m.', type: 'policy', },
-    { key: "(S) (S) Business, Labor, and Economic Affairs", name: 'Senate Business, Labor, and Economic Affairs', daysOfWeek: 'daily', time: '8 a.m.', type: 'policy', },
-    { key: "(S) (S) Taxation", name: 'Senate Taxation', daysOfWeek: 'daily', time: '8 a.m.', type: 'policy', },
+    { name: 'Senate Judiciary', daysOfWeek: 'daily', time: '9 a.m.', type: 'policy', },
+    { name: 'Senate Business, Labor, and Economic Affairs', daysOfWeek: 'daily', time: '8 a.m.', type: 'policy', },
+    { name: 'Senate Taxation', daysOfWeek: 'daily', time: '8 a.m.', type: 'policy', },
 
-    { key: "(S) (S) Energy and Telecommunications", name: 'Senate Education and Cultural Resources', daysOfWeek: 'M/W/F', time: '3 p.m.', type: 'policy', },
-    { key: "(S) (S) Local Government", name: 'Senate Local Government', daysOfWeek: 'M/W/F', time: '3 p.m.', type: 'policy', },
-    { key: "(S) (S) Natural Resources", name: 'Senate Natural Resources', daysOfWeek: 'M/W/F', time: '3 p.m.', type: 'policy', },
-    { key: "(S) (S) Public Health, Welfare and Safety", name: 'Senate Public Health, Welfare and Safety', daysOfWeek: 'M/W/F', time: '3 p.m.', type: 'policy', },
-    { key: "(S) (S) State Administration", name: 'Senate State Administration', daysOfWeek: 'M/W/F', time: '3 p.m.', type: 'policy', },
+    { name: 'Senate Education and Cultural Resources', daysOfWeek: 'M/W/F', time: '3 p.m.', type: 'policy', },
+    { name: 'Senate Local Government', daysOfWeek: 'M/W/F', time: '3 p.m.', type: 'policy', },
+    { name: 'Senate Natural Resources', daysOfWeek: 'M/W/F', time: '3 p.m.', type: 'policy', },
+    { name: 'Senate Public Health, Welfare and Safety', daysOfWeek: 'M/W/F', time: '3 p.m.', type: 'policy', },
+    { name: 'Senate State Administration', daysOfWeek: 'M/W/F', time: '3 p.m.', type: 'policy', },
 
-    { key: "(S) (S) Agriculture, Livestock and Irrigation", name: 'Senate Agriculture, Livestock and Irrigation', daysOfWeek: 'T/Th', time: '3 p.m.', type: 'policy', },
-    { key: "(S) (S) Education and Cultural Resources", name: 'Senate Energy and Telecommunications', daysOfWeek: 'T/Th', time: '3 p.m.', type: 'policy', },
-    { key: "(S) (S) Fish and Game", name: 'Senate Fish and Game', daysOfWeek: 'T/Th', time: '3 p.m.', type: 'policy', },
-    { key: "(S) (S) Highways and Transportation", name: 'Senate Highways and Transportation', daysOfWeek: 'T/Th', time: '3 p.m.', type: 'policy', },
+    { name: 'Senate Agriculture, Livestock and Irrigation', daysOfWeek: 'T/Th', time: '3 p.m.', type: 'policy', },
+    { name: 'Senate Energy and Telecommunications', daysOfWeek: 'T/Th', time: '3 p.m.', type: 'policy', },
+    { name: 'Senate Fish and Game', daysOfWeek: 'T/Th', time: '3 p.m.', type: 'policy', },
+    { name: 'Senate Highways and Transportation', daysOfWeek: 'T/Th', time: '3 p.m.', type: 'policy', },
 
-    { key: "(S) (S) Committee on Committees", name: 'Senate Committee on Committees', daysOfWeek: 'on call', time: '', type: 'special', suppress: true },
-    { key: "(S) (S) Ethics", name: 'Senate Ethics', daysOfWeek: 'on call', time: '', type: 'special', suppress: true },
-    { key: "(S) (S) Rules", name: 'Senate Rules', daysOfWeek: 'on call', time: '', type: 'special', },
-    { key: "(S) (S) Legislative Administration", name: 'Senate Legislative Administration', daysOfWeek: 'on call', time: '', type: 'special', },
+    { name: 'Senate Committee on Committees', daysOfWeek: 'on call', time: '', type: 'special', suppress: true },
+    { name: 'Senate Ethics', daysOfWeek: 'on call', time: '', type: 'special', suppress: true },
+    { name: 'Senate Rules', daysOfWeek: 'on call', time: '', type: 'special', },
+    { name: 'Senate Legislative Administration', daysOfWeek: 'on call', time: '', type: 'special', },
+
+    { name: 'Joint Rules', daysOfWeek: 'on call', time: '', type: 'special', },
 
     // { key: "", name: 'Senate Select Committee on Marijuana Law', daysOfWeek: 'on call', time: '', type: 'policy', },
 
     // joint approps
-    { key: "(H) (H) Joint Appropriations Subcommittee on General Government", name: 'Joint Appropriations Subcommittee A — General Government', daysOfWeek: 'daily', time: '8 a.m.', type: 'fiscal-sub', },
-    { key: "(H) (H) Joint Appropriations Subcommittee on Health & Human Services", name: 'Joint Appropriations Subcommittee B — Health and Human Services', daysOfWeek: 'daily', time: '8 a.m.', type: 'fiscal-sub', },
-    { key: "(H) (H) Joint Appropriations Subcommittee on Natural Resources and Transportation", name: 'Joint Appropriations Subcommittee C — Natural Resources and Transportation', daysOfWeek: 'daily', time: ' 8:30 a.m.', type: 'fiscal-sub', },
-    { key: "(H) (H)Joint Approps Subcom on Judicial Branch, Law Enforcement, and Justice", name: 'Joint Approps Subcommittee D — Judicial Branch, Law Enforcement, and Justice', daysOfWeek: 'daily', time: '8 a.m.', type: 'fiscal-sub', },
-    { key: "(H) (H) Joint Appropriations Subcommittee on Education", name: 'Joint Appropriations Subcommittee E — Education', daysOfWeek: 'daily', time: '8:30 a.m.', type: 'fiscal-sub', },
-    { key: "(H) (H) Joint Appropriations Subcommittee on Long-Range Planning", name: 'Joint Appropriations Subcommittee F — Long-Range Planning', daysOfWeek: 'daily', time: '8:30 a.m.', type: 'fiscal-sub', },
+    { name: 'Joint Appropriations Subcommittee A — General Government', daysOfWeek: 'daily', time: '8 a.m.', type: 'fiscal-sub', },
+    { name: 'Joint Appropriations Subcommittee B — Health and Human Services', daysOfWeek: 'daily', time: '8 a.m.', type: 'fiscal-sub', },
+    { name: 'Joint Appropriations Subcommittee C — Natural Resources and Transportation', daysOfWeek: 'daily', time: ' 8:30 a.m.', type: 'fiscal-sub', },
+    { name: 'Joint Appropriations Subcommittee D — Judicial Branch, Law Enforcement, and Justice', daysOfWeek: 'daily', time: '8 a.m.', type: 'fiscal-sub', },
+    { name: 'Joint Appropriations Subcommittee E — Education', daysOfWeek: 'daily', time: '8:30 a.m.', type: 'fiscal-sub', },
+    { name: 'Joint Appropriations Subcommittee F — Long-Range Planning', daysOfWeek: 'daily', time: '8:30 a.m.', type: 'fiscal-sub', },
 
     // other
-    { key: "(H) (H) Joint Rules Committee", name: "Joint Rules Committee", daysOfWeek: 'on call', time: '', type: 'special', },
-    { key: "(S) (S) Select Committee on Judicial Transparency and Accountability", name: "Select Committee on Judicial Transparency and Accountability", daysOfWeek: 'on call', time: '', type: 'special', },
+    { daysOfWeek: 'on call', time: '', type: 'special', },
+    { daysOfWeek: 'on call', time: '', type: 'special', },
 
     // conference committees
     { key: "", name: 'Senate Conference', daysOfWeek: 'on call', time: '', type: 'conference', },
@@ -73,12 +135,12 @@ export const COMMITTEES = [
 ]
 
 export const EXCLUDE_COMMITTEES = [
-    "(J) (S) Committee of Whole",
-    "(J) (H) Committee of the Whole",
-    "(J) (H) Joint Education",
-    "(J) (S) Joint State Admin",
-    "(J) (H) Joint Fish, Wildlife & Parks and Senate Fish & Game",
-    "(J) (H) Joint Appropriations and Finance & Claims",
-    "(J) (H) Joint Natural Resources"
+    'Senate Committee of the Whole',
+    'House Committee of the Whole',
+    'Joint Education',
+    'Joint State Admin',
+    'Joint Fish, Wildlife & Parks',
+    'Joint Appropriations',
+    'Joint Natural Resources',
 ]
 

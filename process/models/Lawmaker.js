@@ -16,7 +16,7 @@ import {
     getLawmakerSummary,
     getLawmakerLastName,
     getLawmakerLocale,
-    cleanCommitteeName,
+    standardizeCommiteeNames,
 } from '../functions.js'
 
 export default class Lawmaker {
@@ -47,16 +47,16 @@ export default class Lawmaker {
         this.name = standardName
         this.summary = getLawmakerSummary(standardName)
 
-        const committeeOrder = COMMITTEES.map(d => d.key)
+        const committeeOrder = COMMITTEES.map(d => d.name)
         const committeesCleaned = committees
-            .filter(d => !EXCLUDE_COMMITTEES.includes(d.committee))
-            .sort((a, b) => committeeOrder.indexOf(a.committee) - committeeOrder.indexOf(b.committee))
             .map(d => {
                 return {
-                    committee: cleanCommitteeName(d.committee),
+                    committee: standardizeCommiteeNames(d.committee),
                     role: d.role,
                 }
             })
+            .sort((a, b) => committeeOrder.indexOf(a.committee) - committeeOrder.indexOf(b.committee))
+            .filter(d => !EXCLUDE_COMMITTEES.includes(d.committee))
 
         this.data = {
             key: lawmakerKey(standardName),

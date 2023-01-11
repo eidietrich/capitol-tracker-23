@@ -7,7 +7,7 @@ const style = css`
     background: #191919;
     color: white;
     padding: 1em;
-    margin-top: 1em;
+    margin-top: 2em;
     margin-bottom: 2em;
 
     .row {

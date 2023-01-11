@@ -31,7 +31,7 @@ const AllBills = ({ data, location }) => {
   return <div>
     <Layout location={location}>
       <h1>All 2023 bills</h1>
-      <div>{types.map(type => <span key={type}> • <AnchorLink to={`/reports/all-bills/#${type.replace(' ', '-')}`}>{type} ({byType.find(d => d.type === type).bills.length})</AnchorLink></span>)}</div>
+      <div>{types.map(type => <span key={type}> • <AnchorLink to={`/all-bills/#${type.replace(' ', '-')}`}>{type} ({byType.find(d => d.type === type).bills.length})</AnchorLink></span>)}</div>
       {/* <BillTable bills={allBills} displayLimit={1200} /> */}
       {
         types.map(type => <div id={type.replace(' ', '-')} key={type}>

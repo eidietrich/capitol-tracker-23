@@ -44,8 +44,9 @@ const main = async () => {
     const bills = await getBillAnnotations()
     // linkage cleaning
     bills.forEach(bill => {
-        bill.category = bill.bill_category.data.attributes.CategoryLabel
-        bill.categoryDescription = bill.bill_category.data.attributes.CategoryDescription
+        const catData = bill.bill_category.data
+        bill.category = catData && catData.attributes.CategoryLabel || null
+        bill.categoryDescription = catData && catData.attributes.CategoryDescription || null
     })
     writeJson('./inputs/annotations/bill-annotations.json', bills)
     const lawmakers = await getLawmakerAnnotations()
