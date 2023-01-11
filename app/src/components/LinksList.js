@@ -90,10 +90,15 @@ export default LinksList
 
 const Link = (props) => {
     const { link, title, date, category, author } = props
+
+    // This is a "temporary" hack to work around a bug with how MTFP's main website exports authors
+    // on republished stories written by partner orgs
+    const displayAuthor = ['Stephanie Farmer'].includes(author) ? '' : author
+
     return <a css={linkStyle} href={link}>
         {/* <div><img className="image" src={imageUrl} /></div> */}
         <div className='dek'>📰 {category}</div>
         <div className='title'>{title}</div>
-        <div className='detail'>{presentDate(date)} • {author}</div>
+        <div className='detail'>{presentDate(date)} • {displayAuthor}</div>
     </a>
 }
