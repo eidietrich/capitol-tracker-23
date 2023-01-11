@@ -4,12 +4,12 @@
 module.exports = {
   siteMetadata: {
     title: `Montana Free Press Capitol Tracker 2023`,
-    description: `TK`,
+    description: `The lawmakers, bills and votes of the 68th Montana Legislature`,
     author: `Eric Dietrich / Montana Free Press`,
     seoTitle: '2023 Montana Capitol Tracker | Montana Free Press',
     siteUrl: `https://apps.montanafreepress.org/capitol-tracker-2023/`,
     keywords: ['Montana', '2023 Legislature', 'lawmakers', 'bills', 'legislators', 'house', 'senate', 'vote', 'Helena', 'Capitol'],
-    image: `https://apps.montanafreepress.org/election-guide-2022/election-guide-2022-feature-v1.png`,
+    image: `https://apps.montanafreepress.org/capitol-tracker-2023/cap-tracker-banner-dark.png`,
   },
   pathPrefix: `/capitol-tracker-2023`,
   plugins: [

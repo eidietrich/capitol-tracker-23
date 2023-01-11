@@ -48,7 +48,7 @@ const House = ({ data, location }) => {
 
 export const Head = () => (
   <Seo
-    title="Montana House"
+    title="House"
     description="Representatives and committees of the Montana House"
     pageRelativeUrl='house/'
   />

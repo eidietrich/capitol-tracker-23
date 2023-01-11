@@ -165,7 +165,7 @@ const Hearing = ({ data }) => {
 export const Head = () => (
     <Seo
         title="Calendar"
-        description="Upcoming bill hearings"
+        description="What's coming up at the 2023 Legislature"
     />
 )
 

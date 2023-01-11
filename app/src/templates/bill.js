@@ -69,8 +69,8 @@ const BillPage = ({ pageContext, location }) => {
 export const Head = ({ pageContext }) => {
   const { key, identifier, title } = pageContext.bill
   return <Seo
-    title={`${identifier}: ${title}`}
-    description={`Bill details, sponsor, text, procedural status and more.`}
+    title={`${identifier}`}
+    description={`Bill details, sponsor, text, procedural status and more for ${identifier}: ${title}.`}
     pageRelativeUrl={`bills/${key}/`}
   />
 }

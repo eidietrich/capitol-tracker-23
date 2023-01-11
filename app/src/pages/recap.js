@@ -116,8 +116,8 @@ export default Actions
 
 export const Head = () => (
     <Seo
-        title="Actions"
-        description="What Montana lawmakers have done day by date"
+        title="Recap"
+        description="Procedural action on bills under consideration by the 2023 Legislature."
     />
 )
 

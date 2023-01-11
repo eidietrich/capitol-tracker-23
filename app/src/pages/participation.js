@@ -27,7 +27,7 @@ const Participate = ({ location }) => {
 }
 
 export const Head = () => (
-    <Seo title="Participation"
+    <Seo title="Participate"
         description="How to participate in Montana's 2023 Legislature"
         pageRelativeUrl='participation/'
     />

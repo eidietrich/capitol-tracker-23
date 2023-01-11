@@ -11,6 +11,7 @@ import MTFPLogo from './MTFPLogo'
 import headerData from '../data/header.json'
 import { formatTimeLong } from '../config/utils'
 
+import headerBackground from "../images/cap-tracker-background.png"
 import "../config/base.css"
 
 const bodyStyles = css`
@@ -18,6 +19,8 @@ const bodyStyles = css`
 `
 const headerStyle = css`  
   background-color: var(--tan7);
+  background-size: cover;
+  background-position: center;
   margin-bottom: 10px;
   padding: 1em;
 `
@@ -32,11 +35,12 @@ const titleStyle = css`
   font-size: 3em;
   margin-bottom: 5px;
   margin-top: 0;
+  font-weight: normal;
   text-transform: uppercase;
   text-align: center;
 
   a {
-    color: var(--tan4);
+    color: var(--gray1);
   }
   a:hover {
     color: var(--link);
@@ -48,7 +52,7 @@ const titleStyle = css`
   }
 `
 const subtitleStyle = css`
-  color: var(--tan5);
+  color: var(--tan4);
   font-size: 1.15em;
   text-align: center;
   margin-left: 5px;
@@ -78,7 +82,7 @@ const navCss = css`
 `
 
 const headerDonateLink = "https://checkout.fundjournalism.org/memberform?org_id=montanafreepress&campaign=7014o000000JNaKAAW"
-const title = '2023 Capitol Tracker [BETA]'
+const title = '2023 Capitol Tracker'
 const subtitle = 'The lawmakers, bills and votes of the 68th Montana Legislature'
 
 const Layout = ({ children, location }) => {
@@ -86,7 +90,10 @@ const Layout = ({ children, location }) => {
   return (
     <div css={bodyStyles}>
       <div css={contentStyle}>
-        <div css={headerStyle}>
+        <div css={headerStyle} style={{
+          backgroundImage: `linear-gradient( rgba(23, 24, 24, 0.2), rgba(23, 24, 24, 0.5) ), url(${headerBackground})`
+        }}>
+          {/* <img src={headerBackground} alt="background" /> */}
           <h1 css={titleStyle}><Link to="/">{title}</Link></h1>
           <h2 css={subtitleStyle}>{subtitle}</h2>
           <div css={mtfpBlurbCss}>

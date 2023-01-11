@@ -45,7 +45,7 @@ const Senate = ({ data, location }) => {
 
 export const Head = () => (
   <Seo
-    title="Montana Senate"
+    title="Senate"
     description="Senators and committees of the Montana Senate"
     pageRelativeUrl='senate/'
   />

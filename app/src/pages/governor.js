@@ -64,8 +64,8 @@ const Governor = ({ data, location }) => {
 
 export const Head = () => (
   <Seo
-    title="Gov. Greg Gianforte"
-    description="Vetos, signatures and bills on the Montana governor's desk."
+    title="Governor"
+    description="Vetos, signatures and 2023 bills on the desk of Montana Gov. Greg Gianforte."
     pageRelativeUrl='governor/'
   />
 )
