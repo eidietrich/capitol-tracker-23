@@ -3,8 +3,11 @@ import ReactMarkdown from 'react-markdown'
 
 import Layout from '../components/Layout'
 import Seo from '../components/Seo'
+import NewsletterSignup from "../components/NewsletterSignup"
+import ContactUs from "../components/ContactUs"
 
 import participationData from '../data/participation.json'
+
 
 const Participate = ({ location }) => {
     const { text } = participationData
@@ -16,6 +19,8 @@ const Participate = ({ location }) => {
             <div className="note">Compiled by Amanda Eggert</div>
 
             <ReactMarkdown>{text}</ReactMarkdown>
+            <NewsletterSignup />
+            <ContactUs />
 
         </Layout>
     </div>

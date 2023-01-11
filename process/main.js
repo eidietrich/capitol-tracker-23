@@ -104,7 +104,9 @@ const keyBillCategoryList = keyBillCategoryKeys.map(category => {
     const match = billAnnotations.find(d => d.category === category)
     return {
         category,
-        categoryDescription: match.categoryDescription
+        description: match.categoryDescription,
+        order: match.categoryOrder,
+        show: match.showCategory,
     }
 })
 const headerOutput = { updateTime }

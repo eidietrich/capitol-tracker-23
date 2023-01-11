@@ -42,11 +42,14 @@ const getGuideText = async () => {
 const main = async () => {
     console.log('### Fetching annotations from', API_BASE)
     const bills = await getBillAnnotations()
+    // TODO - figure out why bill tags don't appear to be fetching here
     // linkage cleaning
     bills.forEach(bill => {
         const catData = bill.bill_category.data
         bill.category = catData && catData.attributes.CategoryLabel || null
         bill.categoryDescription = catData && catData.attributes.CategoryDescription || null
+        bill.categoryOrder = catData && catData.attributes.OrderOnPage || null
+        bill.showCategory = catData && catData.attributes.ShowOnKeyBillsList || null
     })
     writeJson('./inputs/annotations/bill-annotations.json', bills)
     const lawmakers = await getLawmakerAnnotations()

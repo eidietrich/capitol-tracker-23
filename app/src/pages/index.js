@@ -38,14 +38,17 @@ const Index = ({ data, location }) => {
       <InfoPopup label="How bills move through the Legislature" content={howBillsMove} />
       <div className="note">Major legislation identified by MTFP reporters. Where ambiguous, official bill titles are annotated with plain language summaries.</div>
       {
-        keyBillCategories.map(c => {
-          const billsInCat = keyBills.filter(d => d.majorBillCategory === c.category)
-          return <div key={c.category}>
-            <h4>{c.category}</h4>
-            <div className="note">{c.categoryDescription}</div>
-            <BillTable bills={billsInCat} displayLimit={15} suppressCount={true} />
-          </div>
-        })
+        keyBillCategories
+          .filter(d => d.show)
+          .sort((a, b) => a.order - b.order)
+          .map(c => {
+            const billsInCat = keyBills.filter(d => d.majorBillCategory === c.category)
+            return <div key={c.category}>
+              <h4>{c.category}</h4>
+              <div className="note">{c.description}</div>
+              <BillTable bills={billsInCat} displayLimit={15} suppressCount={true} />
+            </div>
+          })
       }
       {/* </TruncatedContainer> */}
 

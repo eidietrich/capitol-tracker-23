@@ -1,10 +1,14 @@
 [
     {
         "category": "Major budget bills",
-        "categoryDescription": null
+        "description": null,
+        "order": 1,
+        "show": true
     },
     {
         "category": "Governor's budget",
-        "categoryDescription": "Bills implementing parts of Gov. Greg Gianforte's proposed state budget."
+        "description": "Bills implementing parts of Gov. Greg Gianforte's proposed state budget.",
+        "order": 2,
+        "show": null
     }
 ]

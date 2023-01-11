@@ -9,7 +9,7 @@ import Roster from '../components/Roster'
 import ChamberLeadership from '../components/ChamberLeadership'
 
 import ContactUs from '../components/ContactUs'
-import Newsletter from '../components/Newsletter'
+import NewsletterSignup from '../components/NewsletterSignup'
 
 import houseData from '../data/house.json'
 
@@ -38,7 +38,7 @@ const House = ({ data, location }) => {
         <Roster title="Membership" chamberLabel="House" lawmakers={representatives} />
       </TruncatedContainer>
 
-      <Newsletter />
+      <NewsletterSignup />
 
       <ContactUs />
 

@@ -6,6 +6,9 @@ import Layout from '../components/Layout'
 import Seo from '../components/Seo'
 import BillTable from '../components/BillTable'
 import ContactUs from '../components/ContactUs'
+import NewsletterSignup from "../components/NewsletterSignup";
+
+import { capitalize } from "../config/utils";
 
 const types = [
   'budget bill',
@@ -31,12 +34,12 @@ const AllBills = ({ data, location }) => {
   return <div>
     <Layout location={location}>
       <h1>All 2023 bills</h1>
-      <div>{types.map(type => <span key={type}> • <AnchorLink to={`/all-bills/#${type.replace(' ', '-')}`}>{type} ({byType.find(d => d.type === type).bills.length})</AnchorLink></span>)}</div>
-      {/* <BillTable bills={allBills} displayLimit={1200} /> */}
+      <div>{types.map(type => <span key={type}> • <AnchorLink to={`/all-bills/#${type.replace(' ', '-')}`}>{capitalize(type)}s ({byType.find(d => d.type === type).bills.length})</AnchorLink></span>)}</div>
       {
-        types.map(type => <div id={type.replace(' ', '-')} key={type}>
-          <h2>Type: {type}</h2>
-          <BillTable bills={byType.find(d => d.type === type).bills} displayLimit={1200} />
+        byType.map((group, i) => <div id={group.type.replace(' ', '-')} key={group.type}>
+          <h2>{capitalize(group.type)}s ({group.bills.length})</h2>
+          <BillTable bills={group.bills} displayLimit={1200} />
+          {(i === 0) && <NewsletterSignup />}
         </div>)
       }
 

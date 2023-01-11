@@ -99,7 +99,7 @@ const Calendar = ({ data, location }) => {
                 </div>
             </>}
             {/* Add newsletter promo after first day on calendar */}
-            {(i === 1) && < NewsletterSignup />}
+            {(i === 0) && < NewsletterSignup />}
         </div>
     })
 

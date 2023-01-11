@@ -14,21 +14,25 @@
           "CategoryLabel": "Major budget bills",
           "CategoryDescription": null,
           "createdAt": "2022-12-21T19:36:32.011Z",
-          "updatedAt": "2023-01-11T00:38:38.707Z"
+          "updatedAt": "2023-01-11T15:35:02.748Z",
+          "OrderOnPage": 1,
+          "ShowOnKeyBillsList": true
         }
       }
     },
     "category": "Major budget bills",
-    "categoryDescription": null
+    "categoryDescription": null,
+    "categoryOrder": 1,
+    "showCategory": true
   },
   {
     "Identifier": "SB 121",
-    "isKeyBill": true,
+    "isKeyBill": false,
     "Explanation": null,
     "BillPageText": null,
     "legalNoteLink": null,
     "createdAt": "2023-01-10T02:50:07.531Z",
-    "updatedAt": "2023-01-10T02:50:07.531Z",
+    "updatedAt": "2023-01-11T15:23:27.109Z",
     "bill_category": {
       "data": {
         "id": 3,
@@ -36,12 +40,16 @@
           "CategoryLabel": "Governor's budget",
           "CategoryDescription": "Bills implementing parts of Gov. Greg Gianforte's proposed state budget.",
           "createdAt": "2023-01-10T02:48:37.145Z",
-          "updatedAt": "2023-01-10T02:57:20.780Z"
+          "updatedAt": "2023-01-11T15:34:48.387Z",
+          "OrderOnPage": 2,
+          "ShowOnKeyBillsList": false
         }
       }
     },
     "category": "Governor's budget",
-    "categoryDescription": "Bills implementing parts of Gov. Greg Gianforte's proposed state budget."
+    "categoryDescription": "Bills implementing parts of Gov. Greg Gianforte's proposed state budget.",
+    "categoryOrder": 2,
+    "showCategory": null
   },
   {
     "Identifier": "HB 192",
@@ -50,21 +58,23 @@
     "BillPageText": null,
     "legalNoteLink": null,
     "createdAt": "2023-01-10T02:50:22.021Z",
-    "updatedAt": "2023-01-11T00:49:25.672Z",
+    "updatedAt": "2023-01-11T15:41:21.723Z",
     "bill_category": {
       "data": null
     },
     "category": null,
-    "categoryDescription": null
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null
   },
   {
     "Identifier": "HB 212",
-    "isKeyBill": true,
+    "isKeyBill": false,
     "Explanation": null,
     "BillPageText": null,
     "legalNoteLink": null,
     "createdAt": "2023-01-10T02:50:39.071Z",
-    "updatedAt": "2023-01-10T02:50:47.793Z",
+    "updatedAt": "2023-01-11T15:23:22.355Z",
     "bill_category": {
       "data": {
         "id": 3,
@@ -72,11 +82,15 @@
           "CategoryLabel": "Governor's budget",
           "CategoryDescription": "Bills implementing parts of Gov. Greg Gianforte's proposed state budget.",
           "createdAt": "2023-01-10T02:48:37.145Z",
-          "updatedAt": "2023-01-10T02:57:20.780Z"
+          "updatedAt": "2023-01-11T15:34:48.387Z",
+          "OrderOnPage": 2,
+          "ShowOnKeyBillsList": false
         }
       }
     },
     "category": "Governor's budget",
-    "categoryDescription": "Bills implementing parts of Gov. Greg Gianforte's proposed state budget."
+    "categoryDescription": "Bills implementing parts of Gov. Greg Gianforte's proposed state budget.",
+    "categoryOrder": 2,
+    "showCategory": null
   }
 ]

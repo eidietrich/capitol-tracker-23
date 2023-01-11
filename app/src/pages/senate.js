@@ -8,7 +8,7 @@ import TruncatedContainer from '../components/TruncatedContainer'
 import Roster from '../components/Roster'
 import ChamberLeadership from '../components/ChamberLeadership'
 import ContactUs from '../components/ContactUs'
-import Newsletter from '../components/Newsletter'
+import NewsletterSignup from '../components/NewsletterSignup'
 
 import senateData from '../data/senate.json'
 
@@ -35,7 +35,7 @@ const Senate = ({ data, location }) => {
         <Roster title="Membership" chamberLabel="Senate" lawmakers={senators} />
       </TruncatedContainer>
 
-      <Newsletter />
+      <NewsletterSignup />
 
       <ContactUs />
 

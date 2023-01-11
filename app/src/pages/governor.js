@@ -7,7 +7,7 @@ import Seo from '../components/Seo'
 import LinksList from '../components/LinksList'
 import ContactUs from '../components/ContactUs'
 import BillTable from '../components/BillTable'
-import Newsletter from '../components/Newsletter'
+import NewsletterSignup from '../components/NewsletterSignup'
 
 import governorData from '../data/governor.json'
 
@@ -50,10 +50,10 @@ const Governor = ({ data, location }) => {
       <div className="note">Bills that have become law without the governor's signature after the governor chooses not to issue a signature or a veto by the 10-day deadline specified in the Montana Constitution.</div>
       <BillTable bills={letBecomeLawBills} /> */}
 
-      <Newsletter />
+      <NewsletterSignup />
 
       <h3>Montana Free Press coverage</h3>
-      <div>MTFP legislative coverage involving the Governor's Office.</div>
+      <div>2023 legislative stories involving the Governor's Office.</div>
       <LinksList articles={articles} />
 
       <ContactUs />
