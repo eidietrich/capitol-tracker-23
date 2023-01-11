@@ -7,7 +7,7 @@ export default class CalendarPage {
             updateTime,
             beginningOfToday: new Date(beginningOfToday),
             parseCheck: dateParse('01/11/2023'),
-            compare: new Date(beginningOfToday) >= beginningOfToday,
+            compare: dateParse('01/11/2023') >= beginningOfToday,
         })
         const todayOrLaterActions = actions.filter(d => dateParse(d.date) >= beginningOfToday)
         const scheduledHearings = todayOrLaterActions.filter(d => d.hearing)
