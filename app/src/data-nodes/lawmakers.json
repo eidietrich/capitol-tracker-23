@@ -3021,14 +3021,14 @@
                     },
                     {
                         "step": "first committee",
-                        "status": "current",
-                        "statusLabel": "Pending",
-                        "statusDate": null
+                        "status": "passed",
+                        "statusLabel": "Advanced",
+                        "statusDate": "01/10/2023"
                     },
                     {
                         "step": "first chamber",
-                        "status": "future",
-                        "statusLabel": null,
+                        "status": "current",
+                        "statusLabel": "Pending",
                         "statusDate": null
                     },
                     {
@@ -5978,9 +5978,9 @@
                 "title": "Extend the application of the bond validating act",
                 "chamber": "house",
                 "status": {
-                    "key": "Transmitted to Second House",
+                    "key": "In Second House Committee--Nontabled",
                     "step": "Second chamber",
-                    "label": "Transmitted",
+                    "label": "In committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -7739,9 +7739,9 @@
                 "title": "Remove insurance continuing education council",
                 "chamber": "house",
                 "status": {
-                    "key": "Transmitted to Second House",
+                    "key": "In Second House Committee--Nontabled",
                     "step": "Second chamber",
-                    "label": "Transmitted",
+                    "label": "In committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -12403,9 +12403,9 @@
                 "title": "Feed bill to fund 68th legislative session and prepare for 2025",
                 "chamber": "house",
                 "status": {
-                    "key": "Transmitted to Second House",
+                    "key": "In Second House Committee--Nontabled",
                     "step": "Second chamber",
-                    "label": "Transmitted",
+                    "label": "In committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -14566,14 +14566,14 @@
                     },
                     {
                         "step": "first committee",
-                        "status": "current",
-                        "statusLabel": "Pending",
-                        "statusDate": null
+                        "status": "passed",
+                        "statusLabel": "Advanced",
+                        "statusDate": "01/11/2023"
                     },
                     {
                         "step": "first chamber",
-                        "status": "future",
-                        "statusLabel": null,
+                        "status": "current",
+                        "statusLabel": "Pending",
                         "statusDate": null
                     },
                     {
@@ -16250,9 +16250,9 @@
                 "title": "Revising alcohol laws relating to death or incapacity of a licensee or owner",
                 "chamber": "house",
                 "status": {
-                    "key": "Transmitted to Second House",
+                    "key": "In Second House Committee--Nontabled",
                     "step": "Second chamber",
-                    "label": "Transmitted",
+                    "label": "In committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -17476,9 +17476,9 @@
                 "title": "Allow for state sponsored industry trade shows",
                 "chamber": "house",
                 "status": {
-                    "key": "In First House--Through 3rd Reading",
-                    "step": "First chamber",
-                    "label": "Passed chamber",
+                    "key": "In Second House Committee--Nontabled",
+                    "step": "Second chamber",
+                    "label": "In committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -17613,14 +17613,14 @@
                     },
                     {
                         "step": "first committee",
-                        "status": "current",
-                        "statusLabel": "Pending",
-                        "statusDate": null
+                        "status": "passed",
+                        "statusLabel": "Advanced",
+                        "statusDate": "01/11/2023"
                     },
                     {
                         "step": "first chamber",
-                        "status": "future",
-                        "statusLabel": null,
+                        "status": "current",
+                        "statusLabel": "Pending",
                         "statusDate": null
                     },
                     {
@@ -18532,9 +18532,9 @@
                 "title": "Revise laws related to real estate appraisers",
                 "chamber": "house",
                 "status": {
-                    "key": "Transmitted to Second House",
+                    "key": "In Second House Committee--Nontabled",
                     "step": "Second chamber",
-                    "label": "Transmitted",
+                    "label": "In committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -23950,9 +23950,9 @@
                 "title": "Revise laws related to federal mitigation funding",
                 "chamber": "house",
                 "status": {
-                    "key": "Transmitted to Second House",
+                    "key": "In Second House Committee--Nontabled",
                     "step": "Second chamber",
-                    "label": "Transmitted",
+                    "label": "In committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -28418,6 +28418,128 @@
                     }
                 ],
                 "textUrl": "http://leg.mt.gov/bills/2023/billpdf/SB0128.pdf",
+                "fiscalNoteUrl": null,
+                "numArticles": 0,
+                "sponsor": {
+                    "name": "Jason Ellsworth",
+                    "lastName": "Ellsworth",
+                    "party": "R",
+                    "locale": "Hamilton",
+                    "district": "SD 43"
+                }
+            },
+            {
+                "key": "sb-157",
+                "identifier": "SB 157",
+                "title": "Generally revise laws relating to legislative exempt staff",
+                "chamber": "senate",
+                "status": {
+                    "key": "In First House--Introduced",
+                    "step": "First chamber",
+                    "label": "Introduced",
+                    "status": "live",
+                    "statusAtSessionEnd": "failed"
+                },
+                "progress": [
+                    {
+                        "step": "introduced",
+                        "status": "passed",
+                        "statusLabel": "Introduced",
+                        "statusDate": "01/11/2023"
+                    },
+                    {
+                        "step": "first committee",
+                        "status": "current",
+                        "statusLabel": "Pending",
+                        "statusDate": null
+                    },
+                    {
+                        "step": "first chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "second chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "reconciliation",
+                        "status": "skipped",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "governor",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    }
+                ],
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC2977.pdf",
+                "fiscalNoteUrl": null,
+                "numArticles": 0,
+                "sponsor": {
+                    "name": "Jason Ellsworth",
+                    "lastName": "Ellsworth",
+                    "party": "R",
+                    "locale": "Hamilton",
+                    "district": "SD 43"
+                }
+            },
+            {
+                "key": "sb-158",
+                "identifier": "SB 158",
+                "title": "Revise family transfer law",
+                "chamber": "senate",
+                "status": {
+                    "key": "In First House--Introduced",
+                    "step": "First chamber",
+                    "label": "Introduced",
+                    "status": "live",
+                    "statusAtSessionEnd": "failed"
+                },
+                "progress": [
+                    {
+                        "step": "introduced",
+                        "status": "passed",
+                        "statusLabel": "Introduced",
+                        "statusDate": "01/11/2023"
+                    },
+                    {
+                        "step": "first committee",
+                        "status": "current",
+                        "statusLabel": "Pending",
+                        "statusDate": null
+                    },
+                    {
+                        "step": "first chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "second chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "reconciliation",
+                        "status": "skipped",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "governor",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    }
+                ],
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC2975.pdf",
                 "fiscalNoteUrl": null,
                 "numArticles": 0,
                 "sponsor": {
@@ -39598,10 +39720,10 @@
                 "title": "Revise laws pertaining to court administration of certain civil cases",
                 "chamber": "senate",
                 "status": {
-                    "key": "In First House Committee--Nontabled",
+                    "key": "In First House Committee--Tabled",
                     "step": "First chamber",
-                    "label": "In committee",
-                    "status": "live",
+                    "label": "Tabled in committee",
+                    "status": "stalled",
                     "statusAtSessionEnd": "failed"
                 },
                 "progress": [
@@ -39613,9 +39735,9 @@
                     },
                     {
                         "step": "first committee",
-                        "status": "current",
-                        "statusLabel": "Pending",
-                        "statusDate": null
+                        "status": "blocked",
+                        "statusLabel": "Tabled",
+                        "statusDate": "01/06/2023"
                     },
                     {
                         "step": "first chamber",
@@ -39643,7 +39765,7 @@
                     }
                 ],
                 "textUrl": "http://leg.mt.gov/bills/2023/billpdf/SB0044.pdf",
-                "fiscalNoteUrl": null,
+                "fiscalNoteUrl": "https://leg.mt.gov/laws/bills/2023/FNPDF/SB0044",
                 "numArticles": 0,
                 "sponsor": {
                     "name": "Jason Small",

@@ -1,6 +1,43 @@
 {
     "actionsByDate": [
         {
+            "date": "01/11/2023",
+            "actions": [
+                {
+                    "id": "HB99-0014",
+                    "bill": "HB 99",
+                    "date": "01/11/2023",
+                    "description": "Committee Executive Action--Bill Passed",
+                    "posession": "house",
+                    "committee": "House Fish, Wildlife and Parks",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "title": "Eliminate reference to non-resident temporary snowmobile permit"
+                },
+                {
+                    "id": "HB133-0014",
+                    "bill": "HB 133",
+                    "date": "01/11/2023",
+                    "description": "Committee Executive Action--Bill Passed",
+                    "posession": "house",
+                    "committee": "House Fish, Wildlife and Parks",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "title": "Allow nonresident college students to purchase FWP licenses online"
+                }
+            ]
+        },
+        {
             "date": "01/10/2023",
             "actions": [
                 {
@@ -36,6 +73,23 @@
                     "advanced": true,
                     "preliminaryPassage": true,
                     "title": "Establish missing persons response team training grant program"
+                },
+                {
+                    "id": "HB35-0016",
+                    "bill": "HB 35",
+                    "date": "01/10/2023",
+                    "description": "Committee Executive Action--Bill Passed as Amended",
+                    "posession": "house",
+                    "committee": "House Local Government",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed as Amended",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "amended": true,
+                    "title": "Remove appointed members & allow ex officio members on county water/sewer board"
                 },
                 {
                     "id": "HB38-0026",
@@ -1582,6 +1636,24 @@
                     "committeeAction": true,
                     "advanced": true,
                     "title": "Revising laws related  state prisons and county detention center telecommunicati"
+                },
+                {
+                    "id": "SB44-0019",
+                    "bill": "SB 44",
+                    "date": "01/06/2023",
+                    "description": "Tabled in Committee",
+                    "posession": "senate",
+                    "committee": "Senate Judiciary",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Tabled in Committee",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "secondChamberAction": true,
+                    "failed": true,
+                    "tabled": true,
+                    "title": "Revise laws pertaining to court administration of certain civil cases"
                 },
                 {
                     "id": "SB91-0019",
