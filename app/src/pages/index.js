@@ -34,7 +34,7 @@ const Index = ({ data, location }) => {
 
 
       {/* <TruncatedContainer height={1000} closedText="See all key bills"> */}
-      <h2 id="key-bill-status">Where the key bills are at</h2>
+      <h2 id="key-bill-status">Key bill progress</h2>
       <InfoPopup label="How bills move through the Legislature" content={howBillsMove} />
       <div className="note">Major legislation identified by MTFP reporters. Where ambiguous, official bill titles are annotated with plain language summaries.</div>
       {

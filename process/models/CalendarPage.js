@@ -17,7 +17,7 @@ export default class CalendarPage {
         const scheduledFloorDebates = todayOrLaterActions.filter(d => d.scheduledForFloorDebate)
         const scheduledFinalVotes = todayOrLaterActions.filter(d => d.scheduledForFinalVote)
         const datesOnCalendar = Array.from(new Set(scheduledHearings.concat(scheduledFloorDebates).concat(scheduledFinalVotes).map(d => d.date)))
-            .sort((a, b) => a - b)
+            .sort((a, b) => dateParse(a) - dateParse(b))
 
         // list of bills used to merge in bill data via graphql query on the frontend
         const billsOnCalendar = Array.from(new Set([...scheduledHearings, ...scheduledFloorDebates, ...scheduledFinalVotes].map(d => d.bill)))

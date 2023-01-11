@@ -39,7 +39,7 @@ class LawmakerLookup extends Component {
     render() {
         const { lawmakersFound } = this.state
         return <div>
-            <div css={labelCss}>Type to search by name.</div>
+            <div css={labelCss}>Type to search by name</div>
             <TextInput
                 handleInput={this.searchByName}
                 placeholder='e.g., Matt Regier'
