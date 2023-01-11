@@ -2099,14 +2099,14 @@
                     },
                     {
                         "step": "first committee",
-                        "status": "current",
-                        "statusLabel": "Pending",
-                        "statusDate": null
+                        "status": "passed",
+                        "statusLabel": "Advanced",
+                        "statusDate": "01/11/2023"
                     },
                     {
                         "step": "first chamber",
-                        "status": "future",
-                        "statusLabel": null,
+                        "status": "current",
+                        "statusLabel": "Pending",
                         "statusDate": null
                     },
                     {
@@ -10841,9 +10841,9 @@
                 "title": "Revise vehicle registration law regarding military personnel",
                 "chamber": "house",
                 "status": {
-                    "key": "In First House--Introduced",
+                    "key": "In First House Committee--Nontabled",
                     "step": "First chamber",
-                    "label": "Introduced",
+                    "label": "In committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -13363,9 +13363,9 @@
                 "title": "Create select committee on energy resource planning and acquisition",
                 "chamber": "house",
                 "status": {
-                    "key": "In First House--Introduced",
+                    "key": "In First House Committee--Nontabled",
                     "step": "First chamber",
-                    "label": "Introduced",
+                    "label": "In committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -13916,9 +13916,9 @@
                 "title": "Exempt certain military pensions and survivor benefits from income taxes",
                 "chamber": "house",
                 "status": {
-                    "key": "In First House--Introduced",
+                    "key": "In First House Committee--Nontabled",
                     "step": "First chamber",
-                    "label": "Introduced",
+                    "label": "In committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -18221,14 +18221,14 @@
                     },
                     {
                         "step": "first committee",
-                        "status": "current",
-                        "statusLabel": "Pending",
-                        "statusDate": null
+                        "status": "passed",
+                        "statusLabel": "Advanced",
+                        "statusDate": "01/11/2023"
                     },
                     {
                         "step": "first chamber",
-                        "status": "future",
-                        "statusLabel": null,
+                        "status": "current",
+                        "statusLabel": "Pending",
                         "statusDate": null
                     },
                     {
@@ -19713,9 +19713,9 @@
                 "title": "Increase fees for migratory bird licenses",
                 "chamber": "house",
                 "status": {
-                    "key": "In First House--Introduced",
+                    "key": "In First House Committee--Nontabled",
                     "step": "First chamber",
-                    "label": "Introduced",
+                    "label": "In committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -22336,9 +22336,9 @@
                 "title": "Revise private alternative adolescent residential or outdoor programs laws",
                 "chamber": "house",
                 "status": {
-                    "key": "In First House--Introduced",
+                    "key": "In First House Committee--Nontabled",
                     "step": "First chamber",
-                    "label": "Introduced",
+                    "label": "In committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -22634,14 +22634,14 @@
                     },
                     {
                         "step": "first committee",
-                        "status": "current",
-                        "statusLabel": "Pending",
-                        "statusDate": null
+                        "status": "passed",
+                        "statusLabel": "Advanced",
+                        "statusDate": "01/11/2023"
                     },
                     {
                         "step": "first chamber",
-                        "status": "future",
-                        "statusLabel": null,
+                        "status": "current",
+                        "statusLabel": "Pending",
                         "statusDate": null
                     },
                     {
@@ -24869,9 +24869,9 @@
                 "title": "Revise income tax rates for net-long term capital gains",
                 "chamber": "house",
                 "status": {
-                    "key": "In First House--Introduced",
+                    "key": "In First House Committee--Nontabled",
                     "step": "First chamber",
-                    "label": "Introduced",
+                    "label": "In committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -24930,9 +24930,9 @@
                 "title": "Provide rebates of property taxes paid on a principal residence",
                 "chamber": "house",
                 "status": {
-                    "key": "In First House--Introduced",
+                    "key": "In First House Committee--Nontabled",
                     "step": "First chamber",
-                    "label": "Introduced",
+                    "label": "In committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -26582,7 +26582,7 @@
                         "statusDate": null
                     }
                 ],
-                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC0960.pdf",
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/SB0155.pdf",
                 "fiscalNoteUrl": null,
                 "numArticles": 0,
                 "sponsor": {
@@ -28661,7 +28661,7 @@
                         "statusDate": null
                     }
                 ],
-                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC2977.pdf",
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/SB0157.pdf",
                 "fiscalNoteUrl": null,
                 "numArticles": 0,
                 "sponsor": {
@@ -28722,7 +28722,7 @@
                         "statusDate": null
                     }
                 ],
-                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC2975.pdf",
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/SB0158.pdf",
                 "fiscalNoteUrl": null,
                 "numArticles": 0,
                 "sponsor": {
@@ -34064,6 +34064,67 @@
                 }
             },
             {
+                "key": "sb-148",
+                "identifier": "SB 148",
+                "title": "Revise laws regarding legal representation of children",
+                "chamber": "senate",
+                "status": {
+                    "key": "In First House Committee--Nontabled",
+                    "step": "First chamber",
+                    "label": "In committee",
+                    "status": "live",
+                    "statusAtSessionEnd": "failed"
+                },
+                "progress": [
+                    {
+                        "step": "introduced",
+                        "status": "passed",
+                        "statusLabel": "Introduced",
+                        "statusDate": "01/11/2023"
+                    },
+                    {
+                        "step": "first committee",
+                        "status": "current",
+                        "statusLabel": "Pending",
+                        "statusDate": null
+                    },
+                    {
+                        "step": "first chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "second chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "reconciliation",
+                        "status": "skipped",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "governor",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    }
+                ],
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC0881.pdf",
+                "fiscalNoteUrl": null,
+                "numArticles": 0,
+                "sponsor": {
+                    "name": "Dennis Lenz",
+                    "lastName": "Lenz",
+                    "party": "R",
+                    "locale": "Billings",
+                    "district": "SD 27"
+                }
+            },
+            {
                 "key": "sb-149",
                 "identifier": "SB 149",
                 "title": "Establish penalties for false reporting in child protective services cases",
@@ -34174,7 +34235,7 @@
                         "statusDate": null
                     }
                 ],
-                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC0547.pdf",
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/SB0150.pdf",
                 "fiscalNoteUrl": null,
                 "numArticles": 0,
                 "sponsor": {
@@ -35095,7 +35156,7 @@
                         "statusDate": null
                     }
                 ],
-                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC0725.pdf",
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/SB0152.pdf",
                 "fiscalNoteUrl": null,
                 "numArticles": 0,
                 "sponsor": {
@@ -36235,7 +36296,7 @@
                         "statusDate": null
                     }
                 ],
-                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC0166.pdf",
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/SJ0002.pdf",
                 "fiscalNoteUrl": null,
                 "numArticles": 0,
                 "sponsor": {
@@ -36853,7 +36914,7 @@
                         "statusDate": null
                     }
                 ],
-                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC1935.pdf",
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/SB0156.pdf",
                 "fiscalNoteUrl": null,
                 "numArticles": 0,
                 "sponsor": {
@@ -36902,7 +36963,7 @@
                         "statusDate": null
                     }
                 ],
-                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC0889.pdf",
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/SJ0004.pdf",
                 "fiscalNoteUrl": "https://leg.mt.gov/laws/bills/2023/FNPDF/SJ0004",
                 "numArticles": 0,
                 "sponsor": {
@@ -37087,7 +37148,7 @@
                         "statusDate": null
                     }
                 ],
-                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC0025.pdf",
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/SB0153.pdf",
                 "fiscalNoteUrl": null,
                 "numArticles": 0,
                 "sponsor": {
