@@ -75,6 +75,7 @@
         "HB 214",
         "HB 215",
         "HB 218",
+        "HB 219",
         "HB 222",
         "SB 8",
         "SB 15",
@@ -1346,6 +1347,19 @@
             "hearing": true
         },
         {
+            "id": "HB219-0024",
+            "bill": "HB 219",
+            "date": "01/12/2023",
+            "description": "Hearing",
+            "posession": "house",
+            "committee": "House Taxation",
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
             "id": "HB222-0019",
             "bill": "HB 222",
             "date": "01/17/2023",
@@ -2102,9 +2116,45 @@
             "scheduledForFinalVote": true
         },
         {
+            "id": "HB27-0018",
+            "bill": "HB 27",
+            "date": "01/13/2023",
+            "description": "Scheduled for 3rd Reading",
+            "posession": "house",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 3rd Reading",
+            "scheduledForFinalVote": true
+        },
+        {
             "id": "HB30-0030",
             "bill": "HB 30",
             "date": "01/12/2023",
+            "description": "Scheduled for 3rd Reading",
+            "posession": "house",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 3rd Reading",
+            "scheduledForFinalVote": true
+        },
+        {
+            "id": "HB52-0023",
+            "bill": "HB 52",
+            "date": "01/13/2023",
+            "description": "Scheduled for 3rd Reading",
+            "posession": "house",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 3rd Reading",
+            "scheduledForFinalVote": true
+        },
+        {
+            "id": "HB76-0026",
+            "bill": "HB 76",
+            "date": "01/13/2023",
             "description": "Scheduled for 3rd Reading",
             "posession": "house",
             "committee": null,
