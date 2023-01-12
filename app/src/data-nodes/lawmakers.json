@@ -19554,6 +19554,67 @@
                 }
             },
             {
+                "key": "hb-82",
+                "identifier": "HB 82",
+                "title": "Create Montana national guard enlistment incentive program",
+                "chamber": "house",
+                "status": {
+                    "key": "In First House Committee--Nontabled",
+                    "step": "First chamber",
+                    "label": "In committee",
+                    "status": "live",
+                    "statusAtSessionEnd": "failed"
+                },
+                "progress": [
+                    {
+                        "step": "introduced",
+                        "status": "passed",
+                        "statusLabel": "Introduced",
+                        "statusDate": "12/12/2022"
+                    },
+                    {
+                        "step": "first committee",
+                        "status": "current",
+                        "statusLabel": "Pending",
+                        "statusDate": null
+                    },
+                    {
+                        "step": "first chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "second chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "reconciliation",
+                        "status": "skipped",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "governor",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    }
+                ],
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0082.pdf",
+                "fiscalNoteUrl": "https://leg.mt.gov/laws/bills/2023/FNPDF/HB0082",
+                "numArticles": 0,
+                "sponsor": {
+                    "name": "George Nikolakakos",
+                    "lastName": "Nikolakakos",
+                    "party": "R",
+                    "locale": "Great Falls",
+                    "district": "HD 26"
+                }
+            },
+            {
                 "key": "hb-189",
                 "identifier": "HB 189",
                 "title": "Revise property tax assistance program",
