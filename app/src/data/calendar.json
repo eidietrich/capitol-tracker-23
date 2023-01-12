@@ -125,6 +125,8 @@
         "HB 27",
         "HB 52",
         "HB 76",
+        "HB 88",
+        "HB 113",
         "SB 18",
         "SB 35",
         "SB 40",
@@ -141,6 +143,7 @@
         "HB 160",
         "HB 162",
         "SB 5",
+        "SB 7",
         "SB 45",
         "SB 98",
         "SB 103"
@@ -1989,6 +1992,30 @@
             "scheduledForFloorDebate": true
         },
         {
+            "id": "HB88-0016",
+            "bill": "HB 88",
+            "date": "01/12/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "house",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
+            "id": "HB113-0017",
+            "bill": "HB 113",
+            "date": "01/12/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "house",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
             "id": "SB18-0016",
             "bill": "SB 18",
             "date": "01/12/2023",
@@ -2173,6 +2200,18 @@
         {
             "id": "SB5-0026",
             "bill": "SB 5",
+            "date": "01/12/2023",
+            "description": "Scheduled for 3rd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 3rd Reading",
+            "scheduledForFinalVote": true
+        },
+        {
+            "id": "SB7-0027",
+            "bill": "SB 7",
             "date": "01/12/2023",
             "description": "Scheduled for 3rd Reading",
             "posession": "senate",
