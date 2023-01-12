@@ -1915,9 +1915,9 @@
                 "title": "Providing for quarterly colletion of beer, wine, and hard cider taxes",
                 "chamber": "house",
                 "status": {
-                    "key": "In First House--Through 3rd Reading",
-                    "step": "First chamber",
-                    "label": "Passed chamber",
+                    "key": "Transmitted to Second House",
+                    "step": "Second chamber",
+                    "label": "Transmitted",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -2567,9 +2567,9 @@
                 "title": "Revise information technology board membership",
                 "chamber": "house",
                 "status": {
-                    "key": "In First House--Through 3rd Reading",
-                    "step": "First chamber",
-                    "label": "Passed chamber",
+                    "key": "In Second House Committee--Nontabled",
+                    "step": "Second chamber",
+                    "label": "In committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -2643,14 +2643,14 @@
                     },
                     {
                         "step": "first committee",
-                        "status": "current",
-                        "statusLabel": "Pending",
-                        "statusDate": null
+                        "status": "passed",
+                        "statusLabel": "Advanced",
+                        "statusDate": "01/12/2023"
                     },
                     {
                         "step": "first chamber",
-                        "status": "future",
-                        "statusLabel": null,
+                        "status": "current",
+                        "statusLabel": "Pending",
                         "statusDate": null
                     },
                     {
@@ -2673,7 +2673,7 @@
                     }
                 ],
                 "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0149.pdf",
-                "fiscalNoteUrl": null,
+                "fiscalNoteUrl": "https://leg.mt.gov/laws/bills/2023/FNPDF/HB0149",
                 "numArticles": 0,
                 "sponsor": {
                     "name": "Michele Binkley",
@@ -6830,14 +6830,14 @@
                     },
                     {
                         "step": "first committee",
-                        "status": "current",
-                        "statusLabel": "Pending",
-                        "statusDate": null
+                        "status": "passed",
+                        "statusLabel": "Advanced",
+                        "statusDate": "01/12/2023"
                     },
                     {
                         "step": "first chamber",
-                        "status": "future",
-                        "statusLabel": null,
+                        "status": "current",
+                        "statusLabel": "Pending",
                         "statusDate": null
                     },
                     {
@@ -6860,7 +6860,7 @@
                     }
                 ],
                 "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0111.pdf",
-                "fiscalNoteUrl": null,
+                "fiscalNoteUrl": "https://leg.mt.gov/laws/bills/2023/FNPDF/HB0111",
                 "numArticles": 0,
                 "sponsor": {
                     "name": "Jodee Etchart",
@@ -8759,9 +8759,9 @@
                 "title": "Revise laws related to  public safety officer appointing authorities",
                 "chamber": "house",
                 "status": {
-                    "key": "In First House--Through 3rd Reading",
-                    "step": "First chamber",
-                    "label": "Passed chamber",
+                    "key": "In Second House Committee--Nontabled",
+                    "step": "Second chamber",
+                    "label": "In committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -8820,9 +8820,9 @@
                 "title": "Revise laws related to  public safety officer appointing authorities",
                 "chamber": "house",
                 "status": {
-                    "key": "In First House--Through 3rd Reading",
-                    "step": "First chamber",
-                    "label": "Passed chamber",
+                    "key": "In Second House Committee--Nontabled",
+                    "step": "Second chamber",
+                    "label": "In committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -9798,14 +9798,14 @@
                     },
                     {
                         "step": "first committee",
-                        "status": "current",
-                        "statusLabel": "Pending",
-                        "statusDate": null
+                        "status": "passed",
+                        "statusLabel": "Advanced",
+                        "statusDate": "01/12/2023"
                     },
                     {
                         "step": "first chamber",
-                        "status": "future",
-                        "statusLabel": null,
+                        "status": "current",
+                        "statusLabel": "Pending",
                         "statusDate": null
                     },
                     {
@@ -14162,9 +14162,9 @@
                 "title": "Generally revise liability laws related to armed forces and national guard",
                 "chamber": "house",
                 "status": {
-                    "key": "In First House--Through 3rd Reading",
-                    "step": "First chamber",
-                    "label": "Passed chamber",
+                    "key": "In Second House Committee--Nontabled",
+                    "step": "Second chamber",
+                    "label": "In committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -15849,9 +15849,9 @@
                 "title": "Generally revise alcohol licenses relating to the transfer of licenses",
                 "chamber": "house",
                 "status": {
-                    "key": "In First House--Through 3rd Reading",
-                    "step": "First chamber",
-                    "label": "Passed chamber",
+                    "key": "In Second House Committee--Nontabled",
+                    "step": "Second chamber",
+                    "label": "In committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -19554,67 +19554,6 @@
                 }
             },
             {
-                "key": "hb-82",
-                "identifier": "HB 82",
-                "title": "Create Montana national guard enlistment incentive program",
-                "chamber": "house",
-                "status": {
-                    "key": "In First House Committee--Nontabled",
-                    "step": "First chamber",
-                    "label": "In committee",
-                    "status": "live",
-                    "statusAtSessionEnd": "failed"
-                },
-                "progress": [
-                    {
-                        "step": "introduced",
-                        "status": "passed",
-                        "statusLabel": "Introduced",
-                        "statusDate": "12/12/2022"
-                    },
-                    {
-                        "step": "first committee",
-                        "status": "current",
-                        "statusLabel": "Pending",
-                        "statusDate": null
-                    },
-                    {
-                        "step": "first chamber",
-                        "status": "future",
-                        "statusLabel": null,
-                        "statusDate": null
-                    },
-                    {
-                        "step": "second chamber",
-                        "status": "future",
-                        "statusLabel": null,
-                        "statusDate": null
-                    },
-                    {
-                        "step": "reconciliation",
-                        "status": "skipped",
-                        "statusLabel": null,
-                        "statusDate": null
-                    },
-                    {
-                        "step": "governor",
-                        "status": "future",
-                        "statusLabel": null,
-                        "statusDate": null
-                    }
-                ],
-                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0082.pdf",
-                "fiscalNoteUrl": "https://leg.mt.gov/laws/bills/2023/FNPDF/HB0082",
-                "numArticles": 0,
-                "sponsor": {
-                    "name": "George Nikolakakos",
-                    "lastName": "Nikolakakos",
-                    "party": "R",
-                    "locale": "Great Falls",
-                    "district": "HD 26"
-                }
-            },
-            {
                 "key": "hb-189",
                 "identifier": "HB 189",
                 "title": "Revise property tax assistance program",
@@ -21067,14 +21006,14 @@
                     },
                     {
                         "step": "first committee",
-                        "status": "current",
-                        "statusLabel": "Pending",
-                        "statusDate": null
+                        "status": "passed",
+                        "statusLabel": "Advanced",
+                        "statusDate": "01/12/2023"
                     },
                     {
                         "step": "first chamber",
-                        "status": "future",
-                        "statusLabel": null,
+                        "status": "current",
+                        "statusLabel": "Pending",
                         "statusDate": null
                     },
                     {
@@ -21677,9 +21616,9 @@
                 "title": "Establish missing persons response team training grant program",
                 "chamber": "house",
                 "status": {
-                    "key": "In First House--Through 3rd Reading",
-                    "step": "First chamber",
-                    "label": "Passed chamber",
+                    "key": "In Second House Committee--Nontabled",
+                    "step": "Second chamber",
+                    "label": "In committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -22584,9 +22523,9 @@
                 "title": "Request interim study on missing youth",
                 "chamber": "house",
                 "status": {
-                    "key": "In First House--Through 3rd Reading",
-                    "step": "First chamber",
-                    "label": "Passed chamber",
+                    "key": "In Second House Committee--Nontabled",
+                    "step": "Second chamber",
+                    "label": "In committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -25842,9 +25781,9 @@
                 "title": "Revise laws related to state debt collection services by department of revenue",
                 "chamber": "house",
                 "status": {
-                    "key": "In First House--Through 3rd Reading",
-                    "step": "First chamber",
-                    "label": "Passed chamber",
+                    "key": "In Second House Committee--Nontabled",
+                    "step": "Second chamber",
+                    "label": "In committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -26982,9 +26921,9 @@
                 "title": "Restrict use of eminent domain",
                 "chamber": "senate",
                 "status": {
-                    "key": "In First House--Introduced",
+                    "key": "In First House Committee--Nontabled",
                     "step": "First chamber",
-                    "label": "Introduced",
+                    "label": "In committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -32383,14 +32322,14 @@
                     },
                     {
                         "step": "first committee",
-                        "status": "current",
-                        "statusLabel": "Pending",
-                        "statusDate": null
+                        "status": "passed",
+                        "statusLabel": "Advanced",
+                        "statusDate": "01/12/2023"
                     },
                     {
                         "step": "first chamber",
-                        "status": "future",
-                        "statusLabel": null,
+                        "status": "current",
+                        "statusLabel": "Pending",
                         "statusDate": null
                     },
                     {
@@ -34986,9 +34925,9 @@
                 "title": "Provide notice to foster parents in CPS cases",
                 "chamber": "senate",
                 "status": {
-                    "key": "In First House--Introduced",
+                    "key": "In First House Committee--Nontabled",
                     "step": "First chamber",
-                    "label": "Introduced",
+                    "label": "In committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -35047,9 +34986,9 @@
                 "title": "Establish volunteer program in child protective services",
                 "chamber": "senate",
                 "status": {
-                    "key": "In First House--Introduced",
+                    "key": "In First House Committee--Nontabled",
                     "step": "First chamber",
-                    "label": "Introduced",
+                    "label": "In committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -36769,14 +36708,14 @@
                     },
                     {
                         "step": "first committee",
-                        "status": "current",
-                        "statusLabel": "Pending",
-                        "statusDate": null
+                        "status": "passed",
+                        "statusLabel": "Advanced",
+                        "statusDate": "01/12/2023"
                     },
                     {
                         "step": "first chamber",
-                        "status": "future",
-                        "statusLabel": null,
+                        "status": "current",
+                        "statusLabel": "Pending",
                         "statusDate": null
                     },
                     {
@@ -36799,7 +36738,7 @@
                     }
                 ],
                 "textUrl": "http://leg.mt.gov/bills/2023/billpdf/SB0067.pdf",
-                "fiscalNoteUrl": null,
+                "fiscalNoteUrl": "https://leg.mt.gov/laws/bills/2023/FNPDF/SB0067",
                 "numArticles": 0,
                 "sponsor": {
                     "name": "Tom McGillvray",
@@ -37120,9 +37059,9 @@
                 "title": "Resolution for Article V of US Constitution convention of states",
                 "chamber": "senate",
                 "status": {
-                    "key": "In First House--Introduced",
+                    "key": "In First House Committee--Nontabled",
                     "step": "First chamber",
-                    "label": "Introduced",
+                    "label": "In committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -38021,9 +37960,9 @@
                 "title": "Generally revise drug and human trafficking laws",
                 "chamber": "senate",
                 "status": {
-                    "key": "In First House--Introduced",
+                    "key": "In First House Committee--Nontabled",
                     "step": "First chamber",
-                    "label": "Introduced",
+                    "label": "In committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -38082,9 +38021,9 @@
                 "title": "Revise board of investment laws",
                 "chamber": "senate",
                 "status": {
-                    "key": "In First House--Introduced",
+                    "key": "In First House Committee--Nontabled",
                     "step": "First chamber",
-                    "label": "Introduced",
+                    "label": "In committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -42102,9 +42041,9 @@
                 "title": "Name MHP headquarters for Kris Hansen",
                 "chamber": "senate",
                 "status": {
-                    "key": "In First House--Introduced",
+                    "key": "In First House Committee--Nontabled",
                     "step": "First chamber",
-                    "label": "Introduced",
+                    "label": "In committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -42163,9 +42102,9 @@
                 "title": "Establishing a duty of cooperation relating to insurance policies",
                 "chamber": "senate",
                 "status": {
-                    "key": "In First House--Introduced",
+                    "key": "In First House Committee--Nontabled",
                     "step": "First chamber",
-                    "label": "Introduced",
+                    "label": "In committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
