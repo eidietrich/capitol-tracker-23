@@ -7419,6 +7419,67 @@
                     "locale": "Whitefish",
                     "district": "HD 5"
                 }
+            },
+            {
+                "key": "hb-244",
+                "identifier": "HB 244",
+                "title": "Revise laws governing the housing Montana fund",
+                "chamber": "house",
+                "status": {
+                    "key": "In First House--Introduced",
+                    "step": "First chamber",
+                    "label": "Introduced",
+                    "status": "live",
+                    "statusAtSessionEnd": "failed"
+                },
+                "progress": [
+                    {
+                        "step": "introduced",
+                        "status": "passed",
+                        "statusLabel": "Introduced",
+                        "statusDate": "01/12/2023"
+                    },
+                    {
+                        "step": "first committee",
+                        "status": "current",
+                        "statusLabel": "Pending",
+                        "statusDate": null
+                    },
+                    {
+                        "step": "first chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "second chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "reconciliation",
+                        "status": "skipped",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "governor",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    }
+                ],
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC1957.pdf",
+                "fiscalNoteUrl": null,
+                "numArticles": 0,
+                "sponsor": {
+                    "name": "Dave Fern",
+                    "lastName": "Fern",
+                    "party": "D",
+                    "locale": "Whitefish",
+                    "district": "HD 5"
+                }
             }
         ],
         "votingSummary": {
