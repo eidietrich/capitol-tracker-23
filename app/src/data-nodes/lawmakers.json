@@ -27592,9 +27592,9 @@
                 "title": "Revise airport courtesy car insurance requirements",
                 "chamber": "senate",
                 "status": {
-                    "key": "In First House--Through 3rd Reading",
-                    "step": "First chamber",
-                    "label": "Passed chamber",
+                    "key": "Transmitted to Second House",
+                    "step": "Second chamber",
+                    "label": "Transmitted",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -29708,9 +29708,9 @@
                 "title": "Remove requirement for a county to publish public notice in an adjacent county",
                 "chamber": "senate",
                 "status": {
-                    "key": "In First House--Through 3rd Reading",
-                    "step": "First chamber",
-                    "label": "Passed chamber",
+                    "key": "Transmitted to Second House",
+                    "step": "Second chamber",
+                    "label": "Transmitted",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -32985,14 +32985,14 @@
                     },
                     {
                         "step": "first committee",
-                        "status": "current",
-                        "statusLabel": "Pending",
-                        "statusDate": null
+                        "status": "passed",
+                        "statusLabel": "Advanced",
+                        "statusDate": "01/13/2023"
                     },
                     {
                         "step": "first chamber",
-                        "status": "future",
-                        "statusLabel": null,
+                        "status": "current",
+                        "statusLabel": "Pending",
                         "statusDate": null
                     },
                     {
@@ -37868,9 +37868,9 @@
                 "title": "Revising laws related  state prisons and county detention center telecommunicati",
                 "chamber": "senate",
                 "status": {
-                    "key": "In First House--Through 3rd Reading",
-                    "step": "First chamber",
-                    "label": "Passed chamber",
+                    "key": "Transmitted to Second House",
+                    "step": "Second chamber",
+                    "label": "Transmitted",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -38657,9 +38657,9 @@
                 "title": "Revise laws related to aging services",
                 "chamber": "senate",
                 "status": {
-                    "key": "In First House--Through 3rd Reading",
-                    "step": "First chamber",
-                    "label": "Passed chamber",
+                    "key": "Transmitted to Second House",
+                    "step": "Second chamber",
+                    "label": "Transmitted",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -41112,9 +41112,9 @@
                 "title": "Revise the jurisdiction area of municipal health boards",
                 "chamber": "senate",
                 "status": {
-                    "key": "In First House--Through 3rd Reading",
-                    "step": "First chamber",
-                    "label": "Passed chamber",
+                    "key": "Transmitted to Second House",
+                    "step": "Second chamber",
+                    "label": "Transmitted",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -44037,10 +44037,10 @@
                 "title": "Establish the Chief Earl Old Person memorial highway",
                 "chamber": "senate",
                 "status": {
-                    "key": "In First House--Out of Committee",
+                    "key": "In First House Committee--Tabled",
                     "step": "First chamber",
-                    "label": "Out of committee",
-                    "status": "live",
+                    "label": "Tabled in committee",
+                    "status": "stalled",
                     "statusAtSessionEnd": "failed"
                 },
                 "progress": [
@@ -44052,15 +44052,15 @@
                     },
                     {
                         "step": "first committee",
-                        "status": "passed",
-                        "statusLabel": "Blasted",
-                        "statusDate": "01/13/2023"
+                        "status": "blocked",
+                        "statusLabel": "Tabled",
+                        "statusDate": "01/12/2023"
                     },
                     {
                         "step": "first chamber",
-                        "status": "current",
-                        "statusLabel": "Pending",
-                        "statusDate": "01/13/2023"
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
                     },
                     {
                         "step": "second chamber",
