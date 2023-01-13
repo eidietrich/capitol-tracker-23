@@ -9324,14 +9324,14 @@
                     },
                     {
                         "step": "first committee",
-                        "status": "current",
-                        "statusLabel": "Pending",
-                        "statusDate": null
+                        "status": "passed",
+                        "statusLabel": "Advanced",
+                        "statusDate": "01/12/2023"
                     },
                     {
                         "step": "first chamber",
-                        "status": "future",
-                        "statusLabel": null,
+                        "status": "current",
+                        "statusLabel": "Pending",
                         "statusDate": null
                     },
                     {
@@ -19078,14 +19078,14 @@
                     },
                     {
                         "step": "first committee",
-                        "status": "current",
-                        "statusLabel": "Pending",
-                        "statusDate": null
+                        "status": "passed",
+                        "statusLabel": "Advanced",
+                        "statusDate": "01/12/2023"
                     },
                     {
                         "step": "first chamber",
-                        "status": "future",
-                        "statusLabel": null,
+                        "status": "current",
+                        "statusLabel": "Pending",
                         "statusDate": null
                     },
                     {
@@ -28757,7 +28757,22 @@
                 "chamber": "senate"
             }
         ],
-        "articles": [],
+        "articles": [
+            {
+                "title": "Legislature to begin assembling feedback on new House and Senate maps ",
+                "category": "2023 Legislature",
+                "subtitle": "",
+                "date": "2023-01-12T16:10:25.000Z",
+                "link": "https://montanafreepress.org/2023/01/12/legislature-to-begin-assembling-feedback-on-new-house-and-senate-maps/",
+                "author": "Arren Kimbel-Sannit",
+                "imageUrl": "https://montanafreepress.org/2021/08/05/feds-to-nix-work-requirements-in-montana-medicaid-expansion-program/montana-capitol_eliza-wiley_1200x675/",
+                "billTags": [],
+                "lawmakerTags": [
+                    "Mike Cuffe"
+                ],
+                "governorTags": []
+            }
+        ],
         "lawmakerPageText": null,
         "imageSlug": "2023/Mike-Cuffe.png",
         "sponsoredBills": [
