@@ -1,6 +1,60 @@
 {
     "actionsByDate": [
         {
+            "date": "01/13/2023",
+            "actions": [
+                {
+                    "id": "SB58-0019",
+                    "bill": "SB 58",
+                    "date": "01/13/2023",
+                    "description": "Committee Executive Action--Bill Passed",
+                    "posession": "senate",
+                    "committee": "Senate Fish and Game",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "title": "Increase landowner payment cap for block management"
+                },
+                {
+                    "id": "SB76-0015",
+                    "bill": "SB 76",
+                    "date": "01/13/2023",
+                    "description": "Committee Executive Action--Bill Passed as Amended",
+                    "posession": "senate",
+                    "committee": "Senate Fish and Game",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed as Amended",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "amended": true,
+                    "title": "Remove requirement to attach paper tags to a game animal carcass"
+                },
+                {
+                    "id": "SB88-0014",
+                    "bill": "SB 88",
+                    "date": "01/13/2023",
+                    "description": "Committee Executive Action--Bill Passed",
+                    "posession": "senate",
+                    "committee": "Senate Fish and Game",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "title": "Exempt lifetime fishing licenses for the blind from AIS pass"
+                }
+            ]
+        },
+        {
             "date": "01/12/2023",
             "actions": [
                 {
@@ -3405,6 +3459,41 @@
                     "title": "Request interim study on missing youth"
                 },
                 {
+                    "id": "SB2-0018",
+                    "bill": "SB 2",
+                    "date": "01/06/2023",
+                    "description": "Committee Executive Action--Bill Passed as Amended",
+                    "posession": "senate",
+                    "committee": "Senate Judiciary",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed as Amended",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "amended": true,
+                    "title": "Revise criminal intelligence information advisory council"
+                },
+                {
+                    "id": "SB2-0019",
+                    "bill": "SB 2",
+                    "date": "01/06/2023",
+                    "description": "Tabled in Committee",
+                    "posession": "senate",
+                    "committee": "Senate Judiciary",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Tabled in Committee",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "secondChamberAction": true,
+                    "failed": true,
+                    "tabled": true,
+                    "title": "Revise criminal intelligence information advisory council"
+                },
+                {
                     "id": "SB6-0021",
                     "bill": "SB 6",
                     "date": "01/06/2023",
@@ -3913,41 +4002,6 @@
                     "secondChamberAction": true,
                     "finalPassage": true,
                     "title": "House rules resolution"
-                },
-                {
-                    "id": "SB2-0017",
-                    "bill": "SB 2",
-                    "date": "01/04/2023",
-                    "description": "Committee Executive Action--Bill Passed as Amended",
-                    "posession": "senate",
-                    "committee": "Senate Judiciary",
-                    "actionUrl": null,
-                    "recordings": [],
-                    "key": "Committee Executive Action--Bill Passed as Amended",
-                    "isMajor": true,
-                    "isHighlight": true,
-                    "committeeAction": true,
-                    "advanced": true,
-                    "amended": true,
-                    "title": "Revise criminal intelligence information advisory council"
-                },
-                {
-                    "id": "SB2-0018",
-                    "bill": "SB 2",
-                    "date": "01/04/2023",
-                    "description": "Tabled in Committee",
-                    "posession": "senate",
-                    "committee": "Senate Judiciary",
-                    "actionUrl": null,
-                    "recordings": [],
-                    "key": "Tabled in Committee",
-                    "isMajor": true,
-                    "isHighlight": true,
-                    "committeeAction": true,
-                    "secondChamberAction": true,
-                    "failed": true,
-                    "tabled": true,
-                    "title": "Revise criminal intelligence information advisory council"
                 },
                 {
                     "id": "SJ1-0015",
