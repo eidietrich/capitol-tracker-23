@@ -40428,6 +40428,55 @@
                     "locale": "Missoula",
                     "district": "SD 46"
                 }
+            },
+            {
+                "key": "sj-7",
+                "identifier": "SJ 7",
+                "title": "Joint resolution recognizing Ireland on St. Patrick's Day",
+                "chamber": "senate",
+                "status": {
+                    "key": "In First House--Introduced",
+                    "step": "First chamber",
+                    "label": "Introduced",
+                    "status": "live",
+                    "statusAtSessionEnd": "failed"
+                },
+                "progress": [
+                    {
+                        "step": "introduced",
+                        "status": "passed",
+                        "statusLabel": "Introduced",
+                        "statusDate": "01/13/2023"
+                    },
+                    {
+                        "step": "first committee",
+                        "status": "current",
+                        "statusLabel": "Pending",
+                        "statusDate": null
+                    },
+                    {
+                        "step": "first chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "second chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    }
+                ],
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC0849.pdf",
+                "fiscalNoteUrl": null,
+                "numArticles": 0,
+                "sponsor": {
+                    "name": "Shannon O'Brien",
+                    "lastName": "O'Brien",
+                    "party": "D",
+                    "locale": "Missoula",
+                    "district": "SD 46"
+                }
             }
         ],
         "votingSummary": {
@@ -44093,10 +44142,10 @@
                 "title": "Establish the Chief Earl Old Person memorial highway",
                 "chamber": "senate",
                 "status": {
-                    "key": "In First House Committee--Tabled",
+                    "key": "In First House--Out of Committee",
                     "step": "First chamber",
-                    "label": "Tabled in committee",
-                    "status": "stalled",
+                    "label": "Out of committee",
+                    "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
                 "progress": [
@@ -44108,15 +44157,15 @@
                     },
                     {
                         "step": "first committee",
-                        "status": "blocked",
-                        "statusLabel": "Tabled",
-                        "statusDate": "01/12/2023"
+                        "status": "passed",
+                        "statusLabel": "Blasted",
+                        "statusDate": "01/13/2023"
                     },
                     {
                         "step": "first chamber",
-                        "status": "future",
-                        "statusLabel": null,
-                        "statusDate": null
+                        "status": "current",
+                        "statusLabel": "Pending",
+                        "statusDate": "01/13/2023"
                     },
                     {
                         "step": "second chamber",

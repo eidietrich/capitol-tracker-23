@@ -108,6 +108,7 @@
         "SB 158",
         "SB 159",
         "SB 160",
+        "SJ 1",
         "SJ 2",
         "HB 85",
         "HB 91",
@@ -1802,6 +1803,19 @@
             "hearing": true
         },
         {
+            "id": "SJ1-0031",
+            "bill": "SJ 1",
+            "date": "01/17/2023",
+            "description": "Hearing",
+            "posession": "house",
+            "committee": "House Rules",
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
             "id": "SJ2-0018",
             "bill": "SJ 2",
             "date": "01/18/2023",
@@ -2083,9 +2097,57 @@
             "scheduledForFinalVote": true
         },
         {
+            "id": "SB1-0022",
+            "bill": "SB 1",
+            "date": "01/16/2023",
+            "description": "Scheduled for 3rd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 3rd Reading",
+            "scheduledForFinalVote": true
+        },
+        {
+            "id": "SB10-0023",
+            "bill": "SB 10",
+            "date": "01/16/2023",
+            "description": "Scheduled for 3rd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 3rd Reading",
+            "scheduledForFinalVote": true
+        },
+        {
             "id": "SB18-0018",
             "bill": "SB 18",
             "date": "01/13/2023",
+            "description": "Scheduled for 3rd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 3rd Reading",
+            "scheduledForFinalVote": true
+        },
+        {
+            "id": "SB20-0028",
+            "bill": "SB 20",
+            "date": "01/16/2023",
+            "description": "Scheduled for 3rd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 3rd Reading",
+            "scheduledForFinalVote": true
+        },
+        {
+            "id": "SB34-0020",
+            "bill": "SB 34",
+            "date": "01/16/2023",
             "description": "Scheduled for 3rd Reading",
             "posession": "senate",
             "committee": null,
@@ -2119,9 +2181,45 @@
             "scheduledForFinalVote": true
         },
         {
+            "id": "SB62-0021",
+            "bill": "SB 62",
+            "date": "01/16/2023",
+            "description": "Scheduled for 3rd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 3rd Reading",
+            "scheduledForFinalVote": true
+        },
+        {
+            "id": "SB69-0019",
+            "bill": "SB 69",
+            "date": "01/16/2023",
+            "description": "Scheduled for 3rd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 3rd Reading",
+            "scheduledForFinalVote": true
+        },
+        {
             "id": "SB80-0024",
             "bill": "SB 80",
             "date": "01/13/2023",
+            "description": "Scheduled for 3rd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 3rd Reading",
+            "scheduledForFinalVote": true
+        },
+        {
+            "id": "SB87-0018",
+            "bill": "SB 87",
+            "date": "01/16/2023",
             "description": "Scheduled for 3rd Reading",
             "posession": "senate",
             "committee": null,
