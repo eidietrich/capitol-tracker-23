@@ -106,10 +106,12 @@
         "SB 159",
         "SB 160",
         "SJ 2",
+        "HB 85",
         "SB 1",
         "SB 10",
         "SB 20",
         "SB 21",
+        "SB 34",
         "SB 62",
         "SB 69",
         "SB 87",
@@ -1705,6 +1707,18 @@
     ],
     "scheduledFloorDebates": [
         {
+            "id": "HB85-0018",
+            "bill": "HB 85",
+            "date": "01/13/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "house",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
             "id": "SB1-0020",
             "bill": "SB 1",
             "date": "01/13/2023",
@@ -1743,6 +1757,18 @@
         {
             "id": "SB21-0025",
             "bill": "SB 21",
+            "date": "01/13/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
+            "id": "SB34-0018",
+            "bill": "SB 34",
             "date": "01/13/2023",
             "description": "Scheduled for 2nd Reading",
             "posession": "senate",
