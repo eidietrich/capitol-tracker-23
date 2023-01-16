@@ -7,3 +7,4 @@ A live version of this project is available at https://apps.montanafreepress.org
 The information presented here via is collected from a variety of sources including the Montana Legislature’s public roster and its official bill-tracking system, the [Legislative Automated Workflow System](http://laws.leg.mt.gov/legprd/law0203w$.startup?P_SESS=20211), or LAWS. Reporting and web design was done primarily by MTFP data reporter Eric Dietrich. Please contact him at edietrich@montanafreepress.org with bug reports, questions or suggestions.
 
 Bill tracking data from the LAWS system collected via a GitHub Actions-powered scraper housed in a separate repository, https://github.com/eidietrich/laws-interface.
+
