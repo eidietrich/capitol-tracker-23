@@ -55,7 +55,7 @@ export const query = graphql`
   query SenatePageQuery {
     allLawmakersJson(
       filter: {
-        chamber: {eq: "house"},
+        chamber: {eq: "senate"},
         isActive: {eq: true},
       }
       sort: {districtNum: ASC}
