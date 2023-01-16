@@ -210,13 +210,13 @@ export const ACTIONS = [
     { key: 'Taken from Committee; Placed on 2nd Reading', isMajor, isHighlight, committeeAction, firstChamberFloorAction, secondChamberAction, advanced, blasted },
 
     // first chamber floor votes
-    { key: '2nd Reading Passed', isMajor, isHighlight, firstChamberFloorAction, advanced, preliminaryPassage },
+    { key: '2nd Reading Passed', isMajor, isHighlight, firstChamberFloorAction, preliminaryPassage },
     { key: '2nd Reading Not Passed', isMajor, isHighlight, firstChamberFloorAction, failed },
     { key: '2nd Reading Not Passed as Amended', isMajor, isHighlight, firstChamberFloorAction, failed },
     { key: '2nd Reading Not Passed; 3rd Reading Vote Required', isMajor, isHighlight, firstChamberFloorAction, failed },
     { key: '2nd Reading Pass as Amended Motion Failed', isMajor, firstChamberFloorAction, failed },
     { key: '2nd Reading Pass Motion Failed', isMajor, firstChamberFloorAction, failed },
-    { key: '2nd Reading Passed as Amended', isMajor, isHighlight, firstChamberFloorAction, advanced, preliminaryPassage, amended },
+    { key: '2nd Reading Passed as Amended', isMajor, isHighlight, firstChamberFloorAction, preliminaryPassage, amended },
     { key: '3rd Reading Passed', isMajor, isHighlight, firstChamberFloorAction, advanced, finalPassage },
     // resolutions
     { key: 'Resolution Adopted', isMajor, isHighlight, firstChamberFloorAction, secondChamberAction, finalPassage },
