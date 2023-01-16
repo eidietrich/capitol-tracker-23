@@ -4,7 +4,8 @@
         "01/17/2023",
         "01/18/2023",
         "01/19/2023",
-        "01/20/2023"
+        "01/20/2023",
+        "01/23/2023"
     ],
     "billsOnCalendar": [
         "HB 1",
@@ -60,7 +61,9 @@
         "HB 221",
         "HB 222",
         "HB 224",
+        "HB 226",
         "HB 227",
+        "HB 232",
         "HB 233",
         "HB 234",
         "HB 236",
@@ -1118,12 +1121,38 @@
             "hearing": true
         },
         {
+            "id": "HB226-0021",
+            "bill": "HB 226",
+            "date": "01/23/2023",
+            "description": "Hearing",
+            "posession": "house",
+            "committee": "House State Administration",
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
             "id": "HB227-0019",
             "bill": "HB 227",
             "date": "01/17/2023",
             "description": "Hearing",
             "posession": "house",
             "committee": "House Human Services",
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
+            "id": "HB232-0022",
+            "bill": "HB 232",
+            "date": "01/23/2023",
+            "description": "Hearing",
+            "posession": "house",
+            "committee": "House State Administration",
             "actionUrl": null,
             "recordings": [],
             "key": "Hearing",
