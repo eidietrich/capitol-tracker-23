@@ -35,7 +35,14 @@ function SEO({
   const metaDescription = description || site.siteMetadata.description
   const metaImage = image || site.siteMetadata.image
   const metaTitle = title ? `${title} | ${site.siteMetadata.title}` : site.siteMetadata.title
-  const metaUrl = `${site.siteMetadata.siteUrl}${pageRelativeUrl}`
+  const metaUrl = `${site.siteMetadata.siteUrl}/${pageRelativeUrl}`
+
+  console.log({
+    metaDescription,
+    metaImage,
+    metaTitle,
+    metaUrl,
+  })
 
   return (
     <>
@@ -76,9 +83,9 @@ function SEO({
           {
             "@context": "http://schema.org",
             "@type": "NewsArticle",
-            "name": "${title}",
+            "name": "${metaTitle}",
             "url": "${metaUrl}",
-            "thumbnailUrl": "${image}",
+            "thumbnailUrl": "${metaTitle}",
             "datePublished": "${new Date().toISOString()}",
             "articleSection": "News apps",
             "creator": "Eric Dietrich"

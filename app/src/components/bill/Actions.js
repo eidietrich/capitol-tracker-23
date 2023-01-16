@@ -267,7 +267,7 @@ const partyIconCss = (color) => css`
   font-style: normal;
 `
 
-const VoteBlock = ({ vote, voteUrl }) => {
+const VoteBlock = ({ vote }) => {
   const {
     count,
     motionPassed,
@@ -275,7 +275,8 @@ const VoteBlock = ({ vote, voteUrl }) => {
     gopSupported,
     demCount,
     demSupported,
-    votes
+    votes,
+    voteUrl
   } = (vote || {})
   const rColor = partyColors('R')
   const dColor = partyColors('D')
@@ -285,19 +286,19 @@ const VoteBlock = ({ vote, voteUrl }) => {
   return <div>
     <div css={voteUrlCss}>
       <div css={[colCss, col1]}>
-        <div css={[rowCss]}>
+        {(count.Y + count.N > 0) && <div css={[rowCss]}>
           <span css={[totalVoteCss(passageColor)]}>{count && count.Y}-{count && count.N}</span>
-        </div>
+        </div>}
       </div>
       <div css={[colCss, col2]}>
-        <div css={[rowCss]}>
+        {(gopCount.Y + gopCount.N > 0) && <div css={[rowCss]}>
           <span css={partyIconCss(rColor)}>R</span>
           <span css={partyVoteCss(rColor, gopSupportColor)}>{gopCount && gopCount.Y}-{gopCount && gopCount.N}</span>
-        </div>
-        <div css={rowCss}>
+        </div>}
+        {(demCount.Y + demCount.N > 0) && <div css={rowCss}>
           <span css={partyIconCss(dColor)}>D</span>
           <span css={partyVoteCss(dColor, demSupportColor)}>{demCount && demCount.Y}-{demCount && demCount.N}</span>
-        </div>
+        </div>}
       </div>
     </div>
     <VoteListing votes={votes} voteUrl={voteUrl} />
@@ -356,6 +357,7 @@ const VoteListing = ({ votes, voteUrl, defaultOpen = false }) => {
               }
             </div>
           </div>
+          {voteUrl && <div className="note"><a href={voteUrl} target="_blank" rel="noopener noreferrer">Official vote page</a></div>}
         </div> : null
     }
     {
