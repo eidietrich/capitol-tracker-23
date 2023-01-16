@@ -27,10 +27,8 @@
         "HB 78",
         "HB 86",
         "HB 87",
-        "HB 91",
         "HB 98",
         "HB 115",
-        "HB 117",
         "HB 120",
         "HB 126",
         "HB 152",
@@ -74,6 +72,7 @@
         "HB 236",
         "HB 237",
         "HB 238",
+        "HB 243",
         "SB 8",
         "SB 15",
         "SB 37",
@@ -115,9 +114,11 @@
         "SB 163",
         "SJ 1",
         "SJ 2",
+        "HB 28",
         "HB 35",
         "HB 48",
         "HB 54",
+        "HB 59",
         "HB 70",
         "HB 83",
         "HB 111",
@@ -133,8 +134,14 @@
         "SB 23",
         "SB 29",
         "SB 46",
+        "SB 48",
+        "SB 56",
+        "SB 58",
         "SB 63",
         "SB 65",
+        "SB 67",
+        "SB 70",
+        "SB 71",
         "SB 75",
         "SB 120",
         "HB 85",
@@ -149,7 +156,7 @@
     ],
     "scheduledHearings": [
         {
-            "id": "HB1-0027",
+            "id": "HB1-0028",
             "bill": "HB 1",
             "date": "01/16/2023",
             "description": "Hearing",
@@ -201,7 +208,7 @@
             "hearing": true
         },
         {
-            "id": "HB2-0046",
+            "id": "HB2-0047",
             "bill": "HB 2",
             "date": "01/17/2023",
             "description": "Hearing",
@@ -214,7 +221,7 @@
             "hearing": true
         },
         {
-            "id": "HB2-0047",
+            "id": "HB2-0048",
             "bill": "HB 2",
             "date": "01/17/2023",
             "description": "Hearing",
@@ -227,25 +234,12 @@
             "hearing": true
         },
         {
-            "id": "HB2-0048",
-            "bill": "HB 2",
-            "date": "01/18/2023",
-            "description": "Hearing",
-            "posession": "house",
-            "committee": "Joint Appropriations Section D — Judicial Branch, Law Enforcement, and Justice",
-            "actionUrl": null,
-            "recordings": [],
-            "key": "Hearing",
-            "isMajor": true,
-            "hearing": true
-        },
-        {
             "id": "HB2-0049",
             "bill": "HB 2",
             "date": "01/18/2023",
             "description": "Hearing",
             "posession": "house",
-            "committee": "Joint Appropriations Section B — Health and Human Services",
+            "committee": "Joint Appropriations Section D — Judicial Branch, Law Enforcement, and Justice",
             "actionUrl": null,
             "recordings": [],
             "key": "Hearing",
@@ -258,7 +252,7 @@
             "date": "01/18/2023",
             "description": "Hearing",
             "posession": "house",
-            "committee": "Joint Appropriations Section A — General Government",
+            "committee": "Joint Appropriations Section B — Health and Human Services",
             "actionUrl": null,
             "recordings": [],
             "key": "Hearing",
@@ -271,7 +265,7 @@
             "date": "01/18/2023",
             "description": "Hearing",
             "posession": "house",
-            "committee": "Joint Appropriations Section E — Education",
+            "committee": "Joint Appropriations Section A — General Government",
             "actionUrl": null,
             "recordings": [],
             "key": "Hearing",
@@ -281,10 +275,10 @@
         {
             "id": "HB2-0052",
             "bill": "HB 2",
-            "date": "01/19/2023",
+            "date": "01/18/2023",
             "description": "Hearing",
             "posession": "house",
-            "committee": "Joint Appropriations Section D — Judicial Branch, Law Enforcement, and Justice",
+            "committee": "Joint Appropriations Section E — Education",
             "actionUrl": null,
             "recordings": [],
             "key": "Hearing",
@@ -297,7 +291,7 @@
             "date": "01/19/2023",
             "description": "Hearing",
             "posession": "house",
-            "committee": "Joint Appropriations Section B — Health and Human Services",
+            "committee": "Joint Appropriations Section D — Judicial Branch, Law Enforcement, and Justice",
             "actionUrl": null,
             "recordings": [],
             "key": "Hearing",
@@ -310,7 +304,7 @@
             "date": "01/19/2023",
             "description": "Hearing",
             "posession": "house",
-            "committee": "Joint Appropriations Section A — General Government",
+            "committee": "Joint Appropriations Section B — Health and Human Services",
             "actionUrl": null,
             "recordings": [],
             "key": "Hearing",
@@ -323,7 +317,7 @@
             "date": "01/19/2023",
             "description": "Hearing",
             "posession": "house",
-            "committee": "Joint Appropriations Section E — Education",
+            "committee": "Joint Appropriations Section A — General Government",
             "actionUrl": null,
             "recordings": [],
             "key": "Hearing",
@@ -333,7 +327,7 @@
         {
             "id": "HB2-0056",
             "bill": "HB 2",
-            "date": "01/20/2023",
+            "date": "01/19/2023",
             "description": "Hearing",
             "posession": "house",
             "committee": "Joint Appropriations Section E — Education",
@@ -349,7 +343,7 @@
             "date": "01/20/2023",
             "description": "Hearing",
             "posession": "house",
-            "committee": "Joint Appropriations Section D — Judicial Branch, Law Enforcement, and Justice",
+            "committee": "Joint Appropriations Section E — Education",
             "actionUrl": null,
             "recordings": [],
             "key": "Hearing",
@@ -362,7 +356,7 @@
             "date": "01/20/2023",
             "description": "Hearing",
             "posession": "house",
-            "committee": "Joint Appropriations Section B — Health and Human Services",
+            "committee": "Joint Appropriations Section D — Judicial Branch, Law Enforcement, and Justice",
             "actionUrl": null,
             "recordings": [],
             "key": "Hearing",
@@ -375,7 +369,7 @@
             "date": "01/20/2023",
             "description": "Hearing",
             "posession": "house",
-            "committee": "Joint Appropriations Section A — General Government",
+            "committee": "Joint Appropriations Section B — Health and Human Services",
             "actionUrl": null,
             "recordings": [],
             "key": "Hearing",
@@ -388,7 +382,7 @@
             "date": "01/20/2023",
             "description": "Hearing",
             "posession": "house",
-            "committee": "Joint Appropriations Section E — Education",
+            "committee": "Joint Appropriations Section A — General Government",
             "actionUrl": null,
             "recordings": [],
             "key": "Hearing",
@@ -398,7 +392,7 @@
         {
             "id": "HB2-0061",
             "bill": "HB 2",
-            "date": "01/23/2023",
+            "date": "01/20/2023",
             "description": "Hearing",
             "posession": "house",
             "committee": "Joint Appropriations Section E — Education",
@@ -414,7 +408,7 @@
             "date": "01/23/2023",
             "description": "Hearing",
             "posession": "house",
-            "committee": "Joint Appropriations Section D — Judicial Branch, Law Enforcement, and Justice",
+            "committee": "Joint Appropriations Section E — Education",
             "actionUrl": null,
             "recordings": [],
             "key": "Hearing",
@@ -427,7 +421,7 @@
             "date": "01/23/2023",
             "description": "Hearing",
             "posession": "house",
-            "committee": "Joint Appropriations Section C — Natural Resources and Transportation",
+            "committee": "Joint Appropriations Section D — Judicial Branch, Law Enforcement, and Justice",
             "actionUrl": null,
             "recordings": [],
             "key": "Hearing",
@@ -440,7 +434,7 @@
             "date": "01/23/2023",
             "description": "Hearing",
             "posession": "house",
-            "committee": "Joint Appropriations Section B — Health and Human Services",
+            "committee": "Joint Appropriations Section C — Natural Resources and Transportation",
             "actionUrl": null,
             "recordings": [],
             "key": "Hearing",
@@ -449,6 +443,19 @@
         },
         {
             "id": "HB2-0065",
+            "bill": "HB 2",
+            "date": "01/23/2023",
+            "description": "Hearing",
+            "posession": "house",
+            "committee": "Joint Appropriations Section B — Health and Human Services",
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
+            "id": "HB2-0066",
             "bill": "HB 2",
             "date": "01/23/2023",
             "description": "Hearing",
@@ -721,19 +728,6 @@
             "hearing": true
         },
         {
-            "id": "HB91-0026",
-            "bill": "HB 91",
-            "date": "01/18/2023",
-            "description": "Hearing",
-            "posession": "house",
-            "committee": "House Appropriations",
-            "actionUrl": null,
-            "recordings": [],
-            "key": "Hearing",
-            "isMajor": true,
-            "hearing": true
-        },
-        {
             "id": "HB98-0024",
             "bill": "HB 98",
             "date": "01/19/2023",
@@ -760,20 +754,7 @@
             "hearing": true
         },
         {
-            "id": "HB117-0024",
-            "bill": "HB 117",
-            "date": "01/18/2023",
-            "description": "Hearing",
-            "posession": "house",
-            "committee": "House Appropriations",
-            "actionUrl": null,
-            "recordings": [],
-            "key": "Hearing",
-            "isMajor": true,
-            "hearing": true
-        },
-        {
-            "id": "HB120-0029",
+            "id": "HB120-0031",
             "bill": "HB 120",
             "date": "01/19/2023",
             "description": "Hearing",
@@ -825,7 +806,7 @@
             "hearing": true
         },
         {
-            "id": "HB163-0020",
+            "id": "HB163-0023",
             "bill": "HB 163",
             "date": "01/18/2023",
             "description": "Hearing",
@@ -838,7 +819,7 @@
             "hearing": true
         },
         {
-            "id": "HB173-0018",
+            "id": "HB173-0020",
             "bill": "HB 173",
             "date": "01/16/2023",
             "description": "Hearing",
@@ -851,7 +832,7 @@
             "hearing": true
         },
         {
-            "id": "HB174-0021",
+            "id": "HB174-0022",
             "bill": "HB 174",
             "date": "01/18/2023",
             "description": "Hearing",
@@ -890,7 +871,7 @@
             "hearing": true
         },
         {
-            "id": "HB185-0022",
+            "id": "HB185-0025",
             "bill": "HB 185",
             "date": "01/16/2023",
             "description": "Hearing",
@@ -903,7 +884,7 @@
             "hearing": true
         },
         {
-            "id": "HB186-0017",
+            "id": "HB186-0018",
             "bill": "HB 186",
             "date": "01/16/2023",
             "description": "Hearing",
@@ -916,7 +897,7 @@
             "hearing": true
         },
         {
-            "id": "HB189-0020",
+            "id": "HB189-0023",
             "bill": "HB 189",
             "date": "01/17/2023",
             "description": "Hearing",
@@ -929,7 +910,7 @@
             "hearing": true
         },
         {
-            "id": "HB190-0023",
+            "id": "HB190-0028",
             "bill": "HB 190",
             "date": "01/17/2023",
             "description": "Hearing",
@@ -942,7 +923,7 @@
             "hearing": true
         },
         {
-            "id": "HB194-0018",
+            "id": "HB194-0019",
             "bill": "HB 194",
             "date": "01/16/2023",
             "description": "Hearing",
@@ -981,7 +962,7 @@
             "hearing": true
         },
         {
-            "id": "HB198-0019",
+            "id": "HB198-0021",
             "bill": "HB 198",
             "date": "01/17/2023",
             "description": "Hearing",
@@ -1007,7 +988,7 @@
             "hearing": true
         },
         {
-            "id": "HB203-0020",
+            "id": "HB203-0023",
             "bill": "HB 203",
             "date": "01/16/2023",
             "description": "Hearing",
@@ -1059,7 +1040,7 @@
             "hearing": true
         },
         {
-            "id": "HB210-0021",
+            "id": "HB210-0023",
             "bill": "HB 210",
             "date": "01/18/2023",
             "description": "Hearing",
@@ -1085,7 +1066,7 @@
             "hearing": true
         },
         {
-            "id": "HB212-0024",
+            "id": "HB212-0027",
             "bill": "HB 212",
             "date": "01/17/2023",
             "description": "Hearing",
@@ -1098,7 +1079,7 @@
             "hearing": true
         },
         {
-            "id": "HB213-0018",
+            "id": "HB213-0019",
             "bill": "HB 213",
             "date": "01/16/2023",
             "description": "Hearing",
@@ -1111,7 +1092,7 @@
             "hearing": true
         },
         {
-            "id": "HB214-0021",
+            "id": "HB214-0025",
             "bill": "HB 214",
             "date": "01/16/2023",
             "description": "Hearing",
@@ -1150,7 +1131,7 @@
             "hearing": true
         },
         {
-            "id": "HB218-0018",
+            "id": "HB218-0019",
             "bill": "HB 218",
             "date": "01/18/2023",
             "description": "Hearing",
@@ -1163,7 +1144,7 @@
             "hearing": true
         },
         {
-            "id": "HB219-0024",
+            "id": "HB219-0025",
             "bill": "HB 219",
             "date": "01/18/2023",
             "description": "Hearing",
@@ -1176,7 +1157,7 @@
             "hearing": true
         },
         {
-            "id": "HB221-0022",
+            "id": "HB221-0023",
             "bill": "HB 221",
             "date": "01/18/2023",
             "description": "Hearing",
@@ -1189,7 +1170,7 @@
             "hearing": true
         },
         {
-            "id": "HB222-0019",
+            "id": "HB222-0020",
             "bill": "HB 222",
             "date": "01/17/2023",
             "description": "Hearing",
@@ -1202,7 +1183,7 @@
             "hearing": true
         },
         {
-            "id": "HB224-0031",
+            "id": "HB224-0033",
             "bill": "HB 224",
             "date": "01/16/2023",
             "description": "Hearing",
@@ -1267,7 +1248,7 @@
             "hearing": true
         },
         {
-            "id": "HB233-0018",
+            "id": "HB233-0019",
             "bill": "HB 233",
             "date": "01/17/2023",
             "description": "Hearing",
@@ -1332,7 +1313,20 @@
             "hearing": true
         },
         {
-            "id": "SB8-0016",
+            "id": "HB243-0018",
+            "bill": "HB 243",
+            "date": "01/19/2023",
+            "description": "Hearing",
+            "posession": "house",
+            "committee": "House Fish, Wildlife and Parks",
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
+            "id": "SB8-0017",
             "bill": "SB 8",
             "date": "01/16/2023",
             "description": "Hearing",
@@ -1384,7 +1378,7 @@
             "hearing": true
         },
         {
-            "id": "SB60-0017",
+            "id": "SB60-0018",
             "bill": "SB 60",
             "date": "01/16/2023",
             "description": "Hearing",
@@ -1397,7 +1391,7 @@
             "hearing": true
         },
         {
-            "id": "SB61-0014",
+            "id": "SB61-0015",
             "bill": "SB 61",
             "date": "01/16/2023",
             "description": "Hearing",
@@ -1423,7 +1417,7 @@
             "hearing": true
         },
         {
-            "id": "SB73-0013",
+            "id": "SB73-0015",
             "bill": "SB 73",
             "date": "01/16/2023",
             "description": "Hearing",
@@ -1488,7 +1482,7 @@
             "hearing": true
         },
         {
-            "id": "SB97-0023",
+            "id": "SB97-0024",
             "bill": "SB 97",
             "date": "01/18/2023",
             "description": "Hearing",
@@ -1514,7 +1508,7 @@
             "hearing": true
         },
         {
-            "id": "SB112-0018",
+            "id": "SB112-0019",
             "bill": "SB 112",
             "date": "01/18/2023",
             "description": "Hearing",
@@ -1553,7 +1547,7 @@
             "hearing": true
         },
         {
-            "id": "SB121-0023",
+            "id": "SB121-0024",
             "bill": "SB 121",
             "date": "01/17/2023",
             "description": "Hearing",
@@ -1566,7 +1560,7 @@
             "hearing": true
         },
         {
-            "id": "SB122-0019",
+            "id": "SB122-0020",
             "bill": "SB 122",
             "date": "01/18/2023",
             "description": "Hearing",
@@ -1644,7 +1638,7 @@
             "hearing": true
         },
         {
-            "id": "SB139-0018",
+            "id": "SB139-0019",
             "bill": "SB 139",
             "date": "01/17/2023",
             "description": "Hearing",
@@ -1696,7 +1690,7 @@
             "hearing": true
         },
         {
-            "id": "SB145-0022",
+            "id": "SB145-0023",
             "bill": "SB 145",
             "date": "01/18/2023",
             "description": "Hearing",
@@ -1867,6 +1861,18 @@
     ],
     "scheduledFloorDebates": [
         {
+            "id": "HB28-0021",
+            "bill": "HB 28",
+            "date": "01/17/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "house",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
             "id": "HB35-0019",
             "bill": "HB 35",
             "date": "01/16/2023",
@@ -1894,6 +1900,18 @@
             "id": "HB54-0016",
             "bill": "HB 54",
             "date": "01/16/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "house",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
+            "id": "HB59-0025",
+            "bill": "HB 59",
+            "date": "01/17/2023",
             "description": "Scheduled for 2nd Reading",
             "posession": "house",
             "committee": null,
@@ -2083,6 +2101,42 @@
             "scheduledForFloorDebate": true
         },
         {
+            "id": "SB48-0017",
+            "bill": "SB 48",
+            "date": "01/17/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
+            "id": "SB56-0017",
+            "bill": "SB 56",
+            "date": "01/17/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
+            "id": "SB58-0021",
+            "bill": "SB 58",
+            "date": "01/17/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
             "id": "SB63-0019",
             "bill": "SB 63",
             "date": "01/16/2023",
@@ -2098,6 +2152,42 @@
             "id": "SB65-0019",
             "bill": "SB 65",
             "date": "01/16/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
+            "id": "SB67-0024",
+            "bill": "SB 67",
+            "date": "01/17/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
+            "id": "SB70-0021",
+            "bill": "SB 70",
+            "date": "01/17/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
+            "id": "SB71-0020",
+            "bill": "SB 71",
+            "date": "01/17/2023",
             "description": "Scheduled for 2nd Reading",
             "posession": "senate",
             "committee": null,
