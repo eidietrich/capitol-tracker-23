@@ -37,6 +37,16 @@ export const ordinalize = value => ({
   8: "Eighth",
   9: "Ninth",
   10: "Tenth",
+  11: "Eleventh",
+  12: "Twelfth",
+  13: "Thirteenth",
+  14: "Fourteenth",
+  15: "Fifteenth",
+  16: "Sixteenth",
+  17: "Seventeenth",
+  18: "Eighteenth",
+  19: "Nineteenth",
+  20: "Twentieth",
 })[value]
 // Adapted from https://stackoverflow.com/questions/196972/convert-string-to-title-case-with-javascript
 export const titleCase = string => string.replace(/\w\S*/g, txt => txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase())

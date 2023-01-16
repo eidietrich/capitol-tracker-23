@@ -75,6 +75,7 @@ export default class Bill {
             chamber: this.chamber,
             title,
             session,
+            lcIdentifier: lc,
             type: this.type, // bill, resolution etc.
 
             status: this.getStatus(key, billStatus),
