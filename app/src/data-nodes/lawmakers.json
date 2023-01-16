@@ -1915,9 +1915,9 @@
                 "title": "Providing for quarterly collection of beer, wine, and hard cider taxes",
                 "chamber": "house",
                 "status": {
-                    "key": "Transmitted to Second House",
-                    "step": "Second chamber",
-                    "label": "Transmitted",
+                    "key": "In First House Committee--Nontabled",
+                    "step": "First chamber",
+                    "label": "In committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -1932,7 +1932,7 @@
                         "step": "first committee",
                         "status": "passed",
                         "statusLabel": "Advanced",
-                        "statusDate": "01/06/2023"
+                        "statusDate": "01/16/2023"
                     },
                     {
                         "step": "first chamber",
@@ -2312,7 +2312,7 @@
                     }
                 ],
                 "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0135.pdf",
-                "fiscalNoteUrl": null,
+                "fiscalNoteUrl": "https://leg.mt.gov/laws/bills/2023/FNPDF/HB0135",
                 "numArticles": 0,
                 "sponsor": {
                     "name": "Marta Bertoglio",
@@ -12196,7 +12196,7 @@
                     }
                 ],
                 "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0008.pdf",
-                "fiscalNoteUrl": null,
+                "fiscalNoteUrl": "https://leg.mt.gov/laws/bills/2023/FNPDF/HB0008",
                 "numArticles": 0,
                 "sponsor": {
                     "name": "Mike Hopkins",
@@ -42229,6 +42229,7 @@
                 ],
                 "textUrl": "http://leg.mt.gov/bills/2023/billpdf/SB0154.pdf",
                 "fiscalNoteUrl": null,
+                "legalNoteUrl": "https://montanafreepress.org/wp-content/uploads/2023/01/SB0154LRN.pdf",
                 "numArticles": 0,
                 "sponsor": {
                     "name": "Keith Regier",
