@@ -348,4 +348,8 @@ export const LAWMAKER_NAME_CLEANING = {
     'Yakawich, Michael': 'Mike Yakawich',
     'Michael Yakawich': 'Mike Yakawich',
     'Zephyr, Zooey': 'Zooey Zephyr',
+    'Ed Butcher': 'Ed Butcher',
+    'Butcher, Ed': 'Ed Butcher',
+    'Edward Butcher': 'Ed Butcher',
+    'Butcher, Edward': 'Ed Butcher',
 }

@@ -89,7 +89,8 @@ lawmakers.forEach(lawmaker => {
 //         lastName: d.data.name,
 //         party: d.data.party,
 //         locale: d.data.locale_short || '',
-//         district: d.data.district
+//         district: d.data.district,
+//         active: d.data.isActive,
 //     }
 // })
 // writeJson('./process/config/lawmaker-roster-2023.json', summaryRoster)

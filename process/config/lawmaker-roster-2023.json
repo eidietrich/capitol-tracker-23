@@ -97,6 +97,14 @@
     },
     {
         "title": "Rep.",
+        "name": "Ed Butcher",
+        "lastName": "Butcher",
+        "party": "R",
+        "locale": "Winifred",
+        "district": "HD 29"
+    },
+    {
+        "title": "Rep.",
         "name": "Ed Buttrey",
         "lastName": "Buttrey",
         "party": "R",
@@ -221,7 +229,8 @@
         "lastName": "Flament",
         "party": "R",
         "locale": "Lewistown",
-        "district": "HD 29"
+        "district": "HD 29",
+        "active": false
     },
     {
         "title": "Rep.",
@@ -701,7 +710,8 @@
         "lastName": "Stromswold",
         "party": "R",
         "locale": "Billings",
-        "district": "HD 50"
+        "district": "HD 50",
+        "active": false
     },
     {
         "title": "Rep.",

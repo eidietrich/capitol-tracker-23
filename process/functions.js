@@ -55,6 +55,11 @@ export const getLawmakerLocale = standardName => {
     const match = roster.find(d => d.name === standardName)
     return match.locale
 }
+export const isLawmakerActive = standardName => {
+    const match = roster.find(d => d.name === standardName)
+    if (match.active === false) return false
+    else return true
+}
 
 export const getLawmakerSummary = standardName => {
     // Pulls basic lawmaker info from pre-packaged roster file

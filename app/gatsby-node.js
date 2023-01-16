@@ -123,6 +123,7 @@ exports.createSchemaCustomization = ({ actions }) => {
         type LawmakersJson implements Node @dontInfer { 
             key: String!
             name: String
+            isActive: Boolean
             district: String
             districtElexHistory: ElexHistory
             districtNum: Int

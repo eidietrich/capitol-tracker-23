@@ -56,7 +56,10 @@ export const Head = () => (
 
 export const query = graphql`
   query HousePageQuery {
-    allLawmakersJson(filter: {chamber: {eq: "house"}}, sort: {districtNum: ASC}) {
+    allLawmakersJson(filter: {
+        chamber: {eq: "house"},
+        isActive: {eq: true},
+      }, sort: {districtNum: ASC}) {
       edges {
         node {
           ...RosterData

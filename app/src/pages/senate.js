@@ -54,7 +54,10 @@ export const Head = () => (
 export const query = graphql`
   query SenatePageQuery {
     allLawmakersJson(
-      filter: {chamber: {eq: "senate"}}
+      filter: {
+        chamber: {eq: "house"},
+        isActive: {eq: true},
+      }
       sort: {districtNum: ASC}
       ) {
         edges {

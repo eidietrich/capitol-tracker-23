@@ -17,6 +17,7 @@ import {
     getLawmakerLastName,
     getLawmakerLocale,
     standardizeCommiteeNames,
+    isLawmakerActive,
 } from '../functions.js'
 
 export default class Lawmaker {
@@ -63,6 +64,7 @@ export default class Lawmaker {
             name: standardName,
             lastName: getLawmakerLastName(standardName),
             locale: getLawmakerLocale(standardName),
+            isActive: isLawmakerActive(standardName),
             district: district.key,
             districtElexHistory: {
                 last_election: district.last_election,

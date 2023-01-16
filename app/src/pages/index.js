@@ -87,7 +87,9 @@ export const query = graphql`
         }
       }
     }
-    lawmakerIndex: allLawmakersJson {
+    lawmakerIndex: allLawmakersJson (filter: {
+        isActive: {eq: true},
+      }) {
       edges {
         node {
           key
