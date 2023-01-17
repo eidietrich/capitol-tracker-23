@@ -4,6 +4,22 @@
             "date": "01/16/2023",
             "actions": [
                 {
+                    "id": "HB1-0029",
+                    "bill": "HB 1",
+                    "date": "01/16/2023",
+                    "description": "Committee Executive Action--Bill Concurred",
+                    "posession": "senate",
+                    "committee": "Senate Finance and Claims",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Concurred",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "title": "Feed bill to fund 68th legislative session and prepare for 2025"
+                },
+                {
                     "id": "HB35-0020",
                     "bill": "HB 35",
                     "date": "01/16/2023",
@@ -374,6 +390,24 @@
                     "title": "Generally revise laws related to seasonal alcohol licenses"
                 },
                 {
+                    "id": "HB184-0018",
+                    "bill": "HB 184",
+                    "date": "01/16/2023",
+                    "description": "Tabled in Committee",
+                    "posession": "house",
+                    "committee": "House Transportation",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Tabled in Committee",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "secondChamberAction": true,
+                    "failed": true,
+                    "tabled": true,
+                    "title": "Revising mandatory motor vehicle insurance laws relating certain vehicles"
+                },
+                {
                     "id": "SB1-0023",
                     "bill": "SB 1",
                     "date": "01/16/2023",
@@ -424,6 +458,23 @@
                     "title": "Clarify school finance laws related to general fund levies"
                 },
                 {
+                    "id": "SB13-0021",
+                    "bill": "SB 13",
+                    "date": "01/16/2023",
+                    "description": "Committee Executive Action--Bill Passed as Amended",
+                    "posession": "senate",
+                    "committee": "Senate Judiciary",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed as Amended",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "amended": true,
+                    "title": "Revise DUI laws related to admissible tests for presence of drugs"
+                },
+                {
                     "id": "SB20-0029",
                     "bill": "SB 20",
                     "date": "01/16/2023",
@@ -455,6 +506,24 @@
                     "firstChamberFloorAction": true,
                     "preliminaryPassage": true,
                     "title": "Require county to approve certain condominiums"
+                },
+                {
+                    "id": "SB26-0015",
+                    "bill": "SB 26",
+                    "date": "01/16/2023",
+                    "description": "Tabled in Committee",
+                    "posession": "senate",
+                    "committee": "Senate Public Health, Welfare and Safety",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Tabled in Committee",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "secondChamberAction": true,
+                    "failed": true,
+                    "tabled": true,
+                    "title": "Revise laws related to fentanyl test strips"
                 },
                 {
                     "id": "SB29-0022",

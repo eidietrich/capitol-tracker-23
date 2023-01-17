@@ -5375,10 +5375,10 @@
                 "title": "Revising mandatory motor vehicle insurance laws relating certain vehicles",
                 "chamber": "house",
                 "status": {
-                    "key": "In First House Committee--Nontabled",
+                    "key": "In First House Committee--Tabled",
                     "step": "First chamber",
-                    "label": "In committee",
-                    "status": "live",
+                    "label": "Tabled in committee",
+                    "status": "stalled",
                     "statusAtSessionEnd": "failed"
                 },
                 "progress": [
@@ -5390,9 +5390,9 @@
                     },
                     {
                         "step": "first committee",
-                        "status": "current",
-                        "statusLabel": "Pending",
-                        "statusDate": null
+                        "status": "blocked",
+                        "statusLabel": "Tabled",
+                        "statusDate": "01/16/2023"
                     },
                     {
                         "step": "first chamber",
@@ -5975,7 +5975,7 @@
                         "statusDate": null
                     }
                 ],
-                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC2918.pdf",
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0259.pdf",
                 "fiscalNoteUrl": null,
                 "numArticles": 0,
                 "sponsor": {
@@ -10824,7 +10824,7 @@
                         "statusDate": null
                     }
                 ],
-                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC2387.pdf",
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0261.pdf",
                 "fiscalNoteUrl": null,
                 "numArticles": 0,
                 "sponsor": {
@@ -13819,7 +13819,7 @@
                         "statusDate": null
                     }
                 ],
-                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC1352.pdf",
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0258.pdf",
                 "fiscalNoteUrl": null,
                 "numArticles": 0,
                 "sponsor": {
@@ -22370,7 +22370,7 @@
                         "statusDate": null
                     }
                 ],
-                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC4508.pdf",
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0260.pdf",
                 "fiscalNoteUrl": null,
                 "numArticles": 0,
                 "sponsor": {
@@ -24526,7 +24526,7 @@
                         "statusDate": null
                     }
                 ],
-                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC1917.pdf",
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0257.pdf",
                 "fiscalNoteUrl": null,
                 "numArticles": 0,
                 "sponsor": {
@@ -37690,7 +37690,7 @@
                         "step": "first committee",
                         "status": "blocked",
                         "statusLabel": "Tabled",
-                        "statusDate": "01/10/2023"
+                        "statusDate": "01/16/2023"
                     },
                     {
                         "step": "first chamber",
@@ -42194,14 +42194,14 @@
                     },
                     {
                         "step": "first committee",
-                        "status": "current",
-                        "statusLabel": "Pending",
-                        "statusDate": null
+                        "status": "passed",
+                        "statusLabel": "Advanced",
+                        "statusDate": "01/16/2023"
                     },
                     {
                         "step": "first chamber",
-                        "status": "future",
-                        "statusLabel": null,
+                        "status": "current",
+                        "statusLabel": "Pending",
                         "statusDate": null
                     },
                     {
