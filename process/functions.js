@@ -33,16 +33,16 @@ export const standardizeCommiteeNames = name => {
     if ([null, '', ' '].includes(name)) return null
     const preClean = name.replace('(H) (H)', '(H)').replace('(S) (S)', '(S)')
     const clean = COMMITEE_NAME_CLEANING[preClean]
-    if (!clean) console.error(`NAME_CLEANING in config.js missing "${preClean}"`)
+    if (!clean) console.error(`COMMITEE_NAME_CLEANING missing "${preClean}"`)
     return clean
 }
 
 export const standardLawmakerNames = Array.from(new Set(Object.values(LAWMAKER_NAME_CLEANING)))
 export const standardizeLawmakerName = name => {
-    if (standardLawmakerNames.includes(name)) return name
-
-    const clean = LAWMAKER_NAME_CLEANING[name]
-    if (!clean) console.error(`NAME_CLEANING in config.js missing ${name}`)
+    const preClean = name.replace(';byproxy', '')
+    if (standardLawmakerNames.includes(preClean)) return preClean
+    const clean = LAWMAKER_NAME_CLEANING[preClean]
+    if (!clean) console.error(`NAME_CLEANING missing ${preClean}`)
     return clean
 }
 
