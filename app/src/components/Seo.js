@@ -37,13 +37,6 @@ function SEO({
   const metaTitle = title ? `${title} | ${site.siteMetadata.title}` : site.siteMetadata.title
   const metaUrl = `${site.siteMetadata.siteUrl}/${pageRelativeUrl}`
 
-  console.log({
-    metaDescription,
-    metaImage,
-    metaTitle,
-    metaUrl,
-  })
-
   return (
     <>
       <meta charSet="utf-8" />

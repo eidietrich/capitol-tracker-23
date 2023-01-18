@@ -189,7 +189,10 @@ const progressStepStyle = css`
 const pluralStory = val => (val !== 1) ? 'stories' : 'story'
 
 
-const Bill = ({ title, identifier, chamber, status, explanation, textUrl, fiscalNoteUrl, legalNoteUrl, vetoMemoUrl, numArticles, sponsor, progress }) => {
+const Bill = ({ title, identifier, chamber, status, explanation, textUrl,
+  fiscalNoteUrl, legalNoteUrl, vetoMemoUrl, amendmentsUrl,
+  numArticles, sponsor, progress
+}) => {
   const statusColor = statusColors(status.status)
   const stepLabels = billProgressStepLabels(chamber)
 
@@ -206,6 +209,8 @@ const Bill = ({ title, identifier, chamber, status, explanation, textUrl, fiscal
       </div >
     })
 
+  console.log({ amendmentsUrl })
+
   return (<tr css={tableRowCss} key={identifier}>
     <td css={tableBillCell}>
 
@@ -220,6 +225,7 @@ const Bill = ({ title, identifier, chamber, status, explanation, textUrl, fiscal
         {textUrl && <a css={billLinkCss} href={textUrl} target="_blank" rel="noopener noreferrer">📃 Bill text</a>}
         {fiscalNoteUrl && <a css={billLinkCss} href={fiscalNoteUrl} target="_blank" rel="noopener noreferrer">💵 Fiscal note</a>}
         {legalNoteUrl && <a css={billLinkCss} href={legalNoteUrl} target="_blank" rel="noopener noreferrer">🏛 Legal note</a>}
+        {amendmentsUrl && <a css={billLinkCss} href={amendmentsUrl} target="_blank" rel="noopener noreferrer">🖍 Proposed amendments</a>}
         {vetoMemoUrl && <a css={billLinkCss} href={vetoMemoUrl} target="_blank" rel="noopener noreferrer">🚫 Veto memo</a>}
         {(numArticles > 0) && <Link css={billLinkCss} to={`/bills/${billUrl(identifier)}`}>📰 <strong>{numArticles}</strong> MTFP {pluralStory(numArticles)}</Link>}
       </div>
@@ -265,6 +271,7 @@ export const BillTableDataFragment = graphql`
     textUrl
     fiscalNoteUrl
     legalNoteUrl
+    amendmentsUrl
     vetoMemoUrl
     sponsor {
       name

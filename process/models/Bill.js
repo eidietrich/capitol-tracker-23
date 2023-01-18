@@ -38,7 +38,7 @@ export default class Bill {
             // lastAction,
             billStatus,
             fiscalNotesListUrl,
-            amendmentsListUrl,
+            amendmentListUrl,
             // draftRequestor,
             billRequestor,
             // primarySponsor,
@@ -54,6 +54,7 @@ export default class Bill {
             Explanation,
             BillPageText,
             legalNoteLink,
+            tags,
             // vetoNoteLink,
         } = annotation
 
@@ -93,12 +94,13 @@ export default class Bill {
             voteMajorityRequired: this.voteMajorityRequired,
 
             subjects: subjects.map(d => d.subject), // TODO: Add cleaning
+            tags: tags || [],
 
-            lawsUrl: billPageUrl,
-            textUrl: billPdfUrl,
-            fiscalNoteUrl: fiscalNotesListUrl,
-            amendmendmentsUrl: amendmentsListUrl,
-            legalNoteUrl: legalNoteLink,
+            lawsUrl: billPageUrl || null,
+            textUrl: billPdfUrl || null,
+            fiscalNoteUrl: fiscalNotesListUrl || null,
+            amendmentsUrl: amendmentListUrl || null,
+            legalNoteUrl: legalNoteLink || null,
             // vetoMemoUrl: legalNoteLink,
 
             // annotations
@@ -106,9 +108,6 @@ export default class Bill {
             majorBillCategory: category,
             explanation: Explanation,
             billPageText: BillPageText,
-
-
-
 
             articles,
 

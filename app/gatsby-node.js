@@ -39,7 +39,7 @@ exports.createSchemaCustomization = ({ actions }) => {
             legalNoteUrl: String
             vetoMemoUrl: String
             fiscalNoteUrl: String
-            amendmendmentsUrl: String
+            amendmentsUrl: String
             articles: [Article]
             actions: [BillAction]
         }

@@ -6,24 +6,12 @@
     "BillPageText": "House Bill 2 is traditionally the state's primary two-year appropriations bill, the vehicle the Legislature uses to set most of the state budget. More information about the budgeting process is available on the [Legislative Fiscal Division](https://leg.mt.gov/lfd/) website.",
     "legalNoteLink": null,
     "createdAt": "2022-12-21T19:34:58.382Z",
-    "updatedAt": "2023-01-03T21:43:16.619Z",
-    "bill_category": {
-      "data": {
-        "id": 1,
-        "attributes": {
-          "CategoryLabel": "Major budget bills",
-          "CategoryDescription": null,
-          "createdAt": "2022-12-21T19:36:32.011Z",
-          "updatedAt": "2023-01-11T15:35:02.748Z",
-          "OrderOnPage": 1,
-          "ShowOnKeyBillsList": true
-        }
-      }
-    },
+    "updatedAt": "2023-01-18T22:53:30.607Z",
     "category": "Major budget bills",
     "categoryDescription": null,
     "categoryOrder": 1,
-    "showCategory": true
+    "showCategory": true,
+    "tags": []
   },
   {
     "Identifier": "SB 121",
@@ -33,23 +21,11 @@
     "legalNoteLink": null,
     "createdAt": "2023-01-10T02:50:07.531Z",
     "updatedAt": "2023-01-11T15:23:27.109Z",
-    "bill_category": {
-      "data": {
-        "id": 3,
-        "attributes": {
-          "CategoryLabel": "Governor's budget",
-          "CategoryDescription": "Bills implementing parts of Gov. Greg Gianforte's proposed state budget.",
-          "createdAt": "2023-01-10T02:48:37.145Z",
-          "updatedAt": "2023-01-11T15:34:48.387Z",
-          "OrderOnPage": 2,
-          "ShowOnKeyBillsList": false
-        }
-      }
-    },
     "category": "Governor's budget",
     "categoryDescription": "Bills implementing parts of Gov. Greg Gianforte's proposed state budget.",
     "categoryOrder": 2,
-    "showCategory": null
+    "showCategory": null,
+    "tags": []
   },
   {
     "Identifier": "HB 192",
@@ -58,14 +34,12 @@
     "BillPageText": null,
     "legalNoteLink": null,
     "createdAt": "2023-01-10T02:50:22.021Z",
-    "updatedAt": "2023-01-11T15:41:21.723Z",
-    "bill_category": {
-      "data": null
-    },
+    "updatedAt": "2023-01-18T15:11:00.450Z",
     "category": null,
     "categoryDescription": null,
     "categoryOrder": null,
-    "showCategory": null
+    "showCategory": null,
+    "tags": []
   },
   {
     "Identifier": "HB 212",
@@ -75,38 +49,3045 @@
     "legalNoteLink": null,
     "createdAt": "2023-01-10T02:50:39.071Z",
     "updatedAt": "2023-01-11T15:23:22.355Z",
-    "bill_category": {
-      "data": {
-        "id": 3,
-        "attributes": {
-          "CategoryLabel": "Governor's budget",
-          "CategoryDescription": "Bills implementing parts of Gov. Greg Gianforte's proposed state budget.",
-          "createdAt": "2023-01-10T02:48:37.145Z",
-          "updatedAt": "2023-01-11T15:34:48.387Z",
-          "OrderOnPage": 2,
-          "ShowOnKeyBillsList": false
-        }
-      }
-    },
     "category": "Governor's budget",
     "categoryDescription": "Bills implementing parts of Gov. Greg Gianforte's proposed state budget.",
     "categoryOrder": 2,
-    "showCategory": null
+    "showCategory": null,
+    "tags": []
   },
   {
     "Identifier": "SB 154",
-    "isKeyBill": true,
+    "isKeyBill": false,
     "Explanation": null,
     "BillPageText": null,
     "legalNoteLink": "https://montanafreepress.org/wp-content/uploads/2023/01/SB0154LRN.pdf",
     "createdAt": "2023-01-16T15:49:23.705Z",
-    "updatedAt": "2023-01-16T15:49:23.705Z",
-    "bill_category": {
-      "data": null
-    },
+    "updatedAt": "2023-01-18T22:46:19.453Z",
     "category": null,
     "categoryDescription": null,
     "categoryOrder": null,
-    "showCategory": null
+    "showCategory": null,
+    "tags": []
+  },
+  {
+    "Identifier": "HB 30",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T15:11:32.762Z",
+    "updatedAt": "2023-01-18T22:41:23.512Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 31",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T15:11:42.869Z",
+    "updatedAt": "2023-01-18T22:41:27.947Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 34",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T15:11:53.879Z",
+    "updatedAt": "2023-01-18T22:41:33.713Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 39",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T15:12:02.756Z",
+    "updatedAt": "2023-01-18T22:41:37.907Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 40",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T15:12:11.121Z",
+    "updatedAt": "2023-01-18T22:41:41.597Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 41",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T15:12:20.026Z",
+    "updatedAt": "2023-01-18T22:41:45.256Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 42",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T15:22:08.063Z",
+    "updatedAt": "2023-01-18T22:41:48.946Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 43",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T15:22:15.549Z",
+    "updatedAt": "2023-01-18T22:41:52.658Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 44",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T15:22:22.077Z",
+    "updatedAt": "2023-01-18T22:41:57.321Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 45",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T15:22:28.426Z",
+    "updatedAt": "2023-01-18T22:42:00.842Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 46",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T15:22:34.116Z",
+    "updatedAt": "2023-01-18T22:42:07.144Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 47",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T15:22:39.260Z",
+    "updatedAt": "2023-01-18T22:42:11.066Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 48",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T15:22:45.734Z",
+    "updatedAt": "2023-01-18T22:42:15.152Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 49",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T15:22:52.426Z",
+    "updatedAt": "2023-01-18T22:42:19.095Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 50",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T15:23:21.543Z",
+    "updatedAt": "2023-01-18T22:42:23.921Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 51",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T15:23:26.719Z",
+    "updatedAt": "2023-01-18T22:42:28.110Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 52",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T15:23:33.743Z",
+    "updatedAt": "2023-01-18T22:42:32.665Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 53",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T15:23:39.688Z",
+    "updatedAt": "2023-01-18T22:42:37.762Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 54",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T15:23:44.493Z",
+    "updatedAt": "2023-01-18T22:42:42.555Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 56",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T15:23:51.350Z",
+    "updatedAt": "2023-01-18T22:42:47.115Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 58",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T15:23:57.520Z",
+    "updatedAt": "2023-01-18T22:42:52.359Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 59",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T15:24:03.648Z",
+    "updatedAt": "2023-01-18T22:42:57.217Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 63",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T15:24:09.680Z",
+    "updatedAt": "2023-01-18T22:43:03.380Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 64",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T15:24:14.875Z",
+    "updatedAt": "2023-01-18T22:43:07.962Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 65",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T15:24:21.137Z",
+    "updatedAt": "2023-01-18T22:43:12.278Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 66",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T15:24:30.166Z",
+    "updatedAt": "2023-01-18T22:43:16.598Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 67",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T15:24:36.476Z",
+    "updatedAt": "2023-01-18T22:43:21.324Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 68",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T15:24:41.652Z",
+    "updatedAt": "2023-01-18T22:43:25.625Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 69",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T15:24:47.095Z",
+    "updatedAt": "2023-01-18T22:44:00.404Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 70",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T15:24:54.142Z",
+    "updatedAt": "2023-01-18T22:44:04.892Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 71",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T15:25:09.070Z",
+    "updatedAt": "2023-01-18T22:44:08.905Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 72",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T15:25:16.516Z",
+    "updatedAt": "2023-01-18T22:44:12.772Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 73",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T15:25:21.971Z",
+    "updatedAt": "2023-01-18T22:44:16.464Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 74",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T15:25:27.143Z",
+    "updatedAt": "2023-01-18T22:44:20.663Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 75",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T15:25:32.201Z",
+    "updatedAt": "2023-01-18T22:44:25.161Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 76",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T15:25:37.474Z",
+    "updatedAt": "2023-01-18T22:44:42.690Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 77",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T15:25:45.337Z",
+    "updatedAt": "2023-01-18T22:44:46.656Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 78",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T15:25:50.484Z",
+    "updatedAt": "2023-01-18T22:44:50.525Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 80",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T15:28:46.840Z",
+    "updatedAt": "2023-01-18T22:44:54.585Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 83",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T15:28:52.236Z",
+    "updatedAt": "2023-01-18T22:44:58.450Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 84",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T15:28:58.456Z",
+    "updatedAt": "2023-01-18T22:45:02.523Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 85",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T15:29:02.589Z",
+    "updatedAt": "2023-01-18T22:45:07.298Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 87",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T15:29:08.395Z",
+    "updatedAt": "2023-01-18T22:45:15.122Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 88",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T15:29:13.988Z",
+    "updatedAt": "2023-01-18T22:45:35.089Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 89",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T15:29:23.359Z",
+    "updatedAt": "2023-01-18T22:45:38.567Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 90",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T15:29:28.797Z",
+    "updatedAt": "2023-01-18T22:45:42.123Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 91",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T15:29:33.379Z",
+    "updatedAt": "2023-01-18T22:45:48.388Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 93",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T15:29:39.952Z",
+    "updatedAt": "2023-01-18T22:45:52.385Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 94",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T15:29:44.943Z",
+    "updatedAt": "2023-01-18T22:45:55.859Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 95",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T15:29:49.837Z",
+    "updatedAt": "2023-01-18T22:45:59.532Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 96",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T15:29:55.456Z",
+    "updatedAt": "2023-01-18T22:46:05.076Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 97",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T15:30:00.528Z",
+    "updatedAt": "2023-01-18T22:46:08.619Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 98",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T15:30:07.766Z",
+    "updatedAt": "2023-01-18T22:46:12.511Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 99",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T15:30:13.524Z",
+    "updatedAt": "2023-01-18T22:46:15.991Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 100",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T15:30:18.103Z",
+    "updatedAt": "2023-01-18T22:36:17.067Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 102",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T15:30:26.119Z",
+    "updatedAt": "2023-01-18T22:36:56.647Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 103",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T15:30:31.168Z",
+    "updatedAt": "2023-01-18T22:37:02.335Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 104",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T15:30:36.488Z",
+    "updatedAt": "2023-01-18T22:37:08.020Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 106",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T15:30:45.639Z",
+    "updatedAt": "2023-01-18T22:37:13.527Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 107",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T21:53:37.285Z",
+    "updatedAt": "2023-01-18T22:37:18.796Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 108",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T21:53:42.908Z",
+    "updatedAt": "2023-01-18T22:37:23.202Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 111",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T21:53:47.631Z",
+    "updatedAt": "2023-01-18T22:37:27.182Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 113",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T21:54:04.554Z",
+    "updatedAt": "2023-01-18T22:37:32.093Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 114",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T21:54:10.287Z",
+    "updatedAt": "2023-01-18T22:37:38.395Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 117",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T21:54:15.946Z",
+    "updatedAt": "2023-01-18T22:37:43.288Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 118",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T21:54:21.186Z",
+    "updatedAt": "2023-01-18T22:37:48.803Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 119",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T21:54:26.526Z",
+    "updatedAt": "2023-01-18T22:37:53.392Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 120",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T21:54:33.365Z",
+    "updatedAt": "2023-01-18T22:37:58.830Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 121",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T21:55:26.199Z",
+    "updatedAt": "2023-01-18T22:38:02.948Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 122",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T21:55:31.443Z",
+    "updatedAt": "2023-01-18T22:38:07.662Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 123",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T21:55:37.949Z",
+    "updatedAt": "2023-01-18T22:38:12.381Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 124",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T21:55:43.215Z",
+    "updatedAt": "2023-01-18T22:38:17.128Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 125",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T21:55:48.353Z",
+    "updatedAt": "2023-01-18T22:38:21.374Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 126",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T21:56:11.851Z",
+    "updatedAt": "2023-01-18T22:38:25.881Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 127",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T21:56:19.674Z",
+    "updatedAt": "2023-01-18T22:38:30.899Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 128",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T21:56:24.535Z",
+    "updatedAt": "2023-01-18T22:38:35.984Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 129",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T21:56:29.526Z",
+    "updatedAt": "2023-01-18T22:38:40.174Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 131",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T21:56:34.908Z",
+    "updatedAt": "2023-01-18T22:38:45.055Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 133",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T21:56:39.595Z",
+    "updatedAt": "2023-01-18T22:38:49.788Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 134",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T21:56:44.839Z",
+    "updatedAt": "2023-01-18T22:38:53.998Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 135",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T21:56:49.772Z",
+    "updatedAt": "2023-01-18T22:38:57.752Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 136",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T21:56:55.490Z",
+    "updatedAt": "2023-01-18T22:39:01.788Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 137",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T21:57:00.250Z",
+    "updatedAt": "2023-01-18T22:39:07.517Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 138",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T21:57:04.924Z",
+    "updatedAt": "2023-01-18T22:39:12.702Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 139",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T21:57:11.215Z",
+    "updatedAt": "2023-01-18T22:39:16.873Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 142",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T21:57:17.902Z",
+    "updatedAt": "2023-01-18T22:39:20.738Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 143",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T21:57:24.721Z",
+    "updatedAt": "2023-01-18T22:39:25.348Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 144",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T21:57:32.294Z",
+    "updatedAt": "2023-01-18T22:39:29.650Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 145",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T21:57:43.244Z",
+    "updatedAt": "2023-01-18T22:39:33.647Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 146",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T21:57:48.151Z",
+    "updatedAt": "2023-01-18T22:39:41.276Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 148",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T21:57:53.194Z",
+    "updatedAt": "2023-01-18T22:39:47.567Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 149",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T21:57:58.239Z",
+    "updatedAt": "2023-01-18T22:39:51.628Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 151",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T21:58:05.197Z",
+    "updatedAt": "2023-01-18T22:39:56.392Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 152",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T21:58:09.964Z",
+    "updatedAt": "2023-01-18T22:40:01.037Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 153",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T21:58:14.690Z",
+    "updatedAt": "2023-01-18T22:40:04.848Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 154",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T21:58:19.274Z",
+    "updatedAt": "2023-01-18T22:40:08.859Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 155",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T21:58:24.582Z",
+    "updatedAt": "2023-01-18T22:40:13.887Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 157",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T21:58:29.896Z",
+    "updatedAt": "2023-01-18T22:40:18.405Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 158",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T21:58:37.060Z",
+    "updatedAt": "2023-01-18T22:40:24.112Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 159",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T21:58:43.861Z",
+    "updatedAt": "2023-01-18T22:40:30.434Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 160",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T21:58:50.936Z",
+    "updatedAt": "2023-01-18T22:40:36.320Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 162",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T21:58:59.686Z",
+    "updatedAt": "2023-01-18T22:40:40.859Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 164",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T21:59:04.566Z",
+    "updatedAt": "2023-01-18T22:40:50.430Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 165",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T21:59:12.865Z",
+    "updatedAt": "2023-01-18T22:40:54.665Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 166",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T21:59:20.070Z",
+    "updatedAt": "2023-01-18T22:40:59.304Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 169",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T21:59:27.606Z",
+    "updatedAt": "2023-01-18T22:41:03.511Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 177",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T21:59:52.585Z",
+    "updatedAt": "2023-01-18T22:41:07.621Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 199",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T21:59:57.783Z",
+    "updatedAt": "2023-01-18T22:41:11.851Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 240",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T22:00:03.313Z",
+    "updatedAt": "2023-01-18T22:41:19.735Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "SB 5",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T22:00:08.930Z",
+    "updatedAt": "2023-01-18T22:47:30.960Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "SB 20",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T22:00:13.900Z",
+    "updatedAt": "2023-01-18T22:46:28.038Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "SB 21",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T22:00:18.755Z",
+    "updatedAt": "2023-01-18T22:46:31.675Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "SB 23",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T22:00:23.476Z",
+    "updatedAt": "2023-01-18T22:46:35.185Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "SB 24",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T22:00:27.846Z",
+    "updatedAt": "2023-01-18T22:46:38.497Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "SB 27",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T22:00:32.389Z",
+    "updatedAt": "2023-01-18T22:46:41.998Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "SB 34",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T22:00:38.904Z",
+    "updatedAt": "2023-01-18T22:46:45.872Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "SB 35",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T22:00:44.012Z",
+    "updatedAt": "2023-01-18T22:46:48.982Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "SB 36",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T22:00:49.166Z",
+    "updatedAt": "2023-01-18T22:46:52.390Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "SB 37",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T22:00:58.876Z",
+    "updatedAt": "2023-01-18T22:46:55.889Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "SB 39",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T22:01:04.945Z",
+    "updatedAt": "2023-01-18T22:46:59.823Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "SB 40",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T22:01:09.687Z",
+    "updatedAt": "2023-01-18T22:47:03.052Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "SB 41",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T22:01:14.373Z",
+    "updatedAt": "2023-01-18T22:47:07.794Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "SB 42",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T22:01:19.035Z",
+    "updatedAt": "2023-01-18T22:47:11.909Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "SB 43",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T22:01:23.825Z",
+    "updatedAt": "2023-01-18T22:47:15.738Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "SB 45",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T22:01:28.533Z",
+    "updatedAt": "2023-01-18T22:47:19.227Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "SB 46",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T22:01:33.796Z",
+    "updatedAt": "2023-01-18T22:47:22.505Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "SB 48",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T22:01:38.877Z",
+    "updatedAt": "2023-01-18T22:47:26.567Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "SB 50",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T22:01:43.605Z",
+    "updatedAt": "2023-01-18T22:47:34.953Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "SB 51",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T22:01:49.220Z",
+    "updatedAt": "2023-01-18T22:47:38.896Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "SB 53",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T22:01:55.084Z",
+    "updatedAt": "2023-01-18T22:47:42.452Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "SB 54",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T22:01:59.285Z",
+    "updatedAt": "2023-01-18T22:47:45.833Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "SB 57",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T22:02:04.938Z",
+    "updatedAt": "2023-01-18T22:47:49.302Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "SB 58",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T22:02:09.491Z",
+    "updatedAt": "2023-01-18T22:47:52.252Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "SB 59",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T22:02:14.487Z",
+    "updatedAt": "2023-01-18T22:47:56.444Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "SB 62",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T22:02:20.409Z",
+    "updatedAt": "2023-01-18T22:48:00.130Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "SB 63",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T22:02:28.139Z",
+    "updatedAt": "2023-01-18T22:48:03.266Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "SB 64",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T22:02:37.418Z",
+    "updatedAt": "2023-01-18T22:48:07.131Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "SB 65",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T22:02:42.277Z",
+    "updatedAt": "2023-01-18T22:48:10.606Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "SB 66",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T22:02:47.062Z",
+    "updatedAt": "2023-01-18T22:48:13.914Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "SB 68",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T22:02:54.524Z",
+    "updatedAt": "2023-01-18T22:48:18.468Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "SB 71",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T22:02:59.824Z",
+    "updatedAt": "2023-01-18T22:48:23.188Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "SB 72",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T22:03:05.337Z",
+    "updatedAt": "2023-01-18T22:48:31.362Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "SB 74",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T22:03:14.546Z",
+    "updatedAt": "2023-01-18T22:48:35.531Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "SB 75",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T22:03:19.179Z",
+    "updatedAt": "2023-01-18T22:48:39.307Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "SB 76",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T22:03:29.614Z",
+    "updatedAt": "2023-01-18T22:48:42.700Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "SB 78",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T22:03:35.115Z",
+    "updatedAt": "2023-01-18T22:49:32.065Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "SB 79",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T22:03:40.545Z",
+    "updatedAt": "2023-01-18T22:49:28.207Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "SB 81",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T22:03:45.619Z",
+    "updatedAt": "2023-01-18T22:49:35.541Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "SB 82",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T22:03:54.851Z",
+    "updatedAt": "2023-01-18T22:49:38.686Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "SB 83",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T22:04:00.118Z",
+    "updatedAt": "2023-01-18T22:49:42.006Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "SB 84",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T22:04:05.309Z",
+    "updatedAt": "2023-01-18T22:49:45.539Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "SB 87",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T22:04:10.549Z",
+    "updatedAt": "2023-01-18T22:49:50.836Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "SB 88",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T22:04:15.614Z",
+    "updatedAt": "2023-01-18T22:49:54.415Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "SB 90",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T22:04:20.218Z",
+    "updatedAt": "2023-01-18T22:49:57.574Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "SB 91",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T22:04:26.881Z",
+    "updatedAt": "2023-01-18T22:50:01.424Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "SB 92",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T22:04:32.386Z",
+    "updatedAt": "2023-01-18T22:50:06.702Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "SB 166",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T22:04:37.810Z",
+    "updatedAt": "2023-01-18T22:46:23.020Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 86",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T22:07:59.584Z",
+    "updatedAt": "2023-01-18T22:45:11.532Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
+  },
+  {
+    "Identifier": "HB 105",
+    "isKeyBill": false,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T22:09:04.652Z",
+    "updatedAt": "2023-01-18T22:35:35.867Z",
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
   }
 ]

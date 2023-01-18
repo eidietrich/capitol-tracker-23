@@ -42,7 +42,7 @@ const sponsorCss = css`
 
 const BillInfo = ({ bill }) => {
     const {
-        lawsUrl, textUrl, fiscalNoteUrl, legalNoteUrl,
+        lawsUrl, textUrl, fiscalNoteUrl, legalNoteUrl, amendmentsUrl,
         // transmittalDeadline, secondHouseReturnIfAmendedDeadline, 
         voteMajorityRequired,
         sponsor, requestor
@@ -94,13 +94,18 @@ const BillInfo = ({ bill }) => {
                 </div>
             </div>
 
-            {/* <div css={infoColCss}>
-                <div css={infoColLabelCss}>Official bill page</div>
-                <div css={infoColContentCss}>
-                    <a href={lawsUrl} target="_blank" rel="noopener noreferrer">In LAWS database</a>
+            <div css={infoColCss}>
+                <div css={infoColLabelCss}>
+                    🖍 Proposed amendments
                 </div>
-            </div> */}
-
+                <div css={infoColContentCss}>
+                    {
+                        amendmentsUrl ?
+                            <span><a href={amendmentsUrl} target="_blank" rel="noopener noreferrer">Available here</a></span>
+                            : <em>None on file</em>
+                    }
+                </div>
+            </div>
         </div>
         <div className="note">
             See also: The <a href={lawsUrl} target="_blank" rel="noopener noreferrer">official bill page</a>.

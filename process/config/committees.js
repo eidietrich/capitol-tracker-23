@@ -51,6 +51,7 @@ export const COMMITEE_NAME_CLEANING = {
     '(H) Joint Appropriations Subcommittee on Long-Range Planning': 'Joint Appropriations Section F — Long-Range Planning',
 
     '(H) Joint Rules Committee': 'Joint Rules',
+    '(S) Joint Select Committee on Redistricting': 'Joint Select Committee on Redistricting',
 
     '(S) Select Committee on Judicial Transparency and Accountability': 'Select Committee on Judicial Transparency and Accountability',
 
@@ -123,14 +124,13 @@ export const COMMITTEES = [
     { name: 'Joint Appropriations Subcommittee F — Long-Range Planning', daysOfWeek: 'daily', time: '8:30 a.m.', type: 'fiscal-sub', },
 
     // other
-    { daysOfWeek: 'on call', time: '', type: 'special', },
-    { daysOfWeek: 'on call', time: '', type: 'special', },
+    { name: 'Joint Select Committee on Redistricting', daysOfWeek: 'on call', time: '', type: 'special', },
 
     // conference committees
-    { key: "", name: 'Senate Conference', daysOfWeek: 'on call', time: '', type: 'conference', },
-    { key: "", name: 'Senate Free Conference', daysOfWeek: 'on call', time: '', type: 'conference', },
-    { key: "", name: 'House Conference', daysOfWeek: 'on call', time: '', type: 'conference', },
-    { key: "", name: 'House Free Conference', daysOfWeek: 'on call', time: '', type: 'conference', },
+    { name: 'Senate Conference', daysOfWeek: 'on call', time: '', type: 'conference', },
+    { name: 'Senate Free Conference', daysOfWeek: 'on call', time: '', type: 'conference', },
+    { name: 'House Conference', daysOfWeek: 'on call', time: '', type: 'conference', },
+    { name: 'House Free Conference', daysOfWeek: 'on call', time: '', type: 'conference', },
 
 ]
 
