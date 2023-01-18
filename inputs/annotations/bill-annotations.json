@@ -20,6 +20,9 @@
         }
       }
     },
+    "bill_tags": {
+      "data": []
+    },
     "category": "Major budget bills",
     "categoryDescription": null,
     "categoryOrder": 1,
@@ -46,6 +49,9 @@
         }
       }
     },
+    "bill_tags": {
+      "data": []
+    },
     "category": "Governor's budget",
     "categoryDescription": "Bills implementing parts of Gov. Greg Gianforte's proposed state budget.",
     "categoryOrder": 2,
@@ -61,6 +67,30 @@
     "updatedAt": "2023-01-11T15:41:21.723Z",
     "bill_category": {
       "data": null
+    },
+    "bill_tags": {
+      "data": [
+        {
+          "id": 1,
+          "attributes": {
+            "Tag": "Democratic Agenda",
+            "TagDescription": "Bills identified by minority Democratic leadership as part of their policy agenda.",
+            "createdAt": "2023-01-11T15:35:54.555Z",
+            "updatedAt": "2023-01-11T15:41:26.479Z",
+            "publishedAt": "2023-01-11T15:41:26.476Z"
+          }
+        },
+        {
+          "id": 2,
+          "attributes": {
+            "Tag": "Red Tape Relief bills",
+            "TagDescription": "Bills included in the governor's Red Tape Relief effort",
+            "createdAt": "2023-01-11T15:36:50.201Z",
+            "updatedAt": "2023-01-11T15:41:30.632Z",
+            "publishedAt": "2023-01-11T15:41:30.629Z"
+          }
+        }
+      ]
     },
     "category": null,
     "categoryDescription": null,
@@ -88,6 +118,9 @@
         }
       }
     },
+    "bill_tags": {
+      "data": []
+    },
     "category": "Governor's budget",
     "categoryDescription": "Bills implementing parts of Gov. Greg Gianforte's proposed state budget.",
     "categoryOrder": 2,
@@ -103,6 +136,9 @@
     "updatedAt": "2023-01-16T15:49:23.705Z",
     "bill_category": {
       "data": null
+    },
+    "bill_tags": {
+      "data": []
     },
     "category": null,
     "categoryDescription": null,
