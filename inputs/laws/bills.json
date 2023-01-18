@@ -819,8 +819,8 @@
     "sponsor": "David Bedey",
     "sponsorParty": "R",
     "sponsorDistrict": "HD 86",
-    "statusDate": "01/16/2023",
-    "lastAction": "(S) Referred to Committee",
+    "statusDate": "01/23/2023; 03:00 PM, Rm 422",
+    "lastAction": "(S) Hearing",
     "billStatus": "In Second House Committee--Nontabled",
     "fiscalNotesListUrl": null,
     "amendmentListUrl": null,
@@ -857,8 +857,8 @@
     "sponsor": "David Bedey",
     "sponsorParty": "R",
     "sponsorDistrict": "HD 86",
-    "statusDate": "01/16/2023",
-    "lastAction": "(S) Referred to Committee",
+    "statusDate": "01/23/2023; 03:00 PM, Rm 422",
+    "lastAction": "(S) Hearing",
     "billStatus": "In Second House Committee--Nontabled",
     "fiscalNotesListUrl": "https://leg.mt.gov/laws/bills/2023/FNPDF/HB0022",
     "amendmentListUrl": null,
@@ -7735,8 +7735,8 @@
       }
     ],
     "voteRequirements": [
-      "Simple",
-      "2/3 of Entire Legislature"
+      "2/3 of Entire Legislature",
+      "Simple"
     ],
     "deadlineCategory": "REFERENDUM PROPOSALS",
     "transmittalDeadline": "04/05/2023",
@@ -9226,9 +9226,9 @@
     "billPdfUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0233.pdf",
     "lc": "LC1354",
     "title": "Require the refund of residential lease application fees",
-    "sponsor": "Neil Duram",
-    "sponsorParty": "R",
-    "sponsorDistrict": "HD 2",
+    "sponsor": "Kelly Kortum",
+    "sponsorParty": "D",
+    "sponsorDistrict": "HD 65",
     "statusDate": "01/17/2023; 08:00 AM, Rm 137",
     "lastAction": "(H) Hearing -- (H) Judiciary",
     "billStatus": "In First House Committee--Nontabled",
@@ -11099,9 +11099,9 @@
     "voteRequirements": [
       "Simple"
     ],
-    "deadlineCategory": "General Bills",
-    "transmittalDeadline": "03/01/2023",
-    "amendedReturnDeadline": "04/14/2023"
+    "deadlineCategory": "Revenue Bills",
+    "transmittalDeadline": "04/05/2023",
+    "amendedReturnDeadline": "04/25/2023"
   },
   {
     "key": "HB 278",
@@ -12668,9 +12668,9 @@
     "voteRequirements": [
       "Simple"
     ],
-    "deadlineCategory": "Revenue Bills",
-    "transmittalDeadline": "04/05/2023",
-    "amendedReturnDeadline": "04/25/2023"
+    "deadlineCategory": "General Bills",
+    "transmittalDeadline": "03/01/2023",
+    "amendedReturnDeadline": "04/14/2023"
   },
   {
     "key": "SB 28",
@@ -12701,7 +12701,35 @@
         "subject": "Local Government  (see also: City Subjects; County Subjects)",
         "fiscalCode": "",
         "voteReq": "Simple"
-      },
+      }
+    ],
+    "voteRequirements": [
+      "Simple"
+    ],
+    "deadlineCategory": "General Bills",
+    "transmittalDeadline": "03/01/2023",
+    "amendedReturnDeadline": "04/14/2023"
+  },
+  {
+    "key": "SB 30",
+    "session": "20231",
+    "billPageUrl": "http://laws.leg.mt.gov/legprd/LAW0210W$BSIV.ActionQuery?P_BILL_NO1=30&P_BLTP_BILL_TYP_CD=SB&Z_ACTION=Find&P_SESS=20231",
+    "billTextUrl": "http://leg.mt.gov/bills/2023/billhtml/SB0030.htm",
+    "billPdfUrl": "http://leg.mt.gov/bills/2023/billpdf/SB0030.pdf",
+    "lc": "LC0258",
+    "title": "Repeal Clean Campaign Act",
+    "sponsor": "Wendy McKamey",
+    "sponsorParty": "R",
+    "sponsorDistrict": "SD 12",
+    "statusDate": "01/13/2023; 03:00 PM",
+    "lastAction": "(S) Hearing -- (S) State Administration",
+    "billStatus": "In First House Committee--Nontabled",
+    "fiscalNotesListUrl": null,
+    "amendmentListUrl": null,
+    "draftRequestor": null,
+    "billRequestor": "Commissioner of Political Practices",
+    "primarySponsor": "Wendy McKamey",
+    "subjects": [
       {
         "subject": "Money Transfer",
         "fiscalCode": "",
@@ -13261,14 +13289,19 @@
         "subject": "State Lands",
         "fiscalCode": "",
         "voteReq": "Simple"
+      },
+      {
+        "subject": "Revenue, State",
+        "fiscalCode": "Revenue",
+        "voteReq": "Simple"
       }
     ],
     "voteRequirements": [
       "Simple"
     ],
-    "deadlineCategory": "General Bills",
-    "transmittalDeadline": "03/01/2023",
-    "amendedReturnDeadline": "04/14/2023"
+    "deadlineCategory": "Revenue Bills",
+    "transmittalDeadline": "04/05/2023",
+    "amendedReturnDeadline": "04/25/2023"
   },
   {
     "key": "SB 44",
@@ -13342,9 +13375,9 @@
     "voteRequirements": [
       "Simple"
     ],
-    "deadlineCategory": "General Bills",
-    "transmittalDeadline": "03/01/2023",
-    "amendedReturnDeadline": "04/14/2023"
+    "deadlineCategory": "Revenue Bills",
+    "transmittalDeadline": "04/05/2023",
+    "amendedReturnDeadline": "04/25/2023"
   },
   {
     "key": "SB 46",
@@ -15929,16 +15962,6 @@
         "voteReq": "Simple"
       },
       {
-        "subject": "Rule Making",
-        "fiscalCode": "",
-        "voteReq": "Simple"
-      },
-      {
-        "subject": "Taxation (Generally)",
-        "fiscalCode": "",
-        "voteReq": "Simple"
-      },
-      {
         "subject": "Taxation--Property",
         "fiscalCode": "",
         "voteReq": "Simple"
@@ -15950,6 +15973,44 @@
     "deadlineCategory": "Revenue Bills",
     "transmittalDeadline": "04/05/2023",
     "amendedReturnDeadline": "04/25/2023"
+  },
+  {
+    "key": "SB 111",
+    "session": "20231",
+    "billPageUrl": "http://laws.leg.mt.gov/legprd/LAW0210W$BSIV.ActionQuery?P_BILL_NO1=111&P_BLTP_BILL_TYP_CD=SB&Z_ACTION=Find&P_SESS=20231",
+    "billTextUrl": "http://leg.mt.gov/bills/2023/billhtml/SB0111.htm",
+    "billPdfUrl": "http://leg.mt.gov/bills/2023/billpdf/SB0111.pdf",
+    "lc": "LC1039",
+    "title": "Establish the Jacob Allmendinger memorial highway",
+    "sponsor": "Carl Glimm",
+    "sponsorParty": "R",
+    "sponsorDistrict": "SD 2",
+    "statusDate": "01/12/2023",
+    "lastAction": "(S) Committee Report--Bill Passed",
+    "billStatus": "In First House--Out of Committee",
+    "fiscalNotesListUrl": "https://leg.mt.gov/laws/bills/2023/FNPDF/SB0111",
+    "amendmentListUrl": null,
+    "draftRequestor": null,
+    "billRequestor": null,
+    "primarySponsor": "Carl Glimm",
+    "subjects": [
+      {
+        "subject": "Taxation (Generally)",
+        "fiscalCode": "",
+        "voteReq": "Simple"
+      },
+      {
+        "subject": "Professions and Occupations O-Z",
+        "fiscalCode": "",
+        "voteReq": "Simple"
+      }
+    ],
+    "voteRequirements": [
+      "Simple"
+    ],
+    "deadlineCategory": "General Bills",
+    "transmittalDeadline": "03/01/2023",
+    "amendedReturnDeadline": "04/14/2023"
   },
   {
     "key": "SB 111",
@@ -16053,7 +16114,7 @@
         "voteReq": "Simple"
       },
       {
-        "subject": "Minors  (see also: Family Law)",
+        "subject": "Social Services",
         "fiscalCode": "",
         "voteReq": "Simple"
       },
@@ -16123,7 +16184,7 @@
     "lastAction": "(S) Hearing -- (S) Public Health, Welfare and Safety",
     "billStatus": "In First House Committee--Nontabled",
     "fiscalNotesListUrl": null,
-    "amendmentListUrl": null,
+    "amendmentListUrl": "https://leg.mt.gov/laws/bills/2023/AmdPublicWeb/?bill=SB0116",
     "draftRequestor": null,
     "billRequestor": null,
     "primarySponsor": "Dennis Lenz",
@@ -16340,8 +16401,8 @@
     "sponsorParty": "D",
     "sponsorDistrict": "SD 8",
     "statusDate": "01/18/2023",
-    "lastAction": "(S) Transmitted to House",
-    "billStatus": "Transmitted to Second House",
+    "lastAction": "(S) Tabled in Committee * -- (S) Highways and Transportation",
+    "billStatus": "In First House Committee--Tabled",
     "fiscalNotesListUrl": "https://leg.mt.gov/laws/bills/2023/FNPDF/SB0120",
     "amendmentListUrl": null,
     "draftRequestor": null,
@@ -16362,9 +16423,9 @@
     "voteRequirements": [
       "Simple"
     ],
-    "deadlineCategory": "General Bills",
-    "transmittalDeadline": "03/01/2023",
-    "amendedReturnDeadline": "04/14/2023"
+    "deadlineCategory": "Revenue Bills",
+    "transmittalDeadline": "04/05/2023",
+    "amendedReturnDeadline": "04/25/2023"
   },
   {
     "key": "SB 121",
@@ -16678,7 +16739,7 @@
     "statusDate": "01/05/2023",
     "lastAction": "(S) Referred to Committee -- (S) Judiciary",
     "billStatus": "In First House Committee--Nontabled",
-    "fiscalNotesListUrl": null,
+    "fiscalNotesListUrl": "https://leg.mt.gov/laws/bills/2023/FNPDF/SB0126",
     "amendmentListUrl": null,
     "draftRequestor": null,
     "billRequestor": null,
@@ -19361,9 +19422,67 @@
     "voteRequirements": [
       "Simple"
     ],
-    "deadlineCategory": "General Bills",
-    "transmittalDeadline": "03/01/2023",
-    "amendedReturnDeadline": "04/14/2023"
+    "deadlineCategory": "Revenue Bills",
+    "transmittalDeadline": "04/05/2023",
+    "amendedReturnDeadline": "04/25/2023"
+  },
+  {
+    "key": "SB 194",
+    "session": "20231",
+    "billPageUrl": "http://laws.leg.mt.gov/legprd/LAW0210W$BSIV.ActionQuery?P_BILL_NO1=194&P_BLTP_BILL_TYP_CD=SB&Z_ACTION=Find&P_SESS=20231",
+    "billTextUrl": "http://leg.mt.gov/bills/2023/lchtml/LC1698.htm",
+    "billPdfUrl": "http://leg.mt.gov/bills/2023/billpdf/LC1698.pdf",
+    "lc": "LC1698",
+    "title": "Income tax credit for landlords who rent for below market rate",
+    "sponsor": "Mary Ann Dunwell",
+    "sponsorParty": "D",
+    "sponsorDistrict": "SD 42",
+    "statusDate": "01/18/2023",
+    "lastAction": "(S) Introduced",
+    "billStatus": "In First House--Introduced",
+    "fiscalNotesListUrl": null,
+    "amendmentListUrl": null,
+    "draftRequestor": null,
+    "billRequestor": null,
+    "primarySponsor": "Mary Ann Dunwell",
+    "subjects": [
+      {
+        "subject": "Housing",
+        "fiscalCode": "",
+        "voteReq": "Simple"
+      },
+      {
+        "subject": "Landlord and Tenant",
+        "fiscalCode": "",
+        "voteReq": "Simple"
+      },
+      {
+        "subject": "Revenue, State",
+        "fiscalCode": "Revenue",
+        "voteReq": "Simple"
+      },
+      {
+        "subject": "Taxation (Generally)",
+        "fiscalCode": "",
+        "voteReq": "Simple"
+      },
+      {
+        "subject": "Taxation--Corporations",
+        "fiscalCode": "",
+        "voteReq": "Simple"
+      },
+      {
+        "subject": "Taxation--Individual Income",
+        "fiscalCode": "",
+        "voteReq": "Simple"
+      }
+    ],
+    "voteRequirements": [
+      "Simple"
+    ],
+    "deadlineCategory": "Revenue Bills",
+    "transmittalDeadline": "04/05/2023",
+    "amendedReturnDeadline": "04/25/2023"
   },
   {
     "key": "SJ 1",
