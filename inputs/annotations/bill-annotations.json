@@ -64,33 +64,12 @@
     "BillPageText": null,
     "legalNoteLink": null,
     "createdAt": "2023-01-10T02:50:22.021Z",
-    "updatedAt": "2023-01-11T15:41:21.723Z",
+    "updatedAt": "2023-01-18T15:11:00.450Z",
     "bill_category": {
       "data": null
     },
     "bill_tags": {
-      "data": [
-        {
-          "id": 1,
-          "attributes": {
-            "Tag": "Democratic Agenda",
-            "TagDescription": "Bills identified by minority Democratic leadership as part of their policy agenda.",
-            "createdAt": "2023-01-11T15:35:54.555Z",
-            "updatedAt": "2023-01-11T15:41:26.479Z",
-            "publishedAt": "2023-01-11T15:41:26.476Z"
-          }
-        },
-        {
-          "id": 2,
-          "attributes": {
-            "Tag": "Red Tape Relief bills",
-            "TagDescription": "Bills included in the governor's Red Tape Relief effort",
-            "createdAt": "2023-01-11T15:36:50.201Z",
-            "updatedAt": "2023-01-11T15:41:30.632Z",
-            "publishedAt": "2023-01-11T15:41:30.629Z"
-          }
-        }
-      ]
+      "data": []
     },
     "category": null,
     "categoryDescription": null,
@@ -134,6 +113,131 @@
     "legalNoteLink": "https://montanafreepress.org/wp-content/uploads/2023/01/SB0154LRN.pdf",
     "createdAt": "2023-01-16T15:49:23.705Z",
     "updatedAt": "2023-01-16T15:49:23.705Z",
+    "bill_category": {
+      "data": null
+    },
+    "bill_tags": {
+      "data": []
+    },
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null
+  },
+  {
+    "Identifier": "HB 30",
+    "isKeyBill": true,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T15:11:32.762Z",
+    "updatedAt": "2023-01-18T15:14:04.381Z",
+    "bill_category": {
+      "data": null
+    },
+    "bill_tags": {
+      "data": []
+    },
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null
+  },
+  {
+    "Identifier": "HB 31",
+    "isKeyBill": true,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T15:11:42.869Z",
+    "updatedAt": "2023-01-18T15:14:14.352Z",
+    "bill_category": {
+      "data": null
+    },
+    "bill_tags": {
+      "data": [
+        {
+          "id": 2,
+          "attributes": {
+            "Tag": "Red Tape Relief bills",
+            "TagDescription": "Bills included in the governor's Red Tape Relief effort",
+            "createdAt": "2023-01-11T15:36:50.201Z",
+            "updatedAt": "2023-01-11T15:41:30.632Z",
+            "publishedAt": "2023-01-11T15:41:30.629Z"
+          }
+        }
+      ]
+    },
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null
+  },
+  {
+    "Identifier": "HB 34",
+    "isKeyBill": true,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T15:11:53.879Z",
+    "updatedAt": "2023-01-18T15:13:37.510Z",
+    "bill_category": {
+      "data": null
+    },
+    "bill_tags": {
+      "data": []
+    },
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null
+  },
+  {
+    "Identifier": "HB 39",
+    "isKeyBill": true,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T15:12:02.756Z",
+    "updatedAt": "2023-01-18T15:12:02.756Z",
+    "bill_category": {
+      "data": null
+    },
+    "bill_tags": {
+      "data": []
+    },
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null
+  },
+  {
+    "Identifier": "HB 40",
+    "isKeyBill": true,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T15:12:11.121Z",
+    "updatedAt": "2023-01-18T15:12:11.121Z",
+    "bill_category": {
+      "data": null
+    },
+    "bill_tags": {
+      "data": []
+    },
+    "category": null,
+    "categoryDescription": null,
+    "categoryOrder": null,
+    "showCategory": null
+  },
+  {
+    "Identifier": "HB 41",
+    "isKeyBill": true,
+    "Explanation": null,
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-01-18T15:12:20.026Z",
+    "updatedAt": "2023-01-18T15:12:20.026Z",
     "bill_category": {
       "data": null
     },
