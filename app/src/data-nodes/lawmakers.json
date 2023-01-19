@@ -21538,9 +21538,9 @@
                 "title": "Revise laws related to real estate appraisers",
                 "chamber": "house",
                 "status": {
-                    "key": "In Second House Committee--Nontabled",
+                    "key": "In Second House--Out of Committee",
                     "step": "Second chamber",
-                    "label": "In committee",
+                    "label": "On floor",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -32672,9 +32672,9 @@
                 "title": "Confirm governor's appointee for the public employees' retirement board",
                 "chamber": "senate",
                 "status": {
-                    "key": "In First House--Introduced",
+                    "key": "In First House Committee--Nontabled",
                     "step": "First chamber",
-                    "label": "Introduced",
+                    "label": "In committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -32716,9 +32716,9 @@
                 "title": "Confirm governor's appointees for the board of investments",
                 "chamber": "senate",
                 "status": {
-                    "key": "In First House--Introduced",
+                    "key": "In First House Committee--Nontabled",
                     "step": "First chamber",
-                    "label": "Introduced",
+                    "label": "In committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -38794,6 +38794,50 @@
                     "locale": "Polson",
                     "district": "SD 6"
                 }
+            },
+            {
+                "key": "sr-11",
+                "identifier": "SR 11",
+                "title": "Confirm governor's appointee for Montana tax appeal board",
+                "chamber": "senate",
+                "status": {
+                    "key": "In First House Committee--Nontabled",
+                    "step": "First chamber",
+                    "label": "In committee",
+                    "status": "live",
+                    "statusAtSessionEnd": "failed"
+                },
+                "progress": [
+                    {
+                        "step": "introduced",
+                        "status": "passed",
+                        "statusLabel": "Introduced",
+                        "statusDate": "01/19/2023"
+                    },
+                    {
+                        "step": "first committee",
+                        "status": "current",
+                        "statusLabel": "Pending",
+                        "statusDate": null
+                    },
+                    {
+                        "step": "first chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    }
+                ],
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC4496.pdf",
+                "fiscalNoteUrl": null,
+                "legalNoteUrl": null,
+                "numArticles": 0,
+                "sponsor": {
+                    "name": "Greg Hertz",
+                    "lastName": "Hertz",
+                    "party": "R",
+                    "locale": "Polson",
+                    "district": "SD 6"
+                }
             }
         ],
         "votingSummary": {
@@ -38933,9 +38977,9 @@
                 "title": "Revise laws related to easements on state lands",
                 "chamber": "senate",
                 "status": {
-                    "key": "In First House Committee--Nontabled",
+                    "key": "In First House--Out of Committee",
                     "step": "First chamber",
-                    "label": "In committee",
+                    "label": "Out of committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -46636,9 +46680,9 @@
                 "title": "Confirm governor's appointees for the judicial standards commission",
                 "chamber": "senate",
                 "status": {
-                    "key": "In First House--Introduced",
+                    "key": "In First House Committee--Nontabled",
                     "step": "First chamber",
-                    "label": "Introduced",
+                    "label": "In committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -46680,9 +46724,9 @@
                 "title": "Confirm governor's appointee for district court judge - district 20",
                 "chamber": "senate",
                 "status": {
-                    "key": "In First House--Introduced",
+                    "key": "In First House Committee--Nontabled",
                     "step": "First chamber",
-                    "label": "Introduced",
+                    "label": "In committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -46724,9 +46768,9 @@
                 "title": "Confirm governor's appointee for district court judge - district  10",
                 "chamber": "senate",
                 "status": {
-                    "key": "In First House--Introduced",
+                    "key": "In First House Committee--Nontabled",
                     "step": "First chamber",
-                    "label": "Introduced",
+                    "label": "In committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -46768,9 +46812,9 @@
                 "title": "Confirm governor's appointee for the board of crime control",
                 "chamber": "senate",
                 "status": {
-                    "key": "In First House--Introduced",
+                    "key": "In First House Committee--Nontabled",
                     "step": "First chamber",
-                    "label": "Introduced",
+                    "label": "In committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -46812,9 +46856,9 @@
                 "title": "Confirm governor's appointees for the board of pardons and parole",
                 "chamber": "senate",
                 "status": {
-                    "key": "In First House--Introduced",
+                    "key": "In First House Committee--Nontabled",
                     "step": "First chamber",
-                    "label": "Introduced",
+                    "label": "In committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
