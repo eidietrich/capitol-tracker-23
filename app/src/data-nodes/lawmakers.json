@@ -3366,6 +3366,68 @@
                     "locale": "Billings",
                     "district": "HD 44"
                 }
+            },
+            {
+                "key": "hb-291",
+                "identifier": "HB 291",
+                "title": "Revise local government investment laws",
+                "chamber": "house",
+                "status": {
+                    "key": "In First House--Introduced",
+                    "step": "First chamber",
+                    "label": "Introduced",
+                    "status": "live",
+                    "statusAtSessionEnd": "failed"
+                },
+                "progress": [
+                    {
+                        "step": "introduced",
+                        "status": "passed",
+                        "statusLabel": "Introduced",
+                        "statusDate": "01/18/2023"
+                    },
+                    {
+                        "step": "first committee",
+                        "status": "current",
+                        "statusLabel": "Pending",
+                        "statusDate": null
+                    },
+                    {
+                        "step": "first chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "second chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "reconciliation",
+                        "status": "skipped",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "governor",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    }
+                ],
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC2906.pdf",
+                "fiscalNoteUrl": null,
+                "legalNoteUrl": null,
+                "numArticles": 0,
+                "sponsor": {
+                    "name": "Larry Brewster",
+                    "lastName": "Brewster",
+                    "party": "R",
+                    "locale": "Billings",
+                    "district": "HD 44"
+                }
             }
         ],
         "votingSummary": {
@@ -5427,7 +5489,70 @@
         ],
         "articles": [],
         "imageSlug": "2023/Mary-Caferro.png",
-        "sponsoredBills": [],
+        "sponsoredBills": [
+            {
+                "key": "hb-286",
+                "identifier": "HB 286",
+                "title": "Allow use of HEART funds for youth suicide prevention efforts",
+                "chamber": "house",
+                "status": {
+                    "key": "In First House--Introduced",
+                    "step": "First chamber",
+                    "label": "Introduced",
+                    "status": "live",
+                    "statusAtSessionEnd": "failed"
+                },
+                "progress": [
+                    {
+                        "step": "introduced",
+                        "status": "passed",
+                        "statusLabel": "Introduced",
+                        "statusDate": "01/18/2023"
+                    },
+                    {
+                        "step": "first committee",
+                        "status": "current",
+                        "statusLabel": "Pending",
+                        "statusDate": null
+                    },
+                    {
+                        "step": "first chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "second chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "reconciliation",
+                        "status": "skipped",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "governor",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    }
+                ],
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC1245.pdf",
+                "fiscalNoteUrl": null,
+                "legalNoteUrl": null,
+                "numArticles": 0,
+                "sponsor": {
+                    "name": "Mary Caferro",
+                    "lastName": "Caferro",
+                    "party": "D",
+                    "locale": "Helena",
+                    "district": "HD 82"
+                }
+            }
+        ],
         "votingSummary": {
             "name": "Mary Caferro",
             "party": "D",
@@ -6797,6 +6922,68 @@
                 ],
                 "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0198.pdf",
                 "fiscalNoteUrl": "https://leg.mt.gov/laws/bills/2023/FNPDF/HB0198",
+                "legalNoteUrl": null,
+                "numArticles": 0,
+                "sponsor": {
+                    "name": "Julie Dooling",
+                    "lastName": "Dooling",
+                    "party": "R",
+                    "locale": "Townsend",
+                    "district": "HD 70"
+                }
+            },
+            {
+                "key": "hb-292",
+                "identifier": "HB 292",
+                "title": "Make board of public accountants enterprise fund  permanent",
+                "chamber": "house",
+                "status": {
+                    "key": "In First House--Introduced",
+                    "step": "First chamber",
+                    "label": "Introduced",
+                    "status": "live",
+                    "statusAtSessionEnd": "failed"
+                },
+                "progress": [
+                    {
+                        "step": "introduced",
+                        "status": "passed",
+                        "statusLabel": "Introduced",
+                        "statusDate": "01/18/2023"
+                    },
+                    {
+                        "step": "first committee",
+                        "status": "current",
+                        "statusLabel": "Pending",
+                        "statusDate": null
+                    },
+                    {
+                        "step": "first chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "second chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "reconciliation",
+                        "status": "skipped",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "governor",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    }
+                ],
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC4393.pdf",
+                "fiscalNoteUrl": null,
                 "legalNoteUrl": null,
                 "numArticles": 0,
                 "sponsor": {
@@ -16193,7 +16380,70 @@
         ],
         "articles": [],
         "imageSlug": "2023/Emma-Kerr-Carpenter.png",
-        "sponsoredBills": [],
+        "sponsoredBills": [
+            {
+                "key": "hb-285",
+                "identifier": "HB 285",
+                "title": "Increase earned income tax credit and link to inflation",
+                "chamber": "house",
+                "status": {
+                    "key": "In First House--Introduced",
+                    "step": "First chamber",
+                    "label": "Introduced",
+                    "status": "live",
+                    "statusAtSessionEnd": "failed"
+                },
+                "progress": [
+                    {
+                        "step": "introduced",
+                        "status": "passed",
+                        "statusLabel": "Introduced",
+                        "statusDate": "01/18/2023"
+                    },
+                    {
+                        "step": "first committee",
+                        "status": "current",
+                        "statusLabel": "Pending",
+                        "statusDate": null
+                    },
+                    {
+                        "step": "first chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "second chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "reconciliation",
+                        "status": "skipped",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "governor",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    }
+                ],
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC3219.pdf",
+                "fiscalNoteUrl": null,
+                "legalNoteUrl": null,
+                "numArticles": 0,
+                "sponsor": {
+                    "name": "Emma Kerr-Carpenter",
+                    "lastName": "Kerr-Carpenter",
+                    "party": "D",
+                    "locale": "Billings",
+                    "district": "HD 49"
+                }
+            }
+        ],
         "votingSummary": {
             "name": "Emma Kerr-Carpenter",
             "party": "D",
@@ -22110,6 +22360,68 @@
                     "locale": "Billings",
                     "district": "HD 40"
                 }
+            },
+            {
+                "key": "hb-289",
+                "identifier": "HB 289",
+                "title": "Revise notification of owner's costs for oil/gas well",
+                "chamber": "house",
+                "status": {
+                    "key": "In First House--Introduced",
+                    "step": "First chamber",
+                    "label": "Introduced",
+                    "status": "live",
+                    "statusAtSessionEnd": "failed"
+                },
+                "progress": [
+                    {
+                        "step": "introduced",
+                        "status": "passed",
+                        "statusLabel": "Introduced",
+                        "statusDate": "01/18/2023"
+                    },
+                    {
+                        "step": "first committee",
+                        "status": "current",
+                        "statusLabel": "Pending",
+                        "statusDate": null
+                    },
+                    {
+                        "step": "first chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "second chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "reconciliation",
+                        "status": "skipped",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "governor",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    }
+                ],
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC1372.pdf",
+                "fiscalNoteUrl": null,
+                "legalNoteUrl": null,
+                "numArticles": 0,
+                "sponsor": {
+                    "name": "Greg Oblander",
+                    "lastName": "Oblander",
+                    "party": "R",
+                    "locale": "Billings",
+                    "district": "HD 40"
+                }
             }
         ],
         "votingSummary": {
@@ -22717,6 +23029,68 @@
                     }
                 ],
                 "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0237.pdf",
+                "fiscalNoteUrl": null,
+                "legalNoteUrl": null,
+                "numArticles": 0,
+                "sponsor": {
+                    "name": "Bob Phalen",
+                    "lastName": "Phalen",
+                    "party": "R",
+                    "locale": "Lindsay",
+                    "district": "HD 36"
+                }
+            },
+            {
+                "key": "hb-290",
+                "identifier": "HB 290",
+                "title": "Revise laws related to membership of wetlands protection advisory council",
+                "chamber": "house",
+                "status": {
+                    "key": "In First House--Introduced",
+                    "step": "First chamber",
+                    "label": "Introduced",
+                    "status": "live",
+                    "statusAtSessionEnd": "failed"
+                },
+                "progress": [
+                    {
+                        "step": "introduced",
+                        "status": "passed",
+                        "statusLabel": "Introduced",
+                        "statusDate": "01/18/2023"
+                    },
+                    {
+                        "step": "first committee",
+                        "status": "current",
+                        "statusLabel": "Pending",
+                        "statusDate": null
+                    },
+                    {
+                        "step": "first chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "second chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "reconciliation",
+                        "status": "skipped",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "governor",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    }
+                ],
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC1290.pdf",
                 "fiscalNoteUrl": null,
                 "legalNoteUrl": null,
                 "numArticles": 0,
@@ -29091,7 +29465,132 @@
         ],
         "articles": [],
         "imageSlug": "2023/Jonathan-Windy-Boy.png",
-        "sponsoredBills": [],
+        "sponsoredBills": [
+            {
+                "key": "hb-287",
+                "identifier": "HB 287",
+                "title": "Revise laws related to Indian language preservation",
+                "chamber": "house",
+                "status": {
+                    "key": "In First House--Introduced",
+                    "step": "First chamber",
+                    "label": "Introduced",
+                    "status": "live",
+                    "statusAtSessionEnd": "failed"
+                },
+                "progress": [
+                    {
+                        "step": "introduced",
+                        "status": "passed",
+                        "statusLabel": "Introduced",
+                        "statusDate": "01/18/2023"
+                    },
+                    {
+                        "step": "first committee",
+                        "status": "current",
+                        "statusLabel": "Pending",
+                        "statusDate": null
+                    },
+                    {
+                        "step": "first chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "second chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "reconciliation",
+                        "status": "skipped",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "governor",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    }
+                ],
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC0519.pdf",
+                "fiscalNoteUrl": null,
+                "legalNoteUrl": null,
+                "numArticles": 0,
+                "sponsor": {
+                    "name": "Jonathan Windy Boy",
+                    "lastName": "Windy Boy",
+                    "party": "D",
+                    "locale": "Box Elder",
+                    "district": "HD 32"
+                }
+            },
+            {
+                "key": "hb-288",
+                "identifier": "HB 288",
+                "title": "Revise laws related to tuition waivers for American Indian students",
+                "chamber": "house",
+                "status": {
+                    "key": "In First House--Introduced",
+                    "step": "First chamber",
+                    "label": "Introduced",
+                    "status": "live",
+                    "statusAtSessionEnd": "failed"
+                },
+                "progress": [
+                    {
+                        "step": "introduced",
+                        "status": "passed",
+                        "statusLabel": "Introduced",
+                        "statusDate": "01/18/2023"
+                    },
+                    {
+                        "step": "first committee",
+                        "status": "current",
+                        "statusLabel": "Pending",
+                        "statusDate": null
+                    },
+                    {
+                        "step": "first chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "second chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "reconciliation",
+                        "status": "skipped",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "governor",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    }
+                ],
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC0898.pdf",
+                "fiscalNoteUrl": null,
+                "legalNoteUrl": null,
+                "numArticles": 0,
+                "sponsor": {
+                    "name": "Jonathan Windy Boy",
+                    "lastName": "Windy Boy",
+                    "party": "D",
+                    "locale": "Box Elder",
+                    "district": "HD 32"
+                }
+            }
+        ],
         "votingSummary": {
             "name": "Jonathan Windy Boy",
             "party": "D",
