@@ -16,8 +16,6 @@ const RedTapeBills = ({ data, location }) => {
   const pastSecondChamber = bills.filter(bill => bill.progress.find(d => d.step === 'second chamber').status === 'passed')
   const signed = bills.filter(bill => bill.progress.find(d => d.step === 'governor').status === 'passed')
 
-  console.log()
-
   return <div>
     <Layout location={location}>
       <h1>Red Tape Relief Bills</h1>
