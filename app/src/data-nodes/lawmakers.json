@@ -34196,14 +34196,14 @@
                     },
                     {
                         "step": "first committee",
-                        "status": "current",
-                        "statusLabel": "Pending",
-                        "statusDate": null
+                        "status": "passed",
+                        "statusLabel": "Advanced",
+                        "statusDate": "01/19/2023"
                     },
                     {
                         "step": "first chamber",
-                        "status": "future",
-                        "statusLabel": null,
+                        "status": "current",
+                        "statusLabel": "Pending",
                         "statusDate": null
                     },
                     {
@@ -36700,9 +36700,9 @@
                 "title": "Revise reimbursement values for registered livestock",
                 "chamber": "senate",
                 "status": {
-                    "key": "In First House--Out of Committee",
+                    "key": "In First House Committee--Nontabled",
                     "step": "First chamber",
-                    "label": "Out of committee",
+                    "label": "In committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -36717,7 +36717,7 @@
                         "step": "first committee",
                         "status": "passed",
                         "statusLabel": "Advanced",
-                        "statusDate": "01/13/2023"
+                        "statusDate": "01/19/2023"
                     },
                     {
                         "step": "first chamber",
@@ -48267,9 +48267,9 @@
                 "title": "Revise laws related to proof of vehicle insurance",
                 "chamber": "senate",
                 "status": {
-                    "key": "In First House Committee--Nontabled",
+                    "key": "In First House--Through 2nd Reading",
                     "step": "First chamber",
-                    "label": "In committee",
+                    "label": "Passed second reading vote",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
