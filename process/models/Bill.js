@@ -94,7 +94,7 @@ export default class Bill {
             voteMajorityRequired: this.voteMajorityRequired,
 
             subjects: subjects.map(d => d.subject), // TODO: Add cleaning
-            tags: tags || [],
+            tags: tags && tags.map(d => d.name) || [],
 
             lawsUrl: billPageUrl || null,
             textUrl: billPdfUrl || null,

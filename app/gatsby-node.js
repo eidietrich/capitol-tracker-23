@@ -34,6 +34,7 @@ exports.createSchemaCustomization = ({ actions }) => {
             secondHouseReturnIfAmendedDeadline: Date
             voteMajorityRequired: String
             subjects: [String]
+            tags: [String]
             lawsUrl: String
             textUrl: String
             legalNoteUrl: String

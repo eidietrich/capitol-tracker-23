@@ -6,23 +6,7 @@
     "BillPageText": "House Bill 2 is traditionally the state's primary two-year appropriations bill, the vehicle the Legislature uses to set most of the state budget. More information about the budgeting process is available on the [Legislative Fiscal Division](https://leg.mt.gov/lfd/) website.",
     "legalNoteLink": null,
     "createdAt": "2022-12-21T19:34:58.382Z",
-    "updatedAt": "2023-01-03T21:43:16.619Z",
-    "bill_category": {
-      "data": {
-        "id": 1,
-        "attributes": {
-          "CategoryLabel": "Major budget bills",
-          "CategoryDescription": null,
-          "createdAt": "2022-12-21T19:36:32.011Z",
-          "updatedAt": "2023-01-11T15:35:02.748Z",
-          "OrderOnPage": 1,
-          "ShowOnKeyBillsList": true
-        }
-      }
-    },
-    "bill_tags": {
-      "data": []
-    },
+    "updatedAt": "2023-01-18T22:53:30.607Z",
     "category": "Major budget bills",
     "categoryDescription": null,
     "categoryOrder": 1,
@@ -37,22 +21,6 @@
     "legalNoteLink": null,
     "createdAt": "2023-01-10T02:50:07.531Z",
     "updatedAt": "2023-01-11T15:23:27.109Z",
-    "bill_category": {
-      "data": {
-        "id": 3,
-        "attributes": {
-          "CategoryLabel": "Governor's budget",
-          "CategoryDescription": "Bills implementing parts of Gov. Greg Gianforte's proposed state budget.",
-          "createdAt": "2023-01-10T02:48:37.145Z",
-          "updatedAt": "2023-01-11T15:34:48.387Z",
-          "OrderOnPage": 2,
-          "ShowOnKeyBillsList": false
-        }
-      }
-    },
-    "bill_tags": {
-      "data": []
-    },
     "category": "Governor's budget",
     "categoryDescription": "Bills implementing parts of Gov. Greg Gianforte's proposed state budget.",
     "categoryOrder": 2,
@@ -67,12 +35,6 @@
     "legalNoteLink": null,
     "createdAt": "2023-01-10T02:50:22.021Z",
     "updatedAt": "2023-01-18T15:11:00.450Z",
-    "bill_category": {
-      "data": null
-    },
-    "bill_tags": {
-      "data": []
-    },
     "category": null,
     "categoryDescription": null,
     "categoryOrder": null,
@@ -87,22 +49,6 @@
     "legalNoteLink": null,
     "createdAt": "2023-01-10T02:50:39.071Z",
     "updatedAt": "2023-01-11T15:23:22.355Z",
-    "bill_category": {
-      "data": {
-        "id": 3,
-        "attributes": {
-          "CategoryLabel": "Governor's budget",
-          "CategoryDescription": "Bills implementing parts of Gov. Greg Gianforte's proposed state budget.",
-          "createdAt": "2023-01-10T02:48:37.145Z",
-          "updatedAt": "2023-01-11T15:34:48.387Z",
-          "OrderOnPage": 2,
-          "ShowOnKeyBillsList": false
-        }
-      }
-    },
-    "bill_tags": {
-      "data": []
-    },
     "category": "Governor's budget",
     "categoryDescription": "Bills implementing parts of Gov. Greg Gianforte's proposed state budget.",
     "categoryOrder": 2,
@@ -116,1134 +62,477 @@
     "BillPageText": null,
     "legalNoteLink": "https://montanafreepress.org/wp-content/uploads/2023/01/SB0154LRN.pdf",
     "createdAt": "2023-01-16T15:49:23.705Z",
-    "updatedAt": "2023-01-16T15:49:23.705Z",
-    "bill_category": {
-      "data": null
-    },
-    "bill_tags": {
-      "data": []
-    },
+    "updatedAt": "2023-01-18T22:46:19.453Z",
     "category": null,
     "categoryDescription": null,
     "categoryOrder": null,
-    "showCategory": null
+    "showCategory": null,
+    "tags": []
   },
   {
     "Identifier": "HB 30",
-    "isKeyBill": true,
+    "isKeyBill": false,
     "Explanation": null,
     "BillPageText": null,
     "legalNoteLink": null,
     "createdAt": "2023-01-18T15:11:32.762Z",
-    "updatedAt": "2023-01-18T15:14:04.381Z",
-    "bill_category": {
-      "data": null
-    },
-    "bill_tags": {
-      "data": []
-    },
+    "updatedAt": "2023-01-18T22:41:23.512Z",
     "category": null,
     "categoryDescription": null,
     "categoryOrder": null,
-    "showCategory": null
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
   },
   {
     "Identifier": "HB 31",
-    "isKeyBill": true,
+    "isKeyBill": false,
     "Explanation": null,
     "BillPageText": null,
     "legalNoteLink": null,
     "createdAt": "2023-01-18T15:11:42.869Z",
-    "updatedAt": "2023-01-18T15:14:14.352Z",
-    "bill_category": {
-      "data": null
-    },
-    "bill_tags": {
-      "data": []
-    },
+    "updatedAt": "2023-01-18T22:41:27.947Z",
     "category": null,
     "categoryDescription": null,
     "categoryOrder": null,
-    "showCategory": null
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
   },
   {
     "Identifier": "HB 34",
-    "isKeyBill": true,
+    "isKeyBill": false,
     "Explanation": null,
     "BillPageText": null,
     "legalNoteLink": null,
     "createdAt": "2023-01-18T15:11:53.879Z",
-    "updatedAt": "2023-01-18T15:13:37.510Z",
-    "bill_category": {
-      "data": null
-    },
-    "bill_tags": {
-      "data": []
-    },
+    "updatedAt": "2023-01-18T22:41:33.713Z",
     "category": null,
     "categoryDescription": null,
     "categoryOrder": null,
-    "showCategory": null
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
   },
   {
     "Identifier": "HB 39",
-    "isKeyBill": true,
+    "isKeyBill": false,
     "Explanation": null,
     "BillPageText": null,
     "legalNoteLink": null,
     "createdAt": "2023-01-18T15:12:02.756Z",
-    "updatedAt": "2023-01-18T15:12:02.756Z",
-    "bill_category": {
-      "data": null
-    },
-    "bill_tags": {
-      "data": []
-    },
+    "updatedAt": "2023-01-18T22:41:37.907Z",
     "category": null,
     "categoryDescription": null,
     "categoryOrder": null,
-    "showCategory": null
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
   },
   {
     "Identifier": "HB 40",
-    "isKeyBill": true,
+    "isKeyBill": false,
     "Explanation": null,
     "BillPageText": null,
     "legalNoteLink": null,
     "createdAt": "2023-01-18T15:12:11.121Z",
-    "updatedAt": "2023-01-18T15:12:11.121Z",
-    "bill_category": {
-      "data": null
-    },
-    "bill_tags": {
-      "data": []
-    },
+    "updatedAt": "2023-01-18T22:41:41.597Z",
     "category": null,
     "categoryDescription": null,
     "categoryOrder": null,
-    "showCategory": null
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
   },
   {
     "Identifier": "HB 41",
-    "isKeyBill": true,
+    "isKeyBill": false,
     "Explanation": null,
     "BillPageText": null,
     "legalNoteLink": null,
     "createdAt": "2023-01-18T15:12:20.026Z",
-    "updatedAt": "2023-01-18T15:12:20.026Z",
-    "bill_category": {
-      "data": null
-    },
-    "bill_tags": {
-      "data": []
-    },
+    "updatedAt": "2023-01-18T22:41:45.256Z",
     "category": null,
     "categoryDescription": null,
     "categoryOrder": null,
-    "showCategory": null
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
   },
   {
     "Identifier": "HB 42",
-    "isKeyBill": true,
+    "isKeyBill": false,
     "Explanation": null,
     "BillPageText": null,
     "legalNoteLink": null,
     "createdAt": "2023-01-18T15:22:08.063Z",
-    "updatedAt": "2023-01-18T15:22:08.063Z",
-    "bill_category": {
-      "data": null
-    },
-    "bill_tags": {
-      "data": []
-    },
+    "updatedAt": "2023-01-18T22:41:48.946Z",
     "category": null,
     "categoryDescription": null,
     "categoryOrder": null,
-    "showCategory": null
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
   },
   {
     "Identifier": "HB 43",
-    "isKeyBill": true,
+    "isKeyBill": false,
     "Explanation": null,
     "BillPageText": null,
     "legalNoteLink": null,
     "createdAt": "2023-01-18T15:22:15.549Z",
-    "updatedAt": "2023-01-18T15:22:15.549Z",
-    "bill_category": {
-      "data": null
-    },
-    "bill_tags": {
-      "data": []
-    },
+    "updatedAt": "2023-01-18T22:41:52.658Z",
     "category": null,
     "categoryDescription": null,
     "categoryOrder": null,
-    "showCategory": null
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
   },
   {
     "Identifier": "HB 44",
-    "isKeyBill": true,
+    "isKeyBill": false,
     "Explanation": null,
     "BillPageText": null,
     "legalNoteLink": null,
     "createdAt": "2023-01-18T15:22:22.077Z",
-    "updatedAt": "2023-01-18T15:22:22.077Z",
-    "bill_category": {
-      "data": null
-    },
-    "bill_tags": {
-      "data": []
-    },
+    "updatedAt": "2023-01-18T22:41:57.321Z",
     "category": null,
     "categoryDescription": null,
     "categoryOrder": null,
-    "showCategory": null
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
   },
   {
     "Identifier": "HB 45",
-    "isKeyBill": true,
+    "isKeyBill": false,
     "Explanation": null,
     "BillPageText": null,
     "legalNoteLink": null,
     "createdAt": "2023-01-18T15:22:28.426Z",
-    "updatedAt": "2023-01-18T15:22:28.426Z",
-    "bill_category": {
-      "data": null
-    },
-    "bill_tags": {
-      "data": []
-    },
+    "updatedAt": "2023-01-18T22:42:00.842Z",
     "category": null,
     "categoryDescription": null,
     "categoryOrder": null,
-    "showCategory": null
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
   },
   {
     "Identifier": "HB 46",
-    "isKeyBill": true,
+    "isKeyBill": false,
     "Explanation": null,
     "BillPageText": null,
     "legalNoteLink": null,
     "createdAt": "2023-01-18T15:22:34.116Z",
-    "updatedAt": "2023-01-18T15:22:34.116Z",
-    "bill_category": {
-      "data": null
-    },
-    "bill_tags": {
-      "data": []
-    },
+    "updatedAt": "2023-01-18T22:42:07.144Z",
     "category": null,
     "categoryDescription": null,
     "categoryOrder": null,
-    "showCategory": null
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
   },
   {
     "Identifier": "HB 47",
-    "isKeyBill": true,
+    "isKeyBill": false,
     "Explanation": null,
     "BillPageText": null,
     "legalNoteLink": null,
     "createdAt": "2023-01-18T15:22:39.260Z",
-    "updatedAt": "2023-01-18T15:22:39.260Z",
-    "bill_category": {
-      "data": null
-    },
-    "bill_tags": {
-      "data": []
-    },
+    "updatedAt": "2023-01-18T22:42:11.066Z",
     "category": null,
     "categoryDescription": null,
     "categoryOrder": null,
-    "showCategory": null
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
   },
   {
     "Identifier": "HB 48",
-    "isKeyBill": true,
+    "isKeyBill": false,
     "Explanation": null,
     "BillPageText": null,
     "legalNoteLink": null,
     "createdAt": "2023-01-18T15:22:45.734Z",
-    "updatedAt": "2023-01-18T15:22:45.734Z",
-    "bill_category": {
-      "data": null
-    },
-    "bill_tags": {
-      "data": []
-    },
+    "updatedAt": "2023-01-18T22:42:15.152Z",
     "category": null,
     "categoryDescription": null,
     "categoryOrder": null,
-    "showCategory": null
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
   },
   {
     "Identifier": "HB 49",
-    "isKeyBill": true,
+    "isKeyBill": false,
     "Explanation": null,
     "BillPageText": null,
     "legalNoteLink": null,
     "createdAt": "2023-01-18T15:22:52.426Z",
-    "updatedAt": "2023-01-18T15:22:52.426Z",
-    "bill_category": {
-      "data": null
-    },
-    "bill_tags": {
-      "data": []
-    },
+    "updatedAt": "2023-01-18T22:42:19.095Z",
     "category": null,
     "categoryDescription": null,
     "categoryOrder": null,
-    "showCategory": null
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
   },
   {
     "Identifier": "HB 50",
-    "isKeyBill": true,
+    "isKeyBill": false,
     "Explanation": null,
     "BillPageText": null,
     "legalNoteLink": null,
     "createdAt": "2023-01-18T15:23:21.543Z",
-    "updatedAt": "2023-01-18T15:23:21.543Z",
-    "bill_category": {
-      "data": null
-    },
-    "bill_tags": {
-      "data": []
-    },
+    "updatedAt": "2023-01-18T22:42:23.921Z",
     "category": null,
     "categoryDescription": null,
     "categoryOrder": null,
-    "showCategory": null
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
   },
   {
     "Identifier": "HB 51",
-    "isKeyBill": true,
+    "isKeyBill": false,
     "Explanation": null,
     "BillPageText": null,
     "legalNoteLink": null,
     "createdAt": "2023-01-18T15:23:26.719Z",
-    "updatedAt": "2023-01-18T15:23:26.719Z",
-    "bill_category": {
-      "data": null
-    },
-    "bill_tags": {
-      "data": []
-    },
+    "updatedAt": "2023-01-18T22:42:28.110Z",
     "category": null,
     "categoryDescription": null,
     "categoryOrder": null,
-    "showCategory": null
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
   },
   {
     "Identifier": "HB 52",
-    "isKeyBill": true,
+    "isKeyBill": false,
     "Explanation": null,
     "BillPageText": null,
     "legalNoteLink": null,
     "createdAt": "2023-01-18T15:23:33.743Z",
-    "updatedAt": "2023-01-18T15:23:33.743Z",
-    "bill_category": {
-      "data": null
-    },
-    "bill_tags": {
-      "data": []
-    },
+    "updatedAt": "2023-01-18T22:42:32.665Z",
     "category": null,
     "categoryDescription": null,
     "categoryOrder": null,
-    "showCategory": null
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
   },
   {
     "Identifier": "HB 53",
-    "isKeyBill": true,
+    "isKeyBill": false,
     "Explanation": null,
     "BillPageText": null,
     "legalNoteLink": null,
     "createdAt": "2023-01-18T15:23:39.688Z",
-    "updatedAt": "2023-01-18T15:23:39.688Z",
-    "bill_category": {
-      "data": null
-    },
-    "bill_tags": {
-      "data": []
-    },
+    "updatedAt": "2023-01-18T22:42:37.762Z",
     "category": null,
     "categoryDescription": null,
     "categoryOrder": null,
-    "showCategory": null
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
   },
   {
     "Identifier": "HB 54",
-    "isKeyBill": true,
+    "isKeyBill": false,
     "Explanation": null,
     "BillPageText": null,
     "legalNoteLink": null,
     "createdAt": "2023-01-18T15:23:44.493Z",
-    "updatedAt": "2023-01-18T15:23:44.493Z",
-    "bill_category": {
-      "data": null
-    },
-    "bill_tags": {
-      "data": []
-    },
+    "updatedAt": "2023-01-18T22:42:42.555Z",
     "category": null,
     "categoryDescription": null,
     "categoryOrder": null,
-    "showCategory": null
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
   },
   {
     "Identifier": "HB 56",
-    "isKeyBill": true,
+    "isKeyBill": false,
     "Explanation": null,
     "BillPageText": null,
     "legalNoteLink": null,
     "createdAt": "2023-01-18T15:23:51.350Z",
-    "updatedAt": "2023-01-18T15:23:51.350Z",
-    "bill_category": {
-      "data": null
-    },
-    "bill_tags": {
-      "data": []
-    },
+    "updatedAt": "2023-01-18T22:42:47.115Z",
     "category": null,
     "categoryDescription": null,
     "categoryOrder": null,
-    "showCategory": null
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
   },
   {
     "Identifier": "HB 58",
-    "isKeyBill": true,
+    "isKeyBill": false,
     "Explanation": null,
     "BillPageText": null,
     "legalNoteLink": null,
     "createdAt": "2023-01-18T15:23:57.520Z",
-    "updatedAt": "2023-01-18T15:23:57.520Z",
-    "bill_category": {
-      "data": null
-    },
-    "bill_tags": {
-      "data": []
-    },
+    "updatedAt": "2023-01-18T22:42:52.359Z",
     "category": null,
     "categoryDescription": null,
     "categoryOrder": null,
-    "showCategory": null
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
   },
   {
     "Identifier": "HB 59",
-    "isKeyBill": true,
+    "isKeyBill": false,
     "Explanation": null,
     "BillPageText": null,
     "legalNoteLink": null,
     "createdAt": "2023-01-18T15:24:03.648Z",
-    "updatedAt": "2023-01-18T15:24:03.648Z",
-    "bill_category": {
-      "data": null
-    },
-    "bill_tags": {
-      "data": []
-    },
+    "updatedAt": "2023-01-18T22:42:57.217Z",
     "category": null,
     "categoryDescription": null,
     "categoryOrder": null,
-    "showCategory": null
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
   },
   {
     "Identifier": "HB 63",
-    "isKeyBill": true,
+    "isKeyBill": false,
     "Explanation": null,
     "BillPageText": null,
     "legalNoteLink": null,
     "createdAt": "2023-01-18T15:24:09.680Z",
-    "updatedAt": "2023-01-18T15:24:09.680Z",
-    "bill_category": {
-      "data": null
-    },
-    "bill_tags": {
-      "data": []
-    },
+    "updatedAt": "2023-01-18T22:43:03.380Z",
     "category": null,
     "categoryDescription": null,
     "categoryOrder": null,
-    "showCategory": null
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
   },
   {
     "Identifier": "HB 64",
-    "isKeyBill": true,
+    "isKeyBill": false,
     "Explanation": null,
     "BillPageText": null,
     "legalNoteLink": null,
     "createdAt": "2023-01-18T15:24:14.875Z",
-    "updatedAt": "2023-01-18T15:24:14.875Z",
-    "bill_category": {
-      "data": null
-    },
-    "bill_tags": {
-      "data": []
-    },
+    "updatedAt": "2023-01-18T22:43:07.962Z",
     "category": null,
     "categoryDescription": null,
     "categoryOrder": null,
-    "showCategory": null
+    "showCategory": null,
+    "tags": [
+      {
+        "name": "Red Tape Relief bills",
+        "description": "Bills included in the governor's Red Tape Relief effort"
+      }
+    ]
   },
   {
     "Identifier": "HB 65",
-    "isKeyBill": true,
+    "isKeyBill": false,
     "Explanation": null,
     "BillPageText": null,
     "legalNoteLink": null,
     "createdAt": "2023-01-18T15:24:21.137Z",
-    "updatedAt": "2023-01-18T15:24:21.137Z",
-    "bill_category": {
-      "data": null
-    },
-    "bill_tags": {
-      "data": []
-    },
-    "category": null,
-    "categoryDescription": null,
-    "categoryOrder": null,
-    "showCategory": null
-  },
-  {
-    "Identifier": "HB 66",
-    "isKeyBill": true,
-    "Explanation": null,
-    "BillPageText": null,
-    "legalNoteLink": null,
-    "createdAt": "2023-01-18T15:24:30.166Z",
-    "updatedAt": "2023-01-18T15:24:30.166Z",
-    "bill_category": {
-      "data": null
-    },
-    "bill_tags": {
-      "data": []
-    },
-    "category": null,
-    "categoryDescription": null,
-    "categoryOrder": null,
-    "showCategory": null
-  },
-  {
-    "Identifier": "HB 67",
-    "isKeyBill": true,
-    "Explanation": null,
-    "BillPageText": null,
-    "legalNoteLink": null,
-    "createdAt": "2023-01-18T15:24:36.476Z",
-    "updatedAt": "2023-01-18T15:24:36.476Z",
-    "bill_category": {
-      "data": null
-    },
-    "bill_tags": {
-      "data": []
-    },
-    "category": null,
-    "categoryDescription": null,
-    "categoryOrder": null,
-    "showCategory": null
-  },
-  {
-    "Identifier": "HB 68",
-    "isKeyBill": true,
-    "Explanation": null,
-    "BillPageText": null,
-    "legalNoteLink": null,
-    "createdAt": "2023-01-18T15:24:41.652Z",
-    "updatedAt": "2023-01-18T15:24:41.652Z",
-    "bill_category": {
-      "data": null
-    },
-    "bill_tags": {
-      "data": []
-    },
-    "category": null,
-    "categoryDescription": null,
-    "categoryOrder": null,
-    "showCategory": null
-  },
-  {
-    "Identifier": "HB 69",
-    "isKeyBill": true,
-    "Explanation": null,
-    "BillPageText": null,
-    "legalNoteLink": null,
-    "createdAt": "2023-01-18T15:24:47.095Z",
-    "updatedAt": "2023-01-18T15:24:47.095Z",
-    "bill_category": {
-      "data": null
-    },
-    "bill_tags": {
-      "data": []
-    },
-    "category": null,
-    "categoryDescription": null,
-    "categoryOrder": null,
-    "showCategory": null
-  },
-  {
-    "Identifier": "HB 70",
-    "isKeyBill": true,
-    "Explanation": null,
-    "BillPageText": null,
-    "legalNoteLink": null,
-    "createdAt": "2023-01-18T15:24:54.142Z",
-    "updatedAt": "2023-01-18T15:24:54.142Z",
-    "bill_category": {
-      "data": null
-    },
-    "bill_tags": {
-      "data": []
-    },
-    "category": null,
-    "categoryDescription": null,
-    "categoryOrder": null,
-    "showCategory": null
-  },
-  {
-    "Identifier": "HB 71",
-    "isKeyBill": true,
-    "Explanation": null,
-    "BillPageText": null,
-    "legalNoteLink": null,
-    "createdAt": "2023-01-18T15:25:09.070Z",
-    "updatedAt": "2023-01-18T15:25:09.070Z",
-    "bill_category": {
-      "data": null
-    },
-    "bill_tags": {
-      "data": []
-    },
-    "category": null,
-    "categoryDescription": null,
-    "categoryOrder": null,
-    "showCategory": null
-  },
-  {
-    "Identifier": "HB 72",
-    "isKeyBill": true,
-    "Explanation": null,
-    "BillPageText": null,
-    "legalNoteLink": null,
-    "createdAt": "2023-01-18T15:25:16.516Z",
-    "updatedAt": "2023-01-18T15:25:16.516Z",
-    "bill_category": {
-      "data": null
-    },
-    "bill_tags": {
-      "data": []
-    },
-    "category": null,
-    "categoryDescription": null,
-    "categoryOrder": null,
-    "showCategory": null
-  },
-  {
-    "Identifier": "HB 73",
-    "isKeyBill": true,
-    "Explanation": null,
-    "BillPageText": null,
-    "legalNoteLink": null,
-    "createdAt": "2023-01-18T15:25:21.971Z",
-    "updatedAt": "2023-01-18T15:25:21.971Z",
-    "bill_category": {
-      "data": null
-    },
-    "bill_tags": {
-      "data": []
-    },
-    "category": null,
-    "categoryDescription": null,
-    "categoryOrder": null,
-    "showCategory": null
-  },
-  {
-    "Identifier": "HB 74",
-    "isKeyBill": true,
-    "Explanation": null,
-    "BillPageText": null,
-    "legalNoteLink": null,
-    "createdAt": "2023-01-18T15:25:27.143Z",
-    "updatedAt": "2023-01-18T15:25:27.143Z",
-    "bill_category": {
-      "data": null
-    },
-    "bill_tags": {
-      "data": []
-    },
-    "category": null,
-    "categoryDescription": null,
-    "categoryOrder": null,
-    "showCategory": null
-  },
-  {
-    "Identifier": "HB 75",
-    "isKeyBill": true,
-    "Explanation": null,
-    "BillPageText": null,
-    "legalNoteLink": null,
-    "createdAt": "2023-01-18T15:25:32.201Z",
-    "updatedAt": "2023-01-18T15:25:32.201Z",
-    "bill_category": {
-      "data": null
-    },
-    "bill_tags": {
-      "data": []
-    },
-    "category": null,
-    "categoryDescription": null,
-    "categoryOrder": null,
-    "showCategory": null
-  },
-  {
-    "Identifier": "HB 76",
-    "isKeyBill": true,
-    "Explanation": null,
-    "BillPageText": null,
-    "legalNoteLink": null,
-    "createdAt": "2023-01-18T15:25:37.474Z",
-    "updatedAt": "2023-01-18T15:25:37.474Z",
-    "bill_category": {
-      "data": null
-    },
-    "bill_tags": {
-      "data": []
-    },
-    "category": null,
-    "categoryDescription": null,
-    "categoryOrder": null,
-    "showCategory": null
-  },
-  {
-    "Identifier": "HB 77",
-    "isKeyBill": true,
-    "Explanation": null,
-    "BillPageText": null,
-    "legalNoteLink": null,
-    "createdAt": "2023-01-18T15:25:45.337Z",
-    "updatedAt": "2023-01-18T15:25:45.337Z",
-    "bill_category": {
-      "data": null
-    },
-    "bill_tags": {
-      "data": []
-    },
-    "category": null,
-    "categoryDescription": null,
-    "categoryOrder": null,
-    "showCategory": null
-  },
-  {
-    "Identifier": "HB 78",
-    "isKeyBill": true,
-    "Explanation": null,
-    "BillPageText": null,
-    "legalNoteLink": null,
-    "createdAt": "2023-01-18T15:25:50.484Z",
-    "updatedAt": "2023-01-18T15:25:50.484Z",
-    "bill_category": {
-      "data": null
-    },
-    "bill_tags": {
-      "data": []
-    },
-    "category": null,
-    "categoryDescription": null,
-    "categoryOrder": null,
-    "showCategory": null
-  },
-  {
-    "Identifier": "HB 80",
-    "isKeyBill": true,
-    "Explanation": null,
-    "BillPageText": null,
-    "legalNoteLink": null,
-    "createdAt": "2023-01-18T15:28:46.840Z",
-    "updatedAt": "2023-01-18T15:28:46.840Z",
-    "bill_category": {
-      "data": null
-    },
-    "bill_tags": {
-      "data": []
-    },
-    "category": null,
-    "categoryDescription": null,
-    "categoryOrder": null,
-    "showCategory": null
-  },
-  {
-    "Identifier": "HB 83",
-    "isKeyBill": true,
-    "Explanation": null,
-    "BillPageText": null,
-    "legalNoteLink": null,
-    "createdAt": "2023-01-18T15:28:52.236Z",
-    "updatedAt": "2023-01-18T15:28:52.236Z",
-    "bill_category": {
-      "data": null
-    },
-    "bill_tags": {
-      "data": []
-    },
-    "category": null,
-    "categoryDescription": null,
-    "categoryOrder": null,
-    "showCategory": null
-  },
-  {
-    "Identifier": "HB 84",
-    "isKeyBill": true,
-    "Explanation": null,
-    "BillPageText": null,
-    "legalNoteLink": null,
-    "createdAt": "2023-01-18T15:28:58.456Z",
-    "updatedAt": "2023-01-18T15:28:58.456Z",
-    "bill_category": {
-      "data": null
-    },
-    "bill_tags": {
-      "data": []
-    },
-    "category": null,
-    "categoryDescription": null,
-    "categoryOrder": null,
-    "showCategory": null
-  },
-  {
-    "Identifier": "HB 85",
-    "isKeyBill": true,
-    "Explanation": null,
-    "BillPageText": null,
-    "legalNoteLink": null,
-    "createdAt": "2023-01-18T15:29:02.589Z",
-    "updatedAt": "2023-01-18T15:29:02.589Z",
-    "bill_category": {
-      "data": null
-    },
-    "bill_tags": {
-      "data": []
-    },
-    "category": null,
-    "categoryDescription": null,
-    "categoryOrder": null,
-    "showCategory": null
-  },
-  {
-    "Identifier": "HB 87",
-    "isKeyBill": true,
-    "Explanation": null,
-    "BillPageText": null,
-    "legalNoteLink": null,
-    "createdAt": "2023-01-18T15:29:08.395Z",
-    "updatedAt": "2023-01-18T15:29:08.395Z",
-    "bill_category": {
-      "data": null
-    },
-    "bill_tags": {
-      "data": []
-    },
-    "category": null,
-    "categoryDescription": null,
-    "categoryOrder": null,
-    "showCategory": null
-  },
-  {
-    "Identifier": "HB 88",
-    "isKeyBill": true,
-    "Explanation": null,
-    "BillPageText": null,
-    "legalNoteLink": null,
-    "createdAt": "2023-01-18T15:29:13.988Z",
-    "updatedAt": "2023-01-18T15:29:13.988Z",
-    "bill_category": {
-      "data": null
-    },
-    "bill_tags": {
-      "data": []
-    },
-    "category": null,
-    "categoryDescription": null,
-    "categoryOrder": null,
-    "showCategory": null
-  },
-  {
-    "Identifier": "HB 89",
-    "isKeyBill": true,
-    "Explanation": null,
-    "BillPageText": null,
-    "legalNoteLink": null,
-    "createdAt": "2023-01-18T15:29:23.359Z",
-    "updatedAt": "2023-01-18T15:29:23.359Z",
-    "bill_category": {
-      "data": null
-    },
-    "bill_tags": {
-      "data": []
-    },
-    "category": null,
-    "categoryDescription": null,
-    "categoryOrder": null,
-    "showCategory": null
-  },
-  {
-    "Identifier": "HB 90",
-    "isKeyBill": true,
-    "Explanation": null,
-    "BillPageText": null,
-    "legalNoteLink": null,
-    "createdAt": "2023-01-18T15:29:28.797Z",
-    "updatedAt": "2023-01-18T15:29:28.797Z",
-    "bill_category": {
-      "data": null
-    },
-    "bill_tags": {
-      "data": []
-    },
-    "category": null,
-    "categoryDescription": null,
-    "categoryOrder": null,
-    "showCategory": null
-  },
-  {
-    "Identifier": "HB 91",
-    "isKeyBill": true,
-    "Explanation": null,
-    "BillPageText": null,
-    "legalNoteLink": null,
-    "createdAt": "2023-01-18T15:29:33.379Z",
-    "updatedAt": "2023-01-18T15:29:33.379Z",
-    "bill_category": {
-      "data": null
-    },
-    "bill_tags": {
-      "data": []
-    },
-    "category": null,
-    "categoryDescription": null,
-    "categoryOrder": null,
-    "showCategory": null
-  },
-  {
-    "Identifier": "HB 93",
-    "isKeyBill": true,
-    "Explanation": null,
-    "BillPageText": null,
-    "legalNoteLink": null,
-    "createdAt": "2023-01-18T15:29:39.952Z",
-    "updatedAt": "2023-01-18T15:29:39.952Z",
-    "bill_category": {
-      "data": null
-    },
-    "bill_tags": {
-      "data": []
-    },
-    "category": null,
-    "categoryDescription": null,
-    "categoryOrder": null,
-    "showCategory": null
-  },
-  {
-    "Identifier": "HB 94",
-    "isKeyBill": true,
-    "Explanation": null,
-    "BillPageText": null,
-    "legalNoteLink": null,
-    "createdAt": "2023-01-18T15:29:44.943Z",
-    "updatedAt": "2023-01-18T15:29:44.943Z",
-    "bill_category": {
-      "data": null
-    },
-    "bill_tags": {
-      "data": []
-    },
-    "category": null,
-    "categoryDescription": null,
-    "categoryOrder": null,
-    "showCategory": null
-  },
-  {
-    "Identifier": "HB 95",
-    "isKeyBill": true,
-    "Explanation": null,
-    "BillPageText": null,
-    "legalNoteLink": null,
-    "createdAt": "2023-01-18T15:29:49.837Z",
-    "updatedAt": "2023-01-18T15:29:49.837Z",
-    "bill_category": {
-      "data": null
-    },
-    "bill_tags": {
-      "data": []
-    },
-    "category": null,
-    "categoryDescription": null,
-    "categoryOrder": null,
-    "showCategory": null
-  },
-  {
-    "Identifier": "HB 96",
-    "isKeyBill": true,
-    "Explanation": null,
-    "BillPageText": null,
-    "legalNoteLink": null,
-    "createdAt": "2023-01-18T15:29:55.456Z",
-    "updatedAt": "2023-01-18T15:29:55.456Z",
-    "bill_category": {
-      "data": null
-    },
-    "bill_tags": {
-      "data": []
-    },
-    "category": null,
-    "categoryDescription": null,
-    "categoryOrder": null,
-    "showCategory": null
-  },
-  {
-    "Identifier": "HB 97",
-    "isKeyBill": true,
-    "Explanation": null,
-    "BillPageText": null,
-    "legalNoteLink": null,
-    "createdAt": "2023-01-18T15:30:00.528Z",
-    "updatedAt": "2023-01-18T15:30:00.528Z",
-    "bill_category": {
-      "data": null
-    },
-    "bill_tags": {
-      "data": []
-    },
-    "category": null,
-    "categoryDescription": null,
-    "categoryOrder": null,
-    "showCategory": null
-  },
-  {
-    "Identifier": "HB 98",
-    "isKeyBill": true,
-    "Explanation": null,
-    "BillPageText": null,
-    "legalNoteLink": null,
-    "createdAt": "2023-01-18T15:30:07.766Z",
-    "updatedAt": "2023-01-18T15:30:07.766Z",
-    "bill_category": {
-      "data": null
-    },
-    "bill_tags": {
-      "data": []
-    },
-    "category": null,
-    "categoryDescription": null,
-    "categoryOrder": null,
-    "showCategory": null
-  },
-  {
-    "Identifier": "HB 99",
-    "isKeyBill": true,
-    "Explanation": null,
-    "BillPageText": null,
-    "legalNoteLink": null,
-    "createdAt": "2023-01-18T15:30:13.524Z",
-    "updatedAt": "2023-01-18T15:30:13.524Z",
-    "bill_category": {
-      "data": null
-    },
-    "bill_tags": {
-      "data": []
-    },
-    "category": null,
-    "categoryDescription": null,
-    "categoryOrder": null,
-    "showCategory": null
-  },
-  {
-    "Identifier": "HB 100",
-    "isKeyBill": true,
-    "Explanation": null,
-    "BillPageText": null,
-    "legalNoteLink": null,
-    "createdAt": "2023-01-18T15:30:18.103Z",
-    "updatedAt": "2023-01-18T15:30:18.103Z",
-    "bill_category": {
-      "data": null
-    },
-    "bill_tags": {
-      "data": []
-    },
-    "category": null,
-    "categoryDescription": null,
-    "categoryOrder": null,
-    "showCategory": null
-  },
-  {
-    "Identifier": "HB 102",
-    "isKeyBill": true,
-    "Explanation": null,
-    "BillPageText": null,
-    "legalNoteLink": null,
-    "createdAt": "2023-01-18T15:30:26.119Z",
-    "updatedAt": "2023-01-18T15:30:26.119Z",
-    "bill_category": {
-      "data": null
-    },
-    "bill_tags": {
-      "data": []
-    },
-    "category": null,
-    "categoryDescription": null,
-    "categoryOrder": null,
-    "showCategory": null
-  },
-  {
-    "Identifier": "HB 103",
-    "isKeyBill": true,
-    "Explanation": null,
-    "BillPageText": null,
-    "legalNoteLink": null,
-    "createdAt": "2023-01-18T15:30:31.168Z",
-    "updatedAt": "2023-01-18T15:30:31.168Z",
-    "bill_category": {
-      "data": null
-    },
-    "bill_tags": {
-      "data": []
-    },
-    "category": null,
-    "categoryDescription": null,
-    "categoryOrder": null,
-    "showCategory": null
-  },
-  {
-    "Identifier": "HB 104",
-    "isKeyBill": true,
-    "Explanation": null,
-    "BillPageText": null,
-    "legalNoteLink": null,
-    "createdAt": "2023-01-18T15:30:36.488Z",
-    "updatedAt": "2023-01-18T15:30:36.488Z",
-    "bill_category": {
-      "data": null
-    },
-    "bill_tags": {
-      "data": []
-    },
-    "category": null,
-    "categoryDescription": null,
-    "categoryOrder": null,
-    "showCategory": null
-  },
-  {
-    "Identifier": "HB 106",
-    "isKeyBill": true,
-    "Explanation": null,
-    "BillPageText": null,
-    "legalNoteLink": null,
-    "createdAt": "2023-01-18T15:30:45.639Z",
-    "updatedAt": "2023-01-18T15:30:55.981Z",
-    "bill_category": {
-      "data": null
-    },
-    "bill_tags": {
-      "data": []
-    },
+    "updatedAt": "2023-01-18T22:43:12.278Z",
     "category": null,
     "categoryDescription": null,
     "categoryOrder": null,

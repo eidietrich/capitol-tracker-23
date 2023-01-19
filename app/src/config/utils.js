@@ -64,3 +64,15 @@ export const listToText = (list) => {
     return `${list.slice(0, list.length - 1).join(', ')} and ${list.slice(-1)}`
   }
 }
+
+// export const sortByIdentifier = (a, b) => {
+// Not working
+//   console.log(a, b)
+//   const aChamber = a[0]
+//   const bChamber = b[0]
+//   const aNumber = +a.slice(2,)
+//   const bNumber = +b.slice(2,)
+//   console.log({ aChamber, bChamber, aNumber, bNumber })
+
+//   // return true
+// }

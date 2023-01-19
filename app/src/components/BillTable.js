@@ -209,8 +209,6 @@ const Bill = ({ title, identifier, chamber, status, explanation, textUrl,
       </div >
     })
 
-  console.log({ amendmentsUrl })
-
   return (<tr css={tableRowCss} key={identifier}>
     <td css={tableBillCell}>
 
@@ -220,7 +218,7 @@ const Bill = ({ title, identifier, chamber, status, explanation, textUrl,
       <div css={billLabelCss}>{explanation}</div>
       <div css={billInfoLineCss}>
         {sponsor && <Link css={billLinkCss} to={`/lawmakers/${lawmakerUrl(sponsor.name)}`}>
-          From {sponsor.name} <span css={css`color: ${partyColors(sponsor.party)}; opacity: 0.8;`}>({sponsor.party})</span>
+          {sponsor.name} <span css={css`color: ${partyColors(sponsor.party)}; opacity: 0.8;`}>({sponsor.party})</span>
         </Link>}
         {textUrl && <a css={billLinkCss} href={textUrl} target="_blank" rel="noopener noreferrer">📃 Bill text</a>}
         {fiscalNoteUrl && <a css={billLinkCss} href={fiscalNoteUrl} target="_blank" rel="noopener noreferrer">💵 Fiscal note</a>}
@@ -268,6 +266,7 @@ export const BillTableDataFragment = graphql`
     }
     explanation
     majorBillCategory
+    tags
     textUrl
     fiscalNoteUrl
     legalNoteUrl
