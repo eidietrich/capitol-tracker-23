@@ -32588,6 +32588,68 @@
                 }
             },
             {
+                "key": "sb-197",
+                "identifier": "SB 197",
+                "title": "Revise and extend post-election audit process",
+                "chamber": "senate",
+                "status": {
+                    "key": "In First House--Introduced",
+                    "step": "First chamber",
+                    "label": "Introduced",
+                    "status": "live",
+                    "statusAtSessionEnd": "failed"
+                },
+                "progress": [
+                    {
+                        "step": "introduced",
+                        "status": "passed",
+                        "statusLabel": "Introduced",
+                        "statusDate": "01/19/2023"
+                    },
+                    {
+                        "step": "first committee",
+                        "status": "current",
+                        "statusLabel": "Pending",
+                        "statusDate": null
+                    },
+                    {
+                        "step": "first chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "second chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "reconciliation",
+                        "status": "skipped",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "governor",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    }
+                ],
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC1437.pdf",
+                "fiscalNoteUrl": null,
+                "legalNoteUrl": null,
+                "numArticles": 0,
+                "sponsor": {
+                    "name": "Mike Cuffe",
+                    "lastName": "Cuffe",
+                    "party": "R",
+                    "locale": "Eureka",
+                    "district": "SD 1"
+                }
+            },
+            {
                 "key": "sr-4",
                 "identifier": "SR 4",
                 "title": "Confirm governor's appointee for the public employees' retirement board",
@@ -37439,6 +37501,68 @@
                 ],
                 "textUrl": "http://leg.mt.gov/bills/2023/billpdf/SB0006.pdf",
                 "fiscalNoteUrl": "https://leg.mt.gov/laws/bills/2023/FNPDF/SB0006",
+                "legalNoteUrl": null,
+                "numArticles": 0,
+                "sponsor": {
+                    "name": "Jen Gross",
+                    "lastName": "Gross",
+                    "party": "D",
+                    "locale": "Billings",
+                    "district": "SD 25"
+                }
+            },
+            {
+                "key": "sb-198",
+                "identifier": "SB 198",
+                "title": "Revise laws related to behavioral health peer support specialists",
+                "chamber": "senate",
+                "status": {
+                    "key": "In First House--Introduced",
+                    "step": "First chamber",
+                    "label": "Introduced",
+                    "status": "live",
+                    "statusAtSessionEnd": "failed"
+                },
+                "progress": [
+                    {
+                        "step": "introduced",
+                        "status": "passed",
+                        "statusLabel": "Introduced",
+                        "statusDate": "01/19/2023"
+                    },
+                    {
+                        "step": "first committee",
+                        "status": "current",
+                        "statusLabel": "Pending",
+                        "statusDate": null
+                    },
+                    {
+                        "step": "first chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "second chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "reconciliation",
+                        "status": "skipped",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "governor",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    }
+                ],
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC1244.pdf",
+                "fiscalNoteUrl": null,
                 "legalNoteUrl": null,
                 "numArticles": 0,
                 "sponsor": {
