@@ -8597,9 +8597,9 @@
                 "title": "Extend sunset date for livestock loss board and predatory control funding",
                 "chamber": "house",
                 "status": {
-                    "key": "Transmitted to Second House",
+                    "key": "In Second House Committee--Nontabled",
                     "step": "Second chamber",
-                    "label": "Transmitted",
+                    "label": "In committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -31094,14 +31094,14 @@
                     },
                     {
                         "step": "first committee",
-                        "status": "current",
-                        "statusLabel": "Pending",
-                        "statusDate": null
+                        "status": "passed",
+                        "statusLabel": "Advanced",
+                        "statusDate": "01/19/2023"
                     },
                     {
                         "step": "first chamber",
-                        "status": "future",
-                        "statusLabel": null,
+                        "status": "current",
+                        "statusLabel": "Pending",
                         "statusDate": null
                     },
                     {
@@ -35533,11 +35533,11 @@
                 "title": "Senate Resolution on the Senate rules",
                 "chamber": "senate",
                 "status": {
-                    "key": "Passed By Legislature--Enrolling and Final Preparation Process",
-                    "step": "Through Legislature",
-                    "label": "Passed both chambers",
-                    "status": "live",
-                    "statusAtSessionEnd": "pending, passed legislature"
+                    "key": "Became Law",
+                    "label": "",
+                    "step": "Passed",
+                    "status": "became-law",
+                    "statusAtSessionEnd": "became law"
                 },
                 "progress": [
                     {
@@ -41657,9 +41657,9 @@
                 "title": "Generally revise election laws related to recounts",
                 "chamber": "senate",
                 "status": {
-                    "key": "In First House--Introduced",
+                    "key": "In First House Committee--Nontabled",
                     "step": "First chamber",
-                    "label": "Introduced",
+                    "label": "In committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
