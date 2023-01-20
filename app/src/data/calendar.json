@@ -104,6 +104,7 @@
         "SB 51",
         "SB 55",
         "SB 58",
+        "SB 62",
         "SB 70",
         "SB 80",
         "SB 83",
@@ -1763,6 +1764,19 @@
             "hearing": true
         },
         {
+            "id": "SB62-0026",
+            "bill": "SB 62",
+            "date": "01/24/2023",
+            "description": "Hearing",
+            "posession": "house",
+            "committee": "House Taxation",
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
             "id": "SB70-0024",
             "bill": "SB 70",
             "date": "01/23/2023",
@@ -2834,7 +2848,7 @@
             "scheduledForFinalVote": true
         },
         {
-            "id": "SJ1-0037",
+            "id": "SJ1-0038",
             "bill": "SJ 1",
             "date": "01/23/2023",
             "description": "Scheduled for 3rd Reading",
