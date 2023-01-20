@@ -2064,9 +2064,9 @@
                 "title": "Revise nepotism laws relating to small communities",
                 "chamber": "house",
                 "status": {
-                    "key": "In First House--Introduced",
+                    "key": "In First House Committee--Nontabled",
                     "step": "First chamber",
-                    "label": "Introduced",
+                    "label": "In committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -5897,14 +5897,14 @@
                     },
                     {
                         "step": "first committee",
-                        "status": "current",
-                        "statusLabel": "Pending",
-                        "statusDate": null
+                        "status": "passed",
+                        "statusLabel": "Advanced",
+                        "statusDate": "01/20/2023"
                     },
                     {
                         "step": "first chamber",
-                        "status": "future",
-                        "statusLabel": null,
+                        "status": "current",
+                        "statusLabel": "Pending",
                         "statusDate": null
                     },
                     {
@@ -7801,14 +7801,14 @@
                     },
                     {
                         "step": "first committee",
-                        "status": "current",
-                        "statusLabel": "Pending",
-                        "statusDate": null
+                        "status": "passed",
+                        "statusLabel": "Advanced",
+                        "statusDate": "01/20/2023"
                     },
                     {
                         "step": "first chamber",
-                        "status": "future",
-                        "statusLabel": null,
+                        "status": "current",
+                        "statusLabel": "Pending",
                         "statusDate": null
                     },
                     {
@@ -21457,14 +21457,14 @@
                     },
                     {
                         "step": "first committee",
-                        "status": "current",
-                        "statusLabel": "Pending",
-                        "statusDate": null
+                        "status": "passed",
+                        "statusLabel": "Advanced",
+                        "statusDate": "01/20/2023"
                     },
                     {
                         "step": "first chamber",
-                        "status": "future",
-                        "statusLabel": null,
+                        "status": "current",
+                        "statusLabel": "Pending",
                         "statusDate": null
                     },
                     {
@@ -25462,9 +25462,9 @@
                 "title": "Revising laws relating to real estate transaction disclosures",
                 "chamber": "house",
                 "status": {
-                    "key": "In First House--Introduced",
+                    "key": "In First House Committee--Nontabled",
                     "step": "First chamber",
-                    "label": "Introduced",
+                    "label": "In committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -48959,6 +48959,50 @@
                     }
                 ],
                 "textUrl": "http://leg.mt.gov/bills/2023/billpdf/SB0179.pdf",
+                "fiscalNoteUrl": null,
+                "legalNoteUrl": null,
+                "numArticles": 0,
+                "sponsor": {
+                    "name": "Jason Small",
+                    "lastName": "Small",
+                    "party": "R",
+                    "locale": "Busby",
+                    "district": "SD 21"
+                }
+            },
+            {
+                "key": "sr-29",
+                "identifier": "SR 29",
+                "title": "Confirm governor's appointees for the board of realty regulation",
+                "chamber": "senate",
+                "status": {
+                    "key": "In First House--Introduced",
+                    "step": "First chamber",
+                    "label": "Introduced",
+                    "status": "live",
+                    "statusAtSessionEnd": "failed"
+                },
+                "progress": [
+                    {
+                        "step": "introduced",
+                        "status": "passed",
+                        "statusLabel": "Introduced",
+                        "statusDate": "01/20/2023"
+                    },
+                    {
+                        "step": "first committee",
+                        "status": "current",
+                        "statusLabel": "Pending",
+                        "statusDate": null
+                    },
+                    {
+                        "step": "first chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    }
+                ],
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC4502.pdf",
                 "fiscalNoteUrl": null,
                 "legalNoteUrl": null,
                 "numArticles": 0,
