@@ -39937,6 +39937,50 @@
                     "locale": "Malta",
                     "district": "SD 17"
                 }
+            },
+            {
+                "key": "sr-26",
+                "identifier": "SR 26",
+                "title": "Confirm governor's appointees for the board of veterinary medicine",
+                "chamber": "senate",
+                "status": {
+                    "key": "In Drafting Process",
+                    "step": "Drafting",
+                    "label": "In drafting",
+                    "status": "not introduced",
+                    "statusAtSessionEnd": "not introduced"
+                },
+                "progress": [
+                    {
+                        "step": "introduced",
+                        "status": "future",
+                        "statusLabel": "Not introduced",
+                        "statusDate": null
+                    },
+                    {
+                        "step": "first committee",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "first chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    }
+                ],
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC4498.pdf",
+                "fiscalNoteUrl": null,
+                "legalNoteUrl": null,
+                "numArticles": 0,
+                "sponsor": {
+                    "name": "Mike Lang",
+                    "lastName": "Lang",
+                    "party": "R",
+                    "locale": "Malta",
+                    "district": "SD 17"
+                }
             }
         ],
         "votingSummary": {
