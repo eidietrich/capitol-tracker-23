@@ -14428,9 +14428,9 @@
                 "title": "Feed bill to fund 68th legislative session and prepare for 2025",
                 "chamber": "house",
                 "status": {
-                    "key": "Passed By Legislature--Enrolling and Final Preparation Process",
-                    "step": "Through Legislature",
-                    "label": "Passed both chambers",
+                    "key": "Transmitted to Governor",
+                    "step": "Governor",
+                    "label": "Before governor",
                     "status": "live",
                     "statusAtSessionEnd": "pending, passed legislature"
                 },
@@ -33159,7 +33159,7 @@
                         "statusDate": null
                     }
                 ],
-                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC1344.pdf",
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/SB0207.pdf",
                 "fiscalNoteUrl": null,
                 "legalNoteUrl": null,
                 "numArticles": 0,
@@ -40489,6 +40489,68 @@
                 }
             },
             {
+                "key": "sb-209",
+                "identifier": "SB 209",
+                "title": "Revise laws relating to Montana distilleries",
+                "chamber": "senate",
+                "status": {
+                    "key": "In First House--Introduced",
+                    "step": "First chamber",
+                    "label": "Introduced",
+                    "status": "live",
+                    "statusAtSessionEnd": "failed"
+                },
+                "progress": [
+                    {
+                        "step": "introduced",
+                        "status": "passed",
+                        "statusLabel": "Introduced",
+                        "statusDate": "01/23/2023"
+                    },
+                    {
+                        "step": "first committee",
+                        "status": "current",
+                        "statusLabel": "Pending",
+                        "statusDate": null
+                    },
+                    {
+                        "step": "first chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "second chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "reconciliation",
+                        "status": "skipped",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "governor",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    }
+                ],
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/SB0209.pdf",
+                "fiscalNoteUrl": null,
+                "legalNoteUrl": null,
+                "numArticles": 0,
+                "sponsor": {
+                    "name": "Greg Hertz",
+                    "lastName": "Hertz",
+                    "party": "R",
+                    "locale": "Polson",
+                    "district": "SD 6"
+                }
+            },
+            {
                 "key": "sr-11",
                 "identifier": "SR 11",
                 "title": "Confirm governor's appointee for Montana tax appeal board",
@@ -45655,7 +45717,7 @@
                         "statusDate": null
                     }
                 ],
-                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC4479.pdf",
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/SR0046.pdf",
                 "fiscalNoteUrl": null,
                 "legalNoteUrl": null,
                 "numArticles": 0,
@@ -50409,7 +50471,7 @@
                         "statusDate": null
                     }
                 ],
-                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC0065.pdf",
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/SB0208.pdf",
                 "fiscalNoteUrl": null,
                 "legalNoteUrl": null,
                 "numArticles": 0,
@@ -51616,7 +51678,7 @@
                         "statusDate": null
                     }
                 ],
-                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC1968.pdf",
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/SB0204.pdf",
                 "fiscalNoteUrl": null,
                 "legalNoteUrl": null,
                 "numArticles": 0,
@@ -51678,7 +51740,7 @@
                         "statusDate": null
                     }
                 ],
-                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC1967.pdf",
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/SB0205.pdf",
                 "fiscalNoteUrl": null,
                 "legalNoteUrl": null,
                 "numArticles": 0,
@@ -51740,7 +51802,7 @@
                         "statusDate": null
                     }
                 ],
-                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC4190.pdf",
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/SB0206.pdf",
                 "fiscalNoteUrl": null,
                 "legalNoteUrl": null,
                 "numArticles": 0,
