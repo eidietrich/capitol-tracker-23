@@ -1,58 +1,853 @@
 {
     "actionsByDate": [
         {
+            "date": "01/23/2023",
+            "actions": [
+                {
+                    "id": "HB60-0029",
+                    "bill": "HB 60",
+                    "date": "01/23/2023",
+                    "description": "Committee Executive Action--Bill Passed",
+                    "posession": "house",
+                    "committee": "House Appropriations",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "title": "An act providing for an annual fee on electric vehicles registered in the state"
+                },
+                {
+                    "id": "HB62-0024",
+                    "bill": "HB 62",
+                    "date": "01/23/2023",
+                    "description": "2nd Reading Passed as Amended",
+                    "posession": "house",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "2nd Reading Passed as Amended",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "firstChamberFloorAction": true,
+                    "preliminaryPassage": true,
+                    "amended": true,
+                    "title": "Generally revise laws related to bail bonds"
+                },
+                {
+                    "id": "HB72-0025",
+                    "bill": "HB 72",
+                    "date": "01/23/2023",
+                    "description": "2nd Reading Passed",
+                    "posession": "house",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "2nd Reading Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "firstChamberFloorAction": true,
+                    "preliminaryPassage": true,
+                    "title": "Revise alcohol licenses related to restaurant beer and wine licenses",
+                    "explanation": null
+                },
+                {
+                    "id": "HB74-0024",
+                    "bill": "HB 74",
+                    "date": "01/23/2023",
+                    "description": "3rd Reading Passed",
+                    "posession": "house",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "3rd Reading Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "firstChamberFloorAction": true,
+                    "advanced": true,
+                    "finalPassage": true,
+                    "title": "Eliminate requirement to release pheasants from Upland Game Bird Program",
+                    "explanation": null
+                },
+                {
+                    "id": "HB75-0024",
+                    "bill": "HB 75",
+                    "date": "01/23/2023",
+                    "description": "3rd Reading Passed",
+                    "posession": "house",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "3rd Reading Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "firstChamberFloorAction": true,
+                    "advanced": true,
+                    "finalPassage": true,
+                    "title": "Revise reporting requirements for fuel tax refunds",
+                    "explanation": null
+                },
+                {
+                    "id": "HB79-0027",
+                    "bill": "HB 79",
+                    "date": "01/23/2023",
+                    "description": "2nd Reading Passed as Amended",
+                    "posession": "house",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "2nd Reading Passed as Amended",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "firstChamberFloorAction": true,
+                    "preliminaryPassage": true,
+                    "amended": true,
+                    "title": "Create sexual assault response network program and committee"
+                },
+                {
+                    "id": "HB81-0029",
+                    "bill": "HB 81",
+                    "date": "01/23/2023",
+                    "description": "3rd Reading Passed",
+                    "posession": "house",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "3rd Reading Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "firstChamberFloorAction": true,
+                    "advanced": true,
+                    "finalPassage": true,
+                    "title": "Create new state veterans' cemetery"
+                },
+                {
+                    "id": "HB89-0022",
+                    "bill": "HB 89",
+                    "date": "01/23/2023",
+                    "description": "2nd Reading Passed",
+                    "posession": "house",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "2nd Reading Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "firstChamberFloorAction": true,
+                    "preliminaryPassage": true,
+                    "title": "Revise laws related to Montana national guard life insurance and court martials",
+                    "explanation": null
+                },
+                {
+                    "id": "HB101-0025",
+                    "bill": "HB 101",
+                    "date": "01/23/2023",
+                    "description": "2nd Reading Passed",
+                    "posession": "house",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "2nd Reading Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "firstChamberFloorAction": true,
+                    "preliminaryPassage": true,
+                    "title": "Revise licensing reciprocity for behavioral health care licensees"
+                },
+                {
+                    "id": "HB129-0025",
+                    "bill": "HB 129",
+                    "date": "01/23/2023",
+                    "description": "2nd Reading Passed",
+                    "posession": "house",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "2nd Reading Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "firstChamberFloorAction": true,
+                    "preliminaryPassage": true,
+                    "title": "Revise fees for special mobile equipment",
+                    "explanation": null
+                },
+                {
+                    "id": "HB141-0025",
+                    "bill": "HB 141",
+                    "date": "01/23/2023",
+                    "description": "Committee Executive Action--Bill Passed",
+                    "posession": "house",
+                    "committee": "House Appropriations",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "title": "Revise Blackfeet mitigation fund laws"
+                },
+                {
+                    "id": "HB146-0018",
+                    "bill": "HB 146",
+                    "date": "01/23/2023",
+                    "description": "2nd Reading Passed",
+                    "posession": "house",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "2nd Reading Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "firstChamberFloorAction": true,
+                    "preliminaryPassage": true,
+                    "title": "Create landowner preference to hunt deer and antelope",
+                    "explanation": null
+                },
+                {
+                    "id": "HB151-0023",
+                    "bill": "HB 151",
+                    "date": "01/23/2023",
+                    "description": "3rd Reading Passed",
+                    "posession": "house",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "3rd Reading Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "firstChamberFloorAction": true,
+                    "advanced": true,
+                    "finalPassage": true,
+                    "title": "Generally revise building construction procurement laws",
+                    "explanation": null
+                },
+                {
+                    "id": "HB155-0021",
+                    "bill": "HB 155",
+                    "date": "01/23/2023",
+                    "description": "2nd Reading Passed",
+                    "posession": "house",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "2nd Reading Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "firstChamberFloorAction": true,
+                    "preliminaryPassage": true,
+                    "title": "Generally revise laws related to alcohol licenses",
+                    "explanation": null
+                },
+                {
+                    "id": "HB169-0024",
+                    "bill": "HB 169",
+                    "date": "01/23/2023",
+                    "description": "3rd Reading Passed",
+                    "posession": "house",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "3rd Reading Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "firstChamberFloorAction": true,
+                    "advanced": true,
+                    "finalPassage": true,
+                    "title": "Clarify confirmation requirements for interim judicial appointees",
+                    "explanation": null
+                },
+                {
+                    "id": "HB170-0027",
+                    "bill": "HB 170",
+                    "date": "01/23/2023",
+                    "description": "3rd Reading Passed",
+                    "posession": "house",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "3rd Reading Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "firstChamberFloorAction": true,
+                    "advanced": true,
+                    "finalPassage": true,
+                    "title": "Repeal state energy policy"
+                },
+                {
+                    "id": "HB178-0024",
+                    "bill": "HB 178",
+                    "date": "01/23/2023",
+                    "description": "3rd Reading Passed",
+                    "posession": "house",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "3rd Reading Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "firstChamberFloorAction": true,
+                    "advanced": true,
+                    "finalPassage": true,
+                    "title": "Revise workers' compensation laws relating to social or recreational activity"
+                },
+                {
+                    "id": "HB183-0028",
+                    "bill": "HB 183",
+                    "date": "01/23/2023",
+                    "description": "3rd Reading Passed",
+                    "posession": "house",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "3rd Reading Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "firstChamberFloorAction": true,
+                    "advanced": true,
+                    "finalPassage": true,
+                    "title": "Revise the Crime Victims Restitution Fund relating to burial amounts"
+                },
+                {
+                    "id": "HB185-0029",
+                    "bill": "HB 185",
+                    "date": "01/23/2023",
+                    "description": "2nd Reading Passed",
+                    "posession": "house",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "2nd Reading Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "firstChamberFloorAction": true,
+                    "preliminaryPassage": true,
+                    "title": "Increase appropriation to MSU Fire Service Training School"
+                },
+                {
+                    "id": "HB205-0026",
+                    "bill": "HB 205",
+                    "date": "01/23/2023",
+                    "description": "3rd Reading Passed",
+                    "posession": "house",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "3rd Reading Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "firstChamberFloorAction": true,
+                    "advanced": true,
+                    "finalPassage": true,
+                    "title": "Revise minimum allowable amounts for automotive liability insurance"
+                },
+                {
+                    "id": "HB209-0027",
+                    "bill": "HB 209",
+                    "date": "01/23/2023",
+                    "description": "Reconsidered Previous Action; Placed on 2nd Reading",
+                    "posession": "house",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Reconsidered Previous Action; Placed on 2nd Reading",
+                    "isMajor": true,
+                    "title": "Revise live poker prize limit"
+                },
+                {
+                    "id": "HB213-0021",
+                    "bill": "HB 213",
+                    "date": "01/23/2023",
+                    "description": "Committee Executive Action--Bill Passed as Amended",
+                    "posession": "house",
+                    "committee": "House Judiciary",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed as Amended",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "amended": true,
+                    "title": "Provide certificate of nonviable birth"
+                },
+                {
+                    "id": "HB244-0024",
+                    "bill": "HB 244",
+                    "date": "01/23/2023",
+                    "description": "Committee Executive Action--Bill Passed",
+                    "posession": "house",
+                    "committee": "House Appropriations",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "title": "Revise laws governing the housing Montana fund"
+                },
+                {
+                    "id": "HB251-0025",
+                    "bill": "HB 251",
+                    "date": "01/23/2023",
+                    "description": "Committee Executive Action--Bill Passed",
+                    "posession": "house",
+                    "committee": "House Taxation",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "title": "Provide budget stability through investment and liability reduction"
+                },
+                {
+                    "id": "HB260-0023",
+                    "bill": "HB 260",
+                    "date": "01/23/2023",
+                    "description": "2nd Reading Passed",
+                    "posession": "house",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "2nd Reading Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "firstChamberFloorAction": true,
+                    "preliminaryPassage": true,
+                    "title": "Revise laws regarding legislative special counsel"
+                },
+                {
+                    "id": "SB12-0026",
+                    "bill": "SB 12",
+                    "date": "01/23/2023",
+                    "description": "2nd Reading Passed",
+                    "posession": "senate",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "2nd Reading Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "firstChamberFloorAction": true,
+                    "preliminaryPassage": true,
+                    "title": "Revising laws on public defender representation related to local ordinances"
+                },
+                {
+                    "id": "SB13-0025",
+                    "bill": "SB 13",
+                    "date": "01/23/2023",
+                    "description": "2nd Reading Passed",
+                    "posession": "senate",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "2nd Reading Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "firstChamberFloorAction": true,
+                    "preliminaryPassage": true,
+                    "title": "Revise DUI laws related to admissible tests for presence of drugs"
+                },
+                {
+                    "id": "SB17-0020",
+                    "bill": "SB 17",
+                    "date": "01/23/2023",
+                    "description": "3rd Reading Passed",
+                    "posession": "senate",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "3rd Reading Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "firstChamberFloorAction": true,
+                    "advanced": true,
+                    "finalPassage": true,
+                    "title": "Revise oversight of stream gauge network"
+                },
+                {
+                    "id": "SB19-0024",
+                    "bill": "SB 19",
+                    "date": "01/23/2023",
+                    "description": "2nd Reading Passed",
+                    "posession": "senate",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "2nd Reading Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "firstChamberFloorAction": true,
+                    "preliminaryPassage": true,
+                    "title": "Generally revise disorderly conduct sentencing laws"
+                },
+                {
+                    "id": "SB33-0025",
+                    "bill": "SB 33",
+                    "date": "01/23/2023",
+                    "description": "3rd Reading Passed",
+                    "posession": "senate",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "3rd Reading Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "firstChamberFloorAction": true,
+                    "advanced": true,
+                    "finalPassage": true,
+                    "title": "Repealing class C motor carrier regulations"
+                },
+                {
+                    "id": "SB42-0019",
+                    "bill": "SB 42",
+                    "date": "01/23/2023",
+                    "description": "2nd Reading Passed",
+                    "posession": "senate",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "2nd Reading Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "firstChamberFloorAction": true,
+                    "preliminaryPassage": true,
+                    "title": "Revise laws related to easements on state lands",
+                    "explanation": null
+                },
+                {
+                    "id": "SB43-0019",
+                    "bill": "SB 43",
+                    "date": "01/23/2023",
+                    "description": "2nd Reading Passed",
+                    "posession": "senate",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "2nd Reading Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "firstChamberFloorAction": true,
+                    "preliminaryPassage": true,
+                    "title": "Revise notice for certain timber sales",
+                    "explanation": null
+                },
+                {
+                    "id": "SB50-0023",
+                    "bill": "SB 50",
+                    "date": "01/23/2023",
+                    "description": "3rd Reading Passed",
+                    "posession": "senate",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "3rd Reading Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "firstChamberFloorAction": true,
+                    "advanced": true,
+                    "finalPassage": true,
+                    "title": "Generally revise laws related to data breach notification",
+                    "explanation": null
+                },
+                {
+                    "id": "SB53-0021",
+                    "bill": "SB 53",
+                    "date": "01/23/2023",
+                    "description": "Committee Executive Action--Bill Passed as Amended",
+                    "posession": "senate",
+                    "committee": "Senate Business, Labor, and Economic Affairs",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed as Amended",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "amended": true,
+                    "title": "Revise laws related to weights and measures",
+                    "explanation": null
+                },
+                {
+                    "id": "SB54-0036",
+                    "bill": "SB 54",
+                    "date": "01/23/2023",
+                    "description": "2nd Reading Passed",
+                    "posession": "senate",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "2nd Reading Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "firstChamberFloorAction": true,
+                    "preliminaryPassage": true,
+                    "title": "Revise centrally assessed property appraisals",
+                    "explanation": null
+                },
+                {
+                    "id": "SB64-0021",
+                    "bill": "SB 64",
+                    "date": "01/23/2023",
+                    "description": "3rd Reading Passed",
+                    "posession": "senate",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "3rd Reading Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "firstChamberFloorAction": true,
+                    "advanced": true,
+                    "finalPassage": true,
+                    "title": "Revise laws related to extension of individual income tax statute of limitations",
+                    "explanation": null
+                },
+                {
+                    "id": "SB68-0022",
+                    "bill": "SB 68",
+                    "date": "01/23/2023",
+                    "description": "2nd Reading Passed",
+                    "posession": "senate",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "2nd Reading Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "firstChamberFloorAction": true,
+                    "preliminaryPassage": true,
+                    "title": "Revise laws related to coroner inquests for DOC facilities",
+                    "explanation": null
+                },
+                {
+                    "id": "SB81-0021",
+                    "bill": "SB 81",
+                    "date": "01/23/2023",
+                    "description": "3rd Reading Passed",
+                    "posession": "senate",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "3rd Reading Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "firstChamberFloorAction": true,
+                    "advanced": true,
+                    "finalPassage": true,
+                    "title": "Revise description of pipeline carrier for property tax purposes",
+                    "explanation": null
+                },
+                {
+                    "id": "SB89-0025",
+                    "bill": "SB 89",
+                    "date": "01/23/2023",
+                    "description": "2nd Reading Passed",
+                    "posession": "senate",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "2nd Reading Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "firstChamberFloorAction": true,
+                    "preliminaryPassage": true,
+                    "title": "Create pretrial diversion pilot program"
+                },
+                {
+                    "id": "SB106-0023",
+                    "bill": "SB 106",
+                    "date": "01/23/2023",
+                    "description": "2nd Reading Passed",
+                    "posession": "senate",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "2nd Reading Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "firstChamberFloorAction": true,
+                    "preliminaryPassage": true,
+                    "title": "Revise vehicle and vessel title laws relating to transfer"
+                },
+                {
+                    "id": "SB113-0020",
+                    "bill": "SB 113",
+                    "date": "01/23/2023",
+                    "description": "Committee Executive Action--Bill Passed",
+                    "posession": "senate",
+                    "committee": "Senate Public Health, Welfare and Safety",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "title": "Make permanent certain notification requirements in CPS cases"
+                },
+                {
+                    "id": "SB115-0019",
+                    "bill": "SB 115",
+                    "date": "01/23/2023",
+                    "description": "Committee Executive Action--Bill Passed as Amended",
+                    "posession": "senate",
+                    "committee": "Senate Public Health, Welfare and Safety",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed as Amended",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "amended": true,
+                    "title": "Revise definition of psychological abuse or neglect in CPS cases"
+                },
+                {
+                    "id": "SB142-0026",
+                    "bill": "SB 142",
+                    "date": "01/23/2023",
+                    "description": "Committee Executive Action--Bill Passed as Amended",
+                    "posession": "senate",
+                    "committee": "Senate Local Government",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed as Amended",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "amended": true,
+                    "title": "Provide oversight of local impact fee laws"
+                },
+                {
+                    "id": "SB149-0023",
+                    "bill": "SB 149",
+                    "date": "01/23/2023",
+                    "description": "3rd Reading Passed",
+                    "posession": "senate",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "3rd Reading Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "firstChamberFloorAction": true,
+                    "advanced": true,
+                    "finalPassage": true,
+                    "title": "Establish penalties for false reporting in child protective services cases"
+                },
+                {
+                    "id": "SB151-0023",
+                    "bill": "SB 151",
+                    "date": "01/23/2023",
+                    "description": "Committee Executive Action--Bill Passed",
+                    "posession": "senate",
+                    "committee": "Senate Public Health, Welfare and Safety",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "title": "Revise laws related to parental financial responsibility in CPS cases"
+                },
+                {
+                    "id": "SB162-0026",
+                    "bill": "SB 162",
+                    "date": "01/23/2023",
+                    "description": "Committee Executive Action--Bill Passed",
+                    "posession": "senate",
+                    "committee": "Senate Public Health, Welfare and Safety",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "title": "Provide notice to foster parents in CPS cases"
+                },
+                {
+                    "id": "SB166-0023",
+                    "bill": "SB 166",
+                    "date": "01/23/2023",
+                    "description": "Committee Executive Action--Bill Passed",
+                    "posession": "senate",
+                    "committee": "Senate Business, Labor, and Economic Affairs",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "title": "Exempt barbering services in prisons and detention centers from licensing laws",
+                    "explanation": null
+                },
+                {
+                    "id": "SJ1-0039",
+                    "bill": "SJ 1",
+                    "date": "01/23/2023",
+                    "description": "3rd Reading Concurred",
+                    "posession": "house",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "3rd Reading Concurred",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "secondChamberAction": true,
+                    "advanced": true,
+                    "finalPassage": true,
+                    "title": "Senate Joint Resolution on the joint rules"
+                },
+                {
+                    "id": "SJ5-0019",
+                    "bill": "SJ 5",
+                    "date": "01/23/2023",
+                    "description": "2nd Reading Passed",
+                    "posession": "senate",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "2nd Reading Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "firstChamberFloorAction": true,
+                    "preliminaryPassage": true,
+                    "title": "Resolution urging Congress to fully fund law enforcement in Indian Country"
+                },
+                {
+                    "id": "SJ8-0020",
+                    "bill": "SJ 8",
+                    "date": "01/23/2023",
+                    "description": "Committee Executive Action--Bill Passed as Amended",
+                    "posession": "senate",
+                    "committee": "Senate State Administration",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed as Amended",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "amended": true,
+                    "title": "Joint resolution on redistricting"
+                }
+            ]
+        },
+        {
             "date": "01/20/2023",
             "actions": [
                 {
-                    "id": "HB15-0027",
-                    "bill": "HB 15",
-                    "date": "01/20/2023",
-                    "description": "Committee Executive Action--Bill Passed",
-                    "posession": "house",
-                    "committee": "House Appropriations",
-                    "actionUrl": null,
-                    "recordings": [],
-                    "key": "Committee Executive Action--Bill Passed",
-                    "isMajor": true,
-                    "isHighlight": true,
-                    "committeeAction": true,
-                    "advanced": true,
-                    "title": "Implement K-12 Inflation"
-                },
-                {
-                    "id": "HB20-0014",
-                    "bill": "HB 20",
-                    "date": "01/20/2023",
-                    "description": "Committee Executive Action--Bill Passed",
-                    "posession": "house",
-                    "committee": "House Local Government",
-                    "actionUrl": null,
-                    "recordings": [],
-                    "key": "Committee Executive Action--Bill Passed",
-                    "isMajor": true,
-                    "isHighlight": true,
-                    "committeeAction": true,
-                    "advanced": true,
-                    "title": "Appropriation for the MSU Local Government Center"
-                },
-                {
                     "id": "HB28-0026",
-                    "bill": "HB 28",
-                    "date": "01/20/2023",
-                    "description": "Committee Executive Action--Bill Passed",
-                    "posession": "house",
-                    "committee": "House Appropriations",
-                    "actionUrl": null,
-                    "recordings": [],
-                    "key": "Committee Executive Action--Bill Passed",
-                    "isMajor": true,
-                    "isHighlight": true,
-                    "committeeAction": true,
-                    "advanced": true,
-                    "title": "Increase legislator per diem reimbursements for lodging and meals"
-                },
-                {
-                    "id": "HB28-0028",
                     "bill": "HB 28",
                     "date": "01/20/2023",
                     "description": "Committee Executive Action--Bill Passed",
@@ -86,12 +881,45 @@
                     "title": "Revising school funding laws related to enrollment increases"
                 },
                 {
-                    "id": "HB37-0022",
-                    "bill": "HB 37",
+                    "id": "HB44-0027",
+                    "bill": "HB 44",
+                    "date": "01/20/2023",
+                    "description": "Committee Executive Action--Bill Concurred",
+                    "posession": "senate",
+                    "committee": "Senate Agriculture, Livestock and Irrigation",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Concurred",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "title": "Revise document requirements for state stock inspectors",
+                    "explanation": null
+                },
+                {
+                    "id": "HB49-0016",
+                    "bill": "HB 49",
+                    "date": "01/20/2023",
+                    "description": "Taken from Table in Committee",
+                    "posession": "house",
+                    "committee": "House Business and Labor",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Taken from Table in Committee",
+                    "isMajor": true,
+                    "committeeAction": true,
+                    "secondChamberAction": true,
+                    "title": "Revising alcoholic beverage laws relating to wholesalers and distributors",
+                    "explanation": null
+                },
+                {
+                    "id": "HB49-0017",
+                    "bill": "HB 49",
                     "date": "01/20/2023",
                     "description": "Committee Executive Action--Bill Passed as Amended",
                     "posession": "house",
-                    "committee": "House Judiciary",
+                    "committee": "House Business and Labor",
                     "actionUrl": null,
                     "recordings": [],
                     "key": "Committee Executive Action--Bill Passed as Amended",
@@ -100,7 +928,25 @@
                     "committeeAction": true,
                     "advanced": true,
                     "amended": true,
-                    "title": "Generally revise child abuse and neglect laws"
+                    "title": "Revising alcoholic beverage laws relating to wholesalers and distributors",
+                    "explanation": null
+                },
+                {
+                    "id": "HB73-0025",
+                    "bill": "HB 73",
+                    "date": "01/20/2023",
+                    "description": "Committee Executive Action--Bill Concurred",
+                    "posession": "senate",
+                    "committee": "Senate Fish and Game",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Concurred",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "title": "Repeal surety bond requirements for FWP license agents",
+                    "explanation": null
                 },
                 {
                     "id": "HB74-0022",
@@ -189,12 +1035,12 @@
                     "explanation": null
                 },
                 {
-                    "id": "HB100-0016",
-                    "bill": "HB 100",
+                    "id": "HB95-0017",
+                    "bill": "HB 95",
                     "date": "01/20/2023",
                     "description": "Committee Executive Action--Bill Passed as Amended",
                     "posession": "house",
-                    "committee": "House Agriculture",
+                    "committee": "House Business and Labor",
                     "actionUrl": null,
                     "recordings": [],
                     "key": "Committee Executive Action--Bill Passed as Amended",
@@ -203,7 +1049,7 @@
                     "committeeAction": true,
                     "advanced": true,
                     "amended": true,
-                    "title": "Require livestock containment for required animal disease testing",
+                    "title": "Generally revise laws related to alcohol",
                     "explanation": null
                 },
                 {
@@ -222,24 +1068,6 @@
                     "advanced": true,
                     "finalPassage": true,
                     "title": "Revise laws related to accrediting agencies for health care facilities",
-                    "explanation": null
-                },
-                {
-                    "id": "HB104-0017",
-                    "bill": "HB 104",
-                    "date": "01/20/2023",
-                    "description": "Committee Executive Action--Bill Passed as Amended",
-                    "posession": "house",
-                    "committee": "House Agriculture",
-                    "actionUrl": null,
-                    "recordings": [],
-                    "key": "Committee Executive Action--Bill Passed as Amended",
-                    "isMajor": true,
-                    "isHighlight": true,
-                    "committeeAction": true,
-                    "advanced": true,
-                    "amended": true,
-                    "title": "Revise aerial hunting requirements",
                     "explanation": null
                 },
                 {
@@ -294,23 +1122,6 @@
                     "advanced": true,
                     "finalPassage": true,
                     "title": "Code commissioner bill"
-                },
-                {
-                    "id": "HB112-0019",
-                    "bill": "HB 112",
-                    "date": "01/20/2023",
-                    "description": "Committee Executive Action--Bill Passed as Amended",
-                    "posession": "house",
-                    "committee": "House Judiciary",
-                    "actionUrl": null,
-                    "recordings": [],
-                    "key": "Committee Executive Action--Bill Passed as Amended",
-                    "isMajor": true,
-                    "isHighlight": true,
-                    "committeeAction": true,
-                    "advanced": true,
-                    "amended": true,
-                    "title": "Generally revise human trafficking laws"
                 },
                 {
                     "id": "HB116-0020",
@@ -384,21 +1195,21 @@
                     "explanation": null
                 },
                 {
-                    "id": "HB161-0019",
-                    "bill": "HB 161",
+                    "id": "HB153-0025",
+                    "bill": "HB 153",
                     "date": "01/20/2023",
-                    "description": "Committee Executive Action--Bill Passed as Amended",
-                    "posession": "house",
-                    "committee": "House Judiciary",
+                    "description": "Committee Executive Action--Bill Concurred",
+                    "posession": "senate",
+                    "committee": "Senate Agriculture, Livestock and Irrigation",
                     "actionUrl": null,
                     "recordings": [],
-                    "key": "Committee Executive Action--Bill Passed as Amended",
+                    "key": "Committee Executive Action--Bill Concurred",
                     "isMajor": true,
                     "isHighlight": true,
                     "committeeAction": true,
                     "advanced": true,
-                    "amended": true,
-                    "title": "Generally revise computer crime laws"
+                    "title": "Generally revise laws related to livestock markets",
+                    "explanation": null
                 },
                 {
                     "id": "HB163-0024",
@@ -415,6 +1226,24 @@
                     "committeeAction": true,
                     "advanced": true,
                     "title": "Revise and extend Missing Indigenous Persons Task Force"
+                },
+                {
+                    "id": "HB164-0019",
+                    "bill": "HB 164",
+                    "date": "01/20/2023",
+                    "description": "Committee Executive Action--Bill Passed as Amended",
+                    "posession": "house",
+                    "committee": "House Business and Labor",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed as Amended",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "amended": true,
+                    "title": "Revise alcohol laws relating to catering endorsements",
+                    "explanation": null
                 },
                 {
                     "id": "HB169-0022",
@@ -450,22 +1279,6 @@
                     "title": "Repeal state energy policy"
                 },
                 {
-                    "id": "HB176-0020",
-                    "bill": "HB 176",
-                    "date": "01/20/2023",
-                    "description": "Committee Executive Action--Bill Passed",
-                    "posession": "house",
-                    "committee": "House Local Government",
-                    "actionUrl": null,
-                    "recordings": [],
-                    "key": "Committee Executive Action--Bill Passed",
-                    "isMajor": true,
-                    "isHighlight": true,
-                    "committeeAction": true,
-                    "advanced": true,
-                    "title": "Revising county utility permitting laws"
-                },
-                {
                     "id": "HB178-0022",
                     "bill": "HB 178",
                     "date": "01/20/2023",
@@ -480,6 +1293,23 @@
                     "firstChamberFloorAction": true,
                     "preliminaryPassage": true,
                     "title": "Revise workers' compensation laws relating to social or recreational activity"
+                },
+                {
+                    "id": "HB182-0021",
+                    "bill": "HB 182",
+                    "date": "01/20/2023",
+                    "description": "Committee Executive Action--Bill Passed as Amended",
+                    "posession": "house",
+                    "committee": "House Business and Labor",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed as Amended",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "amended": true,
+                    "title": "Revise Montana voluntary insurance telematics laws"
                 },
                 {
                     "id": "HB183-0026",
@@ -514,12 +1344,12 @@
                     "title": "Extend funding to Coal Board"
                 },
                 {
-                    "id": "HB194-0020",
-                    "bill": "HB 194",
+                    "id": "HB189-0026",
+                    "bill": "HB 189",
                     "date": "01/20/2023",
                     "description": "Committee Executive Action--Bill Passed",
                     "posession": "house",
-                    "committee": "House Human Services",
+                    "committee": "House Taxation",
                     "actionUrl": null,
                     "recordings": [],
                     "key": "Committee Executive Action--Bill Passed",
@@ -527,10 +1357,10 @@
                     "isHighlight": true,
                     "committeeAction": true,
                     "advanced": true,
-                    "title": "Extending the expiration date for medical marijuana registry cards for veterans"
+                    "title": "Revise property tax assistance program"
                 },
                 {
-                    "id": "HB194-0021",
+                    "id": "HB194-0020",
                     "bill": "HB 194",
                     "date": "01/20/2023",
                     "description": "Committee Executive Action--Bill Passed",
@@ -582,39 +1412,7 @@
                     "title": "Generally revise consumer rights laws to repair powered wheelchairs"
                 },
                 {
-                    "id": "HB198-0023",
-                    "bill": "HB 198",
-                    "date": "01/20/2023",
-                    "description": "Committee Executive Action--Bill Passed",
-                    "posession": "house",
-                    "committee": "House Local Government",
-                    "actionUrl": null,
-                    "recordings": [],
-                    "key": "Committee Executive Action--Bill Passed",
-                    "isMajor": true,
-                    "isHighlight": true,
-                    "committeeAction": true,
-                    "advanced": true,
-                    "title": "Provide for municipal authority regarding encroachments"
-                },
-                {
                     "id": "HB200-0019",
-                    "bill": "HB 200",
-                    "date": "01/20/2023",
-                    "description": "Committee Executive Action--Bill Passed",
-                    "posession": "house",
-                    "committee": "House Human Services",
-                    "actionUrl": null,
-                    "recordings": [],
-                    "key": "Committee Executive Action--Bill Passed",
-                    "isMajor": true,
-                    "isHighlight": true,
-                    "committeeAction": true,
-                    "advanced": true,
-                    "title": "Revise the Montana Safe Haven Newborn Protection Act"
-                },
-                {
-                    "id": "HB200-0020",
                     "bill": "HB 200",
                     "date": "01/20/2023",
                     "description": "Committee Executive Action--Bill Passed",
@@ -664,7 +1462,7 @@
                     "title": "Revise minimum allowable amounts for automotive liability insurance"
                 },
                 {
-                    "id": "HB209-0027",
+                    "id": "HB209-0026",
                     "bill": "HB 209",
                     "date": "01/20/2023",
                     "description": "2nd Reading Not Passed",
@@ -712,6 +1510,24 @@
                     "title": "Revise laws related to contributions from parents/guardians"
                 },
                 {
+                    "id": "HB233-0020",
+                    "bill": "HB 233",
+                    "date": "01/20/2023",
+                    "description": "Tabled in Committee",
+                    "posession": "house",
+                    "committee": "House Judiciary",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Tabled in Committee",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "secondChamberAction": true,
+                    "failed": true,
+                    "tabled": true,
+                    "title": "Require the refund of residential lease application fees"
+                },
+                {
                     "id": "HB239-0020",
                     "bill": "HB 239",
                     "date": "01/20/2023",
@@ -726,6 +1542,38 @@
                     "committeeAction": true,
                     "advanced": true,
                     "title": "Revise who may serve as a judge pro tempore in justice's courts"
+                },
+                {
+                    "id": "HB247-0019",
+                    "bill": "HB 247",
+                    "date": "01/20/2023",
+                    "description": "Committee Executive Action--Bill Passed",
+                    "posession": "house",
+                    "committee": "House Business and Labor",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "title": "Revise laws relating to exemptions to the practice of real estate"
+                },
+                {
+                    "id": "HJ1-0029",
+                    "bill": "HJ 1",
+                    "date": "01/20/2023",
+                    "description": "Committee Executive Action--Bill Concurred",
+                    "posession": "senate",
+                    "committee": "Senate Judiciary",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Concurred",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "title": "Request interim study on missing youth"
                 },
                 {
                     "id": "SB17-0018",
@@ -864,6 +1712,41 @@
                     "explanation": null
                 },
                 {
+                    "id": "SB84-0016",
+                    "bill": "SB 84",
+                    "date": "01/20/2023",
+                    "description": "Committee Executive Action--Bill Passed as Amended",
+                    "posession": "senate",
+                    "committee": "Senate Fish and Game",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed as Amended",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "amended": true,
+                    "title": "Revise laws related to hunting and aircraft use",
+                    "explanation": null
+                },
+                {
+                    "id": "SB85-0015",
+                    "bill": "SB 85",
+                    "date": "01/20/2023",
+                    "description": "Committee Executive Action--Bill Passed as Amended",
+                    "posession": "senate",
+                    "committee": "Senate Fish and Game",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed as Amended",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "amended": true,
+                    "title": "Require management of delisted grizzly bears at sustainable levels"
+                },
+                {
                     "id": "SB111-0030",
                     "bill": "SB 111",
                     "date": "01/20/2023",
@@ -896,6 +1779,56 @@
                     "advanced": true,
                     "finalPassage": true,
                     "title": "Revise confidentiality provisions related to child protective services cases"
+                },
+                {
+                    "id": "SB119-0023",
+                    "bill": "SB 119",
+                    "date": "01/20/2023",
+                    "description": "Committee Executive Action--Bill Passed",
+                    "posession": "senate",
+                    "committee": "Senate Taxation",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "title": "Provide tribal property tax exemption to tribal members"
+                },
+                {
+                    "id": "SB121-0026",
+                    "bill": "SB 121",
+                    "date": "01/20/2023",
+                    "description": "Committee Executive Action--Bill Passed",
+                    "posession": "senate",
+                    "committee": "Senate Taxation",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "title": "Reduce top marginal income tax rate and increase EITC",
+                    "explanation": null
+                },
+                {
+                    "id": "SB124-0024",
+                    "bill": "SB 124",
+                    "date": "01/20/2023",
+                    "description": "Committee Executive Action--Bill Passed as Amended",
+                    "posession": "senate",
+                    "committee": "Senate Taxation",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed as Amended",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "amended": true,
+                    "title": "Revise corporate income tax apportionment"
                 },
                 {
                     "id": "SB130-0034",
@@ -981,7 +1914,7 @@
                     "title": "Revise minor subdivision laws"
                 },
                 {
-                    "id": "SB155-0028",
+                    "id": "SB155-0027",
                     "bill": "SB 155",
                     "date": "01/20/2023",
                     "description": "2nd Reading Passed as Amended",
@@ -1037,6 +1970,22 @@
             "date": "01/19/2023",
             "actions": [
                 {
+                    "id": "HB15-0026",
+                    "bill": "HB 15",
+                    "date": "01/19/2023",
+                    "description": "Committee Executive Action--Bill Passed",
+                    "posession": "house",
+                    "committee": "House Appropriations",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "title": "Implement K-12 Inflation"
+                },
+                {
                     "id": "HB19-0023",
                     "bill": "HB 19",
                     "date": "01/19/2023",
@@ -1044,13 +1993,31 @@
                     "posession": "house",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46107?agendaId=247421"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
                     "firstChamberFloorAction": true,
                     "preliminaryPassage": true,
                     "title": "Revising laws related to Indian affairs and economic development"
+                },
+                {
+                    "id": "HB20-0014",
+                    "bill": "HB 20",
+                    "date": "01/19/2023",
+                    "description": "Committee Executive Action--Bill Passed",
+                    "posession": "house",
+                    "committee": "House Local Government",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "title": "Appropriation for the MSU Local Government Center"
                 },
                 {
                     "id": "HB29-0026",
@@ -1060,7 +2027,9 @@
                     "posession": "house",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46107?agendaId=247422"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -1139,6 +2108,41 @@
                     "explanation": null
                 },
                 {
+                    "id": "HB37-0025",
+                    "bill": "HB 37",
+                    "date": "01/19/2023",
+                    "description": "Committee Executive Action--Bill Passed as Amended",
+                    "posession": "house",
+                    "committee": "House Judiciary",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed as Amended",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "amended": true,
+                    "title": "Generally revise child abuse and neglect laws"
+                },
+                {
+                    "id": "HB40-0022",
+                    "bill": "HB 40",
+                    "date": "01/19/2023",
+                    "description": "Committee Executive Action--Bill Passed as Amended",
+                    "posession": "house",
+                    "committee": "House Human Services",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed as Amended",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "amended": true,
+                    "title": "Revise laws related to fetal, infant, child, and maternal mortality review teams",
+                    "explanation": null
+                },
+                {
                     "id": "HB41-0028",
                     "bill": "HB 41",
                     "date": "01/19/2023",
@@ -1154,6 +2158,24 @@
                     "advanced": true,
                     "finalPassage": true,
                     "title": "Revise laws to expand incumbent worker training eligibility and awards",
+                    "explanation": null
+                },
+                {
+                    "id": "HB42-0016",
+                    "bill": "HB 42",
+                    "date": "01/19/2023",
+                    "description": "Committee Executive Action--Bill Passed as Amended",
+                    "posession": "house",
+                    "committee": "House Fish, Wildlife and Parks",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed as Amended",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "amended": true,
+                    "title": "Revise laws related to FWP employee firearm use",
                     "explanation": null
                 },
                 {
@@ -1200,7 +2222,9 @@
                     "posession": "house",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46107?agendaId=247424"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -1406,6 +2430,24 @@
                     "explanation": null
                 },
                 {
+                    "id": "HB100-0016",
+                    "bill": "HB 100",
+                    "date": "01/19/2023",
+                    "description": "Committee Executive Action--Bill Passed as Amended",
+                    "posession": "house",
+                    "committee": "House Agriculture",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed as Amended",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "amended": true,
+                    "title": "Require livestock containment for required animal disease testing",
+                    "explanation": null
+                },
+                {
                     "id": "HB102-0018",
                     "bill": "HB 102",
                     "date": "01/19/2023",
@@ -1422,6 +2464,24 @@
                     "firstChamberFloorAction": true,
                     "preliminaryPassage": true,
                     "title": "Revise laws related to accrediting agencies for health care facilities",
+                    "explanation": null
+                },
+                {
+                    "id": "HB104-0017",
+                    "bill": "HB 104",
+                    "date": "01/19/2023",
+                    "description": "Committee Executive Action--Bill Passed as Amended",
+                    "posession": "house",
+                    "committee": "House Agriculture",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed as Amended",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "amended": true,
+                    "title": "Revise aerial hunting requirements",
                     "explanation": null
                 },
                 {
@@ -1445,6 +2505,22 @@
                 },
                 {
                     "id": "HB107-0021",
+                    "bill": "HB 107",
+                    "date": "01/19/2023",
+                    "description": "Taken from Table in Committee",
+                    "posession": "house",
+                    "committee": "House State Administration",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Taken from Table in Committee",
+                    "isMajor": true,
+                    "committeeAction": true,
+                    "secondChamberAction": true,
+                    "title": "Generally revise the duties of SERC",
+                    "explanation": null
+                },
+                {
+                    "id": "HB107-0022",
                     "bill": "HB 107",
                     "date": "01/19/2023",
                     "description": "Committee Executive Action--Bill Passed as Amended",
@@ -1499,6 +2575,23 @@
                     "title": "Code commissioner bill"
                 },
                 {
+                    "id": "HB112-0019",
+                    "bill": "HB 112",
+                    "date": "01/19/2023",
+                    "description": "Committee Executive Action--Bill Passed as Amended",
+                    "posession": "house",
+                    "committee": "House Judiciary",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed as Amended",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "amended": true,
+                    "title": "Generally revise human trafficking laws"
+                },
+                {
                     "id": "HB116-0018",
                     "bill": "HB 116",
                     "date": "01/19/2023",
@@ -1517,7 +2610,7 @@
                     "title": "Strengthen qualified provider pool statute for children's mental health services"
                 },
                 {
-                    "id": "HB117-0025",
+                    "id": "HB117-0024",
                     "bill": "HB 117",
                     "date": "01/19/2023",
                     "description": "Committee Executive Action--Bill Passed as Amended",
@@ -1614,7 +2707,9 @@
                     "posession": "house",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46107?agendaId=247434"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -1649,7 +2744,9 @@
                     "posession": "house",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46107?agendaId=247436"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -1673,6 +2770,23 @@
                     "advanced": true,
                     "amended": true,
                     "title": "Revise legislative constituent services allowance laws"
+                },
+                {
+                    "id": "HB161-0019",
+                    "bill": "HB 161",
+                    "date": "01/19/2023",
+                    "description": "Committee Executive Action--Bill Passed as Amended",
+                    "posession": "house",
+                    "committee": "House Judiciary",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed as Amended",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "amended": true,
+                    "title": "Generally revise computer crime laws"
                 },
                 {
                     "id": "HB167-0014",
@@ -1742,6 +2856,22 @@
                     "title": "Amend state ARPA funding session law"
                 },
                 {
+                    "id": "HB176-0020",
+                    "bill": "HB 176",
+                    "date": "01/19/2023",
+                    "description": "Committee Executive Action--Bill Passed",
+                    "posession": "house",
+                    "committee": "House Local Government",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "title": "Revising county utility permitting laws"
+                },
+                {
                     "id": "HB184-0020",
                     "bill": "HB 184",
                     "date": "01/19/2023",
@@ -1773,6 +2903,22 @@
                     "committeeAction": true,
                     "advanced": true,
                     "title": "Increase appropriation to MSU Fire Service Training School"
+                },
+                {
+                    "id": "HB198-0023",
+                    "bill": "HB 198",
+                    "date": "01/19/2023",
+                    "description": "Committee Executive Action--Bill Passed",
+                    "posession": "house",
+                    "committee": "House Local Government",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "title": "Provide for municipal authority regarding encroachments"
                 },
                 {
                     "id": "HB199-0019",
@@ -1808,6 +2954,23 @@
                     "amended": true,
                     "title": "Increase business equipment tax exemption",
                     "explanation": null
+                },
+                {
+                    "id": "HB217-0026",
+                    "bill": "HB 217",
+                    "date": "01/19/2023",
+                    "description": "Committee Executive Action--Bill Passed as Amended",
+                    "posession": "house",
+                    "committee": "House Fish, Wildlife and Parks",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed as Amended",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "amended": true,
+                    "title": "Increase fees for migratory bird licenses"
                 },
                 {
                     "id": "HB222-0025",
@@ -2160,7 +3323,9 @@
                     "posession": "senate",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46194?agendaId=247455"
+                    ],
                     "key": "2nd Reading Pass Motion Failed",
                     "isMajor": true,
                     "firstChamberFloorAction": true,
@@ -2418,7 +3583,9 @@
                     "posession": "house",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46106?agendaId=247113"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -2435,7 +3602,9 @@
                     "posession": "house",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46106?agendaId=247114"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -2451,7 +3620,9 @@
                     "posession": "house",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46106?agendaId=247115"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -2467,7 +3638,9 @@
                     "posession": "house",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46106?agendaId=247116"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -2502,7 +3675,9 @@
                     "posession": "house",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46106?agendaId=247118"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -2519,7 +3694,9 @@
                     "posession": "house",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46106?agendaId=247112"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -2554,7 +3731,9 @@
                     "posession": "house",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46106?agendaId=247120"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -2571,7 +3750,9 @@
                     "posession": "house",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46106?agendaId=247121"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -2588,7 +3769,9 @@
                     "posession": "house",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46106?agendaId=247122"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -2605,7 +3788,9 @@
                     "posession": "house",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46106?agendaId=247123"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -2656,7 +3841,9 @@
                     "posession": "house",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46106?agendaId=247124"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -2689,7 +3876,9 @@
                     "posession": "house",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46106?agendaId=247125"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -2706,7 +3895,9 @@
                     "posession": "house",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46106?agendaId=247126"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -2722,7 +3913,9 @@
                     "posession": "house",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46106?agendaId=247127"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -2773,7 +3966,9 @@
                     "posession": "house",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46106?agendaId=247128"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -2882,7 +4077,7 @@
                     "title": "Generally revise disorderly conduct sentencing laws"
                 },
                 {
-                    "id": "SB24-0028",
+                    "id": "SB24-0029",
                     "bill": "SB 24",
                     "date": "01/18/2023",
                     "description": "Committee Executive Action--Bill Passed as Amended",
@@ -3313,7 +4508,9 @@
                     "posession": "senate",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46193?agendaId=247152"
+                    ],
                     "key": "2nd Reading Passed as Amended",
                     "isMajor": true,
                     "isHighlight": true,
@@ -3448,7 +4645,9 @@
                     "posession": "senate",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46192?agendaId=246923"
+                    ],
                     "key": "2nd Reading Concurred",
                     "isMajor": true,
                     "isHighlight": true,
@@ -3584,7 +4783,9 @@
                     "posession": "house",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46105?agendaId=246844"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -4194,22 +5395,6 @@
                     "title": "Revising pipeline safety regulation penalties"
                 },
                 {
-                    "id": "SB32-0021",
-                    "bill": "SB 32",
-                    "date": "01/17/2023",
-                    "description": "Committee Executive Action--Bill Passed",
-                    "posession": "senate",
-                    "committee": "Senate Natural Resources",
-                    "actionUrl": null,
-                    "recordings": [],
-                    "key": "Committee Executive Action--Bill Passed",
-                    "isMajor": true,
-                    "isHighlight": true,
-                    "committeeAction": true,
-                    "advanced": true,
-                    "title": "Revising pipeline safety regulation penalties"
-                },
-                {
                     "id": "SB46-0024",
                     "bill": "SB 46",
                     "date": "01/17/2023",
@@ -4235,7 +5420,9 @@
                     "posession": "senate",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46192?agendaId=246888"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -4252,7 +5439,9 @@
                     "posession": "senate",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46192?agendaId=246889"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -4323,7 +5512,9 @@
                     "posession": "senate",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46192?agendaId=246891"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -4357,7 +5548,9 @@
                     "posession": "senate",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46192?agendaId=246893"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -4561,7 +5754,9 @@
                     "posession": "house",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46104?agendaId=246495"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -4577,7 +5772,9 @@
                     "posession": "house",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46104?agendaId=246496"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -4613,7 +5810,9 @@
                     "posession": "house",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46104?agendaId=246498"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -4647,7 +5846,9 @@
                     "posession": "house",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46104?agendaId=246499"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -4733,7 +5934,9 @@
                     "posession": "house",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46104?agendaId=246500"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -4767,7 +5970,9 @@
                     "posession": "house",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46104?agendaId=246501"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -4784,7 +5989,9 @@
                     "posession": "house",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46104?agendaId=246502"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -4801,7 +6008,9 @@
                     "posession": "house",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46104?agendaId=246503"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -4817,7 +6026,9 @@
                     "posession": "house",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46104?agendaId=246504"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -4868,7 +6079,9 @@
                     "posession": "house",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46104?agendaId=246505"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -4885,7 +6098,9 @@
                     "posession": "house",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46104?agendaId=246506"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -4902,7 +6117,9 @@
                     "posession": "house",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46104?agendaId=246507"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -4919,7 +6136,9 @@
                     "posession": "house",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46104?agendaId=246508"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -4971,7 +6190,9 @@
                     "posession": "senate",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46191?agendaId=246523"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -5039,7 +6260,9 @@
                     "posession": "senate",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46191?agendaId=246524"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -5092,7 +6315,9 @@
                     "posession": "senate",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46191?agendaId=246526"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -5127,7 +6352,9 @@
                     "posession": "senate",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46191?agendaId=246527"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -5144,7 +6371,9 @@
                     "posession": "senate",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46191?agendaId=246528"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -5178,7 +6407,9 @@
                     "posession": "senate",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46191?agendaId=246529"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -5248,7 +6479,9 @@
                     "posession": "senate",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46191?agendaId=246648"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -5273,7 +6506,7 @@
                     "title": "Revise exempt subdivision review timelines"
                 },
                 {
-                    "id": "SB158-0023",
+                    "id": "SB158-0021",
                     "bill": "SB 158",
                     "date": "01/16/2023",
                     "description": "Committee Executive Action--Bill Passed as Amended",
@@ -5442,7 +6675,9 @@
                     "posession": "house",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46103?agendaId=246082"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -5477,7 +6712,9 @@
                     "posession": "house",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46103?agendaId=246083"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -5494,7 +6731,9 @@
                     "posession": "house",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46103?agendaId=246084"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -5539,14 +6778,16 @@
                     "explanation": null
                 },
                 {
-                    "id": "HB117-0022",
+                    "id": "HB117-0021",
                     "bill": "HB 117",
                     "date": "01/13/2023",
                     "description": "2nd Reading Passed",
                     "posession": "house",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46103?agendaId=246085"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -5598,7 +6839,9 @@
                     "posession": "senate",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46190?agendaId=246100"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -5614,7 +6857,9 @@
                     "posession": "senate",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46190?agendaId=246101"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -5647,7 +6892,9 @@
                     "posession": "senate",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46190?agendaId=246102"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -5701,7 +6948,9 @@
                     "posession": "senate",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46190?agendaId=246104"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -5808,7 +7057,9 @@
                     "posession": "senate",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46190?agendaId=246105"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -5825,7 +7076,9 @@
                     "posession": "senate",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46190?agendaId=246106"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -5893,7 +7146,9 @@
                     "posession": "senate",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46190?agendaId=246107"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -6033,7 +7288,10 @@
                     "posession": "house",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/47542?agendaId=247692",
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46102?agendaId=245691"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -6049,7 +7307,10 @@
                     "posession": "house",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/47542?agendaId=247693",
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46102?agendaId=245692"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -6082,7 +7343,10 @@
                     "posession": "house",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/47542?agendaId=247694",
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46102?agendaId=245693"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -6098,7 +7362,10 @@
                     "posession": "house",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/47542?agendaId=247695",
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46102?agendaId=245694"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -6254,7 +7521,10 @@
                     "posession": "house",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/47542?agendaId=247696",
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46102?agendaId=245695"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -6376,7 +7646,10 @@
                     "posession": "house",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/47542?agendaId=247697",
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46102?agendaId=245696"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -6427,7 +7700,10 @@
                     "posession": "house",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/47542?agendaId=247698",
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46102?agendaId=245697"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -6530,7 +7806,10 @@
                     "posession": "house",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/47542?agendaId=247699",
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46102?agendaId=245698"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -6796,7 +8075,10 @@
                     "posession": "senate",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/47544?agendaId=247712",
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46189?agendaId=245733"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -6812,7 +8094,10 @@
                     "posession": "senate",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/47544?agendaId=247713",
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46189?agendaId=245734"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -6829,7 +8114,10 @@
                     "posession": "senate",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/47544?agendaId=247714",
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46189?agendaId=245735"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -6917,7 +8205,10 @@
                     "posession": "senate",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/47544?agendaId=247715",
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46189?agendaId=245736"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -6999,7 +8290,10 @@
                     "posession": "senate",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/47544?agendaId=247716",
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46189?agendaId=245737"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -7081,7 +8375,10 @@
                     "posession": "senate",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/47544?agendaId=247717",
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46189?agendaId=245738"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -7136,7 +8433,8 @@
                     "committee": null,
                     "actionUrl": null,
                     "recordings": [
-                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46101?agendaId=245200"
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46101?agendaId=245200",
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/47520?agendaId=246621"
                     ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
@@ -7388,7 +8686,8 @@
                     "committee": null,
                     "actionUrl": null,
                     "recordings": [
-                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46101?agendaId=245202"
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46101?agendaId=245202",
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/47520?agendaId=246623"
                     ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
@@ -7440,7 +8739,8 @@
                     "committee": null,
                     "actionUrl": null,
                     "recordings": [
-                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46101?agendaId=245203"
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46101?agendaId=245203",
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/47520?agendaId=246624"
                     ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
@@ -7604,7 +8904,8 @@
                     "committee": null,
                     "actionUrl": null,
                     "recordings": [
-                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46101?agendaId=245208"
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46101?agendaId=245208",
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/47520?agendaId=246628"
                     ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
@@ -7623,7 +8924,8 @@
                     "committee": null,
                     "actionUrl": null,
                     "recordings": [
-                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46101?agendaId=245209"
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46101?agendaId=245209",
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/47520?agendaId=246629"
                     ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
@@ -7723,6 +9025,7 @@
                     "committee": null,
                     "actionUrl": null,
                     "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/47511?agendaId=246641",
                         "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46188?agendaId=245326"
                     ],
                     "key": "2nd Reading Passed",
@@ -7891,6 +9194,7 @@
                     "committee": null,
                     "actionUrl": null,
                     "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/47511?agendaId=246642",
                         "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46188?agendaId=245327"
                     ],
                     "key": "2nd Reading Passed",
@@ -8114,6 +9418,7 @@
                     "committee": null,
                     "actionUrl": null,
                     "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/47511?agendaId=246643",
                         "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46188?agendaId=245328"
                     ],
                     "key": "2nd Reading Passed",
@@ -8132,6 +9437,7 @@
                     "committee": null,
                     "actionUrl": null,
                     "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/47511?agendaId=246644",
                         "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46188?agendaId=245329"
                     ],
                     "key": "2nd Reading Passed",
@@ -8241,6 +9547,7 @@
                     "committee": null,
                     "actionUrl": null,
                     "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/47485?agendaId=246344",
                         "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46100?agendaId=244801"
                     ],
                     "key": "2nd Reading Passed as Amended",
@@ -8296,6 +9603,7 @@
                     "committee": null,
                     "actionUrl": null,
                     "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/47485?agendaId=246345",
                         "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46100?agendaId=244802"
                     ],
                     "key": "2nd Reading Passed",
@@ -8332,6 +9640,7 @@
                     "committee": null,
                     "actionUrl": null,
                     "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/47485?agendaId=246346",
                         "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46100?agendaId=244804"
                     ],
                     "key": "2nd Reading Passed",
@@ -8369,6 +9678,7 @@
                     "committee": null,
                     "actionUrl": null,
                     "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/47485?agendaId=246347",
                         "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46100?agendaId=244805"
                     ],
                     "key": "2nd Reading Passed",
@@ -8388,6 +9698,7 @@
                     "committee": null,
                     "actionUrl": null,
                     "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/47485?agendaId=246348",
                         "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46100?agendaId=244806"
                     ],
                     "key": "2nd Reading Passed",
@@ -8407,6 +9718,7 @@
                     "committee": null,
                     "actionUrl": null,
                     "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/47485?agendaId=246349",
                         "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46100?agendaId=244807"
                     ],
                     "key": "2nd Reading Passed",
@@ -8426,6 +9738,7 @@
                     "committee": null,
                     "actionUrl": null,
                     "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/47485?agendaId=246350",
                         "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46100?agendaId=244808"
                     ],
                     "key": "2nd Reading Passed",
@@ -8444,6 +9757,7 @@
                     "committee": null,
                     "actionUrl": null,
                     "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/47485?agendaId=246351",
                         "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46100?agendaId=244809"
                     ],
                     "key": "2nd Reading Not Passed",
@@ -8534,6 +9848,7 @@
                     "committee": null,
                     "actionUrl": null,
                     "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/47485?agendaId=246352",
                         "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46100?agendaId=244810"
                     ],
                     "key": "2nd Reading Passed",
@@ -8605,6 +9920,7 @@
                     "committee": null,
                     "actionUrl": null,
                     "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/47485?agendaId=246353",
                         "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46100?agendaId=244811"
                     ],
                     "key": "2nd Reading Passed",
@@ -8661,7 +9977,8 @@
                     "committee": null,
                     "actionUrl": null,
                     "recordings": [
-                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46187?agendaId=244827"
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46187?agendaId=244827",
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/47486?agendaId=246366"
                     ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
@@ -8679,7 +9996,8 @@
                     "committee": null,
                     "actionUrl": null,
                     "recordings": [
-                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46187?agendaId=244829"
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46187?agendaId=244829",
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/47486?agendaId=246367"
                     ],
                     "key": "2nd Reading Passed as Amended",
                     "isMajor": true,
@@ -8820,7 +10138,8 @@
                     "committee": null,
                     "actionUrl": null,
                     "recordings": [
-                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46187?agendaId=244831"
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46187?agendaId=244831",
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/47486?agendaId=246368"
                     ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
@@ -8925,6 +10244,7 @@
                     "committee": null,
                     "actionUrl": null,
                     "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/47454?agendaId=245997",
                         "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46099?agendaId=244480"
                     ],
                     "key": "2nd Reading Passed as Amended",
@@ -9043,6 +10363,7 @@
                     "committee": null,
                     "actionUrl": null,
                     "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/47454?agendaId=245998",
                         "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46099?agendaId=244482"
                     ],
                     "key": "2nd Reading Passed",
@@ -9115,6 +10436,7 @@
                     "committee": null,
                     "actionUrl": null,
                     "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/47454?agendaId=245999",
                         "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46099?agendaId=244484"
                     ],
                     "key": "2nd Reading Passed",
@@ -9150,6 +10472,7 @@
                     "committee": null,
                     "actionUrl": null,
                     "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/47454?agendaId=246000",
                         "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46099?agendaId=244485"
                     ],
                     "key": "2nd Reading Passed",
@@ -9168,6 +10491,7 @@
                     "committee": null,
                     "actionUrl": null,
                     "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/47454?agendaId=246001",
                         "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46099?agendaId=244486"
                     ],
                     "key": "2nd Reading Passed",
@@ -9292,6 +10616,7 @@
                     "committee": null,
                     "actionUrl": null,
                     "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/47454?agendaId=246002",
                         "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46099?agendaId=244487"
                     ],
                     "key": "2nd Reading Passed",
@@ -9327,6 +10652,7 @@
                     "committee": null,
                     "actionUrl": null,
                     "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/47454?agendaId=246003",
                         "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46099?agendaId=244488"
                     ],
                     "key": "2nd Reading Passed as Amended",
