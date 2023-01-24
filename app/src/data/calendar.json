@@ -27,6 +27,7 @@
         "HB 59",
         "HB 65",
         "HB 70",
+        "HB 79",
         "HB 82",
         "HB 83",
         "HB 99",
@@ -51,6 +52,7 @@
         "HB 241",
         "HB 246",
         "HB 250",
+        "HB 251",
         "HB 252",
         "HB 254",
         "HB 258",
@@ -68,6 +70,7 @@
         "HB 279",
         "HB 282",
         "HB 283",
+        "HB 284",
         "HB 286",
         "HB 287",
         "HB 288",
@@ -625,6 +628,19 @@
             "hearing": true
         },
         {
+            "id": "HB79-0030",
+            "bill": "HB 79",
+            "date": "01/25/2023",
+            "description": "Hearing",
+            "posession": "house",
+            "committee": "House Appropriations",
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
             "id": "HB82-0026",
             "bill": "HB 82",
             "date": "01/25/2023",
@@ -937,6 +953,19 @@
             "hearing": true
         },
         {
+            "id": "HB251-0028",
+            "bill": "HB 251",
+            "date": "01/24/2023",
+            "description": "Hearing",
+            "posession": "house",
+            "committee": "House Appropriations",
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
             "id": "HB252-0022",
             "bill": "HB 252",
             "date": "01/25/2023",
@@ -1151,6 +1180,19 @@
             "description": "Hearing",
             "posession": "house",
             "committee": "House Judiciary",
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
+            "id": "HB284-0021",
+            "bill": "HB 284",
+            "date": "01/25/2023",
+            "description": "Hearing",
+            "posession": "house",
+            "committee": "House Energy, Technology and Federal Relations",
             "actionUrl": null,
             "recordings": [],
             "key": "Hearing",
