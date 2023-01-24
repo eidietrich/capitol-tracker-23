@@ -1717,14 +1717,14 @@
                     },
                     {
                         "step": "first committee",
-                        "status": "current",
-                        "statusLabel": "Pending",
-                        "statusDate": null
+                        "status": "passed",
+                        "statusLabel": "Advanced",
+                        "statusDate": "01/24/2023"
                     },
                     {
                         "step": "first chamber",
-                        "status": "future",
-                        "statusLabel": null,
+                        "status": "current",
+                        "statusLabel": "Pending",
                         "statusDate": null
                     },
                     {
@@ -4462,7 +4462,7 @@
                         "statusDate": null
                     }
                 ],
-                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC3466.pdf",
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0314.pdf",
                 "fiscalNoteUrl": null,
                 "legalNoteUrl": null,
                 "numArticles": 0,
@@ -4524,7 +4524,7 @@
                         "statusDate": null
                     }
                 ],
-                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC3455.pdf",
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0316.pdf",
                 "fiscalNoteUrl": null,
                 "legalNoteUrl": null,
                 "numArticles": 0,
@@ -7967,7 +7967,7 @@
                         "statusDate": null
                     }
                 ],
-                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC4413.pdf",
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0320.pdf",
                 "fiscalNoteUrl": null,
                 "legalNoteUrl": null,
                 "numArticles": 0,
@@ -9758,7 +9758,7 @@
                         "statusDate": null
                     }
                 ],
-                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC0082.pdf",
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0319.pdf",
                 "fiscalNoteUrl": null,
                 "legalNoteUrl": null,
                 "numArticles": 0,
@@ -14586,7 +14586,7 @@
                         "statusDate": null
                     }
                 ],
-                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC2330.pdf",
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0318.pdf",
                 "fiscalNoteUrl": null,
                 "legalNoteUrl": null,
                 "numArticles": 0,
@@ -17306,7 +17306,7 @@
                         "statusDate": null
                     }
                 ],
-                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC4321.pdf",
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0315.pdf",
                 "fiscalNoteUrl": null,
                 "legalNoteUrl": null,
                 "numArticles": 0,
@@ -25328,14 +25328,14 @@
                     },
                     {
                         "step": "first committee",
-                        "status": "current",
-                        "statusLabel": "Pending",
-                        "statusDate": null
+                        "status": "passed",
+                        "statusLabel": "Advanced",
+                        "statusDate": "01/24/2023"
                     },
                     {
                         "step": "first chamber",
-                        "status": "future",
-                        "statusLabel": null,
+                        "status": "current",
+                        "statusLabel": "Pending",
                         "statusDate": null
                     },
                     {
@@ -25419,7 +25419,7 @@
                         "statusDate": null
                     }
                 ],
-                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC1343.pdf",
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0321.pdf",
                 "fiscalNoteUrl": null,
                 "legalNoteUrl": null,
                 "numArticles": 0,
@@ -29085,14 +29085,14 @@
                     },
                     {
                         "step": "first committee",
-                        "status": "current",
-                        "statusLabel": "Pending",
-                        "statusDate": null
+                        "status": "passed",
+                        "statusLabel": "Advanced",
+                        "statusDate": "01/24/2023"
                     },
                     {
                         "step": "first chamber",
-                        "status": "future",
-                        "statusLabel": null,
+                        "status": "current",
+                        "statusLabel": "Pending",
                         "statusDate": null
                     },
                     {
@@ -31225,7 +31225,7 @@
                         "statusDate": null
                     }
                 ],
-                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC0897.pdf",
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0317.pdf",
                 "fiscalNoteUrl": null,
                 "legalNoteUrl": null,
                 "numArticles": 0,
@@ -47086,7 +47086,24 @@
                 "chamber": "senate"
             }
         ],
-        "articles": [],
+        "articles": [
+            {
+                "title": "Bill would reverse ballot issue requirements created in 2021 session ",
+                "category": "2023 Legislature",
+                "subtitle": "",
+                "date": "2023-01-23T18:35:44.000Z",
+                "link": "https://montanafreepress.org/2023/01/23/bill-would-reverse-ballot-issue-requirements-created-in-2021-session/",
+                "author": "Arren Kimbel-Sannit",
+                "imageUrl": "https://montanafreepress.org/2021/08/05/feds-to-nix-work-requirements-in-montana-medicaid-expansion-program/montana-capitol_eliza-wiley_1200x675/",
+                "billTags": [
+                    "SB 153"
+                ],
+                "lawmakerTags": [
+                    "Brad Molnar"
+                ],
+                "governorTags": []
+            }
+        ],
         "imageSlug": "2023/Brad-Molnar.png",
         "sponsoredBills": [
             {
@@ -47142,7 +47159,7 @@
                 "textUrl": "http://leg.mt.gov/bills/2023/billpdf/SB0153.pdf",
                 "fiscalNoteUrl": "https://leg.mt.gov/laws/bills/2023/FNPDF/SB0153",
                 "legalNoteUrl": null,
-                "numArticles": 0,
+                "numArticles": 1,
                 "sponsor": {
                     "name": "Brad Molnar",
                     "lastName": "Molnar",
