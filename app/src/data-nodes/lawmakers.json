@@ -30735,9 +30735,9 @@
                 "title": "Revise income tax rates for net-long term capital gains",
                 "chamber": "house",
                 "status": {
-                    "key": "In First House--Out of Committee",
+                    "key": "In First House Committee--Nontabled",
                     "step": "First chamber",
-                    "label": "Out of committee",
+                    "label": "In committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -37426,14 +37426,14 @@
                     },
                     {
                         "step": "first committee",
-                        "status": "current",
-                        "statusLabel": "Pending",
-                        "statusDate": null
+                        "status": "passed",
+                        "statusLabel": "Advanced",
+                        "statusDate": "01/24/2023"
                     },
                     {
                         "step": "first chamber",
-                        "status": "future",
-                        "statusLabel": null,
+                        "status": "current",
+                        "statusLabel": "Pending",
                         "statusDate": null
                     },
                     {
@@ -43850,6 +43850,68 @@
                 }
             },
             {
+                "key": "sb-166",
+                "identifier": "SB 166",
+                "title": "Exempt barbering services in prisons and detention centers from licensing laws",
+                "chamber": "senate",
+                "status": {
+                    "key": "In First House--Out of Committee",
+                    "step": "First chamber",
+                    "label": "Out of committee",
+                    "status": "live",
+                    "statusAtSessionEnd": "failed"
+                },
+                "progress": [
+                    {
+                        "step": "introduced",
+                        "status": "passed",
+                        "statusLabel": "Introduced",
+                        "statusDate": "01/12/2023"
+                    },
+                    {
+                        "step": "first committee",
+                        "status": "passed",
+                        "statusLabel": "Advanced",
+                        "statusDate": "01/23/2023"
+                    },
+                    {
+                        "step": "first chamber",
+                        "status": "current",
+                        "statusLabel": "Pending",
+                        "statusDate": null
+                    },
+                    {
+                        "step": "second chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "reconciliation",
+                        "status": "skipped",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "governor",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    }
+                ],
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/SB0166.pdf",
+                "fiscalNoteUrl": null,
+                "legalNoteUrl": null,
+                "numArticles": 0,
+                "sponsor": {
+                    "name": "Ryan Lynch",
+                    "lastName": "Lynch",
+                    "party": "D",
+                    "locale": "Butte",
+                    "district": "SD 37"
+                }
+            },
+            {
                 "key": "sj-3",
                 "identifier": "SJ 3",
                 "title": "Joint resolution related to the Justice Counts Initiative",
@@ -45504,6 +45566,68 @@
                     }
                 ],
                 "textUrl": "http://leg.mt.gov/bills/2023/billpdf/SB0139.pdf",
+                "fiscalNoteUrl": null,
+                "legalNoteUrl": null,
+                "numArticles": 0,
+                "sponsor": {
+                    "name": "Tom McGillvray",
+                    "lastName": "McGillvray",
+                    "party": "R",
+                    "locale": "Billings",
+                    "district": "SD 23"
+                }
+            },
+            {
+                "key": "sb-211",
+                "identifier": "SB 211",
+                "title": "Article V convention commissioner selection and credentialing act",
+                "chamber": "senate",
+                "status": {
+                    "key": "In Drafting Process",
+                    "step": "Drafting",
+                    "label": "In drafting",
+                    "status": "not introduced",
+                    "statusAtSessionEnd": "not introduced"
+                },
+                "progress": [
+                    {
+                        "step": "introduced",
+                        "status": "future",
+                        "statusLabel": "Not introduced",
+                        "statusDate": null
+                    },
+                    {
+                        "step": "first committee",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "first chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "second chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "reconciliation",
+                        "status": "skipped",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "governor",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    }
+                ],
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC0167.pdf",
                 "fiscalNoteUrl": null,
                 "legalNoteUrl": null,
                 "numArticles": 0,
@@ -50937,14 +51061,14 @@
                     },
                     {
                         "step": "first committee",
-                        "status": "current",
-                        "statusLabel": "Pending",
-                        "statusDate": null
+                        "status": "passed",
+                        "statusLabel": "Advanced",
+                        "statusDate": "01/24/2023"
                     },
                     {
                         "step": "first chamber",
-                        "status": "future",
-                        "statusLabel": null,
+                        "status": "current",
+                        "statusLabel": "Pending",
                         "statusDate": null
                     },
                     {

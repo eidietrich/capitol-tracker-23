@@ -43,6 +43,7 @@
             "HB 188",
             "HB 192",
             "HB 212",
+            "HB 221",
             "HB 222",
             "HB 244",
             "HB 245",
@@ -53,7 +54,7 @@
             "HB 274",
             "HB 292"
         ],
-        "billCount": 47,
+        "billCount": 48,
         "billsUnscheduled": [
             "HB 2",
             "HB 5",
@@ -66,7 +67,8 @@
             "HB 12",
             "HB 16",
             "HB 20",
-            "HB 163"
+            "HB 163",
+            "HB 221"
         ],
         "billsScheduledByDay": [
             {
@@ -327,9 +329,7 @@
             "HB 197",
             "HB 216",
             "HB 296",
-            "HB 301",
-            "HB 303",
-            "HB 308"
+            "HB 303"
         ],
         "billsScheduledByDay": [
             {
@@ -345,6 +345,13 @@
                 "bills": [
                     "SB 7",
                     "SB 91"
+                ]
+            },
+            {
+                "day": "01/27/2023",
+                "bills": [
+                    "HB 301",
+                    "HB 308"
                 ]
             }
         ],
@@ -3266,6 +3273,7 @@
             "SB 155",
             "SB 161",
             "SB 165",
+            "SB 166",
             "SB 167",
             "SB 168",
             "SB 174",
@@ -3287,7 +3295,7 @@
             "SR 42",
             "SR 43"
         ],
-        "billCount": 65,
+        "billCount": 66,
         "billsUnscheduled": [
             "HB 178",
             "SB 20",
@@ -3354,18 +3362,19 @@
             "HB 120",
             "HB 138",
             "HB 139",
-            "HB 160",
             "SB 22",
             "SB 105",
             "SB 140",
             "SB 146",
-            "SB 167",
             "SB 168",
             "SB 174",
             "SJ 2"
         ],
         "billsFailed": [],
         "billsAdvanced": [
+            "HB 157",
+            "HB 160",
+            "HB 166",
             "SB 21",
             "SB 35",
             "SB 53",
@@ -3380,7 +3389,10 @@
             "SB 107",
             "SB 108",
             "SB 133",
-            "SB 155"
+            "SB 155",
+            "SB 166",
+            "SB 167",
+            "SB 179"
         ],
         "billsBlasted": [],
         "members": [
