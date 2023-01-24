@@ -1702,9 +1702,9 @@
                 "title": "Generally revise education laws to enhance educational opportunities",
                 "chamber": "house",
                 "status": {
-                    "key": "In First House Committee--Nontabled",
+                    "key": "In First House--Out of Committee",
                     "step": "First chamber",
-                    "label": "In committee",
+                    "label": "Out of committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -4982,7 +4982,7 @@
                         "step": "first committee",
                         "status": "blocked",
                         "statusLabel": "Tabled",
-                        "statusDate": "01/20/2023"
+                        "statusDate": "01/19/2023"
                     },
                     {
                         "step": "first chamber",
@@ -8964,9 +8964,9 @@
                 "title": "Revise laws governing the housing Montana fund",
                 "chamber": "house",
                 "status": {
-                    "key": "In First House Committee--Nontabled",
+                    "key": "In First House--Out of Committee",
                     "step": "First chamber",
-                    "label": "In committee",
+                    "label": "Out of committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -15048,9 +15048,9 @@
                 "title": "Revise Blackfeet mitigation fund laws",
                 "chamber": "house",
                 "status": {
-                    "key": "In First House Committee--Nontabled",
+                    "key": "In First House--Out of Committee",
                     "step": "First chamber",
-                    "label": "In committee",
+                    "label": "Out of committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -19005,9 +19005,9 @@
                 "title": "An act providing for an annual fee on electric vehicles registered in the state",
                 "chamber": "house",
                 "status": {
-                    "key": "In First House Committee--Nontabled",
+                    "key": "In First House--Out of Committee",
                     "step": "First chamber",
-                    "label": "In committee",
+                    "label": "Out of committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -23138,9 +23138,9 @@
                 "title": "Revise property tax assistance program",
                 "chamber": "house",
                 "status": {
-                    "key": "In First House Committee--Nontabled",
+                    "key": "In First House--Out of Committee",
                     "step": "First chamber",
-                    "label": "In committee",
+                    "label": "Out of committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -25313,9 +25313,9 @@
                 "title": "Revise laws related to the superintendent of public instruction",
                 "chamber": "house",
                 "status": {
-                    "key": "In First House Committee--Nontabled",
+                    "key": "In First House--Out of Committee",
                     "step": "First chamber",
-                    "label": "In committee",
+                    "label": "Out of committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -26595,9 +26595,9 @@
                 "title": "Requiring certain costs paid to detention centers to be based on actual costs",
                 "chamber": "house",
                 "status": {
-                    "key": "In First House Committee--Nontabled",
+                    "key": "In First House--Out of Committee",
                     "step": "First chamber",
-                    "label": "In committee",
+                    "label": "Out of committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -29070,9 +29070,9 @@
                 "title": "Revise outdated reference for family education savings program laws",
                 "chamber": "house",
                 "status": {
-                    "key": "In First House Committee--Nontabled",
+                    "key": "In First House--Out of Committee",
                     "step": "First chamber",
-                    "label": "In committee",
+                    "label": "Out of committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -39094,6 +39094,68 @@
                     "locale": "Kila",
                     "district": "SD 2"
                 }
+            },
+            {
+                "key": "sb-210",
+                "identifier": "SB 210",
+                "title": "Prohibit consent as a defense for physician-assisted suicide",
+                "chamber": "senate",
+                "status": {
+                    "key": "In Drafting Process",
+                    "step": "Drafting",
+                    "label": "In drafting",
+                    "status": "not introduced",
+                    "statusAtSessionEnd": "not introduced"
+                },
+                "progress": [
+                    {
+                        "step": "introduced",
+                        "status": "future",
+                        "statusLabel": "Not introduced",
+                        "statusDate": null
+                    },
+                    {
+                        "step": "first committee",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "first chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "second chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "reconciliation",
+                        "status": "skipped",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "governor",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    }
+                ],
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC1043.pdf",
+                "fiscalNoteUrl": null,
+                "legalNoteUrl": null,
+                "numArticles": 0,
+                "sponsor": {
+                    "name": "Carl Glimm",
+                    "lastName": "Glimm",
+                    "party": "R",
+                    "locale": "Kila",
+                    "district": "SD 2"
+                }
             }
         ],
         "votingSummary": {
@@ -45335,9 +45397,9 @@
                 "title": "Revise pharmacist prescribing authority",
                 "chamber": "senate",
                 "status": {
-                    "key": "In First House Committee--Nontabled",
+                    "key": "In First House--Out of Committee",
                     "step": "First chamber",
-                    "label": "In committee",
+                    "label": "Out of committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -46424,9 +46486,9 @@
                 "title": "Repeal Clean Campaign Act",
                 "chamber": "senate",
                 "status": {
-                    "key": "In First House Committee--Nontabled",
+                    "key": "In First House--Out of Committee",
                     "step": "First chamber",
-                    "label": "In committee",
+                    "label": "Out of committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -47640,9 +47702,9 @@
                 "title": "Create indigenous people's day",
                 "chamber": "senate",
                 "status": {
-                    "key": "In First House--Introduced",
+                    "key": "In First House Committee--Nontabled",
                     "step": "First chamber",
-                    "label": "Introduced",
+                    "label": "In committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -48019,9 +48081,9 @@
                 "title": "Revise transformational learning program laws",
                 "chamber": "senate",
                 "status": {
-                    "key": "In First House Committee--Nontabled",
+                    "key": "In First House--Out of Committee",
                     "step": "First chamber",
-                    "label": "In committee",
+                    "label": "Out of committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -48329,9 +48391,9 @@
                 "title": "Joint resolution recognizing Ireland on St. Patrick's Day",
                 "chamber": "senate",
                 "status": {
-                    "key": "In First House Committee--Nontabled",
+                    "key": "In First House--Out of Committee",
                     "step": "First chamber",
-                    "label": "In committee",
+                    "label": "Out of committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
