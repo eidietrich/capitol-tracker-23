@@ -3061,12 +3061,8 @@
         ],
         "billCount": 57,
         "billsUnscheduled": [
-            "HB 92",
-            "HB 169",
-            "HB 183",
             "HB 205",
-            "SB 127",
-            "SB 204"
+            "SB 127"
         ],
         "billsScheduledByDay": [
             {
@@ -3099,6 +3095,15 @@
                 "day": "01/27/2023",
                 "bills": [
                     "SB 99"
+                ]
+            },
+            {
+                "day": "01/31/2023",
+                "bills": [
+                    "HB 92",
+                    "HB 169",
+                    "HB 183",
+                    "SB 204"
                 ]
             },
             {
