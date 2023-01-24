@@ -1,8 +1,10 @@
 import { getJson, writeJson } from './utils.js'
 
-import Article from './models/MTFPArticle.js'
 import Lawmaker from './models/Lawmaker.js'
 import Bill from './models/Bill.js'
+import Committee from './models/Committee.js'
+
+import Article from './models/MTFPArticle.js'
 import VotingAnalysis from './models/VotingAnalysis.js'
 
 import CalendarPage from './models/CalendarPage.js'
@@ -11,6 +13,7 @@ import HousePage from './models/HousePage.js'
 import SenatePage from './models/SenatePage.js'
 import GovernorPage from './models/GovernorPage.js'
 
+import { COMMITTEES } from './config/committees.js'
 
 /*
 Approach here — each of these input buckets has a fetch script that needs to be run independently to update their contents
@@ -61,6 +64,14 @@ const houseFloorVotes = votes.filter(v => v.type === 'floor' && v.voteChamber ==
 const senateFloorVotes = votes.filter(v => v.type === 'floor' && v.voteChamber === 'senate')
 const houseFloorVoteAnalysis = new VotingAnalysis({ votes: houseFloorVotes })
 const senateFloorVoteAnalysis = new VotingAnalysis({ votes: senateFloorVotes })
+
+const committees = COMMITTEES
+    .filter(d => !['conference', 'select', 'procedural', 'fiscal-sub'].includes(d.type))
+    .map(schema => new Committee({
+        schema,
+        billActions: actions.filter(a => a.committee === schema.name),
+        lawmakers: lawmakers.filter(l => l.data.committees.map(d => d.committee).includes(schema.name)),
+    }))
 
 // Calculations that need both lawmakers and bills populated
 lawmakers.forEach(lawmaker => {
@@ -136,9 +147,10 @@ const participationPageOutput = {
 console.log('### Bundling tracker data')
 const billsOutput = bills.map(b => b.exportMerged())
 writeJson('./app/src/data-nodes/bills.json', billsOutput)
-
 const lawmakerOutput = lawmakers.map(l => l.exportMerged())
 writeJson('./app/src/data-nodes/lawmakers.json', lawmakerOutput)
+const committeeOutput = committees.map(l => l.export())
+writeJson('./app/src/data-nodes/committees.json', committeeOutput)
 
 writeJson('./app/src/data/header.json', headerOutput)
 writeJson('./app/src/data/process-annotations.json', processAnnotations)

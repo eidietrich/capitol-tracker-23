@@ -161,6 +161,8 @@ const missedDeadline = true
 const ultimatelyFailed = true
 const ultimatelyPassed = true
 
+const committeeReferral = true
+
 
 export const ACTIONS = [
     // omitting {flag: false} fields here for clarity
@@ -294,9 +296,9 @@ export const ACTIONS = [
 
 
     // Committee referrals
-    { key: 'Referred to Committee', isMajor, },
-    { key: 'Rereferred to Committee', isMajor, },
-    { key: 'Taken from 2nd Reading; Rereferred to Committee', isMajor, },
+    { key: 'Referred to Committee', isMajor, committeeReferral },
+    { key: 'Rereferred to Committee', isMajor, committeeReferral },
+    { key: 'Taken from 2nd Reading; Rereferred to Committee', isMajor, committeeReferral },
 
     // Other major, no votes expected
     { key: 'First Reading', isMajor, introduction },

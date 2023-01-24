@@ -1,4 +1,9 @@
-import { standardizeDate, standardizeCommiteeNames } from '../functions.js'
+import {
+    standardizeDate,
+    standardizeCommiteeNames,
+    // getCommitteeType,
+    // getCommitteeTime
+} from '../functions.js'
 
 import { ACTIONS } from '../config/procedure.js'
 
@@ -28,13 +33,17 @@ export default class Action {
 
         this.vote = vote
 
+        const committeeName = standardizeCommiteeNames(committee)
+
         this.data = {
             id,
             bill,
             date: standardizeDate(date),
             description,
             posession,
-            committee: standardizeCommiteeNames(committee),
+            committee: committeeName,
+            // committeeTime: getCommitteeTime(committeeName),
+            // committeeType: getCommitteeType(committeeName),
             actionUrl,
             recordings,
             // Flags

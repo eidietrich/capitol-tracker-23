@@ -17,6 +17,7 @@ const roster = getJson('./process/config/lawmaker-roster-2023.json')
 
 export const billKey = (identifier) => identifier.substring(0, 2).toLowerCase() + '-' + identifier.substring(3,)
 export const lawmakerKey = (name) => name.replace(/\s/g, '-')
+export const commiteeKey = (name) => name.replace(/,/g, '').replace(/\s/g, '-').toLowerCase()
 
 export const capitalize = string => string[0].toUpperCase() + string.slice(1).toLowerCase()
 
@@ -30,11 +31,24 @@ export const standardizeDate = date => {
 export const standardCommiteeNames = Array.from(new Set(Object.values(COMMITEE_NAME_CLEANING)))
 export const standardizeCommiteeNames = name => {
     if (standardCommiteeNames.includes(name)) return name
-    if ([null, '', ' '].includes(name)) return null
+    if ([null, '', ' ', '  '].includes(name)) return null
     const preClean = name.replace('(H) (H)', '(H)').replace('(S) (S)', '(S)')
     const clean = COMMITEE_NAME_CLEANING[preClean]
     if (!clean) console.error(`COMMITEE_NAME_CLEANING missing "${preClean}"`)
     return clean
+}
+export const getCommittee = name => {
+    const match = COMMITTEES.find(d.name === name)
+    if (!match) console.error(`COMMITTEES missing ${name}`)
+    return match
+}
+export const getCommitteeTime = name => {
+    const match = getCommittee(name) || {}
+    return match.type || null
+}
+export const getCommitteeType = name => {
+    const match = getCommittee(name) || {}
+    return match.type || null
 }
 
 export const standardLawmakerNames = Array.from(new Set(Object.values(LAWMAKER_NAME_CLEANING)))

@@ -66,71 +66,70 @@ export const COMMITEE_NAME_CLEANING = {
 
 export const COMMITTEES = [
     // HOUSE
-    { name: 'House Appropriations', daysOfWeek: 'daily', time: '8 a.m.', type: 'fiscal', },
+    { name: 'House Appropriations', daysOfWeek: 'daily', time: 'varies', type: 'fiscal', },
 
-    { name: 'House Judiciary', daysOfWeek: 'daily', time: '8 a.m.', type: 'policy', },
-    { name: 'House Business and Labor', daysOfWeek: 'daily', time: '8 a.m.', type: 'policy', },
-    { name: 'House Taxation', daysOfWeek: 'daily', time: '8 a.m.', type: 'policy', },
-    { name: 'House State Administration', daysOfWeek: 'daily', time: '8 a.m.', type: 'policy', },
-    { name: 'House Human Services', daysOfWeek: 'daily', time: '3 p.m.', type: 'policy', },
+    { name: 'House Judiciary', daysOfWeek: 'daily', time: 'morning', type: 'policy', },
+    { name: 'House Business and Labor', daysOfWeek: 'daily', time: 'morning', type: 'policy', },
+    { name: 'House Taxation', daysOfWeek: 'daily', time: 'morning', type: 'policy', },
+    { name: 'House State Administration', daysOfWeek: 'daily', time: 'morning', type: 'policy', },
+    { name: 'House Human Services', daysOfWeek: 'daily', time: 'afternoon', type: 'policy', },
 
-    { name: 'House Natural Resources', daysOfWeek: 'M/W/F', time: '3 p.m.', type: 'policy', },
-    { name: 'House Transportation', daysOfWeek: 'M/W/F', time: '3 p.m.', type: 'policy', },
-    { name: 'House Education', daysOfWeek: 'M/W/F', time: '3 p.m.', type: 'policy', },
-    { name: 'House Energy, Technology and Federal Relations', daysOfWeek: 'M/W/F', time: '3 p.m.', type: 'policy', },
+    { name: 'House Natural Resources', daysOfWeek: 'M/W/F', time: 'afternoon', type: 'policy', },
+    { name: 'House Transportation', daysOfWeek: 'M/W/F', time: 'afternoon', type: 'policy', },
+    { name: 'House Education', daysOfWeek: 'M/W/F', time: 'afternoon', type: 'policy', },
+    { name: 'House Energy, Technology and Federal Relations', daysOfWeek: 'M/W/F', time: 'afternoon', type: 'policy', },
 
-    { name: 'House Agriculture', daysOfWeek: 'T/Th', time: '3 p.m.', type: 'policy', },
-    { name: 'House Fish, Wildlife and Parks', daysOfWeek: 'T/Th', time: '3 p.m.', type: 'policy', },
-    { name: 'House Local Government', daysOfWeek: 'T/Th', time: '3 p.m.', type: 'policy', },
+    { name: 'House Agriculture', daysOfWeek: 'T/Th', time: 'afternoon', type: 'policy', },
+    { name: 'House Fish, Wildlife and Parks', daysOfWeek: 'T/Th', time: 'afternoon', type: 'policy', },
+    { name: 'House Local Government', daysOfWeek: 'T/Th', time: 'afternoon', type: 'policy', },
 
-    { name: 'House Rules', daysOfWeek: 'on call', time: '', type: 'policy', },
-    { name: 'House Ethics', daysOfWeek: 'on call', time: '', type: 'policy', suppress: true },
-    { name: 'House Legislative Administration', daysOfWeek: 'on call', time: '', type: 'policy', },
+    { name: 'House Legislative Administration', daysOfWeek: 'on call', time: 'on call', type: 'policy', },
+
+    { name: 'House Rules', daysOfWeek: 'on call', time: 'on call', type: 'policy', },
+    { name: 'House Ethics', daysOfWeek: 'on call', time: 'on call', type: 'procedural' },
 
 
     // SENATE
-    { name: 'Senate Finance and Claims', daysOfWeek: 'daily', time: '8 a.m.', type: 'fiscal', },
+    { name: 'Senate Finance and Claims', daysOfWeek: 'daily', time: 'morning', type: 'fiscal', },
 
-    { name: 'Senate Judiciary', daysOfWeek: 'daily', time: '9 a.m.', type: 'policy', },
-    { name: 'Senate Business, Labor, and Economic Affairs', daysOfWeek: 'daily', time: '8 a.m.', type: 'policy', },
-    { name: 'Senate Taxation', daysOfWeek: 'daily', time: '8 a.m.', type: 'policy', },
+    { name: 'Senate Judiciary', daysOfWeek: 'daily', time: 'morning', type: 'policy', },
+    { name: 'Senate Business, Labor, and Economic Affairs', daysOfWeek: 'daily', time: 'morning', type: 'policy', },
+    { name: 'Senate Taxation', daysOfWeek: 'daily', time: 'morning', type: 'policy', },
 
-    { name: 'Senate Education and Cultural Resources', daysOfWeek: 'M/W/F', time: '3 p.m.', type: 'policy', },
-    { name: 'Senate Local Government', daysOfWeek: 'M/W/F', time: '3 p.m.', type: 'policy', },
-    { name: 'Senate Natural Resources', daysOfWeek: 'M/W/F', time: '3 p.m.', type: 'policy', },
-    { name: 'Senate Public Health, Welfare and Safety', daysOfWeek: 'M/W/F', time: '3 p.m.', type: 'policy', },
-    { name: 'Senate State Administration', daysOfWeek: 'M/W/F', time: '3 p.m.', type: 'policy', },
+    { name: 'Senate Education and Cultural Resources', daysOfWeek: 'M/W/F', time: 'afternoon', type: 'policy', },
+    { name: 'Senate Local Government', daysOfWeek: 'M/W/F', time: 'afternoon', type: 'policy', },
+    { name: 'Senate Natural Resources', daysOfWeek: 'M/W/F', time: 'afternoon', type: 'policy', },
+    { name: 'Senate Public Health, Welfare and Safety', daysOfWeek: 'M/W/F', time: 'afternoon', type: 'policy', },
+    { name: 'Senate State Administration', daysOfWeek: 'M/W/F', time: 'afternoon', type: 'policy', },
 
-    { name: 'Senate Agriculture, Livestock and Irrigation', daysOfWeek: 'T/Th', time: '3 p.m.', type: 'policy', },
-    { name: 'Senate Energy and Telecommunications', daysOfWeek: 'T/Th', time: '3 p.m.', type: 'policy', },
-    { name: 'Senate Fish and Game', daysOfWeek: 'T/Th', time: '3 p.m.', type: 'policy', },
-    { name: 'Senate Highways and Transportation', daysOfWeek: 'T/Th', time: '3 p.m.', type: 'policy', },
+    { name: 'Senate Agriculture, Livestock and Irrigation', daysOfWeek: 'T/Th', time: 'afternoon', type: 'policy', },
+    { name: 'Senate Energy and Telecommunications', daysOfWeek: 'T/Th', time: 'afternoon', type: 'policy', },
+    { name: 'Senate Fish and Game', daysOfWeek: 'T/Th', time: 'afternoon', type: 'policy', },
+    { name: 'Senate Highways and Transportation', daysOfWeek: 'T/Th', time: 'afternoon', type: 'policy', },
 
-    { name: 'Senate Committee on Committees', daysOfWeek: 'on call', time: '', type: 'special', suppress: true },
-    { name: 'Senate Ethics', daysOfWeek: 'on call', time: '', type: 'special', suppress: true },
-    { name: 'Senate Rules', daysOfWeek: 'on call', time: '', type: 'special', },
+    { name: 'Senate Committee on Committees', daysOfWeek: 'on call', time: 'on call', type: 'procedural', },
+    { name: 'Senate Ethics', daysOfWeek: 'on call', time: 'on call', type: 'procedural', },
+    { name: 'Senate Rules', daysOfWeek: 'on call', time: 'on call', type: 'special', },
     { name: 'Senate Legislative Administration', daysOfWeek: 'on call', time: '', type: 'special', },
 
-    { name: 'Joint Rules', daysOfWeek: 'on call', time: '', type: 'special', },
-
-    // { key: "", name: 'Senate Select Committee on Marijuana Law', daysOfWeek: 'on call', time: '', type: 'policy', },
+    // Joint
+    { name: 'Joint Rules', daysOfWeek: 'on call', time: 'on call', type: 'special', },
+    { name: 'Joint Select Committee on Redistricting', daysOfWeek: 'on call', time: 'on call', type: 'select', },
 
     // joint approps
-    { name: 'Joint Appropriations Subcommittee A — General Government', daysOfWeek: 'daily', time: '8 a.m.', type: 'fiscal-sub', },
-    { name: 'Joint Appropriations Subcommittee B — Health and Human Services', daysOfWeek: 'daily', time: '8 a.m.', type: 'fiscal-sub', },
-    { name: 'Joint Appropriations Subcommittee C — Natural Resources and Transportation', daysOfWeek: 'daily', time: ' 8:30 a.m.', type: 'fiscal-sub', },
-    { name: 'Joint Appropriations Subcommittee D — Judicial Branch, Law Enforcement, and Justice', daysOfWeek: 'daily', time: '8 a.m.', type: 'fiscal-sub', },
-    { name: 'Joint Appropriations Subcommittee E — Education', daysOfWeek: 'daily', time: '8:30 a.m.', type: 'fiscal-sub', },
-    { name: 'Joint Appropriations Subcommittee F — Long-Range Planning', daysOfWeek: 'daily', time: '8:30 a.m.', type: 'fiscal-sub', },
+    { name: 'Joint Appropriations Section A — General Government', daysOfWeek: 'daily', time: 'morning', type: 'fiscal-sub', },
+    { name: 'Joint Appropriations Section B — Health and Human Services', daysOfWeek: 'daily', time: 'morning', type: 'fiscal-sub', },
+    { name: 'Joint Appropriations Section C — Natural Resources and Transportation', daysOfWeek: 'daily', time: 'morning', type: 'fiscal-sub', },
+    { name: 'Joint Appropriations Section D — Judicial Branch, Law Enforcement, and Justice', daysOfWeek: 'daily', time: 'morning', type: 'fiscal-sub', },
+    { name: 'Joint Appropriations Section E — Education', daysOfWeek: 'daily', time: 'morning', type: 'fiscal-sub', },
+    { name: 'Joint Appropriations Section F — Long-Range Planning', daysOfWeek: 'daily', time: 'morning', type: 'fiscal-sub', },
 
-    // other
-    { name: 'Joint Select Committee on Redistricting', daysOfWeek: 'on call', time: '', type: 'special', },
 
     // conference committees
-    { name: 'Senate Conference', daysOfWeek: 'on call', time: '', type: 'conference', },
-    { name: 'Senate Free Conference', daysOfWeek: 'on call', time: '', type: 'conference', },
-    { name: 'House Conference', daysOfWeek: 'on call', time: '', type: 'conference', },
-    { name: 'House Free Conference', daysOfWeek: 'on call', time: '', type: 'conference', },
+    { name: 'Senate Conference', daysOfWeek: 'on call', time: 'on call', type: 'conference', },
+    { name: 'Senate Free Conference', daysOfWeek: 'on call', time: 'on call', type: 'conference', },
+    { name: 'House Conference', daysOfWeek: 'on call', time: 'on call', type: 'conference', },
+    { name: 'House Free Conference', daysOfWeek: 'on call', time: 'on call', type: 'conference', },
 
 ]
 

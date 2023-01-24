@@ -122,46 +122,6 @@ const Calendar = ({ data, location }) => {
     </div>
 }
 
-const FloorDebate = ({ data }) => {
-    const {
-        // id, date, 
-        bill, title, explanation,
-        // committee 
-    } = data
-    const url = billUrl(bill)
-    return <li>
-        <div>{bill}: <Link to={`/bills/${url}`}>{title}</Link></div>
-        <div className="note">{explanation}</div>
-    </li >
-}
-
-const FinalVote = ({ data }) => {
-    const {
-        // id, date, 
-        bill, title, explanation,
-        // committee 
-    } = data
-    const url = billUrl(bill)
-    return <li>
-        <div>{bill}: <Link to={`/bills/${url}`}>{title}</Link></div>
-        <div className="note">{explanation}</div>
-    </li >
-}
-
-const Hearing = ({ data }) => {
-    const {
-        // id, date, 
-        bill, title, explanation,
-        // committee 
-    } = data
-    const url = billUrl(bill)
-    return <li>
-        <div>{bill}: <Link to={`/bills/${url}`}>{title}</Link></div>
-        <div className="note">{explanation}</div>
-    </li >
-
-}
-
 export const Head = () => (
     <Seo
         title="Calendar"
@@ -172,13 +132,13 @@ export const Head = () => (
 export default Calendar
 
 export const query = graphql`
-            query CalendarPageQuery {
-                onCalendarBills: allBillsJson(filter: {isOnCalendar: {eq: true}}) {
-                edges {
-                node {
+    query CalendarPageQuery {
+        onCalendarBills: allBillsJson(filter: {isOnCalendar: {eq: true}}) {
+        edges {
+            node {
                 ...BillTableData
             }
-      }
+        }
     }
   }
-            `
+`
