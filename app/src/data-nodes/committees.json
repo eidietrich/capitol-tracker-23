@@ -4,8 +4,52 @@
         "key": "house-appropriations",
         "time": "varies",
         "type": "fiscal",
+        "bills": [
+            "HB 1",
+            "HB 2",
+            "HB 3",
+            "HB 4",
+            "HB 5",
+            "HB 6",
+            "HB 7",
+            "HB 8",
+            "HB 9",
+            "HB 10",
+            "HB 11",
+            "HB 12",
+            "HB 13",
+            "HB 15",
+            "HB 19",
+            "HB 28",
+            "HB 29",
+            "HB 36",
+            "HB 38",
+            "HB 53",
+            "HB 60",
+            "HB 81",
+            "HB 82",
+            "HB 91",
+            "HB 114",
+            "HB 117",
+            "HB 119",
+            "HB 141",
+            "HB 147",
+            "HB 175",
+            "HB 185",
+            "HB 188",
+            "HB 192",
+            "HB 212",
+            "HB 222",
+            "HB 244",
+            "HB 245",
+            "HB 258",
+            "HB 267",
+            "HB 270",
+            "HB 274",
+            "HB 292"
+        ],
         "billCount": 42,
-        "billsUnheard": [
+        "billsUnscheduled": [
             "HB 2",
             "HB 5",
             "HB 6",
@@ -18,38 +62,46 @@
             "HB 82",
             "HB 188"
         ],
-        "billsHeard": [
-            "HB 1",
+        "billsScheduledByDay": [
+            {
+                "day": "01/24/2023",
+                "bills": [
+                    "HB 19",
+                    "HB 29",
+                    "HB 147",
+                    "HB 258",
+                    "HB 267",
+                    "HB 274"
+                ]
+            },
+            {
+                "day": "01/25/2023",
+                "bills": [
+                    "HB 270"
+                ]
+            },
+            {
+                "day": "01/26/2023",
+                "bills": [
+                    "HB 119",
+                    "HB 292"
+                ]
+            }
+        ],
+        "billsAwaitingVote": [
             "HB 3",
             "HB 4",
             "HB 13",
-            "HB 15",
-            "HB 19",
-            "HB 28",
-            "HB 29",
-            "HB 36",
             "HB 38",
-            "HB 53",
             "HB 60",
-            "HB 81",
             "HB 91",
             "HB 114",
-            "HB 117",
-            "HB 119",
             "HB 141",
-            "HB 147",
-            "HB 175",
-            "HB 185",
             "HB 192",
             "HB 212",
             "HB 222",
             "HB 244",
-            "HB 245",
-            "HB 258",
-            "HB 267",
-            "HB 270",
-            "HB 274",
-            "HB 292"
+            "HB 245"
         ],
         "billsFailed": [
             "HB 36"
@@ -69,116 +121,139 @@
             {
                 "name": "Llew Jones",
                 "party": "R",
+                "locale": "Conrad",
                 "role": "Chair"
             },
             {
                 "name": "Bob Keenan",
                 "party": "R",
+                "locale": "Bigfork",
                 "role": "Vice Chair"
             },
             {
                 "name": "David Bedey",
                 "party": "R",
+                "locale": "Hamilton",
                 "role": "Member"
             },
             {
                 "name": "Michele Binkley",
                 "party": "R",
+                "locale": "Hamilton",
                 "role": "Member"
             },
             {
                 "name": "Terry Falk",
                 "party": "R",
+                "locale": "Kalispell",
                 "role": "Member"
             },
             {
                 "name": "John Fitzpatrick",
                 "party": "R",
+                "locale": "Anaconda",
                 "role": "Member"
             },
             {
                 "name": "Doug Flament",
                 "party": "R",
+                "locale": "Lewistown",
                 "role": "Member"
             },
             {
                 "name": "Jane Gillette",
                 "party": "R",
+                "locale": "Bozeman",
                 "role": "Member"
             },
             {
                 "name": "Lyn Hellegaard",
                 "party": "R",
+                "locale": "Missoula",
                 "role": "Member"
             },
             {
                 "name": "Mike Hopkins",
                 "party": "R",
+                "locale": "Missoula",
                 "role": "Member"
             },
             {
                 "name": "Bill Mercer",
                 "party": "R",
+                "locale": "Billings",
                 "role": "Member"
             },
             {
                 "name": "Terry Moore",
                 "party": "R",
+                "locale": "Billings",
                 "role": "Member"
             },
             {
                 "name": "Fiona Nave",
                 "party": "R",
+                "locale": "Columbus",
                 "role": "Member"
             },
             {
                 "name": "Joe Read",
                 "party": "R",
+                "locale": "Ronan",
                 "role": "Member"
             },
             {
                 "name": "Matt Regier",
                 "party": "R",
+                "locale": "Kalispell",
                 "role": "Member"
             },
             {
                 "name": "Jerry Schillinger",
                 "party": "R",
+                "locale": "Circle",
                 "role": "Member"
             },
             {
                 "name": "Mary Caferro",
                 "party": "D",
+                "locale": "Helena",
                 "role": "Vice Chair"
             },
             {
                 "name": "Jim Hamilton",
                 "party": "D",
+                "locale": "Bozeman",
                 "role": "Member"
             },
             {
                 "name": "Connie Keogh",
                 "party": "D",
+                "locale": "Missoula",
                 "role": "Member"
             },
             {
                 "name": "Emma Kerr-Carpenter",
                 "party": "D",
+                "locale": "Billings",
                 "role": "Member"
             },
             {
                 "name": "Sharon Stewart Peregoy",
                 "party": "D",
+                "locale": "Crow Agency",
                 "role": "Member"
             },
             {
                 "name": "Paul Tuss",
                 "party": "D",
+                "locale": "Havre",
                 "role": "Member"
             },
             {
                 "name": "Jonathan Windy Boy",
                 "party": "D",
+                "locale": "Box Elder",
                 "role": "Member"
             }
         ]
@@ -188,21 +263,11 @@
         "key": "house-judiciary",
         "time": "morning",
         "type": "policy",
-        "billCount": 43,
-        "billsUnheard": [
-            "HB 38",
-            "HB 197",
-            "HB 216",
-            "HB 282",
-            "HB 283",
-            "HB 296",
-            "SB 7",
-            "SB 91"
-        ],
-        "billsHeard": [
+        "bills": [
             "HB 16",
             "HB 18",
             "HB 37",
+            "HB 38",
             "HB 57",
             "HB 62",
             "HB 63",
@@ -220,10 +285,12 @@
             "HB 174",
             "HB 183",
             "HB 193",
+            "HB 197",
             "HB 202",
             "HB 204",
             "HB 205",
             "HB 213",
+            "HB 216",
             "HB 228",
             "HB 233",
             "HB 234",
@@ -234,7 +301,37 @@
             "HB 256",
             "HB 266",
             "HB 272",
-            "HJ 1"
+            "HB 282",
+            "HB 283",
+            "HB 296",
+            "HJ 1",
+            "SB 7",
+            "SB 91"
+        ],
+        "billCount": 43,
+        "billsUnscheduled": [
+            "HB 38",
+            "HB 197",
+            "HB 216",
+            "HB 282",
+            "HB 283",
+            "HB 296",
+            "SB 7",
+            "SB 91"
+        ],
+        "billsScheduledByDay": [],
+        "billsAwaitingVote": [
+            "HB 174",
+            "HB 213",
+            "HB 228",
+            "HB 233",
+            "HB 234",
+            "HB 236",
+            "HB 237",
+            "HB 255",
+            "HB 256",
+            "HB 266",
+            "HB 272"
         ],
         "billsFailed": [
             "HB 57",
@@ -270,96 +367,115 @@
             {
                 "name": "Amy Regier",
                 "party": "R",
+                "locale": "Kalispell",
                 "role": "Chair"
             },
             {
                 "name": "Brandon Ler",
                 "party": "R",
+                "locale": "Savage",
                 "role": "Vice Chair"
             },
             {
                 "name": "Jennifer Carlson",
                 "party": "R",
+                "locale": "Manhattan",
                 "role": "Member"
             },
             {
                 "name": "Lee Deming",
                 "party": "R",
+                "locale": "Laurel",
                 "role": "Member"
             },
             {
                 "name": "Neil Duram",
                 "party": "R",
+                "locale": "Eureka",
                 "role": "Member"
             },
             {
                 "name": "Jodee Etchart",
                 "party": "R",
+                "locale": "Billings",
                 "role": "Member"
             },
             {
                 "name": "Caleb Hinkle",
                 "party": "R",
+                "locale": "Belgrade",
                 "role": "Member"
             },
             {
                 "name": "Jedediah Hinkle",
                 "party": "R",
+                "locale": "Belgrade",
                 "role": "Member"
             },
             {
                 "name": "Greg Kmetz",
                 "party": "R",
+                "locale": "Miles City",
                 "role": "Member"
             },
             {
                 "name": "Casey Knudsen",
                 "party": "R",
+                "locale": "Malta",
                 "role": "Member"
             },
             {
                 "name": "Braxton Mitchell",
                 "party": "R",
+                "locale": "Columbia Falls",
                 "role": "Member"
             },
             {
                 "name": "Wayne Rusk",
                 "party": "R",
+                "locale": "Corvallis",
                 "role": "Member"
             },
             {
                 "name": "Lola Sheldon-Galloway",
                 "party": "R",
+                "locale": "Billings",
                 "role": "Member"
             },
             {
                 "name": "Laurie Bishop",
                 "party": "D",
+                "locale": "Livingston",
                 "role": "Vice Chair"
             },
             {
                 "name": "Tom France",
                 "party": "D",
+                "locale": "Missoula",
                 "role": "Member"
             },
             {
                 "name": "Donavon Hawk",
                 "party": "D",
+                "locale": "Butte",
                 "role": "Member"
             },
             {
                 "name": "SJ Howell",
                 "party": "D",
+                "locale": "Missoula",
                 "role": "Member"
             },
             {
                 "name": "Laura Smith",
                 "party": "D",
+                "locale": "Helena",
                 "role": "Member"
             },
             {
                 "name": "Zooey Zephyr",
                 "party": "D",
+                "locale": "Missoula",
                 "role": "Member"
             }
         ]
@@ -369,15 +485,7 @@
         "key": "house-business-and-labor",
         "time": "morning",
         "type": "policy",
-        "billCount": 58,
-        "billsUnheard": [
-            "HB 128",
-            "HB 154",
-            "HB 201",
-            "HB 229",
-            "HB 293"
-        ],
-        "billsHeard": [
+        "bills": [
             "HB 30",
             "HB 31",
             "HB 41",
@@ -401,6 +509,7 @@
             "HB 120",
             "HB 123",
             "HB 127",
+            "HB 128",
             "HB 137",
             "HB 138",
             "HB 139",
@@ -408,6 +517,7 @@
             "HB 144",
             "HB 145",
             "HB 152",
+            "HB 154",
             "HB 155",
             "HB 156",
             "HB 157",
@@ -418,7 +528,9 @@
             "HB 177",
             "HB 178",
             "HB 182",
+            "HB 201",
             "HB 209",
+            "HB 229",
             "HB 242",
             "HB 247",
             "HB 250",
@@ -427,10 +539,64 @@
             "HB 273",
             "HB 277",
             "HB 279",
+            "HB 293",
             "SB 20",
             "SB 35",
             "SB 80",
             "SB 102"
+        ],
+        "billCount": 58,
+        "billsUnscheduled": [
+            "HB 128",
+            "HB 154",
+            "HB 201",
+            "HB 229",
+            "HB 293"
+        ],
+        "billsScheduledByDay": [
+            {
+                "day": "01/24/2023",
+                "bills": [
+                    "HB 250",
+                    "HB 254",
+                    "HB 279"
+                ]
+            },
+            {
+                "day": "01/25/2023",
+                "bills": [
+                    "SB 35",
+                    "SB 80",
+                    "SB 102"
+                ]
+            },
+            {
+                "day": "01/26/2023",
+                "bills": [
+                    "HB 263",
+                    "HB 273",
+                    "SB 20"
+                ]
+            },
+            {
+                "day": "01/27/2023",
+                "bills": [
+                    "HB 277"
+                ]
+            }
+        ],
+        "billsAwaitingVote": [
+            "HB 87",
+            "HB 95",
+            "HB 97",
+            "HB 115",
+            "HB 152",
+            "HB 156",
+            "HB 164",
+            "HB 177",
+            "HB 182",
+            "HB 242",
+            "HB 247"
         ],
         "billsFailed": [
             "HB 49",
@@ -473,96 +639,115 @@
             {
                 "name": "Ed Buttrey",
                 "party": "R",
+                "locale": "Great Falls",
                 "role": "Chair"
             },
             {
                 "name": "Kerri Seekins-Crowe",
                 "party": "R",
+                "locale": "Billings",
                 "role": "Vice Chair"
             },
             {
                 "name": "Fred Anderson",
                 "party": "R",
+                "locale": "Great Falls",
                 "role": "Member"
             },
             {
                 "name": "James Bergstrom",
                 "party": "R",
+                "locale": "Buffalo",
                 "role": "Member"
             },
             {
                 "name": "Ross Fitzgerald",
                 "party": "R",
+                "locale": "Power",
                 "role": "Member"
             },
             {
                 "name": "Steven Galloway",
                 "party": "R",
+                "locale": "Great Falls",
                 "role": "Member"
             },
             {
                 "name": "Steve Gist",
                 "party": "R",
+                "locale": "Cascade",
                 "role": "Member"
             },
             {
                 "name": "Steve Gunderson",
                 "party": "R",
+                "locale": "Libby",
                 "role": "Member"
             },
             {
                 "name": "Denley Loge",
                 "party": "R",
+                "locale": "St Regis",
                 "role": "Member"
             },
             {
                 "name": "Ron Marshall",
                 "party": "R",
+                "locale": "Hamilton",
                 "role": "Member"
             },
             {
                 "name": "Nelly Nicol",
                 "party": "R",
+                "locale": "Billings",
                 "role": "Member"
             },
             {
                 "name": "Greg Oblander",
                 "party": "R",
+                "locale": "Billings",
                 "role": "Member"
             },
             {
                 "name": "Katie Zolnikov",
                 "party": "R",
+                "locale": "Billings",
                 "role": "Member"
             },
             {
                 "name": "Derek Harvey",
                 "party": "D",
+                "locale": "Butte",
                 "role": "Vice Chair"
             },
             {
                 "name": "Bob Carter",
                 "party": "D",
+                "locale": "Missoula",
                 "role": "Member"
             },
             {
                 "name": "Jonathan Karlen",
                 "party": "D",
+                "locale": "Missoula",
                 "role": "Member"
             },
             {
                 "name": "Jennifer Lynch",
                 "party": "D",
+                "locale": "Butte",
                 "role": "Member"
             },
             {
                 "name": "Eric Matthews",
                 "party": "D",
+                "locale": "Bozeman",
                 "role": "Member"
             },
             {
                 "name": "Katie Sullivan",
                 "party": "D",
+                "locale": "Missoula",
                 "role": "Member"
             }
         ]
@@ -572,18 +757,7 @@
         "key": "house-taxation",
         "time": "morning",
         "type": "policy",
-        "billCount": 27,
-        "billsUnheard": [
-            "HB 235",
-            "HB 258",
-            "HB 268",
-            "HB 280",
-            "HB 285",
-            "HB 294",
-            "HJ 2",
-            "SB 62"
-        ],
-        "billsHeard": [
+        "bills": [
             "HB 23",
             "HB 24",
             "HB 25",
@@ -599,7 +773,44 @@
             "HB 222",
             "HB 223",
             "HB 225",
+            "HB 235",
             "HB 245",
+            "HB 249",
+            "HB 251",
+            "HB 253",
+            "HB 258",
+            "HB 268",
+            "HB 280",
+            "HB 285",
+            "HB 294",
+            "HJ 2",
+            "SB 62"
+        ],
+        "billCount": 27,
+        "billsUnscheduled": [
+            "HB 235",
+            "HB 258",
+            "HB 268",
+            "HB 280",
+            "HB 285",
+            "HB 294",
+            "HJ 2",
+            "SB 62"
+        ],
+        "billsScheduledByDay": [
+            {
+                "day": "01/24/2023",
+                "bills": [
+                    "HB 225"
+                ]
+            }
+        ],
+        "billsAwaitingVote": [
+            "HB 23",
+            "HB 118",
+            "HB 189",
+            "HB 219",
+            "HB 223",
             "HB 249",
             "HB 251",
             "HB 253"
@@ -622,106 +833,127 @@
             {
                 "name": "Paul Fielder",
                 "party": "R",
+                "locale": "Thompson Falls",
                 "role": "Chair"
             },
             {
                 "name": "Becky Beard",
                 "party": "R",
+                "locale": "Elliston",
                 "role": "Chair"
             },
             {
                 "name": "Tom Welch",
                 "party": "R",
+                "locale": "Dillon",
                 "role": "Vice Chair"
             },
             {
                 "name": "Brad Barker",
                 "party": "R",
+                "locale": "Roberts",
                 "role": "Member"
             },
             {
                 "name": "Larry Brewster",
                 "party": "R",
+                "locale": "Billings",
                 "role": "Member"
             },
             {
                 "name": "Ed Butcher",
                 "party": "R",
+                "locale": "Winifred",
                 "role": "Member"
             },
             {
                 "name": "Sherry Essmann",
                 "party": "R",
+                "locale": "Billings",
                 "role": "Member"
             },
             {
                 "name": "Josh Kassmier",
                 "party": "R",
+                "locale": "Fort Benton",
                 "role": "Member"
             },
             {
                 "name": "Scot Kerns",
                 "party": "R",
+                "locale": "Great Falls",
                 "role": "Member"
             },
             {
                 "name": "Rhonda Knudsen",
                 "party": "R",
+                "locale": "Culbertson",
                 "role": "Member"
             },
             {
                 "name": "Marty Malone",
                 "party": "R",
+                "locale": "Pray",
                 "role": "Member"
             },
             {
                 "name": "Russ Miner",
                 "party": "R",
+                "locale": "Great Falls",
                 "role": "Member"
             },
             {
                 "name": "George Nikolakakos",
                 "party": "R",
+                "locale": "Great Falls",
                 "role": "Member"
             },
             {
                 "name": "Tanner Smith",
                 "party": "R",
+                "locale": "Lakeside",
                 "role": "Member"
             },
             {
                 "name": "Mark Thane",
                 "party": "D",
+                "locale": "Missoula",
                 "role": "Vice Chair"
             },
             {
                 "name": "Kim Abbott",
                 "party": "D",
+                "locale": "Helena",
                 "role": "Member"
             },
             {
                 "name": "Alice Buckley",
                 "party": "D",
+                "locale": "Bozeman",
                 "role": "Member"
             },
             {
                 "name": "Jill Cohenour",
                 "party": "D",
+                "locale": "East Helena",
                 "role": "Member"
             },
             {
                 "name": "Dave Fern",
                 "party": "D",
+                "locale": "Whitefish",
                 "role": "Member"
             },
             {
                 "name": "Marilyn Marler",
                 "party": "D",
+                "locale": "Missoula",
                 "role": "Member"
             },
             {
                 "name": "Melissa Romano",
                 "party": "D",
+                "locale": "Helena",
                 "role": "Member"
             }
         ]
@@ -731,16 +963,7 @@
         "key": "house-state-administration",
         "time": "morning",
         "type": "policy",
-        "billCount": 43,
-        "billsUnheard": [
-            "HB 126",
-            "HB 136",
-            "HB 208",
-            "HB 269",
-            "HB 275",
-            "HB 281"
-        ],
-        "billsHeard": [
+        "bills": [
             "HB 47",
             "HB 56",
             "HB 80",
@@ -757,9 +980,11 @@
             "HB 117",
             "HB 119",
             "HB 125",
+            "HB 126",
             "HB 132",
             "HB 134",
             "HB 135",
+            "HB 136",
             "HB 143",
             "HB 148",
             "HB 151",
@@ -771,13 +996,53 @@
             "HB 196",
             "HB 199",
             "HB 206",
+            "HB 208",
             "HB 210",
             "HB 216",
             "HB 226",
             "HB 232",
+            "HB 269",
+            "HB 275",
+            "HB 281",
             "SB 18",
             "SB 40",
             "SJ 4"
+        ],
+        "billCount": 43,
+        "billsUnscheduled": [
+            "HB 126",
+            "HB 136",
+            "HB 208",
+            "HB 269",
+            "HB 275",
+            "HB 281"
+        ],
+        "billsScheduledByDay": [
+            {
+                "day": "01/24/2023",
+                "bills": [
+                    "HB 216"
+                ]
+            },
+            {
+                "day": "01/25/2023",
+                "bills": [
+                    "SB 18",
+                    "SB 40",
+                    "SJ 4"
+                ]
+            }
+        ],
+        "billsAwaitingVote": [
+            "HB 173",
+            "HB 180",
+            "HB 186",
+            "HB 190",
+            "HB 196",
+            "HB 206",
+            "HB 210",
+            "HB 226",
+            "HB 232"
         ],
         "billsFailed": [
             "HB 103"
@@ -812,101 +1077,121 @@
             {
                 "name": "Julie Dooling",
                 "party": "R",
+                "locale": "Townsend",
                 "role": "Chair"
             },
             {
                 "name": "Bob Phalen",
                 "party": "R",
+                "locale": "Lindsay",
                 "role": "Vice Chair"
             },
             {
                 "name": "Marta Bertoglio",
                 "party": "R",
+                "locale": "Clancy",
                 "role": "Member"
             },
             {
                 "name": "Tony Brockman",
                 "party": "R",
+                "locale": "Kalispell",
                 "role": "Member"
             },
             {
                 "name": "Gregory Frazer",
                 "party": "R",
+                "locale": "Deer Lodge",
                 "role": "Member"
             },
             {
                 "name": "Paul Green",
                 "party": "R",
+                "locale": "Hardin",
                 "role": "Member"
             },
             {
                 "name": "Gary Parry",
                 "party": "R",
+                "locale": "Colstrip",
                 "role": "Member"
             },
             {
                 "name": "Linda Reksten",
                 "party": "R",
+                "locale": "Polson",
                 "role": "Member"
             },
             {
                 "name": "Courtenay Sprunger",
                 "party": "R",
+                "locale": "Kalispell",
                 "role": "Member"
             },
             {
                 "name": "Mallerie Stromswold",
                 "party": "R",
+                "locale": "Billings",
                 "role": "Member"
             },
             {
                 "name": "Sue Vinton",
                 "party": "R",
+                "locale": "Billings",
                 "role": "Member"
             },
             {
                 "name": "Kenneth Walsh",
                 "party": "R",
+                "locale": "Twin Bridges",
                 "role": "Member"
             },
             {
                 "name": "Zack Wirth",
                 "party": "R",
+                "locale": "Wolf Creek",
                 "role": "Member"
             },
             {
                 "name": "Mike Yakawich",
                 "party": "R",
+                "locale": "Billings",
                 "role": "Member"
             },
             {
                 "name": "Kelly Kortum",
                 "party": "D",
+                "locale": "Bozeman",
                 "role": "Vice Chair"
             },
             {
                 "name": "Denise Baum",
                 "party": "D",
+                "locale": "Billings",
                 "role": "Member"
             },
             {
                 "name": "Tyson Running Wolf",
                 "party": "D",
+                "locale": "Browning",
                 "role": "Member"
             },
             {
                 "name": "Frank Smith",
                 "party": "D",
+                "locale": "Poplar",
                 "role": "Member"
             },
             {
                 "name": "Ed Stafman",
                 "party": "D",
+                "locale": "Bozeman",
                 "role": "Member"
             },
             {
                 "name": "Marvin Weatherwax",
                 "party": "D",
+                "locale": "Browning",
                 "role": "Member"
             }
         ]
@@ -916,13 +1201,7 @@
         "key": "house-human-services",
         "time": "afternoon",
         "type": "policy",
-        "billCount": 28,
-        "billsUnheard": [
-            "HB 265",
-            "HB 286",
-            "SB 87"
-        ],
-        "billsHeard": [
+        "bills": [
             "HB 17",
             "HB 29",
             "HB 39",
@@ -945,9 +1224,45 @@
             "HB 248",
             "HB 252",
             "HB 264",
+            "HB 265",
+            "HB 286",
             "SB 6",
             "SB 34",
-            "SB 45"
+            "SB 45",
+            "SB 87"
+        ],
+        "billCount": 28,
+        "billsUnscheduled": [
+            "HB 265",
+            "HB 286",
+            "SB 87"
+        ],
+        "billsScheduledByDay": [
+            {
+                "day": "01/24/2023",
+                "bills": [
+                    "SB 6",
+                    "SB 45"
+                ]
+            },
+            {
+                "day": "01/25/2023",
+                "bills": [
+                    "HB 45",
+                    "HB 252"
+                ]
+            }
+        ],
+        "billsAwaitingVote": [
+            "HB 17",
+            "HB 40",
+            "HB 207",
+            "HB 218",
+            "HB 230",
+            "HB 238",
+            "HB 248",
+            "HB 264",
+            "SB 34"
         ],
         "billsFailed": [
             "HB 64",
@@ -970,106 +1285,127 @@
             {
                 "name": "Jennifer Carlson",
                 "party": "R",
+                "locale": "Manhattan",
                 "role": "Chair"
             },
             {
                 "name": "Lola Sheldon-Galloway",
                 "party": "R",
+                "locale": "Billings",
                 "role": "Vice Chair"
             },
             {
                 "name": "Ed Buttrey",
                 "party": "R",
+                "locale": "Great Falls",
                 "role": "Member"
             },
             {
                 "name": "Jodee Etchart",
                 "party": "R",
+                "locale": "Billings",
                 "role": "Member"
             },
             {
                 "name": "Gregory Frazer",
                 "party": "R",
+                "locale": "Deer Lodge",
                 "role": "Member"
             },
             {
                 "name": "Caleb Hinkle",
                 "party": "R",
+                "locale": "Belgrade",
                 "role": "Member"
             },
             {
                 "name": "Ron Marshall",
                 "party": "R",
+                "locale": "Hamilton",
                 "role": "Member"
             },
             {
                 "name": "Nelly Nicol",
                 "party": "R",
+                "locale": "Billings",
                 "role": "Member"
             },
             {
                 "name": "George Nikolakakos",
                 "party": "R",
+                "locale": "Great Falls",
                 "role": "Member"
             },
             {
                 "name": "Greg Oblander",
                 "party": "R",
+                "locale": "Billings",
                 "role": "Member"
             },
             {
                 "name": "Amy Regier",
                 "party": "R",
+                "locale": "Kalispell",
                 "role": "Member"
             },
             {
                 "name": "Wayne Rusk",
                 "party": "R",
+                "locale": "Corvallis",
                 "role": "Member"
             },
             {
                 "name": "Tom Welch",
                 "party": "R",
+                "locale": "Dillon",
                 "role": "Member"
             },
             {
                 "name": "Mike Yakawich",
                 "party": "R",
+                "locale": "Billings",
                 "role": "Member"
             },
             {
                 "name": "Alice Buckley",
                 "party": "D",
+                "locale": "Bozeman",
                 "role": "Vice Chair"
             },
             {
                 "name": "Kim Abbott",
                 "party": "D",
+                "locale": "Helena",
                 "role": "Member"
             },
             {
                 "name": "Donavon Hawk",
                 "party": "D",
+                "locale": "Butte",
                 "role": "Member"
             },
             {
                 "name": "SJ Howell",
                 "party": "D",
+                "locale": "Missoula",
                 "role": "Member"
             },
             {
                 "name": "Laura Smith",
                 "party": "D",
+                "locale": "Helena",
                 "role": "Member"
             },
             {
                 "name": "Ed Stafman",
                 "party": "D",
+                "locale": "Bozeman",
                 "role": "Member"
             },
             {
                 "name": "Zooey Zephyr",
                 "party": "D",
+                "locale": "Missoula",
                 "role": "Member"
             }
         ]
@@ -1079,19 +1415,25 @@
         "key": "house-natural-resources",
         "time": "afternoon",
         "type": "policy",
-        "billCount": 10,
-        "billsUnheard": [
-            "HB 130",
-            "HB 185"
-        ],
-        "billsHeard": [
+        "bills": [
             "HB 34",
             "HB 54",
             "HB 85",
             "HB 88",
             "HB 114",
             "HB 122",
+            "HB 130",
             "HB 141",
+            "HB 185",
+            "HB 289"
+        ],
+        "billCount": 10,
+        "billsUnscheduled": [
+            "HB 130",
+            "HB 185"
+        ],
+        "billsScheduledByDay": [],
+        "billsAwaitingVote": [
             "HB 289"
         ],
         "billsFailed": [],
@@ -1109,76 +1451,91 @@
             {
                 "name": "Steve Gunderson",
                 "party": "R",
+                "locale": "Libby",
                 "role": "Chair"
             },
             {
                 "name": "Steve Gist",
                 "party": "R",
+                "locale": "Cascade",
                 "role": "Vice Chair"
             },
             {
                 "name": "Ross Fitzgerald",
                 "party": "R",
+                "locale": "Power",
                 "role": "Member"
             },
             {
                 "name": "Jedediah Hinkle",
                 "party": "R",
+                "locale": "Belgrade",
                 "role": "Member"
             },
             {
                 "name": "Rhonda Knudsen",
                 "party": "R",
+                "locale": "Culbertson",
                 "role": "Member"
             },
             {
                 "name": "Marty Malone",
                 "party": "R",
+                "locale": "Pray",
                 "role": "Member"
             },
             {
                 "name": "Russ Miner",
                 "party": "R",
+                "locale": "Great Falls",
                 "role": "Member"
             },
             {
                 "name": "Gary Parry",
                 "party": "R",
+                "locale": "Colstrip",
                 "role": "Member"
             },
             {
                 "name": "Sue Vinton",
                 "party": "R",
+                "locale": "Billings",
                 "role": "Member"
             },
             {
                 "name": "Kenneth Walsh",
                 "party": "R",
+                "locale": "Twin Bridges",
                 "role": "Member"
             },
             {
                 "name": "Marilyn Marler",
                 "party": "D",
+                "locale": "Missoula",
                 "role": "Vice Chair"
             },
             {
                 "name": "Jill Cohenour",
                 "party": "D",
+                "locale": "East Helena",
                 "role": "Member"
             },
             {
                 "name": "Tom France",
                 "party": "D",
+                "locale": "Missoula",
                 "role": "Member"
             },
             {
                 "name": "Jonathan Karlen",
                 "party": "D",
+                "locale": "Missoula",
                 "role": "Member"
             },
             {
                 "name": "Marvin Weatherwax",
                 "party": "D",
+                "locale": "Browning",
                 "role": "Member"
             }
         ]
@@ -1188,14 +1545,11 @@
         "key": "house-transportation",
         "time": "afternoon",
         "type": "policy",
-        "billCount": 13,
-        "billsUnheard": [
-            "HB 55"
-        ],
-        "billsHeard": [
+        "bills": [
             "HB 26",
             "HB 27",
             "HB 46",
+            "HB 55",
             "HB 60",
             "HB 75",
             "HB 76",
@@ -1204,6 +1558,15 @@
             "HB 179",
             "HB 184",
             "HB 224",
+            "HB 261"
+        ],
+        "billCount": 13,
+        "billsUnscheduled": [
+            "HB 55"
+        ],
+        "billsScheduledByDay": [],
+        "billsAwaitingVote": [
+            "HB 46",
             "HB 261"
         ],
         "billsFailed": [],
@@ -1224,81 +1587,97 @@
             {
                 "name": "Denley Loge",
                 "party": "R",
+                "locale": "St Regis",
                 "role": "Chair"
             },
             {
                 "name": "Neil Duram",
                 "party": "R",
+                "locale": "Eureka",
                 "role": "Vice Chair"
             },
             {
                 "name": "Brad Barker",
                 "party": "R",
+                "locale": "Roberts",
                 "role": "Member"
             },
             {
                 "name": "Tony Brockman",
                 "party": "R",
+                "locale": "Kalispell",
                 "role": "Member"
             },
             {
                 "name": "Julie Dooling",
                 "party": "R",
+                "locale": "Townsend",
                 "role": "Member"
             },
             {
                 "name": "Scot Kerns",
                 "party": "R",
+                "locale": "Great Falls",
                 "role": "Member"
             },
             {
                 "name": "Tanner Smith",
                 "party": "R",
+                "locale": "Lakeside",
                 "role": "Member"
             },
             {
                 "name": "Courtenay Sprunger",
                 "party": "R",
+                "locale": "Kalispell",
                 "role": "Member"
             },
             {
                 "name": "Mallerie Stromswold",
                 "party": "R",
+                "locale": "Billings",
                 "role": "Member"
             },
             {
                 "name": "Zack Wirth",
                 "party": "R",
+                "locale": "Wolf Creek",
                 "role": "Member"
             },
             {
                 "name": "Becky Beard",
                 "party": "R",
+                "locale": "Elliston",
                 "role": "Member"
             },
             {
                 "name": "Dave Fern",
                 "party": "D",
+                "locale": "Whitefish",
                 "role": "Vice Chair"
             },
             {
                 "name": "Denise Baum",
                 "party": "D",
+                "locale": "Billings",
                 "role": "Member"
             },
             {
                 "name": "Bob Carter",
                 "party": "D",
+                "locale": "Missoula",
                 "role": "Member"
             },
             {
                 "name": "Jennifer Lynch",
                 "party": "D",
+                "locale": "Butte",
                 "role": "Member"
             },
             {
                 "name": "Frank Smith",
                 "party": "D",
+                "locale": "Poplar",
                 "role": "Member"
             }
         ]
@@ -1308,8 +1687,17 @@
         "key": "house-education",
         "time": "afternoon",
         "type": "policy",
-        "billCount": 17,
-        "billsUnheard": [
+        "bills": [
+            "HB 15",
+            "HB 21",
+            "HB 22",
+            "HB 36",
+            "HB 171",
+            "HB 181",
+            "HB 203",
+            "HB 214",
+            "HB 231",
+            "HB 240",
             "HB 257",
             "HB 259",
             "HB 287",
@@ -1318,12 +1706,18 @@
             "SB 10",
             "SB 69"
         ],
-        "billsHeard": [
-            "HB 15",
-            "HB 21",
-            "HB 22",
-            "HB 36",
-            "HB 171",
+        "billCount": 17,
+        "billsUnscheduled": [
+            "HB 257",
+            "HB 259",
+            "HB 287",
+            "HB 288",
+            "SB 1",
+            "SB 10",
+            "SB 69"
+        ],
+        "billsScheduledByDay": [],
+        "billsAwaitingVote": [
             "HB 181",
             "HB 203",
             "HB 214",
@@ -1343,71 +1737,85 @@
             {
                 "name": "Fred Anderson",
                 "party": "R",
+                "locale": "Great Falls",
                 "role": "Chair"
             },
             {
                 "name": "Linda Reksten",
                 "party": "R",
+                "locale": "Polson",
                 "role": "Vice Chair"
             },
             {
                 "name": "James Bergstrom",
                 "party": "R",
+                "locale": "Buffalo",
                 "role": "Member"
             },
             {
                 "name": "Marta Bertoglio",
                 "party": "R",
+                "locale": "Clancy",
                 "role": "Member"
             },
             {
                 "name": "Ed Butcher",
                 "party": "R",
+                "locale": "Winifred",
                 "role": "Member"
             },
             {
                 "name": "Lee Deming",
                 "party": "R",
+                "locale": "Laurel",
                 "role": "Member"
             },
             {
                 "name": "Sherry Essmann",
                 "party": "R",
+                "locale": "Billings",
                 "role": "Member"
             },
             {
                 "name": "Brandon Ler",
                 "party": "R",
+                "locale": "Savage",
                 "role": "Member"
             },
             {
                 "name": "Braxton Mitchell",
                 "party": "R",
+                "locale": "Columbia Falls",
                 "role": "Member"
             },
             {
                 "name": "Kerri Seekins-Crowe",
                 "party": "R",
+                "locale": "Billings",
                 "role": "Member"
             },
             {
                 "name": "Tyson Running Wolf",
                 "party": "D",
+                "locale": "Browning",
                 "role": "Vice Chair"
             },
             {
                 "name": "Eric Matthews",
                 "party": "D",
+                "locale": "Bozeman",
                 "role": "Member"
             },
             {
                 "name": "Melissa Romano",
                 "party": "D",
+                "locale": "Helena",
                 "role": "Member"
             },
             {
                 "name": "Mark Thane",
                 "party": "D",
+                "locale": "Missoula",
                 "role": "Member"
             }
         ]
@@ -1417,17 +1825,25 @@
         "key": "house-energy-technology-and-federal-relations",
         "time": "afternoon",
         "type": "policy",
-        "billCount": 8,
-        "billsUnheard": [
+        "bills": [
+            "HB 19",
+            "HB 52",
+            "HB 170",
+            "HB 191",
             "HB 220",
             "HB 278",
             "HB 284",
             "HJ 3"
         ],
-        "billsHeard": [
-            "HB 19",
-            "HB 52",
-            "HB 170",
+        "billCount": 8,
+        "billsUnscheduled": [
+            "HB 220",
+            "HB 278",
+            "HB 284",
+            "HJ 3"
+        ],
+        "billsScheduledByDay": [],
+        "billsAwaitingVote": [
             "HB 191"
         ],
         "billsFailed": [],
@@ -1441,66 +1857,79 @@
             {
                 "name": "Katie Zolnikov",
                 "party": "R",
+                "locale": "Billings",
                 "role": "Chair"
             },
             {
                 "name": "Steven Galloway",
                 "party": "R",
+                "locale": "Great Falls",
                 "role": "Vice Chair"
             },
             {
                 "name": "Larry Brewster",
                 "party": "R",
+                "locale": "Billings",
                 "role": "Member"
             },
             {
                 "name": "Paul Fielder",
                 "party": "R",
+                "locale": "Thompson Falls",
                 "role": "Member"
             },
             {
                 "name": "Paul Green",
                 "party": "R",
+                "locale": "Hardin",
                 "role": "Member"
             },
             {
                 "name": "Josh Kassmier",
                 "party": "R",
+                "locale": "Fort Benton",
                 "role": "Member"
             },
             {
                 "name": "Greg Kmetz",
                 "party": "R",
+                "locale": "Miles City",
                 "role": "Member"
             },
             {
                 "name": "Casey Knudsen",
                 "party": "R",
+                "locale": "Malta",
                 "role": "Member"
             },
             {
                 "name": "Bob Phalen",
                 "party": "R",
+                "locale": "Lindsay",
                 "role": "Member"
             },
             {
                 "name": "Katie Sullivan",
                 "party": "D",
+                "locale": "Missoula",
                 "role": "Vice Chair"
             },
             {
                 "name": "Laurie Bishop",
                 "party": "D",
+                "locale": "Livingston",
                 "role": "Member"
             },
             {
                 "name": "Derek Harvey",
                 "party": "D",
+                "locale": "Butte",
                 "role": "Member"
             },
             {
                 "name": "Kelly Kortum",
                 "party": "D",
+                "locale": "Bozeman",
                 "role": "Member"
             }
         ]
@@ -1510,9 +1939,7 @@
         "key": "house-agriculture",
         "time": "afternoon",
         "type": "policy",
-        "billCount": 13,
-        "billsUnheard": [],
-        "billsHeard": [
+        "bills": [
             "HB 44",
             "HB 51",
             "HB 59",
@@ -1527,6 +1954,19 @@
             "HB 159",
             "HB 276"
         ],
+        "billCount": 13,
+        "billsUnscheduled": [],
+        "billsScheduledByDay": [
+            {
+                "day": "01/24/2023",
+                "bills": [
+                    "HB 158",
+                    "HB 159",
+                    "HB 276"
+                ]
+            }
+        ],
+        "billsAwaitingVote": [],
         "billsFailed": [],
         "billsAdvanced": [
             "HB 44",
@@ -1545,106 +1985,127 @@
             {
                 "name": "Josh Kassmier",
                 "party": "R",
+                "locale": "Fort Benton",
                 "role": "Chair"
             },
             {
                 "name": "Ed Butcher",
                 "party": "R",
+                "locale": "Winifred",
                 "role": "Vice Chair"
             },
             {
                 "name": "Marty Malone",
                 "party": "R",
+                "locale": "Pray",
                 "role": "Vice Chair"
             },
             {
                 "name": "Fred Anderson",
                 "party": "R",
+                "locale": "Great Falls",
                 "role": "Member"
             },
             {
                 "name": "Brad Barker",
                 "party": "R",
+                "locale": "Roberts",
                 "role": "Member"
             },
             {
                 "name": "James Bergstrom",
                 "party": "R",
+                "locale": "Buffalo",
                 "role": "Member"
             },
             {
                 "name": "Tony Brockman",
                 "party": "R",
+                "locale": "Kalispell",
                 "role": "Member"
             },
             {
                 "name": "Julie Dooling",
                 "party": "R",
+                "locale": "Townsend",
                 "role": "Member"
             },
             {
                 "name": "Paul Green",
                 "party": "R",
+                "locale": "Hardin",
                 "role": "Member"
             },
             {
                 "name": "Greg Kmetz",
                 "party": "R",
+                "locale": "Miles City",
                 "role": "Member"
             },
             {
                 "name": "Casey Knudsen",
                 "party": "R",
+                "locale": "Malta",
                 "role": "Member"
             },
             {
                 "name": "Braxton Mitchell",
                 "party": "R",
+                "locale": "Columbia Falls",
                 "role": "Member"
             },
             {
                 "name": "Kenneth Walsh",
                 "party": "R",
+                "locale": "Twin Bridges",
                 "role": "Member"
             },
             {
                 "name": "Zack Wirth",
                 "party": "R",
+                "locale": "Wolf Creek",
                 "role": "Member"
             },
             {
                 "name": "Becky Beard",
                 "party": "R",
+                "locale": "Elliston",
                 "role": "Member"
             },
             {
                 "name": "Dave Fern",
                 "party": "D",
+                "locale": "Whitefish",
                 "role": "Vice Chair"
             },
             {
                 "name": "Bob Carter",
                 "party": "D",
+                "locale": "Missoula",
                 "role": "Member"
             },
             {
                 "name": "Melissa Romano",
                 "party": "D",
+                "locale": "Helena",
                 "role": "Member"
             },
             {
                 "name": "Frank Smith",
                 "party": "D",
+                "locale": "Poplar",
                 "role": "Member"
             },
             {
                 "name": "Katie Sullivan",
                 "party": "D",
+                "locale": "Missoula",
                 "role": "Member"
             },
             {
                 "name": "Marvin Weatherwax",
                 "party": "D",
+                "locale": "Browning",
                 "role": "Member"
             }
         ]
@@ -1654,9 +2115,7 @@
         "key": "house-fish-wildlife-and-parks",
         "time": "afternoon",
         "type": "policy",
-        "billCount": 12,
-        "billsUnheard": [],
-        "billsHeard": [
+        "bills": [
             "HB 42",
             "HB 73",
             "HB 74",
@@ -1669,6 +2128,21 @@
             "HB 217",
             "HB 243",
             "HB 290"
+        ],
+        "billCount": 12,
+        "billsUnscheduled": [],
+        "billsScheduledByDay": [
+            {
+                "day": "01/24/2023",
+                "bills": [
+                    "HB 290"
+                ]
+            }
+        ],
+        "billsAwaitingVote": [
+            "HB 42",
+            "HB 217",
+            "HB 243"
         ],
         "billsFailed": [],
         "billsAdvanced": [
@@ -1686,101 +2160,121 @@
             {
                 "name": "Ross Fitzgerald",
                 "party": "R",
+                "locale": "Power",
                 "role": "Chair"
             },
             {
                 "name": "Jedediah Hinkle",
                 "party": "R",
+                "locale": "Belgrade",
                 "role": "Vice Chair"
             },
             {
                 "name": "Lee Deming",
                 "party": "R",
+                "locale": "Laurel",
                 "role": "Member"
             },
             {
                 "name": "Neil Duram",
                 "party": "R",
+                "locale": "Eureka",
                 "role": "Member"
             },
             {
                 "name": "Paul Fielder",
                 "party": "R",
+                "locale": "Thompson Falls",
                 "role": "Member"
             },
             {
                 "name": "Brandon Ler",
                 "party": "R",
+                "locale": "Savage",
                 "role": "Member"
             },
             {
                 "name": "Denley Loge",
                 "party": "R",
+                "locale": "St Regis",
                 "role": "Member"
             },
             {
                 "name": "Russ Miner",
                 "party": "R",
+                "locale": "Great Falls",
                 "role": "Member"
             },
             {
                 "name": "Greg Oblander",
                 "party": "R",
+                "locale": "Billings",
                 "role": "Member"
             },
             {
                 "name": "Gary Parry",
                 "party": "R",
+                "locale": "Colstrip",
                 "role": "Member"
             },
             {
                 "name": "Bob Phalen",
                 "party": "R",
+                "locale": "Lindsay",
                 "role": "Member"
             },
             {
                 "name": "Tanner Smith",
                 "party": "R",
+                "locale": "Lakeside",
                 "role": "Member"
             },
             {
                 "name": "Mallerie Stromswold",
                 "party": "R",
+                "locale": "Billings",
                 "role": "Member"
             },
             {
                 "name": "Sue Vinton",
                 "party": "R",
+                "locale": "Billings",
                 "role": "Member"
             },
             {
                 "name": "Tom France",
                 "party": "D",
+                "locale": "Missoula",
                 "role": "Vice Chair"
             },
             {
                 "name": "Denise Baum",
                 "party": "D",
+                "locale": "Billings",
                 "role": "Member"
             },
             {
                 "name": "Jonathan Karlen",
                 "party": "D",
+                "locale": "Missoula",
                 "role": "Member"
             },
             {
                 "name": "Marilyn Marler",
                 "party": "D",
+                "locale": "Missoula",
                 "role": "Member"
             },
             {
                 "name": "Eric Matthews",
                 "party": "D",
+                "locale": "Bozeman",
                 "role": "Member"
             },
             {
                 "name": "Tyson Running Wolf",
                 "party": "D",
+                "locale": "Browning",
                 "role": "Member"
             }
         ]
@@ -1790,15 +2284,7 @@
         "key": "house-local-government",
         "time": "afternoon",
         "type": "policy",
-        "billCount": 18,
-        "billsUnheard": [
-            "HB 291",
-            "HB 295",
-            "SB 5",
-            "SB 98",
-            "SB 103"
-        ],
-        "billsHeard": [
+        "bills": [
             "HB 20",
             "HB 32",
             "HB 33",
@@ -1811,7 +2297,40 @@
             "HB 215",
             "HB 241",
             "HB 246",
-            "HB 262"
+            "HB 262",
+            "HB 291",
+            "HB 295",
+            "SB 5",
+            "SB 98",
+            "SB 103"
+        ],
+        "billCount": 18,
+        "billsUnscheduled": [
+            "HB 291",
+            "HB 295",
+            "SB 5",
+            "SB 98",
+            "SB 103"
+        ],
+        "billsScheduledByDay": [
+            {
+                "day": "01/24/2023",
+                "bills": [
+                    "HB 241",
+                    "HB 262"
+                ]
+            },
+            {
+                "day": "01/26/2023",
+                "bills": [
+                    "HB 246"
+                ]
+            }
+        ],
+        "billsAwaitingVote": [
+            "HB 187",
+            "HB 211",
+            "HB 215"
         ],
         "billsFailed": [],
         "billsAdvanced": [
@@ -1828,81 +2347,97 @@
             {
                 "name": "Larry Brewster",
                 "party": "R",
+                "locale": "Billings",
                 "role": "Chair"
             },
             {
                 "name": "Marta Bertoglio",
                 "party": "R",
+                "locale": "Clancy",
                 "role": "Vice Chair"
             },
             {
                 "name": "Sherry Essmann",
                 "party": "R",
+                "locale": "Billings",
                 "role": "Member"
             },
             {
                 "name": "Steven Galloway",
                 "party": "R",
+                "locale": "Great Falls",
                 "role": "Member"
             },
             {
                 "name": "Steve Gist",
                 "party": "R",
+                "locale": "Cascade",
                 "role": "Member"
             },
             {
                 "name": "Steve Gunderson",
                 "party": "R",
+                "locale": "Libby",
                 "role": "Member"
             },
             {
                 "name": "Scot Kerns",
                 "party": "R",
+                "locale": "Great Falls",
                 "role": "Member"
             },
             {
                 "name": "Linda Reksten",
                 "party": "R",
+                "locale": "Polson",
                 "role": "Member"
             },
             {
                 "name": "Kerri Seekins-Crowe",
                 "party": "R",
+                "locale": "Billings",
                 "role": "Member"
             },
             {
                 "name": "Courtenay Sprunger",
                 "party": "R",
+                "locale": "Kalispell",
                 "role": "Member"
             },
             {
                 "name": "Katie Zolnikov",
                 "party": "R",
+                "locale": "Billings",
                 "role": "Member"
             },
             {
                 "name": "Jill Cohenour",
                 "party": "D",
+                "locale": "East Helena",
                 "role": "Vice Chair"
             },
             {
                 "name": "Laurie Bishop",
                 "party": "D",
+                "locale": "Livingston",
                 "role": "Member"
             },
             {
                 "name": "Kelly Kortum",
                 "party": "D",
+                "locale": "Bozeman",
                 "role": "Member"
             },
             {
                 "name": "Jennifer Lynch",
                 "party": "D",
+                "locale": "Butte",
                 "role": "Member"
             },
             {
                 "name": "Mark Thane",
                 "party": "D",
+                "locale": "Missoula",
                 "role": "Member"
             }
         ]
@@ -1912,18 +2447,21 @@
         "key": "house-legislative-administration",
         "time": "on call",
         "type": "policy",
-        "billCount": 7,
-        "billsUnheard": [
-            "HB 271"
-        ],
-        "billsHeard": [
+        "bills": [
             "HB 28",
             "HB 110",
             "HB 140",
             "HB 150",
             "HB 167",
-            "HB 260"
+            "HB 260",
+            "HB 271"
         ],
+        "billCount": 7,
+        "billsUnscheduled": [
+            "HB 271"
+        ],
+        "billsScheduledByDay": [],
+        "billsAwaitingVote": [],
         "billsFailed": [],
         "billsAdvanced": [
             "HB 28",
@@ -1938,81 +2476,97 @@
             {
                 "name": "Caleb Hinkle",
                 "party": "R",
+                "locale": "Belgrade",
                 "role": "Chair"
             },
             {
                 "name": "Lee Deming",
                 "party": "R",
+                "locale": "Laurel",
                 "role": "Vice Chair"
             },
             {
                 "name": "Tony Brockman",
                 "party": "R",
+                "locale": "Kalispell",
                 "role": "Member"
             },
             {
                 "name": "Terry Falk",
                 "party": "R",
+                "locale": "Kalispell",
                 "role": "Member"
             },
             {
                 "name": "Ross Fitzgerald",
                 "party": "R",
+                "locale": "Power",
                 "role": "Member"
             },
             {
                 "name": "Steve Gist",
                 "party": "R",
+                "locale": "Cascade",
                 "role": "Member"
             },
             {
                 "name": "Paul Green",
                 "party": "R",
+                "locale": "Hardin",
                 "role": "Member"
             },
             {
                 "name": "Greg Kmetz",
                 "party": "R",
+                "locale": "Miles City",
                 "role": "Member"
             },
             {
                 "name": "Gary Parry",
                 "party": "R",
+                "locale": "Colstrip",
                 "role": "Member"
             },
             {
                 "name": "Amy Regier",
                 "party": "R",
+                "locale": "Kalispell",
                 "role": "Member"
             },
             {
                 "name": "Kenneth Walsh",
                 "party": "R",
+                "locale": "Twin Bridges",
                 "role": "Member"
             },
             {
                 "name": "Ed Stafman",
                 "party": "D",
+                "locale": "Bozeman",
                 "role": "Vice Chair"
             },
             {
                 "name": "Jonathan Karlen",
                 "party": "D",
+                "locale": "Missoula",
                 "role": "Member"
             },
             {
                 "name": "Marilyn Marler",
                 "party": "D",
+                "locale": "Missoula",
                 "role": "Member"
             },
             {
                 "name": "Melissa Romano",
                 "party": "D",
+                "locale": "Helena",
                 "role": "Member"
             },
             {
                 "name": "Paul Tuss",
                 "party": "D",
+                "locale": "Havre",
                 "role": "Member"
             }
         ]
@@ -2022,12 +2576,14 @@
         "key": "house-rules",
         "time": "on call",
         "type": "policy",
-        "billCount": 2,
-        "billsUnheard": [],
-        "billsHeard": [
+        "bills": [
             "HR 1",
             "SJ 1"
         ],
+        "billCount": 2,
+        "billsUnscheduled": [],
+        "billsScheduledByDay": [],
+        "billsAwaitingVote": [],
         "billsFailed": [],
         "billsAdvanced": [
             "HR 1",
@@ -2038,111 +2594,133 @@
             {
                 "name": "Casey Knudsen",
                 "party": "R",
+                "locale": "Malta",
                 "role": "Chair"
             },
             {
                 "name": "Larry Brewster",
                 "party": "R",
+                "locale": "Billings",
                 "role": "Vice Chair"
             },
             {
                 "name": "David Bedey",
                 "party": "R",
+                "locale": "Hamilton",
                 "role": "Member"
             },
             {
                 "name": "Michele Binkley",
                 "party": "R",
+                "locale": "Hamilton",
                 "role": "Member"
             },
             {
                 "name": "Ed Buttrey",
                 "party": "R",
+                "locale": "Great Falls",
                 "role": "Member"
             },
             {
                 "name": "Neil Duram",
                 "party": "R",
+                "locale": "Eureka",
                 "role": "Member"
             },
             {
                 "name": "Paul Fielder",
                 "party": "R",
+                "locale": "Thompson Falls",
                 "role": "Member"
             },
             {
                 "name": "Steve Gunderson",
                 "party": "R",
+                "locale": "Libby",
                 "role": "Member"
             },
             {
                 "name": "Jedediah Hinkle",
                 "party": "R",
+                "locale": "Belgrade",
                 "role": "Member"
             },
             {
                 "name": "Rhonda Knudsen",
                 "party": "R",
+                "locale": "Culbertson",
                 "role": "Member"
             },
             {
                 "name": "Brandon Ler",
                 "party": "R",
+                "locale": "Savage",
                 "role": "Member"
             },
             {
                 "name": "Ron Marshall",
                 "party": "R",
+                "locale": "Hamilton",
                 "role": "Member"
             },
             {
                 "name": "Amy Regier",
                 "party": "R",
+                "locale": "Kalispell",
                 "role": "Member"
             },
             {
                 "name": "Jerry Schillinger",
                 "party": "R",
+                "locale": "Circle",
                 "role": "Member"
             },
             {
                 "name": "Lola Sheldon-Galloway",
                 "party": "R",
+                "locale": "Billings",
                 "role": "Member"
             },
             {
                 "name": "Jim Hamilton",
                 "party": "D",
+                "locale": "Bozeman",
                 "role": "Vice Chair"
             },
             {
                 "name": "Kim Abbott",
                 "party": "D",
+                "locale": "Helena",
                 "role": "Member"
             },
             {
                 "name": "Laurie Bishop",
                 "party": "D",
+                "locale": "Livingston",
                 "role": "Member"
             },
             {
                 "name": "Alice Buckley",
                 "party": "D",
+                "locale": "Bozeman",
                 "role": "Member"
             },
             {
                 "name": "Derek Harvey",
                 "party": "D",
+                "locale": "Butte",
                 "role": "Member"
             },
             {
                 "name": "Sharon Stewart Peregoy",
                 "party": "D",
+                "locale": "Crow Agency",
                 "role": "Member"
             },
             {
                 "name": "Katie Sullivan",
                 "party": "D",
+                "locale": "Missoula",
                 "role": "Member"
             }
         ]
@@ -2152,16 +2730,27 @@
         "key": "senate-finance-and-claims",
         "time": "morning",
         "type": "fiscal",
-        "billCount": 10,
-        "billsUnheard": [
-            "SB 108",
-            "SB 132"
-        ],
-        "billsHeard": [
+        "bills": [
             "HB 1",
             "SB 3",
             "SB 21",
             "SB 29",
+            "SB 58",
+            "SB 70",
+            "SB 95",
+            "SB 108",
+            "SB 126",
+            "SB 132"
+        ],
+        "billCount": 10,
+        "billsUnscheduled": [
+            "SB 108",
+            "SB 132"
+        ],
+        "billsScheduledByDay": [],
+        "billsAwaitingVote": [
+            "SB 3",
+            "SB 21",
             "SB 58",
             "SB 70",
             "SB 95",
@@ -2177,91 +2766,109 @@
             {
                 "name": "John Esp",
                 "party": "R",
+                "locale": "Big Timber",
                 "role": "Chair"
             },
             {
                 "name": "Carl Glimm",
                 "party": "R",
+                "locale": "Kila",
                 "role": "Vice Chair"
             },
             {
                 "name": "Dan Bartel",
                 "party": "R",
+                "locale": "Lewistown",
                 "role": "Member"
             },
             {
                 "name": "Kenneth Bogner",
                 "party": "R",
+                "locale": "Miles City",
                 "role": "Member"
             },
             {
                 "name": "Mike Cuffe",
                 "party": "R",
+                "locale": "Eureka",
                 "role": "Member"
             },
             {
                 "name": "John Fuller",
                 "party": "R",
+                "locale": "Kalispell",
                 "role": "Member"
             },
             {
                 "name": "Mike Lang",
                 "party": "R",
+                "locale": "Malta",
                 "role": "Member"
             },
             {
                 "name": "Dennis Lenz",
                 "party": "R",
+                "locale": "Billings",
                 "role": "Member"
             },
             {
                 "name": "Forrest Mandeville",
                 "party": "R",
+                "locale": "Columbus",
                 "role": "Member"
             },
             {
                 "name": "Tom McGillvray",
                 "party": "R",
+                "locale": "Billings",
                 "role": "Member"
             },
             {
                 "name": "Dan Salomon",
                 "party": "R",
+                "locale": "Ronan",
                 "role": "Member"
             },
             {
                 "name": "Shelley Vance",
                 "party": "R",
+                "locale": "Belgrade",
                 "role": "Member"
             },
             {
                 "name": "Jeff Welborn",
                 "party": "R",
+                "locale": "Dillon",
                 "role": "Member"
             },
             {
                 "name": "Janet Ellis",
                 "party": "D",
+                "locale": "Helena",
                 "role": "Vice Chair"
             },
             {
                 "name": "Pat Flowers",
                 "party": "D",
+                "locale": "Belgrade",
                 "role": "Member"
             },
             {
                 "name": "Ryan Lynch",
                 "party": "D",
+                "locale": "Butte",
                 "role": "Member"
             },
             {
                 "name": "Shane Morigeau",
                 "party": "D",
+                "locale": "Missoula",
                 "role": "Member"
             },
             {
                 "name": "Chris Pope",
                 "party": "D",
+                "locale": "Bozeman",
                 "role": "Member"
             }
         ]
@@ -2271,19 +2878,13 @@
         "key": "senate-judiciary",
         "time": "morning",
         "type": "policy",
-        "billCount": 51,
-        "billsUnheard": [
+        "bills": [
             "HB 18",
+            "HB 77",
+            "HB 78",
             "HB 83",
             "HB 111",
             "HB 149",
-            "SB 99",
-            "SB 127",
-            "SR 7"
-        ],
-        "billsHeard": [
-            "HB 77",
-            "HB 78",
             "HJ 1",
             "SB 2",
             "SB 6",
@@ -2303,7 +2904,9 @@
             "SB 94",
             "SB 95",
             "SB 96",
+            "SB 99",
             "SB 106",
+            "SB 127",
             "SB 134",
             "SB 135",
             "SB 136",
@@ -2323,9 +2926,53 @@
             "SJ 3",
             "SJ 5",
             "SR 6",
+            "SR 7",
             "SR 8",
             "SR 9",
             "SR 10"
+        ],
+        "billCount": 51,
+        "billsUnscheduled": [
+            "HB 18",
+            "HB 83",
+            "HB 111",
+            "HB 149",
+            "SB 99",
+            "SB 127",
+            "SR 7"
+        ],
+        "billsScheduledByDay": [
+            {
+                "day": "01/24/2023",
+                "bills": [
+                    "SB 182",
+                    "SB 184",
+                    "SB 191"
+                ]
+            },
+            {
+                "day": "01/25/2023",
+                "bills": [
+                    "SR 6",
+                    "SR 8",
+                    "SR 9",
+                    "SR 10"
+                ]
+            }
+        ],
+        "billsAwaitingVote": [
+            "HJ 1",
+            "SB 11",
+            "SB 47",
+            "SB 94",
+            "SB 135",
+            "SB 148",
+            "SB 160",
+            "SB 169",
+            "SB 171",
+            "SB 172",
+            "SB 183",
+            "SB 187"
         ],
         "billsFailed": [
             "SB 2",
@@ -2361,56 +3008,67 @@
             {
                 "name": "Keith Regier",
                 "party": "R",
+                "locale": "Kalispell",
                 "role": "Chair"
             },
             {
                 "name": "Barry Usher",
                 "party": "R",
+                "locale": "Laurel",
                 "role": "Vice Chair"
             },
             {
                 "name": "Bob Brown",
                 "party": "R",
+                "locale": "Trout Creek",
                 "role": "Member"
             },
             {
                 "name": "Daniel Emrich",
                 "party": "R",
+                "locale": "Great Falls",
                 "role": "Member"
             },
             {
                 "name": "Chris Friedel",
                 "party": "R",
+                "locale": "Billings",
                 "role": "Member"
             },
             {
                 "name": "Steve Hinebauch",
                 "party": "R",
+                "locale": "Wibaux",
                 "role": "Member"
             },
             {
                 "name": "Theresa Manzella",
                 "party": "R",
+                "locale": "Hamilton",
                 "role": "Member"
             },
             {
                 "name": "Jen Gross",
                 "party": "D",
+                "locale": "Billings",
                 "role": "Vice Chair"
             },
             {
                 "name": "Kathy Kelker",
                 "party": "D",
+                "locale": "Billings",
                 "role": "Member"
             },
             {
                 "name": "Andrea Olsen",
                 "party": "D",
+                "locale": "Missoula",
                 "role": "Member"
             },
             {
                 "name": "Susan Webber",
                 "party": "D",
+                "locale": "Browning",
                 "role": "Member"
             }
         ]
@@ -2420,14 +3078,7 @@
         "key": "senate-business-labor-and-economic-affairs",
         "time": "morning",
         "type": "policy",
-        "billCount": 50,
-        "billsUnheard": [
-            "SB 20",
-            "SB 112",
-            "SR 29",
-            "SR 30"
-        ],
-        "billsHeard": [
+        "bills": [
             "HB 30",
             "HB 43",
             "HB 48",
@@ -2444,6 +3095,7 @@
             "HB 157",
             "HB 160",
             "HB 166",
+            "SB 20",
             "SB 21",
             "SB 22",
             "SB 35",
@@ -2460,6 +3112,7 @@
             "SB 105",
             "SB 107",
             "SB 108",
+            "SB 112",
             "SB 133",
             "SB 140",
             "SB 146",
@@ -2473,6 +3126,61 @@
             "SB 177",
             "SB 178",
             "SB 179",
+            "SJ 2",
+            "SR 29",
+            "SR 30"
+        ],
+        "billCount": 50,
+        "billsUnscheduled": [
+            "SB 20",
+            "SB 112",
+            "SR 29",
+            "SR 30"
+        ],
+        "billsScheduledByDay": [
+            {
+                "day": "01/24/2023",
+                "bills": [
+                    "HB 48",
+                    "HB 70",
+                    "HB 123",
+                    "HB 145",
+                    "HB 157",
+                    "HB 166",
+                    "SB 90",
+                    "SB 179"
+                ]
+            },
+            {
+                "day": "01/25/2023",
+                "bills": [
+                    "HB 142",
+                    "SB 161",
+                    "SB 165",
+                    "SB 177",
+                    "SB 178"
+                ]
+            }
+        ],
+        "billsAwaitingVote": [
+            "HB 30",
+            "HB 43",
+            "HB 50",
+            "HB 71",
+            "HB 98",
+            "HB 120",
+            "HB 138",
+            "HB 139",
+            "HB 160",
+            "SB 22",
+            "SB 53",
+            "SB 105",
+            "SB 140",
+            "SB 146",
+            "SB 166",
+            "SB 167",
+            "SB 168",
+            "SB 174",
             "SJ 2"
         ],
         "billsFailed": [],
@@ -2497,51 +3205,61 @@
             {
                 "name": "Jason Small",
                 "party": "R",
+                "locale": "Busby",
                 "role": "Chair"
             },
             {
                 "name": "Mark Noland",
                 "party": "R",
+                "locale": "Bigfork",
                 "role": "Vice Chair"
             },
             {
                 "name": "Jason Ellsworth",
                 "party": "R",
+                "locale": "Hamilton",
                 "role": "Member"
             },
             {
                 "name": "Steve Fitzpatrick",
                 "party": "R",
+                "locale": "Great Falls",
                 "role": "Member"
             },
             {
                 "name": "Bruce Gillespie",
                 "party": "R",
+                "locale": "Ethridge",
                 "role": "Member"
             },
             {
                 "name": "Walt Sales",
                 "party": "R",
+                "locale": "Manhattan",
                 "role": "Member"
             },
             {
                 "name": "Terry Vermeire",
                 "party": "R",
+                "locale": "Anaconda",
                 "role": "Member"
             },
             {
                 "name": "Chris Pope",
                 "party": "D",
+                "locale": "Bozeman",
                 "role": "Vice Chair"
             },
             {
                 "name": "Willis Curdy",
                 "party": "D",
+                "locale": "Missoula",
                 "role": "Member"
             },
             {
                 "name": "Mike Fox",
                 "party": "D",
+                "locale": "Hays",
                 "role": "Member"
             }
         ]
@@ -2551,8 +3269,45 @@
         "key": "senate-taxation",
         "time": "morning",
         "type": "policy",
+        "bills": [
+            "HB 24",
+            "HB 25",
+            "HB 56",
+            "HB 58",
+            "HB 121",
+            "HB 124",
+            "SB 3",
+            "SB 14",
+            "SB 15",
+            "SB 16",
+            "SB 20",
+            "SB 23",
+            "SB 24",
+            "SB 27",
+            "SB 28",
+            "SB 46",
+            "SB 54",
+            "SB 62",
+            "SB 64",
+            "SB 65",
+            "SB 81",
+            "SB 97",
+            "SB 104",
+            "SB 110",
+            "SB 118",
+            "SB 119",
+            "SB 121",
+            "SB 122",
+            "SB 123",
+            "SB 124",
+            "SB 125",
+            "SB 145",
+            "SB 192",
+            "SB 194",
+            "SR 11"
+        ],
         "billCount": 35,
-        "billsUnheard": [
+        "billsUnscheduled": [
             "SB 14",
             "SB 28",
             "SB 104",
@@ -2562,26 +3317,21 @@
             "SB 194",
             "SR 11"
         ],
-        "billsHeard": [
+        "billsScheduledByDay": [
+            {
+                "day": "01/24/2023",
+                "bills": [
+                    "HB 25",
+                    "HB 121",
+                    "HB 124"
+                ]
+            }
+        ],
+        "billsAwaitingVote": [
             "HB 24",
-            "HB 25",
             "HB 56",
             "HB 58",
-            "HB 121",
-            "HB 124",
-            "SB 3",
             "SB 15",
-            "SB 16",
-            "SB 20",
-            "SB 23",
-            "SB 24",
-            "SB 27",
-            "SB 46",
-            "SB 54",
-            "SB 62",
-            "SB 64",
-            "SB 65",
-            "SB 81",
             "SB 97",
             "SB 110",
             "SB 119",
@@ -2611,61 +3361,73 @@
             {
                 "name": "Greg Hertz",
                 "party": "R",
+                "locale": "Polson",
                 "role": "Chair"
             },
             {
                 "name": "Daniel Zolnikov",
                 "party": "R",
+                "locale": "Billings",
                 "role": "Vice Chair"
             },
             {
                 "name": "Becky Beard",
                 "party": "R",
+                "locale": "Elliston",
                 "role": "Member"
             },
             {
                 "name": "Jason Ellsworth",
                 "party": "R",
+                "locale": "Hamilton",
                 "role": "Member"
             },
             {
                 "name": "Wendy McKamey",
                 "party": "R",
+                "locale": "Great Falls",
                 "role": "Member"
             },
             {
                 "name": "Brad Molnar",
                 "party": "R",
+                "locale": "Laurel",
                 "role": "Member"
             },
             {
                 "name": "Russ Tempel",
                 "party": "R",
+                "locale": "Chester",
                 "role": "Member"
             },
             {
                 "name": "Jeremy Trebas",
                 "party": "R",
+                "locale": "Great Falls",
                 "role": "Member"
             },
             {
                 "name": "Shannon O'Brien",
                 "party": "D",
+                "locale": "Missoula",
                 "role": "Vice Chair"
             },
             {
                 "name": "Mary Ann Dunwell",
                 "party": "D",
+                "locale": "Helena",
                 "role": "Member"
             },
             {
                 "name": "Denise Hayman",
                 "party": "D",
+                "locale": "Bozeman",
                 "role": "Member"
             },
             {
                 "name": "Edie McClafferty",
                 "party": "D",
+                "locale": "Butte",
                 "role": "Member"
             }
         ]
@@ -2675,22 +3437,32 @@
         "key": "senate-education-and-cultural-resources",
         "time": "afternoon",
         "type": "policy",
-        "billCount": 12,
-        "billsUnheard": [
-            "SB 9",
-            "SJ 6"
-        ],
-        "billsHeard": [
+        "bills": [
             "HB 21",
             "HB 22",
             "HB 61",
             "SB 1",
             "SB 8",
+            "SB 9",
             "SB 10",
             "SB 69",
             "SB 70",
             "SB 129",
-            "SB 132"
+            "SB 132",
+            "SJ 6"
+        ],
+        "billCount": 12,
+        "billsUnscheduled": [
+            "SB 9",
+            "SJ 6"
+        ],
+        "billsScheduledByDay": [],
+        "billsAwaitingVote": [
+            "HB 21",
+            "HB 22",
+            "HB 61",
+            "SB 8",
+            "SB 129"
         ],
         "billsFailed": [],
         "billsAdvanced": [
@@ -2705,56 +3477,67 @@
             {
                 "name": "Dan Salomon",
                 "party": "R",
+                "locale": "Ronan",
                 "role": "Chair"
             },
             {
                 "name": "Russ Tempel",
                 "party": "R",
+                "locale": "Chester",
                 "role": "Vice Chair"
             },
             {
                 "name": "Daniel Emrich",
                 "party": "R",
+                "locale": "Great Falls",
                 "role": "Member"
             },
             {
                 "name": "Steve Fitzpatrick",
                 "party": "R",
+                "locale": "Great Falls",
                 "role": "Member"
             },
             {
                 "name": "John Fuller",
                 "party": "R",
+                "locale": "Kalispell",
                 "role": "Member"
             },
             {
                 "name": "Greg Hertz",
                 "party": "R",
+                "locale": "Polson",
                 "role": "Member"
             },
             {
                 "name": "Keith Regier",
                 "party": "R",
+                "locale": "Kalispell",
                 "role": "Member"
             },
             {
                 "name": "Edie McClafferty",
                 "party": "D",
+                "locale": "Butte",
                 "role": "Vice Chair"
             },
             {
                 "name": "Shannon O'Brien",
                 "party": "D",
+                "locale": "Missoula",
                 "role": "Member"
             },
             {
                 "name": "Andrea Olsen",
                 "party": "D",
+                "locale": "Missoula",
                 "role": "Member"
             },
             {
                 "name": "Susan Webber",
                 "party": "D",
+                "locale": "Browning",
                 "role": "Member"
             }
         ]
@@ -2764,11 +3547,8 @@
         "key": "senate-local-government",
         "time": "afternoon",
         "type": "policy",
-        "billCount": 15,
-        "billsUnheard": [
-            "HB 35"
-        ],
-        "billsHeard": [
+        "bills": [
+            "HB 35",
             "HB 67",
             "HB 113",
             "SB 5",
@@ -2782,6 +3562,18 @@
             "SB 158",
             "SB 170",
             "SB 173",
+            "SB 195"
+        ],
+        "billCount": 15,
+        "billsUnscheduled": [
+            "HB 35"
+        ],
+        "billsScheduledByDay": [],
+        "billsAwaitingVote": [
+            "HB 67",
+            "HB 113",
+            "SB 142",
+            "SB 170",
             "SB 195"
         ],
         "billsFailed": [],
@@ -2801,41 +3593,49 @@
             {
                 "name": "Chris Friedel",
                 "party": "R",
+                "locale": "Billings",
                 "role": "Chair"
             },
             {
                 "name": "Kenneth Bogner",
                 "party": "R",
+                "locale": "Miles City",
                 "role": "Vice Chair"
             },
             {
                 "name": "Forrest Mandeville",
                 "party": "R",
+                "locale": "Columbus",
                 "role": "Member"
             },
             {
                 "name": "Jeremy Trebas",
                 "party": "R",
+                "locale": "Great Falls",
                 "role": "Member"
             },
             {
                 "name": "Terry Vermeire",
                 "party": "R",
+                "locale": "Anaconda",
                 "role": "Member"
             },
             {
                 "name": "Daniel Zolnikov",
                 "party": "R",
+                "locale": "Billings",
                 "role": "Member"
             },
             {
                 "name": "Mary Ann Dunwell",
                 "party": "D",
+                "locale": "Helena",
                 "role": "Vice Chair"
             },
             {
                 "name": "Chris Pope",
                 "party": "D",
+                "locale": "Bozeman",
                 "role": "Member"
             }
         ]
@@ -2845,15 +3645,11 @@
         "key": "senate-natural-resources",
         "time": "afternoon",
         "type": "policy",
-        "billCount": 15,
-        "billsUnheard": [
+        "bills": [
             "HB 53",
+            "HB 54",
             "HB 88",
             "HB 122",
-            "SB 82"
-        ],
-        "billsHeard": [
-            "HB 54",
             "SB 17",
             "SB 32",
             "SB 39",
@@ -2862,6 +3658,27 @@
             "SB 48",
             "SB 55",
             "SB 72",
+            "SB 82",
+            "SB 83",
+            "SB 138"
+        ],
+        "billCount": 15,
+        "billsUnscheduled": [
+            "HB 53",
+            "HB 88",
+            "HB 122",
+            "SB 82"
+        ],
+        "billsScheduledByDay": [
+            {
+                "day": "01/25/2023",
+                "bills": [
+                    "HB 54",
+                    "SB 55"
+                ]
+            }
+        ],
+        "billsAwaitingVote": [
             "SB 83",
             "SB 138"
         ],
@@ -2880,56 +3697,67 @@
             {
                 "name": "Jeff Welborn",
                 "party": "R",
+                "locale": "Dillon",
                 "role": "Chair"
             },
             {
                 "name": "Walt Sales",
                 "party": "R",
+                "locale": "Manhattan",
                 "role": "Vice Chair"
             },
             {
                 "name": "Bob Brown",
                 "party": "R",
+                "locale": "Trout Creek",
                 "role": "Member"
             },
             {
                 "name": "Bruce Gillespie",
                 "party": "R",
+                "locale": "Ethridge",
                 "role": "Member"
             },
             {
                 "name": "Mike Lang",
                 "party": "R",
+                "locale": "Malta",
                 "role": "Member"
             },
             {
                 "name": "Jason Small",
                 "party": "R",
+                "locale": "Busby",
                 "role": "Member"
             },
             {
                 "name": "Barry Usher",
                 "party": "R",
+                "locale": "Laurel",
                 "role": "Member"
             },
             {
                 "name": "Shane Morigeau",
                 "party": "D",
+                "locale": "Missoula",
                 "role": "Vice Chair"
             },
             {
                 "name": "Willis Curdy",
                 "party": "D",
+                "locale": "Missoula",
                 "role": "Member"
             },
             {
                 "name": "Pat Flowers",
                 "party": "D",
+                "locale": "Belgrade",
                 "role": "Member"
             },
             {
                 "name": "Ryan Lynch",
                 "party": "D",
+                "locale": "Butte",
                 "role": "Member"
             }
         ]
@@ -2939,8 +3767,50 @@
         "key": "senate-public-health-welfare-and-safety",
         "time": "afternoon",
         "type": "policy",
+        "bills": [
+            "HB 39",
+            "SB 4",
+            "SB 26",
+            "SB 34",
+            "SB 36",
+            "SB 39",
+            "SB 45",
+            "SB 48",
+            "SB 67",
+            "SB 87",
+            "SB 99",
+            "SB 112",
+            "SB 113",
+            "SB 114",
+            "SB 115",
+            "SB 116",
+            "SB 150",
+            "SB 151",
+            "SB 162",
+            "SB 163",
+            "SB 180",
+            "SB 181",
+            "SB 186",
+            "SB 188",
+            "SB 196",
+            "SJ 6",
+            "SR 12",
+            "SR 13",
+            "SR 14",
+            "SR 15",
+            "SR 16",
+            "SR 17",
+            "SR 18",
+            "SR 19",
+            "SR 20",
+            "SR 21",
+            "SR 22",
+            "SR 23",
+            "SR 24",
+            "SR 25"
+        ],
         "billCount": 40,
-        "billsUnheard": [
+        "billsUnscheduled": [
             "SB 39",
             "SB 48",
             "SB 99",
@@ -2961,28 +3831,25 @@
             "SR 24",
             "SR 25"
         ],
-        "billsHeard": [
-            "HB 39",
-            "SB 4",
-            "SB 26",
-            "SB 34",
-            "SB 36",
-            "SB 45",
-            "SB 67",
-            "SB 87",
+        "billsScheduledByDay": [
+            {
+                "day": "01/25/2023",
+                "bills": [
+                    "SB 188"
+                ]
+            }
+        ],
+        "billsAwaitingVote": [
             "SB 112",
             "SB 113",
-            "SB 114",
             "SB 115",
-            "SB 116",
             "SB 150",
             "SB 151",
             "SB 162",
             "SB 163",
             "SB 180",
             "SB 181",
-            "SB 186",
-            "SB 188"
+            "SB 186"
         ],
         "billsFailed": [
             "SB 26"
@@ -3003,46 +3870,55 @@
             {
                 "name": "Tom McGillvray",
                 "party": "R",
+                "locale": "Billings",
                 "role": "Chair"
             },
             {
                 "name": "Dennis Lenz",
                 "party": "R",
+                "locale": "Billings",
                 "role": "Vice Chair"
             },
             {
                 "name": "Becky Beard",
                 "party": "R",
+                "locale": "Elliston",
                 "role": "Member"
             },
             {
                 "name": "Carl Glimm",
                 "party": "R",
+                "locale": "Kila",
                 "role": "Member"
             },
             {
                 "name": "Steve Hinebauch",
                 "party": "R",
+                "locale": "Wibaux",
                 "role": "Member"
             },
             {
                 "name": "Brad Molnar",
                 "party": "R",
+                "locale": "Laurel",
                 "role": "Member"
             },
             {
                 "name": "Kathy Kelker",
                 "party": "D",
+                "locale": "Billings",
                 "role": "Vice Chair"
             },
             {
                 "name": "Jen Gross",
                 "party": "D",
+                "locale": "Billings",
                 "role": "Member"
             },
             {
                 "name": "Susan Webber",
                 "party": "D",
+                "locale": "Browning",
                 "role": "Member"
             }
         ]
@@ -3052,8 +3928,48 @@
         "key": "senate-state-administration",
         "time": "afternoon",
         "type": "policy",
+        "bills": [
+            "HB 63",
+            "HB 106",
+            "HB 110",
+            "HB 132",
+            "HB 148",
+            "SB 18",
+            "SB 25",
+            "SB 29",
+            "SB 30",
+            "SB 31",
+            "SB 40",
+            "SB 49",
+            "SB 50",
+            "SB 51",
+            "SB 56",
+            "SB 60",
+            "SB 61",
+            "SB 66",
+            "SB 73",
+            "SB 74",
+            "SB 77",
+            "SB 86",
+            "SB 93",
+            "SB 117",
+            "SB 128",
+            "SB 153",
+            "SB 156",
+            "SB 164",
+            "SB 175",
+            "SB 176",
+            "SB 185",
+            "SB 189",
+            "SB 190",
+            "SJ 4",
+            "SJ 7",
+            "SJ 8",
+            "SR 4",
+            "SR 5"
+        ],
         "billCount": 38,
-        "billsUnheard": [
+        "billsUnscheduled": [
             "HB 63",
             "HB 106",
             "HB 110",
@@ -3071,28 +3987,26 @@
             "SR 4",
             "SR 5"
         ],
-        "billsHeard": [
-            "SB 18",
-            "SB 25",
-            "SB 29",
+        "billsScheduledByDay": [
+            {
+                "day": "01/25/2023",
+                "bills": [
+                    "SB 51"
+                ]
+            }
+        ],
+        "billsAwaitingVote": [
             "SB 30",
             "SB 31",
-            "SB 40",
-            "SB 50",
-            "SB 51",
-            "SB 56",
             "SB 60",
             "SB 61",
             "SB 66",
             "SB 73",
-            "SB 74",
             "SB 77",
             "SB 86",
             "SB 117",
-            "SB 128",
             "SB 153",
             "SB 156",
-            "SJ 4",
             "SJ 7"
         ],
         "billsFailed": [
@@ -3113,51 +4027,61 @@
             {
                 "name": "Mike Cuffe",
                 "party": "R",
+                "locale": "Eureka",
                 "role": "Chair"
             },
             {
                 "name": "Wendy McKamey",
                 "party": "R",
+                "locale": "Great Falls",
                 "role": "Vice Chair"
             },
             {
                 "name": "Dan Bartel",
                 "party": "R",
+                "locale": "Lewistown",
                 "role": "Member"
             },
             {
                 "name": "Steve Fitzpatrick",
                 "party": "R",
+                "locale": "Great Falls",
                 "role": "Member"
             },
             {
                 "name": "Theresa Manzella",
                 "party": "R",
+                "locale": "Hamilton",
                 "role": "Member"
             },
             {
                 "name": "Mark Noland",
                 "party": "R",
+                "locale": "Bigfork",
                 "role": "Member"
             },
             {
                 "name": "Shelley Vance",
                 "party": "R",
+                "locale": "Belgrade",
                 "role": "Member"
             },
             {
                 "name": "Denise Hayman",
                 "party": "D",
+                "locale": "Bozeman",
                 "role": "Vice Chair"
             },
             {
                 "name": "Janet Ellis",
                 "party": "D",
+                "locale": "Helena",
                 "role": "Member"
             },
             {
                 "name": "Mike Fox",
                 "party": "D",
+                "locale": "Hays",
                 "role": "Member"
             }
         ]
@@ -3167,20 +4091,37 @@
         "key": "senate-agriculture-livestock-and-irrigation",
         "time": "afternoon",
         "type": "policy",
-        "billCount": 10,
-        "billsUnheard": [
-            "SR 26",
-            "SR 27",
-            "SR 28"
-        ],
-        "billsHeard": [
+        "bills": [
             "HB 44",
             "HB 59",
             "HB 85",
             "HB 153",
             "SB 37",
             "SB 52",
-            "SB 78"
+            "SB 78",
+            "SR 26",
+            "SR 27",
+            "SR 28"
+        ],
+        "billCount": 10,
+        "billsUnscheduled": [
+            "SR 26",
+            "SR 27",
+            "SR 28"
+        ],
+        "billsScheduledByDay": [
+            {
+                "day": "01/24/2023",
+                "bills": [
+                    "HB 59",
+                    "HB 85"
+                ]
+            }
+        ],
+        "billsAwaitingVote": [
+            "HB 44",
+            "HB 153",
+            "SB 52"
         ],
         "billsFailed": [],
         "billsAdvanced": [
@@ -3192,51 +4133,61 @@
             {
                 "name": "Mike Lang",
                 "party": "R",
+                "locale": "Malta",
                 "role": "Chair"
             },
             {
                 "name": "Bruce Gillespie",
                 "party": "R",
+                "locale": "Ethridge",
                 "role": "Vice Chair"
             },
             {
                 "name": "Dan Bartel",
                 "party": "R",
+                "locale": "Lewistown",
                 "role": "Member"
             },
             {
                 "name": "Dennis Lenz",
                 "party": "R",
+                "locale": "Billings",
                 "role": "Member"
             },
             {
                 "name": "Wendy McKamey",
                 "party": "R",
+                "locale": "Great Falls",
                 "role": "Member"
             },
             {
                 "name": "Dan Salomon",
                 "party": "R",
+                "locale": "Ronan",
                 "role": "Member"
             },
             {
                 "name": "Jeff Welborn",
                 "party": "R",
+                "locale": "Dillon",
                 "role": "Member"
             },
             {
                 "name": "Susan Webber",
                 "party": "D",
+                "locale": "Browning",
                 "role": "Vice Chair"
             },
             {
                 "name": "Shane Morigeau",
                 "party": "D",
+                "locale": "Missoula",
                 "role": "Member"
             },
             {
                 "name": "Shannon O'Brien",
                 "party": "D",
+                "locale": "Missoula",
                 "role": "Member"
             }
         ]
@@ -3246,11 +4197,16 @@
         "key": "senate-energy-and-telecommunications",
         "time": "afternoon",
         "type": "policy",
+        "bills": [
+            "SB 109",
+            "SB 147"
+        ],
         "billCount": 2,
-        "billsUnheard": [
+        "billsUnscheduled": [
             "SB 109"
         ],
-        "billsHeard": [
+        "billsScheduledByDay": [],
+        "billsAwaitingVote": [
             "SB 147"
         ],
         "billsFailed": [],
@@ -3260,61 +4216,73 @@
             {
                 "name": "Walt Sales",
                 "party": "R",
+                "locale": "Manhattan",
                 "role": "Chair"
             },
             {
                 "name": "Jason Small",
                 "party": "R",
+                "locale": "Busby",
                 "role": "Vice Chair"
             },
             {
                 "name": "Mike Cuffe",
                 "party": "R",
+                "locale": "Eureka",
                 "role": "Member"
             },
             {
                 "name": "Steve Fitzpatrick",
                 "party": "R",
+                "locale": "Great Falls",
                 "role": "Member"
             },
             {
                 "name": "Brad Molnar",
                 "party": "R",
+                "locale": "Laurel",
                 "role": "Member"
             },
             {
                 "name": "Keith Regier",
                 "party": "R",
+                "locale": "Kalispell",
                 "role": "Member"
             },
             {
                 "name": "Russ Tempel",
                 "party": "R",
+                "locale": "Chester",
                 "role": "Member"
             },
             {
                 "name": "Daniel Zolnikov",
                 "party": "R",
+                "locale": "Billings",
                 "role": "Member"
             },
             {
                 "name": "Ryan Lynch",
                 "party": "D",
+                "locale": "Butte",
                 "role": "Vice Chair"
             },
             {
                 "name": "Janet Ellis",
                 "party": "D",
+                "locale": "Helena",
                 "role": "Member"
             },
             {
                 "name": "Denise Hayman",
                 "party": "D",
+                "locale": "Bozeman",
                 "role": "Member"
             },
             {
                 "name": "Chris Pope",
                 "party": "D",
+                "locale": "Bozeman",
                 "role": "Member"
             }
         ]
@@ -3324,12 +4292,7 @@
         "key": "senate-fish-and-game",
         "time": "afternoon",
         "type": "policy",
-        "billCount": 13,
-        "billsUnheard": [
-            "SR 2",
-            "SR 3"
-        ],
-        "billsHeard": [
+        "bills": [
             "HB 73",
             "HB 86",
             "HB 99",
@@ -3340,6 +4303,30 @@
             "SB 84",
             "SB 85",
             "SB 88",
+            "SB 139",
+            "SR 2",
+            "SR 3"
+        ],
+        "billCount": 13,
+        "billsUnscheduled": [
+            "SR 2",
+            "SR 3"
+        ],
+        "billsScheduledByDay": [
+            {
+                "day": "01/24/2023",
+                "bills": [
+                    "HB 99",
+                    "HB 133",
+                    "HB 162"
+                ]
+            }
+        ],
+        "billsAwaitingVote": [
+            "HB 73",
+            "HB 86",
+            "SB 84",
+            "SB 85",
             "SB 139"
         ],
         "billsFailed": [],
@@ -3353,61 +4340,73 @@
             {
                 "name": "Steve Hinebauch",
                 "party": "R",
+                "locale": "Wibaux",
                 "role": "Chair"
             },
             {
                 "name": "Bob Brown",
                 "party": "R",
+                "locale": "Trout Creek",
                 "role": "Vice Chair"
             },
             {
                 "name": "Jason Ellsworth",
                 "party": "R",
+                "locale": "Hamilton",
                 "role": "Member"
             },
             {
                 "name": "Daniel Emrich",
                 "party": "R",
+                "locale": "Great Falls",
                 "role": "Member"
             },
             {
                 "name": "John Fuller",
                 "party": "R",
+                "locale": "Kalispell",
                 "role": "Member"
             },
             {
                 "name": "Greg Hertz",
                 "party": "R",
+                "locale": "Polson",
                 "role": "Member"
             },
             {
                 "name": "Mark Noland",
                 "party": "R",
+                "locale": "Bigfork",
                 "role": "Member"
             },
             {
                 "name": "Terry Vermeire",
                 "party": "R",
+                "locale": "Anaconda",
                 "role": "Member"
             },
             {
                 "name": "Mike Fox",
                 "party": "D",
+                "locale": "Hays",
                 "role": "Vice Chair"
             },
             {
                 "name": "Willis Curdy",
                 "party": "D",
+                "locale": "Missoula",
                 "role": "Member"
             },
             {
                 "name": "Pat Flowers",
                 "party": "D",
+                "locale": "Belgrade",
                 "role": "Member"
             },
             {
                 "name": "Edie McClafferty",
                 "party": "D",
+                "locale": "Butte",
                 "role": "Member"
             }
         ]
@@ -3417,20 +4416,29 @@
         "key": "senate-highways-and-transportation",
         "time": "afternoon",
         "type": "policy",
-        "billCount": 10,
-        "billsUnheard": [
+        "bills": [
             "HB 26",
             "HB 27",
             "HB 52",
-            "HB 76"
-        ],
-        "billsHeard": [
+            "HB 76",
             "SB 33",
             "SB 57",
             "SB 111",
             "SB 120",
             "SB 137",
             "SB 144"
+        ],
+        "billCount": 10,
+        "billsUnscheduled": [
+            "HB 26",
+            "HB 27",
+            "HB 52",
+            "HB 76"
+        ],
+        "billsScheduledByDay": [],
+        "billsAwaitingVote": [
+            "SB 57",
+            "SB 137"
         ],
         "billsFailed": [
             "SB 120"
@@ -3447,61 +4455,73 @@
             {
                 "name": "Theresa Manzella",
                 "party": "R",
+                "locale": "Hamilton",
                 "role": "Chair"
             },
             {
                 "name": "Chris Friedel",
                 "party": "R",
+                "locale": "Billings",
                 "role": "Vice Chair"
             },
             {
                 "name": "Becky Beard",
                 "party": "R",
+                "locale": "Elliston",
                 "role": "Member"
             },
             {
                 "name": "Carl Glimm",
                 "party": "R",
+                "locale": "Kila",
                 "role": "Member"
             },
             {
                 "name": "Forrest Mandeville",
                 "party": "R",
+                "locale": "Columbus",
                 "role": "Member"
             },
             {
                 "name": "Jeremy Trebas",
                 "party": "R",
+                "locale": "Great Falls",
                 "role": "Member"
             },
             {
                 "name": "Barry Usher",
                 "party": "R",
+                "locale": "Laurel",
                 "role": "Member"
             },
             {
                 "name": "Shelley Vance",
                 "party": "R",
+                "locale": "Belgrade",
                 "role": "Member"
             },
             {
                 "name": "Andrea Olsen",
                 "party": "D",
+                "locale": "Missoula",
                 "role": "Vice Chair"
             },
             {
                 "name": "Mary Ann Dunwell",
                 "party": "D",
+                "locale": "Helena",
                 "role": "Member"
             },
             {
                 "name": "Jen Gross",
                 "party": "D",
+                "locale": "Billings",
                 "role": "Member"
             },
             {
                 "name": "Kathy Kelker",
                 "party": "D",
+                "locale": "Billings",
                 "role": "Member"
             }
         ]
@@ -3511,12 +4531,14 @@
         "key": "senate-rules",
         "time": "on call",
         "type": "special",
-        "billCount": 2,
-        "billsUnheard": [],
-        "billsHeard": [
+        "bills": [
             "SJ 1",
             "SR 1"
         ],
+        "billCount": 2,
+        "billsUnscheduled": [],
+        "billsScheduledByDay": [],
+        "billsAwaitingVote": [],
         "billsFailed": [],
         "billsAdvanced": [
             "SJ 1",
@@ -3527,76 +4549,91 @@
             {
                 "name": "Steve Fitzpatrick",
                 "party": "R",
+                "locale": "Great Falls",
                 "role": "Chair"
             },
             {
                 "name": "Jason Ellsworth",
                 "party": "R",
+                "locale": "Hamilton",
                 "role": "Vice Chair"
             },
             {
                 "name": "Bob Brown",
                 "party": "R",
+                "locale": "Trout Creek",
                 "role": "Member"
             },
             {
                 "name": "John Esp",
                 "party": "R",
+                "locale": "Big Timber",
                 "role": "Member"
             },
             {
                 "name": "Greg Hertz",
                 "party": "R",
+                "locale": "Polson",
                 "role": "Member"
             },
             {
                 "name": "Dennis Lenz",
                 "party": "R",
+                "locale": "Billings",
                 "role": "Member"
             },
             {
                 "name": "Tom McGillvray",
                 "party": "R",
+                "locale": "Billings",
                 "role": "Member"
             },
             {
                 "name": "Keith Regier",
                 "party": "R",
+                "locale": "Kalispell",
                 "role": "Member"
             },
             {
                 "name": "Barry Usher",
                 "party": "R",
+                "locale": "Laurel",
                 "role": "Member"
             },
             {
                 "name": "Jeff Welborn",
                 "party": "R",
+                "locale": "Dillon",
                 "role": "Member"
             },
             {
                 "name": "Pat Flowers",
                 "party": "D",
+                "locale": "Belgrade",
                 "role": "Vice Chair"
             },
             {
                 "name": "Janet Ellis",
                 "party": "D",
+                "locale": "Helena",
                 "role": "Member"
             },
             {
                 "name": "Ryan Lynch",
                 "party": "D",
+                "locale": "Butte",
                 "role": "Member"
             },
             {
                 "name": "Shane Morigeau",
                 "party": "D",
+                "locale": "Missoula",
                 "role": "Member"
             },
             {
                 "name": "Shannon O'Brien",
                 "party": "D",
+                "locale": "Missoula",
                 "role": "Member"
             }
         ]
@@ -3606,11 +4643,15 @@
         "key": "senate-legislative-administration",
         "time": "",
         "type": "special",
-        "billCount": 1,
-        "billsUnheard": [
+        "bills": [
             "SB 193"
         ],
-        "billsHeard": [],
+        "billCount": 1,
+        "billsUnscheduled": [
+            "SB 193"
+        ],
+        "billsScheduledByDay": [],
+        "billsAwaitingVote": [],
         "billsFailed": [],
         "billsAdvanced": [],
         "billsBlasted": [],
@@ -3618,31 +4659,37 @@
             {
                 "name": "Mike Lang",
                 "party": "R",
+                "locale": "Malta",
                 "role": "Chair"
             },
             {
                 "name": "John Esp",
                 "party": "R",
+                "locale": "Big Timber",
                 "role": "Vice Chair"
             },
             {
                 "name": "Steve Fitzpatrick",
                 "party": "R",
+                "locale": "Great Falls",
                 "role": "Member"
             },
             {
                 "name": "Daniel Zolnikov",
                 "party": "R",
+                "locale": "Billings",
                 "role": "Member"
             },
             {
                 "name": "Jen Gross",
                 "party": "D",
+                "locale": "Billings",
                 "role": "Member"
             },
             {
                 "name": "Shannon O'Brien",
                 "party": "D",
+                "locale": "Missoula",
                 "role": "Member"
             }
         ]
@@ -3652,9 +4699,11 @@
         "key": "joint-rules",
         "time": "on call",
         "type": "special",
+        "bills": [],
         "billCount": 0,
-        "billsUnheard": [],
-        "billsHeard": [],
+        "billsUnscheduled": [],
+        "billsScheduledByDay": [],
+        "billsAwaitingVote": [],
         "billsFailed": [],
         "billsAdvanced": [],
         "billsBlasted": [],
@@ -3662,186 +4711,223 @@
             {
                 "name": "Casey Knudsen",
                 "party": "R",
+                "locale": "Malta",
                 "role": "Chair"
             },
             {
                 "name": "Steve Fitzpatrick",
                 "party": "R",
+                "locale": "Great Falls",
                 "role": "Chair"
             },
             {
                 "name": "Jason Ellsworth",
                 "party": "R",
+                "locale": "Hamilton",
                 "role": "Vice Chair"
             },
             {
                 "name": "David Bedey",
                 "party": "R",
+                "locale": "Hamilton",
                 "role": "Member"
             },
             {
                 "name": "Michele Binkley",
                 "party": "R",
+                "locale": "Hamilton",
                 "role": "Member"
             },
             {
                 "name": "Larry Brewster",
                 "party": "R",
+                "locale": "Billings",
                 "role": "Member"
             },
             {
                 "name": "Ed Buttrey",
                 "party": "R",
+                "locale": "Great Falls",
                 "role": "Member"
             },
             {
                 "name": "Neil Duram",
                 "party": "R",
+                "locale": "Eureka",
                 "role": "Member"
             },
             {
                 "name": "Paul Fielder",
                 "party": "R",
+                "locale": "Thompson Falls",
                 "role": "Member"
             },
             {
                 "name": "Steve Gunderson",
                 "party": "R",
+                "locale": "Libby",
                 "role": "Member"
             },
             {
                 "name": "Jedediah Hinkle",
                 "party": "R",
+                "locale": "Belgrade",
                 "role": "Member"
             },
             {
                 "name": "Rhonda Knudsen",
                 "party": "R",
+                "locale": "Culbertson",
                 "role": "Member"
             },
             {
                 "name": "Brandon Ler",
                 "party": "R",
+                "locale": "Savage",
                 "role": "Member"
             },
             {
                 "name": "Ron Marshall",
                 "party": "R",
+                "locale": "Hamilton",
                 "role": "Member"
             },
             {
                 "name": "Amy Regier",
                 "party": "R",
+                "locale": "Kalispell",
                 "role": "Member"
             },
             {
                 "name": "Jerry Schillinger",
                 "party": "R",
+                "locale": "Circle",
                 "role": "Member"
             },
             {
                 "name": "Lola Sheldon-Galloway",
                 "party": "R",
+                "locale": "Billings",
                 "role": "Member"
             },
             {
                 "name": "Bob Brown",
                 "party": "R",
+                "locale": "Trout Creek",
                 "role": "Member"
             },
             {
                 "name": "John Esp",
                 "party": "R",
+                "locale": "Big Timber",
                 "role": "Member"
             },
             {
                 "name": "Greg Hertz",
                 "party": "R",
+                "locale": "Polson",
                 "role": "Member"
             },
             {
                 "name": "Dennis Lenz",
                 "party": "R",
+                "locale": "Billings",
                 "role": "Member"
             },
             {
                 "name": "Tom McGillvray",
                 "party": "R",
+                "locale": "Billings",
                 "role": "Member"
             },
             {
                 "name": "Keith Regier",
                 "party": "R",
+                "locale": "Kalispell",
                 "role": "Member"
             },
             {
                 "name": "Barry Usher",
                 "party": "R",
+                "locale": "Laurel",
                 "role": "Member"
             },
             {
                 "name": "Jeff Welborn",
                 "party": "R",
+                "locale": "Dillon",
                 "role": "Member"
             },
             {
                 "name": "Pat Flowers",
                 "party": "D",
+                "locale": "Belgrade",
                 "role": "Vice Chair"
             },
             {
                 "name": "Kim Abbott",
                 "party": "D",
+                "locale": "Helena",
                 "role": "Member"
             },
             {
                 "name": "Laurie Bishop",
                 "party": "D",
+                "locale": "Livingston",
                 "role": "Member"
             },
             {
                 "name": "Alice Buckley",
                 "party": "D",
+                "locale": "Bozeman",
                 "role": "Member"
             },
             {
                 "name": "Jim Hamilton",
                 "party": "D",
+                "locale": "Bozeman",
                 "role": "Member"
             },
             {
                 "name": "Derek Harvey",
                 "party": "D",
+                "locale": "Butte",
                 "role": "Member"
             },
             {
                 "name": "Sharon Stewart Peregoy",
                 "party": "D",
+                "locale": "Crow Agency",
                 "role": "Member"
             },
             {
                 "name": "Katie Sullivan",
                 "party": "D",
+                "locale": "Missoula",
                 "role": "Member"
             },
             {
                 "name": "Janet Ellis",
                 "party": "D",
+                "locale": "Helena",
                 "role": "Member"
             },
             {
                 "name": "Ryan Lynch",
                 "party": "D",
+                "locale": "Butte",
                 "role": "Member"
             },
             {
                 "name": "Shane Morigeau",
                 "party": "D",
+                "locale": "Missoula",
                 "role": "Member"
             },
             {
                 "name": "Shannon O'Brien",
                 "party": "D",
+                "locale": "Missoula",
                 "role": "Member"
             }
         ]

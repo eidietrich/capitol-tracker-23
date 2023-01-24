@@ -15,6 +15,7 @@ import GovernorPage from './models/GovernorPage.js'
 
 import { COMMITTEES } from './config/committees.js'
 
+const updateTime = new Date()
 /*
 Approach here — each of these input buckets has a fetch script that needs to be run independently to update their contents
 */
@@ -71,6 +72,7 @@ const committees = COMMITTEES
         schema,
         billActions: actions.filter(a => a.committee === schema.name),
         lawmakers: lawmakers.filter(l => l.data.committees.map(d => d.committee).includes(schema.name)),
+        updateTime
     }))
 
 // Calculations that need both lawmakers and bills populated
@@ -106,7 +108,7 @@ lawmakers.forEach(lawmaker => {
 // })
 // writeJson('./process/config/lawmaker-roster-2023.json', summaryRoster)
 
-const updateTime = new Date()
+
 const calendarOutput = new CalendarPage({ actions, bills, updateTime }).export()
 bills.forEach(bill => bill.data.isOnCalendar = calendarOutput.billsOnCalendar.includes(bill.data.identifier))
 const recapOutput = new RecapPage({ actions, bills, updateTime }).export()

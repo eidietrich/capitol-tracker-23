@@ -1,176 +1,143 @@
 import React from "react";
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 import { css } from '@emotion/react'
-import { AnchorLink } from "gatsby-plugin-anchor-links";
 import ReactMarkdown from 'react-markdown'
 
 import Layout from '../components/Layout'
 import Seo from "../components/Seo"
 import ContactUs from '../components/ContactUs'
 import NewsletterSignup from '../components/NewsletterSignup'
-import LinksList from '../components/LinksList'
+
 import BillTable from '../components/BillTable'
 
-import LawmakerPortrait from '../components/lawmaker/Portrait'
-import LawmakerElectionHistory from '../components/lawmaker/ElectionHistory'
-import LawmakerCommittees from '../components/lawmaker/Commitees'
-import LawmakerVotingSummary from '../components/lawmaker/VotingSummary'
-import LawmakerKeyVotes from '../components/lawmaker/KeyVotes'
 
 import {
-    listToText,
-    cleanPhoneString,
-    ordinalize
+    percentFormat,
+    lawmakerUrl,
+    shortDateWithWeekday,
+    parseDate,
 } from '../config/utils'
 
 import {
     partyColors,
 } from '../config/config'
 
-const topperBar = css`
-  display: flex;
-  flex-wrap: wrap;
-  border: 1px solid #806F47;
-  background-color: #eae3da;
-  padding: 0.5em;
-`
-const portraitColCss = css`
-  margin-right: 1em;
-`
-const infoCol = css`
-  /* margin-left: 1em; */
-  flex: 1 0 100px;
-  h1 {
-    font-size: 1.5em;
-    margin-top: 0;
-    margin-bottom: 0.1em;
-  }
-`
-const residenceLineCss = css``
-const districtLineCss = css`
-  font-size: 0.9em;
-`
-const localeLineCss = css`
-  font-size: 0.9em;
-  font-style: italic;
-  color: #444;
-`
-const contactLineCss = css`
-  font-size: 0.9em;
-  margin-top: 0.4em;
-`
-const leadershipLineCss = css`
-  font-weight: bold;
-  font-size: 1.1em;
-`
-const anchorLinksBoxStyle = css`
-  color: var(--tan4);
-  padding: 0.5em 0;
-`
+const committeeSummaryStyle = css`
+    border: 1px solid var(--tan5);
+    background-color: var(--tan1);
+    padding: 0.2em;
+    display: flex;
+    flex-wrap: wrap;
 
-const getPartyLabel = (key) => {
-    return {
-        'R': 'Republican',
-        'D': 'Democrat'
-    }[key]
-}
+    .item {
+        border: 1px solid var(--tan4);
+        margin: 0.2em;
+        padding: 0.2em 0.5em;
+    }
+`
+const getDay = d => shortDateWithWeekday(new Date(d))
 
-const LawmakerPage = ({ pageContext, data, location }) => {
+const CommitteePage = ({ pageContext, data, location }) => {
     const {
-        committee
+        committee,
+        bills
     } = pageContext
     const {
-        // key,
-        title,
         name,
-        lastName,
-        party,
-        district,
-        locale,
-        districtLocale,
-        committees,
-        legislativeHistory,
-        keyBillVotes,
-        leadershipTitle,
-        votingSummary,
-        articles,
-        sponsoredBills,
-        phone,
-        email,
-        lawmakerPageText,
-    } = lawmaker
-    const {
-        portrait // image 
-    } = data
-    const portraitTopper = css`
-    border-top: 6px solid ${partyColors(party)};
-  `
+        time,
+        type,
+        billCount,
+        billsUnscheduled,
+        billsScheduledByDay,
+        billsAwaitingVote,
+        billsFailed,
+        billsAdvanced,
+        billsBlasted,
+        members,
+    } = committee
+
+    const unscheduledBills = bills.filter(d => billsUnscheduled.includes(d.identifier))
+
+    const scheduledBillsByDay = billsScheduledByDay.map(day => {
+        return {
+            date: day.day,
+            bills: bills.filter(d => day.bills.includes(d.identifier))
+        }
+    })
+
+    const unheard = Array.from(new Set(
+        unscheduledBills.concat(billsScheduledByDay.map(d => d.bills).flat())
+    ))
+
+    const awaitingVoteBills = bills.filter(d => billsAwaitingVote.includes(d.identifier))
+    const failedBills = bills.filter(d => billsFailed.includes(d.identifier))
+    const passedBills = bills.filter(d => billsAdvanced.includes(d.identifier))
+    const blastedBills = bills.filter(d => billsBlasted.includes(d.identifier))
+
+    // const denom = failedBills.length + passedBills.length + blastedBills.length
+    const denom = bills.length
+
+    const chair = members.find(d => d.role === 'Chair')
+
     return <div>
 
         <Layout location={location}>
-            <div css={topperBar}>
-                <div css={[portraitColCss, portraitTopper]}>
-                    <LawmakerPortrait image={portrait} alt={`${title} ${name}, ${district}`} />
-                </div>
-                <div css={infoCol}>
-                    <h1>{title} {name}</h1>
-                    <div css={residenceLineCss}>{ordinalize(legislativeHistory.length)}-session {getPartyLabel(party)} from {locale}</div>
-                    <hr />
-                    {leadershipTitle && <>
-                        <div css={leadershipLineCss}>{leadershipTitle}</div>
-                        <hr />
-                    </>}
-                    <div css={districtLineCss}>Representing <strong>{district.replace('SD', 'Senate District').replace('HD', 'House District')}</strong></div>
-                    <div css={localeLineCss}>{districtLocale}</div>
-                    <div css={contactLineCss}>
-                        {phone && <a href={`tel:${cleanPhoneString(phone)}`}>{phone}</a>}
-                        {(phone && email) && <span> • </span>}
-                        {email && <a href={`mailto:${email}`}>{email}</a>}
+            <h1>{name} Committee</h1>
+            <div style={{ fontSize: '1.2em', marginBottom: '0.5em' }}>🪑 Chair: <strong>{chair.name}</strong> ({chair.party}-{chair.locale})</div>
+
+            <div css={committeeSummaryStyle}>
+                <div className="item"><strong>{bills.length} bills</strong> considered</div>
+                <div className="item"><strong>{unheard.length}</strong> <Link to="#awaiting-hearing">awaiting hearing</Link></div>
+                <div className="item"><strong>{awaitingVoteBills.length}</strong> <Link to="#awaiting-votes">awaiting votes</Link></div>
+                <div className="item"><strong>{failedBills.length}</strong> ({percentFormat(failedBills.length / denom)}) <Link to="#failed"> voted down</Link></div>
+                <div className="item"><strong>{passedBills.length}</strong> ({percentFormat(passedBills.length / denom)}) <Link to="#passed">voted forward</Link></div>
+            </div>
+
+            <h2>Members</h2>
+            <ul>
+                {
+                    members.map(m => <li key={m.name}><strong>
+                        <Link to={`/lawmakers/${lawmakerUrl(m.name)}`}>{m.name} <span style={{ color: partyColors(m.party) }}>({m.party}-{m.locale})</span></Link></strong>
+                        {(m.role !== 'Member') && <span> – {m.role}</span>}
+                    </li>)
+                }
+            </ul>
+
+
+            <h2>Bills considered ({billCount})</h2>
+
+            <h3 id="awaiting-hearing">🗓 Awaiting hearing</h3>
+
+            {
+                scheduledBillsByDay.map(day => {
+                    return <div key={day.date}>
+                        <h4>Hearing set {getDay(day.date)}</h4>
+                        <BillTable bills={day.bills} suppressCount={true} />
                     </div>
-                </div>
-            </div>
+                })
+            }
 
-            <div css={anchorLinksBoxStyle}>
-                <AnchorLink to="#bills-sponsored">Bills</AnchorLink> •
-                <AnchorLink to="#key-votes">Key votes</AnchorLink> •
-                <AnchorLink to="#floor-statistics">Stats</AnchorLink> •
-                {(articles.length > 0) && <><AnchorLink to="#mtfp-coverage">MTFP Coverage</AnchorLink> •</>}
-                <AnchorLink to="#committees">Committees</AnchorLink> •
-                <AnchorLink to="#election-history">2022 election margin</AnchorLink>
-            </div>
-
-            <ReactMarkdown>{lawmakerPageText}</ReactMarkdown>
-            <History name={lastName} history={legislativeHistory} />
-
-            <h3 id="bills-sponsored">Bills sponsored</h3>
-            <BillTable bills={sponsoredBills} />
+            <h4>Unscheduled</h4>
+            <BillTable bills={unscheduledBills} displayLimit={5} />
 
             <NewsletterSignup />
 
-            <h3 id="key-votes">Key bill votes</h3>
-            <div>Most recent votes on bills identified as notable by MTFP staff.</div>
-            <LawmakerKeyVotes lastName={lastName} party={party} keyBillVotes={keyBillVotes} />
+            <h3 id="awaiting-votes">⌛️ Heard, awaiting vote</h3>
+            <BillTable bills={awaitingVoteBills} displayLimit={5} />
 
-            <h3 id="floor-statistics">Floor vote statistics</h3>
-            <LawmakerVotingSummary lawmaker={lawmaker} votingSummary={votingSummary} />
+            <h3 id="failed">🚫 Voted down</h3>
+            <BillTable bills={failedBills} displayLimit={5} />
 
-            <h3 id="committees">Committee assignments</h3>
-            <LawmakerCommittees committees={committees} />
+            <h3 id="passed">✅ Voted forward</h3>
+            <BillTable bills={passedBills} displayLimit={5} />
 
-            <h3 id="election-history">{district} election results</h3>
-            <LawmakerElectionHistory lawmaker={lawmaker} />
-
-            <h3 id="mtfp-coverage">Montana Free Press coverage</h3>
-            <div>MTFP legislative reporting involving {lastName}.</div>
-            {(articles.length > 0) && <LinksList articles={articles} />}
-            {(articles.length === 0) && <div className="note">Nothing currently tagged in our archive.</div>}
-            {/* {
-        (articles.length > 0) && <div>
-          <h3 id="mtfp-coverage">Montana Free Press coverage</h3>
-          <div>MTFP stories involving this lawmaker</div>
-          <LinksList articles={articles} />
-        </div>
-      } */}
+            {
+                (blastedBills.length > 0) && <>
+                    <h3 id="blasted">🧨 Blasted from committee</h3>
+                    <div className="note">Blast motions on the House or Senate floor pull bills from committee for debate there.</div>
+                    <BillTable bills={blastedBills} />
+                </>
+            }
 
             <ContactUs />
 
@@ -178,42 +145,15 @@ const LawmakerPage = ({ pageContext, data, location }) => {
     </div>;
 };
 
-export default LawmakerPage;
+export default CommitteePage
 
-const History = ({ name, history }) => {
-    const pastSessions = history.filter(d => d.year !== '2023')
-    const pastHouseSessions = pastSessions.filter(d => d.chamber === 'house')
-    const pastSenateSessions = pastSessions.filter(d => d.chamber === 'senate')
-    if ((pastSessions.length) === 0) {
-        return <p>2023 is the first session {name} has served in the Legislature.</p>
-    } else if (pastSenateSessions.length === 0) {
-        return <p>{name} previously served in the Montana House in {listToText(pastHouseSessions.map(d => d.year))}.</p>
-    } else if (pastHouseSessions.length === 0) {
-        return <p>{name} previously served in the Montana Senate in {listToText(pastSenateSessions.map(d => d.year))}.</p>
-    } else {
-        return <p>{name} previously served in the Montana Senate in {listToText(pastSenateSessions.map(d => d.year))}, as well as the House in {listToText(pastHouseSessions.map(d => d.year))}.</p>
-    }
-
-}
 
 export const Head = ({ pageContext }) => {
-    const { name, key } = pageContext.commitee
+    const { committee } = pageContext
+    const { name, key } = committee
     return <Seo
         title={`${name}`}
         description={`Bills and members for the Montana Legislature's 2023 {name}.`}
         pageRelativeUrl={`committees/${key}/`}
     />
 }
-
-export const query = graphql`
-  query($imageSlug: String!) {
-    portrait: file(sourceInstanceName: {eq: "portraits"}, relativePath: {eq: $imageSlug}) {
-        relativePath
-        name
-        childImageSharp {
-          gatsbyImageData
-        }
-    }
-    }
-`
-

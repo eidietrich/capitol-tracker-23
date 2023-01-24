@@ -6,6 +6,7 @@
 
 const bills = require('./src/data-nodes/bills.json')
 const lawmakers = require('./src/data-nodes/lawmakers.json')
+const committees = require('./src/data-nodes/committees.json')
 
 exports.createSchemaCustomization = ({ actions }) => {
     /* Explicitly defines schemas for bils and lawmakers to optimize build times */
@@ -13,8 +14,8 @@ exports.createSchemaCustomization = ({ actions }) => {
     const { createTypes } = actions
     const typeDefs = `
         type BillsJson implements Node @dontInfer {
-            key: String
             identifier: String
+            key: String
             chamber: String
             title: String
             explanation: String
@@ -239,16 +240,11 @@ exports.createPages = async ({ graphql, actions: { createPage } }) => {
 
     bills.forEach(bill => {
         const key = bill.key
-        // const sponsor = lawmakers.find(lawmaker => lawmaker.name === bill.sponsor.name)
-        // const { title, name, district, party, locale } = bill.sponsor
         createPage({
             path: `/bills/${key}`,
             component: require.resolve('./src/templates/bill.js'),
             context: {
                 bill,
-                // Abbreviated info on sponsor for sake of data bundle size
-                // TODO: It would probably be more elegant to do this data merge in data processing step
-                // sponsor: { key, title, name, district, party, locale }
             },
         })
 
@@ -258,6 +254,24 @@ exports.createPages = async ({ graphql, actions: { createPage } }) => {
             context: {
                 bill,
             },
+        })
+    })
+
+    committees.forEach(committee => {
+        const key = committee.key
+
+        createPage({
+            path: `/committees/${key}`,
+            component: require.resolve('./src/templates/committee.js'),
+            context: {
+                committee,
+                bills: bills.filter(d => committee.bills.includes(d.identifier)).map(bill => {
+                    return {
+                        ...bill,
+                        actions: [], // minimize data overhead
+                    }
+                })
+            }
         })
     })
 
