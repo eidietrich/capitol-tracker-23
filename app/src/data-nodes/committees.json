@@ -2828,9 +2828,6 @@
             }
         ],
         "billsAwaitingVote": [
-            "SB 3",
-            "SB 21",
-            "SB 58",
             "SB 70",
             "SB 95",
             "SB 126"
@@ -2838,7 +2835,10 @@
         "billsFailed": [],
         "billsAdvanced": [
             "HB 1",
-            "SB 29"
+            "SB 3",
+            "SB 21",
+            "SB 29",
+            "SB 58"
         ],
         "billsBlasted": [],
         "members": [
@@ -3602,17 +3602,17 @@
         ],
         "billsAwaitingVote": [
             "HB 21",
-            "HB 22",
-            "HB 61",
-            "SB 8",
-            "SB 129"
+            "HB 22"
         ],
         "billsFailed": [],
         "billsAdvanced": [
+            "HB 61",
             "SB 1",
+            "SB 8",
             "SB 10",
             "SB 69",
             "SB 70",
+            "SB 129",
             "SB 132"
         ],
         "billsBlasted": [],
@@ -4187,7 +4187,6 @@
             }
         ],
         "billsAwaitingVote": [
-            "SB 30",
             "SB 31",
             "SB 60",
             "SB 61",
@@ -4197,8 +4196,7 @@
             "SB 86",
             "SB 117",
             "SB 153",
-            "SB 156",
-            "SJ 7"
+            "SB 156"
         ],
         "billsFailed": [
             "SB 25"
@@ -4206,12 +4204,14 @@
         "billsAdvanced": [
             "SB 18",
             "SB 29",
+            "SB 30",
             "SB 40",
             "SB 50",
             "SB 56",
             "SB 74",
             "SB 128",
             "SJ 4",
+            "SJ 7",
             "SJ 8"
         ],
         "billsBlasted": [],
