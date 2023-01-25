@@ -20752,10 +20752,10 @@
                 "title": "Revise child abuse and neglect reports and investigation laws",
                 "chamber": "house",
                 "status": {
-                    "key": "In First House Committee--Nontabled",
+                    "key": "In First House Committee--Tabled",
                     "step": "First chamber",
-                    "label": "In committee",
-                    "status": "live",
+                    "label": "Tabled in committee",
+                    "status": "stalled",
                     "statusAtSessionEnd": "failed"
                 },
                 "progress": [
@@ -20767,9 +20767,9 @@
                     },
                     {
                         "step": "first committee",
-                        "status": "current",
-                        "statusLabel": "Pending",
-                        "statusDate": null
+                        "status": "blocked",
+                        "statusLabel": "Tabled",
+                        "statusDate": "01/25/2023"
                     },
                     {
                         "step": "first chamber",
@@ -20953,14 +20953,14 @@
                     },
                     {
                         "step": "first committee",
-                        "status": "current",
-                        "statusLabel": "Pending",
-                        "statusDate": null
+                        "status": "passed",
+                        "statusLabel": "Advanced",
+                        "statusDate": "01/25/2023"
                     },
                     {
                         "step": "first chamber",
-                        "status": "future",
-                        "statusLabel": null,
+                        "status": "current",
+                        "statusLabel": "Pending",
                         "statusDate": null
                     },
                     {
@@ -28961,10 +28961,10 @@
                 "title": "Provide continuous eligibility for young children covered by CHIP and Medicaid",
                 "chamber": "house",
                 "status": {
-                    "key": "In First House Committee--Nontabled",
+                    "key": "In First House Committee--Tabled",
                     "step": "First chamber",
-                    "label": "In committee",
-                    "status": "live",
+                    "label": "Tabled in committee",
+                    "status": "stalled",
                     "statusAtSessionEnd": "failed"
                 },
                 "progress": [
@@ -28976,9 +28976,9 @@
                     },
                     {
                         "step": "first committee",
-                        "status": "current",
-                        "statusLabel": "Pending",
-                        "statusDate": null
+                        "status": "blocked",
+                        "statusLabel": "Tabled",
+                        "statusDate": "01/25/2023"
                     },
                     {
                         "step": "first chamber",
@@ -38271,11 +38271,11 @@
                 "title": "Revise DEQ rule  ARM 17.36.328 to require connection from proposed subdivision",
                 "chamber": "senate",
                 "status": {
-                    "key": "In Drafting Process",
-                    "step": "Drafting",
-                    "label": "In drafting",
-                    "status": "not introduced",
-                    "statusAtSessionEnd": "not introduced"
+                    "key": "In First House Committee--Nontabled",
+                    "step": "First chamber",
+                    "label": "In committee",
+                    "status": "live",
+                    "statusAtSessionEnd": "failed"
                 },
                 "progress": [
                     {
@@ -38333,11 +38333,11 @@
                 "title": "Revise laws related to litigation and products",
                 "chamber": "senate",
                 "status": {
-                    "key": "In Drafting Process",
-                    "step": "Drafting",
-                    "label": "In drafting",
-                    "status": "not introduced",
-                    "statusAtSessionEnd": "not introduced"
+                    "key": "In First House Committee--Nontabled",
+                    "step": "First chamber",
+                    "label": "In committee",
+                    "status": "live",
+                    "statusAtSessionEnd": "failed"
                 },
                 "progress": [
                     {
@@ -39786,9 +39786,9 @@
                 "title": "Revise rangeland improvement loan state special revenue account",
                 "chamber": "senate",
                 "status": {
-                    "key": "In First House--Introduced",
+                    "key": "In First House Committee--Nontabled",
                     "step": "First chamber",
-                    "label": "Introduced",
+                    "label": "In committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
