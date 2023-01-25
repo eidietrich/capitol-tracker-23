@@ -1293,13 +1293,9 @@
         "billCount": 34,
         "billsUnscheduled": [
             "HB 264",
-            "HB 300",
-            "HB 302",
-            "HB 310",
             "HB 311",
             "HB 312",
-            "HB 313",
-            "SB 87"
+            "HB 313"
         ],
         "billsScheduledByDay": [
             {
@@ -1314,6 +1310,20 @@
                 "bills": [
                     "HB 265",
                     "HB 286"
+                ]
+            },
+            {
+                "day": "01/27/2023",
+                "bills": [
+                    "HB 302",
+                    "HB 310"
+                ]
+            },
+            {
+                "day": "01/30/2023",
+                "bills": [
+                    "HB 300",
+                    "SB 87"
                 ]
             }
         ],
@@ -2398,6 +2408,12 @@
                     "SB 5",
                     "SB 98"
                 ]
+            },
+            {
+                "day": "01/31/2023",
+                "bills": [
+                    "HB 262"
+                ]
             }
         ],
         "billsAwaitingVote": [
@@ -3074,8 +3090,6 @@
         "billsAwaitingVote": [
             "SB 11",
             "SB 47",
-            "SB 94",
-            "SB 135",
             "SB 160",
             "SB 169",
             "SB 171",
@@ -3106,10 +3120,12 @@
             "SB 68",
             "SB 89",
             "SB 91",
+            "SB 94",
             "SB 95",
             "SB 96",
             "SB 106",
             "SB 134",
+            "SB 135",
             "SB 136",
             "SB 148",
             "SB 149",
@@ -3322,8 +3338,7 @@
             "SB 140",
             "SB 146",
             "SB 168",
-            "SB 174",
-            "SJ 2"
+            "SB 174"
         ],
         "billsFailed": [],
         "billsAdvanced": [
@@ -3358,7 +3373,8 @@
             "SB 155",
             "SB 166",
             "SB 167",
-            "SB 179"
+            "SB 179",
+            "SJ 2"
         ],
         "billsBlasted": [],
         "members": [
@@ -4587,16 +4603,16 @@
         ],
         "billsScheduledByDay": [],
         "billsAwaitingVote": [
-            "HB 86",
-            "HB 99",
-            "HB 133",
-            "HB 162"
+            "HB 86"
         ],
         "billsFailed": [
             "SB 139"
         ],
         "billsAdvanced": [
             "HB 73",
+            "HB 99",
+            "HB 133",
+            "HB 162",
             "SB 58",
             "SB 76",
             "SB 84",
