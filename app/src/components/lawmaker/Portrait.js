@@ -3,15 +3,6 @@ import { css } from "@emotion/react"
 import { useStaticQuery, graphql } from "gatsby"
 import { GatsbyImage } from "gatsby-plugin-image"
 
-// surprisingly complex - loads all images in image folder then renders based on prop
-// see https://noahgilmore.com/blog/easy-gatsby-image-components/
-// ... and https://www.gatsbyjs.com/docs/tutorial/part-7/
-// There has got to be a more elegant way to do this
-
-// const style = css`
-//     max-width: 150px;
-// `
-
 const Portrait = (props) => {
   const data = useStaticQuery(graphql`
         query {

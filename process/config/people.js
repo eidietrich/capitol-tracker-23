@@ -71,6 +71,7 @@ export const LAWMAKER_NAME_CLEANING = {
     'Welborn, Jeffrey': 'Jeff Welborn',
     'Welborn, JeffreyW.': 'Jeff Welborn',
     'Esp, John': 'John Esp',
+    'sp, John': 'John Esp',
     'Lang, Mike': 'Mike Lang',
     'Salomon, Daniel': 'Dan Salomon',
     'Salomon, Daniel R.': 'Dan Salomon',
