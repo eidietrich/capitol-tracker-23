@@ -66,10 +66,7 @@
             "HB 10",
             "HB 11",
             "HB 12",
-            "HB 16",
-            "HB 20",
             "HB 37",
-            "HB 163",
             "HB 245",
             "HB 251"
         ],
@@ -87,8 +84,11 @@
             {
                 "day": "01/26/2023",
                 "bills": [
+                    "HB 16",
+                    "HB 20",
                     "HB 29",
                     "HB 119",
+                    "HB 163",
                     "HB 292"
                 ]
             }
@@ -2864,12 +2864,16 @@
             "SB 89",
             "SB 95",
             "SB 108",
+            "SB 121",
+            "SB 124",
             "SB 126",
             "SB 132"
         ],
-        "billCount": 14,
+        "billCount": 16,
         "billsUnscheduled": [
-            "HB 175"
+            "HB 175",
+            "SB 121",
+            "SB 124"
         ],
         "billsScheduledByDay": [
             {
@@ -3533,21 +3537,20 @@
         ],
         "billsScheduledByDay": [],
         "billsAwaitingVote": [
-            "HB 24",
             "HB 25",
             "HB 56",
-            "HB 58",
-            "HB 121",
-            "HB 124",
             "SB 15",
             "SB 97",
             "SB 110",
             "SB 122",
-            "SB 123",
             "SB 145"
         ],
         "billsFailed": [],
         "billsAdvanced": [
+            "HB 24",
+            "HB 58",
+            "HB 121",
+            "HB 124",
             "SB 3",
             "SB 16",
             "SB 20",
@@ -3562,6 +3565,7 @@
             "SB 81",
             "SB 119",
             "SB 121",
+            "SB 123",
             "SB 124"
         ],
         "billsBlasted": [],
@@ -3909,10 +3913,11 @@
             "SB 82",
             "SB 83",
             "SB 138",
+            "SB 207",
             "SR 44",
             "SR 45"
         ],
-        "billCount": 19,
+        "billCount": 20,
         "billsUnscheduled": [
             "HB 34",
             "HB 53",
@@ -3920,6 +3925,7 @@
             "HB 122",
             "HB 185",
             "SB 82",
+            "SB 207",
             "SR 44",
             "SR 45"
         ],
@@ -4527,13 +4533,15 @@
         "time": "afternoon",
         "type": "policy",
         "bills": [
+            "HB 52",
             "HB 170",
             "SB 109",
             "SB 147",
             "SB 208"
         ],
-        "billCount": 4,
+        "billCount": 5,
         "billsUnscheduled": [
+            "HB 52",
             "HB 170",
             "SB 208"
         ],
