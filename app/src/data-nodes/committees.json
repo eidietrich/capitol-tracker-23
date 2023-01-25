@@ -96,7 +96,6 @@
             "HB 4",
             "HB 13",
             "HB 19",
-            "HB 38",
             "HB 91",
             "HB 114",
             "HB 147",
@@ -104,8 +103,7 @@
             "HB 212",
             "HB 222",
             "HB 258",
-            "HB 267",
-            "HB 274"
+            "HB 267"
         ],
         "billsFailed": [
             "HB 36"
@@ -114,6 +112,7 @@
             "HB 1",
             "HB 15",
             "HB 28",
+            "HB 38",
             "HB 53",
             "HB 60",
             "HB 81",
@@ -121,7 +120,8 @@
             "HB 141",
             "HB 175",
             "HB 185",
-            "HB 244"
+            "HB 244",
+            "HB 274"
         ],
         "billsBlasted": [],
         "members": [
@@ -1099,7 +1099,6 @@
         ],
         "billsAwaitingVote": [
             "HB 173",
-            "HB 180",
             "HB 186",
             "HB 190",
             "HB 196",
@@ -1134,6 +1133,7 @@
             "HB 148",
             "HB 151",
             "HB 172",
+            "HB 180",
             "HB 199",
             "HB 210"
         ],
@@ -1346,9 +1346,7 @@
             "HB 218",
             "HB 238",
             "HB 248",
-            "SB 6",
-            "SB 34",
-            "SB 45"
+            "SB 6"
         ],
         "billsFailed": [
             "HB 64",
@@ -1367,7 +1365,9 @@
             "HB 147",
             "HB 194",
             "HB 200",
-            "HB 227"
+            "HB 227",
+            "SB 34",
+            "SB 45"
         ],
         "billsBlasted": [],
         "members": [
@@ -1944,15 +1944,24 @@
             "HJ 3"
         ],
         "billCount": 8,
-        "billsUnscheduled": [
-            "HB 220",
-            "HJ 3"
-        ],
+        "billsUnscheduled": [],
         "billsScheduledByDay": [
             {
                 "day": "01/25/2023",
                 "bills": [
                     "HB 284"
+                ]
+            },
+            {
+                "day": "01/30/2023",
+                "bills": [
+                    "HJ 3"
+                ]
+            },
+            {
+                "day": "02/01/2023",
+                "bills": [
+                    "HB 220"
                 ]
             }
         ],
