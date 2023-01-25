@@ -67,7 +67,9 @@
             "HB 12",
             "HB 16",
             "HB 20",
-            "HB 163"
+            "HB 163",
+            "HB 245",
+            "HB 251"
         ],
         "billsScheduledByDay": [
             {
@@ -101,8 +103,6 @@
             "HB 192",
             "HB 212",
             "HB 222",
-            "HB 245",
-            "HB 251",
             "HB 258",
             "HB 267",
             "HB 274"
@@ -4590,10 +4590,11 @@
             "HB 86",
             "HB 99",
             "HB 133",
-            "HB 162",
+            "HB 162"
+        ],
+        "billsFailed": [
             "SB 139"
         ],
-        "billsFailed": [],
         "billsAdvanced": [
             "HB 73",
             "SB 58",
