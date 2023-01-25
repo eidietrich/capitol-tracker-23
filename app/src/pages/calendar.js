@@ -30,6 +30,11 @@ const urlizeDay = day => day.replaceAll(',', '').replaceAll(' ', '-')
 const Calendar = ({ data, location }) => {
     const { scheduledHearings, scheduledFloorDebates, scheduledFinalVotes, datesOnCalendar, billsOnCalendar } = calendar
     const onCalendarBills = data.onCalendarBills.edges.map(d => d.node)
+
+    // TODO - use this data to sort committee listings into AM policy, PM policy, budget, other
+    // Figure out what to do about fiscal subcommittees etc.
+    const committees = data.committees.edges.map(d => d.node)
+
     const days = datesOnCalendar.map(d => getDay(d))
     const schedule = days.map((day, i) => {
 
@@ -89,8 +94,12 @@ const Calendar = ({ data, location }) => {
                         committeesWithHearings.map(committee => {
                             const committeeHearingBills = hearings.filter(d => d.committee === committee).map(d => d.bill)
                             const bills = onCalendarBills.filter(d => committeeHearingBills.includes(d.identifier))
+                            const committeeData = committees.find(d => d.name === committee)
+                            //  TODO here
+                            // console.log(committeeData)
                             return <div key={`${day}-${committee}`}>
                                 <h4>👥 {committee}</h4>
+                                {/* <div className="note">{time}{type}</div> */}
                                 <BillTable bills={bills} displayLimit={10} suppressCount={true} />
                                 {/* <ul>{committeeHearings.map(d => <Hearing key={d.id} data={d} />)}</ul> */}
                             </div>
@@ -134,11 +143,21 @@ export default Calendar
 export const query = graphql`
     query CalendarPageQuery {
         onCalendarBills: allBillsJson(filter: {isOnCalendar: {eq: true}}) {
-        edges {
-            node {
-                ...BillTableData
+            edges {
+                node {
+                    ...BillTableData
+                }
+            }
+        }   
+        committees: allCommitteesJson {
+            edges {
+                node {
+                    name
+                    key
+                    time
+                    type
+                }
             }
         }
-    }
-  }
+    } 
 `

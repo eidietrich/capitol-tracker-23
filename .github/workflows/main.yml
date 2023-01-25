@@ -82,3 +82,27 @@ jobs:
           INCOMING_WEBHOOK_URL: ${{ secrets.SLACK_ERIC_TEST_NOTIFICATIONS_WEBHOOK_URL }}
         with:
           text: "ERROR - something broke with Capitol Tracker deployment"
+
+  clean:
+    runs-on: ubuntu-latest
+    environment: "MTFP projects"
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - name: Cache
+        uses: actions/cache@v3
+        with:
+          path: |
+            app/public
+            app/.cache
+            app/node_modules
+          key: ${{ runner.os }}-eidietrich-capitol-tracker-23-deploying-$${ github.run_id }
+          restore-keys: |
+            ${{ runner.os }}-eidietrich-capitol-tracker-23-deploying-
+      - name: Install dependencies
+        run: (cd app && npm install)
+      - name: Clean
+        run: (cd app && npm run clean)

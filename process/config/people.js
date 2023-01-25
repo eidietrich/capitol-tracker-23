@@ -356,4 +356,6 @@ export const LAWMAKER_NAME_CLEANING = {
     'Butcher, Ed': 'Ed Butcher',
     'Edward Butcher': 'Ed Butcher',
     'Butcher, Edward': 'Ed Butcher',
+    'Naarah Hastings': 'Naarah Hastings',
+    'Hastings, Naarah': 'Naarah Hastings',
 }

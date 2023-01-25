@@ -102,14 +102,11 @@ const LawmakerPage = ({ pageContext, data, location }) => {
   const {
     portrait // image 
   } = data
-  const portraitTopper = css`
-    border-top: 6px solid ${partyColors(party)};
-  `
   return <div>
 
     <Layout location={location}>
       <div css={topperBar}>
-        <div css={[portraitColCss, portraitTopper]}>
+        <div css={portraitColCss} style={{ borderTop: `6px solid ${partyColors(party)}` }}>
           <LawmakerPortrait image={portrait} alt={`${title} ${name}, ${district}`} />
         </div>
         <div css={infoCol}>
