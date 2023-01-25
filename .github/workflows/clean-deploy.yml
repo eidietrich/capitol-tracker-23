@@ -1,4 +1,4 @@
-name: Build and deploy tracker
+name: Build and deploy tracker with cleaning step
 
 on:
   push:
@@ -56,6 +56,8 @@ jobs:
             ${{ runner.os }}-eidietrich-capitol-tracker-23-deploying-
       - name: Install dependencies
         run: (cd app && npm install)
+      - name: Clean
+        run: (cd app && npm run clean)
       - name: Build
         run: (cd app && npm run build)
       - name: Set AWS credentials
