@@ -54695,10 +54695,10 @@
                 "title": "Establish the Chief Earl Old Person memorial highway",
                 "chamber": "senate",
                 "status": {
-                    "key": "In First House Committee--Tabled",
-                    "step": "First chamber",
-                    "label": "Tabled in committee",
-                    "status": "stalled",
+                    "key": "Transmitted to Second House",
+                    "step": "Second chamber",
+                    "label": "Transmitted",
+                    "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
                 "progress": [
@@ -54710,20 +54710,20 @@
                     },
                     {
                         "step": "first committee",
-                        "status": "blocked",
-                        "statusLabel": "Tabled",
-                        "statusDate": "01/18/2023"
+                        "status": "passed",
+                        "statusLabel": "Blasted to floor",
+                        "statusDate": "01/13/2023"
                     },
                     {
                         "step": "first chamber",
-                        "status": "future",
-                        "statusLabel": null,
-                        "statusDate": null
+                        "status": "passed",
+                        "statusLabel": "Passed Senate",
+                        "statusDate": "01/17/2023"
                     },
                     {
                         "step": "second chamber",
-                        "status": "future",
-                        "statusLabel": null,
+                        "status": "current",
+                        "statusLabel": "Pending",
                         "statusDate": null
                     },
                     {
