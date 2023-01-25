@@ -12885,6 +12885,96 @@
         "keyBillVotes": []
     },
     {
+        "key": "Naarah-Hastings",
+        "name": "Naarah Hastings",
+        "lastName": "Hastings",
+        "locale": "Billings",
+        "isActive": true,
+        "district": "HD 50",
+        "districtElexHistory": {
+            "last_election": "2022",
+            "pri_elex": {
+                "leg": [
+                    {
+                        "name": "MALLERIE C STROMSWOLD",
+                        "party": "R",
+                        "votes": 1028
+                    },
+                    {
+                        "name": "JAMES REAVIS",
+                        "party": "D",
+                        "votes": 458
+                    },
+                    {
+                        "name": "ERIN R. TATE",
+                        "party": "D",
+                        "votes": 422
+                    }
+                ]
+            },
+            "gen_elex": {
+                "gov": [
+                    {
+                        "name": "Gianforte",
+                        "party": "R",
+                        "votes": 2063
+                    },
+                    {
+                        "name": "Cooney",
+                        "party": "D",
+                        "votes": 1955
+                    },
+                    {
+                        "name": "Bishop",
+                        "party": "L",
+                        "votes": 306
+                    }
+                ],
+                "leg": [
+                    {
+                        "name": "MALLERIE C STROMSWOLD",
+                        "party": "R",
+                        "votes": 1468
+                    },
+                    {
+                        "name": "JAMES REAVIS",
+                        "party": "D",
+                        "votes": 1365
+                    }
+                ]
+            },
+            "replacementNote": null
+        },
+        "districtNum": 50,
+        "districtLocale": "Central Billings",
+        "chamber": "house",
+        "title": "Rep.",
+        "fullTitle": "Representative",
+        "party": "R",
+        "phone": "",
+        "email": "",
+        "committees": [],
+        "legislativeHistory": [
+            {
+                "year": "2023",
+                "chamber": "house"
+            }
+        ],
+        "articles": [],
+        "imageSlug": "2023/Naarah-Hastings.png",
+        "sponsoredBills": [],
+        "votingSummary": {
+            "averageAbsences": 1.9405940594059405,
+            "averageVotesOnWinningSideGop": 0.9457632652555606,
+            "averageVotesOnWinningSideDem": 0.9049095397376694,
+            "averageVotesWithGopCaucusGop": 0.9515523242058531,
+            "averageVotesWithGopCaucusDem": 0.8797529563793939,
+            "averageVotesWithDemCaucusGop": 0.881583423680804,
+            "averageVotesWithDemCaucusDem": 0.9534109477765488
+        },
+        "keyBillVotes": []
+    },
+    {
         "key": "Donavon-Hawk",
         "name": "Donavon Hawk",
         "lastName": "Hawk",
@@ -22643,178 +22733,6 @@
                 "key": "hb-228",
                 "identifier": "HB 228",
                 "title": "Generally revise public investment laws",
-                "chamber": "house",
-                "status": {
-                    "key": "In First House--Out of Committee",
-                    "step": "First chamber",
-                    "label": "Out of committee",
-                    "status": "live",
-                    "statusAtSessionEnd": "failed"
-                },
-                "progress": [
-                    {
-                        "step": "introduced",
-                        "status": "passed",
-                        "statusLabel": "Introduced",
-                        "statusDate": "01/11/2023"
-                    },
-                    {
-                        "step": "first committee",
-                        "status": "passed",
-                        "statusLabel": "Advanced",
-                        "statusDate": "01/24/2023"
-                    },
-                    {
-                        "step": "first chamber",
-                        "status": "current",
-                        "statusLabel": "Pending",
-                        "statusDate": null
-                    },
-                    {
-                        "step": "second chamber",
-                        "status": "future",
-                        "statusLabel": null,
-                        "statusDate": null
-                    },
-                    {
-                        "step": "reconciliation",
-                        "status": "skipped",
-                        "statusLabel": null,
-                        "statusDate": null
-                    },
-                    {
-                        "step": "governor",
-                        "status": "future",
-                        "statusLabel": null,
-                        "statusDate": null
-                    }
-                ],
-                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0228.pdf",
-                "fiscalNoteUrl": null,
-                "legalNoteUrl": null,
-                "numArticles": 0,
-                "sponsor": {
-                    "name": "Terry Moore",
-                    "lastName": "Moore",
-                    "party": "R",
-                    "locale": "Billings",
-                    "district": "HD 54"
-                }
-            }
-        ],
-        "votingSummary": {
-            "name": "Terry Moore",
-            "party": "R",
-            "numVotesCast": 246,
-            "numVotesNotPresent": 0,
-            "numVotesPresent": 246,
-            "votesOnWinningSide": 226,
-            "fractionVotesOnWinningSide": 0.9186991869918699,
-            "votesWithGopCaucus": 229,
-            "fractionVotesWithGopCaucus": 0.9308943089430894,
-            "votesWithDemCaucus": 210,
-            "fractionVotesWithDemCaucus": 0.8536585365853658,
-            "averageAbsences": 1.9405940594059405,
-            "averageVotesOnWinningSideGop": 0.9457632652555606,
-            "averageVotesOnWinningSideDem": 0.9049095397376694,
-            "averageVotesWithGopCaucusGop": 0.9515523242058531,
-            "averageVotesWithGopCaucusDem": 0.8797529563793939,
-            "averageVotesWithDemCaucusGop": 0.881583423680804,
-            "averageVotesWithDemCaucusDem": 0.9534109477765488
-        },
-        "keyBillVotes": []
-    },
-    {
-        "key": "Fiona-Nave",
-        "name": "Fiona Nave",
-        "lastName": "Nave",
-        "locale": "Columbus",
-        "isActive": true,
-        "district": "HD 57",
-        "districtElexHistory": {
-            "last_election": "2022",
-            "pri_elex": {
-                "leg": [
-                    {
-                        "name": "FIONA B NAVE",
-                        "party": "R",
-                        "votes": 2052
-                    },
-                    {
-                        "name": "THOMAS E FLANAGAN",
-                        "party": "D",
-                        "votes": 332
-                    }
-                ]
-            },
-            "gen_elex": {
-                "gov": [
-                    {
-                        "name": "Gianforte",
-                        "party": "R",
-                        "votes": 4571
-                    },
-                    {
-                        "name": "Cooney",
-                        "party": "D",
-                        "votes": 1300
-                    },
-                    {
-                        "name": "Bishop",
-                        "party": "L",
-                        "votes": 177
-                    }
-                ],
-                "leg": [
-                    {
-                        "name": "FIONA B NAVE",
-                        "party": "R",
-                        "votes": 3440
-                    },
-                    {
-                        "name": "THOMAS E FLANAGAN",
-                        "party": "D",
-                        "votes": 1260
-                    }
-                ]
-            },
-            "replacementNote": null
-        },
-        "districtNum": 57,
-        "districtLocale": "Columbus, Absarokee, Reed Point, Rapelje, Park City",
-        "chamber": "house",
-        "title": "Rep.",
-        "fullTitle": "Representative",
-        "party": "R",
-        "phone": "(406) 321-4602",
-        "email": "Fiona.Nave@legmt.gov",
-        "committees": [
-            {
-                "committee": "House Appropriations",
-                "role": "Member"
-            },
-            {
-                "committee": "Joint Appropriations Section D — Judicial Branch, Law Enforcement, and Justice",
-                "role": "Member"
-            }
-        ],
-        "legislativeHistory": [
-            {
-                "year": "2021",
-                "chamber": "house"
-            },
-            {
-                "year": "2023",
-                "chamber": "house"
-            }
-        ],
-        "articles": [],
-        "imageSlug": "2023/Fiona-Nave.png",
-        "sponsoredBills": [
-            {
-                "key": "hb-161",
-                "identifier": "HB 161",
-                "title": "Generally revise computer crime laws",
                 "chamber": "house",
                 "status": {
                     "key": "In First House--Out of Committee",
@@ -42158,9 +42076,9 @@
                 "title": "Join Interstate Mining Compact Commission",
                 "chamber": "senate",
                 "status": {
-                    "key": "In First House--Out of Committee",
+                    "key": "In First House Committee--Nontabled",
                     "step": "First chamber",
-                    "label": "Out of committee",
+                    "label": "In committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -42173,15 +42091,15 @@
                     },
                     {
                         "step": "first committee",
-                        "status": "passed",
-                        "statusLabel": "Advanced",
-                        "statusDate": "01/12/2023"
+                        "status": "current",
+                        "statusLabel": "Pending",
+                        "statusDate": null
                     },
                     {
                         "step": "first chamber",
-                        "status": "current",
-                        "statusLabel": "Passed preliminary floor vote",
-                        "statusDate": "01/17/2023"
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
                     },
                     {
                         "step": "second chamber",
@@ -45444,7 +45362,7 @@
                 "title": "Montana Freedom Caucus launches with Rosendale as its north star",
                 "category": "2023 Legislature",
                 "subtitle": "",
-                "date": "2023-01-20T21:04:37.000Z",
+                "date": "2023-01-20T14:04:37.000Z",
                 "link": "https://montanafreepress.org/2023/01/20/montana-freedom-caucus-launches-with-rosendale-as-its-north-star/",
                 "author": "Arren Kimbel-Sannit",
                 "imageUrl": "https://montanafreepress.org/2023/01/20/montana-freedom-caucus-launches-with-rosendale-as-its-north-star/untitled-design-256/",
@@ -45460,7 +45378,7 @@
                 "title": "Election security committee has its session debut",
                 "category": "2023 Legislature",
                 "subtitle": "",
-                "date": "2023-01-13T21:39:33.000Z",
+                "date": "2023-01-13T14:39:33.000Z",
                 "link": "https://montanafreepress.org/2023/01/13/montana-special-election-security-committee-convenes/",
                 "author": "Alex Sakariassen",
                 "imageUrl": "https://montanafreepress.org/untitled-design-1-5/",
@@ -46620,68 +46538,6 @@
                     }
                 ],
                 "textUrl": "http://leg.mt.gov/bills/2023/billpdf/SB0139.pdf",
-                "fiscalNoteUrl": null,
-                "legalNoteUrl": null,
-                "numArticles": 0,
-                "sponsor": {
-                    "name": "Tom McGillvray",
-                    "lastName": "McGillvray",
-                    "party": "R",
-                    "locale": "Billings",
-                    "district": "SD 23"
-                }
-            },
-            {
-                "key": "sb-211",
-                "identifier": "SB 211",
-                "title": "Article V convention commissioner selection and credentialing act",
-                "chamber": "senate",
-                "status": {
-                    "key": "In Drafting Process",
-                    "step": "Drafting",
-                    "label": "In drafting",
-                    "status": "not introduced",
-                    "statusAtSessionEnd": "not introduced"
-                },
-                "progress": [
-                    {
-                        "step": "introduced",
-                        "status": "future",
-                        "statusLabel": "Not introduced",
-                        "statusDate": null
-                    },
-                    {
-                        "step": "first committee",
-                        "status": "future",
-                        "statusLabel": null,
-                        "statusDate": null
-                    },
-                    {
-                        "step": "first chamber",
-                        "status": "future",
-                        "statusLabel": null,
-                        "statusDate": null
-                    },
-                    {
-                        "step": "second chamber",
-                        "status": "future",
-                        "statusLabel": null,
-                        "statusDate": null
-                    },
-                    {
-                        "step": "reconciliation",
-                        "status": "skipped",
-                        "statusLabel": null,
-                        "statusDate": null
-                    },
-                    {
-                        "step": "governor",
-                        "status": "future",
-                        "statusLabel": null,
-                        "statusDate": null
-                    }
-                ],
-                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC0167.pdf",
                 "fiscalNoteUrl": null,
                 "legalNoteUrl": null,
                 "numArticles": 0,
