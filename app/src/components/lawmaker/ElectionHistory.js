@@ -84,7 +84,7 @@ const Election = ({ candidates }) => {
             dx: -1,
             textAnchor: 'start',
             fill: '#222',
-            text: (i === 0) ? `(${candidate.party}) ${candidate.name.toUpperCase()}` : `(${candidate.party})`,
+            text: (i === 0) ? `(${candidate.party}) ${candidate.name.toUpperCase()}` : '',
         }
         x += width
 
@@ -118,7 +118,7 @@ const Election = ({ candidates }) => {
                 textAnchor: 'end',
                 fill: '#fff',
                 fontSize: '0.8em',
-                text: percentFormat(candidate.votes / totalVotes),
+                text: `(${candidate.party}) ${percentFormat(candidate.votes / totalVotes)}`,
             }
         } else {
             text = {}
