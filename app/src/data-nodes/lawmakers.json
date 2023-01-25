@@ -4501,9 +4501,9 @@
                 "title": "Revise compensation for members of boards, commissions, and councils",
                 "chamber": "house",
                 "status": {
-                    "key": "In First House--Introduced",
+                    "key": "In First House Committee--Nontabled",
                     "step": "First chamber",
-                    "label": "Introduced",
+                    "label": "In committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -4563,9 +4563,9 @@
                 "title": "Generally revise laws related to advisory councils",
                 "chamber": "house",
                 "status": {
-                    "key": "In First House--Introduced",
+                    "key": "In First House Committee--Nontabled",
                     "step": "First chamber",
-                    "label": "Introduced",
+                    "label": "In committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -8006,9 +8006,9 @@
                 "title": "Generally revise motor vehicle laws",
                 "chamber": "house",
                 "status": {
-                    "key": "In First House--Introduced",
+                    "key": "In First House Committee--Nontabled",
                     "step": "First chamber",
-                    "label": "Introduced",
+                    "label": "In committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -9797,9 +9797,9 @@
                 "title": "Revise laws related to FURS membership",
                 "chamber": "house",
                 "status": {
-                    "key": "In First House--Introduced",
+                    "key": "In First House Committee--Nontabled",
                     "step": "First chamber",
-                    "label": "Introduced",
+                    "label": "In committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -15046,9 +15046,9 @@
                 "title": "Providing housing tax incentives",
                 "chamber": "house",
                 "status": {
-                    "key": "In First House--Introduced",
+                    "key": "In First House Committee--Nontabled",
                     "step": "First chamber",
-                    "label": "Introduced",
+                    "label": "In committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -17796,9 +17796,9 @@
                 "title": "Remove minimum penalty for suspended license",
                 "chamber": "house",
                 "status": {
-                    "key": "In First House--Introduced",
+                    "key": "In First House Committee--Nontabled",
                     "step": "First chamber",
-                    "label": "Introduced",
+                    "label": "In committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -31897,9 +31897,9 @@
                 "title": "Provide for the Montana Indian Child Welfare Act",
                 "chamber": "house",
                 "status": {
-                    "key": "In First House--Introduced",
+                    "key": "In First House Committee--Nontabled",
                     "step": "First chamber",
-                    "label": "Introduced",
+                    "label": "In committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -39779,6 +39779,68 @@
                     "locale": "Ethridge",
                     "district": "SD 9"
                 }
+            },
+            {
+                "key": "sb-217",
+                "identifier": "SB 217",
+                "title": "Revise rangeland improvement loan state special revenue account",
+                "chamber": "senate",
+                "status": {
+                    "key": "In First House--Introduced",
+                    "step": "First chamber",
+                    "label": "Introduced",
+                    "status": "live",
+                    "statusAtSessionEnd": "failed"
+                },
+                "progress": [
+                    {
+                        "step": "introduced",
+                        "status": "passed",
+                        "statusLabel": "Introduced",
+                        "statusDate": "01/25/2023"
+                    },
+                    {
+                        "step": "first committee",
+                        "status": "current",
+                        "statusLabel": "Pending",
+                        "statusDate": null
+                    },
+                    {
+                        "step": "first chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "second chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "reconciliation",
+                        "status": "skipped",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "governor",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    }
+                ],
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC4226.pdf",
+                "fiscalNoteUrl": null,
+                "legalNoteUrl": null,
+                "numArticles": 0,
+                "sponsor": {
+                    "name": "Bruce Gillespie",
+                    "lastName": "Gillespie",
+                    "party": "R",
+                    "locale": "Ethridge",
+                    "district": "SD 9"
+                }
             }
         ],
         "votingSummary": {
@@ -40011,23 +40073,23 @@
                 "title": "Prohibit consent as a defense for physician-assisted suicide",
                 "chamber": "senate",
                 "status": {
-                    "key": "In Drafting Process",
-                    "step": "Drafting",
-                    "label": "In drafting",
-                    "status": "not introduced",
-                    "statusAtSessionEnd": "not introduced"
+                    "key": "In First House Committee--Nontabled",
+                    "step": "First chamber",
+                    "label": "In committee",
+                    "status": "live",
+                    "statusAtSessionEnd": "failed"
                 },
                 "progress": [
                     {
                         "step": "introduced",
-                        "status": "future",
-                        "statusLabel": "Not introduced",
-                        "statusDate": null
+                        "status": "passed",
+                        "statusLabel": "Introduced",
+                        "statusDate": "01/25/2023"
                     },
                     {
                         "step": "first committee",
-                        "status": "future",
-                        "statusLabel": null,
+                        "status": "current",
+                        "statusLabel": "Pending",
                         "statusDate": null
                     },
                     {
@@ -46679,23 +46741,23 @@
                 "title": "Article V convention commissioner selection and credentialing act",
                 "chamber": "senate",
                 "status": {
-                    "key": "In Drafting Process",
-                    "step": "Drafting",
-                    "label": "In drafting",
-                    "status": "not introduced",
-                    "statusAtSessionEnd": "not introduced"
+                    "key": "In First House Committee--Nontabled",
+                    "step": "First chamber",
+                    "label": "In committee",
+                    "status": "live",
+                    "statusAtSessionEnd": "failed"
                 },
                 "progress": [
                     {
                         "step": "introduced",
-                        "status": "future",
-                        "statusLabel": "Not introduced",
-                        "statusDate": null
+                        "status": "passed",
+                        "statusLabel": "Introduced",
+                        "statusDate": "01/25/2023"
                     },
                     {
                         "step": "first committee",
-                        "status": "future",
-                        "statusLabel": null,
+                        "status": "current",
+                        "statusLabel": "Pending",
                         "statusDate": null
                     },
                     {
