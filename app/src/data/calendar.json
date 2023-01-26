@@ -6,7 +6,8 @@
         "01/31/2023",
         "02/01/2023",
         "02/02/2023",
-        "02/03/2023"
+        "02/03/2023",
+        "02/10/2023"
     ],
     "billsOnCalendar": [
         "HB 2",
@@ -95,6 +96,7 @@
         "SB 207",
         "SB 210",
         "SB 215",
+        "SB 216",
         "SR 7",
         "SR 12",
         "SR 13",
@@ -1364,9 +1366,9 @@
             "hearing": true
         },
         {
-            "id": "SB198-0022",
+            "id": "SB198-0024",
             "bill": "SB 198",
-            "date": "01/27/2023",
+            "date": "02/10/2023",
             "description": "Hearing",
             "posession": "senate",
             "committee": "Senate Public Health, Welfare and Safety",
@@ -1474,6 +1476,19 @@
             "description": "Hearing",
             "posession": "senate",
             "committee": "Senate Local Government",
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
+            "id": "SB216-0017",
+            "bill": "SB 216",
+            "date": "02/02/2023",
+            "description": "Hearing",
+            "posession": "senate",
+            "committee": "Senate Judiciary",
             "actionUrl": null,
             "recordings": [],
             "key": "Hearing",
