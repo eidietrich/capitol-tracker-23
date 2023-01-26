@@ -3665,17 +3665,22 @@
         ],
         "billCount": 20,
         "billsUnscheduled": [
-            "HB 15",
             "SB 9",
-            "SB 212",
             "SR 31",
             "SR 33",
             "SR 47"
         ],
         "billsScheduledByDay": [
             {
+                "day": "01/30/2023",
+                "bills": [
+                    "HB 15"
+                ]
+            },
+            {
                 "day": "02/01/2023",
                 "bills": [
+                    "SB 212",
                     "SB 213"
                 ]
             },
