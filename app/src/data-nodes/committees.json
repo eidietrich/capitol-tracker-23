@@ -1082,9 +1082,7 @@
         "billsAwaitingVote": [
             "HB 173",
             "HB 186",
-            "HB 190",
             "HB 196",
-            "HB 206",
             "HB 216",
             "HB 226",
             "HB 232",
@@ -1093,7 +1091,9 @@
             "SJ 4"
         ],
         "billsFailed": [
-            "HB 103"
+            "HB 103",
+            "HB 190",
+            "HB 206"
         ],
         "billsAdvanced": [
             "HB 47",
@@ -3641,15 +3641,31 @@
         "billsUnscheduled": [
             "HB 15",
             "SB 9",
-            "SB 141",
             "SB 212",
-            "SB 213",
             "SR 31",
-            "SR 32",
             "SR 33",
             "SR 47"
         ],
-        "billsScheduledByDay": [],
+        "billsScheduledByDay": [
+            {
+                "day": "02/01/2023",
+                "bills": [
+                    "SB 213"
+                ]
+            },
+            {
+                "day": "02/08/2023",
+                "bills": [
+                    "SB 141"
+                ]
+            },
+            {
+                "day": "03/15/2023",
+                "bills": [
+                    "SR 32"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "HB 21",
             "SJ 6"
