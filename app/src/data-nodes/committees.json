@@ -39,6 +39,7 @@
             "HB 141",
             "HB 147",
             "HB 163",
+            "HB 171",
             "HB 175",
             "HB 185",
             "HB 188",
@@ -55,7 +56,7 @@
             "HB 274",
             "HB 292"
         ],
-        "billCount": 49,
+        "billCount": 50,
         "billsUnscheduled": [
             "HB 2",
             "HB 5",
@@ -66,6 +67,7 @@
             "HB 10",
             "HB 11",
             "HB 12",
+            "HB 171",
             "HB 245"
         ],
         "billsScheduledByDay": [
@@ -573,18 +575,22 @@
             "HB 279",
             "HB 293",
             "HB 297",
+            "HB 300",
             "HB 304",
             "HB 305",
+            "HB 313",
             "SB 20",
             "SB 35",
             "SB 80",
             "SB 102"
         ],
-        "billCount": 61,
+        "billCount": 63,
         "billsUnscheduled": [
             "HB 128",
             "HB 201",
-            "HB 293"
+            "HB 293",
+            "HB 300",
+            "HB 313"
         ],
         "billsScheduledByDay": [
             {
@@ -2847,6 +2853,7 @@
         "bills": [
             "HB 1",
             "HB 175",
+            "HB 185",
             "SB 3",
             "SB 19",
             "SB 21",
@@ -2862,9 +2869,10 @@
             "SB 126",
             "SB 132"
         ],
-        "billCount": 16,
+        "billCount": 17,
         "billsUnscheduled": [
             "HB 175",
+            "HB 185",
             "SB 121",
             "SB 124"
         ],
@@ -3122,7 +3130,6 @@
         "billsAwaitingVote": [
             "HB 149",
             "SB 11",
-            "SB 47",
             "SB 160",
             "SB 169",
             "SB 171",
@@ -3152,6 +3159,7 @@
             "SB 13",
             "SB 19",
             "SB 38",
+            "SB 47",
             "SB 68",
             "SB 89",
             "SB 91",
