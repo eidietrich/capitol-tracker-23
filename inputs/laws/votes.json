@@ -4268,7 +4268,7 @@
     "action_id": "HB18-0025",
     "type": "committee",
     "seq_number": null,
-    "error": "Missing URL",
+    "error": "Skipped previously missing vote page",
     "totals": {
       "Y": 11,
       "N": 0
@@ -7947,7 +7947,7 @@
     "action_id": "HB24-0024",
     "type": "committee",
     "seq_number": null,
-    "error": "Missing URL",
+    "error": "Skipped previously missing vote page",
     "totals": {
       "Y": 12,
       "N": 0
@@ -11202,7 +11202,7 @@
     "action_id": "HB28-0026",
     "type": "committee",
     "seq_number": null,
-    "error": "Missing PDF",
+    "error": "Skipped previously missing vote page",
     "totals": {
       "Y": 12,
       "N": 10
@@ -32360,7 +32360,7 @@
     "action_id": "HB58-0027",
     "type": "committee",
     "seq_number": null,
-    "error": "Missing URL",
+    "error": "Skipped previously missing vote page",
     "totals": {
       "Y": 12,
       "N": 0
@@ -33294,7 +33294,7 @@
     "action_id": "HB59-0033",
     "type": "committee",
     "seq_number": null,
-    "error": "Missing URL",
+    "error": "Skipped previously missing vote page",
     "totals": {
       "Y": 11,
       "N": 0
@@ -35359,7 +35359,7 @@
       "Y": 99,
       "N": 0
     },
-    "error": "Missing vote page"
+    "error": "Skipped previously missing vote page"
   },
   {
     "url": "http://laws.leg.mt.gov/legprd/LAW0211W$BLAC.VoteTabulation?P_VOTE_SEQ=H232&P_SESS=20231",
@@ -65772,7 +65772,7 @@
     "action_id": "HB99-0024",
     "type": "committee",
     "seq_number": null,
-    "error": "Missing URL",
+    "error": "Skipped previously missing vote page",
     "totals": {
       "Y": 12,
       "N": 0
@@ -66296,7 +66296,7 @@
     "action_id": "HB101-0022",
     "type": "committee",
     "seq_number": null,
-    "error": "Missing PDF",
+    "error": "Skipped previously missing vote page",
     "totals": {
       "Y": 21,
       "N": 0
@@ -70328,7 +70328,7 @@
     "action_id": "HB107-0020",
     "type": "committee",
     "seq_number": null,
-    "error": "Missing URL",
+    "error": "Skipped previously missing vote page",
     "totals": {
       "Y": 19,
       "N": 0
@@ -76452,7 +76452,7 @@
     "action_id": "HB115-0020",
     "type": "committee",
     "seq_number": null,
-    "error": "Missing URL",
+    "error": "Skipped previously missing vote page",
     "totals": {
       "Y": 18,
       "N": 0
@@ -81674,7 +81674,7 @@
     "action_id": "HB121-0030",
     "type": "committee",
     "seq_number": null,
-    "error": "Missing URL",
+    "error": "Skipped previously missing vote page",
     "totals": {
       "Y": 12,
       "N": 0
@@ -84495,7 +84495,7 @@
     "action_id": "HB124-0026",
     "type": "committee",
     "seq_number": null,
-    "error": "Missing URL",
+    "error": "Skipped previously missing vote page",
     "totals": {
       "Y": 12,
       "N": 0
@@ -86347,7 +86347,7 @@
     "action_id": "HB131-0014",
     "type": "committee",
     "seq_number": null,
-    "error": "Missing PDF",
+    "error": "Skipped previously missing vote page",
     "totals": {
       "Y": 18,
       "N": 1
@@ -89034,7 +89034,7 @@
     "action_id": "HB133-0024",
     "type": "committee",
     "seq_number": null,
-    "error": "Missing URL",
+    "error": "Skipped previously missing vote page",
     "totals": {
       "Y": 9,
       "N": 3
@@ -103473,7 +103473,7 @@
     "action_id": "HB156-0020",
     "type": "committee",
     "seq_number": null,
-    "error": "Missing URL",
+    "error": "Skipped previously missing vote page",
     "totals": {
       "Y": 18,
       "N": 0
@@ -106886,7 +106886,7 @@
     "action_id": "HB162-0026",
     "type": "committee",
     "seq_number": null,
-    "error": "Missing URL",
+    "error": "Skipped previously missing vote page",
     "totals": {
       "Y": 12,
       "N": 0
@@ -114578,7 +114578,7 @@
     "action_id": "HB180-0021",
     "type": "committee",
     "seq_number": null,
-    "error": "Missing URL",
+    "error": "Skipped previously missing vote page",
     "totals": {
       "Y": 18,
       "N": 0
@@ -115751,7 +115751,7 @@
     "action_id": "HB185-0026",
     "type": "committee",
     "seq_number": null,
-    "error": "Missing PDF",
+    "error": "Skipped previously missing vote page",
     "totals": {
       "Y": 20,
       "N": 2
@@ -120622,7 +120622,7 @@
     "action_id": "HB210-0026",
     "type": "committee",
     "seq_number": null,
-    "error": "Missing URL",
+    "error": "Skipped previously missing vote page",
     "totals": {
       "Y": 18,
       "N": 0
@@ -121776,7 +121776,7 @@
     "action_id": "HB254-0019",
     "type": "committee",
     "seq_number": null,
-    "error": "Missing URL",
+    "error": "Skipped previously missing vote page",
     "totals": {
       "Y": 18,
       "N": 0
@@ -122663,6 +122663,19 @@
     "totals": {
       "Y": 19,
       "N": 0
+    }
+  },
+  {
+    "url": null,
+    "bill": "HB 270",
+    "session": "20231",
+    "action_id": "HB270-0027",
+    "type": "committee",
+    "seq_number": null,
+    "error": "Missing URL",
+    "totals": {
+      "Y": 22,
+      "N": 1
     }
   },
   {
@@ -130066,7 +130079,7 @@
     "action_id": "SB16-0020",
     "type": "committee",
     "seq_number": null,
-    "error": "Missing PDF",
+    "error": "Skipped previously missing vote page",
     "totals": {
       "Y": 12,
       "N": 0
@@ -133079,7 +133092,7 @@
     "action_id": "SB24-0029",
     "type": "committee",
     "seq_number": null,
-    "error": "Missing PDF",
+    "error": "Skipped previously missing vote page",
     "totals": {
       "Y": 11,
       "N": 1
@@ -134650,7 +134663,7 @@
     "action_id": "SB32-0019",
     "type": "committee",
     "seq_number": null,
-    "error": "Missing PDF",
+    "error": "Skipped previously missing vote page",
     "totals": {
       "Y": 11,
       "N": 0
@@ -136413,7 +136426,7 @@
     "action_id": "SB35-0025",
     "type": "committee",
     "seq_number": null,
-    "error": "Missing URL",
+    "error": "Skipped previously missing vote page",
     "totals": {
       "Y": 18,
       "N": 0
@@ -136915,7 +136928,7 @@
     "action_id": "SB37-0015",
     "type": "committee",
     "seq_number": null,
-    "error": "Missing PDF",
+    "error": "Skipped previously missing vote page",
     "totals": {
       "Y": 7,
       "N": 4
@@ -137425,7 +137438,7 @@
     "action_id": "SB38-0015",
     "type": "committee",
     "seq_number": null,
-    "error": "Missing PDF",
+    "error": "Skipped previously missing vote page",
     "totals": {
       "Y": 7,
       "N": 4
@@ -141233,7 +141246,7 @@
     "action_id": "SB53-0021",
     "type": "committee",
     "seq_number": null,
-    "error": "Missing PDF",
+    "error": "Skipped previously missing vote page",
     "totals": {
       "Y": 10,
       "N": 0
@@ -149532,7 +149545,7 @@
     "action_id": "SB80-0030",
     "type": "committee",
     "seq_number": null,
-    "error": "Missing URL",
+    "error": "Skipped previously missing vote page",
     "totals": {
       "Y": 18,
       "N": 0
@@ -151751,7 +151764,7 @@
     "action_id": "SB94-0022",
     "type": "committee",
     "seq_number": null,
-    "error": "Missing URL",
+    "error": "Skipped previously missing vote page",
     "totals": {
       "Y": 9,
       "N": 2
@@ -157064,7 +157077,7 @@
     "action_id": "SB113-0020",
     "type": "committee",
     "seq_number": null,
-    "error": "Missing PDF",
+    "error": "Skipped previously missing vote page",
     "totals": {
       "Y": 9,
       "N": 0
@@ -158286,7 +158299,7 @@
     "action_id": "SB119-0023",
     "type": "committee",
     "seq_number": null,
-    "error": "Missing PDF",
+    "error": "Skipped previously missing vote page",
     "totals": {
       "Y": 12,
       "N": 0
@@ -159184,7 +159197,7 @@
     "action_id": "SB121-0026",
     "type": "committee",
     "seq_number": null,
-    "error": "Missing PDF",
+    "error": "Skipped previously missing vote page",
     "totals": {
       "Y": 7,
       "N": 5
@@ -160287,7 +160300,7 @@
     "action_id": "SB123-0020",
     "type": "committee",
     "seq_number": null,
-    "error": "Missing URL",
+    "error": "Skipped previously missing vote page",
     "totals": {
       "Y": 12,
       "N": 0
@@ -160300,7 +160313,7 @@
     "action_id": "SB124-0024",
     "type": "committee",
     "seq_number": null,
-    "error": "Missing PDF",
+    "error": "Skipped previously missing vote page",
     "totals": {
       "Y": 9,
       "N": 3
@@ -160531,7 +160544,7 @@
     "action_id": "SB128-0019",
     "type": "committee",
     "seq_number": null,
-    "error": "Missing PDF",
+    "error": "Skipped previously missing vote page",
     "totals": {
       "Y": 10,
       "N": 0
@@ -162280,7 +162293,7 @@
     "action_id": "SB134-0025",
     "type": "committee",
     "seq_number": null,
-    "error": "Missing PDF",
+    "error": "Skipped previously missing vote page",
     "totals": {
       "Y": 7,
       "N": 4
@@ -162511,7 +162524,7 @@
     "action_id": "SB135-0020",
     "type": "committee",
     "seq_number": null,
-    "error": "Missing URL",
+    "error": "Skipped previously missing vote page",
     "totals": {
       "Y": 7,
       "N": 4
@@ -162585,7 +162598,7 @@
     "action_id": "SB139-0020",
     "type": "committee",
     "seq_number": null,
-    "error": "Missing URL",
+    "error": "Skipped previously missing vote page",
     "totals": {
       "Y": 12,
       "N": 0
@@ -162598,7 +162611,7 @@
     "action_id": "SB140-0020",
     "type": "committee",
     "seq_number": null,
-    "error": "Missing URL",
+    "error": "Skipped previously missing vote page",
     "totals": {
       "Y": 10,
       "N": 0
@@ -163218,7 +163231,7 @@
     "action_id": "SB147-0022",
     "type": "committee",
     "seq_number": null,
-    "error": "Missing URL",
+    "error": "Skipped previously missing vote page",
     "totals": {
       "Y": 7,
       "N": 5
@@ -163231,7 +163244,7 @@
     "action_id": "SB148-0023",
     "type": "committee",
     "seq_number": null,
-    "error": "Missing URL",
+    "error": "Skipped previously missing vote page",
     "totals": {
       "Y": 9,
       "N": 2
@@ -164290,7 +164303,7 @@
     "action_id": "SB154-0020",
     "type": "committee",
     "seq_number": null,
-    "error": "Missing PDF",
+    "error": "Skipped previously missing vote page",
     "totals": {
       "Y": 7,
       "N": 4
@@ -166449,7 +166462,7 @@
     "action_id": "SB166-0023",
     "type": "committee",
     "seq_number": null,
-    "error": "Missing PDF",
+    "error": "Skipped previously missing vote page",
     "totals": {
       "Y": 10,
       "N": 0
@@ -169789,7 +169802,7 @@
     "action_id": "SJ2-0019",
     "type": "committee",
     "seq_number": null,
-    "error": "Missing URL",
+    "error": "Skipped previously missing vote page",
     "totals": {
       "Y": 6,
       "N": 4

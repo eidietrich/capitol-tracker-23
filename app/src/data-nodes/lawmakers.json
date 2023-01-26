@@ -16768,10 +16768,10 @@
                 "title": "Extend sunset on natural resource operation funding",
                 "chamber": "house",
                 "status": {
-                    "key": "In First House Committee--Nontabled",
+                    "key": "In First House Committee--Tabled",
                     "step": "First chamber",
-                    "label": "In committee",
-                    "status": "live",
+                    "label": "Tabled in committee",
+                    "status": "stalled",
                     "statusAtSessionEnd": "failed"
                 },
                 "progress": [
@@ -16783,9 +16783,9 @@
                     },
                     {
                         "step": "first committee",
-                        "status": "current",
-                        "statusLabel": "Pending",
-                        "statusDate": null
+                        "status": "blocked",
+                        "statusLabel": "Tabled",
+                        "statusDate": "01/25/2023"
                     },
                     {
                         "step": "first chamber",
@@ -20473,6 +20473,56 @@
                     "locale": "Missoula",
                     "district": "HD 90"
                 }
+            },
+            {
+                "key": "hj-4",
+                "identifier": "HJ 4",
+                "title": "Joint resolution in support of the Montana Trail 406 network",
+                "chamber": "house",
+                "status": {
+                    "key": "In First House--Introduced",
+                    "step": "First chamber",
+                    "label": "Introduced",
+                    "status": "live",
+                    "statusAtSessionEnd": "failed"
+                },
+                "progress": [
+                    {
+                        "step": "introduced",
+                        "status": "passed",
+                        "statusLabel": "Introduced",
+                        "statusDate": "01/25/2023"
+                    },
+                    {
+                        "step": "first committee",
+                        "status": "current",
+                        "statusLabel": "Pending",
+                        "statusDate": null
+                    },
+                    {
+                        "step": "first chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "second chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    }
+                ],
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC4449.pdf",
+                "fiscalNoteUrl": null,
+                "legalNoteUrl": null,
+                "numArticles": 0,
+                "sponsor": {
+                    "name": "Marilyn Marler",
+                    "lastName": "Marler",
+                    "party": "D",
+                    "locale": "Missoula",
+                    "district": "HD 90"
+                }
             }
         ],
         "votingSummary": {
@@ -24107,6 +24157,68 @@
                     }
                 ],
                 "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0289.pdf",
+                "fiscalNoteUrl": null,
+                "legalNoteUrl": null,
+                "numArticles": 0,
+                "sponsor": {
+                    "name": "Greg Oblander",
+                    "lastName": "Oblander",
+                    "party": "R",
+                    "locale": "Billings",
+                    "district": "HD 40"
+                }
+            },
+            {
+                "key": "hb-331",
+                "identifier": "HB 331",
+                "title": "Generally revise off-highway vehicle grant funding laws",
+                "chamber": "house",
+                "status": {
+                    "key": "In First House--Introduced",
+                    "step": "First chamber",
+                    "label": "Introduced",
+                    "status": "live",
+                    "statusAtSessionEnd": "failed"
+                },
+                "progress": [
+                    {
+                        "step": "introduced",
+                        "status": "passed",
+                        "statusLabel": "Introduced",
+                        "statusDate": "01/25/2023"
+                    },
+                    {
+                        "step": "first committee",
+                        "status": "current",
+                        "statusLabel": "Pending",
+                        "statusDate": null
+                    },
+                    {
+                        "step": "first chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "second chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "reconciliation",
+                        "status": "skipped",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "governor",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    }
+                ],
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC1512.pdf",
                 "fiscalNoteUrl": null,
                 "legalNoteUrl": null,
                 "numArticles": 0,
@@ -27906,6 +28018,68 @@
                     }
                 ],
                 "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0300.pdf",
+                "fiscalNoteUrl": null,
+                "legalNoteUrl": null,
+                "numArticles": 0,
+                "sponsor": {
+                    "name": "Frank Smith",
+                    "lastName": "Smith",
+                    "party": "D",
+                    "locale": "Poplar",
+                    "district": "HD 31"
+                }
+            },
+            {
+                "key": "hb-330",
+                "identifier": "HB 330",
+                "title": "Revise laws related to tribal DUI task forces",
+                "chamber": "house",
+                "status": {
+                    "key": "In First House--Introduced",
+                    "step": "First chamber",
+                    "label": "Introduced",
+                    "status": "live",
+                    "statusAtSessionEnd": "failed"
+                },
+                "progress": [
+                    {
+                        "step": "introduced",
+                        "status": "passed",
+                        "statusLabel": "Introduced",
+                        "statusDate": "01/25/2023"
+                    },
+                    {
+                        "step": "first committee",
+                        "status": "current",
+                        "statusLabel": "Pending",
+                        "statusDate": null
+                    },
+                    {
+                        "step": "first chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "second chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "reconciliation",
+                        "status": "skipped",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "governor",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    }
+                ],
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC1406.pdf",
                 "fiscalNoteUrl": null,
                 "legalNoteUrl": null,
                 "numArticles": 0,
@@ -35661,6 +35835,68 @@
                     }
                 ],
                 "textUrl": "http://leg.mt.gov/bills/2023/billpdf/SB0088.pdf",
+                "fiscalNoteUrl": null,
+                "legalNoteUrl": null,
+                "numArticles": 0,
+                "sponsor": {
+                    "name": "Willis Curdy",
+                    "lastName": "Curdy",
+                    "party": "D",
+                    "locale": "Missoula",
+                    "district": "SD 49"
+                }
+            },
+            {
+                "key": "sb-219",
+                "identifier": "SB 219",
+                "title": "Revise wildfire suppression laws",
+                "chamber": "senate",
+                "status": {
+                    "key": "In First House--Introduced",
+                    "step": "First chamber",
+                    "label": "Introduced",
+                    "status": "live",
+                    "statusAtSessionEnd": "failed"
+                },
+                "progress": [
+                    {
+                        "step": "introduced",
+                        "status": "passed",
+                        "statusLabel": "Introduced",
+                        "statusDate": "01/25/2023"
+                    },
+                    {
+                        "step": "first committee",
+                        "status": "current",
+                        "statusLabel": "Pending",
+                        "statusDate": null
+                    },
+                    {
+                        "step": "first chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "second chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "reconciliation",
+                        "status": "skipped",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "governor",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    }
+                ],
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC2341.pdf",
                 "fiscalNoteUrl": null,
                 "legalNoteUrl": null,
                 "numArticles": 0,
@@ -47739,7 +47975,26 @@
                 "chamber": "senate"
             }
         ],
-        "articles": [],
+        "articles": [
+            {
+                "title": "Abortion privacy bill clears major vote on Senate floor",
+                "category": "2023 Legislature",
+                "subtitle": "",
+                "date": "2023-01-25T16:50:22.000Z",
+                "link": "https://montanafreepress.org/2023/01/25/montana-abortion-bill-advances-with-some-republican-opposition/",
+                "author": "Mara Silvers",
+                "imageUrl": "https://montanafreepress.org/2023/01/25/montana-abortion-bill-advances-with-some-republican-opposition/untitled-design-265/",
+                "billTags": [
+                    "SB 154"
+                ],
+                "lawmakerTags": [
+                    "Jeff Welborn",
+                    "Keith Regier",
+                    "Wendy McKamey"
+                ],
+                "governorTags": []
+            }
+        ],
         "imageSlug": "2023/wendy-mckamey.png",
         "sponsoredBills": [
             {
@@ -50293,6 +50548,24 @@
         ],
         "articles": [
             {
+                "title": "Abortion privacy bill clears major vote on Senate floor",
+                "category": "2023 Legislature",
+                "subtitle": "",
+                "date": "2023-01-25T16:50:22.000Z",
+                "link": "https://montanafreepress.org/2023/01/25/montana-abortion-bill-advances-with-some-republican-opposition/",
+                "author": "Mara Silvers",
+                "imageUrl": "https://montanafreepress.org/2023/01/25/montana-abortion-bill-advances-with-some-republican-opposition/untitled-design-265/",
+                "billTags": [
+                    "SB 154"
+                ],
+                "lawmakerTags": [
+                    "Jeff Welborn",
+                    "Keith Regier",
+                    "Wendy McKamey"
+                ],
+                "governorTags": []
+            },
+            {
                 "title": "First abortion bill of 2023 introduced in Montana Legislature",
                 "category": "2023 Legislature",
                 "subtitle": "",
@@ -50941,7 +51214,7 @@
                 "textUrl": "http://leg.mt.gov/bills/2023/billpdf/SB0154.pdf",
                 "fiscalNoteUrl": null,
                 "legalNoteUrl": "https://montanafreepress.org/wp-content/uploads/2023/01/SB0154LRN.pdf",
-                "numArticles": 1,
+                "numArticles": 2,
                 "sponsor": {
                     "name": "Keith Regier",
                     "lastName": "Regier",
@@ -55114,7 +55387,26 @@
                 "chamber": "senate"
             }
         ],
-        "articles": [],
+        "articles": [
+            {
+                "title": "Abortion privacy bill clears major vote on Senate floor",
+                "category": "2023 Legislature",
+                "subtitle": "",
+                "date": "2023-01-25T16:50:22.000Z",
+                "link": "https://montanafreepress.org/2023/01/25/montana-abortion-bill-advances-with-some-republican-opposition/",
+                "author": "Mara Silvers",
+                "imageUrl": "https://montanafreepress.org/2023/01/25/montana-abortion-bill-advances-with-some-republican-opposition/untitled-design-265/",
+                "billTags": [
+                    "SB 154"
+                ],
+                "lawmakerTags": [
+                    "Jeff Welborn",
+                    "Keith Regier",
+                    "Wendy McKamey"
+                ],
+                "governorTags": []
+            }
+        ],
         "lawmakerPageText": null,
         "imageSlug": "2023/jeff-welborn.png",
         "sponsoredBills": [
