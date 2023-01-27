@@ -879,7 +879,6 @@
         "billsUnscheduled": [
             "HB 235",
             "HB 258",
-            "HB 280",
             "HB 285",
             "HB 294",
             "HB 307",
@@ -889,7 +888,14 @@
             "HB 345",
             "HJ 2"
         ],
-        "billsScheduledByDay": [],
+        "billsScheduledByDay": [
+            {
+                "day": "01/31/2023",
+                "bills": [
+                    "HB 280"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "HB 118",
             "HB 249",
@@ -3928,11 +3934,7 @@
         ],
         "billCount": 24,
         "billsUnscheduled": [
-            "HB 35",
-            "SB 220",
-            "SB 225",
-            "SB 226",
-            "SB 227"
+            "HB 35"
         ],
         "billsScheduledByDay": [
             {
@@ -3940,6 +3942,15 @@
                 "bills": [
                     "SB 206",
                     "SB 215"
+                ]
+            },
+            {
+                "day": "02/01/2023",
+                "bills": [
+                    "SB 220",
+                    "SB 225",
+                    "SB 226",
+                    "SB 227"
                 ]
             }
         ],
