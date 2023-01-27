@@ -41,9 +41,8 @@ const Index = ({ data, location }) => {
           {i !== 0 ? ' • ' : ''}<Link to={`/#${urlize(c.category)}`}>{c.category}</Link>
         </span>)}
       </div>
-
-      <InfoPopup label="How bills move through the Legislature" content={howBillsMove} />
       <div className="note">Major legislation identified by MTFP reporters. Where ambiguous, official bill titles are annotated with plain language summaries.</div>
+      <InfoPopup label="How bills move through the Legislature" content={howBillsMove} />
       {
         keyBillCategories
           .filter(d => d.show)

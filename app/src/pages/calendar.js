@@ -3,7 +3,7 @@ import { AnchorLink } from "gatsby-plugin-anchor-links";
 import { Link, graphql } from "gatsby";
 import { css } from '@emotion/react'
 
-import { shortDateWithWeekday, billUrl, capitalize } from '../config/utils.js'
+import { shortDateWithWeekday, committeeUrl, capitalize } from '../config/utils.js'
 
 import Layout from '../components/Layout'
 import Seo from '../components/Seo'
@@ -48,8 +48,19 @@ const Calendar = ({ data, location }) => {
 
         const hearings = scheduledHearings.filter(d => getDay(d.date) === day)
         const committeesWithHearings = Array.from(new Set(hearings.map(a => a.committee)))
-
-        // console.log({ day, floorDebates, finalVotes, hearings })
+            .map(name => {
+                const match = committees.find(d => d.name === name) || {}
+                if (!match.key) console.log('No committee match', name)
+                return {
+                    name,
+                    key: match.key || null,
+                    cat: (match.time && match.type) ? `${match.time}-${match.type}` : null
+                }
+            })
+        const amPolicyCommittees = committeesWithHearings.filter(d => d.cat === 'morning-policy')
+        const pmPolicyCommittees = committeesWithHearings.filter(d => d.cat === 'afternoon-policy')
+        const appropsCommittees = committeesWithHearings.filter(d => ['morning-fiscal-sub', 'varies-fiscal'].includes(d.cat))
+        const otherCommittees = committeesWithHearings.filter(d => !['morning-policy', 'afternoon-policy', 'morning-fiscal-sub', 'varies-fiscal'].includes(d.cat))
 
         return <div key={day} id={urlizeDay(day)} css={scheduleDayStyle}>
             <hr />
@@ -89,23 +100,46 @@ const Calendar = ({ data, location }) => {
             {(hearings.length > 0) && <>
                 <h3>Commitee hearings</h3>
                 <div className="note">Bill hearings are an opportunity for the sponsor to explain a bill. They also allow for lobbyists and other members of the public to testify in support or opposition.</div>
-                <div>
-                    {
-                        committeesWithHearings.map(committee => {
-                            const committeeHearingBills = hearings.filter(d => d.committee === committee).map(d => d.bill)
-                            const bills = onCalendarBills.filter(d => committeeHearingBills.includes(d.identifier))
-                            const committeeData = committees.find(d => d.name === committee)
-                            //  TODO here
-                            // console.log(committeeData)
-                            return <div key={`${day}-${committee}`}>
-                                <h4>👥 {committee}</h4>
-                                {/* <div className="note">{time}{type}</div> */}
-                                <BillTable bills={bills} displayLimit={10} suppressCount={true} />
-                                {/* <ul>{committeeHearings.map(d => <Hearing key={d.id} data={d} />)}</ul> */}
-                            </div>
-                        })
-                    }
-                </div>
+                {
+                    amPolicyCommittees.length > 0 && <>
+                        <h5>Morning policy committees</h5>
+                        <div>
+                            {
+                                amPolicyCommittees.map(committee => <Committee key={`${day}-${committee.name}`} committee={committee} hearings={hearings} onCalendarBills={onCalendarBills} />)
+                            }
+                        </div>
+                    </>
+                }
+                {
+                    pmPolicyCommittees.length > 0 && <>
+                        <h5>Afternoon policy committees</h5>
+                        <div>
+                            {
+                                pmPolicyCommittees.map(committee => <Committee key={`${day}-${committee.name}`} committee={committee} hearings={hearings} onCalendarBills={onCalendarBills} />)
+                            }
+                        </div>
+                    </>
+                }
+                {
+                    appropsCommittees.length > 0 && <>
+                        <h5>Budget committees</h5>
+                        <div>
+                            {
+                                appropsCommittees.map(committee => <Committee key={`${day}-${committee.name}`} committee={committee} hearings={hearings} onCalendarBills={onCalendarBills} />)
+                            }
+                        </div>
+                    </>
+                }
+                {
+                    otherCommittees.length > 0 && <>
+                        <h5>Other committees</h5>
+                        <div>
+                            {
+                                otherCommittees.map(committee => <Committee key={`${day}-${committee.name}`} committee={committee} hearings={hearings} onCalendarBills={onCalendarBills} />)
+                            }
+                        </div>
+                    </>
+                }
             </>}
             {/* Add newsletter promo after first day on calendar */}
             {(i === 0) && < NewsletterSignup />}
@@ -128,6 +162,18 @@ const Calendar = ({ data, location }) => {
             <ContactUs />
 
         </Layout>
+    </div>
+}
+
+const Committee = props => {
+    const { committee, onCalendarBills, hearings } = props
+    const committeeHearingBills = hearings.filter(d => d.committee === committee.name).map(d => d.bill)
+    const bills = onCalendarBills.filter(d => committeeHearingBills.includes(d.identifier))
+    return <div>
+        <h4>👥 {committee.name}</h4>
+        {/* <div className="note">{time}{type}</div> */}
+        <BillTable bills={bills} displayLimit={10} suppressCount={true} />
+        {/* <ul>{committeeHearings.map(d => <Hearing key={d.id} data={d} />)}</ul> */}
     </div>
 }
 

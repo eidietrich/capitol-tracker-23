@@ -173,6 +173,12 @@
                 "role": "Member"
             },
             {
+                "name": "Naarah Hastings",
+                "party": "R",
+                "locale": "Billings",
+                "role": "Member"
+            },
+            {
                 "name": "Lyn Hellegaard",
                 "party": "R",
                 "locale": "Missoula",
@@ -573,18 +579,20 @@
             "HB 304",
             "HB 305",
             "HB 313",
+            "HB 351",
             "SB 20",
             "SB 35",
             "SB 80",
             "SB 102"
         ],
-        "billCount": 63,
+        "billCount": 64,
         "billsUnscheduled": [
             "HB 128",
             "HB 201",
             "HB 293",
             "HB 300",
-            "HB 313"
+            "HB 313",
+            "HB 351"
         ],
         "billsScheduledByDay": [
             {
@@ -610,17 +618,12 @@
         ],
         "billsAwaitingVote": [
             "HB 87",
-            "HB 97",
             "HB 152",
             "HB 177",
-            "HB 242",
             "HB 250",
-            "HB 263",
-            "HB 273",
             "HB 279",
             "HB 305",
-            "SB 20",
-            "SB 102"
+            "SB 20"
         ],
         "billsFailed": [
             "HB 127",
@@ -643,6 +646,7 @@
             "HB 72",
             "HB 95",
             "HB 96",
+            "HB 97",
             "HB 98",
             "HB 115",
             "HB 120",
@@ -662,10 +666,14 @@
             "HB 178",
             "HB 182",
             "HB 209",
+            "HB 242",
             "HB 247",
             "HB 254",
+            "HB 263",
+            "HB 273",
             "SB 35",
-            "SB 80"
+            "SB 80",
+            "SB 102"
         ],
         "billsBlasted": [],
         "members": [
@@ -820,10 +828,11 @@
             "HB 318",
             "HB 321",
             "HB 325",
+            "HB 345",
             "HJ 2",
             "SB 62"
         ],
-        "billCount": 31,
+        "billCount": 32,
         "billsUnscheduled": [
             "HB 235",
             "HB 258",
@@ -834,6 +843,7 @@
             "HB 318",
             "HB 321",
             "HB 325",
+            "HB 345",
             "HJ 2"
         ],
         "billsScheduledByDay": [],
@@ -1050,17 +1060,19 @@
             "HB 329",
             "HB 335",
             "HB 341",
+            "HB 348",
             "SB 18",
             "SB 40",
             "SJ 4",
             "SJ 8"
         ],
-        "billCount": 54,
+        "billCount": 55,
         "billsUnscheduled": [
             "HB 126",
             "HB 319",
             "HB 335",
             "HB 341",
+            "HB 348",
             "SJ 8"
         ],
         "billsScheduledByDay": [
@@ -1336,7 +1348,6 @@
         "billsAwaitingVote": [
             "HB 17",
             "HB 45",
-            "HB 218",
             "HB 238",
             "HB 252",
             "HB 265"
@@ -1359,6 +1370,7 @@
             "HB 147",
             "HB 194",
             "HB 200",
+            "HB 218",
             "HB 227",
             "HB 286",
             "SB 6",
@@ -1512,13 +1524,17 @@
             "HB 185",
             "HB 289",
             "HB 342",
+            "HB 343",
+            "HB 347",
             "HJ 4"
         ],
-        "billCount": 12,
+        "billCount": 14,
         "billsUnscheduled": [
             "HB 130",
             "HB 185",
             "HB 342",
+            "HB 343",
+            "HB 347",
             "HJ 4"
         ],
         "billsScheduledByDay": [],
@@ -1806,15 +1822,21 @@
             "HB 332",
             "HB 334",
             "HB 338",
+            "HB 344",
+            "HB 346",
+            "HB 352",
             "SB 1",
             "SB 10",
             "SB 69"
         ],
-        "billCount": 20,
+        "billCount": 23,
         "billsUnscheduled": [
             "HB 332",
             "HB 334",
             "HB 338",
+            "HB 344",
+            "HB 346",
+            "HB 352",
             "SB 1",
             "SB 10",
             "SB 69"
@@ -2075,12 +2097,14 @@
             "HB 153",
             "HB 158",
             "HB 159",
-            "HB 276"
+            "HB 276",
+            "HB 350"
         ],
-        "billCount": 13,
+        "billCount": 14,
         "billsUnscheduled": [
             "HB 158",
-            "HB 159"
+            "HB 159",
+            "HB 350"
         ],
         "billsScheduledByDay": [],
         "billsAwaitingVote": [
@@ -2860,7 +2884,7 @@
     {
         "name": "Senate Finance and Claims",
         "key": "senate-finance-and-claims",
-        "time": "morning",
+        "time": "varies",
         "type": "fiscal",
         "bills": [
             "HB 1",
@@ -4116,14 +4140,7 @@
             "SB 39",
             "SB 48",
             "SB 99",
-            "SB 205",
             "SJ 6",
-            "SR 17",
-            "SR 18",
-            "SR 19",
-            "SR 20",
-            "SR 21",
-            "SR 22",
             "SR 23",
             "SR 24",
             "SR 25",
@@ -4144,9 +4161,31 @@
                 "bills": [
                     "SB 202",
                     "SR 12",
-                    "SR 13",
                     "SR 14",
-                    "SR 15",
+                    "SR 15"
+                ]
+            },
+            {
+                "day": "02/01/2023",
+                "bills": [
+                    "SB 205",
+                    "SR 17",
+                    "SR 18",
+                    "SR 19",
+                    "SR 20"
+                ]
+            },
+            {
+                "day": "02/03/2023",
+                "bills": [
+                    "SR 21",
+                    "SR 22"
+                ]
+            },
+            {
+                "day": "02/08/2023",
+                "bills": [
+                    "SR 13",
                     "SR 16"
                 ]
             },
@@ -4850,12 +4889,12 @@
         "billsAwaitingVote": [
             "HB 26",
             "HB 27",
-            "SB 57",
             "SB 137"
         ],
         "billsFailed": [],
         "billsAdvanced": [
             "SB 33",
+            "SB 57",
             "SB 111",
             "SB 144"
         ],
@@ -5345,6 +5384,479 @@
                 "name": "Shannon O'Brien",
                 "party": "D",
                 "locale": "Missoula",
+                "role": "Member"
+            }
+        ]
+    },
+    {
+        "name": "Joint Appropriations Section A — General Government",
+        "key": "joint-appropriations-section-a-—-general-government",
+        "time": "morning",
+        "type": "fiscal-sub",
+        "bills": [
+            "HB 2"
+        ],
+        "billCount": 1,
+        "billsUnscheduled": [],
+        "billsScheduledByDay": [
+            {
+                "day": "01/31/2023",
+                "bills": [
+                    "HB 2"
+                ]
+            },
+            {
+                "day": "02/01/2023",
+                "bills": [
+                    "HB 2"
+                ]
+            }
+        ],
+        "billsAwaitingVote": [
+            "HB 2"
+        ],
+        "billsFailed": [],
+        "billsAdvanced": [],
+        "billsBlasted": [],
+        "members": [
+            {
+                "name": "Terry Moore",
+                "party": "R",
+                "locale": "Billings",
+                "role": "Chair"
+            },
+            {
+                "name": "Forrest Mandeville",
+                "party": "R",
+                "locale": "Columbus",
+                "role": "Vice Chair"
+            },
+            {
+                "name": "Terry Falk",
+                "party": "R",
+                "locale": "Kalispell",
+                "role": "Member"
+            },
+            {
+                "name": "Doug Flament",
+                "party": "R",
+                "locale": "Lewistown",
+                "role": "Member"
+            },
+            {
+                "name": "Naarah Hastings",
+                "party": "R",
+                "locale": "Billings",
+                "role": "Member"
+            },
+            {
+                "name": "Dan Bartel",
+                "party": "R",
+                "locale": "Lewistown",
+                "role": "Member"
+            },
+            {
+                "name": "Jim Hamilton",
+                "party": "D",
+                "locale": "Bozeman",
+                "role": "Member"
+            },
+            {
+                "name": "Pat Flowers",
+                "party": "D",
+                "locale": "Belgrade",
+                "role": "Member"
+            }
+        ]
+    },
+    {
+        "name": "Joint Appropriations Section B — Health and Human Services",
+        "key": "joint-appropriations-section-b-—-health-and-human-services",
+        "time": "morning",
+        "type": "fiscal-sub",
+        "bills": [
+            "HB 2"
+        ],
+        "billCount": 1,
+        "billsUnscheduled": [],
+        "billsScheduledByDay": [
+            {
+                "day": "01/27/2023",
+                "bills": [
+                    "HB 2"
+                ]
+            },
+            {
+                "day": "02/01/2023",
+                "bills": [
+                    "HB 2"
+                ]
+            }
+        ],
+        "billsAwaitingVote": [
+            "HB 2"
+        ],
+        "billsFailed": [],
+        "billsAdvanced": [],
+        "billsBlasted": [],
+        "members": [
+            {
+                "name": "Bob Keenan",
+                "party": "R",
+                "locale": "Bigfork",
+                "role": "Chair"
+            },
+            {
+                "name": "Carl Glimm",
+                "party": "R",
+                "locale": "Kila",
+                "role": "Vice Chair"
+            },
+            {
+                "name": "Jane Gillette",
+                "party": "R",
+                "locale": "Bozeman",
+                "role": "Member"
+            },
+            {
+                "name": "Dennis Lenz",
+                "party": "R",
+                "locale": "Billings",
+                "role": "Member"
+            },
+            {
+                "name": "Mary Caferro",
+                "party": "D",
+                "locale": "Helena",
+                "role": "Member"
+            },
+            {
+                "name": "Chris Pope",
+                "party": "D",
+                "locale": "Bozeman",
+                "role": "Member"
+            }
+        ]
+    },
+    {
+        "name": "Joint Appropriations Section C — Natural Resources and Transportation",
+        "key": "joint-appropriations-section-c-—-natural-resources-and-transportation",
+        "time": "morning",
+        "type": "fiscal-sub",
+        "bills": [
+            "HB 2"
+        ],
+        "billCount": 1,
+        "billsUnscheduled": [],
+        "billsScheduledByDay": [
+            {
+                "day": "01/30/2023",
+                "bills": [
+                    "HB 2"
+                ]
+            },
+            {
+                "day": "01/31/2023",
+                "bills": [
+                    "HB 2"
+                ]
+            },
+            {
+                "day": "02/01/2023",
+                "bills": [
+                    "HB 2"
+                ]
+            }
+        ],
+        "billsAwaitingVote": [
+            "HB 2"
+        ],
+        "billsFailed": [],
+        "billsAdvanced": [],
+        "billsBlasted": [],
+        "members": [
+            {
+                "name": "Jerry Schillinger",
+                "party": "R",
+                "locale": "Circle",
+                "role": "Chair"
+            },
+            {
+                "name": "Jeff Welborn",
+                "party": "R",
+                "locale": "Dillon",
+                "role": "Vice Chair"
+            },
+            {
+                "name": "Lyn Hellegaard",
+                "party": "R",
+                "locale": "Missoula",
+                "role": "Member"
+            },
+            {
+                "name": "Joe Read",
+                "party": "R",
+                "locale": "Ronan",
+                "role": "Member"
+            },
+            {
+                "name": "Kenneth Bogner",
+                "party": "R",
+                "locale": "Miles City",
+                "role": "Member"
+            },
+            {
+                "name": "Sharon Stewart Peregoy",
+                "party": "D",
+                "locale": "Crow Agency",
+                "role": "Member"
+            },
+            {
+                "name": "Janet Ellis",
+                "party": "D",
+                "locale": "Helena",
+                "role": "Member"
+            }
+        ]
+    },
+    {
+        "name": "Joint Appropriations Section D — Judicial Branch, Law Enforcement, and Justice",
+        "key": "joint-appropriations-section-d-—-judicial-branch-law-enforcement-and-justice",
+        "time": "morning",
+        "type": "fiscal-sub",
+        "bills": [
+            "HB 2"
+        ],
+        "billCount": 1,
+        "billsUnscheduled": [],
+        "billsScheduledByDay": [
+            {
+                "day": "01/27/2023",
+                "bills": [
+                    "HB 2"
+                ]
+            },
+            {
+                "day": "01/31/2023",
+                "bills": [
+                    "HB 2"
+                ]
+            },
+            {
+                "day": "02/01/2023",
+                "bills": [
+                    "HB 2"
+                ]
+            },
+            {
+                "day": "02/02/2023",
+                "bills": [
+                    "HB 2"
+                ]
+            }
+        ],
+        "billsAwaitingVote": [
+            "HB 2"
+        ],
+        "billsFailed": [],
+        "billsAdvanced": [],
+        "billsBlasted": [],
+        "members": [
+            {
+                "name": "Bill Mercer",
+                "party": "R",
+                "locale": "Billings",
+                "role": "Chair"
+            },
+            {
+                "name": "Tom McGillvray",
+                "party": "R",
+                "locale": "Billings",
+                "role": "Vice Chair"
+            },
+            {
+                "name": "Michele Binkley",
+                "party": "R",
+                "locale": "Hamilton",
+                "role": "Member"
+            },
+            {
+                "name": "Fiona Nave",
+                "party": "R",
+                "locale": "Columbus",
+                "role": "Member"
+            },
+            {
+                "name": "Shelley Vance",
+                "party": "R",
+                "locale": "Belgrade",
+                "role": "Member"
+            },
+            {
+                "name": "Emma Kerr-Carpenter",
+                "party": "D",
+                "locale": "Billings",
+                "role": "Member"
+            },
+            {
+                "name": "Ryan Lynch",
+                "party": "D",
+                "locale": "Butte",
+                "role": "Member"
+            }
+        ]
+    },
+    {
+        "name": "Joint Appropriations Section E — Education",
+        "key": "joint-appropriations-section-e-—-education",
+        "time": "morning",
+        "type": "fiscal-sub",
+        "bills": [
+            "HB 2"
+        ],
+        "billCount": 1,
+        "billsUnscheduled": [],
+        "billsScheduledByDay": [
+            {
+                "day": "01/31/2023",
+                "bills": [
+                    "HB 2"
+                ]
+            },
+            {
+                "day": "02/01/2023",
+                "bills": [
+                    "HB 2"
+                ]
+            },
+            {
+                "day": "02/02/2023",
+                "bills": [
+                    "HB 2"
+                ]
+            }
+        ],
+        "billsAwaitingVote": [
+            "HB 2"
+        ],
+        "billsFailed": [],
+        "billsAdvanced": [],
+        "billsBlasted": [],
+        "members": [
+            {
+                "name": "David Bedey",
+                "party": "R",
+                "locale": "Hamilton",
+                "role": "Chair"
+            },
+            {
+                "name": "Dan Salomon",
+                "party": "R",
+                "locale": "Ronan",
+                "role": "Vice Chair"
+            },
+            {
+                "name": "Llew Jones",
+                "party": "R",
+                "locale": "Conrad",
+                "role": "Member"
+            },
+            {
+                "name": "John Esp",
+                "party": "R",
+                "locale": "Big Timber",
+                "role": "Member"
+            },
+            {
+                "name": "John Fuller",
+                "party": "R",
+                "locale": "Kalispell",
+                "role": "Member"
+            },
+            {
+                "name": "Connie Keogh",
+                "party": "D",
+                "locale": "Missoula",
+                "role": "Member"
+            },
+            {
+                "name": "Jonathan Windy Boy",
+                "party": "D",
+                "locale": "Box Elder",
+                "role": "Member"
+            },
+            {
+                "name": "Shane Morigeau",
+                "party": "D",
+                "locale": "Missoula",
+                "role": "Member"
+            }
+        ]
+    },
+    {
+        "name": "Joint Appropriations Section F — Long-Range Planning",
+        "key": "joint-appropriations-section-f-—-long-range-planning",
+        "time": "morning",
+        "type": "fiscal-sub",
+        "bills": [
+            "HB 5",
+            "HB 6",
+            "HB 7",
+            "HB 8",
+            "HB 9",
+            "HB 11",
+            "HB 12"
+        ],
+        "billCount": 7,
+        "billsUnscheduled": [],
+        "billsScheduledByDay": [],
+        "billsAwaitingVote": [
+            "HB 5",
+            "HB 6",
+            "HB 7",
+            "HB 8",
+            "HB 9",
+            "HB 11",
+            "HB 12"
+        ],
+        "billsFailed": [],
+        "billsAdvanced": [],
+        "billsBlasted": [],
+        "members": [
+            {
+                "name": "Mike Hopkins",
+                "party": "R",
+                "locale": "Missoula",
+                "role": "Chair"
+            },
+            {
+                "name": "Mike Cuffe",
+                "party": "R",
+                "locale": "Eureka",
+                "role": "Vice Chair"
+            },
+            {
+                "name": "John Fitzpatrick",
+                "party": "R",
+                "locale": "Anaconda",
+                "role": "Member"
+            },
+            {
+                "name": "Matt Regier",
+                "party": "R",
+                "locale": "Kalispell",
+                "role": "Member"
+            },
+            {
+                "name": "Mike Lang",
+                "party": "R",
+                "locale": "Malta",
+                "role": "Member"
+            },
+            {
+                "name": "Paul Tuss",
+                "party": "D",
+                "locale": "Havre",
                 "role": "Member"
             }
         ]

@@ -67,7 +67,12 @@ const houseFloorVoteAnalysis = new VotingAnalysis({ votes: houseFloorVotes })
 const senateFloorVoteAnalysis = new VotingAnalysis({ votes: senateFloorVotes })
 
 const committees = COMMITTEES
-    .filter(d => !['conference', 'select', 'procedural', 'fiscal-sub'].includes(d.type))
+    .filter(d => ![
+        'conference',
+        'select',
+        'procedural',
+        // 'fiscal-sub'
+    ].includes(d.type))
     .map(schema => new Committee({
         schema,
         billActions: actions.filter(a => a.committee === schema.name),

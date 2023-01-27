@@ -90,7 +90,7 @@ export const COMMITTEES = [
 
 
     // SENATE
-    { name: 'Senate Finance and Claims', daysOfWeek: 'daily', time: 'morning', type: 'fiscal', },
+    { name: 'Senate Finance and Claims', daysOfWeek: 'daily', time: 'varies', type: 'fiscal', },
 
     { name: 'Senate Judiciary', daysOfWeek: 'daily', time: 'morning', type: 'policy', },
     { name: 'Senate Business, Labor, and Economic Affairs', daysOfWeek: 'daily', time: 'morning', type: 'policy', },
