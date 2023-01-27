@@ -41470,10 +41470,10 @@
                 "title": "Allow for certain exceptions related to bottle clubs",
                 "chamber": "senate",
                 "status": {
-                    "key": "In First House Committee--Nontabled",
+                    "key": "In First House Committee--Tabled",
                     "step": "First chamber",
-                    "label": "In committee",
-                    "status": "live",
+                    "label": "Tabled in committee",
+                    "status": "stalled",
                     "statusAtSessionEnd": "failed"
                 },
                 "progress": [
@@ -41485,9 +41485,9 @@
                     },
                     {
                         "step": "first committee",
-                        "status": "current",
-                        "statusLabel": "Pending",
-                        "statusDate": null
+                        "status": "blocked",
+                        "statusLabel": "Tabled",
+                        "statusDate": "01/27/2023"
                     },
                     {
                         "step": "first chamber",
@@ -41793,6 +41793,68 @@
                     }
                 ],
                 "textUrl": "http://leg.mt.gov/bills/2023/billpdf/SB0038.pdf",
+                "fiscalNoteUrl": null,
+                "legalNoteUrl": null,
+                "numArticles": 0,
+                "sponsor": {
+                    "name": "Bob Brown",
+                    "lastName": "Brown",
+                    "party": "R",
+                    "locale": "Thompson Falls",
+                    "district": "SD 7"
+                }
+            },
+            {
+                "key": "sb-84",
+                "identifier": "SB 84",
+                "title": "Revise laws related to hunting and aircraft use",
+                "chamber": "senate",
+                "status": {
+                    "key": "In First House--Through 2nd Reading",
+                    "step": "First chamber",
+                    "label": "Passed second reading vote",
+                    "status": "live",
+                    "statusAtSessionEnd": "failed"
+                },
+                "progress": [
+                    {
+                        "step": "introduced",
+                        "status": "passed",
+                        "statusLabel": "Introduced",
+                        "statusDate": "12/15/2022"
+                    },
+                    {
+                        "step": "first committee",
+                        "status": "passed",
+                        "statusLabel": "Advanced",
+                        "statusDate": "01/20/2023"
+                    },
+                    {
+                        "step": "first chamber",
+                        "status": "current",
+                        "statusLabel": "Passed preliminary floor vote",
+                        "statusDate": "01/26/2023"
+                    },
+                    {
+                        "step": "second chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "reconciliation",
+                        "status": "skipped",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "governor",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    }
+                ],
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/SB0084.pdf",
                 "fiscalNoteUrl": null,
                 "legalNoteUrl": null,
                 "numArticles": 0,
@@ -46925,132 +46987,7 @@
         ],
         "lawmakerPageText": null,
         "imageSlug": "2023/pat-flowers.png",
-        "sponsoredBills": [
-            {
-                "key": "sb-84",
-                "identifier": "SB 84",
-                "title": "Revise laws related to hunting and aircraft use",
-                "chamber": "senate",
-                "status": {
-                    "key": "In First House--Through 2nd Reading",
-                    "step": "First chamber",
-                    "label": "Passed second reading vote",
-                    "status": "live",
-                    "statusAtSessionEnd": "failed"
-                },
-                "progress": [
-                    {
-                        "step": "introduced",
-                        "status": "passed",
-                        "statusLabel": "Introduced",
-                        "statusDate": "12/15/2022"
-                    },
-                    {
-                        "step": "first committee",
-                        "status": "passed",
-                        "statusLabel": "Advanced",
-                        "statusDate": "01/20/2023"
-                    },
-                    {
-                        "step": "first chamber",
-                        "status": "current",
-                        "statusLabel": "Passed preliminary floor vote",
-                        "statusDate": "01/26/2023"
-                    },
-                    {
-                        "step": "second chamber",
-                        "status": "future",
-                        "statusLabel": null,
-                        "statusDate": null
-                    },
-                    {
-                        "step": "reconciliation",
-                        "status": "skipped",
-                        "statusLabel": null,
-                        "statusDate": null
-                    },
-                    {
-                        "step": "governor",
-                        "status": "future",
-                        "statusLabel": null,
-                        "statusDate": null
-                    }
-                ],
-                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/SB0084.pdf",
-                "fiscalNoteUrl": null,
-                "legalNoteUrl": null,
-                "numArticles": 0,
-                "sponsor": {
-                    "name": "Pat Flowers",
-                    "lastName": "Flowers",
-                    "party": "D",
-                    "locale": "Belgrade",
-                    "district": "SD 32"
-                }
-            },
-            {
-                "key": "sb-85",
-                "identifier": "SB 85",
-                "title": "Require management of delisted grizzly bears at sustainable levels",
-                "chamber": "senate",
-                "status": {
-                    "key": "In First House--Through 2nd Reading",
-                    "step": "First chamber",
-                    "label": "Passed second reading vote",
-                    "status": "live",
-                    "statusAtSessionEnd": "failed"
-                },
-                "progress": [
-                    {
-                        "step": "introduced",
-                        "status": "passed",
-                        "statusLabel": "Introduced",
-                        "statusDate": "12/15/2022"
-                    },
-                    {
-                        "step": "first committee",
-                        "status": "passed",
-                        "statusLabel": "Advanced",
-                        "statusDate": "01/20/2023"
-                    },
-                    {
-                        "step": "first chamber",
-                        "status": "current",
-                        "statusLabel": "Passed preliminary floor vote",
-                        "statusDate": "01/26/2023"
-                    },
-                    {
-                        "step": "second chamber",
-                        "status": "future",
-                        "statusLabel": null,
-                        "statusDate": null
-                    },
-                    {
-                        "step": "reconciliation",
-                        "status": "skipped",
-                        "statusLabel": null,
-                        "statusDate": null
-                    },
-                    {
-                        "step": "governor",
-                        "status": "future",
-                        "statusLabel": null,
-                        "statusDate": null
-                    }
-                ],
-                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/SB0085.pdf",
-                "fiscalNoteUrl": null,
-                "legalNoteUrl": null,
-                "numArticles": 0,
-                "sponsor": {
-                    "name": "Pat Flowers",
-                    "lastName": "Flowers",
-                    "party": "D",
-                    "locale": "Belgrade",
-                    "district": "SD 32"
-                }
-            }
-        ],
+        "sponsoredBills": [],
         "votingSummary": {
             "name": "Pat Flowers",
             "party": "D",
@@ -50270,9 +50207,9 @@
                 "title": "Revise centrally assessed property appraisals",
                 "chamber": "senate",
                 "status": {
-                    "key": "In First House Committee--Nontabled",
+                    "key": "In First House--Out of Committee",
                     "step": "First chamber",
-                    "label": "In committee",
+                    "label": "Out of committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -52445,6 +52382,68 @@
                 }
             },
             {
+                "key": "sb-85",
+                "identifier": "SB 85",
+                "title": "Require management of delisted grizzly bears at sustainable levels",
+                "chamber": "senate",
+                "status": {
+                    "key": "In First House--Through 2nd Reading",
+                    "step": "First chamber",
+                    "label": "Passed second reading vote",
+                    "status": "live",
+                    "statusAtSessionEnd": "failed"
+                },
+                "progress": [
+                    {
+                        "step": "introduced",
+                        "status": "passed",
+                        "statusLabel": "Introduced",
+                        "statusDate": "12/15/2022"
+                    },
+                    {
+                        "step": "first committee",
+                        "status": "passed",
+                        "statusLabel": "Advanced",
+                        "statusDate": "01/20/2023"
+                    },
+                    {
+                        "step": "first chamber",
+                        "status": "current",
+                        "statusLabel": "Passed preliminary floor vote",
+                        "statusDate": "01/26/2023"
+                    },
+                    {
+                        "step": "second chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "reconciliation",
+                        "status": "skipped",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "governor",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    }
+                ],
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/SB0085.pdf",
+                "fiscalNoteUrl": null,
+                "legalNoteUrl": null,
+                "numArticles": 0,
+                "sponsor": {
+                    "name": "Mike Lang",
+                    "lastName": "Lang",
+                    "party": "R",
+                    "locale": "Malta",
+                    "district": "SD 17"
+                }
+            },
+            {
                 "key": "sr-26",
                 "identifier": "SR 26",
                 "title": "Confirm governor's appointees for the board of veterinary medicine",
@@ -52538,9 +52537,9 @@
                 "title": "Confirm governor's appointee for director of department of agriculture",
                 "chamber": "senate",
                 "status": {
-                    "key": "In First House Committee--Nontabled",
+                    "key": "In First House--Out of Committee",
                     "step": "First chamber",
-                    "label": "In committee",
+                    "label": "Out of committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -54574,9 +54573,9 @@
                 "title": "Create pretrial diversion pilot program",
                 "chamber": "senate",
                 "status": {
-                    "key": "In First House Committee--Nontabled",
+                    "key": "In First House--Out of Committee",
                     "step": "First chamber",
-                    "label": "In committee",
+                    "label": "Out of committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -58914,10 +58913,10 @@
                 "title": "Revise board of investment laws",
                 "chamber": "senate",
                 "status": {
-                    "key": "In First House Committee--Nontabled",
+                    "key": "In First House Committee--Tabled",
                     "step": "First chamber",
-                    "label": "In committee",
-                    "status": "live",
+                    "label": "Tabled in committee",
+                    "status": "stalled",
                     "statusAtSessionEnd": "failed"
                 },
                 "progress": [
@@ -58929,9 +58928,9 @@
                     },
                     {
                         "step": "first committee",
-                        "status": "current",
-                        "statusLabel": "Pending",
-                        "statusDate": null
+                        "status": "blocked",
+                        "statusLabel": "Tabled",
+                        "statusDate": "01/27/2023"
                     },
                     {
                         "step": "first chamber",
