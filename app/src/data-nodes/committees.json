@@ -25,6 +25,7 @@
             "HB 28",
             "HB 29",
             "HB 36",
+            "HB 37",
             "HB 38",
             "HB 53",
             "HB 60",
@@ -38,6 +39,7 @@
             "HB 141",
             "HB 147",
             "HB 163",
+            "HB 171",
             "HB 175",
             "HB 185",
             "HB 188",
@@ -54,7 +56,7 @@
             "HB 274",
             "HB 292"
         ],
-        "billCount": 48,
+        "billCount": 50,
         "billsUnscheduled": [
             "HB 2",
             "HB 5",
@@ -66,28 +68,13 @@
             "HB 11",
             "HB 12",
             "HB 16",
-            "HB 20",
-            "HB 163",
-            "HB 245",
-            "HB 251"
+            "HB 171"
         ],
         "billsScheduledByDay": [
             {
-                "day": "01/25/2023",
+                "day": "01/30/2023",
                 "bills": [
-                    "HB 79",
-                    "HB 82",
-                    "HB 188",
-                    "HB 221",
-                    "HB 270"
-                ]
-            },
-            {
-                "day": "01/26/2023",
-                "bills": [
-                    "HB 29",
-                    "HB 119",
-                    "HB 292"
+                    "HB 37"
                 ]
             }
         ],
@@ -95,33 +82,45 @@
             "HB 3",
             "HB 4",
             "HB 13",
-            "HB 19",
-            "HB 38",
-            "HB 91",
+            "HB 29",
+            "HB 82",
             "HB 114",
+            "HB 119",
             "HB 147",
             "HB 192",
             "HB 212",
+            "HB 221",
             "HB 222",
+            "HB 245",
+            "HB 251",
             "HB 258",
             "HB 267",
-            "HB 274"
+            "HB 292"
         ],
         "billsFailed": [
-            "HB 36"
+            "HB 20",
+            "HB 36",
+            "HB 270"
         ],
         "billsAdvanced": [
             "HB 1",
             "HB 15",
+            "HB 19",
             "HB 28",
+            "HB 38",
             "HB 53",
             "HB 60",
+            "HB 79",
             "HB 81",
+            "HB 91",
             "HB 117",
             "HB 141",
+            "HB 163",
             "HB 175",
             "HB 185",
-            "HB 244"
+            "HB 188",
+            "HB 244",
+            "HB 274"
         ],
         "billsBlasted": [],
         "members": [
@@ -315,40 +314,40 @@
             "HB 303",
             "HB 308",
             "HB 315",
+            "HB 322",
+            "HB 326",
+            "HB 330",
+            "HB 340",
             "HJ 1",
             "SB 7",
             "SB 91"
         ],
-        "billCount": 47,
+        "billCount": 51,
         "billsUnscheduled": [
             "HB 38",
             "HB 197",
             "HB 216",
             "HB 296",
             "HB 303",
-            "HB 315"
+            "HB 322",
+            "HB 326",
+            "HB 330",
+            "HB 340"
         ],
         "billsScheduledByDay": [
-            {
-                "day": "01/26/2023",
-                "bills": [
-                    "SB 7",
-                    "SB 91"
-                ]
-            },
             {
                 "day": "01/27/2023",
                 "bills": [
                     "HB 301",
-                    "HB 308"
+                    "HB 308",
+                    "HB 315"
                 ]
             }
         ],
         "billsAwaitingVote": [
             "HB 234",
-            "HB 272",
-            "HB 282",
-            "HB 283"
+            "SB 7",
+            "SB 91"
         ],
         "billsFailed": [
             "HB 57",
@@ -386,6 +385,9 @@
             "HB 239",
             "HB 255",
             "HB 266",
+            "HB 272",
+            "HB 282",
+            "HB 283",
             "HJ 1"
         ],
         "billsBlasted": [],
@@ -465,7 +467,7 @@
             {
                 "name": "Lola Sheldon-Galloway",
                 "party": "R",
-                "locale": "Billings",
+                "locale": "Great Falls",
                 "role": "Member"
             },
             {
@@ -567,37 +569,24 @@
             "HB 279",
             "HB 293",
             "HB 297",
+            "HB 300",
             "HB 304",
             "HB 305",
+            "HB 313",
             "SB 20",
             "SB 35",
             "SB 80",
             "SB 102"
         ],
-        "billCount": 61,
+        "billCount": 63,
         "billsUnscheduled": [
             "HB 128",
             "HB 201",
-            "HB 293"
+            "HB 293",
+            "HB 300",
+            "HB 313"
         ],
         "billsScheduledByDay": [
-            {
-                "day": "01/25/2023",
-                "bills": [
-                    "SB 35",
-                    "SB 80",
-                    "SB 102"
-                ]
-            },
-            {
-                "day": "01/26/2023",
-                "bills": [
-                    "HB 263",
-                    "HB 273",
-                    "HB 305",
-                    "SB 20"
-                ]
-            },
             {
                 "day": "01/27/2023",
                 "bills": [
@@ -622,14 +611,16 @@
         "billsAwaitingVote": [
             "HB 87",
             "HB 97",
-            "HB 115",
             "HB 152",
-            "HB 156",
             "HB 177",
             "HB 242",
             "HB 250",
-            "HB 254",
-            "HB 279"
+            "HB 263",
+            "HB 273",
+            "HB 279",
+            "HB 305",
+            "SB 20",
+            "SB 102"
         ],
         "billsFailed": [
             "HB 127",
@@ -653,6 +644,7 @@
             "HB 95",
             "HB 96",
             "HB 98",
+            "HB 115",
             "HB 120",
             "HB 123",
             "HB 138",
@@ -661,6 +653,7 @@
             "HB 144",
             "HB 145",
             "HB 155",
+            "HB 156",
             "HB 157",
             "HB 160",
             "HB 164",
@@ -669,7 +662,10 @@
             "HB 178",
             "HB 182",
             "HB 209",
-            "HB 247"
+            "HB 247",
+            "HB 254",
+            "SB 35",
+            "SB 80"
         ],
         "billsBlasted": [],
         "members": [
@@ -700,7 +696,7 @@
             {
                 "name": "Ross Fitzgerald",
                 "party": "R",
-                "locale": "Power",
+                "locale": "Fairfield",
                 "role": "Member"
             },
             {
@@ -822,10 +818,12 @@
             "HB 294",
             "HB 307",
             "HB 318",
+            "HB 321",
+            "HB 325",
             "HJ 2",
             "SB 62"
         ],
-        "billCount": 29,
+        "billCount": 31,
         "billsUnscheduled": [
             "HB 235",
             "HB 258",
@@ -834,23 +832,16 @@
             "HB 294",
             "HB 307",
             "HB 318",
+            "HB 321",
+            "HB 325",
             "HJ 2"
         ],
-        "billsScheduledByDay": [
-            {
-                "day": "01/26/2023",
-                "bills": [
-                    "HB 268"
-                ]
-            }
-        ],
+        "billsScheduledByDay": [],
         "billsAwaitingVote": [
             "HB 118",
-            "HB 219",
-            "HB 225",
             "HB 249",
             "HB 253",
-            "SB 62"
+            "HB 268"
         ],
         "billsFailed": [
             "HB 23"
@@ -864,11 +855,14 @@
             "HB 188",
             "HB 189",
             "HB 212",
+            "HB 219",
             "HB 221",
             "HB 222",
             "HB 223",
+            "HB 225",
             "HB 245",
-            "HB 251"
+            "HB 251",
+            "SB 62"
         ],
         "billsBlasted": [],
         "members": [
@@ -1053,32 +1047,23 @@
             "HB 314",
             "HB 316",
             "HB 319",
+            "HB 329",
+            "HB 335",
+            "HB 341",
             "SB 18",
             "SB 40",
             "SJ 4",
             "SJ 8"
         ],
-        "billCount": 51,
+        "billCount": 54,
         "billsUnscheduled": [
             "HB 126",
-            "HB 264",
-            "HB 298",
-            "HB 306",
-            "HB 309",
-            "HB 314",
-            "HB 316",
             "HB 319",
+            "HB 335",
+            "HB 341",
             "SJ 8"
         ],
         "billsScheduledByDay": [
-            {
-                "day": "01/25/2023",
-                "bills": [
-                    "SB 18",
-                    "SB 40",
-                    "SJ 4"
-                ]
-            },
             {
                 "day": "01/30/2023",
                 "bills": [
@@ -1091,23 +1076,37 @@
                 "day": "01/31/2023",
                 "bills": [
                     "HB 208",
-                    "HB 281"
+                    "HB 264",
+                    "HB 281",
+                    "HB 306"
+                ]
+            },
+            {
+                "day": "02/01/2023",
+                "bills": [
+                    "HB 298",
+                    "HB 329"
+                ]
+            },
+            {
+                "day": "02/02/2023",
+                "bills": [
+                    "HB 309",
+                    "HB 314",
+                    "HB 316"
                 ]
             }
         ],
         "billsAwaitingVote": [
-            "HB 173",
-            "HB 180",
-            "HB 186",
-            "HB 190",
             "HB 196",
-            "HB 206",
             "HB 216",
             "HB 226",
             "HB 232"
         ],
         "billsFailed": [
-            "HB 103"
+            "HB 103",
+            "HB 190",
+            "HB 206"
         ],
         "billsAdvanced": [
             "HB 47",
@@ -1132,15 +1131,22 @@
             "HB 148",
             "HB 151",
             "HB 172",
+            "HB 173",
+            "HB 180",
+            "HB 186",
             "HB 199",
-            "HB 210"
+            "HB 210",
+            "SB 18",
+            "SB 40",
+            "SJ 4",
+            "SJ 8"
         ],
         "billsBlasted": [],
         "members": [
             {
                 "name": "Julie Dooling",
                 "party": "R",
-                "locale": "Townsend",
+                "locale": "Helena",
                 "role": "Chair"
             },
             {
@@ -1152,7 +1158,7 @@
             {
                 "name": "Marta Bertoglio",
                 "party": "R",
-                "locale": "Clancy",
+                "locale": "Montana City",
                 "role": "Member"
             },
             {
@@ -1296,33 +1302,23 @@
             "HB 312",
             "HB 313",
             "HB 317",
+            "HB 336",
             "SB 6",
             "SB 34",
             "SB 45",
             "SB 87"
         ],
-        "billCount": 35,
+        "billCount": 36,
         "billsUnscheduled": [
             "HB 264",
+            "HB 300",
             "HB 311",
             "HB 313",
-            "HB 317"
+            "HB 317",
+            "HB 336",
+            "SB 87"
         ],
         "billsScheduledByDay": [
-            {
-                "day": "01/25/2023",
-                "bills": [
-                    "HB 45",
-                    "HB 252"
-                ]
-            },
-            {
-                "day": "01/26/2023",
-                "bills": [
-                    "HB 265",
-                    "HB 286"
-                ]
-            },
             {
                 "day": "01/27/2023",
                 "bills": [
@@ -1333,26 +1329,24 @@
             {
                 "day": "01/30/2023",
                 "bills": [
-                    "HB 300",
-                    "HB 312",
-                    "SB 87"
+                    "HB 312"
                 ]
             }
         ],
         "billsAwaitingVote": [
             "HB 17",
+            "HB 45",
             "HB 218",
             "HB 238",
-            "HB 248",
-            "SB 6",
-            "SB 34",
-            "SB 45"
+            "HB 252",
+            "HB 265"
         ],
         "billsFailed": [
             "HB 64",
             "HB 195",
             "HB 207",
-            "HB 230"
+            "HB 230",
+            "HB 248"
         ],
         "billsAdvanced": [
             "HB 29",
@@ -1365,7 +1359,11 @@
             "HB 147",
             "HB 194",
             "HB 200",
-            "HB 227"
+            "HB 227",
+            "HB 286",
+            "SB 6",
+            "SB 34",
+            "SB 45"
         ],
         "billsBlasted": [],
         "members": [
@@ -1378,7 +1376,7 @@
             {
                 "name": "Lola Sheldon-Galloway",
                 "party": "R",
-                "locale": "Billings",
+                "locale": "Great Falls",
                 "role": "Vice Chair"
             },
             {
@@ -1512,22 +1510,21 @@
             "HB 130",
             "HB 141",
             "HB 185",
-            "HB 289"
+            "HB 289",
+            "HB 342",
+            "HJ 4"
         ],
-        "billCount": 10,
+        "billCount": 12,
         "billsUnscheduled": [
             "HB 130",
-            "HB 185"
+            "HB 185",
+            "HB 342",
+            "HJ 4"
         ],
-        "billsScheduledByDay": [
-            {
-                "day": "01/25/2023",
-                "bills": [
-                    "HB 289"
-                ]
-            }
+        "billsScheduledByDay": [],
+        "billsAwaitingVote": [
+            "HB 289"
         ],
-        "billsAwaitingVote": [],
         "billsFailed": [],
         "billsAdvanced": [
             "HB 34",
@@ -1555,7 +1552,7 @@
             {
                 "name": "Ross Fitzgerald",
                 "party": "R",
-                "locale": "Power",
+                "locale": "Fairfield",
                 "role": "Member"
             },
             {
@@ -1651,17 +1648,21 @@
             "HB 184",
             "HB 224",
             "HB 261",
-            "HB 320"
+            "HB 320",
+            "HB 327",
+            "HB 339"
         ],
-        "billCount": 14,
+        "billCount": 16,
         "billsUnscheduled": [
-            "HB 320"
+            "HB 339"
         ],
         "billsScheduledByDay": [
             {
                 "day": "01/30/2023",
                 "bills": [
-                    "HB 55"
+                    "HB 55",
+                    "HB 320",
+                    "HB 327"
                 ]
             }
         ],
@@ -1711,7 +1712,7 @@
             {
                 "name": "Julie Dooling",
                 "party": "R",
-                "locale": "Townsend",
+                "locale": "Helena",
                 "role": "Member"
             },
             {
@@ -1802,12 +1803,18 @@
             "HB 259",
             "HB 287",
             "HB 288",
+            "HB 332",
+            "HB 334",
+            "HB 338",
             "SB 1",
             "SB 10",
             "SB 69"
         ],
-        "billCount": 17,
+        "billCount": 20,
         "billsUnscheduled": [
+            "HB 332",
+            "HB 334",
+            "HB 338",
             "SB 1",
             "SB 10",
             "SB 69"
@@ -1822,8 +1829,6 @@
             }
         ],
         "billsAwaitingVote": [
-            "HB 214",
-            "HB 231",
             "HB 257",
             "HB 259"
         ],
@@ -1836,6 +1841,8 @@
             "HB 171",
             "HB 181",
             "HB 203",
+            "HB 214",
+            "HB 231",
             "HB 240"
         ],
         "billsBlasted": [],
@@ -1861,7 +1868,7 @@
             {
                 "name": "Marta Bertoglio",
                 "party": "R",
-                "locale": "Clancy",
+                "locale": "Montana City",
                 "role": "Member"
             },
             {
@@ -1942,21 +1949,25 @@
             "HJ 3"
         ],
         "billCount": 8,
-        "billsUnscheduled": [
-            "HB 220",
-            "HJ 3"
-        ],
+        "billsUnscheduled": [],
         "billsScheduledByDay": [
             {
-                "day": "01/25/2023",
+                "day": "01/30/2023",
                 "bills": [
-                    "HB 284"
+                    "HJ 3"
+                ]
+            },
+            {
+                "day": "02/01/2023",
+                "bills": [
+                    "HB 220"
                 ]
             }
         ],
         "billsAwaitingVote": [
             "HB 191",
-            "HB 278"
+            "HB 278",
+            "HB 284"
         ],
         "billsFailed": [],
         "billsAdvanced": [
@@ -2135,7 +2146,7 @@
             {
                 "name": "Julie Dooling",
                 "party": "R",
-                "locale": "Townsend",
+                "locale": "Helena",
                 "role": "Member"
             },
             {
@@ -2235,15 +2246,17 @@
             "HB 162",
             "HB 217",
             "HB 243",
-            "HB 290"
+            "HB 290",
+            "HB 331",
+            "HB 333"
         ],
-        "billCount": 12,
-        "billsUnscheduled": [],
+        "billCount": 14,
+        "billsUnscheduled": [
+            "HB 331",
+            "HB 333"
+        ],
         "billsScheduledByDay": [],
-        "billsAwaitingVote": [
-            "HB 243",
-            "HB 290"
-        ],
+        "billsAwaitingVote": [],
         "billsFailed": [],
         "billsAdvanced": [
             "HB 42",
@@ -2255,14 +2268,16 @@
             "HB 133",
             "HB 146",
             "HB 162",
-            "HB 217"
+            "HB 217",
+            "HB 243",
+            "HB 290"
         ],
         "billsBlasted": [],
         "members": [
             {
                 "name": "Ross Fitzgerald",
                 "party": "R",
-                "locale": "Power",
+                "locale": "Fairfield",
                 "role": "Chair"
             },
             {
@@ -2403,21 +2418,22 @@
             "HB 291",
             "HB 295",
             "HB 299",
+            "HB 323",
+            "HB 324",
+            "HB 328",
+            "HB 337",
             "SB 5",
             "SB 98",
             "SB 103"
         ],
-        "billCount": 19,
-        "billsUnscheduled": [],
+        "billCount": 23,
+        "billsUnscheduled": [
+            "HB 323",
+            "HB 324",
+            "HB 328",
+            "HB 337"
+        ],
         "billsScheduledByDay": [
-            {
-                "day": "01/26/2023",
-                "bills": [
-                    "HB 246",
-                    "SB 5",
-                    "SB 98"
-                ]
-            },
             {
                 "day": "01/31/2023",
                 "bills": [
@@ -2436,7 +2452,10 @@
         ],
         "billsAwaitingVote": [
             "HB 187",
-            "HB 241"
+            "HB 241",
+            "HB 246",
+            "SB 5",
+            "SB 98"
         ],
         "billsFailed": [],
         "billsAdvanced": [
@@ -2461,7 +2480,7 @@
             {
                 "name": "Marta Bertoglio",
                 "party": "R",
-                "locale": "Clancy",
+                "locale": "Montana City",
                 "role": "Vice Chair"
             },
             {
@@ -2565,10 +2584,15 @@
             "HB 271"
         ],
         "billCount": 7,
-        "billsUnscheduled": [
-            "HB 271"
+        "billsUnscheduled": [],
+        "billsScheduledByDay": [
+            {
+                "day": "02/02/2023",
+                "bills": [
+                    "HB 271"
+                ]
+            }
         ],
-        "billsScheduledByDay": [],
         "billsAwaitingVote": [],
         "billsFailed": [],
         "billsAdvanced": [
@@ -2608,7 +2632,7 @@
             {
                 "name": "Ross Fitzgerald",
                 "party": "R",
-                "locale": "Power",
+                "locale": "Fairfield",
                 "role": "Member"
             },
             {
@@ -2786,7 +2810,7 @@
             {
                 "name": "Lola Sheldon-Galloway",
                 "party": "R",
-                "locale": "Billings",
+                "locale": "Great Falls",
                 "role": "Member"
             },
             {
@@ -2841,6 +2865,7 @@
         "bills": [
             "HB 1",
             "HB 175",
+            "HB 185",
             "SB 3",
             "SB 19",
             "SB 21",
@@ -2851,29 +2876,24 @@
             "SB 89",
             "SB 95",
             "SB 108",
+            "SB 121",
+            "SB 124",
             "SB 126",
             "SB 132"
         ],
-        "billCount": 14,
+        "billCount": 17,
         "billsUnscheduled": [
-            "HB 175"
+            "HB 175",
+            "HB 185",
+            "SB 121",
+            "SB 124"
         ],
-        "billsScheduledByDay": [
-            {
-                "day": "01/26/2023",
-                "bills": [
-                    "SB 19",
-                    "SB 54",
-                    "SB 89",
-                    "SB 108",
-                    "SB 132"
-                ]
-            }
-        ],
+        "billsScheduledByDay": [],
         "billsAwaitingVote": [
-            "SB 70",
+            "SB 19",
             "SB 95",
-            "SB 126"
+            "SB 126",
+            "SB 132"
         ],
         "billsFailed": [],
         "billsAdvanced": [
@@ -2881,7 +2901,11 @@
             "SB 3",
             "SB 21",
             "SB 29",
-            "SB 58"
+            "SB 54",
+            "SB 58",
+            "SB 70",
+            "SB 89",
+            "SB 108"
         ],
         "billsBlasted": [],
         "members": [
@@ -3002,12 +3026,15 @@
         "type": "policy",
         "bills": [
             "HB 18",
+            "HB 38",
             "HB 77",
             "HB 78",
             "HB 83",
             "HB 92",
             "HB 111",
+            "HB 112",
             "HB 149",
+            "HB 161",
             "HB 169",
             "HB 183",
             "HB 205",
@@ -3053,6 +3080,10 @@
             "SB 204",
             "SB 210",
             "SB 216",
+            "SB 218",
+            "SB 224",
+            "SB 229",
+            "SB 230",
             "SJ 3",
             "SJ 5",
             "SR 6",
@@ -3061,32 +3092,20 @@
             "SR 9",
             "SR 10"
         ],
-        "billCount": 59,
+        "billCount": 66,
         "billsUnscheduled": [
+            "HB 38",
+            "HB 112",
+            "HB 161",
             "HB 205",
             "SB 127",
-            "SB 210",
-            "SB 216"
+            "SB 216",
+            "SB 218",
+            "SB 224",
+            "SB 229",
+            "SB 230"
         ],
         "billsScheduledByDay": [
-            {
-                "day": "01/25/2023",
-                "bills": [
-                    "HB 149",
-                    "SR 6",
-                    "SR 8",
-                    "SR 9",
-                    "SR 10"
-                ]
-            },
-            {
-                "day": "01/26/2023",
-                "bills": [
-                    "HB 83",
-                    "HB 111",
-                    "SB 201"
-                ]
-            },
             {
                 "day": "01/27/2023",
                 "bills": [
@@ -3103,6 +3122,12 @@
                 ]
             },
             {
+                "day": "02/01/2023",
+                "bills": [
+                    "SB 210"
+                ]
+            },
+            {
                 "day": "02/03/2023",
                 "bills": [
                     "SR 7"
@@ -3111,16 +3136,13 @@
         ],
         "billsAwaitingVote": [
             "SB 11",
-            "SB 47",
-            "SB 160",
             "SB 169",
-            "SB 171",
             "SB 172",
             "SB 182",
-            "SB 183",
-            "SB 184",
             "SB 187",
-            "SB 191"
+            "SB 201",
+            "SR 8",
+            "SR 10"
         ],
         "billsFailed": [
             "SB 2",
@@ -3132,6 +3154,9 @@
             "HB 18",
             "HB 77",
             "HB 78",
+            "HB 83",
+            "HB 111",
+            "HB 149",
             "HJ 1",
             "SB 6",
             "SB 7",
@@ -3139,6 +3164,7 @@
             "SB 13",
             "SB 19",
             "SB 38",
+            "SB 47",
             "SB 68",
             "SB 89",
             "SB 91",
@@ -3153,8 +3179,15 @@
             "SB 149",
             "SB 154",
             "SB 159",
+            "SB 160",
+            "SB 171",
+            "SB 183",
+            "SB 184",
+            "SB 191",
             "SJ 3",
-            "SJ 5"
+            "SJ 5",
+            "SR 6",
+            "SR 9"
         ],
         "billsBlasted": [],
         "members": [
@@ -3173,7 +3206,7 @@
             {
                 "name": "Bob Brown",
                 "party": "R",
-                "locale": "Trout Creek",
+                "locale": "Thompson Falls",
                 "role": "Member"
             },
             {
@@ -3242,7 +3275,6 @@
             "HB 69",
             "HB 70",
             "HB 71",
-            "HB 72",
             "HB 98",
             "HB 101",
             "HB 120",
@@ -3290,6 +3322,8 @@
             "SB 209",
             "SB 211",
             "SB 214",
+            "SB 216",
+            "SB 223",
             "SJ 2",
             "SR 29",
             "SR 30",
@@ -3304,9 +3338,8 @@
             "SR 42",
             "SR 43"
         ],
-        "billCount": 71,
+        "billCount": 72,
         "billsUnscheduled": [
-            "HB 72",
             "HB 101",
             "HB 155",
             "HB 178",
@@ -3317,6 +3350,8 @@
             "SB 209",
             "SB 211",
             "SB 214",
+            "SB 216",
+            "SB 223",
             "SR 29",
             "SR 30",
             "SR 35",
@@ -3325,25 +3360,6 @@
             "SR 43"
         ],
         "billsScheduledByDay": [
-            {
-                "day": "01/25/2023",
-                "bills": [
-                    "HB 142",
-                    "SB 161",
-                    "SB 177"
-                ]
-            },
-            {
-                "day": "01/26/2023",
-                "bills": [
-                    "SR 34",
-                    "SR 36",
-                    "SR 37",
-                    "SR 39",
-                    "SR 41",
-                    "SR 42"
-                ]
-            },
             {
                 "day": "01/27/2023",
                 "bills": [
@@ -3357,14 +3373,24 @@
         "billsAwaitingVote": [
             "HB 48",
             "HB 50",
+            "HB 142",
             "SB 22",
             "SB 90",
-            "SB 140",
             "SB 146",
+            "SB 161",
             "SB 168",
-            "SB 174"
+            "SB 174",
+            "SB 177",
+            "SR 34",
+            "SR 36",
+            "SR 37",
+            "SR 39",
+            "SR 41",
+            "SR 42"
         ],
-        "billsFailed": [],
+        "billsFailed": [
+            "SB 140"
+        ],
         "billsAdvanced": [
             "HB 30",
             "HB 43",
@@ -3459,7 +3485,7 @@
             {
                 "name": "Mike Fox",
                 "party": "D",
-                "locale": "Hays",
+                "locale": "Hayden",
                 "role": "Member"
             }
         ]
@@ -3519,21 +3545,21 @@
         ],
         "billsScheduledByDay": [],
         "billsAwaitingVote": [
-            "HB 24",
             "HB 25",
             "HB 56",
+            "SB 15",
+            "SB 110",
+            "SB 122",
+            "SB 145"
+        ],
+        "billsFailed": [
+            "SB 97"
+        ],
+        "billsAdvanced": [
+            "HB 24",
             "HB 58",
             "HB 121",
             "HB 124",
-            "SB 15",
-            "SB 97",
-            "SB 110",
-            "SB 122",
-            "SB 123",
-            "SB 145"
-        ],
-        "billsFailed": [],
-        "billsAdvanced": [
             "SB 3",
             "SB 16",
             "SB 20",
@@ -3548,6 +3574,7 @@
             "SB 81",
             "SB 119",
             "SB 121",
+            "SB 123",
             "SB 124"
         ],
         "billsBlasted": [],
@@ -3655,30 +3682,45 @@
         ],
         "billCount": 20,
         "billsUnscheduled": [
-            "HB 15",
             "SB 9",
-            "SB 141",
-            "SB 212",
-            "SB 213",
             "SR 31",
-            "SR 32",
             "SR 33",
             "SR 47"
         ],
         "billsScheduledByDay": [
             {
-                "day": "01/25/2023",
+                "day": "01/30/2023",
                 "bills": [
-                    "SJ 6"
+                    "HB 15"
+                ]
+            },
+            {
+                "day": "02/01/2023",
+                "bills": [
+                    "SB 212",
+                    "SB 213"
+                ]
+            },
+            {
+                "day": "02/08/2023",
+                "bills": [
+                    "SB 141"
+                ]
+            },
+            {
+                "day": "03/15/2023",
+                "bills": [
+                    "SR 32"
                 ]
             }
         ],
         "billsAwaitingVote": [
             "HB 21",
-            "HB 22"
+            "SJ 6"
         ],
         "billsFailed": [],
         "billsAdvanced": [
+            "HB 22",
             "HB 61",
             "SB 1",
             "SB 8",
@@ -3783,31 +3825,37 @@
             "SB 195",
             "SB 199",
             "SB 206",
-            "SB 215"
+            "SB 215",
+            "SB 220",
+            "SB 225",
+            "SB 226",
+            "SB 227"
         ],
-        "billCount": 20,
+        "billCount": 24,
         "billsUnscheduled": [
             "HB 35",
-            "SB 206",
-            "SB 215"
+            "SB 220",
+            "SB 225",
+            "SB 226",
+            "SB 227"
         ],
         "billsScheduledByDay": [
             {
-                "day": "01/25/2023",
+                "day": "01/30/2023",
                 "bills": [
-                    "HB 32",
-                    "HB 33",
-                    "SB 199"
+                    "SB 206",
+                    "SB 215"
                 ]
             }
         ],
         "billsAwaitingVote": [
-            "HB 67",
-            "SB 170",
-            "SB 195"
+            "HB 32",
+            "HB 33",
+            "SB 199"
         ],
         "billsFailed": [],
         "billsAdvanced": [
+            "HB 67",
             "HB 113",
             "SB 5",
             "SB 98",
@@ -3818,7 +3866,9 @@
             "SB 143",
             "SB 152",
             "SB 158",
-            "SB 173"
+            "SB 170",
+            "SB 173",
+            "SB 195"
         ],
         "billsBlasted": [],
         "members": [
@@ -3895,10 +3945,12 @@
             "SB 82",
             "SB 83",
             "SB 138",
+            "SB 207",
+            "SB 219",
             "SR 44",
             "SR 45"
         ],
-        "billCount": 19,
+        "billCount": 21,
         "billsUnscheduled": [
             "HB 34",
             "HB 53",
@@ -3906,31 +3958,33 @@
             "HB 122",
             "HB 185",
             "SB 82",
+            "SB 219",
             "SR 44",
             "SR 45"
         ],
         "billsScheduledByDay": [
             {
-                "day": "01/25/2023",
+                "day": "01/27/2023",
                 "bills": [
-                    "HB 54",
-                    "SB 55"
+                    "SB 207"
                 ]
             }
         ],
         "billsAwaitingVote": [
-            "SB 83",
-            "SB 138"
+            "SB 55",
+            "SB 83"
         ],
         "billsFailed": [],
         "billsAdvanced": [
+            "HB 54",
             "SB 17",
             "SB 32",
             "SB 39",
             "SB 42",
             "SB 43",
             "SB 48",
-            "SB 72"
+            "SB 72",
+            "SB 138"
         ],
         "billsBlasted": [],
         "members": [
@@ -3949,7 +4003,7 @@
             {
                 "name": "Bob Brown",
                 "party": "R",
-                "locale": "Trout Creek",
+                "locale": "Thompson Falls",
                 "role": "Member"
             },
             {
@@ -4054,9 +4108,10 @@
             "SR 23",
             "SR 24",
             "SR 25",
-            "SR 46"
+            "SR 46",
+            "SR 48"
         ],
-        "billCount": 47,
+        "billCount": 48,
         "billsUnscheduled": [
             "SB 39",
             "SB 48",
@@ -4072,23 +4127,16 @@
             "SR 23",
             "SR 24",
             "SR 25",
-            "SR 46"
+            "SR 46",
+            "SR 48"
         ],
         "billsScheduledByDay": [
-            {
-                "day": "01/25/2023",
-                "bills": [
-                    "SB 188",
-                    "SB 196"
-                ]
-            },
             {
                 "day": "01/27/2023",
                 "bills": [
                     "HB 65",
                     "HB 102",
-                    "HB 116",
-                    "SB 198"
+                    "HB 116"
                 ]
             },
             {
@@ -4101,14 +4149,20 @@
                     "SR 15",
                     "SR 16"
                 ]
+            },
+            {
+                "day": "02/10/2023",
+                "bills": [
+                    "SB 198"
+                ]
             }
         ],
         "billsAwaitingVote": [
             "SB 150",
-            "SB 163",
             "SB 180",
-            "SB 181",
-            "SB 186"
+            "SB 186",
+            "SB 188",
+            "SB 196"
         ],
         "billsFailed": [
             "SB 26"
@@ -4127,7 +4181,9 @@
             "SB 115",
             "SB 116",
             "SB 151",
-            "SB 162"
+            "SB 162",
+            "SB 163",
+            "SB 181"
         ],
         "billsBlasted": [],
         "members": [
@@ -4198,6 +4254,7 @@
             "HB 81",
             "HB 89",
             "HB 106",
+            "HB 107",
             "HB 108",
             "HB 109",
             "HB 110",
@@ -4237,19 +4294,22 @@
             "SB 197",
             "SB 200",
             "SB 207",
+            "SB 222",
             "SJ 4",
             "SJ 7",
             "SJ 8",
             "SR 4",
-            "SR 5"
+            "SR 5",
+            "SR 49"
         ],
-        "billCount": 49,
+        "billCount": 52,
         "billsUnscheduled": [
             "HB 63",
             "HB 80",
             "HB 81",
             "HB 89",
             "HB 106",
+            "HB 107",
             "HB 108",
             "HB 109",
             "HB 110",
@@ -4258,9 +4318,6 @@
             "HB 143",
             "HB 148",
             "HB 151",
-            "SB 93",
-            "SB 164",
-            "SB 175",
             "SB 176",
             "SB 185",
             "SB 189",
@@ -4268,45 +4325,55 @@
             "SB 197",
             "SB 200",
             "SB 207",
-            "SR 4",
-            "SR 5"
+            "SB 222",
+            "SR 49"
         ],
         "billsScheduledByDay": [
-            {
-                "day": "01/25/2023",
-                "bills": [
-                    "SB 51"
-                ]
-            },
             {
                 "day": "01/27/2023",
                 "bills": [
                     "SB 49"
                 ]
+            },
+            {
+                "day": "01/30/2023",
+                "bills": [
+                    "SB 164",
+                    "SB 175"
+                ]
+            },
+            {
+                "day": "02/01/2023",
+                "bills": [
+                    "SB 93",
+                    "SR 4",
+                    "SR 5"
+                ]
             }
         ],
         "billsAwaitingVote": [
-            "SB 31",
-            "SB 60",
-            "SB 61",
-            "SB 66",
+            "SB 51",
             "SB 73",
             "SB 77",
             "SB 86",
             "SB 117",
-            "SB 153",
             "SB 156"
         ],
         "billsFailed": [
-            "SB 25"
+            "SB 25",
+            "SB 153"
         ],
         "billsAdvanced": [
             "SB 18",
             "SB 29",
             "SB 30",
+            "SB 31",
             "SB 40",
             "SB 50",
             "SB 56",
+            "SB 60",
+            "SB 61",
+            "SB 66",
             "SB 74",
             "SB 128",
             "SJ 4",
@@ -4372,7 +4439,7 @@
             {
                 "name": "Mike Fox",
                 "party": "D",
-                "locale": "Hays",
+                "locale": "Hayden",
                 "role": "Member"
             }
         ]
@@ -4391,29 +4458,27 @@
             "HB 85",
             "HB 93",
             "HB 94",
+            "HB 100",
+            "HB 104",
             "HB 153",
             "SB 37",
             "SB 52",
             "SB 78",
             "SB 203",
             "SB 217",
+            "SJ 9",
             "SR 26",
             "SR 27",
             "SR 28"
         ],
-        "billCount": 17,
+        "billCount": 20,
         "billsUnscheduled": [
-            "SB 217"
+            "HB 100",
+            "HB 104",
+            "SB 217",
+            "SJ 9"
         ],
         "billsScheduledByDay": [
-            {
-                "day": "01/26/2023",
-                "bills": [
-                    "HB 85",
-                    "SB 203",
-                    "SR 28"
-                ]
-            },
             {
                 "day": "01/31/2023",
                 "bills": [
@@ -4433,7 +4498,9 @@
             }
         ],
         "billsAwaitingVote": [
-            "SB 52"
+            "HB 85",
+            "SB 52",
+            "SB 203"
         ],
         "billsFailed": [],
         "billsAdvanced": [
@@ -4441,7 +4508,8 @@
             "HB 59",
             "HB 153",
             "SB 37",
-            "SB 78"
+            "SB 78",
+            "SR 28"
         ],
         "billsBlasted": [],
         "members": [
@@ -4513,22 +4581,34 @@
         "time": "afternoon",
         "type": "policy",
         "bills": [
+            "HB 52",
             "HB 170",
             "SB 109",
             "SB 147",
-            "SB 208"
+            "SB 208",
+            "SB 228"
         ],
-        "billCount": 4,
+        "billCount": 6,
         "billsUnscheduled": [
-            "HB 170",
-            "SB 208"
+            "HB 52",
+            "SB 228"
         ],
-        "billsScheduledByDay": [],
+        "billsScheduledByDay": [
+            {
+                "day": "01/31/2023",
+                "bills": [
+                    "HB 170",
+                    "SB 109",
+                    "SB 208"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
-            "SB 109",
+            "SB 109"
+        ],
+        "billsFailed": [
             "SB 147"
         ],
-        "billsFailed": [],
         "billsAdvanced": [],
         "billsBlasted": [],
         "members": [
@@ -4612,6 +4692,7 @@
         "time": "afternoon",
         "type": "policy",
         "bills": [
+            "HB 42",
             "HB 73",
             "HB 74",
             "HB 86",
@@ -4628,14 +4709,21 @@
             "SR 2",
             "SR 3"
         ],
-        "billCount": 15,
+        "billCount": 16,
         "billsUnscheduled": [
-            "HB 74",
-            "HB 146",
+            "HB 42",
             "SR 2",
             "SR 3"
         ],
-        "billsScheduledByDay": [],
+        "billsScheduledByDay": [
+            {
+                "day": "01/31/2023",
+                "bills": [
+                    "HB 74",
+                    "HB 146"
+                ]
+            }
+        ],
         "billsAwaitingVote": [],
         "billsFailed": [
             "SB 139"
@@ -4663,7 +4751,7 @@
             {
                 "name": "Bob Brown",
                 "party": "R",
-                "locale": "Trout Creek",
+                "locale": "Thompson Falls",
                 "role": "Vice Chair"
             },
             {
@@ -4705,7 +4793,7 @@
             {
                 "name": "Mike Fox",
                 "party": "D",
-                "locale": "Hays",
+                "locale": "Hayden",
                 "role": "Vice Chair"
             },
             {
@@ -4746,26 +4834,22 @@
             "SB 111",
             "SB 120",
             "SB 137",
-            "SB 144"
+            "SB 144",
+            "SB 221"
         ],
-        "billCount": 13,
+        "billCount": 14,
         "billsUnscheduled": [
             "HB 52",
             "HB 75",
             "HB 76",
             "HB 105",
-            "HB 129"
+            "HB 129",
+            "SB 221"
         ],
-        "billsScheduledByDay": [
-            {
-                "day": "01/26/2023",
-                "bills": [
-                    "HB 26",
-                    "HB 27"
-                ]
-            }
-        ],
+        "billsScheduledByDay": [],
         "billsAwaitingVote": [
+            "HB 26",
+            "HB 27",
             "SB 57",
             "SB 137"
         ],
@@ -4888,7 +4972,7 @@
             {
                 "name": "Bob Brown",
                 "party": "R",
-                "locale": "Trout Creek",
+                "locale": "Thompson Falls",
                 "role": "Member"
             },
             {
@@ -4972,12 +5056,14 @@
         "type": "special",
         "bills": [
             "HB 28",
+            "HB 150",
             "HB 260",
             "SB 193"
         ],
-        "billCount": 3,
+        "billCount": 4,
         "billsUnscheduled": [
             "HB 28",
+            "HB 150",
             "HB 260",
             "SB 193"
         ],
@@ -5138,13 +5224,13 @@
             {
                 "name": "Lola Sheldon-Galloway",
                 "party": "R",
-                "locale": "Billings",
+                "locale": "Great Falls",
                 "role": "Member"
             },
             {
                 "name": "Bob Brown",
                 "party": "R",
-                "locale": "Trout Creek",
+                "locale": "Thompson Falls",
                 "role": "Member"
             },
             {

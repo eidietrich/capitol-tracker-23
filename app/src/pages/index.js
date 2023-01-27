@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql } from 'gatsby'
+import { graphql, Link } from 'gatsby'
 // import { AnchorLink } from "gatsby-plugin-anchor-links";
 
 import Layout from '../components/Layout'
@@ -13,7 +13,7 @@ import BillLookup from '../components/input/BillLookup'
 import LawmakerLookup from '../components/input/LawmakerLookup'
 import DistrictLookup from '../components/input/DistrictLookup'
 
-// import { dateFormatLong } from '../config/utils'
+import { urlize } from '../config/utils'
 
 import processAnnotations from '../data/process-annotations.json'
 import keyBillCategories from '../data/bill-categories.json'
@@ -35,6 +35,13 @@ const Index = ({ data, location }) => {
 
       {/* <TruncatedContainer height={1000} closedText="See all key bills"> */}
       <h2 id="key-bill-status">Key bill progress</h2>
+
+      <div>
+        {keyBillCategories.map((c, i) => <span key={c}>
+          {i !== 0 ? ' • ' : ''}<Link to={`/#${urlize(c.category)}`}>{c.category}</Link>
+        </span>)}
+      </div>
+
       <InfoPopup label="How bills move through the Legislature" content={howBillsMove} />
       <div className="note">Major legislation identified by MTFP reporters. Where ambiguous, official bill titles are annotated with plain language summaries.</div>
       {
@@ -43,7 +50,7 @@ const Index = ({ data, location }) => {
           .sort((a, b) => a.order - b.order)
           .map(c => {
             const billsInCat = keyBills.filter(d => d.majorBillCategory === c.category)
-            return <div key={c.category}>
+            return <div key={c.category} id={urlize(c.category)}>
               <h4>{c.category}</h4>
               <div className="note">{c.description}</div>
               <BillTable bills={billsInCat} displayLimit={15} suppressCount={true} />

@@ -21,6 +21,8 @@ export const shortDateWithWeekday = timeFormat('%A, %b %-d')
 export const billUrl = identifier => identifier.substring(0, 2).toLowerCase() + '-' + identifier.substring(3,)
 export const lawmakerUrl = name => name.replace(/\s/g, '-')
 export const committeeUrl = name => name.replace(/\s/g, '-').replace(/,/g, '')
+export const urlize = text => text.replace(/'/g, '').replace(/\s/g, '-').toLowerCase()
+
 
 // Misc
 export const parseDate = timeParse('%Y-%m-%d')

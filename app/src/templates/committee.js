@@ -9,7 +9,7 @@ import ContactUs from '../components/ContactUs'
 import NewsletterSignup from '../components/NewsletterSignup'
 
 import BillTable from '../components/BillTable'
-
+import LawmakerInline from "../components/LawmakerInline";
 
 import {
     percentFormat,
@@ -23,16 +23,33 @@ import {
 } from '../config/config'
 
 const committeeSummaryStyle = css`
-    border: 1px solid var(--tan5);
-    background-color: var(--tan1);
-    padding: 0.2em;
+    /* border: 1px solid var(--tan5); */
+    /* background-color: var(--tan1); */
+    /* padding: 0.2em; */
     display: flex;
     flex-wrap: wrap;
 
     .item {
+        flex: 1 0 auto;
         border: 1px solid var(--tan4);
+        background-color: var(--tan1);
         margin: 0.2em;
         padding: 0.2em 0.5em;
+    }
+`
+const committeeMemberListStyle = css`
+    display: flex;
+    flex-wrap: wrap;
+
+    .col {
+        flex: 1 0 250px;
+        margin: 0.5em;
+    }
+
+    .item {
+        /* border: 1px solid var(--tan2); */
+        padding: 0.2em 0.5em;
+        margin-bottom: 0.2em;
     }
 `
 const getDay = d => shortDateWithWeekday(new Date(d))
@@ -83,7 +100,7 @@ const CommitteePage = ({ pageContext, data, location }) => {
 
         <Layout location={location}>
             <h1>{name} Committee</h1>
-            <div style={{ fontSize: '1.2em', marginBottom: '0.5em' }}>🪑 Chair: <strong>{chair.name}</strong> ({chair.party}-{chair.locale})</div>
+
 
             <div css={committeeSummaryStyle}>
                 <div className="item"><strong>{bills.length} bills</strong> considered</div>
@@ -93,20 +110,37 @@ const CommitteePage = ({ pageContext, data, location }) => {
                 <div className="item"><strong>{passedBills.length}</strong> ({percentFormat(passedBills.length / denom)}) <Link to="#passed">voted forward</Link></div>
             </div>
 
-            <h2>Members</h2>
-            <ul>
-                {
-                    members.map(m => <li key={m.name}><strong>
-                        <Link to={`/lawmakers/${lawmakerUrl(m.name)}`}>{m.name} <span style={{ color: partyColors(m.party) }}>({m.party}-{m.locale})</span></Link></strong>
-                        {(m.role !== 'Member') && <span> – {m.role}</span>}
-                    </li>)
-                }
-            </ul>
+            <div style={{ fontSize: '1.2em', margin: '0.5em 0' }}>🪑 Chair: <Link to={`/lawmakers/${lawmakerUrl(chair.name)}`}><strong>{chair.name}</strong> <span style={{ color: partyColors(chair.party) }}>({chair.party}-{chair.locale})</span></Link></div>
+
+            <h2>Members ({members.length})</h2>
+            <div>
+                🔴 <strong>{members.filter(d => d.party === 'R').length}</strong> Republicans,
+                🔵 <strong> {members.filter(d => d.party === 'D').length}</strong> Democrats
+            </div>
+            <div css={committeeMemberListStyle}>
+                <div className="col">
+                    {
+                        members.filter(d => d.party === 'R').map(m => <div className="item" key={m.name}><>👤 </>
+                            <Link to={`/lawmakers/${lawmakerUrl(m.name)}`}><strong>{m.name}</strong> <span style={{ color: partyColors(m.party) }}>({m.party}-{m.locale})</span></Link>
+                            {(m.role !== 'Member') && <span> – {m.role}</span>}
+                        </div>)
+                    }
+                </div>
+                <div className="col">
+                    {
+                        members.filter(d => d.party === 'D').map(m => <div className="item" key={m.name}><>👤 </>
+                            <Link to={`/lawmakers/${lawmakerUrl(m.name)}`}><strong>{m.name}</strong> <span style={{ color: partyColors(m.party) }}>({m.party}-{m.locale})</span></Link>
+                            {(m.role !== 'Member') && <span> – {m.role}</span>}
+                        </div>)
+                    }
+                </div>
+            </div>
 
 
-            <h2>Bills considered ({billCount})</h2>
 
-            <h3 id="awaiting-hearing">🗓 Awaiting hearing</h3>
+            <h2>Commitee bills ({billCount})</h2>
+
+            <h3 id="awaiting-hearing">🗓 Awaiting hearing ({unheard.length})</h3>
 
             {
                 scheduledBillsByDay.map(day => {
@@ -122,13 +156,13 @@ const CommitteePage = ({ pageContext, data, location }) => {
 
             <NewsletterSignup />
 
-            <h3 id="awaiting-votes">⌛️ Heard, awaiting vote</h3>
+            <h3 id="awaiting-votes">⌛️ Heard, awaiting vote ({awaitingVoteBills.length})</h3>
             <BillTable bills={awaitingVoteBills} displayLimit={5} />
 
-            <h3 id="failed">🚫 Voted down</h3>
+            <h3 id="failed">🚫 Voted down ({failedBills.length})</h3>
             <BillTable bills={failedBills} displayLimit={5} />
 
-            <h3 id="passed">✅ Voted forward</h3>
+            <h3 id="passed">✅ Voted forward ({passedBills.length})</h3>
             <BillTable bills={passedBills} displayLimit={5} />
 
             {

@@ -7,8 +7,26 @@
     },
     {
         "category": "Governor's budget",
-        "description": "Bills implementing parts of Gov. Greg Gianforte's proposed state budget.",
-        "order": 2,
-        "show": null
+        "description": "Bills that implement key provisions of Gov. Greg Gianforte’s 2023-2025 budget proposal.",
+        "order": 1,
+        "show": true
+    },
+    {
+        "category": "Other budget bills",
+        "description": "Budget bills brought as alternatives to the governor’s proposal.",
+        "order": 3,
+        "show": true
+    },
+    {
+        "category": "Energy",
+        "description": null,
+        "order": 4,
+        "show": true
+    },
+    {
+        "category": "Wildlife",
+        "description": null,
+        "order": 5,
+        "show": true
     }
 ]
