@@ -2900,7 +2900,7 @@
     "action_id": "HB16-0022",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 19,
       "N": 0
@@ -2916,7 +2916,7 @@
       "Y": 99,
       "N": 0
     },
-    "error": "Skipped previously missing vote page"
+    "error": "Missing vote page"
   },
   {
     "url": "http://laws.leg.mt.gov/legprd/LAW0211W$BLAC.VoteTabulation?P_VOTE_SEQ=H257&P_SESS=20231",
@@ -4262,13 +4262,13 @@
     ]
   },
   {
-    "url": null,
+    "url": "http://leg.mt.gov/bills/2023/minutes/senate/votesheets/HB0018JUS230125.pdf",
     "bill": "HB 18",
     "session": "20231",
     "action_id": "HB18-0025",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 11,
       "N": 0
@@ -4281,7 +4281,7 @@
     "action_id": "HB19-0020",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 13,
       "N": 0
@@ -7114,7 +7114,7 @@
     "action_id": "HB22-0029",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing URL",
     "totals": {
       "Y": 11,
       "N": 0
@@ -7127,7 +7127,7 @@
     "action_id": "HB23-0021",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing URL",
     "totals": {
       "Y": 17,
       "N": 4
@@ -11376,7 +11376,7 @@
     "action_id": "HB28-0026",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 12,
       "N": 10
@@ -11803,7 +11803,7 @@
     "action_id": "HB29-0021",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 20,
       "N": 1
@@ -18244,7 +18244,7 @@
     "action_id": "HB36-0029",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing URL",
     "totals": {
       "Y": 19,
       "N": 0
@@ -26817,7 +26817,7 @@
     "action_id": "HB49-0015",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing URL",
     "totals": {
       "Y": 19,
       "N": 0
@@ -31934,7 +31934,7 @@
     "action_id": "HB54-0024",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing URL",
     "totals": {
       "Y": 11,
       "N": 0
@@ -34781,13 +34781,13 @@
     ]
   },
   {
-    "url": null,
+    "url": "http://leg.mt.gov/bills/2023/minutes/senate/votesheets/HB0059AGS230125.pdf",
     "bill": "HB 59",
     "session": "20231",
     "action_id": "HB59-0033",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 11,
       "N": 0
@@ -36743,7 +36743,7 @@
     "action_id": "HB61-0025",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 11,
       "N": 0
@@ -36852,7 +36852,7 @@
       "Y": 99,
       "N": 0
     },
-    "error": "Skipped previously missing vote page"
+    "error": "Missing vote page"
   },
   {
     "url": "http://laws.leg.mt.gov/legprd/LAW0211W$BLAC.VoteTabulation?P_VOTE_SEQ=H232&P_SESS=20231",
@@ -38622,7 +38622,7 @@
     "action_id": "HB64-0015",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing URL",
     "totals": {
       "Y": 21,
       "N": 0
@@ -41403,6 +41403,59 @@
       },
       {
         "name": "Zolnikov, Katie",
+        "vote": "Y"
+      }
+    ]
+  },
+  {
+    "url": "http://leg.mt.gov/bills/2023/minutes/senate/votesheets/HB0067LOS230118.pdf",
+    "bill": "HB 67",
+    "session": "20231",
+    "action_id": "HB67-0031",
+    "type": "committee",
+    "seq_number": null,
+    "error": null,
+    "date": "January 18, 2023",
+    "description": "Sen. Bogner made a Motion that HB 67 Be Concurred In",
+    "totals": {
+      "Y": 9,
+      "N": 0
+    },
+    "votes": [
+      {
+        "name": "Bogner, Kenneth",
+        "vote": "Y"
+      },
+      {
+        "name": "Boldman, Ellie;byproxy",
+        "vote": "Y"
+      },
+      {
+        "name": "Dunwell, MaryAnn",
+        "vote": "Y"
+      },
+      {
+        "name": "Friedel, Chris",
+        "vote": "Y"
+      },
+      {
+        "name": "Mandeville, Forrest",
+        "vote": "Y"
+      },
+      {
+        "name": "Pope, Christopher",
+        "vote": "Y"
+      },
+      {
+        "name": "Trebas, Jeremy",
+        "vote": "Y"
+      },
+      {
+        "name": "Vermeire, Terry",
+        "vote": "Y"
+      },
+      {
+        "name": "Zolnikov, Daniel",
         "vote": "Y"
       }
     ]
@@ -46916,7 +46969,7 @@
     "action_id": "HB73-0025",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 12,
       "N": 0
@@ -54605,7 +54658,7 @@
     "action_id": "HB82-0020",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 18,
       "N": 0
@@ -67765,13 +67818,13 @@
     ]
   },
   {
-    "url": null,
+    "url": "http://leg.mt.gov/bills/2023/minutes/senate/votesheets/HB0099FIS230125.pdf",
     "bill": "HB 99",
     "session": "20231",
     "action_id": "HB99-0024",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 12,
       "N": 0
@@ -68713,7 +68766,7 @@
     "action_id": "HB101-0022",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 21,
       "N": 0
@@ -69554,7 +69607,7 @@
     "action_id": "HB102-0015",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 21,
       "N": 0
@@ -70395,7 +70448,7 @@
     "action_id": "HB103-0017",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing URL",
     "totals": {
       "Y": 19,
       "N": 0
@@ -73163,7 +73216,7 @@
     "action_id": "HB107-0020",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing URL",
     "totals": {
       "Y": 19,
       "N": 0
@@ -79619,7 +79672,7 @@
     "action_id": "HB113-0025",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 9,
       "N": 0
@@ -80117,17 +80170,93 @@
     ]
   },
   {
-    "url": null,
+    "url": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0115BUH230125.pdf",
     "bill": "HB 115",
     "session": "20231",
     "action_id": "HB115-0020",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": null,
+    "date": "January 25, 2023",
+    "description": "Rep. Seekins-Crowe made a Motion that HB 115 Do Pass",
     "totals": {
       "Y": 18,
       "N": 0
-    }
+    },
+    "votes": [
+      {
+        "name": "Anderson, Fred",
+        "vote": "Y"
+      },
+      {
+        "name": "Bergstrom, James",
+        "vote": "Y"
+      },
+      {
+        "name": "Buttrey, Edward",
+        "vote": "Y"
+      },
+      {
+        "name": "Carter, Bob",
+        "vote": "Y"
+      },
+      {
+        "name": "Fitzgerald, Ross",
+        "vote": "Y"
+      },
+      {
+        "name": "Galloway, Steven",
+        "vote": "Y"
+      },
+      {
+        "name": "Gist, Steve",
+        "vote": "Y"
+      },
+      {
+        "name": "Gunderson, Steve",
+        "vote": "Y"
+      },
+      {
+        "name": "Harvey, Derek",
+        "vote": "Y"
+      },
+      {
+        "name": "Karlen, Jonathan",
+        "vote": "Y"
+      },
+      {
+        "name": "Loge, Denley",
+        "vote": "Y"
+      },
+      {
+        "name": "Lynch, Jennifer",
+        "vote": "Y"
+      },
+      {
+        "name": "Marshall, Ron",
+        "vote": "Y"
+      },
+      {
+        "name": "Matthews, Eric",
+        "vote": "Y"
+      },
+      {
+        "name": "Nicol, Nelly",
+        "vote": "Y"
+      },
+      {
+        "name": "Oblander, Greg",
+        "vote": "Y"
+      },
+      {
+        "name": "Seekins-Crowe, Kerri",
+        "vote": "Y"
+      },
+      {
+        "name": "Sullivan, Katie",
+        "vote": "Y"
+      }
+    ]
   },
   {
     "url": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0116HUH230112.pdf",
@@ -89204,7 +89333,7 @@
     "action_id": "HB127-0022",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing URL",
     "totals": {
       "Y": 15,
       "N": 4
@@ -90122,7 +90251,7 @@
     "action_id": "HB131-0014",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 18,
       "N": 1
@@ -92803,13 +92932,13 @@
     ]
   },
   {
-    "url": null,
+    "url": "http://leg.mt.gov/bills/2023/minutes/senate/votesheets/HB0133FIS230125.pdf",
     "bill": "HB 133",
     "session": "20231",
     "action_id": "HB133-0024",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 9,
       "N": 3
@@ -93739,7 +93868,7 @@
     "action_id": "HB135-0020",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 18,
       "N": 0
@@ -93752,7 +93881,7 @@
     "action_id": "HB137-0020",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing URL",
     "totals": {
       "Y": 19,
       "N": 0
@@ -100987,7 +101116,7 @@
     "action_id": "HB146-0015",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 17,
       "N": 2
@@ -101828,7 +101957,7 @@
     "action_id": "HB147-0020",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 21,
       "N": 0
@@ -105018,7 +105147,7 @@
     "action_id": "HB151-0015",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 18,
       "N": 0
@@ -107194,7 +107323,7 @@
     "action_id": "HB153-0025",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 11,
       "N": 0
@@ -108122,17 +108251,93 @@
     ]
   },
   {
-    "url": null,
+    "url": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0156BUH230125.pdf",
     "bill": "HB 156",
     "session": "20231",
     "action_id": "HB156-0020",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": null,
+    "date": "January 25, 2023",
+    "description": "Rep. Seekins-Crowe made a Motion that HB 156 Do Pass as Amended",
     "totals": {
       "Y": 18,
       "N": 0
-    }
+    },
+    "votes": [
+      {
+        "name": "Anderson, Fred",
+        "vote": "Y"
+      },
+      {
+        "name": "Bergstrom, James",
+        "vote": "Y"
+      },
+      {
+        "name": "Buttrey, Edward",
+        "vote": "Y"
+      },
+      {
+        "name": "Carter, Bob",
+        "vote": "Y"
+      },
+      {
+        "name": "Fitzgerald, Ross",
+        "vote": "Y"
+      },
+      {
+        "name": "Galloway, Steven",
+        "vote": "Y"
+      },
+      {
+        "name": "Gist, Steve",
+        "vote": "Y"
+      },
+      {
+        "name": "Gunderson, Steve",
+        "vote": "Y"
+      },
+      {
+        "name": "Harvey, Derek",
+        "vote": "Y"
+      },
+      {
+        "name": "Karlen, Jonathan",
+        "vote": "Y"
+      },
+      {
+        "name": "Loge, Denley",
+        "vote": "Y"
+      },
+      {
+        "name": "Lynch, Jennifer",
+        "vote": "Y"
+      },
+      {
+        "name": "Marshall, Ron",
+        "vote": "Y"
+      },
+      {
+        "name": "Matthews, Eric",
+        "vote": "Y"
+      },
+      {
+        "name": "Nicol, Nelly",
+        "vote": "Y"
+      },
+      {
+        "name": "Oblander, Greg",
+        "vote": "Y"
+      },
+      {
+        "name": "Seekins-Crowe, Kerri",
+        "vote": "Y"
+      },
+      {
+        "name": "Sullivan, Katie",
+        "vote": "Y"
+      }
+    ]
   },
   {
     "url": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0157BUH230112.pdf",
@@ -111953,13 +112158,13 @@
     ]
   },
   {
-    "url": null,
+    "url": "http://leg.mt.gov/bills/2023/minutes/senate/votesheets/HB0162FIS230125.pdf",
     "bill": "HB 162",
     "session": "20231",
     "action_id": "HB162-0026",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 12,
       "N": 0
@@ -116370,7 +116575,7 @@
     "action_id": "HB171-0025",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 13,
       "N": 0
@@ -117722,7 +117927,7 @@
     "action_id": "HB173-0021",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing URL",
     "totals": {
       "Y": 13,
       "N": 5
@@ -117828,7 +118033,7 @@
     "action_id": "HB175-0022",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 20,
       "N": 0
@@ -120992,17 +121197,93 @@
     ]
   },
   {
-    "url": null,
+    "url": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0180STH230125.pdf",
     "bill": "HB 180",
     "session": "20231",
     "action_id": "HB180-0021",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": null,
+    "date": "January 25, 2023",
+    "description": "Rep. Phalen made a Motion that HB 180 Do Pass",
     "totals": {
       "Y": 18,
       "N": 0
-    }
+    },
+    "votes": [
+      {
+        "name": "Baum, Denise",
+        "vote": "Y"
+      },
+      {
+        "name": "Bertoglio, Marta",
+        "vote": "Y"
+      },
+      {
+        "name": "Brockman, Tony",
+        "vote": "Y"
+      },
+      {
+        "name": "Dooling, Julie",
+        "vote": "Y"
+      },
+      {
+        "name": "Frazer, Gregory",
+        "vote": "Y"
+      },
+      {
+        "name": "Green, Paul;byproxy",
+        "vote": "Y"
+      },
+      {
+        "name": "Kortum, Kelly",
+        "vote": "Y"
+      },
+      {
+        "name": "Parry, Gary",
+        "vote": "Y"
+      },
+      {
+        "name": "Phalen, Bob",
+        "vote": "Y"
+      },
+      {
+        "name": "Reksten, Linda",
+        "vote": "Y"
+      },
+      {
+        "name": "RunningWolf, Tyson",
+        "vote": "Y"
+      },
+      {
+        "name": "Smith, Frank",
+        "vote": "Y"
+      },
+      {
+        "name": "Sprunger, Courtenay",
+        "vote": "Y"
+      },
+      {
+        "name": "Stafman, Ed",
+        "vote": "Y"
+      },
+      {
+        "name": "Walsh, Kenneth",
+        "vote": "Y"
+      },
+      {
+        "name": "Weatherwax, Marvin;byproxy",
+        "vote": "Y"
+      },
+      {
+        "name": "Wirth, Zack",
+        "vote": "Y"
+      },
+      {
+        "name": "Yakawich, Michael",
+        "vote": "Y"
+      }
+    ]
   },
   {
     "url": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0181EDH230123.pdf",
@@ -123007,7 +123288,7 @@
     "action_id": "HB185-0026",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 20,
       "N": 2
@@ -123848,7 +124129,7 @@
     "action_id": "HB186-0020",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing URL",
     "totals": {
       "Y": 18,
       "N": 0
@@ -124582,7 +124863,7 @@
     "action_id": "HB190-0030",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing URL",
     "totals": {
       "Y": 18,
       "N": 0
@@ -124595,7 +124876,7 @@
     "action_id": "HB193-0024",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing URL",
     "totals": {
       "Y": 19,
       "N": 0
@@ -124608,7 +124889,7 @@
     "action_id": "HB194-0020",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 11,
       "N": 10
@@ -124621,7 +124902,7 @@
     "action_id": "HB195-0020",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing URL",
     "totals": {
       "Y": 11,
       "N": 10
@@ -125640,7 +125921,7 @@
     "action_id": "HB200-0019",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 19,
       "N": 2
@@ -126071,7 +126352,7 @@
     "action_id": "HB202-0021",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing URL",
     "totals": {
       "Y": 13,
       "N": 6
@@ -126153,7 +126434,7 @@
     "action_id": "HB204-0021",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing URL",
     "totals": {
       "Y": 19,
       "N": 0
@@ -127087,7 +127368,7 @@
     "action_id": "HB206-0024",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing URL",
     "totals": {
       "Y": 18,
       "N": 0
@@ -127100,7 +127381,7 @@
     "action_id": "HB207-0024",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing URL",
     "totals": {
       "Y": 20,
       "N": 1
@@ -129274,17 +129555,93 @@
     ]
   },
   {
-    "url": null,
+    "url": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0210STH230125.pdf",
     "bill": "HB 210",
     "session": "20231",
     "action_id": "HB210-0026",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": null,
+    "date": "January 25, 2023",
+    "description": "Rep. Phalen made a Motion that HB 210 Do Pass as Amended",
     "totals": {
       "Y": 18,
       "N": 0
-    }
+    },
+    "votes": [
+      {
+        "name": "Baum, Denise",
+        "vote": "Y"
+      },
+      {
+        "name": "Bertoglio, Marta",
+        "vote": "Y"
+      },
+      {
+        "name": "Brockman, Tony",
+        "vote": "Y"
+      },
+      {
+        "name": "Dooling, Julie",
+        "vote": "Y"
+      },
+      {
+        "name": "Frazer, Gregory",
+        "vote": "Y"
+      },
+      {
+        "name": "Green, Paul;byproxy",
+        "vote": "Y"
+      },
+      {
+        "name": "Kortum, Kelly",
+        "vote": "Y"
+      },
+      {
+        "name": "Parry, Gary",
+        "vote": "Y"
+      },
+      {
+        "name": "Phalen, Bob",
+        "vote": "Y"
+      },
+      {
+        "name": "Reksten, Linda",
+        "vote": "Y"
+      },
+      {
+        "name": "RunningWolf, Tyson",
+        "vote": "Y"
+      },
+      {
+        "name": "Smith, Frank",
+        "vote": "Y"
+      },
+      {
+        "name": "Sprunger, Courtenay",
+        "vote": "Y"
+      },
+      {
+        "name": "Stafman, Ed",
+        "vote": "Y"
+      },
+      {
+        "name": "Walsh, Kenneth",
+        "vote": "Y"
+      },
+      {
+        "name": "Weatherwax, Marvin;byproxy",
+        "vote": "Y"
+      },
+      {
+        "name": "Wirth, Zack",
+        "vote": "Y"
+      },
+      {
+        "name": "Yakawich, Michael",
+        "vote": "Y"
+      }
+    ]
   },
   {
     "url": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0211LOH230124.pdf",
@@ -129374,10 +129731,10 @@
     "action_id": "HB212-0030",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
-      "Y": 21,
-      "N": 0
+      "Y": 15,
+      "N": 6
     }
   },
   {
@@ -129723,7 +130080,7 @@
     "action_id": "HB219-0033",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing URL",
     "totals": {
       "Y": 14,
       "N": 7
@@ -129837,7 +130194,7 @@
     "action_id": "HB222-0024",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing URL",
     "totals": {
       "Y": 14,
       "N": 7
@@ -130052,7 +130409,7 @@
     "action_id": "HB224-0035",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 15,
       "N": 0
@@ -130065,7 +130422,7 @@
     "action_id": "HB225-0025",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing URL",
     "totals": {
       "Y": 21,
       "N": 0
@@ -130078,7 +130435,7 @@
     "action_id": "HB227-0023",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 21,
       "N": 0
@@ -130184,7 +130541,7 @@
     "action_id": "HB230-0029",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing URL",
     "totals": {
       "Y": 21,
       "N": 0
@@ -130359,7 +130716,7 @@
     "action_id": "HB237-0019",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing URL",
     "totals": {
       "Y": 19,
       "N": 0
@@ -130534,7 +130891,7 @@
     "action_id": "HB243-0026",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing URL",
     "totals": {
       "Y": 17,
       "N": 2
@@ -130941,17 +131298,93 @@
     ]
   },
   {
-    "url": null,
+    "url": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0254BUH230125.pdf",
     "bill": "HB 254",
     "session": "20231",
     "action_id": "HB254-0019",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": null,
+    "date": "January 25, 2023",
+    "description": "Rep. Seekins-Crowe made a Motion that HB 254 Do Pass",
     "totals": {
       "Y": 18,
       "N": 0
-    }
+    },
+    "votes": [
+      {
+        "name": "Anderson, Fred",
+        "vote": "Y"
+      },
+      {
+        "name": "Bergstrom, James",
+        "vote": "Y"
+      },
+      {
+        "name": "Buttrey, Edward",
+        "vote": "Y"
+      },
+      {
+        "name": "Carter, Bob",
+        "vote": "Y"
+      },
+      {
+        "name": "Fitzgerald, Ross",
+        "vote": "Y"
+      },
+      {
+        "name": "Galloway, Steven",
+        "vote": "Y"
+      },
+      {
+        "name": "Gist, Steve",
+        "vote": "Y"
+      },
+      {
+        "name": "Gunderson, Steve",
+        "vote": "Y"
+      },
+      {
+        "name": "Harvey, Derek",
+        "vote": "Y"
+      },
+      {
+        "name": "Karlen, Jonathan",
+        "vote": "Y"
+      },
+      {
+        "name": "Loge, Denley",
+        "vote": "Y"
+      },
+      {
+        "name": "Lynch, Jennifer",
+        "vote": "Y"
+      },
+      {
+        "name": "Marshall, Ron",
+        "vote": "Y"
+      },
+      {
+        "name": "Matthews, Eric",
+        "vote": "Y"
+      },
+      {
+        "name": "Nicol, Nelly",
+        "vote": "Y"
+      },
+      {
+        "name": "Oblander, Greg",
+        "vote": "Y"
+      },
+      {
+        "name": "Seekins-Crowe, Kerri",
+        "vote": "Y"
+      },
+      {
+        "name": "Sullivan, Katie",
+        "vote": "Y"
+      }
+    ]
   },
   {
     "url": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0255JUH230124.pdf",
@@ -131053,7 +131486,7 @@
     "action_id": "HB256-0021",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing URL",
     "totals": {
       "Y": 19,
       "N": 0
@@ -132003,7 +132436,7 @@
     "action_id": "HB270-0027",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing URL",
     "totals": {
       "Y": 22,
       "N": 1
@@ -132016,7 +132449,7 @@
     "action_id": "HB272-0019",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing URL",
     "totals": {
       "Y": 18,
       "N": 1
@@ -132134,7 +132567,7 @@
     "action_id": "HB282-0025",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing URL",
     "totals": {
       "Y": 10,
       "N": 9
@@ -132147,7 +132580,7 @@
     "action_id": "HB283-0023",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing URL",
     "totals": {
       "Y": 10,
       "N": 9
@@ -132160,7 +132593,7 @@
     "action_id": "HB290-0019",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing URL",
     "totals": {
       "Y": 19,
       "N": 0
@@ -135777,7 +136210,7 @@
     "action_id": "SB3-0025",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 19,
       "N": 0
@@ -136279,7 +136712,7 @@
     "action_id": "SB4-0019",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 9,
       "N": 0
@@ -138211,7 +138644,7 @@
     "action_id": "SB8-0018",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 11,
       "N": 0
@@ -139000,7 +139433,7 @@
     "action_id": "SB12-0022",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 8,
       "N": 3
@@ -139449,7 +139882,7 @@
     "action_id": "SB13-0021",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 11,
       "N": 0
@@ -139898,7 +140331,7 @@
     "action_id": "SB16-0020",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 12,
       "N": 0
@@ -141337,7 +141770,7 @@
     "action_id": "SB18-0024",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing URL",
     "totals": {
       "Y": 17,
       "N": 1
@@ -141411,7 +141844,7 @@
     "action_id": "SB19-0021",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 8,
       "N": 3
@@ -142414,7 +142847,7 @@
     "action_id": "SB21-0030",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 19,
       "N": 0
@@ -142924,7 +143357,7 @@
     "action_id": "SB24-0029",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 11,
       "N": 1
@@ -143373,7 +143806,7 @@
     "action_id": "SB25-0019",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing URL",
     "totals": {
       "Y": 10,
       "N": 0
@@ -143386,7 +143819,7 @@
     "action_id": "SB25-0020",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing URL",
     "totals": {
       "Y": 10,
       "N": 0
@@ -143399,7 +143832,7 @@
     "action_id": "SB26-0014",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing URL",
     "totals": {
       "Y": 6,
       "N": 3
@@ -144495,7 +144928,7 @@
     "action_id": "SB30-0015",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 6,
       "N": 4
@@ -144726,7 +145159,7 @@
     "action_id": "SB31-0014",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing URL",
     "totals": {
       "Y": 6,
       "N": 4
@@ -144739,7 +145172,7 @@
     "action_id": "SB32-0019",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 11,
       "N": 0
@@ -145188,7 +145621,7 @@
     "action_id": "SB33-0020",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 11,
       "N": 1
@@ -146714,17 +147147,93 @@
     ]
   },
   {
-    "url": null,
+    "url": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/SB0035BUH230125.pdf",
     "bill": "SB 35",
     "session": "20231",
     "action_id": "SB35-0025",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": null,
+    "date": "January 25, 2023",
+    "description": "Rep. Seekins-Crowe made a Motion that SB 35 Be Concurred In",
     "totals": {
       "Y": 18,
       "N": 0
-    }
+    },
+    "votes": [
+      {
+        "name": "Anderson, Fred",
+        "vote": "Y"
+      },
+      {
+        "name": "Bergstrom, James",
+        "vote": "Y"
+      },
+      {
+        "name": "Buttrey, Edward",
+        "vote": "Y"
+      },
+      {
+        "name": "Carter, Bob",
+        "vote": "Y"
+      },
+      {
+        "name": "Fitzgerald, Ross",
+        "vote": "Y"
+      },
+      {
+        "name": "Galloway, Steven",
+        "vote": "Y"
+      },
+      {
+        "name": "Gist, Steve",
+        "vote": "Y"
+      },
+      {
+        "name": "Gunderson, Steve",
+        "vote": "Y"
+      },
+      {
+        "name": "Harvey, Derek",
+        "vote": "Y"
+      },
+      {
+        "name": "Karlen, Jonathan",
+        "vote": "Y"
+      },
+      {
+        "name": "Loge, Denley",
+        "vote": "Y"
+      },
+      {
+        "name": "Lynch, Jennifer",
+        "vote": "Y"
+      },
+      {
+        "name": "Marshall, Ron",
+        "vote": "Y"
+      },
+      {
+        "name": "Matthews, Eric",
+        "vote": "Y"
+      },
+      {
+        "name": "Nicol, Nelly",
+        "vote": "Y"
+      },
+      {
+        "name": "Oblander, Greg",
+        "vote": "Y"
+      },
+      {
+        "name": "Seekins-Crowe, Kerri",
+        "vote": "Y"
+      },
+      {
+        "name": "Sullivan, Katie",
+        "vote": "Y"
+      }
+    ]
   },
   {
     "url": "http://leg.mt.gov/bills/2023/minutes/senate/votesheets/SB0036PHS230113.pdf",
@@ -147222,7 +147731,7 @@
     "action_id": "SB37-0015",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 7,
       "N": 4
@@ -147732,7 +148241,7 @@
     "action_id": "SB38-0015",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 7,
       "N": 4
@@ -148181,7 +148690,7 @@
     "action_id": "SB39-0016",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 8,
       "N": 3
@@ -148905,7 +149414,7 @@
     "action_id": "SB40-0024",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing URL",
     "totals": {
       "Y": 18,
       "N": 0
@@ -150999,7 +151508,7 @@
     "action_id": "SB47-0024",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing URL",
     "totals": {
       "Y": 6,
       "N": 5
@@ -152002,7 +152511,7 @@
     "action_id": "SB53-0021",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 10,
       "N": 0
@@ -152451,7 +152960,7 @@
     "action_id": "SB54-0029",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 11,
       "N": 1
@@ -153676,7 +154185,7 @@
     "action_id": "SB58-0025",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 19,
       "N": 0
@@ -153746,7 +154255,7 @@
     "action_id": "SB60-0019",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing URL",
     "totals": {
       "Y": 10,
       "N": 0
@@ -153759,7 +154268,7 @@
     "action_id": "SB61-0016",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing URL",
     "totals": {
       "Y": 7,
       "N": 3
@@ -154269,7 +154778,7 @@
     "action_id": "SB62-0027",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing URL",
     "totals": {
       "Y": 21,
       "N": 0
@@ -154775,7 +155284,7 @@
     "action_id": "SB64-0016",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 12,
       "N": 0
@@ -155721,7 +156230,7 @@
     "action_id": "SB66-0014",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing URL",
     "totals": {
       "Y": 10,
       "N": 0
@@ -156284,7 +156793,7 @@
     "action_id": "SB68-0018",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 10,
       "N": 1
@@ -158057,19 +158566,6 @@
     ]
   },
   {
-    "url": "http://leg.mt.gov/bills/2023/minutes/senate/votesheets/SB0072NAS230118.pdf",
-    "bill": "SB 72",
-    "session": "20231",
-    "action_id": "SB72-0021",
-    "type": "committee",
-    "seq_number": null,
-    "error": "Skipped previously missing vote page",
-    "totals": {
-      "Y": 6,
-      "N": 5
-    }
-  },
-  {
     "url": "http://leg.mt.gov/bills/2023/minutes/senate/votesheets/SB0074STS230111.pdf",
     "bill": "SB 74",
     "session": "20231",
@@ -159616,7 +160112,7 @@
     "action_id": "SB78-0024",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 11,
       "N": 0
@@ -160065,7 +160561,7 @@
     "action_id": "SB79-0019",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing URL",
     "totals": {
       "Y": 11,
       "N": 0
@@ -160565,17 +161061,93 @@
     ]
   },
   {
-    "url": null,
+    "url": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/SB0080BUH230125.pdf",
     "bill": "SB 80",
     "session": "20231",
     "action_id": "SB80-0030",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": null,
+    "date": "January 25, 2023",
+    "description": "Rep. Seekins-Crowe made a Motion that SB 80 Be Concurred In",
     "totals": {
       "Y": 18,
       "N": 0
-    }
+    },
+    "votes": [
+      {
+        "name": "Anderson, Fred",
+        "vote": "Y"
+      },
+      {
+        "name": "Bergstrom, James",
+        "vote": "Y"
+      },
+      {
+        "name": "Buttrey, Edward",
+        "vote": "Y"
+      },
+      {
+        "name": "Carter, Bob",
+        "vote": "Y"
+      },
+      {
+        "name": "Fitzgerald, Ross",
+        "vote": "Y"
+      },
+      {
+        "name": "Galloway, Steven",
+        "vote": "Y"
+      },
+      {
+        "name": "Gist, Steve",
+        "vote": "Y"
+      },
+      {
+        "name": "Gunderson, Steve",
+        "vote": "Y"
+      },
+      {
+        "name": "Harvey, Derek",
+        "vote": "Y"
+      },
+      {
+        "name": "Karlen, Jonathan",
+        "vote": "Y"
+      },
+      {
+        "name": "Loge, Denley",
+        "vote": "Y"
+      },
+      {
+        "name": "Lynch, Jennifer",
+        "vote": "Y"
+      },
+      {
+        "name": "Marshall, Ron",
+        "vote": "Y"
+      },
+      {
+        "name": "Matthews, Eric",
+        "vote": "Y"
+      },
+      {
+        "name": "Nicol, Nelly",
+        "vote": "Y"
+      },
+      {
+        "name": "Oblander, Greg",
+        "vote": "Y"
+      },
+      {
+        "name": "Seekins-Crowe, Kerri",
+        "vote": "Y"
+      },
+      {
+        "name": "Sullivan, Katie",
+        "vote": "Y"
+      }
+    ]
   },
   {
     "url": "http://leg.mt.gov/bills/2023/minutes/senate/votesheets/SB0081TAS230118.pdf",
@@ -160584,7 +161156,7 @@
     "action_id": "SB81-0016",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 12,
       "N": 0
@@ -161033,7 +161605,7 @@
     "action_id": "SB84-0016",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 12,
       "N": 0
@@ -161264,7 +161836,7 @@
     "action_id": "SB85-0015",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 10,
       "N": 2
@@ -162485,7 +163057,7 @@
     "action_id": "SB89-0021",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 9,
       "N": 2
@@ -163213,20 +163785,20 @@
     "action_id": "SB92-0020",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing URL",
     "totals": {
       "Y": 9,
       "N": 2
     }
   },
   {
-    "url": null,
+    "url": "http://leg.mt.gov/bills/2023/minutes/senate/votesheets/SB0094JUS230125.pdf",
     "bill": "SB 94",
     "session": "20231",
     "action_id": "SB94-0022",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 9,
       "N": 2
@@ -164015,7 +164587,7 @@
     "action_id": "SB97-0025",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing URL",
     "totals": {
       "Y": 11,
       "N": 1
@@ -166603,7 +167175,7 @@
     "action_id": "SB106-0020",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 11,
       "N": 0
@@ -168539,7 +169111,7 @@
     "action_id": "SB112-0020",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 6,
       "N": 3
@@ -168770,7 +169342,7 @@
     "action_id": "SB113-0020",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 9,
       "N": 0
@@ -169708,7 +170280,7 @@
     "action_id": "SB115-0019",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 9,
       "N": 0
@@ -170428,7 +171000,7 @@
     "action_id": "SB119-0023",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 12,
       "N": 0
@@ -170877,7 +171449,7 @@
     "action_id": "SB120-0025",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing URL",
     "totals": {
       "Y": 7,
       "N": 5
@@ -171544,7 +172116,7 @@
     "action_id": "SB121-0026",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 7,
       "N": 5
@@ -172712,7 +173284,7 @@
     "action_id": "SB124-0024",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 9,
       "N": 3
@@ -172943,7 +173515,7 @@
     "action_id": "SB128-0019",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 10,
       "N": 0
@@ -173392,7 +173964,7 @@
     "action_id": "SB129-0017",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 9,
       "N": 2
@@ -173405,7 +173977,7 @@
     "action_id": "SB130-0028",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 9,
       "N": 0
@@ -174343,7 +174915,7 @@
     "action_id": "SB132-0024",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 11,
       "N": 0
@@ -174692,7 +175264,7 @@
     "action_id": "SB134-0025",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 7,
       "N": 4
@@ -175135,13 +175707,13 @@
     ]
   },
   {
-    "url": null,
+    "url": "http://leg.mt.gov/bills/2023/minutes/senate/votesheets/SB0135JUS230125.pdf",
     "bill": "SB 135",
     "session": "20231",
     "action_id": "SB135-0020",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 7,
       "N": 4
@@ -175215,7 +175787,7 @@
     "action_id": "SB138-0021",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing URL",
     "totals": {
       "Y": 11,
       "N": 0
@@ -175228,7 +175800,7 @@
     "action_id": "SB139-0020",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing URL",
     "totals": {
       "Y": 12,
       "N": 0
@@ -175241,7 +175813,7 @@
     "action_id": "SB140-0020",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing URL",
     "totals": {
       "Y": 10,
       "N": 0
@@ -176297,20 +176869,20 @@
     "action_id": "SB147-0022",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing URL",
     "totals": {
       "Y": 7,
       "N": 5
     }
   },
   {
-    "url": null,
+    "url": "http://leg.mt.gov/bills/2023/minutes/senate/votesheets/SB0148JUS230125.pdf",
     "bill": "SB 148",
     "session": "20231",
     "action_id": "SB148-0023",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 9,
       "N": 2
@@ -176384,7 +176956,7 @@
     "action_id": "SB149-0018",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 11,
       "N": 0
@@ -176833,7 +177405,7 @@
     "action_id": "SB149-0025",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 11,
       "N": 0
@@ -176846,7 +177418,7 @@
     "action_id": "SB151-0023",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 9,
       "N": 0
@@ -177077,7 +177649,7 @@
     "action_id": "SB152-0020",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 9,
       "N": 0
@@ -177526,7 +178098,7 @@
     "action_id": "SB153-0024",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing URL",
     "totals": {
       "Y": 10,
       "N": 0
@@ -177600,7 +178172,7 @@
     "action_id": "SB154-0020",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 7,
       "N": 4
@@ -179964,7 +180536,7 @@
     "action_id": "SB162-0026",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 9,
       "N": 0
@@ -180195,7 +180767,7 @@
     "action_id": "SB163-0027",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing URL",
     "totals": {
       "Y": 8,
       "N": 1
@@ -180208,7 +180780,7 @@
     "action_id": "SB166-0023",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 10,
       "N": 0
@@ -180714,7 +181286,7 @@
     "action_id": "SB170-0022",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing URL",
     "totals": {
       "Y": 9,
       "N": 0
@@ -181273,7 +181845,7 @@
     "action_id": "SB181-0018",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing URL",
     "totals": {
       "Y": 8,
       "N": 1
@@ -181286,7 +181858,7 @@
     "action_id": "SB184-0019",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing URL",
     "totals": {
       "Y": 6,
       "N": 5
@@ -181299,7 +181871,7 @@
     "action_id": "SB195-0020",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing URL",
     "totals": {
       "Y": 6,
       "N": 3
@@ -184030,13 +184602,13 @@
     ]
   },
   {
-    "url": null,
+    "url": "http://leg.mt.gov/bills/2023/minutes/senate/votesheets/SJ0002BUS230125.pdf",
     "bill": "SJ 2",
     "session": "20231",
     "action_id": "SJ2-0019",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 6,
       "N": 4
@@ -185039,7 +185611,7 @@
     "action_id": "SJ4-0028",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing URL",
     "totals": {
       "Y": 18,
       "N": 0
@@ -185113,7 +185685,7 @@
     "action_id": "SJ5-0016",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 11,
       "N": 0
@@ -185562,7 +186134,7 @@
     "action_id": "SJ7-0018",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 10,
       "N": 0
@@ -186286,7 +186858,7 @@
     "action_id": "SJ8-0031",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing URL",
     "totals": {
       "Y": 12,
       "N": 6
@@ -186598,7 +187170,7 @@
     "action_id": "SR9-0017",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing URL",
     "totals": {
       "Y": 11,
       "N": 0
