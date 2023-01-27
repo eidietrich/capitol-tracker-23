@@ -2900,7 +2900,7 @@
     "action_id": "HB16-0022",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 19,
       "N": 0
@@ -2916,7 +2916,7 @@
       "Y": 99,
       "N": 0
     },
-    "error": "Skipped previously missing vote page"
+    "error": "Missing vote page"
   },
   {
     "url": "http://laws.leg.mt.gov/legprd/LAW0211W$BLAC.VoteTabulation?P_VOTE_SEQ=H257&P_SESS=20231",
@@ -116653,7 +116653,7 @@
     "action_id": "HB171-0025",
     "type": "committee",
     "seq_number": null,
-    "error": "Skipped previously missing vote page",
+    "error": "Missing PDF",
     "totals": {
       "Y": 13,
       "N": 0
@@ -130152,17 +130152,105 @@
     ]
   },
   {
-    "url": null,
+    "url": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0218HUH230126.pdf",
     "bill": "HB 218",
     "session": "20231",
     "action_id": "HB218-0023",
     "type": "committee",
     "seq_number": null,
-    "error": "Missing URL",
+    "error": null,
+    "date": "January 26, 2023",
+    "description": "Rep. Smith made a Motion that HB0218.001.005 Be Amended",
     "totals": {
       "Y": 21,
       "N": 0
-    }
+    },
+    "votes": [
+      {
+        "name": "Abbott, Kim",
+        "vote": "Y"
+      },
+      {
+        "name": "Buckley, Alice",
+        "vote": "Y"
+      },
+      {
+        "name": "Buttrey, Edward",
+        "vote": "Y"
+      },
+      {
+        "name": "Carlson, Jennifer",
+        "vote": "Y"
+      },
+      {
+        "name": "Etchart, Jodee",
+        "vote": "Y"
+      },
+      {
+        "name": "Frazer, Gregory",
+        "vote": "Y"
+      },
+      {
+        "name": "Hawk, Donavon",
+        "vote": "Y"
+      },
+      {
+        "name": "Hinkle, Caleb",
+        "vote": "Y"
+      },
+      {
+        "name": "Howell, SJ",
+        "vote": "Y"
+      },
+      {
+        "name": "Marshall, Ron",
+        "vote": "Y"
+      },
+      {
+        "name": "Nicol, Nelly",
+        "vote": "Y"
+      },
+      {
+        "name": "Nikolakakos, George;byproxy",
+        "vote": "Y"
+      },
+      {
+        "name": "Oblander, Greg",
+        "vote": "Y"
+      },
+      {
+        "name": "Regier, Amy",
+        "vote": "Y"
+      },
+      {
+        "name": "Rusk, Wayne",
+        "vote": "Y"
+      },
+      {
+        "name": "Sheldon-Galloway, Lola",
+        "vote": "Y"
+      },
+      {
+        "name": "Smith, Laura",
+        "vote": "Y"
+      },
+      {
+        "name": "Stafman, Ed",
+        "vote": "Y"
+      },
+      {
+        "name": "Welch, Tom",
+        "vote": "Y"
+      },
+      {
+        "name": "Yakawich, Michael",
+        "vote": "Y"
+      },
+      {
+        "name": "Zephyr, Zooey",
+        "vote": "Y"
+      }
+    ]
   },
   {
     "url": null,
@@ -132733,7 +132821,7 @@
     "url": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0286HUH230126.pdf",
     "bill": "HB 286",
     "session": "20231",
-    "action_id": "HB286-0019",
+    "action_id": "HB286-0023",
     "type": "committee",
     "seq_number": null,
     "error": null,

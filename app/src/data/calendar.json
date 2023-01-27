@@ -13,6 +13,7 @@
     "billsOnCalendar": [
         "HB 2",
         "HB 15",
+        "HB 16",
         "HB 31",
         "HB 37",
         "HB 41",
@@ -34,6 +35,7 @@
         "HB 154",
         "HB 169",
         "HB 170",
+        "HB 171",
         "HB 183",
         "HB 208",
         "HB 220",
@@ -345,6 +347,19 @@
             "hearing": true
         },
         {
+            "id": "HB16-0035",
+            "bill": "HB 16",
+            "date": "01/30/2023",
+            "description": "Hearing",
+            "posession": "house",
+            "committee": "House Appropriations",
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
             "id": "HB31-0026",
             "bill": "HB 31",
             "date": "01/27/2023",
@@ -611,6 +626,19 @@
             "description": "Hearing",
             "posession": "senate",
             "committee": "Senate Energy and Telecommunications",
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
+            "id": "HB171-0031",
+            "bill": "HB 171",
+            "date": "01/30/2023",
+            "description": "Hearing",
+            "posession": "house",
+            "committee": "House Appropriations",
             "actionUrl": null,
             "recordings": [],
             "key": "Hearing",
