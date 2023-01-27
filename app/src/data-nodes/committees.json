@@ -607,10 +607,6 @@
         ],
         "billCount": 64,
         "billsUnscheduled": [
-            "HB 128",
-            "HB 201",
-            "HB 293",
-            "HB 300",
             "HB 313",
             "HB 351"
         ],
@@ -1565,11 +1561,23 @@
         "billCount": 14,
         "billsUnscheduled": [
             "HB 130",
-            "HB 185",
-            "HB 342",
-            "HB 343",
-            "HB 347",
-            "HJ 4"
+            "HB 185"
+        ],
+        "billsScheduledByDay": [
+            {
+                "day": "01/30/2023",
+                "bills": [
+                    "HB 342",
+                    "HB 347"
+                ]
+            },
+            {
+                "day": "02/01/2023",
+                "bills": [
+                    "HB 343",
+                    "HJ 4"
+                ]
+            }
         ],
         "billsAwaitingVote": [
             "HB 289"
