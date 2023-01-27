@@ -1340,7 +1340,6 @@
             "HB 238",
             "HB 252",
             "HB 265",
-            "HB 286",
             "SB 6"
         ],
         "billsFailed": [
@@ -1362,6 +1361,7 @@
             "HB 194",
             "HB 200",
             "HB 227",
+            "HB 286",
             "SB 34",
             "SB 45"
         ],
@@ -2891,11 +2891,7 @@
         "billsScheduledByDay": [],
         "billsAwaitingVote": [
             "SB 19",
-            "SB 54",
-            "SB 70",
-            "SB 89",
             "SB 95",
-            "SB 108",
             "SB 126",
             "SB 132"
         ],
@@ -2905,7 +2901,11 @@
             "SB 3",
             "SB 21",
             "SB 29",
-            "SB 58"
+            "SB 54",
+            "SB 58",
+            "SB 70",
+            "SB 89",
+            "SB 108"
         ],
         "billsBlasted": [],
         "members": [
@@ -4500,8 +4500,7 @@
         "billsAwaitingVote": [
             "HB 85",
             "SB 52",
-            "SB 203",
-            "SR 28"
+            "SB 203"
         ],
         "billsFailed": [],
         "billsAdvanced": [
@@ -4509,7 +4508,8 @@
             "HB 59",
             "HB 153",
             "SB 37",
-            "SB 78"
+            "SB 78",
+            "SR 28"
         ],
         "billsBlasted": [],
         "members": [
