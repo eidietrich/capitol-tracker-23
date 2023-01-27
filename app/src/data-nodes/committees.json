@@ -40,13 +40,17 @@
             "HB 147",
             "HB 163",
             "HB 171",
+            "HB 174",
             "HB 175",
+            "HB 180",
             "HB 185",
             "HB 188",
+            "HB 189",
             "HB 192",
             "HB 212",
             "HB 221",
             "HB 222",
+            "HB 223",
             "HB 244",
             "HB 245",
             "HB 251",
@@ -56,7 +60,7 @@
             "HB 274",
             "HB 292"
         ],
-        "billCount": 50,
+        "billCount": 54,
         "billsUnscheduled": [
             "HB 2",
             "HB 5",
@@ -74,7 +78,16 @@
                 "bills": [
                     "HB 16",
                     "HB 37",
-                    "HB 171"
+                    "HB 171",
+                    "HB 174",
+                    "HB 189",
+                    "HB 223"
+                ]
+            },
+            {
+                "day": "01/31/2023",
+                "bills": [
+                    "HB 180"
                 ]
             }
         ],
@@ -1354,9 +1367,7 @@
         "billsUnscheduled": [
             "HB 264",
             "HB 300",
-            "HB 311",
             "HB 313",
-            "HB 317",
             "HB 336",
             "SB 87"
         ],
@@ -1372,6 +1383,18 @@
                 "day": "01/30/2023",
                 "bills": [
                     "HB 312"
+                ]
+            },
+            {
+                "day": "01/31/2023",
+                "bills": [
+                    "HB 311"
+                ]
+            },
+            {
+                "day": "02/01/2023",
+                "bills": [
+                    "HB 317"
                 ]
             }
         ],
@@ -5858,12 +5881,20 @@
             "HB 7",
             "HB 8",
             "HB 9",
+            "HB 10",
             "HB 11",
             "HB 12"
         ],
-        "billCount": 7,
+        "billCount": 8,
         "billsUnscheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduledByDay": [
+            {
+                "day": "01/30/2023",
+                "bills": [
+                    "HB 10"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "HB 5",
             "HB 6",

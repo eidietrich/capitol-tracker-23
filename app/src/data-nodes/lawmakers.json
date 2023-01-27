@@ -9590,9 +9590,9 @@
                 "title": "Revise municipal police officers retirement laws",
                 "chamber": "house",
                 "status": {
-                    "key": "In First House--Through 2nd Reading",
+                    "key": "In First House Committee--Nontabled",
                     "step": "First chamber",
-                    "label": "Passed second reading vote",
+                    "label": "In committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -20650,9 +20650,9 @@
                 "title": "Expanding the disabled veteran property tax assistance program",
                 "chamber": "house",
                 "status": {
-                    "key": "In First House--Through 2nd Reading",
+                    "key": "In First House Committee--Nontabled",
                     "step": "First chamber",
-                    "label": "Passed second reading vote",
+                    "label": "In committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -28297,9 +28297,9 @@
                 "title": "Revise property tax assistance program",
                 "chamber": "house",
                 "status": {
-                    "key": "In First House--Through 2nd Reading",
+                    "key": "In First House Committee--Nontabled",
                     "step": "First chamber",
-                    "label": "Passed second reading vote",
+                    "label": "In committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -44150,6 +44150,68 @@
                     "locale": "Helena",
                     "district": "SD 41"
                 }
+            },
+            {
+                "key": "sb-232",
+                "identifier": "SB 232",
+                "title": "Provide for deadlines to respond to public information requests",
+                "chamber": "senate",
+                "status": {
+                    "key": "In First House--Introduced",
+                    "step": "First chamber",
+                    "label": "Introduced",
+                    "status": "live",
+                    "statusAtSessionEnd": "failed"
+                },
+                "progress": [
+                    {
+                        "step": "introduced",
+                        "status": "passed",
+                        "statusLabel": "Introduced",
+                        "statusDate": "01/27/2023"
+                    },
+                    {
+                        "step": "first committee",
+                        "status": "current",
+                        "statusLabel": "Pending",
+                        "statusDate": null
+                    },
+                    {
+                        "step": "first chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "second chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "reconciliation",
+                        "status": "skipped",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "governor",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    }
+                ],
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC1325.pdf",
+                "fiscalNoteUrl": null,
+                "legalNoteUrl": null,
+                "numArticles": 0,
+                "sponsor": {
+                    "name": "Janet Ellis",
+                    "lastName": "Ellis",
+                    "party": "D",
+                    "locale": "Helena",
+                    "district": "SD 41"
+                }
             }
         ],
         "votingSummary": {
@@ -59510,6 +59572,68 @@
                     }
                 ],
                 "textUrl": "http://leg.mt.gov/bills/2023/billpdf/SB0146.pdf",
+                "fiscalNoteUrl": null,
+                "legalNoteUrl": null,
+                "numArticles": 0,
+                "sponsor": {
+                    "name": "Shane Morigeau",
+                    "lastName": "Morigeau",
+                    "party": "D",
+                    "locale": "Missoula",
+                    "district": "SD 48"
+                }
+            },
+            {
+                "key": "sb-233",
+                "identifier": "SB 233",
+                "title": "Enhance legislative understanding of state-tribal relations",
+                "chamber": "senate",
+                "status": {
+                    "key": "In First House--Introduced",
+                    "step": "First chamber",
+                    "label": "Introduced",
+                    "status": "live",
+                    "statusAtSessionEnd": "failed"
+                },
+                "progress": [
+                    {
+                        "step": "introduced",
+                        "status": "passed",
+                        "statusLabel": "Introduced",
+                        "statusDate": "01/27/2023"
+                    },
+                    {
+                        "step": "first committee",
+                        "status": "current",
+                        "statusLabel": "Pending",
+                        "statusDate": null
+                    },
+                    {
+                        "step": "first chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "second chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "reconciliation",
+                        "status": "skipped",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "governor",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    }
+                ],
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC1013.pdf",
                 "fiscalNoteUrl": null,
                 "legalNoteUrl": null,
                 "numArticles": 0,
