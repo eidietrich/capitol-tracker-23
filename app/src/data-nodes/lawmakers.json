@@ -4804,6 +4804,68 @@
                     "locale": "Kalispell",
                     "district": "HD 9"
                 }
+            },
+            {
+                "key": "hb-343",
+                "identifier": "HB 343",
+                "title": "Generally revise library geospatial and natural resource information  laws",
+                "chamber": "house",
+                "status": {
+                    "key": "In First House--Introduced",
+                    "step": "First chamber",
+                    "label": "Introduced",
+                    "status": "live",
+                    "statusAtSessionEnd": "failed"
+                },
+                "progress": [
+                    {
+                        "step": "introduced",
+                        "status": "passed",
+                        "statusLabel": "Introduced",
+                        "statusDate": "01/26/2023"
+                    },
+                    {
+                        "step": "first committee",
+                        "status": "current",
+                        "statusLabel": "Pending",
+                        "statusDate": null
+                    },
+                    {
+                        "step": "first chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "second chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "reconciliation",
+                        "status": "skipped",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "governor",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    }
+                ],
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC3451.pdf",
+                "fiscalNoteUrl": null,
+                "legalNoteUrl": null,
+                "numArticles": 0,
+                "sponsor": {
+                    "name": "Tony Brockman",
+                    "lastName": "Brockman",
+                    "party": "R",
+                    "locale": "Kalispell",
+                    "district": "HD 9"
+                }
             }
         ],
         "votingSummary": {
@@ -12785,7 +12847,70 @@
         ],
         "articles": [],
         "imageSlug": "2023/jim-hamilton.png",
-        "sponsoredBills": [],
+        "sponsoredBills": [
+            {
+                "key": "hb-345",
+                "identifier": "HB 345",
+                "title": "Exclusion from federal taxable income for medical savings accounts",
+                "chamber": "house",
+                "status": {
+                    "key": "In First House--Introduced",
+                    "step": "First chamber",
+                    "label": "Introduced",
+                    "status": "live",
+                    "statusAtSessionEnd": "failed"
+                },
+                "progress": [
+                    {
+                        "step": "introduced",
+                        "status": "passed",
+                        "statusLabel": "Introduced",
+                        "statusDate": "01/26/2023"
+                    },
+                    {
+                        "step": "first committee",
+                        "status": "current",
+                        "statusLabel": "Pending",
+                        "statusDate": null
+                    },
+                    {
+                        "step": "first chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "second chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "reconciliation",
+                        "status": "skipped",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "governor",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    }
+                ],
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC4309.pdf",
+                "fiscalNoteUrl": null,
+                "legalNoteUrl": null,
+                "numArticles": 0,
+                "sponsor": {
+                    "name": "Jim Hamilton",
+                    "lastName": "Hamilton",
+                    "party": "D",
+                    "locale": "Bozeman",
+                    "district": "HD 61"
+                }
+            }
+        ],
         "votingSummary": {
             "name": "Jim Hamilton",
             "party": "D",
@@ -22868,6 +22993,68 @@
                 }
             },
             {
+                "key": "hb-213",
+                "identifier": "HB 213",
+                "title": "Provide certificate of nonviable birth",
+                "chamber": "house",
+                "status": {
+                    "key": "In First House--Out of Committee",
+                    "step": "First chamber",
+                    "label": "Out of committee",
+                    "status": "live",
+                    "statusAtSessionEnd": "failed"
+                },
+                "progress": [
+                    {
+                        "step": "introduced",
+                        "status": "passed",
+                        "statusLabel": "Introduced",
+                        "statusDate": "01/06/2023"
+                    },
+                    {
+                        "step": "first committee",
+                        "status": "passed",
+                        "statusLabel": "Advanced",
+                        "statusDate": "01/20/2023"
+                    },
+                    {
+                        "step": "first chamber",
+                        "status": "current",
+                        "statusLabel": "Pending",
+                        "statusDate": null
+                    },
+                    {
+                        "step": "second chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "reconciliation",
+                        "status": "skipped",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "governor",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    }
+                ],
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0213.pdf",
+                "fiscalNoteUrl": null,
+                "legalNoteUrl": null,
+                "numArticles": 0,
+                "sponsor": {
+                    "name": "Braxton Mitchell",
+                    "lastName": "Mitchell",
+                    "party": "R",
+                    "locale": "Columbia Falls",
+                    "district": "HD 3"
+                }
+            },
+            {
                 "key": "hb-306",
                 "identifier": "HB 306",
                 "title": "Require candidates for office be registered to vote",
@@ -28063,6 +28250,68 @@
                     "locale": "Billings",
                     "district": "HD 43"
                 }
+            },
+            {
+                "key": "hb-351",
+                "identifier": "HB 351",
+                "title": "Generally revise marijuana laws",
+                "chamber": "house",
+                "status": {
+                    "key": "In First House--Introduced",
+                    "step": "First chamber",
+                    "label": "Introduced",
+                    "status": "live",
+                    "statusAtSessionEnd": "failed"
+                },
+                "progress": [
+                    {
+                        "step": "introduced",
+                        "status": "passed",
+                        "statusLabel": "Introduced",
+                        "statusDate": "01/26/2023"
+                    },
+                    {
+                        "step": "first committee",
+                        "status": "current",
+                        "statusLabel": "Pending",
+                        "statusDate": null
+                    },
+                    {
+                        "step": "first chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "second chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "reconciliation",
+                        "status": "skipped",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "governor",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    }
+                ],
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC1951.pdf",
+                "fiscalNoteUrl": null,
+                "legalNoteUrl": null,
+                "numArticles": 0,
+                "sponsor": {
+                    "name": "Kerri Seekins-Crowe",
+                    "lastName": "Seekins-Crowe",
+                    "party": "R",
+                    "locale": "Billings",
+                    "district": "HD 43"
+                }
             }
         ],
         "votingSummary": {
@@ -28313,6 +28562,68 @@
                     }
                 ],
                 "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0078.pdf",
+                "fiscalNoteUrl": null,
+                "legalNoteUrl": null,
+                "numArticles": 0,
+                "sponsor": {
+                    "name": "Lola Sheldon-Galloway",
+                    "lastName": "Sheldon-Galloway",
+                    "party": "R",
+                    "locale": "Great Falls",
+                    "district": "HD 22"
+                }
+            },
+            {
+                "key": "hb-349",
+                "identifier": "HB 349",
+                "title": "Establish obscenity filter requirements for electronic devices",
+                "chamber": "house",
+                "status": {
+                    "key": "In First House--Introduced",
+                    "step": "First chamber",
+                    "label": "Introduced",
+                    "status": "live",
+                    "statusAtSessionEnd": "failed"
+                },
+                "progress": [
+                    {
+                        "step": "introduced",
+                        "status": "passed",
+                        "statusLabel": "Introduced",
+                        "statusDate": "01/26/2023"
+                    },
+                    {
+                        "step": "first committee",
+                        "status": "current",
+                        "statusLabel": "Pending",
+                        "statusDate": null
+                    },
+                    {
+                        "step": "first chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "second chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "reconciliation",
+                        "status": "skipped",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "governor",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    }
+                ],
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC1318.pdf",
                 "fiscalNoteUrl": null,
                 "legalNoteUrl": null,
                 "numArticles": 0,
@@ -28638,6 +28949,68 @@
                     }
                 ],
                 "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0330.pdf",
+                "fiscalNoteUrl": null,
+                "legalNoteUrl": null,
+                "numArticles": 0,
+                "sponsor": {
+                    "name": "Frank Smith",
+                    "lastName": "Smith",
+                    "party": "D",
+                    "locale": "Poplar",
+                    "district": "HD 31"
+                }
+            },
+            {
+                "key": "hb-350",
+                "identifier": "HB 350",
+                "title": "Generally revise country of origin labeling",
+                "chamber": "house",
+                "status": {
+                    "key": "In First House--Introduced",
+                    "step": "First chamber",
+                    "label": "Introduced",
+                    "status": "live",
+                    "statusAtSessionEnd": "failed"
+                },
+                "progress": [
+                    {
+                        "step": "introduced",
+                        "status": "passed",
+                        "statusLabel": "Introduced",
+                        "statusDate": "01/26/2023"
+                    },
+                    {
+                        "step": "first committee",
+                        "status": "current",
+                        "statusLabel": "Pending",
+                        "statusDate": null
+                    },
+                    {
+                        "step": "first chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "second chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "reconciliation",
+                        "status": "skipped",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "governor",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    }
+                ],
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC2323.pdf",
                 "fiscalNoteUrl": null,
                 "legalNoteUrl": null,
                 "numArticles": 0,
@@ -30615,6 +30988,68 @@
                     "locale": "Missoula",
                     "district": "HD 99"
                 }
+            },
+            {
+                "key": "hb-344",
+                "identifier": "HB 344",
+                "title": "Require new school buses to be equipped with lap-shoulder belts",
+                "chamber": "house",
+                "status": {
+                    "key": "In First House--Introduced",
+                    "step": "First chamber",
+                    "label": "Introduced",
+                    "status": "live",
+                    "statusAtSessionEnd": "failed"
+                },
+                "progress": [
+                    {
+                        "step": "introduced",
+                        "status": "passed",
+                        "statusLabel": "Introduced",
+                        "statusDate": "01/26/2023"
+                    },
+                    {
+                        "step": "first committee",
+                        "status": "current",
+                        "statusLabel": "Pending",
+                        "statusDate": null
+                    },
+                    {
+                        "step": "first chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "second chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "reconciliation",
+                        "status": "skipped",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "governor",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    }
+                ],
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC3928.pdf",
+                "fiscalNoteUrl": null,
+                "legalNoteUrl": null,
+                "numArticles": 0,
+                "sponsor": {
+                    "name": "Mark Thane",
+                    "lastName": "Thane",
+                    "party": "D",
+                    "locale": "Missoula",
+                    "district": "HD 99"
+                }
             }
         ],
         "votingSummary": {
@@ -31648,6 +32083,130 @@
                     }
                 ],
                 "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0178.pdf",
+                "fiscalNoteUrl": null,
+                "legalNoteUrl": null,
+                "numArticles": 0,
+                "sponsor": {
+                    "name": "Kenneth Walsh",
+                    "lastName": "Walsh",
+                    "party": "R",
+                    "locale": "Twin Bridges",
+                    "district": "HD 71"
+                }
+            },
+            {
+                "key": "hb-347",
+                "identifier": "HB 347",
+                "title": "Define administrative deficiencies for certain mining operations",
+                "chamber": "house",
+                "status": {
+                    "key": "In First House--Introduced",
+                    "step": "First chamber",
+                    "label": "Introduced",
+                    "status": "live",
+                    "statusAtSessionEnd": "failed"
+                },
+                "progress": [
+                    {
+                        "step": "introduced",
+                        "status": "passed",
+                        "statusLabel": "Introduced",
+                        "statusDate": "01/26/2023"
+                    },
+                    {
+                        "step": "first committee",
+                        "status": "current",
+                        "statusLabel": "Pending",
+                        "statusDate": null
+                    },
+                    {
+                        "step": "first chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "second chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "reconciliation",
+                        "status": "skipped",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "governor",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    }
+                ],
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC0895.pdf",
+                "fiscalNoteUrl": null,
+                "legalNoteUrl": null,
+                "numArticles": 0,
+                "sponsor": {
+                    "name": "Kenneth Walsh",
+                    "lastName": "Walsh",
+                    "party": "R",
+                    "locale": "Twin Bridges",
+                    "district": "HD 71"
+                }
+            },
+            {
+                "key": "hb-348",
+                "identifier": "HB 348",
+                "title": "Revise laws related to state government employee directories",
+                "chamber": "house",
+                "status": {
+                    "key": "In First House--Introduced",
+                    "step": "First chamber",
+                    "label": "Introduced",
+                    "status": "live",
+                    "statusAtSessionEnd": "failed"
+                },
+                "progress": [
+                    {
+                        "step": "introduced",
+                        "status": "passed",
+                        "statusLabel": "Introduced",
+                        "statusDate": "01/26/2023"
+                    },
+                    {
+                        "step": "first committee",
+                        "status": "current",
+                        "statusLabel": "Pending",
+                        "statusDate": null
+                    },
+                    {
+                        "step": "first chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "second chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "reconciliation",
+                        "status": "skipped",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "governor",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    }
+                ],
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC1435.pdf",
                 "fiscalNoteUrl": null,
                 "legalNoteUrl": null,
                 "numArticles": 0,
@@ -32788,6 +33347,68 @@
                     "locale": "Box Elder",
                     "district": "HD 32"
                 }
+            },
+            {
+                "key": "hb-346",
+                "identifier": "HB 346",
+                "title": "Revise the tribal computer programming scholarship program",
+                "chamber": "house",
+                "status": {
+                    "key": "In First House--Introduced",
+                    "step": "First chamber",
+                    "label": "Introduced",
+                    "status": "live",
+                    "statusAtSessionEnd": "failed"
+                },
+                "progress": [
+                    {
+                        "step": "introduced",
+                        "status": "passed",
+                        "statusLabel": "Introduced",
+                        "statusDate": "01/26/2023"
+                    },
+                    {
+                        "step": "first committee",
+                        "status": "current",
+                        "statusLabel": "Pending",
+                        "statusDate": null
+                    },
+                    {
+                        "step": "first chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "second chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "reconciliation",
+                        "status": "skipped",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "governor",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    }
+                ],
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC4006.pdf",
+                "fiscalNoteUrl": null,
+                "legalNoteUrl": null,
+                "numArticles": 0,
+                "sponsor": {
+                    "name": "Jonathan Windy Boy",
+                    "lastName": "Windy Boy",
+                    "party": "D",
+                    "locale": "Box Elder",
+                    "district": "HD 32"
+                }
             }
         ],
         "votingSummary": {
@@ -32888,70 +33509,7 @@
         ],
         "articles": [],
         "imageSlug": "2023/zack-wirth.png",
-        "sponsoredBills": [
-            {
-                "key": "hb-213",
-                "identifier": "HB 213",
-                "title": "Provide certificate of nonviable birth",
-                "chamber": "house",
-                "status": {
-                    "key": "In First House--Out of Committee",
-                    "step": "First chamber",
-                    "label": "Out of committee",
-                    "status": "live",
-                    "statusAtSessionEnd": "failed"
-                },
-                "progress": [
-                    {
-                        "step": "introduced",
-                        "status": "passed",
-                        "statusLabel": "Introduced",
-                        "statusDate": "01/06/2023"
-                    },
-                    {
-                        "step": "first committee",
-                        "status": "passed",
-                        "statusLabel": "Advanced",
-                        "statusDate": "01/20/2023"
-                    },
-                    {
-                        "step": "first chamber",
-                        "status": "current",
-                        "statusLabel": "Pending",
-                        "statusDate": null
-                    },
-                    {
-                        "step": "second chamber",
-                        "status": "future",
-                        "statusLabel": null,
-                        "statusDate": null
-                    },
-                    {
-                        "step": "reconciliation",
-                        "status": "skipped",
-                        "statusLabel": null,
-                        "statusDate": null
-                    },
-                    {
-                        "step": "governor",
-                        "status": "future",
-                        "statusLabel": null,
-                        "statusDate": null
-                    }
-                ],
-                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0213.pdf",
-                "fiscalNoteUrl": null,
-                "legalNoteUrl": null,
-                "numArticles": 0,
-                "sponsor": {
-                    "name": "Zack Wirth",
-                    "lastName": "Wirth",
-                    "party": "R",
-                    "locale": "Wolf Creek",
-                    "district": "HD 80"
-                }
-            }
-        ],
+        "sponsoredBills": [],
         "votingSummary": {
             "name": "Zack Wirth",
             "party": "R",
