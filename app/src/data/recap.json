@@ -1,6 +1,45 @@
 {
     "actionsByDate": [
         {
+            "date": "01/27/2023",
+            "actions": [
+                {
+                    "id": "HB20-0020",
+                    "bill": "HB 20",
+                    "date": "01/27/2023",
+                    "description": "Tabled in Committee",
+                    "posession": "house",
+                    "committee": "House Appropriations",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Tabled in Committee",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "secondChamberAction": true,
+                    "failed": true,
+                    "tabled": true,
+                    "title": "Appropriation for the MSU Local Government Center"
+                },
+                {
+                    "id": "HB163-0030",
+                    "bill": "HB 163",
+                    "date": "01/27/2023",
+                    "description": "Committee Executive Action--Bill Passed",
+                    "posession": "house",
+                    "committee": "House Appropriations",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "title": "Revise and extend Missing Indigenous Persons Task Force"
+                }
+            ]
+        },
+        {
             "date": "01/26/2023",
             "actions": [
                 {
