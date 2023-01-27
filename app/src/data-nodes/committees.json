@@ -1315,7 +1315,8 @@
             "HB 311",
             "HB 313",
             "HB 317",
-            "HB 336"
+            "HB 336",
+            "SB 87"
         ],
         "billsScheduledByDay": [
             {
@@ -1328,8 +1329,7 @@
             {
                 "day": "01/30/2023",
                 "bills": [
-                    "HB 312",
-                    "SB 87"
+                    "HB 312"
                 ]
             }
         ],
@@ -1338,7 +1338,6 @@
             "HB 45",
             "HB 218",
             "HB 238",
-            "HB 248",
             "HB 252",
             "HB 265",
             "HB 286",
@@ -1348,7 +1347,8 @@
             "HB 64",
             "HB 195",
             "HB 207",
-            "HB 230"
+            "HB 230",
+            "HB 248"
         ],
         "billsAdvanced": [
             "HB 29",
@@ -2584,10 +2584,15 @@
             "HB 271"
         ],
         "billCount": 7,
-        "billsUnscheduled": [
-            "HB 271"
+        "billsUnscheduled": [],
+        "billsScheduledByDay": [
+            {
+                "day": "02/02/2023",
+                "bills": [
+                    "HB 271"
+                ]
+            }
         ],
-        "billsScheduledByDay": [],
         "billsAwaitingVote": [],
         "billsFailed": [],
         "billsAdvanced": [
