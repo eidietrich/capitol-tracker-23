@@ -3432,15 +3432,12 @@
         "billCount": 72,
         "billsUnscheduled": [
             "HB 101",
-            "HB 155",
-            "HB 178",
             "SB 20",
             "SB 112",
             "SB 165",
             "SB 178",
             "SB 209",
             "SB 211",
-            "SB 214",
             "SB 216",
             "SB 223",
             "SR 29",
@@ -3450,7 +3447,16 @@
             "SR 40",
             "SR 43"
         ],
-        "billsScheduledByDay": [],
+        "billsScheduledByDay": [
+            {
+                "day": "01/31/2023",
+                "bills": [
+                    "HB 155",
+                    "HB 178",
+                    "SB 214"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "HB 50",
             "HB 68",
