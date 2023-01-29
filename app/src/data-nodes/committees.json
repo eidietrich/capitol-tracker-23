@@ -2517,8 +2517,7 @@
         "billsUnscheduled": [
             "HB 323",
             "HB 324",
-            "HB 328",
-            "HB 337"
+            "HB 328"
         ],
         "billsScheduledByDay": [
             {
@@ -2526,6 +2525,7 @@
                 "bills": [
                     "HB 262",
                     "HB 291",
+                    "HB 337",
                     "SB 103"
                 ]
             },
@@ -3623,12 +3623,18 @@
             "SB 28",
             "SB 104",
             "SB 118",
-            "SB 125",
             "SB 192",
             "SB 194",
             "SR 11"
         ],
-        "billsScheduledByDay": [],
+        "billsScheduledByDay": [
+            {
+                "day": "01/31/2023",
+                "bills": [
+                    "SB 125"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "HB 25",
             "HB 56",
