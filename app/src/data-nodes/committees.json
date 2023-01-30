@@ -1145,10 +1145,6 @@
         "billCount": 55,
         "billsUnscheduled": [
             "HB 126",
-            "HB 319",
-            "HB 335",
-            "HB 341",
-            "HB 348",
             "SJ 8"
         ],
         "billsScheduledByDay": [
@@ -1181,7 +1177,16 @@
                 "bills": [
                     "HB 309",
                     "HB 314",
-                    "HB 316"
+                    "HB 316",
+                    "HB 319"
+                ]
+            },
+            {
+                "day": "02/06/2023",
+                "bills": [
+                    "HB 335",
+                    "HB 341",
+                    "HB 348"
                 ]
             }
         ],
