@@ -3184,6 +3184,7 @@
             "SB 224",
             "SB 229",
             "SB 230",
+            "SB 231",
             "SJ 3",
             "SJ 5",
             "SR 6",
@@ -3192,14 +3193,15 @@
             "SR 9",
             "SR 10"
         ],
-        "billCount": 66,
+        "billCount": 67,
         "billsUnscheduled": [
             "HB 38",
             "HB 112",
             "HB 161",
             "HB 205",
             "SB 127",
-            "SB 216"
+            "SB 216",
+            "SB 231"
         ],
         "billsScheduledByDay": [
             {
@@ -3370,11 +3372,13 @@
             "HB 41",
             "HB 43",
             "HB 48",
+            "HB 49",
             "HB 50",
             "HB 68",
             "HB 69",
             "HB 70",
             "HB 71",
+            "HB 95",
             "HB 98",
             "HB 101",
             "HB 120",
@@ -3382,10 +3386,12 @@
             "HB 138",
             "HB 139",
             "HB 142",
+            "HB 144",
             "HB 145",
             "HB 155",
             "HB 157",
             "HB 160",
+            "HB 164",
             "HB 166",
             "HB 178",
             "SB 20",
@@ -3438,15 +3444,20 @@
             "SR 42",
             "SR 43"
         ],
-        "billCount": 72,
+        "billCount": 76,
         "billsUnscheduled": [
+            "HB 49",
+            "HB 95",
             "HB 101",
+            "HB 144",
+            "HB 164",
             "SB 20",
             "SB 112",
             "SB 165",
             "SB 178",
             "SB 209",
             "SB 211",
+            "SB 216",
             "SB 223",
             "SR 29",
             "SR 30",
@@ -3461,8 +3472,7 @@
                 "bills": [
                     "HB 155",
                     "HB 178",
-                    "SB 214",
-                    "SB 216"
+                    "SB 214"
                 ]
             }
         ],
@@ -3769,6 +3779,7 @@
             "HB 21",
             "HB 22",
             "HB 61",
+            "HB 79",
             "SB 1",
             "SB 8",
             "SB 9",
@@ -3786,8 +3797,9 @@
             "SR 33",
             "SR 47"
         ],
-        "billCount": 20,
+        "billCount": 21,
         "billsUnscheduled": [
+            "HB 79",
             "SB 9",
             "SR 31",
             "SR 33",
@@ -3917,6 +3929,7 @@
             "HB 35",
             "HB 67",
             "HB 113",
+            "HB 198",
             "SB 5",
             "SB 98",
             "SB 103",
@@ -3937,9 +3950,10 @@
             "SB 226",
             "SB 227"
         ],
-        "billCount": 24,
+        "billCount": 25,
         "billsUnscheduled": [
-            "HB 35"
+            "HB 35",
+            "HB 198"
         ],
         "billsScheduledByDay": [
             {
@@ -4171,6 +4185,7 @@
             "HB 65",
             "HB 102",
             "HB 116",
+            "HB 200",
             "SB 4",
             "SB 26",
             "SB 34",
@@ -4216,8 +4231,9 @@
             "SR 46",
             "SR 48"
         ],
-        "billCount": 48,
+        "billCount": 49,
         "billsUnscheduled": [
+            "HB 200",
             "SB 39",
             "SB 48",
             "SB 99",
@@ -4378,6 +4394,7 @@
             "HB 143",
             "HB 148",
             "HB 151",
+            "HB 199",
             "SB 18",
             "SB 25",
             "SB 29",
@@ -4410,6 +4427,7 @@
             "SB 200",
             "SB 207",
             "SB 222",
+            "SB 232",
             "SJ 4",
             "SJ 7",
             "SJ 8",
@@ -4417,7 +4435,7 @@
             "SR 5",
             "SR 49"
         ],
-        "billCount": 52,
+        "billCount": 54,
         "billsUnscheduled": [
             "HB 63",
             "HB 80",
@@ -4433,11 +4451,13 @@
             "HB 143",
             "HB 148",
             "HB 151",
+            "HB 199",
             "SB 185",
             "SB 197",
             "SB 200",
             "SB 207",
             "SB 222",
+            "SB 232",
             "SR 4",
             "SR 5",
             "SR 49"
@@ -4691,6 +4711,7 @@
         "time": "afternoon",
         "type": "policy",
         "bills": [
+            "HB 19",
             "HB 52",
             "HB 170",
             "SB 109",
@@ -4698,8 +4719,9 @@
             "SB 208",
             "SB 228"
         ],
-        "billCount": 6,
+        "billCount": 7,
         "billsUnscheduled": [
+            "HB 19",
             "HB 52",
             "SB 228"
         ],
@@ -4939,6 +4961,8 @@
             "HB 76",
             "HB 105",
             "HB 129",
+            "HB 179",
+            "HB 184",
             "SB 33",
             "SB 57",
             "SB 111",
@@ -4947,16 +4971,24 @@
             "SB 144",
             "SB 221"
         ],
-        "billCount": 14,
+        "billCount": 16,
         "billsUnscheduled": [
             "HB 52",
             "HB 75",
-            "HB 76",
             "HB 105",
             "HB 129",
-            "SB 221"
+            "HB 179",
+            "HB 184"
         ],
-        "billsScheduledByDay": [],
+        "billsScheduledByDay": [
+            {
+                "day": "02/02/2023",
+                "bills": [
+                    "HB 76",
+                    "SB 221"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "HB 26",
             "HB 27",
@@ -5168,12 +5200,14 @@
             "HB 28",
             "HB 150",
             "HB 260",
-            "SB 193"
+            "SB 193",
+            "SB 233"
         ],
-        "billCount": 4,
+        "billCount": 5,
         "billsUnscheduled": [
             "HB 150",
-            "SB 193"
+            "SB 193",
+            "SB 233"
         ],
         "billsScheduledByDay": [
             {
