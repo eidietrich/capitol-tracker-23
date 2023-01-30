@@ -270,6 +270,22 @@
                     "title": "Generally revise public investment laws"
                 },
                 {
+                    "id": "HB231-0026",
+                    "bill": "HB 231",
+                    "date": "01/30/2023",
+                    "description": "2nd Reading Passed",
+                    "posession": "house",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "2nd Reading Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "firstChamberFloorAction": true,
+                    "preliminaryPassage": true,
+                    "title": "Eliminate certification standards and practices advisory council"
+                },
+                {
                     "id": "HB232-0026",
                     "bill": "HB 232",
                     "date": "01/30/2023",
@@ -339,6 +355,22 @@
                     "title": "Create SAFER account for federal highway grants"
                 },
                 {
+                    "id": "SB18-0027",
+                    "bill": "SB 18",
+                    "date": "01/30/2023",
+                    "description": "2nd Reading Concurred",
+                    "posession": "house",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "2nd Reading Concurred",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "secondChamberAction": true,
+                    "preliminaryPassage": true,
+                    "title": "Add benefit policy statement to pension systems"
+                },
+                {
                     "id": "SB31-0017",
                     "bill": "SB 31",
                     "date": "01/30/2023",
@@ -368,6 +400,23 @@
                     "secondChamberAction": true,
                     "failed": true,
                     "title": "Repeal Montana Ballot Interference Prevention Act"
+                },
+                {
+                    "id": "SB34-0030",
+                    "bill": "SB 34",
+                    "date": "01/30/2023",
+                    "description": "2nd Reading Concurred",
+                    "posession": "house",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "2nd Reading Concurred",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "secondChamberAction": true,
+                    "preliminaryPassage": true,
+                    "title": "Revise laws related to adult protective services",
+                    "explanation": null
                 },
                 {
                     "id": "SB49-0014",
@@ -401,6 +450,24 @@
                     "advanced": true,
                     "amended": true,
                     "title": "Generally revise procurement",
+                    "explanation": null
+                },
+                {
+                    "id": "SB58-0028",
+                    "bill": "SB 58",
+                    "date": "01/30/2023",
+                    "description": "3rd Reading Passed",
+                    "posession": "senate",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "3rd Reading Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "firstChamberFloorAction": true,
+                    "advanced": true,
+                    "finalPassage": true,
+                    "title": "Increase landowner payment cap for block management",
                     "explanation": null
                 },
                 {
@@ -501,6 +568,23 @@
                     "committeeAction": true,
                     "advanced": true,
                     "title": "Limiting the number of registered voters in each election precinct"
+                },
+                {
+                    "id": "SB105-0031",
+                    "bill": "SB 105",
+                    "date": "01/30/2023",
+                    "description": "3rd Reading Passed",
+                    "posession": "senate",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "3rd Reading Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "firstChamberFloorAction": true,
+                    "advanced": true,
+                    "finalPassage": true,
+                    "title": "Prohibit rent control of private property"
                 },
                 {
                     "id": "SB120-0032",
@@ -617,6 +701,39 @@
                     "firstChamberFloorAction": true,
                     "preliminaryPassage": true,
                     "title": "Allow for administrative minor subdivision process"
+                },
+                {
+                    "id": "SB181-0021",
+                    "bill": "SB 181",
+                    "date": "01/30/2023",
+                    "description": "2nd Reading Passed",
+                    "posession": "senate",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "2nd Reading Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "firstChamberFloorAction": true,
+                    "preliminaryPassage": true,
+                    "title": "Require notice of parent legal rights in child protective services cases"
+                },
+                {
+                    "id": "SB195-0025",
+                    "bill": "SB 195",
+                    "date": "01/30/2023",
+                    "description": "2nd Reading Passed as Amended",
+                    "posession": "senate",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "2nd Reading Passed as Amended",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "firstChamberFloorAction": true,
+                    "preliminaryPassage": true,
+                    "amended": true,
+                    "title": "Exempt certain structures from building code fire sprinkler requirement"
                 },
                 {
                     "id": "SB207-0022",
@@ -1431,7 +1548,9 @@
                     "posession": "senate",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46200?agendaId=249331"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
