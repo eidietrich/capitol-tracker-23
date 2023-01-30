@@ -4142,11 +4142,17 @@
             "HB 122",
             "HB 185",
             "SB 82",
-            "SB 219",
             "SR 44",
             "SR 45"
         ],
-        "billsScheduledByDay": [],
+        "billsScheduledByDay": [
+            {
+                "day": "02/01/2023",
+                "bills": [
+                    "SB 219"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "SB 55",
             "SB 83"
@@ -4349,7 +4355,6 @@
             "HB 102",
             "HB 116",
             "SB 150",
-            "SB 180",
             "SB 186",
             "SB 188",
             "SB 196"
@@ -4373,6 +4378,7 @@
             "SB 151",
             "SB 162",
             "SB 163",
+            "SB 180",
             "SB 181"
         ],
         "billsBlasted": [],
@@ -4903,7 +4909,6 @@
         "billCount": 16,
         "billsUnscheduled": [
             "HB 42",
-            "HB 146",
             "SR 2",
             "SR 3"
         ],
@@ -4912,6 +4917,12 @@
                 "day": "01/31/2023",
                 "bills": [
                     "HB 74"
+                ]
+            },
+            {
+                "day": "02/02/2023",
+                "bills": [
+                    "HB 146"
                 ]
             }
         ],
