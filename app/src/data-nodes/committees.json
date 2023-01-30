@@ -1734,9 +1734,7 @@
             "HB 339"
         ],
         "billCount": 16,
-        "billsUnscheduled": [
-            "HB 339"
-        ],
+        "billsUnscheduled": [],
         "billsScheduledByDay": [
             {
                 "day": "01/30/2023",
@@ -1744,6 +1742,12 @@
                     "HB 55",
                     "HB 320",
                     "HB 327"
+                ]
+            },
+            {
+                "day": "02/01/2023",
+                "bills": [
+                    "HB 339"
                 ]
             }
         ],
