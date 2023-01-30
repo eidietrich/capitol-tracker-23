@@ -4142,14 +4142,14 @@
             "HB 122",
             "HB 185",
             "SB 82",
-            "SR 44",
-            "SR 45"
+            "SR 44"
         ],
         "billsScheduledByDay": [
             {
                 "day": "02/01/2023",
                 "bills": [
-                    "SB 219"
+                    "SB 219",
+                    "SR 45"
                 ]
             }
         ],
@@ -4908,7 +4908,6 @@
         ],
         "billCount": 16,
         "billsUnscheduled": [
-            "HB 42",
             "SR 2",
             "SR 3"
         ],
@@ -4922,6 +4921,7 @@
             {
                 "day": "02/02/2023",
                 "bills": [
+                    "HB 42",
                     "HB 146"
                 ]
             }
