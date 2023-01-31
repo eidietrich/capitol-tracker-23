@@ -18605,11 +18605,11 @@
                 "title": "Feed bill to fund 68th legislative session and prepare for 2025",
                 "chamber": "house",
                 "status": {
-                    "key": "Transmitted to Governor",
-                    "step": "Governor",
-                    "label": "Before governor",
-                    "status": "live",
-                    "statusAtSessionEnd": "pending, passed legislature"
+                    "key": "Became Law",
+                    "label": "",
+                    "step": "Passed",
+                    "status": "became-law",
+                    "statusAtSessionEnd": "became law"
                 },
                 "progress": [
                     {
@@ -18644,9 +18644,9 @@
                     },
                     {
                         "step": "governor",
-                        "status": "current",
-                        "statusLabel": "Pending",
-                        "statusDate": null
+                        "status": "passed",
+                        "statusLabel": "Signed",
+                        "statusDate": "01/30/2023"
                     }
                 ],
                 "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0001.pdf",

@@ -2186,10 +2186,16 @@
         "billCount": 14,
         "billsUnscheduled": [
             "HB 158",
-            "HB 159",
-            "HB 350"
+            "HB 159"
         ],
-        "billsScheduledByDay": [],
+        "billsScheduledByDay": [
+            {
+                "day": "02/02/2023",
+                "bills": [
+                    "HB 350"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "HB 276"
         ],
