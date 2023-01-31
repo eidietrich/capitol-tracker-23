@@ -356,12 +356,10 @@
             "HB 38",
             "HB 197",
             "HB 216",
-            "HB 354",
             "HB 356",
             "HB 357",
             "HB 359",
-            "HB 361",
-            "HB 362"
+            "HB 361"
         ],
         "billsScheduledByDay": [
             {
@@ -380,7 +378,9 @@
             {
                 "day": "02/03/2023",
                 "bills": [
-                    "HB 330"
+                    "HB 330",
+                    "HB 354",
+                    "HB 362"
                 ]
             },
             {
@@ -3009,7 +3009,6 @@
         "billsUnscheduled": [
             "HB 175",
             "HB 185",
-            "SB 121",
             "SB 163"
         ],
         "billsScheduledByDay": [
@@ -3018,6 +3017,7 @@
                 "bills": [
                     "SB 60",
                     "SB 94",
+                    "SB 121",
                     "SB 124",
                     "SB 148"
                 ]
