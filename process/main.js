@@ -150,6 +150,7 @@ const participationPageOutput = {
 
 
 
+
 // Outputs 
 console.log('### Bundling tracker data')
 const billsOutput = bills.map(b => b.exportMerged())
@@ -160,6 +161,7 @@ const committeeOutput = committees.map(l => l.export())
 writeJson('./app/src/data-nodes/committees.json', committeeOutput)
 
 writeJson('./app/src/data/header.json', headerOutput)
+writeJson('./app/src/data/articles.json', articles)
 writeJson('./app/src/data/process-annotations.json', processAnnotations)
 writeJson('./app/src/data/bill-categories.json', keyBillCategoryList)
 writeJson('./app/src/data/calendar.json', calendarOutput)
