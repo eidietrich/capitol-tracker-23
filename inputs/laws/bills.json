@@ -332,9 +332,9 @@
       }
     ],
     "voteRequirements": [
-      "2/3 of Each House",
+      "Simple",
       "3/4 of Each House",
-      "Simple"
+      "2/3 of Each House"
     ],
     "deadlineCategory": "Appropriation Bills",
     "transmittalDeadline": "04/03/2023",
@@ -7735,8 +7735,8 @@
       }
     ],
     "voteRequirements": [
-      "2/3 of Entire Legislature",
-      "Simple"
+      "Simple",
+      "2/3 of Entire Legislature"
     ],
     "deadlineCategory": "REFERENDUM PROPOSALS",
     "transmittalDeadline": "04/03/2023",
@@ -8260,8 +8260,8 @@
       }
     ],
     "voteRequirements": [
-      "2/3 of Each House",
-      "Simple"
+      "Simple",
+      "2/3 of Each House"
     ],
     "deadlineCategory": "General Bills",
     "transmittalDeadline": "03/03/2023",
@@ -12125,8 +12125,8 @@
       }
     ],
     "voteRequirements": [
-      "2/3 of Each House",
-      "Simple"
+      "Simple",
+      "2/3 of Each House"
     ],
     "deadlineCategory": "General Bills",
     "transmittalDeadline": "03/03/2023",
@@ -13854,8 +13854,8 @@
       }
     ],
     "voteRequirements": [
-      "2/3 of Each House",
-      "Simple"
+      "Simple",
+      "2/3 of Each House"
     ],
     "deadlineCategory": "General Bills",
     "transmittalDeadline": "03/03/2023",
@@ -15273,9 +15273,9 @@
     "voteRequirements": [
       "Simple"
     ],
-    "deadlineCategory": "Revenue Bills",
-    "transmittalDeadline": "04/03/2023",
-    "amendedReturnDeadline": "04/21/2023"
+    "deadlineCategory": "General Bills",
+    "transmittalDeadline": "03/03/2023",
+    "amendedReturnDeadline": "04/12/2023"
   },
   {
     "key": "SB 3",
@@ -15345,7 +15345,7 @@
     "lastAction": "(S) Transmitted to House",
     "billStatus": "Transmitted to Second House",
     "fiscalNotesListUrl": null,
-    "amendmentListUrl": "https://leg.mt.gov/laws/bills/2023/AmdPublicWeb/?bill=SB0005",
+    "amendmentListUrl": null,
     "draftRequestor": null,
     "billRequestor": "Children, Families, Health, and Human Services Interim Committee",
     "primarySponsor": "Jen Gross",
@@ -15751,9 +15751,9 @@
     "voteRequirements": [
       "Simple"
     ],
-    "deadlineCategory": "Revenue Bills",
-    "transmittalDeadline": "04/03/2023",
-    "amendedReturnDeadline": "04/21/2023"
+    "deadlineCategory": "General Bills",
+    "transmittalDeadline": "03/03/2023",
+    "amendedReturnDeadline": "04/12/2023"
   },
   {
     "key": "SB 14",
@@ -15966,9 +15966,9 @@
     "voteRequirements": [
       "Simple"
     ],
-    "deadlineCategory": "Revenue Bills",
-    "transmittalDeadline": "04/03/2023",
-    "amendedReturnDeadline": "04/21/2023"
+    "deadlineCategory": "General Bills",
+    "transmittalDeadline": "03/03/2023",
+    "amendedReturnDeadline": "04/12/2023"
   },
   {
     "key": "SB 19",
@@ -16728,35 +16728,7 @@
         "subject": "Agriculture  (see also: Livestock; Taxation--Agriculture/Livestock)",
         "fiscalCode": "",
         "voteReq": "Simple"
-      }
-    ],
-    "voteRequirements": [
-      "Simple"
-    ],
-    "deadlineCategory": "General Bills",
-    "transmittalDeadline": "03/03/2023",
-    "amendedReturnDeadline": "04/12/2023"
-  },
-  {
-    "key": "SB 41",
-    "session": "20231",
-    "billPageUrl": "http://laws.leg.mt.gov/legprd/LAW0210W$BSIV.ActionQuery?P_BILL_NO1=41&P_BLTP_BILL_TYP_CD=SB&Z_ACTION=Find&P_SESS=20231",
-    "billTextUrl": "http://leg.mt.gov/bills/2023/billhtml/SB0041.htm",
-    "billPdfUrl": "http://leg.mt.gov/bills/2023/billpdf/SB0041.pdf",
-    "lc": "LC0684",
-    "title": "Revise state land banking laws",
-    "sponsor": "Jeffrey W Welborn",
-    "sponsorParty": "R",
-    "sponsorDistrict": "SD 36",
-    "statusDate": "12/08/2022",
-    "lastAction": "(S) Introduced",
-    "billStatus": "In First House--Introduced",
-    "fiscalNotesListUrl": "https://leg.mt.gov/laws/bills/2023/FNPDF/SB0041",
-    "amendmentListUrl": null,
-    "draftRequestor": null,
-    "billRequestor": "Department of Natural Resources and Conservation",
-    "primarySponsor": "Jeffrey Welborn",
-    "subjects": [
+      },
       {
         "subject": "Livestock (see also: Agriculture; Taxation--Agriculture/Livestock)",
         "fiscalCode": "",
@@ -16818,7 +16790,7 @@
     "lastAction": "(S) Transmitted to House",
     "billStatus": "Transmitted to Second House",
     "fiscalNotesListUrl": null,
-    "amendmentListUrl": "https://leg.mt.gov/laws/bills/2023/AmdPublicWeb/?bill=SB0043",
+    "amendmentListUrl": null,
     "draftRequestor": null,
     "billRequestor": null,
     "primarySponsor": "Dan Bartel",
@@ -16865,19 +16837,14 @@
         "subject": "Military Affairs",
         "fiscalCode": "",
         "voteReq": "Simple"
-      },
-      {
-        "subject": "Revenue, State",
-        "fiscalCode": "Revenue",
-        "voteReq": "Simple"
       }
     ],
     "voteRequirements": [
       "Simple"
     ],
-    "deadlineCategory": "Revenue Bills",
-    "transmittalDeadline": "04/03/2023",
-    "amendedReturnDeadline": "04/21/2023"
+    "deadlineCategory": "General Bills",
+    "transmittalDeadline": "03/03/2023",
+    "amendedReturnDeadline": "04/12/2023"
   },
   {
     "key": "SB 41",
@@ -16941,9 +16908,9 @@
     "voteRequirements": [
       "Simple"
     ],
-    "deadlineCategory": "Revenue Bills",
-    "transmittalDeadline": "04/03/2023",
-    "amendedReturnDeadline": "04/21/2023"
+    "deadlineCategory": "General Bills",
+    "transmittalDeadline": "03/03/2023",
+    "amendedReturnDeadline": "04/12/2023"
   },
   {
     "key": "SB 43",
@@ -17217,9 +17184,9 @@
     "voteRequirements": [
       "Simple"
     ],
-    "deadlineCategory": "Revenue Bills",
-    "transmittalDeadline": "04/03/2023",
-    "amendedReturnDeadline": "04/21/2023"
+    "deadlineCategory": "General Bills",
+    "transmittalDeadline": "03/03/2023",
+    "amendedReturnDeadline": "04/12/2023"
   },
   {
     "key": "SB 50",
@@ -17753,7 +17720,7 @@
     "lastAction": "(S) Transmitted to House",
     "billStatus": "Transmitted to Second House",
     "fiscalNotesListUrl": null,
-    "amendmentListUrl": "https://leg.mt.gov/laws/bills/2023/AmdPublicWeb/?bill=SB0068",
+    "amendmentListUrl": null,
     "draftRequestor": null,
     "billRequestor": "Department of Revenue",
     "primarySponsor": "Daniel Zolnikov",
@@ -17848,21 +17815,6 @@
         "subject": "Military Affairs",
         "fiscalCode": "",
         "voteReq": "Simple"
-      },
-      {
-        "subject": "Crimes",
-        "fiscalCode": "",
-        "voteReq": "Simple"
-      },
-      {
-        "subject": "Criminal Procedure  (see also: Law Enforcement)",
-        "fiscalCode": "",
-        "voteReq": "Simple"
-      },
-      {
-        "subject": "Judges and Justices  (see also: Courts)",
-        "fiscalCode": "",
-        "voteReq": "Simple"
       }
     ],
     "voteRequirements": [
@@ -17899,16 +17851,6 @@
       },
       {
         "subject": "Crimes",
-        "fiscalCode": "",
-        "voteReq": "Simple"
-      },
-      {
-        "subject": "Criminal Procedure  (see also: Law Enforcement)",
-        "fiscalCode": "",
-        "voteReq": "Simple"
-      },
-      {
-        "subject": "Judges and Justices  (see also: Courts)",
         "fiscalCode": "",
         "voteReq": "Simple"
       }
@@ -17973,7 +17915,7 @@
     "lastAction": "(H) Referred to Committee",
     "billStatus": "In Second House Committee--Nontabled",
     "fiscalNotesListUrl": null,
-    "amendmentListUrl": "https://leg.mt.gov/laws/bills/2023/AmdPublicWeb/?bill=SB0099",
+    "amendmentListUrl": null,
     "draftRequestor": null,
     "billRequestor": "Education Interim Committee",
     "primarySponsor": "Shannon O'Brien",
@@ -18091,35 +18033,7 @@
         "subject": "Judges and Justices  (see also: Courts)",
         "fiscalCode": "",
         "voteReq": "Simple"
-      }
-    ],
-    "voteRequirements": [
-      "Simple"
-    ],
-    "deadlineCategory": "Revenue Bills",
-    "transmittalDeadline": "04/03/2023",
-    "amendedReturnDeadline": "04/21/2023"
-  },
-  {
-    "key": "SB 103",
-    "session": "20231",
-    "billPageUrl": "http://laws.leg.mt.gov/legprd/LAW0210W$BSIV.ActionQuery?P_BILL_NO1=103&P_BLTP_BILL_TYP_CD=SB&Z_ACTION=Find&P_SESS=20231",
-    "billTextUrl": "http://leg.mt.gov/bills/2023/billhtml/SB0103.htm",
-    "billPdfUrl": "http://leg.mt.gov/bills/2023/billpdf/SB0103.pdf",
-    "lc": "LC0483",
-    "title": "Revise airport courtesy car insurance requirements",
-    "sponsor": "Becky Beard",
-    "sponsorParty": "R",
-    "sponsorDistrict": "SD 40",
-    "statusDate": "01/31/2023; 03:00 PM, Rm 472",
-    "lastAction": "(H) Hearing",
-    "billStatus": "In Second House Committee--Nontabled",
-    "fiscalNotesListUrl": "https://leg.mt.gov/laws/bills/2023/FNPDF/SB0103",
-    "amendmentListUrl": null,
-    "draftRequestor": null,
-    "billRequestor": null,
-    "primarySponsor": "Becky Beard",
-    "subjects": [
+      },
       {
         "subject": "Water",
         "fiscalCode": "",
@@ -18681,9 +18595,9 @@
     "voteRequirements": [
       "Simple"
     ],
-    "deadlineCategory": "Revenue Bills",
-    "transmittalDeadline": "04/03/2023",
-    "amendedReturnDeadline": "04/21/2023"
+    "deadlineCategory": "General Bills",
+    "transmittalDeadline": "03/03/2023",
+    "amendedReturnDeadline": "04/12/2023"
   },
   {
     "key": "SB 87",
@@ -18757,9 +18671,9 @@
     "voteRequirements": [
       "Simple"
     ],
-    "deadlineCategory": "Revenue Bills",
-    "transmittalDeadline": "04/03/2023",
-    "amendedReturnDeadline": "04/21/2023"
+    "deadlineCategory": "General Bills",
+    "transmittalDeadline": "03/03/2023",
+    "amendedReturnDeadline": "04/12/2023"
   },
   {
     "key": "SB 89",
@@ -18795,9 +18709,9 @@
     "voteRequirements": [
       "Simple"
     ],
-    "deadlineCategory": "Revenue Bills",
-    "transmittalDeadline": "04/03/2023",
-    "amendedReturnDeadline": "04/21/2023"
+    "deadlineCategory": "General Bills",
+    "transmittalDeadline": "03/03/2023",
+    "amendedReturnDeadline": "04/12/2023"
   },
   {
     "key": "SB 90",
@@ -18904,9 +18818,9 @@
     "voteRequirements": [
       "Simple"
     ],
-    "deadlineCategory": "Revenue Bills",
-    "transmittalDeadline": "04/03/2023",
-    "amendedReturnDeadline": "04/21/2023"
+    "deadlineCategory": "General Bills",
+    "transmittalDeadline": "03/03/2023",
+    "amendedReturnDeadline": "04/12/2023"
   },
   {
     "key": "SB 93",
@@ -18930,16 +18844,6 @@
     "subjects": [
       {
         "subject": "Ballot Issues  (see also: Elections)",
-        "fiscalCode": "",
-        "voteReq": "Simple"
-      },
-      {
-        "subject": "Elections  (see also: Ballot Issues)",
-        "fiscalCode": "",
-        "voteReq": "Simple"
-      },
-      {
-        "subject": "Local Finance  (see also: City Finance; County Finance)",
         "fiscalCode": "",
         "voteReq": "Simple"
       },
@@ -19156,38 +19060,10 @@
         "voteReq": "Simple"
       },
       {
-        "subject": "Planning and Development",
+        "subject": "Taxation (Generally)",
         "fiscalCode": "",
         "voteReq": "Simple"
-      }
-    ],
-    "voteRequirements": [
-      "Simple"
-    ],
-    "deadlineCategory": "General Bills",
-    "transmittalDeadline": "03/03/2023",
-    "amendedReturnDeadline": "04/12/2023"
-  },
-  {
-    "key": "SB 131",
-    "session": "20231",
-    "billPageUrl": "http://laws.leg.mt.gov/legprd/LAW0210W$BSIV.ActionQuery?P_BILL_NO1=131&P_BLTP_BILL_TYP_CD=SB&Z_ACTION=Find&P_SESS=20231",
-    "billTextUrl": "http://leg.mt.gov/bills/2023/billhtml/SB0131.htm",
-    "billPdfUrl": "http://leg.mt.gov/bills/2023/billpdf/SB0131.pdf",
-    "lc": "LC0729",
-    "title": "Revise exempt subdivision review timelines",
-    "sponsor": "Forrest Mandeville",
-    "sponsorParty": "R",
-    "sponsorDistrict": "SD 29",
-    "statusDate": "01/23/2023",
-    "lastAction": "(S) Transmitted to House",
-    "billStatus": "Transmitted to Second House",
-    "fiscalNotesListUrl": null,
-    "amendmentListUrl": null,
-    "draftRequestor": null,
-    "billRequestor": null,
-    "primarySponsor": "Forrest Mandeville",
-    "subjects": [
+      },
       {
         "subject": "Taxation--Property",
         "fiscalCode": "",
@@ -19197,9 +19073,9 @@
     "voteRequirements": [
       "Simple"
     ],
-    "deadlineCategory": "General Bills",
-    "transmittalDeadline": "03/03/2023",
-    "amendedReturnDeadline": "04/12/2023"
+    "deadlineCategory": "Revenue Bills",
+    "transmittalDeadline": "04/03/2023",
+    "amendedReturnDeadline": "04/21/2023"
   },
   {
     "key": "SB 98",
@@ -19300,7 +19176,7 @@
     "amendmentListUrl": null,
     "draftRequestor": null,
     "billRequestor": null,
-    "primarySponsor": "Tom McGillvray",
+    "primarySponsor": "Greg Hertz",
     "subjects": [
       {
         "subject": "Health Care Services (see also: Health)",
@@ -19338,7 +19214,7 @@
     "amendmentListUrl": null,
     "draftRequestor": null,
     "billRequestor": null,
-    "primarySponsor": "Steve Fitzpatrick",
+    "primarySponsor": "Greg Hertz",
     "subjects": [
       {
         "subject": "Health Care Services (see also: Health)",
@@ -21307,9 +21183,9 @@
     "voteRequirements": [
       "Simple"
     ],
-    "deadlineCategory": "Revenue Bills",
-    "transmittalDeadline": "04/03/2023",
-    "amendedReturnDeadline": "04/21/2023"
+    "deadlineCategory": "General Bills",
+    "transmittalDeadline": "03/03/2023",
+    "amendedReturnDeadline": "04/12/2023"
   },
   {
     "key": "SB 148",
@@ -21654,35 +21530,7 @@
         "subject": "Counties  (see also: Local Government)",
         "fiscalCode": "",
         "voteReq": "Simple"
-      }
-    ],
-    "voteRequirements": [
-      "Simple"
-    ],
-    "deadlineCategory": "General Bills",
-    "transmittalDeadline": "03/03/2023",
-    "amendedReturnDeadline": "04/12/2023"
-  },
-  {
-    "key": "SB 156",
-    "session": "20231",
-    "billPageUrl": "http://laws.leg.mt.gov/legprd/LAW0210W$BSIV.ActionQuery?P_BILL_NO1=156&P_BLTP_BILL_TYP_CD=SB&Z_ACTION=Find&P_SESS=20231",
-    "billTextUrl": "http://leg.mt.gov/bills/2023/billhtml/SB0156.htm",
-    "billPdfUrl": "http://leg.mt.gov/bills/2023/billpdf/SB0156.pdf",
-    "lc": "LC1935",
-    "title": "Require elected county clerks to run nonpartisan",
-    "sponsor": "Wendy McKamey",
-    "sponsorParty": "R",
-    "sponsorDistrict": "SD 12",
-    "statusDate": "01/23/2023; 03:00 PM",
-    "lastAction": "(S) Hearing -- (S) State Administration",
-    "billStatus": "In First House Committee--Nontabled",
-    "fiscalNotesListUrl": null,
-    "amendmentListUrl": null,
-    "draftRequestor": null,
-    "billRequestor": null,
-    "primarySponsor": "Wendy McKamey",
-    "subjects": [
+      },
       {
         "subject": "County Officers  (see also: Local Government)",
         "fiscalCode": "",
@@ -22221,22 +22069,7 @@
         "voteReq": "Simple"
       },
       {
-        "subject": "Liability  (see also: Remedies; Torts)",
-        "fiscalCode": "",
-        "voteReq": "Simple"
-      },
-      {
-        "subject": "Remedies  (see also: Liability; Torts)",
-        "fiscalCode": "",
-        "voteReq": "Simple"
-      },
-      {
-        "subject": "State Finance  (see also: Appropriations; Taxation Subjects)",
-        "fiscalCode": "",
-        "voteReq": "Simple"
-      },
-      {
-        "subject": "Torts  (see also: Remedies;  Liabilities)",
+        "subject": "Property",
         "fiscalCode": "",
         "voteReq": "Simple"
       }
@@ -23446,35 +23279,7 @@
         "subject": "Local Finance  (see also: City Finance; County Finance)",
         "fiscalCode": "",
         "voteReq": "Simple"
-      }
-    ],
-    "voteRequirements": [
-      "Simple"
-    ],
-    "deadlineCategory": "General Bills",
-    "transmittalDeadline": "03/03/2023",
-    "amendedReturnDeadline": "04/12/2023"
-  },
-  {
-    "key": "SB 201",
-    "session": "20231",
-    "billPageUrl": "http://laws.leg.mt.gov/legprd/LAW0210W$BSIV.ActionQuery?P_BILL_NO1=201&P_BLTP_BILL_TYP_CD=SB&Z_ACTION=Find&P_SESS=20231",
-    "billTextUrl": "http://leg.mt.gov/bills/2023/billhtml/SB0201.htm",
-    "billPdfUrl": "http://leg.mt.gov/bills/2023/billpdf/SB0201.pdf",
-    "lc": "LC0308",
-    "title": "Revise judicial recusal laws when parties made campaign contributions",
-    "sponsor": "Greg Hertz",
-    "sponsorParty": "R",
-    "sponsorDistrict": "SD 6",
-    "statusDate": "01/26/2023; 09:00 AM, Rm 303",
-    "lastAction": "(S) Hearing -- (S) Judiciary",
-    "billStatus": "In First House Committee--Nontabled",
-    "fiscalNotesListUrl": null,
-    "amendmentListUrl": null,
-    "draftRequestor": null,
-    "billRequestor": null,
-    "primarySponsor": "Greg Hertz",
-    "subjects": [
+      },
       {
         "subject": "Local Government  (see also: City Subjects; County Subjects)",
         "fiscalCode": "",
@@ -23519,22 +23324,7 @@
     "primarySponsor": "Greg Hertz",
     "subjects": [
       {
-        "subject": "Agriculture  (see also: Livestock; Taxation--Agriculture/Livestock)",
-        "fiscalCode": "",
-        "voteReq": "Simple"
-      },
-      {
-        "subject": "Health (see also: Health Care Services; Safety)",
-        "fiscalCode": "",
-        "voteReq": "Simple"
-      },
-      {
-        "subject": "Livestock (see also: Agriculture; Taxation--Agriculture/Livestock)",
-        "fiscalCode": "",
-        "voteReq": "Simple"
-      },
-      {
-        "subject": "Local Government  (see also: City Subjects; County Subjects)",
+        "subject": "Elections  (see also: Ballot Issues)",
         "fiscalCode": "",
         "voteReq": "Simple"
       }
@@ -23572,7 +23362,7 @@
         "voteReq": "Simple"
       },
       {
-        "subject": "Oil and Gas  (see also: Mining and Minerals; Taxation--Oil and Gas)",
+        "subject": "Judges and Justices  (see also: Courts)",
         "fiscalCode": "",
         "voteReq": "Simple"
       }
@@ -23703,7 +23493,7 @@
     "amendmentListUrl": null,
     "draftRequestor": null,
     "billRequestor": null,
-    "primarySponsor": "Bob Brown",
+    "primarySponsor": "Jeremy Trebas",
     "subjects": [
       {
         "subject": "Alcohol and Drugs",
@@ -23908,7 +23698,7 @@
     "amendmentListUrl": null,
     "draftRequestor": null,
     "billRequestor": null,
-    "primarySponsor": "Tom McGillvray",
+    "primarySponsor": "Greg Hertz",
     "subjects": [
       {
         "subject": "Alcohol and Drugs",
@@ -24265,7 +24055,7 @@
     "amendmentListUrl": null,
     "draftRequestor": null,
     "billRequestor": null,
-    "primarySponsor": "Barry Usher",
+    "primarySponsor": "Greg Hertz",
     "subjects": [
       {
         "subject": "Civil Procedure",
@@ -24306,7 +24096,7 @@
     "primarySponsor": "Willis Curdy",
     "subjects": [
       {
-        "subject": "Discrimination and Human Rights",
+        "subject": "Crimes",
         "fiscalCode": "",
         "voteReq": "Simple"
       },
@@ -24519,19 +24309,14 @@
         "subject": "Judges and Justices  (see also: Courts)",
         "fiscalCode": "",
         "voteReq": "Simple"
-      },
-      {
-        "subject": "Revenue, State",
-        "fiscalCode": "Revenue",
-        "voteReq": "Simple"
       }
     ],
     "voteRequirements": [
       "Simple"
     ],
-    "deadlineCategory": "Revenue Bills",
-    "transmittalDeadline": "04/03/2023",
-    "amendedReturnDeadline": "04/21/2023"
+    "deadlineCategory": "General Bills",
+    "transmittalDeadline": "03/03/2023",
+    "amendedReturnDeadline": "04/12/2023"
   },
   {
     "key": "SB 225",
