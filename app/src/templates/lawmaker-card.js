@@ -143,13 +143,21 @@ const LawmakerPage = ({ pageContext, data }) => {
     const mainCommittee = committees[0] // assume we've ranked this list elsewhere
     const otherCommittees = committees.slice(1,)
 
-    const embedCode = `<div class="alignleft">
+    const embedCode = `<div class="tracker-sidebar alignleft">
+<style>
+    @media (max-width: 680px) {
+        .tracker-sidebar.alignleft {
+            max-width: 100% !important;  
+            width: 100%;
+        }
+    }
+</style>
 <iframe
     width="300px"
     height="450px"
     scrolling="no"
     title="Card embed ${title} ${name}"
-    style="border: 1px solid #666;
+    style="margin: 0 auto; border: 1px solid #666;
     box-shadow: 1px 1px 2px #444;"
     src=https://apps.montanafreepress.org/capitol-tracker-2023/lawmaker-cards/${key}/#embed"
     ></iframe>
@@ -182,7 +190,7 @@ const LawmakerPage = ({ pageContext, data }) => {
                     }
                 </div>
                 <div className="item">📋 <strong>{sponsoredBills.length}</strong> <a href={`${BASE_URL}/lawmakers/${key}#bills-sponsored`} target="_blank" rel="noopener noreferrer"> bill{pluralize(sponsoredBills.length)} introduced</a></div>
-                <div className="item">📰 <strong>{articles.length}</strong> <a href={`${BASE_URL}/lawmakers/${key}#mtfp-coverage`} target="_blank" rel="noopener noreferrer">reference{pluralize(articles.length)} in MTFP coverage</a></div>
+                {/* <div className="item">📰 <strong>{articles.length}</strong> <a href={`${BASE_URL}/lawmakers/${key}#mtfp-coverage`} target="_blank" rel="noopener noreferrer">reference{pluralize(articles.length)} in MTFP coverage</a></div> */}
                 <div className="promo">🗒 <a href={`${BASE_URL}/`} target="_blank" rel="noopener noreferrer">See more</a> on MTFP's 2023 Capitol Tracker</div>
             </div>
         </div>

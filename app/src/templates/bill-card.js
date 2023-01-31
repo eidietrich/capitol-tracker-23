@@ -76,6 +76,7 @@ const billCardCss = css`
 
         .progress-title {
             margin-bottom: 0.3em;
+            color: var(--tan5);
         }
     }
 
@@ -90,6 +91,7 @@ const billCardCss = css`
 
 const progressStepStyle = css`
   margin-bottom: 0.1em;
+  font-size: 12px;
   
   .icon {
     /* background-color: var(--gray1); */
@@ -125,13 +127,21 @@ const BillCard = ({ pageContext }) => {
         // requestor,
     } = bill
 
-    const embedCode = `<div class="alignleft">
+    const embedCode = `<div class="tracker-sidebar alignleft">
+    <style>
+        @media (max-width: 680px) {
+            .tracker-sidebar.alignleft {
+                max-width: 100% !important;  
+                width: 100%;
+            }
+        }
+    </style>
 <iframe
     width="300px"
     height="300px"
     scrolling="no"
     title="Card embed ${identifier}: ${title}"
-    style="border: 1px solid #666;
+    style="margin: 0 auto; border: 1px solid #666;
     box-shadow: 1px 1px 2px #444;"
     src=https://apps.montanafreepress.org/capitol-tracker-2023/bill-cards/${key}/#embed"
     ></iframe>
@@ -158,9 +168,9 @@ const BillCard = ({ pageContext }) => {
                 <div className="explanation">{explanation}</div>
             </div>
 
-            <div className="sponsor">Sponsor: <a href={`${BASE_URL}/lawmakers/${lawmakerUrl(sponsor.name)}`}>{sponsor.name}</a> ({sponsor.party}-{sponsor.locale})</div>
+            <div className="sponsor">Sponsor: <a href={`${BASE_URL}/lawmakers/${lawmakerUrl(sponsor.name)}`}><strong>{sponsor.name}</strong></a> ({sponsor.party}-{sponsor.locale})</div>
             {/* <div className="requestor">Requestor: {requestor}</div> */}
-            <div className="status">{status.key.replace('--', ' — ')}</div>
+            {/* <div className="status">{status.key.replace('--', ' — ')}</div> */}
             <div className="row">
                 <div className="info-boxes">
                     <div className="info-text">{textUrl ?
@@ -178,7 +188,7 @@ const BillCard = ({ pageContext }) => {
 
                 </div>
                 <div className="progression">
-                    <div className="progress-title">Progress</div>
+                    <div className="progress-title">PROGRESS</div>
                     {progression}
                 </div>
             </div>
