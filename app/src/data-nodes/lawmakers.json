@@ -1425,6 +1425,68 @@
                 "title": "Revise laws relating to dangerous drugs",
                 "chamber": "house",
                 "status": {
+                    "key": "In First House--Out of Committee",
+                    "step": "First chamber",
+                    "label": "Out of committee",
+                    "status": "live",
+                    "statusAtSessionEnd": "failed"
+                },
+                "progress": [
+                    {
+                        "step": "introduced",
+                        "status": "passed",
+                        "statusLabel": "Introduced",
+                        "statusDate": "01/21/2023"
+                    },
+                    {
+                        "step": "first committee",
+                        "status": "passed",
+                        "statusLabel": "Advanced",
+                        "statusDate": "01/31/2023"
+                    },
+                    {
+                        "step": "first chamber",
+                        "status": "current",
+                        "statusLabel": "Pending",
+                        "statusDate": null
+                    },
+                    {
+                        "step": "second chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "reconciliation",
+                        "status": "skipped",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "governor",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    }
+                ],
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0301.pdf",
+                "fiscalNoteUrl": "https://leg.mt.gov/laws/bills/2023/FNPDF/HB0301",
+                "legalNoteUrl": null,
+                "numArticles": 0,
+                "sponsor": {
+                    "name": "Denise Baum",
+                    "lastName": "Baum",
+                    "party": "D",
+                    "locale": "Billings",
+                    "district": "HD 47"
+                }
+            },
+            {
+                "key": "hb-362",
+                "identifier": "HB 362",
+                "title": "Revise laws related to the crisis intervention team training program",
+                "chamber": "house",
+                "status": {
                     "key": "In First House Committee--Nontabled",
                     "step": "First chamber",
                     "label": "In committee",
@@ -1436,7 +1498,7 @@
                         "step": "introduced",
                         "status": "passed",
                         "statusLabel": "Introduced",
-                        "statusDate": "01/21/2023"
+                        "statusDate": "01/28/2023"
                     },
                     {
                         "step": "first committee",
@@ -1469,7 +1531,7 @@
                         "statusDate": null
                     }
                 ],
-                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0301.pdf",
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0362.pdf",
                 "fiscalNoteUrl": null,
                 "legalNoteUrl": null,
                 "numArticles": 0,
@@ -1816,9 +1878,9 @@
                 "title": "Revising  process for adoption of school accreditation standards",
                 "chamber": "house",
                 "status": {
-                    "key": "In Second House Committee--Nontabled",
+                    "key": "In Second House--Out of Committee",
                     "step": "Second chamber",
-                    "label": "In committee",
+                    "label": "On floor",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -23663,9 +23725,9 @@
                 "title": "Generally revise laws relating to the director of the state lottery",
                 "chamber": "house",
                 "status": {
-                    "key": "In First House--Out of Committee",
+                    "key": "In First House Committee--Nontabled",
                     "step": "First chamber",
-                    "label": "Out of committee",
+                    "label": "In committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -23692,6 +23754,130 @@
                         "step": "second chamber",
                         "status": "future",
                         "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "reconciliation",
+                        "status": "skipped",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "governor",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    }
+                ],
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0246.pdf",
+                "fiscalNoteUrl": null,
+                "legalNoteUrl": null,
+                "numArticles": 0,
+                "sponsor": {
+                    "name": "Scot Kerns",
+                    "lastName": "Kerns",
+                    "party": "R",
+                    "locale": "Great Falls",
+                    "district": "HD 23"
+                }
+            },
+            {
+                "key": "hb-272",
+                "identifier": "HB 272",
+                "title": "Revise alcohol laws relating to contrived events and employees of licensees",
+                "chamber": "house",
+                "status": {
+                    "key": "In First House--Out of Committee",
+                    "step": "First chamber",
+                    "label": "Out of committee",
+                    "status": "live",
+                    "statusAtSessionEnd": "failed"
+                },
+                "progress": [
+                    {
+                        "step": "introduced",
+                        "status": "passed",
+                        "statusLabel": "Introduced",
+                        "statusDate": "01/17/2023"
+                    },
+                    {
+                        "step": "first committee",
+                        "status": "passed",
+                        "statusLabel": "Advanced",
+                        "statusDate": "01/26/2023"
+                    },
+                    {
+                        "step": "first chamber",
+                        "status": "current",
+                        "statusLabel": "Pending",
+                        "statusDate": null
+                    },
+                    {
+                        "step": "second chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "reconciliation",
+                        "status": "skipped",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "governor",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    }
+                ],
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0272.pdf",
+                "fiscalNoteUrl": null,
+                "legalNoteUrl": null,
+                "numArticles": 0,
+                "sponsor": {
+                    "name": "Scot Kerns",
+                    "lastName": "Kerns",
+                    "party": "R",
+                    "locale": "Great Falls",
+                    "district": "HD 23"
+                }
+            },
+            {
+                "key": "hb-273",
+                "identifier": "HB 273",
+                "title": "Generally revise laws relating to the director of the state lottery",
+                "chamber": "house",
+                "status": {
+                    "key": "Transmitted to Second House",
+                    "step": "Second chamber",
+                    "label": "Transmitted",
+                    "status": "live",
+                    "statusAtSessionEnd": "failed"
+                },
+                "progress": [
+                    {
+                        "step": "introduced",
+                        "status": "passed",
+                        "statusLabel": "Introduced",
+                        "statusDate": "01/17/2023"
+                    },
+                    {
+                        "step": "first committee",
+                        "status": "passed",
+                        "statusLabel": "Advanced",
+                        "statusDate": "01/27/2023"
+                    },
+                    {
+                        "step": "first chamber",
+                        "status": "passed",
+                        "statusLabel": "Passed House",
+                        "statusDate": "01/30/2023"
+                    },
+                    {
+                        "step": "second chamber",
+                        "status": "current",
+                        "statusLabel": "Pending",
                         "statusDate": null
                     },
                     {
@@ -26110,7 +26296,7 @@
                         "step": "first committee",
                         "status": "passed",
                         "statusLabel": "Advanced",
-                        "statusDate": "01/25/2023"
+                        "statusDate": "01/20/2023"
                     },
                     {
                         "step": "first chamber",
@@ -26137,8 +26323,8 @@
                         "statusDate": null
                     }
                 ],
-                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0231.pdf",
-                "fiscalNoteUrl": "https://leg.mt.gov/laws/bills/2023/FNPDF/HB0231",
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0239.pdf",
+                "fiscalNoteUrl": null,
                 "legalNoteUrl": null,
                 "numArticles": 0,
                 "sponsor": {
@@ -26150,14 +26336,14 @@
                 }
             },
             {
-                "key": "hb-239",
-                "identifier": "HB 239",
-                "title": "Revise who may serve as a judge pro tempore in justice's courts",
+                "key": "hb-356",
+                "identifier": "HB 356",
+                "title": "Establish firearms industry nondiscrimination",
                 "chamber": "house",
                 "status": {
-                    "key": "In First House--Out of Committee",
+                    "key": "In First House Committee--Nontabled",
                     "step": "First chamber",
-                    "label": "Out of committee",
+                    "label": "In committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -26166,18 +26352,18 @@
                         "step": "introduced",
                         "status": "passed",
                         "statusLabel": "Introduced",
-                        "statusDate": "01/12/2023"
+                        "statusDate": "01/28/2023"
                     },
                     {
                         "step": "first committee",
-                        "status": "passed",
-                        "statusLabel": "Advanced",
-                        "statusDate": "01/20/2023"
+                        "status": "current",
+                        "statusLabel": "Pending",
+                        "statusDate": null
                     },
                     {
                         "step": "first chamber",
-                        "status": "current",
-                        "statusLabel": "Pending",
+                        "status": "future",
+                        "statusLabel": null,
                         "statusDate": null
                     },
                     {
@@ -26199,7 +26385,69 @@
                         "statusDate": null
                     }
                 ],
-                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0239.pdf",
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0356.pdf",
+                "fiscalNoteUrl": null,
+                "legalNoteUrl": null,
+                "numArticles": 0,
+                "sponsor": {
+                    "name": "Brandon Ler",
+                    "lastName": "Ler",
+                    "party": "R",
+                    "locale": "Savage",
+                    "district": "HD 35"
+                }
+            },
+            {
+                "key": "hb-361",
+                "identifier": "HB 361",
+                "title": "Provide that use of a name and sex by a student is not discrimination",
+                "chamber": "house",
+                "status": {
+                    "key": "In First House Committee--Nontabled",
+                    "step": "First chamber",
+                    "label": "In committee",
+                    "status": "live",
+                    "statusAtSessionEnd": "failed"
+                },
+                "progress": [
+                    {
+                        "step": "introduced",
+                        "status": "passed",
+                        "statusLabel": "Introduced",
+                        "statusDate": "01/28/2023"
+                    },
+                    {
+                        "step": "first committee",
+                        "status": "current",
+                        "statusLabel": "Pending",
+                        "statusDate": null
+                    },
+                    {
+                        "step": "first chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "second chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "reconciliation",
+                        "status": "skipped",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "governor",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    }
+                ],
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0361.pdf",
                 "fiscalNoteUrl": null,
                 "legalNoteUrl": null,
                 "numArticles": 0,
@@ -26933,9 +27181,9 @@
                 "title": "Allow certain emergency agencies copies of reports",
                 "chamber": "house",
                 "status": {
-                    "key": "In First House Committee--Nontabled",
+                    "key": "In First House--Out of Committee",
                     "step": "First chamber",
-                    "label": "In committee",
+                    "label": "Out of committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -29345,6 +29593,68 @@
                 "title": "Generally revise laws related to public employees and labor organizations",
                 "chamber": "house",
                 "status": {
+                    "key": "In First House--Out of Committee",
+                    "step": "First chamber",
+                    "label": "Out of committee",
+                    "status": "live",
+                    "statusAtSessionEnd": "failed"
+                },
+                "progress": [
+                    {
+                        "step": "introduced",
+                        "status": "passed",
+                        "statusLabel": "Introduced",
+                        "statusDate": "01/10/2023"
+                    },
+                    {
+                        "step": "first committee",
+                        "status": "passed",
+                        "statusLabel": "Advanced",
+                        "statusDate": "01/27/2023"
+                    },
+                    {
+                        "step": "first chamber",
+                        "status": "current",
+                        "statusLabel": "Pending",
+                        "statusDate": null
+                    },
+                    {
+                        "step": "second chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "reconciliation",
+                        "status": "skipped",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "governor",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    }
+                ],
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0216.pdf",
+                "fiscalNoteUrl": null,
+                "legalNoteUrl": null,
+                "numArticles": 0,
+                "sponsor": {
+                    "name": "Bill Mercer",
+                    "lastName": "Mercer",
+                    "party": "R",
+                    "locale": "Billings",
+                    "district": "HD 46"
+                }
+            },
+            {
+                "key": "hb-367",
+                "identifier": "HB 367",
+                "title": "Providing clarification for use of federal funds for data modernization",
+                "chamber": "house",
+                "status": {
                     "key": "In First House Committee--Nontabled",
                     "step": "First chamber",
                     "label": "In committee",
@@ -29356,7 +29666,7 @@
                         "step": "introduced",
                         "status": "passed",
                         "statusLabel": "Introduced",
-                        "statusDate": "01/10/2023"
+                        "statusDate": "01/30/2023"
                     },
                     {
                         "step": "first committee",
@@ -29389,7 +29699,7 @@
                         "statusDate": null
                     }
                 ],
-                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0216.pdf",
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0367.pdf",
                 "fiscalNoteUrl": null,
                 "legalNoteUrl": null,
                 "numArticles": 0,
@@ -31496,6 +31806,42 @@
             {
                 "lawmakerVote": "Y",
                 "voteData": {
+                    "action": "HB13-0020",
+                    "bill": "HB 13",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0013APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 13 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 17,
+                        "N": 6
+                    },
+                    "gopCount": {
+                        "Y": 10,
+                        "N": 6,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 7,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": true
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
                     "action": "HB60-0032",
                     "bill": "HB 60",
                     "date": "01/25/2023",
@@ -31529,6 +31875,186 @@
                     "motionPassed": true,
                     "gopSupported": true,
                     "demSupported": true
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "HB192-0031",
+                    "bill": "HB 192",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0192APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB0192.001.002 Be Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "HB212-0041",
+                    "bill": "HB 212",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0212APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 212 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 15,
+                        "N": 8
+                    },
+                    "gopCount": {
+                        "Y": 15,
+                        "N": 1,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "HB222-0035",
+                    "bill": "HB 222",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0222APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 222 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "N",
+                "voteData": {
+                    "action": "HB13-0020",
+                    "bill": "HB 13",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0013APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 13 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 17,
+                        "N": 6
+                    },
+                    "gopCount": {
+                        "Y": 10,
+                        "N": 6,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 7,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": true
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "HB251-0030",
+                    "bill": "HB 251",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0251APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 251 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
                 }
             },
             {
@@ -32814,9 +33340,9 @@
                 "title": "Revise notification of owner's costs for oil/gas well",
                 "chamber": "house",
                 "status": {
-                    "key": "In First House Committee--Nontabled",
+                    "key": "In First House--Out of Committee",
                     "step": "First chamber",
-                    "label": "In committee",
+                    "label": "Out of committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -33586,14 +34112,14 @@
                     },
                     {
                         "step": "first committee",
-                        "status": "current",
-                        "statusLabel": "Pending",
-                        "statusDate": null
+                        "status": "passed",
+                        "statusLabel": "Advanced",
+                        "statusDate": "01/31/2023"
                     },
                     {
                         "step": "first chamber",
-                        "status": "future",
-                        "statusLabel": null,
+                        "status": "current",
+                        "statusLabel": "Pending",
                         "statusDate": null
                     },
                     {
@@ -39058,9 +39584,9 @@
                 "title": "Revise education laws related to advanced opportunities program",
                 "chamber": "house",
                 "status": {
-                    "key": "In First House Committee--Nontabled",
+                    "key": "In First House--Out of Committee",
                     "step": "First chamber",
-                    "label": "In committee",
+                    "label": "Out of committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -39073,14 +39599,14 @@
                     },
                     {
                         "step": "first committee",
-                        "status": "current",
-                        "statusLabel": "Pending",
-                        "statusDate": null
+                        "status": "passed",
+                        "statusLabel": "Advanced",
+                        "statusDate": "01/27/2023"
                     },
                     {
                         "step": "first chamber",
-                        "status": "future",
-                        "statusLabel": null,
+                        "status": "current",
+                        "statusLabel": "Pending",
                         "statusDate": null
                     },
                     {
@@ -40037,6 +40563,150 @@
                     "motionPassed": true,
                     "gopSupported": true,
                     "demSupported": true
+                }
+            },
+            {
+                "lawmakerVote": "N",
+                "voteData": {
+                    "action": "HB192-0031",
+                    "bill": "HB 192",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0192APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB0192.001.002 Be Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "N",
+                "voteData": {
+                    "action": "HB212-0041",
+                    "bill": "HB 212",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0212APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 212 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 15,
+                        "N": 8
+                    },
+                    "gopCount": {
+                        "Y": 15,
+                        "N": 1,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "N",
+                "voteData": {
+                    "action": "HB222-0035",
+                    "bill": "HB 222",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0222APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 222 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "N",
+                "voteData": {
+                    "action": "HB251-0030",
+                    "bill": "HB 251",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0251APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 251 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
                 }
             },
             {
@@ -42303,9 +42973,9 @@
                 "title": "Define administrative deficiencies for certain mining operations",
                 "chamber": "house",
                 "status": {
-                    "key": "In First House Committee--Nontabled",
+                    "key": "In First House--Out of Committee",
                     "step": "First chamber",
-                    "label": "In committee",
+                    "label": "Out of committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -42380,6 +43050,68 @@
                     },
                     {
                         "step": "first committee",
+                        "status": "passed",
+                        "statusLabel": "Advanced",
+                        "statusDate": "01/30/2023"
+                    },
+                    {
+                        "step": "first chamber",
+                        "status": "current",
+                        "statusLabel": "Pending",
+                        "statusDate": null
+                    },
+                    {
+                        "step": "second chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "reconciliation",
+                        "status": "skipped",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "governor",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    }
+                ],
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0348.pdf",
+                "fiscalNoteUrl": null,
+                "legalNoteUrl": null,
+                "numArticles": 0,
+                "sponsor": {
+                    "name": "Kenneth Walsh",
+                    "lastName": "Walsh",
+                    "party": "R",
+                    "locale": "Twin Bridges",
+                    "district": "HD 71"
+                }
+            },
+            {
+                "key": "hb-371",
+                "identifier": "HB 371",
+                "title": "Allow state-chartered banks to own employee housing",
+                "chamber": "house",
+                "status": {
+                    "key": "In First House Committee--Nontabled",
+                    "step": "First chamber",
+                    "label": "In committee",
+                    "status": "live",
+                    "statusAtSessionEnd": "failed"
+                },
+                "progress": [
+                    {
+                        "step": "introduced",
+                        "status": "passed",
+                        "statusLabel": "Introduced",
+                        "statusDate": "01/31/2023"
+                    },
+                    {
+                        "step": "first committee",
                         "status": "current",
                         "statusLabel": "Pending",
                         "statusDate": null
@@ -42409,7 +43141,7 @@
                         "statusDate": null
                     }
                 ],
-                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0348.pdf",
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC0815.pdf",
                 "fiscalNoteUrl": null,
                 "legalNoteUrl": null,
                 "numArticles": 0,
@@ -45495,22 +46227,22 @@
         "votingSummary": {
             "name": "Dan Bartel",
             "party": "R",
-            "numVotesCast": 246,
+            "numVotesCast": 247,
             "numVotesNotPresent": 0,
-            "numVotesPresent": 246,
-            "votesOnWinningSide": 231,
-            "fractionVotesOnWinningSide": 0.9390243902439024,
-            "votesWithGopCaucus": 234,
-            "fractionVotesWithGopCaucus": 0.9512195121951219,
-            "votesWithDemCaucus": 179,
-            "fractionVotesWithDemCaucus": 0.7276422764227642,
+            "numVotesPresent": 247,
+            "votesOnWinningSide": 232,
+            "fractionVotesOnWinningSide": 0.9392712550607287,
+            "votesWithGopCaucus": 235,
+            "fractionVotesWithGopCaucus": 0.951417004048583,
+            "votesWithDemCaucus": 180,
+            "fractionVotesWithDemCaucus": 0.728744939271255,
             "averageAbsences": 4.04,
-            "averageVotesOnWinningSideGop": 0.9360486986859824,
-            "averageVotesOnWinningSideDem": 0.7757716770678286,
-            "averageVotesWithGopCaucusGop": 0.9409486428732826,
-            "averageVotesWithGopCaucusDem": 0.7491076369504567,
-            "averageVotesWithDemCaucusGop": 0.7407728755246334,
-            "averageVotesWithDemCaucusDem": 0.9548874638074132
+            "averageVotesOnWinningSideGop": 0.9363080464539826,
+            "averageVotesOnWinningSideDem": 0.7767348843631394,
+            "averageVotesWithGopCaucusGop": 0.9411881612388827,
+            "averageVotesWithGopCaucusDem": 0.7501867438140609,
+            "averageVotesWithDemCaucusGop": 0.7418234432402168,
+            "averageVotesWithDemCaucusDem": 0.9550936406573314
         },
         "keyBillVotes": [
             {
@@ -46071,22 +46803,22 @@
         "votingSummary": {
             "name": "Becky Beard",
             "party": "R",
-            "numVotesCast": 246,
+            "numVotesCast": 247,
             "numVotesNotPresent": 0,
-            "numVotesPresent": 246,
-            "votesOnWinningSide": 229,
-            "fractionVotesOnWinningSide": 0.9308943089430894,
-            "votesWithGopCaucus": 230,
-            "fractionVotesWithGopCaucus": 0.9349593495934959,
-            "votesWithDemCaucus": 177,
-            "fractionVotesWithDemCaucus": 0.7195121951219512,
+            "numVotesPresent": 247,
+            "votesOnWinningSide": 230,
+            "fractionVotesOnWinningSide": 0.9311740890688259,
+            "votesWithGopCaucus": 231,
+            "fractionVotesWithGopCaucus": 0.9352226720647774,
+            "votesWithDemCaucus": 178,
+            "fractionVotesWithDemCaucus": 0.7206477732793523,
             "averageAbsences": 4.04,
-            "averageVotesOnWinningSideGop": 0.9360486986859824,
-            "averageVotesOnWinningSideDem": 0.7757716770678286,
-            "averageVotesWithGopCaucusGop": 0.9409486428732826,
-            "averageVotesWithGopCaucusDem": 0.7491076369504567,
-            "averageVotesWithDemCaucusGop": 0.7407728755246334,
-            "averageVotesWithDemCaucusDem": 0.9548874638074132
+            "averageVotesOnWinningSideGop": 0.9363080464539826,
+            "averageVotesOnWinningSideDem": 0.7767348843631394,
+            "averageVotesWithGopCaucusGop": 0.9411881612388827,
+            "averageVotesWithGopCaucusDem": 0.7501867438140609,
+            "averageVotesWithDemCaucusGop": 0.7418234432402168,
+            "averageVotesWithDemCaucusDem": 0.9550936406573314
         },
         "keyBillVotes": [
             {
@@ -46442,22 +47174,22 @@
         "votingSummary": {
             "name": "Kenneth Bogner",
             "party": "R",
-            "numVotesCast": 246,
+            "numVotesCast": 247,
             "numVotesNotPresent": 0,
-            "numVotesPresent": 246,
-            "votesOnWinningSide": 233,
-            "fractionVotesOnWinningSide": 0.9471544715447154,
-            "votesWithGopCaucus": 238,
-            "fractionVotesWithGopCaucus": 0.967479674796748,
-            "votesWithDemCaucus": 187,
-            "fractionVotesWithDemCaucus": 0.7601626016260162,
+            "numVotesPresent": 247,
+            "votesOnWinningSide": 234,
+            "fractionVotesOnWinningSide": 0.9473684210526315,
+            "votesWithGopCaucus": 239,
+            "fractionVotesWithGopCaucus": 0.9676113360323887,
+            "votesWithDemCaucus": 188,
+            "fractionVotesWithDemCaucus": 0.7611336032388664,
             "averageAbsences": 4.04,
-            "averageVotesOnWinningSideGop": 0.9360486986859824,
-            "averageVotesOnWinningSideDem": 0.7757716770678286,
-            "averageVotesWithGopCaucusGop": 0.9409486428732826,
-            "averageVotesWithGopCaucusDem": 0.7491076369504567,
-            "averageVotesWithDemCaucusGop": 0.7407728755246334,
-            "averageVotesWithDemCaucusDem": 0.9548874638074132
+            "averageVotesOnWinningSideGop": 0.9363080464539826,
+            "averageVotesOnWinningSideDem": 0.7767348843631394,
+            "averageVotesWithGopCaucusGop": 0.9411881612388827,
+            "averageVotesWithGopCaucusDem": 0.7501867438140609,
+            "averageVotesWithDemCaucusGop": 0.7418234432402168,
+            "averageVotesWithDemCaucusDem": 0.9550936406573314
         },
         "keyBillVotes": [
             {
@@ -46723,22 +47455,22 @@
         "votingSummary": {
             "name": "Ellie Boldman",
             "party": "D",
-            "numVotesCast": 246,
+            "numVotesCast": 247,
             "numVotesNotPresent": 0,
-            "numVotesPresent": 246,
-            "votesOnWinningSide": 196,
-            "fractionVotesOnWinningSide": 0.7967479674796748,
-            "votesWithGopCaucus": 189,
-            "fractionVotesWithGopCaucus": 0.7682926829268293,
-            "votesWithDemCaucus": 238,
-            "fractionVotesWithDemCaucus": 0.967479674796748,
+            "numVotesPresent": 247,
+            "votesOnWinningSide": 197,
+            "fractionVotesOnWinningSide": 0.7975708502024291,
+            "votesWithGopCaucus": 190,
+            "fractionVotesWithGopCaucus": 0.7692307692307693,
+            "votesWithDemCaucus": 239,
+            "fractionVotesWithDemCaucus": 0.9676113360323887,
             "averageAbsences": 4.04,
-            "averageVotesOnWinningSideGop": 0.9360486986859824,
-            "averageVotesOnWinningSideDem": 0.7757716770678286,
-            "averageVotesWithGopCaucusGop": 0.9409486428732826,
-            "averageVotesWithGopCaucusDem": 0.7491076369504567,
-            "averageVotesWithDemCaucusGop": 0.7407728755246334,
-            "averageVotesWithDemCaucusDem": 0.9548874638074132
+            "averageVotesOnWinningSideGop": 0.9363080464539826,
+            "averageVotesOnWinningSideDem": 0.7767348843631394,
+            "averageVotesWithGopCaucusGop": 0.9411881612388827,
+            "averageVotesWithGopCaucusDem": 0.7501867438140609,
+            "averageVotesWithDemCaucusGop": 0.7418234432402168,
+            "averageVotesWithDemCaucusDem": 0.9550936406573314
         },
         "keyBillVotes": [
             {
@@ -47175,22 +47907,22 @@
         "votingSummary": {
             "name": "Bob Brown",
             "party": "R",
-            "numVotesCast": 246,
+            "numVotesCast": 247,
             "numVotesNotPresent": 0,
-            "numVotesPresent": 246,
-            "votesOnWinningSide": 233,
-            "fractionVotesOnWinningSide": 0.9471544715447154,
-            "votesWithGopCaucus": 238,
-            "fractionVotesWithGopCaucus": 0.967479674796748,
-            "votesWithDemCaucus": 181,
-            "fractionVotesWithDemCaucus": 0.7357723577235772,
+            "numVotesPresent": 247,
+            "votesOnWinningSide": 234,
+            "fractionVotesOnWinningSide": 0.9473684210526315,
+            "votesWithGopCaucus": 239,
+            "fractionVotesWithGopCaucus": 0.9676113360323887,
+            "votesWithDemCaucus": 182,
+            "fractionVotesWithDemCaucus": 0.7368421052631579,
             "averageAbsences": 4.04,
-            "averageVotesOnWinningSideGop": 0.9360486986859824,
-            "averageVotesOnWinningSideDem": 0.7757716770678286,
-            "averageVotesWithGopCaucusGop": 0.9409486428732826,
-            "averageVotesWithGopCaucusDem": 0.7491076369504567,
-            "averageVotesWithDemCaucusGop": 0.7407728755246334,
-            "averageVotesWithDemCaucusDem": 0.9548874638074132
+            "averageVotesOnWinningSideGop": 0.9363080464539826,
+            "averageVotesOnWinningSideDem": 0.7767348843631394,
+            "averageVotesWithGopCaucusGop": 0.9411881612388827,
+            "averageVotesWithGopCaucusDem": 0.7501867438140609,
+            "averageVotesWithDemCaucusGop": 0.7418234432402168,
+            "averageVotesWithDemCaucusDem": 0.9550936406573314
         },
         "keyBillVotes": [
             {
@@ -48155,22 +48887,22 @@
         "votingSummary": {
             "name": "Mike Cuffe",
             "party": "R",
-            "numVotesCast": 246,
+            "numVotesCast": 247,
             "numVotesNotPresent": 3,
-            "numVotesPresent": 243,
-            "votesOnWinningSide": 230,
-            "fractionVotesOnWinningSide": 0.9465020576131687,
-            "votesWithGopCaucus": 228,
-            "fractionVotesWithGopCaucus": 0.9382716049382716,
-            "votesWithDemCaucus": 190,
-            "fractionVotesWithDemCaucus": 0.7818930041152263,
+            "numVotesPresent": 244,
+            "votesOnWinningSide": 231,
+            "fractionVotesOnWinningSide": 0.9467213114754098,
+            "votesWithGopCaucus": 229,
+            "fractionVotesWithGopCaucus": 0.9385245901639344,
+            "votesWithDemCaucus": 191,
+            "fractionVotesWithDemCaucus": 0.7827868852459017,
             "averageAbsences": 4.04,
-            "averageVotesOnWinningSideGop": 0.9360486986859824,
-            "averageVotesOnWinningSideDem": 0.7757716770678286,
-            "averageVotesWithGopCaucusGop": 0.9409486428732826,
-            "averageVotesWithGopCaucusDem": 0.7491076369504567,
-            "averageVotesWithDemCaucusGop": 0.7407728755246334,
-            "averageVotesWithDemCaucusDem": 0.9548874638074132
+            "averageVotesOnWinningSideGop": 0.9363080464539826,
+            "averageVotesOnWinningSideDem": 0.7767348843631394,
+            "averageVotesWithGopCaucusGop": 0.9411881612388827,
+            "averageVotesWithGopCaucusDem": 0.7501867438140609,
+            "averageVotesWithDemCaucusGop": 0.7418234432402168,
+            "averageVotesWithDemCaucusDem": 0.9550936406573314
         },
         "keyBillVotes": [
             {
@@ -48549,22 +49281,22 @@
         "votingSummary": {
             "name": "Willis Curdy",
             "party": "D",
-            "numVotesCast": 246,
+            "numVotesCast": 247,
             "numVotesNotPresent": 0,
-            "numVotesPresent": 246,
-            "votesOnWinningSide": 199,
-            "fractionVotesOnWinningSide": 0.8089430894308943,
-            "votesWithGopCaucus": 192,
-            "fractionVotesWithGopCaucus": 0.7804878048780488,
-            "votesWithDemCaucus": 237,
-            "fractionVotesWithDemCaucus": 0.9634146341463414,
+            "numVotesPresent": 247,
+            "votesOnWinningSide": 200,
+            "fractionVotesOnWinningSide": 0.8097165991902834,
+            "votesWithGopCaucus": 193,
+            "fractionVotesWithGopCaucus": 0.7813765182186235,
+            "votesWithDemCaucus": 238,
+            "fractionVotesWithDemCaucus": 0.9635627530364372,
             "averageAbsences": 4.04,
-            "averageVotesOnWinningSideGop": 0.9360486986859824,
-            "averageVotesOnWinningSideDem": 0.7757716770678286,
-            "averageVotesWithGopCaucusGop": 0.9409486428732826,
-            "averageVotesWithGopCaucusDem": 0.7491076369504567,
-            "averageVotesWithDemCaucusGop": 0.7407728755246334,
-            "averageVotesWithDemCaucusDem": 0.9548874638074132
+            "averageVotesOnWinningSideGop": 0.9363080464539826,
+            "averageVotesOnWinningSideDem": 0.7767348843631394,
+            "averageVotesWithGopCaucusGop": 0.9411881612388827,
+            "averageVotesWithGopCaucusDem": 0.7501867438140609,
+            "averageVotesWithDemCaucusGop": 0.7418234432402168,
+            "averageVotesWithDemCaucusDem": 0.9550936406573314
         },
         "keyBillVotes": [
             {
@@ -49062,22 +49794,22 @@
         "votingSummary": {
             "name": "Mary Ann Dunwell",
             "party": "D",
-            "numVotesCast": 246,
+            "numVotesCast": 247,
             "numVotesNotPresent": 0,
-            "numVotesPresent": 246,
-            "votesOnWinningSide": 191,
-            "fractionVotesOnWinningSide": 0.7764227642276422,
-            "votesWithGopCaucus": 184,
-            "fractionVotesWithGopCaucus": 0.7479674796747967,
-            "votesWithDemCaucus": 241,
-            "fractionVotesWithDemCaucus": 0.9796747967479674,
+            "numVotesPresent": 247,
+            "votesOnWinningSide": 192,
+            "fractionVotesOnWinningSide": 0.7773279352226721,
+            "votesWithGopCaucus": 185,
+            "fractionVotesWithGopCaucus": 0.7489878542510121,
+            "votesWithDemCaucus": 242,
+            "fractionVotesWithDemCaucus": 0.979757085020243,
             "averageAbsences": 4.04,
-            "averageVotesOnWinningSideGop": 0.9360486986859824,
-            "averageVotesOnWinningSideDem": 0.7757716770678286,
-            "averageVotesWithGopCaucusGop": 0.9409486428732826,
-            "averageVotesWithGopCaucusDem": 0.7491076369504567,
-            "averageVotesWithDemCaucusGop": 0.7407728755246334,
-            "averageVotesWithDemCaucusDem": 0.9548874638074132
+            "averageVotesOnWinningSideGop": 0.9363080464539826,
+            "averageVotesOnWinningSideDem": 0.7767348843631394,
+            "averageVotesWithGopCaucusGop": 0.9411881612388827,
+            "averageVotesWithGopCaucusDem": 0.7501867438140609,
+            "averageVotesWithDemCaucusGop": 0.7418234432402168,
+            "averageVotesWithDemCaucusDem": 0.9550936406573314
         },
         "keyBillVotes": [
             {
@@ -49385,7 +50117,7 @@
                         "statusDate": null
                     }
                 ],
-                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC1325.pdf",
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/SB0232.pdf",
                 "fiscalNoteUrl": null,
                 "legalNoteUrl": null,
                 "numArticles": 0,
@@ -49401,22 +50133,22 @@
         "votingSummary": {
             "name": "Janet Ellis",
             "party": "D",
-            "numVotesCast": 246,
+            "numVotesCast": 247,
             "numVotesNotPresent": 0,
-            "numVotesPresent": 246,
-            "votesOnWinningSide": 192,
-            "fractionVotesOnWinningSide": 0.7804878048780488,
-            "votesWithGopCaucus": 185,
-            "fractionVotesWithGopCaucus": 0.7520325203252033,
-            "votesWithDemCaucus": 244,
-            "fractionVotesWithDemCaucus": 0.991869918699187,
+            "numVotesPresent": 247,
+            "votesOnWinningSide": 193,
+            "fractionVotesOnWinningSide": 0.7813765182186235,
+            "votesWithGopCaucus": 186,
+            "fractionVotesWithGopCaucus": 0.7530364372469636,
+            "votesWithDemCaucus": 245,
+            "fractionVotesWithDemCaucus": 0.9919028340080972,
             "averageAbsences": 4.04,
-            "averageVotesOnWinningSideGop": 0.9360486986859824,
-            "averageVotesOnWinningSideDem": 0.7757716770678286,
-            "averageVotesWithGopCaucusGop": 0.9409486428732826,
-            "averageVotesWithGopCaucusDem": 0.7491076369504567,
-            "averageVotesWithDemCaucusGop": 0.7407728755246334,
-            "averageVotesWithDemCaucusDem": 0.9548874638074132
+            "averageVotesOnWinningSideGop": 0.9363080464539826,
+            "averageVotesOnWinningSideDem": 0.7767348843631394,
+            "averageVotesWithGopCaucusGop": 0.9411881612388827,
+            "averageVotesWithGopCaucusDem": 0.7501867438140609,
+            "averageVotesWithDemCaucusGop": 0.7418234432402168,
+            "averageVotesWithDemCaucusDem": 0.9550936406573314
         },
         "keyBillVotes": [
             {
@@ -49847,22 +50579,22 @@
         "votingSummary": {
             "name": "Jason Ellsworth",
             "party": "R",
-            "numVotesCast": 246,
+            "numVotesCast": 247,
             "numVotesNotPresent": 0,
-            "numVotesPresent": 246,
-            "votesOnWinningSide": 237,
-            "fractionVotesOnWinningSide": 0.9634146341463414,
-            "votesWithGopCaucus": 238,
-            "fractionVotesWithGopCaucus": 0.967479674796748,
-            "votesWithDemCaucus": 187,
-            "fractionVotesWithDemCaucus": 0.7601626016260162,
+            "numVotesPresent": 247,
+            "votesOnWinningSide": 238,
+            "fractionVotesOnWinningSide": 0.9635627530364372,
+            "votesWithGopCaucus": 239,
+            "fractionVotesWithGopCaucus": 0.9676113360323887,
+            "votesWithDemCaucus": 188,
+            "fractionVotesWithDemCaucus": 0.7611336032388664,
             "averageAbsences": 4.04,
-            "averageVotesOnWinningSideGop": 0.9360486986859824,
-            "averageVotesOnWinningSideDem": 0.7757716770678286,
-            "averageVotesWithGopCaucusGop": 0.9409486428732826,
-            "averageVotesWithGopCaucusDem": 0.7491076369504567,
-            "averageVotesWithDemCaucusGop": 0.7407728755246334,
-            "averageVotesWithDemCaucusDem": 0.9548874638074132
+            "averageVotesOnWinningSideGop": 0.9363080464539826,
+            "averageVotesOnWinningSideDem": 0.7767348843631394,
+            "averageVotesWithGopCaucusGop": 0.9411881612388827,
+            "averageVotesWithGopCaucusDem": 0.7501867438140609,
+            "averageVotesWithDemCaucusGop": 0.7418234432402168,
+            "averageVotesWithDemCaucusDem": 0.9550936406573314
         },
         "keyBillVotes": [
             {
@@ -50204,7 +50936,7 @@
                         "statusDate": null
                     }
                 ],
-                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC2215.pdf",
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/SB0235.pdf",
                 "fiscalNoteUrl": null,
                 "legalNoteUrl": null,
                 "numArticles": 0,
@@ -50220,22 +50952,22 @@
         "votingSummary": {
             "name": "Daniel Emrich",
             "party": "R",
-            "numVotesCast": 246,
+            "numVotesCast": 247,
             "numVotesNotPresent": 0,
-            "numVotesPresent": 246,
-            "votesOnWinningSide": 214,
-            "fractionVotesOnWinningSide": 0.8699186991869918,
-            "votesWithGopCaucus": 221,
-            "fractionVotesWithGopCaucus": 0.8983739837398373,
-            "votesWithDemCaucus": 164,
-            "fractionVotesWithDemCaucus": 0.6666666666666666,
+            "numVotesPresent": 247,
+            "votesOnWinningSide": 215,
+            "fractionVotesOnWinningSide": 0.8704453441295547,
+            "votesWithGopCaucus": 222,
+            "fractionVotesWithGopCaucus": 0.8987854251012146,
+            "votesWithDemCaucus": 165,
+            "fractionVotesWithDemCaucus": 0.6680161943319838,
             "averageAbsences": 4.04,
-            "averageVotesOnWinningSideGop": 0.9360486986859824,
-            "averageVotesOnWinningSideDem": 0.7757716770678286,
-            "averageVotesWithGopCaucusGop": 0.9409486428732826,
-            "averageVotesWithGopCaucusDem": 0.7491076369504567,
-            "averageVotesWithDemCaucusGop": 0.7407728755246334,
-            "averageVotesWithDemCaucusDem": 0.9548874638074132
+            "averageVotesOnWinningSideGop": 0.9363080464539826,
+            "averageVotesOnWinningSideDem": 0.7767348843631394,
+            "averageVotesWithGopCaucusGop": 0.9411881612388827,
+            "averageVotesWithGopCaucusDem": 0.7501867438140609,
+            "averageVotesWithDemCaucusGop": 0.7418234432402168,
+            "averageVotesWithDemCaucusDem": 0.9550936406573314
         },
         "keyBillVotes": [
             {
@@ -50515,22 +51247,22 @@
         "votingSummary": {
             "name": "John Esp",
             "party": "R",
-            "numVotesCast": 246,
+            "numVotesCast": 247,
             "numVotesNotPresent": 0,
-            "numVotesPresent": 246,
-            "votesOnWinningSide": 227,
-            "fractionVotesOnWinningSide": 0.9227642276422764,
-            "votesWithGopCaucus": 226,
-            "fractionVotesWithGopCaucus": 0.9186991869918699,
-            "votesWithDemCaucus": 177,
-            "fractionVotesWithDemCaucus": 0.7195121951219512,
+            "numVotesPresent": 247,
+            "votesOnWinningSide": 228,
+            "fractionVotesOnWinningSide": 0.9230769230769231,
+            "votesWithGopCaucus": 227,
+            "fractionVotesWithGopCaucus": 0.9190283400809717,
+            "votesWithDemCaucus": 178,
+            "fractionVotesWithDemCaucus": 0.7206477732793523,
             "averageAbsences": 4.04,
-            "averageVotesOnWinningSideGop": 0.9360486986859824,
-            "averageVotesOnWinningSideDem": 0.7757716770678286,
-            "averageVotesWithGopCaucusGop": 0.9409486428732826,
-            "averageVotesWithGopCaucusDem": 0.7491076369504567,
-            "averageVotesWithDemCaucusGop": 0.7407728755246334,
-            "averageVotesWithDemCaucusDem": 0.9548874638074132
+            "averageVotesOnWinningSideGop": 0.9363080464539826,
+            "averageVotesOnWinningSideDem": 0.7767348843631394,
+            "averageVotesWithGopCaucusGop": 0.9411881612388827,
+            "averageVotesWithGopCaucusDem": 0.7501867438140609,
+            "averageVotesWithDemCaucusGop": 0.7418234432402168,
+            "averageVotesWithDemCaucusDem": 0.9550936406573314
         },
         "keyBillVotes": [
             {
@@ -52050,22 +52782,22 @@
         "votingSummary": {
             "name": "Steve Fitzpatrick",
             "party": "R",
-            "numVotesCast": 246,
+            "numVotesCast": 247,
             "numVotesNotPresent": 0,
-            "numVotesPresent": 246,
-            "votesOnWinningSide": 241,
-            "fractionVotesOnWinningSide": 0.9796747967479674,
-            "votesWithGopCaucus": 238,
-            "fractionVotesWithGopCaucus": 0.967479674796748,
-            "votesWithDemCaucus": 191,
-            "fractionVotesWithDemCaucus": 0.7764227642276422,
+            "numVotesPresent": 247,
+            "votesOnWinningSide": 242,
+            "fractionVotesOnWinningSide": 0.979757085020243,
+            "votesWithGopCaucus": 239,
+            "fractionVotesWithGopCaucus": 0.9676113360323887,
+            "votesWithDemCaucus": 192,
+            "fractionVotesWithDemCaucus": 0.7773279352226721,
             "averageAbsences": 4.04,
-            "averageVotesOnWinningSideGop": 0.9360486986859824,
-            "averageVotesOnWinningSideDem": 0.7757716770678286,
-            "averageVotesWithGopCaucusGop": 0.9409486428732826,
-            "averageVotesWithGopCaucusDem": 0.7491076369504567,
-            "averageVotesWithDemCaucusGop": 0.7407728755246334,
-            "averageVotesWithDemCaucusDem": 0.9548874638074132
+            "averageVotesOnWinningSideGop": 0.9363080464539826,
+            "averageVotesOnWinningSideDem": 0.7767348843631394,
+            "averageVotesWithGopCaucusGop": 0.9411881612388827,
+            "averageVotesWithGopCaucusDem": 0.7501867438140609,
+            "averageVotesWithDemCaucusGop": 0.7418234432402168,
+            "averageVotesWithDemCaucusDem": 0.9550936406573314
         },
         "keyBillVotes": [
             {
@@ -52308,22 +53040,22 @@
         "votingSummary": {
             "name": "Pat Flowers",
             "party": "D",
-            "numVotesCast": 246,
+            "numVotesCast": 247,
             "numVotesNotPresent": 0,
-            "numVotesPresent": 246,
-            "votesOnWinningSide": 190,
-            "fractionVotesOnWinningSide": 0.7723577235772358,
-            "votesWithGopCaucus": 183,
-            "fractionVotesWithGopCaucus": 0.7439024390243902,
-            "votesWithDemCaucus": 232,
-            "fractionVotesWithDemCaucus": 0.943089430894309,
+            "numVotesPresent": 247,
+            "votesOnWinningSide": 191,
+            "fractionVotesOnWinningSide": 0.7732793522267206,
+            "votesWithGopCaucus": 184,
+            "fractionVotesWithGopCaucus": 0.7449392712550608,
+            "votesWithDemCaucus": 233,
+            "fractionVotesWithDemCaucus": 0.9433198380566802,
             "averageAbsences": 4.04,
-            "averageVotesOnWinningSideGop": 0.9360486986859824,
-            "averageVotesOnWinningSideDem": 0.7757716770678286,
-            "averageVotesWithGopCaucusGop": 0.9409486428732826,
-            "averageVotesWithGopCaucusDem": 0.7491076369504567,
-            "averageVotesWithDemCaucusGop": 0.7407728755246334,
-            "averageVotesWithDemCaucusDem": 0.9548874638074132
+            "averageVotesOnWinningSideGop": 0.9363080464539826,
+            "averageVotesOnWinningSideDem": 0.7767348843631394,
+            "averageVotesWithGopCaucusGop": 0.9411881612388827,
+            "averageVotesWithGopCaucusDem": 0.7501867438140609,
+            "averageVotesWithDemCaucusGop": 0.7418234432402168,
+            "averageVotesWithDemCaucusDem": 0.9550936406573314
         },
         "keyBillVotes": [
             {
@@ -52628,22 +53360,22 @@
         "votingSummary": {
             "name": "Mike Fox",
             "party": "D",
-            "numVotesCast": 246,
+            "numVotesCast": 247,
             "numVotesNotPresent": 0,
-            "numVotesPresent": 246,
-            "votesOnWinningSide": 202,
-            "fractionVotesOnWinningSide": 0.8211382113821138,
-            "votesWithGopCaucus": 195,
-            "fractionVotesWithGopCaucus": 0.7926829268292683,
-            "votesWithDemCaucus": 236,
-            "fractionVotesWithDemCaucus": 0.959349593495935,
+            "numVotesPresent": 247,
+            "votesOnWinningSide": 203,
+            "fractionVotesOnWinningSide": 0.8218623481781376,
+            "votesWithGopCaucus": 196,
+            "fractionVotesWithGopCaucus": 0.7935222672064778,
+            "votesWithDemCaucus": 237,
+            "fractionVotesWithDemCaucus": 0.9595141700404858,
             "averageAbsences": 4.04,
-            "averageVotesOnWinningSideGop": 0.9360486986859824,
-            "averageVotesOnWinningSideDem": 0.7757716770678286,
-            "averageVotesWithGopCaucusGop": 0.9409486428732826,
-            "averageVotesWithGopCaucusDem": 0.7491076369504567,
-            "averageVotesWithDemCaucusGop": 0.7407728755246334,
-            "averageVotesWithDemCaucusDem": 0.9548874638074132
+            "averageVotesOnWinningSideGop": 0.9363080464539826,
+            "averageVotesOnWinningSideDem": 0.7767348843631394,
+            "averageVotesWithGopCaucusGop": 0.9411881612388827,
+            "averageVotesWithGopCaucusDem": 0.7501867438140609,
+            "averageVotesWithDemCaucusGop": 0.7418234432402168,
+            "averageVotesWithDemCaucusDem": 0.9550936406573314
         },
         "keyBillVotes": [
             {
@@ -53074,22 +53806,22 @@
         "votingSummary": {
             "name": "Chris Friedel",
             "party": "R",
-            "numVotesCast": 246,
+            "numVotesCast": 247,
             "numVotesNotPresent": 0,
-            "numVotesPresent": 246,
-            "votesOnWinningSide": 233,
-            "fractionVotesOnWinningSide": 0.9471544715447154,
-            "votesWithGopCaucus": 234,
-            "fractionVotesWithGopCaucus": 0.9512195121951219,
-            "votesWithDemCaucus": 185,
-            "fractionVotesWithDemCaucus": 0.7520325203252033,
+            "numVotesPresent": 247,
+            "votesOnWinningSide": 234,
+            "fractionVotesOnWinningSide": 0.9473684210526315,
+            "votesWithGopCaucus": 235,
+            "fractionVotesWithGopCaucus": 0.951417004048583,
+            "votesWithDemCaucus": 186,
+            "fractionVotesWithDemCaucus": 0.7530364372469636,
             "averageAbsences": 4.04,
-            "averageVotesOnWinningSideGop": 0.9360486986859824,
-            "averageVotesOnWinningSideDem": 0.7757716770678286,
-            "averageVotesWithGopCaucusGop": 0.9409486428732826,
-            "averageVotesWithGopCaucusDem": 0.7491076369504567,
-            "averageVotesWithDemCaucusGop": 0.7407728755246334,
-            "averageVotesWithDemCaucusDem": 0.9548874638074132
+            "averageVotesOnWinningSideGop": 0.9363080464539826,
+            "averageVotesOnWinningSideDem": 0.7767348843631394,
+            "averageVotesWithGopCaucusGop": 0.9411881612388827,
+            "averageVotesWithGopCaucusDem": 0.7501867438140609,
+            "averageVotesWithDemCaucusGop": 0.7418234432402168,
+            "averageVotesWithDemCaucusDem": 0.9550936406573314
         },
         "keyBillVotes": [
             {
@@ -53276,7 +54008,7 @@
                 "title": "Lawmakers debate ban on gender-affirming care for transgender minors",
                 "category": "2023 Legislature",
                 "subtitle": "",
-                "date": "2023-01-27T23:52:46.000Z",
+                "date": "2023-01-27T16:52:46.000Z",
                 "link": "https://montanafreepress.org/2023/01/27/montana-lawmakers-debate-ban-on-gender-affirming-care-for-trans-youth/",
                 "author": "Mara Silvers",
                 "imageUrl": "https://montanafreepress.org/2023/01/27/montana-lawmakers-debate-ban-on-gender-affirming-care-for-trans-youth/untitled-design-268/",
@@ -53564,22 +54296,22 @@
         "votingSummary": {
             "name": "John Fuller",
             "party": "R",
-            "numVotesCast": 246,
+            "numVotesCast": 247,
             "numVotesNotPresent": 0,
-            "numVotesPresent": 246,
-            "votesOnWinningSide": 230,
-            "fractionVotesOnWinningSide": 0.9349593495934959,
-            "votesWithGopCaucus": 235,
-            "fractionVotesWithGopCaucus": 0.9552845528455285,
-            "votesWithDemCaucus": 180,
-            "fractionVotesWithDemCaucus": 0.7317073170731707,
+            "numVotesPresent": 247,
+            "votesOnWinningSide": 231,
+            "fractionVotesOnWinningSide": 0.9352226720647774,
+            "votesWithGopCaucus": 236,
+            "fractionVotesWithGopCaucus": 0.9554655870445344,
+            "votesWithDemCaucus": 181,
+            "fractionVotesWithDemCaucus": 0.7327935222672065,
             "averageAbsences": 4.04,
-            "averageVotesOnWinningSideGop": 0.9360486986859824,
-            "averageVotesOnWinningSideDem": 0.7757716770678286,
-            "averageVotesWithGopCaucusGop": 0.9409486428732826,
-            "averageVotesWithGopCaucusDem": 0.7491076369504567,
-            "averageVotesWithDemCaucusGop": 0.7407728755246334,
-            "averageVotesWithDemCaucusDem": 0.9548874638074132
+            "averageVotesOnWinningSideGop": 0.9363080464539826,
+            "averageVotesOnWinningSideDem": 0.7767348843631394,
+            "averageVotesWithGopCaucusGop": 0.9411881612388827,
+            "averageVotesWithGopCaucusDem": 0.7501867438140609,
+            "averageVotesWithDemCaucusGop": 0.7418234432402168,
+            "averageVotesWithDemCaucusDem": 0.9550936406573314
         },
         "keyBillVotes": [
             {
@@ -53923,22 +54655,22 @@
         "votingSummary": {
             "name": "Bruce Gillespie",
             "party": "R",
-            "numVotesCast": 246,
+            "numVotesCast": 247,
             "numVotesNotPresent": 0,
-            "numVotesPresent": 246,
-            "votesOnWinningSide": 241,
-            "fractionVotesOnWinningSide": 0.9796747967479674,
-            "votesWithGopCaucus": 240,
-            "fractionVotesWithGopCaucus": 0.975609756097561,
-            "votesWithDemCaucus": 193,
-            "fractionVotesWithDemCaucus": 0.7845528455284553,
+            "numVotesPresent": 247,
+            "votesOnWinningSide": 242,
+            "fractionVotesOnWinningSide": 0.979757085020243,
+            "votesWithGopCaucus": 241,
+            "fractionVotesWithGopCaucus": 0.9757085020242915,
+            "votesWithDemCaucus": 194,
+            "fractionVotesWithDemCaucus": 0.7854251012145749,
             "averageAbsences": 4.04,
-            "averageVotesOnWinningSideGop": 0.9360486986859824,
-            "averageVotesOnWinningSideDem": 0.7757716770678286,
-            "averageVotesWithGopCaucusGop": 0.9409486428732826,
-            "averageVotesWithGopCaucusDem": 0.7491076369504567,
-            "averageVotesWithDemCaucusGop": 0.7407728755246334,
-            "averageVotesWithDemCaucusDem": 0.9548874638074132
+            "averageVotesOnWinningSideGop": 0.9363080464539826,
+            "averageVotesOnWinningSideDem": 0.7767348843631394,
+            "averageVotesWithGopCaucusGop": 0.9411881612388827,
+            "averageVotesWithGopCaucusDem": 0.7501867438140609,
+            "averageVotesWithDemCaucusGop": 0.7418234432402168,
+            "averageVotesWithDemCaucusDem": 0.9550936406573314
         },
         "keyBillVotes": [
             {
@@ -54411,22 +55143,22 @@
         "votingSummary": {
             "name": "Carl Glimm",
             "party": "R",
-            "numVotesCast": 246,
+            "numVotesCast": 247,
             "numVotesNotPresent": 1,
-            "numVotesPresent": 245,
-            "votesOnWinningSide": 214,
-            "fractionVotesOnWinningSide": 0.8734693877551021,
-            "votesWithGopCaucus": 221,
-            "fractionVotesWithGopCaucus": 0.9020408163265307,
-            "votesWithDemCaucus": 162,
-            "fractionVotesWithDemCaucus": 0.6612244897959184,
+            "numVotesPresent": 246,
+            "votesOnWinningSide": 215,
+            "fractionVotesOnWinningSide": 0.8739837398373984,
+            "votesWithGopCaucus": 222,
+            "fractionVotesWithGopCaucus": 0.9024390243902439,
+            "votesWithDemCaucus": 163,
+            "fractionVotesWithDemCaucus": 0.6626016260162602,
             "averageAbsences": 4.04,
-            "averageVotesOnWinningSideGop": 0.9360486986859824,
-            "averageVotesOnWinningSideDem": 0.7757716770678286,
-            "averageVotesWithGopCaucusGop": 0.9409486428732826,
-            "averageVotesWithGopCaucusDem": 0.7491076369504567,
-            "averageVotesWithDemCaucusGop": 0.7407728755246334,
-            "averageVotesWithDemCaucusDem": 0.9548874638074132
+            "averageVotesOnWinningSideGop": 0.9363080464539826,
+            "averageVotesOnWinningSideDem": 0.7767348843631394,
+            "averageVotesWithGopCaucusGop": 0.9411881612388827,
+            "averageVotesWithGopCaucusDem": 0.7501867438140609,
+            "averageVotesWithDemCaucusGop": 0.7418234432402168,
+            "averageVotesWithDemCaucusDem": 0.9550936406573314
         },
         "keyBillVotes": [
             {
@@ -54862,22 +55594,22 @@
         "votingSummary": {
             "name": "Jen Gross",
             "party": "D",
-            "numVotesCast": 246,
+            "numVotesCast": 247,
             "numVotesNotPresent": 26,
-            "numVotesPresent": 220,
-            "votesOnWinningSide": 156,
-            "fractionVotesOnWinningSide": 0.7090909090909091,
-            "votesWithGopCaucus": 150,
-            "fractionVotesWithGopCaucus": 0.6818181818181818,
-            "votesWithDemCaucus": 205,
-            "fractionVotesWithDemCaucus": 0.9318181818181818,
+            "numVotesPresent": 221,
+            "votesOnWinningSide": 157,
+            "fractionVotesOnWinningSide": 0.7104072398190046,
+            "votesWithGopCaucus": 151,
+            "fractionVotesWithGopCaucus": 0.6832579185520362,
+            "votesWithDemCaucus": 206,
+            "fractionVotesWithDemCaucus": 0.9321266968325792,
             "averageAbsences": 4.04,
-            "averageVotesOnWinningSideGop": 0.9360486986859824,
-            "averageVotesOnWinningSideDem": 0.7757716770678286,
-            "averageVotesWithGopCaucusGop": 0.9409486428732826,
-            "averageVotesWithGopCaucusDem": 0.7491076369504567,
-            "averageVotesWithDemCaucusGop": 0.7407728755246334,
-            "averageVotesWithDemCaucusDem": 0.9548874638074132
+            "averageVotesOnWinningSideGop": 0.9363080464539826,
+            "averageVotesOnWinningSideDem": 0.7767348843631394,
+            "averageVotesWithGopCaucusGop": 0.9411881612388827,
+            "averageVotesWithGopCaucusDem": 0.7501867438140609,
+            "averageVotesWithDemCaucusGop": 0.7418234432402168,
+            "averageVotesWithDemCaucusDem": 0.9550936406573314
         },
         "keyBillVotes": [
             {
@@ -55064,22 +55796,22 @@
         "votingSummary": {
             "name": "Denise Hayman",
             "party": "D",
-            "numVotesCast": 246,
+            "numVotesCast": 247,
             "numVotesNotPresent": 19,
-            "numVotesPresent": 227,
-            "votesOnWinningSide": 165,
-            "fractionVotesOnWinningSide": 0.7268722466960352,
-            "votesWithGopCaucus": 161,
-            "fractionVotesWithGopCaucus": 0.7092511013215859,
-            "votesWithDemCaucus": 210,
-            "fractionVotesWithDemCaucus": 0.9251101321585903,
+            "numVotesPresent": 228,
+            "votesOnWinningSide": 166,
+            "fractionVotesOnWinningSide": 0.7280701754385965,
+            "votesWithGopCaucus": 162,
+            "fractionVotesWithGopCaucus": 0.7105263157894737,
+            "votesWithDemCaucus": 211,
+            "fractionVotesWithDemCaucus": 0.9254385964912281,
             "averageAbsences": 4.04,
-            "averageVotesOnWinningSideGop": 0.9360486986859824,
-            "averageVotesOnWinningSideDem": 0.7757716770678286,
-            "averageVotesWithGopCaucusGop": 0.9409486428732826,
-            "averageVotesWithGopCaucusDem": 0.7491076369504567,
-            "averageVotesWithDemCaucusGop": 0.7407728755246334,
-            "averageVotesWithDemCaucusDem": 0.9548874638074132
+            "averageVotesOnWinningSideGop": 0.9363080464539826,
+            "averageVotesOnWinningSideDem": 0.7767348843631394,
+            "averageVotesWithGopCaucusGop": 0.9411881612388827,
+            "averageVotesWithGopCaucusDem": 0.7501867438140609,
+            "averageVotesWithDemCaucusGop": 0.7418234432402168,
+            "averageVotesWithDemCaucusDem": 0.9550936406573314
         },
         "keyBillVotes": [
             {
@@ -56223,9 +56955,9 @@
                 "title": "Revise eligibility for resort communities and resort areas",
                 "chamber": "senate",
                 "status": {
-                    "key": "In First House Committee--Nontabled",
+                    "key": "In First House--Out of Committee",
                     "step": "First chamber",
-                    "label": "In committee",
+                    "label": "Out of committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -56300,14 +57032,14 @@
                     },
                     {
                         "step": "first committee",
-                        "status": "current",
-                        "statusLabel": "Pending",
-                        "statusDate": null
+                        "status": "passed",
+                        "statusLabel": "Advanced",
+                        "statusDate": "01/31/2023"
                     },
                     {
                         "step": "first chamber",
-                        "status": "future",
-                        "statusLabel": null,
+                        "status": "current",
+                        "statusLabel": "Pending",
                         "statusDate": null
                     },
                     {
@@ -56701,6 +57433,68 @@
                         "statusDate": null
                     }
                 ],
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/SB0236.pdf",
+                "fiscalNoteUrl": null,
+                "legalNoteUrl": null,
+                "numArticles": 0,
+                "sponsor": {
+                    "name": "Greg Hertz",
+                    "lastName": "Hertz",
+                    "party": "R",
+                    "locale": "Polson",
+                    "district": "SD 6"
+                }
+            },
+            {
+                "key": "sb-236",
+                "identifier": "SB 236",
+                "title": "Establish time limited demand standards",
+                "chamber": "senate",
+                "status": {
+                    "key": "In First House Committee--Nontabled",
+                    "step": "First chamber",
+                    "label": "In committee",
+                    "status": "live",
+                    "statusAtSessionEnd": "failed"
+                },
+                "progress": [
+                    {
+                        "step": "introduced",
+                        "status": "passed",
+                        "statusLabel": "Introduced",
+                        "statusDate": "01/30/2023"
+                    },
+                    {
+                        "step": "first committee",
+                        "status": "current",
+                        "statusLabel": "Pending",
+                        "statusDate": null
+                    },
+                    {
+                        "step": "first chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "second chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "reconciliation",
+                        "status": "skipped",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "governor",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    }
+                ],
                 "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC0931.pdf",
                 "fiscalNoteUrl": null,
                 "legalNoteUrl": null,
@@ -56761,22 +57555,22 @@
         "votingSummary": {
             "name": "Greg Hertz",
             "party": "R",
-            "numVotesCast": 246,
+            "numVotesCast": 247,
             "numVotesNotPresent": 0,
-            "numVotesPresent": 246,
-            "votesOnWinningSide": 237,
-            "fractionVotesOnWinningSide": 0.9634146341463414,
-            "votesWithGopCaucus": 240,
-            "fractionVotesWithGopCaucus": 0.975609756097561,
-            "votesWithDemCaucus": 185,
-            "fractionVotesWithDemCaucus": 0.7520325203252033,
+            "numVotesPresent": 247,
+            "votesOnWinningSide": 238,
+            "fractionVotesOnWinningSide": 0.9635627530364372,
+            "votesWithGopCaucus": 241,
+            "fractionVotesWithGopCaucus": 0.9757085020242915,
+            "votesWithDemCaucus": 186,
+            "fractionVotesWithDemCaucus": 0.7530364372469636,
             "averageAbsences": 4.04,
-            "averageVotesOnWinningSideGop": 0.9360486986859824,
-            "averageVotesOnWinningSideDem": 0.7757716770678286,
-            "averageVotesWithGopCaucusGop": 0.9409486428732826,
-            "averageVotesWithGopCaucusDem": 0.7491076369504567,
-            "averageVotesWithDemCaucusGop": 0.7407728755246334,
-            "averageVotesWithDemCaucusDem": 0.9548874638074132
+            "averageVotesOnWinningSideGop": 0.9363080464539826,
+            "averageVotesOnWinningSideDem": 0.7767348843631394,
+            "averageVotesWithGopCaucusGop": 0.9411881612388827,
+            "averageVotesWithGopCaucusDem": 0.7501867438140609,
+            "averageVotesWithDemCaucusGop": 0.7418234432402168,
+            "averageVotesWithDemCaucusDem": 0.9550936406573314
         },
         "keyBillVotes": [
             {
@@ -57034,9 +57828,9 @@
                 "title": "Join Interstate Mining Compact Commission",
                 "chamber": "senate",
                 "status": {
-                    "key": "In First House Committee--Nontabled",
+                    "key": "In First House--Out of Committee",
                     "step": "First chamber",
-                    "label": "In committee",
+                    "label": "Out of committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -57244,22 +58038,22 @@
         "votingSummary": {
             "name": "Steve Hinebauch",
             "party": "R",
-            "numVotesCast": 246,
+            "numVotesCast": 247,
             "numVotesNotPresent": 0,
-            "numVotesPresent": 246,
-            "votesOnWinningSide": 219,
-            "fractionVotesOnWinningSide": 0.8902439024390244,
-            "votesWithGopCaucus": 226,
-            "fractionVotesWithGopCaucus": 0.9186991869918699,
-            "votesWithDemCaucus": 167,
-            "fractionVotesWithDemCaucus": 0.6788617886178862,
+            "numVotesPresent": 247,
+            "votesOnWinningSide": 220,
+            "fractionVotesOnWinningSide": 0.8906882591093117,
+            "votesWithGopCaucus": 227,
+            "fractionVotesWithGopCaucus": 0.9190283400809717,
+            "votesWithDemCaucus": 168,
+            "fractionVotesWithDemCaucus": 0.680161943319838,
             "averageAbsences": 4.04,
-            "averageVotesOnWinningSideGop": 0.9360486986859824,
-            "averageVotesOnWinningSideDem": 0.7757716770678286,
-            "averageVotesWithGopCaucusGop": 0.9409486428732826,
-            "averageVotesWithGopCaucusDem": 0.7491076369504567,
-            "averageVotesWithDemCaucusGop": 0.7407728755246334,
-            "averageVotesWithDemCaucusDem": 0.9548874638074132
+            "averageVotesOnWinningSideGop": 0.9363080464539826,
+            "averageVotesOnWinningSideDem": 0.7767348843631394,
+            "averageVotesWithGopCaucusGop": 0.9411881612388827,
+            "averageVotesWithGopCaucusDem": 0.7501867438140609,
+            "averageVotesWithDemCaucusGop": 0.7418234432402168,
+            "averageVotesWithDemCaucusDem": 0.9550936406573314
         },
         "keyBillVotes": [
             {
@@ -57446,22 +58240,22 @@
         "votingSummary": {
             "name": "Kathy Kelker",
             "party": "D",
-            "numVotesCast": 246,
+            "numVotesCast": 247,
             "numVotesNotPresent": 142,
-            "numVotesPresent": 104,
-            "votesOnWinningSide": 92,
-            "fractionVotesOnWinningSide": 0.8846153846153846,
-            "votesWithGopCaucus": 90,
-            "fractionVotesWithGopCaucus": 0.8653846153846154,
-            "votesWithDemCaucus": 98,
-            "fractionVotesWithDemCaucus": 0.9423076923076923,
+            "numVotesPresent": 105,
+            "votesOnWinningSide": 93,
+            "fractionVotesOnWinningSide": 0.8857142857142857,
+            "votesWithGopCaucus": 91,
+            "fractionVotesWithGopCaucus": 0.8666666666666667,
+            "votesWithDemCaucus": 99,
+            "fractionVotesWithDemCaucus": 0.9428571428571428,
             "averageAbsences": 4.04,
-            "averageVotesOnWinningSideGop": 0.9360486986859824,
-            "averageVotesOnWinningSideDem": 0.7757716770678286,
-            "averageVotesWithGopCaucusGop": 0.9409486428732826,
-            "averageVotesWithGopCaucusDem": 0.7491076369504567,
-            "averageVotesWithDemCaucusGop": 0.7407728755246334,
-            "averageVotesWithDemCaucusDem": 0.9548874638074132
+            "averageVotesOnWinningSideGop": 0.9363080464539826,
+            "averageVotesOnWinningSideDem": 0.7767348843631394,
+            "averageVotesWithGopCaucusGop": 0.9411881612388827,
+            "averageVotesWithGopCaucusDem": 0.7501867438140609,
+            "averageVotesWithDemCaucusGop": 0.7418234432402168,
+            "averageVotesWithDemCaucusDem": 0.9550936406573314
         },
         "keyBillVotes": [
             {
@@ -57975,22 +58769,22 @@
         "votingSummary": {
             "name": "Mike Lang",
             "party": "R",
-            "numVotesCast": 246,
+            "numVotesCast": 247,
             "numVotesNotPresent": 0,
-            "numVotesPresent": 246,
-            "votesOnWinningSide": 232,
-            "fractionVotesOnWinningSide": 0.943089430894309,
-            "votesWithGopCaucus": 233,
-            "fractionVotesWithGopCaucus": 0.9471544715447154,
-            "votesWithDemCaucus": 180,
-            "fractionVotesWithDemCaucus": 0.7317073170731707,
+            "numVotesPresent": 247,
+            "votesOnWinningSide": 233,
+            "fractionVotesOnWinningSide": 0.9433198380566802,
+            "votesWithGopCaucus": 234,
+            "fractionVotesWithGopCaucus": 0.9473684210526315,
+            "votesWithDemCaucus": 181,
+            "fractionVotesWithDemCaucus": 0.7327935222672065,
             "averageAbsences": 4.04,
-            "averageVotesOnWinningSideGop": 0.9360486986859824,
-            "averageVotesOnWinningSideDem": 0.7757716770678286,
-            "averageVotesWithGopCaucusGop": 0.9409486428732826,
-            "averageVotesWithGopCaucusDem": 0.7491076369504567,
-            "averageVotesWithDemCaucusGop": 0.7407728755246334,
-            "averageVotesWithDemCaucusDem": 0.9548874638074132
+            "averageVotesOnWinningSideGop": 0.9363080464539826,
+            "averageVotesOnWinningSideDem": 0.7767348843631394,
+            "averageVotesWithGopCaucusGop": 0.9411881612388827,
+            "averageVotesWithGopCaucusDem": 0.7501867438140609,
+            "averageVotesWithDemCaucusGop": 0.7418234432402168,
+            "averageVotesWithDemCaucusDem": 0.9550936406573314
         },
         "keyBillVotes": [
             {
@@ -58864,9 +59658,9 @@
                 "title": "Generally revise court-appointed special advocate and guardian ad litem laws",
                 "chamber": "senate",
                 "status": {
-                    "key": "In First House Committee--Nontabled",
+                    "key": "In First House--Out of Committee",
                     "step": "First chamber",
-                    "label": "In committee",
+                    "label": "Out of committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -59482,22 +60276,22 @@
         "votingSummary": {
             "name": "Dennis Lenz",
             "party": "R",
-            "numVotesCast": 246,
+            "numVotesCast": 247,
             "numVotesNotPresent": 0,
-            "numVotesPresent": 246,
-            "votesOnWinningSide": 229,
-            "fractionVotesOnWinningSide": 0.9308943089430894,
-            "votesWithGopCaucus": 236,
-            "fractionVotesWithGopCaucus": 0.959349593495935,
-            "votesWithDemCaucus": 177,
-            "fractionVotesWithDemCaucus": 0.7195121951219512,
+            "numVotesPresent": 247,
+            "votesOnWinningSide": 230,
+            "fractionVotesOnWinningSide": 0.9311740890688259,
+            "votesWithGopCaucus": 237,
+            "fractionVotesWithGopCaucus": 0.9595141700404858,
+            "votesWithDemCaucus": 178,
+            "fractionVotesWithDemCaucus": 0.7206477732793523,
             "averageAbsences": 4.04,
-            "averageVotesOnWinningSideGop": 0.9360486986859824,
-            "averageVotesOnWinningSideDem": 0.7757716770678286,
-            "averageVotesWithGopCaucusGop": 0.9409486428732826,
-            "averageVotesWithGopCaucusDem": 0.7491076369504567,
-            "averageVotesWithDemCaucusGop": 0.7407728755246334,
-            "averageVotesWithDemCaucusDem": 0.9548874638074132
+            "averageVotesOnWinningSideGop": 0.9363080464539826,
+            "averageVotesOnWinningSideDem": 0.7767348843631394,
+            "averageVotesWithGopCaucusGop": 0.9411881612388827,
+            "averageVotesWithGopCaucusDem": 0.7501867438140609,
+            "averageVotesWithDemCaucusGop": 0.7418234432402168,
+            "averageVotesWithDemCaucusDem": 0.9550936406573314
         },
         "keyBillVotes": [
             {
@@ -60203,22 +60997,22 @@
         "votingSummary": {
             "name": "Ryan Lynch",
             "party": "D",
-            "numVotesCast": 246,
+            "numVotesCast": 247,
             "numVotesNotPresent": 0,
-            "numVotesPresent": 246,
-            "votesOnWinningSide": 183,
-            "fractionVotesOnWinningSide": 0.7439024390243902,
-            "votesWithGopCaucus": 178,
-            "fractionVotesWithGopCaucus": 0.7235772357723578,
-            "votesWithDemCaucus": 225,
-            "fractionVotesWithDemCaucus": 0.9146341463414634,
+            "numVotesPresent": 247,
+            "votesOnWinningSide": 184,
+            "fractionVotesOnWinningSide": 0.7449392712550608,
+            "votesWithGopCaucus": 179,
+            "fractionVotesWithGopCaucus": 0.7246963562753036,
+            "votesWithDemCaucus": 226,
+            "fractionVotesWithDemCaucus": 0.9149797570850202,
             "averageAbsences": 4.04,
-            "averageVotesOnWinningSideGop": 0.9360486986859824,
-            "averageVotesOnWinningSideDem": 0.7757716770678286,
-            "averageVotesWithGopCaucusGop": 0.9409486428732826,
-            "averageVotesWithGopCaucusDem": 0.7491076369504567,
-            "averageVotesWithDemCaucusGop": 0.7407728755246334,
-            "averageVotesWithDemCaucusDem": 0.9548874638074132
+            "averageVotesOnWinningSideGop": 0.9363080464539826,
+            "averageVotesOnWinningSideDem": 0.7767348843631394,
+            "averageVotesWithGopCaucusGop": 0.9411881612388827,
+            "averageVotesWithGopCaucusDem": 0.7501867438140609,
+            "averageVotesWithDemCaucusGop": 0.7418234432402168,
+            "averageVotesWithDemCaucusDem": 0.9550936406573314
         },
         "keyBillVotes": [
             {
@@ -60818,22 +61612,22 @@
         "votingSummary": {
             "name": "Forrest Mandeville",
             "party": "R",
-            "numVotesCast": 246,
+            "numVotesCast": 247,
             "numVotesNotPresent": 0,
-            "numVotesPresent": 246,
-            "votesOnWinningSide": 223,
-            "fractionVotesOnWinningSide": 0.9065040650406504,
-            "votesWithGopCaucus": 228,
-            "fractionVotesWithGopCaucus": 0.926829268292683,
-            "votesWithDemCaucus": 175,
-            "fractionVotesWithDemCaucus": 0.7113821138211383,
+            "numVotesPresent": 247,
+            "votesOnWinningSide": 224,
+            "fractionVotesOnWinningSide": 0.9068825910931174,
+            "votesWithGopCaucus": 229,
+            "fractionVotesWithGopCaucus": 0.9271255060728745,
+            "votesWithDemCaucus": 176,
+            "fractionVotesWithDemCaucus": 0.7125506072874493,
             "averageAbsences": 4.04,
-            "averageVotesOnWinningSideGop": 0.9360486986859824,
-            "averageVotesOnWinningSideDem": 0.7757716770678286,
-            "averageVotesWithGopCaucusGop": 0.9409486428732826,
-            "averageVotesWithGopCaucusDem": 0.7491076369504567,
-            "averageVotesWithDemCaucusGop": 0.7407728755246334,
-            "averageVotesWithDemCaucusDem": 0.9548874638074132
+            "averageVotesOnWinningSideGop": 0.9363080464539826,
+            "averageVotesOnWinningSideDem": 0.7767348843631394,
+            "averageVotesWithGopCaucusGop": 0.9411881612388827,
+            "averageVotesWithGopCaucusDem": 0.7501867438140609,
+            "averageVotesWithDemCaucusGop": 0.7418234432402168,
+            "averageVotesWithDemCaucusDem": 0.9550936406573314
         },
         "keyBillVotes": [
             {
@@ -61132,9 +61926,9 @@
                 "title": "Allow department of transportation to use alternative project delivery methods",
                 "chamber": "senate",
                 "status": {
-                    "key": "In First House--Out of Committee",
+                    "key": "In First House--Through 2nd Reading",
                     "step": "First chamber",
-                    "label": "Out of committee",
+                    "label": "Passed second reading vote",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -61154,8 +61948,8 @@
                     {
                         "step": "first chamber",
                         "status": "current",
-                        "statusLabel": "Pending",
-                        "statusDate": null
+                        "statusLabel": "Passed preliminary floor vote",
+                        "statusDate": "01/31/2023"
                     },
                     {
                         "step": "second chamber",
@@ -61254,22 +62048,22 @@
         "votingSummary": {
             "name": "Theresa Manzella",
             "party": "R",
-            "numVotesCast": 246,
+            "numVotesCast": 247,
             "numVotesNotPresent": 0,
-            "numVotesPresent": 246,
-            "votesOnWinningSide": 221,
-            "fractionVotesOnWinningSide": 0.8983739837398373,
-            "votesWithGopCaucus": 226,
-            "fractionVotesWithGopCaucus": 0.9186991869918699,
-            "votesWithDemCaucus": 171,
-            "fractionVotesWithDemCaucus": 0.6951219512195121,
+            "numVotesPresent": 247,
+            "votesOnWinningSide": 222,
+            "fractionVotesOnWinningSide": 0.8987854251012146,
+            "votesWithGopCaucus": 227,
+            "fractionVotesWithGopCaucus": 0.9190283400809717,
+            "votesWithDemCaucus": 172,
+            "fractionVotesWithDemCaucus": 0.6963562753036437,
             "averageAbsences": 4.04,
-            "averageVotesOnWinningSideGop": 0.9360486986859824,
-            "averageVotesOnWinningSideDem": 0.7757716770678286,
-            "averageVotesWithGopCaucusGop": 0.9409486428732826,
-            "averageVotesWithGopCaucusDem": 0.7491076369504567,
-            "averageVotesWithDemCaucusGop": 0.7407728755246334,
-            "averageVotesWithDemCaucusDem": 0.9548874638074132
+            "averageVotesOnWinningSideGop": 0.9363080464539826,
+            "averageVotesOnWinningSideDem": 0.7767348843631394,
+            "averageVotesWithGopCaucusGop": 0.9411881612388827,
+            "averageVotesWithGopCaucusDem": 0.7501867438140609,
+            "averageVotesWithDemCaucusGop": 0.7418234432402168,
+            "averageVotesWithDemCaucusDem": 0.9550936406573314
         },
         "keyBillVotes": [
             {
@@ -61722,22 +62516,22 @@
         "votingSummary": {
             "name": "Edie McClafferty",
             "party": "D",
-            "numVotesCast": 246,
+            "numVotesCast": 247,
             "numVotesNotPresent": 0,
-            "numVotesPresent": 246,
-            "votesOnWinningSide": 196,
-            "fractionVotesOnWinningSide": 0.7967479674796748,
-            "votesWithGopCaucus": 189,
-            "fractionVotesWithGopCaucus": 0.7682926829268293,
-            "votesWithDemCaucus": 240,
-            "fractionVotesWithDemCaucus": 0.975609756097561,
+            "numVotesPresent": 247,
+            "votesOnWinningSide": 197,
+            "fractionVotesOnWinningSide": 0.7975708502024291,
+            "votesWithGopCaucus": 190,
+            "fractionVotesWithGopCaucus": 0.7692307692307693,
+            "votesWithDemCaucus": 241,
+            "fractionVotesWithDemCaucus": 0.9757085020242915,
             "averageAbsences": 4.04,
-            "averageVotesOnWinningSideGop": 0.9360486986859824,
-            "averageVotesOnWinningSideDem": 0.7757716770678286,
-            "averageVotesWithGopCaucusGop": 0.9409486428732826,
-            "averageVotesWithGopCaucusDem": 0.7491076369504567,
-            "averageVotesWithDemCaucusGop": 0.7407728755246334,
-            "averageVotesWithDemCaucusDem": 0.9548874638074132
+            "averageVotesOnWinningSideGop": 0.9363080464539826,
+            "averageVotesOnWinningSideDem": 0.7767348843631394,
+            "averageVotesWithGopCaucusGop": 0.9411881612388827,
+            "averageVotesWithGopCaucusDem": 0.7501867438140609,
+            "averageVotesWithDemCaucusGop": 0.7418234432402168,
+            "averageVotesWithDemCaucusDem": 0.9550936406573314
         },
         "keyBillVotes": [
             {
@@ -63191,22 +63985,22 @@
         "votingSummary": {
             "name": "Tom McGillvray",
             "party": "R",
-            "numVotesCast": 246,
+            "numVotesCast": 247,
             "numVotesNotPresent": 0,
-            "numVotesPresent": 246,
-            "votesOnWinningSide": 226,
-            "fractionVotesOnWinningSide": 0.9186991869918699,
-            "votesWithGopCaucus": 231,
-            "fractionVotesWithGopCaucus": 0.9390243902439024,
-            "votesWithDemCaucus": 174,
-            "fractionVotesWithDemCaucus": 0.7073170731707317,
+            "numVotesPresent": 247,
+            "votesOnWinningSide": 227,
+            "fractionVotesOnWinningSide": 0.9190283400809717,
+            "votesWithGopCaucus": 232,
+            "fractionVotesWithGopCaucus": 0.9392712550607287,
+            "votesWithDemCaucus": 175,
+            "fractionVotesWithDemCaucus": 0.708502024291498,
             "averageAbsences": 4.04,
-            "averageVotesOnWinningSideGop": 0.9360486986859824,
-            "averageVotesOnWinningSideDem": 0.7757716770678286,
-            "averageVotesWithGopCaucusGop": 0.9409486428732826,
-            "averageVotesWithGopCaucusDem": 0.7491076369504567,
-            "averageVotesWithDemCaucusGop": 0.7407728755246334,
-            "averageVotesWithDemCaucusDem": 0.9548874638074132
+            "averageVotesOnWinningSideGop": 0.9363080464539826,
+            "averageVotesOnWinningSideDem": 0.7767348843631394,
+            "averageVotesWithGopCaucusGop": 0.9411881612388827,
+            "averageVotesWithGopCaucusDem": 0.7501867438140609,
+            "averageVotesWithDemCaucusGop": 0.7418234432402168,
+            "averageVotesWithDemCaucusDem": 0.9550936406573314
         },
         "keyBillVotes": [
             {
@@ -64026,22 +64820,22 @@
         "votingSummary": {
             "name": "Wendy McKamey",
             "party": "R",
-            "numVotesCast": 246,
+            "numVotesCast": 247,
             "numVotesNotPresent": 0,
-            "numVotesPresent": 246,
-            "votesOnWinningSide": 234,
-            "fractionVotesOnWinningSide": 0.9512195121951219,
-            "votesWithGopCaucus": 227,
-            "fractionVotesWithGopCaucus": 0.9227642276422764,
-            "votesWithDemCaucus": 194,
-            "fractionVotesWithDemCaucus": 0.7886178861788617,
+            "numVotesPresent": 247,
+            "votesOnWinningSide": 235,
+            "fractionVotesOnWinningSide": 0.951417004048583,
+            "votesWithGopCaucus": 228,
+            "fractionVotesWithGopCaucus": 0.9230769230769231,
+            "votesWithDemCaucus": 195,
+            "fractionVotesWithDemCaucus": 0.7894736842105263,
             "averageAbsences": 4.04,
-            "averageVotesOnWinningSideGop": 0.9360486986859824,
-            "averageVotesOnWinningSideDem": 0.7757716770678286,
-            "averageVotesWithGopCaucusGop": 0.9409486428732826,
-            "averageVotesWithGopCaucusDem": 0.7491076369504567,
-            "averageVotesWithDemCaucusGop": 0.7407728755246334,
-            "averageVotesWithDemCaucusDem": 0.9548874638074132
+            "averageVotesOnWinningSideGop": 0.9363080464539826,
+            "averageVotesOnWinningSideDem": 0.7767348843631394,
+            "averageVotesWithGopCaucusGop": 0.9411881612388827,
+            "averageVotesWithGopCaucusDem": 0.7501867438140609,
+            "averageVotesWithDemCaucusGop": 0.7418234432402168,
+            "averageVotesWithDemCaucusDem": 0.9550936406573314
         },
         "keyBillVotes": [
             {
@@ -64431,22 +65225,22 @@
         "votingSummary": {
             "name": "Brad Molnar",
             "party": "R",
-            "numVotesCast": 246,
+            "numVotesCast": 247,
             "numVotesNotPresent": 5,
-            "numVotesPresent": 241,
-            "votesOnWinningSide": 212,
-            "fractionVotesOnWinningSide": 0.8796680497925311,
-            "votesWithGopCaucus": 211,
-            "fractionVotesWithGopCaucus": 0.8755186721991701,
-            "votesWithDemCaucus": 184,
-            "fractionVotesWithDemCaucus": 0.7634854771784232,
+            "numVotesPresent": 242,
+            "votesOnWinningSide": 213,
+            "fractionVotesOnWinningSide": 0.8801652892561983,
+            "votesWithGopCaucus": 212,
+            "fractionVotesWithGopCaucus": 0.8760330578512396,
+            "votesWithDemCaucus": 185,
+            "fractionVotesWithDemCaucus": 0.7644628099173554,
             "averageAbsences": 4.04,
-            "averageVotesOnWinningSideGop": 0.9360486986859824,
-            "averageVotesOnWinningSideDem": 0.7757716770678286,
-            "averageVotesWithGopCaucusGop": 0.9409486428732826,
-            "averageVotesWithGopCaucusDem": 0.7491076369504567,
-            "averageVotesWithDemCaucusGop": 0.7407728755246334,
-            "averageVotesWithDemCaucusDem": 0.9548874638074132
+            "averageVotesOnWinningSideGop": 0.9363080464539826,
+            "averageVotesOnWinningSideDem": 0.7767348843631394,
+            "averageVotesWithGopCaucusGop": 0.9411881612388827,
+            "averageVotesWithGopCaucusDem": 0.7501867438140609,
+            "averageVotesWithDemCaucusGop": 0.7418234432402168,
+            "averageVotesWithDemCaucusDem": 0.9550936406573314
         },
         "keyBillVotes": [
             {
@@ -65020,7 +65814,7 @@
                         "statusDate": null
                     }
                 ],
-                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC1013.pdf",
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/SB0233.pdf",
                 "fiscalNoteUrl": null,
                 "legalNoteUrl": null,
                 "numArticles": 0,
@@ -65036,22 +65830,22 @@
         "votingSummary": {
             "name": "Shane Morigeau",
             "party": "D",
-            "numVotesCast": 246,
+            "numVotesCast": 247,
             "numVotesNotPresent": 0,
-            "numVotesPresent": 246,
-            "votesOnWinningSide": 188,
-            "fractionVotesOnWinningSide": 0.7642276422764228,
-            "votesWithGopCaucus": 181,
-            "fractionVotesWithGopCaucus": 0.7357723577235772,
-            "votesWithDemCaucus": 234,
-            "fractionVotesWithDemCaucus": 0.9512195121951219,
+            "numVotesPresent": 247,
+            "votesOnWinningSide": 189,
+            "fractionVotesOnWinningSide": 0.7651821862348178,
+            "votesWithGopCaucus": 182,
+            "fractionVotesWithGopCaucus": 0.7368421052631579,
+            "votesWithDemCaucus": 235,
+            "fractionVotesWithDemCaucus": 0.951417004048583,
             "averageAbsences": 4.04,
-            "averageVotesOnWinningSideGop": 0.9360486986859824,
-            "averageVotesOnWinningSideDem": 0.7757716770678286,
-            "averageVotesWithGopCaucusGop": 0.9409486428732826,
-            "averageVotesWithGopCaucusDem": 0.7491076369504567,
-            "averageVotesWithDemCaucusGop": 0.7407728755246334,
-            "averageVotesWithDemCaucusDem": 0.9548874638074132
+            "averageVotesOnWinningSideGop": 0.9363080464539826,
+            "averageVotesOnWinningSideDem": 0.7767348843631394,
+            "averageVotesWithGopCaucusGop": 0.9411881612388827,
+            "averageVotesWithGopCaucusDem": 0.7501867438140609,
+            "averageVotesWithDemCaucusGop": 0.7418234432402168,
+            "averageVotesWithDemCaucusDem": 0.9550936406573314
         },
         "keyBillVotes": [
             {
@@ -65233,22 +66027,22 @@
         "votingSummary": {
             "name": "Mark Noland",
             "party": "R",
-            "numVotesCast": 246,
+            "numVotesCast": 247,
             "numVotesNotPresent": 0,
-            "numVotesPresent": 246,
-            "votesOnWinningSide": 226,
-            "fractionVotesOnWinningSide": 0.9186991869918699,
-            "votesWithGopCaucus": 231,
-            "fractionVotesWithGopCaucus": 0.9390243902439024,
-            "votesWithDemCaucus": 178,
-            "fractionVotesWithDemCaucus": 0.7235772357723578,
+            "numVotesPresent": 247,
+            "votesOnWinningSide": 227,
+            "fractionVotesOnWinningSide": 0.9190283400809717,
+            "votesWithGopCaucus": 232,
+            "fractionVotesWithGopCaucus": 0.9392712550607287,
+            "votesWithDemCaucus": 179,
+            "fractionVotesWithDemCaucus": 0.7246963562753036,
             "averageAbsences": 4.04,
-            "averageVotesOnWinningSideGop": 0.9360486986859824,
-            "averageVotesOnWinningSideDem": 0.7757716770678286,
-            "averageVotesWithGopCaucusGop": 0.9409486428732826,
-            "averageVotesWithGopCaucusDem": 0.7491076369504567,
-            "averageVotesWithDemCaucusGop": 0.7407728755246334,
-            "averageVotesWithDemCaucusDem": 0.9548874638074132
+            "averageVotesOnWinningSideGop": 0.9363080464539826,
+            "averageVotesOnWinningSideDem": 0.7767348843631394,
+            "averageVotesWithGopCaucusGop": 0.9411881612388827,
+            "averageVotesWithGopCaucusDem": 0.7501867438140609,
+            "averageVotesWithDemCaucusGop": 0.7418234432402168,
+            "averageVotesWithDemCaucusDem": 0.9550936406573314
         },
         "keyBillVotes": [
             {
@@ -65805,22 +66599,22 @@
         "votingSummary": {
             "name": "Shannon O'Brien",
             "party": "D",
-            "numVotesCast": 246,
+            "numVotesCast": 247,
             "numVotesNotPresent": 0,
-            "numVotesPresent": 246,
-            "votesOnWinningSide": 193,
-            "fractionVotesOnWinningSide": 0.7845528455284553,
-            "votesWithGopCaucus": 186,
-            "fractionVotesWithGopCaucus": 0.7560975609756098,
-            "votesWithDemCaucus": 239,
-            "fractionVotesWithDemCaucus": 0.9715447154471545,
+            "numVotesPresent": 247,
+            "votesOnWinningSide": 194,
+            "fractionVotesOnWinningSide": 0.7854251012145749,
+            "votesWithGopCaucus": 187,
+            "fractionVotesWithGopCaucus": 0.757085020242915,
+            "votesWithDemCaucus": 240,
+            "fractionVotesWithDemCaucus": 0.97165991902834,
             "averageAbsences": 4.04,
-            "averageVotesOnWinningSideGop": 0.9360486986859824,
-            "averageVotesOnWinningSideDem": 0.7757716770678286,
-            "averageVotesWithGopCaucusGop": 0.9409486428732826,
-            "averageVotesWithGopCaucusDem": 0.7491076369504567,
-            "averageVotesWithDemCaucusGop": 0.7407728755246334,
-            "averageVotesWithDemCaucusDem": 0.9548874638074132
+            "averageVotesOnWinningSideGop": 0.9363080464539826,
+            "averageVotesOnWinningSideDem": 0.7767348843631394,
+            "averageVotesWithGopCaucusGop": 0.9411881612388827,
+            "averageVotesWithGopCaucusDem": 0.7501867438140609,
+            "averageVotesWithDemCaucusGop": 0.7418234432402168,
+            "averageVotesWithDemCaucusDem": 0.9550936406573314
         },
         "keyBillVotes": [
             {
@@ -66012,22 +66806,22 @@
         "votingSummary": {
             "name": "Andrea Olsen",
             "party": "D",
-            "numVotesCast": 246,
+            "numVotesCast": 247,
             "numVotesNotPresent": 0,
-            "numVotesPresent": 246,
-            "votesOnWinningSide": 170,
-            "fractionVotesOnWinningSide": 0.6910569105691057,
-            "votesWithGopCaucus": 163,
-            "fractionVotesWithGopCaucus": 0.6626016260162602,
-            "votesWithDemCaucus": 222,
-            "fractionVotesWithDemCaucus": 0.9024390243902439,
+            "numVotesPresent": 247,
+            "votesOnWinningSide": 171,
+            "fractionVotesOnWinningSide": 0.6923076923076923,
+            "votesWithGopCaucus": 164,
+            "fractionVotesWithGopCaucus": 0.6639676113360324,
+            "votesWithDemCaucus": 223,
+            "fractionVotesWithDemCaucus": 0.902834008097166,
             "averageAbsences": 4.04,
-            "averageVotesOnWinningSideGop": 0.9360486986859824,
-            "averageVotesOnWinningSideDem": 0.7757716770678286,
-            "averageVotesWithGopCaucusGop": 0.9409486428732826,
-            "averageVotesWithGopCaucusDem": 0.7491076369504567,
-            "averageVotesWithDemCaucusGop": 0.7407728755246334,
-            "averageVotesWithDemCaucusDem": 0.9548874638074132
+            "averageVotesOnWinningSideGop": 0.9363080464539826,
+            "averageVotesOnWinningSideDem": 0.7767348843631394,
+            "averageVotesWithGopCaucusGop": 0.9411881612388827,
+            "averageVotesWithGopCaucusDem": 0.7501867438140609,
+            "averageVotesWithDemCaucusGop": 0.7418234432402168,
+            "averageVotesWithDemCaucusDem": 0.9550936406573314
         },
         "keyBillVotes": [
             {
@@ -66347,22 +67141,22 @@
         "votingSummary": {
             "name": "Chris Pope",
             "party": "D",
-            "numVotesCast": 246,
+            "numVotesCast": 247,
             "numVotesNotPresent": 0,
-            "numVotesPresent": 246,
-            "votesOnWinningSide": 195,
-            "fractionVotesOnWinningSide": 0.7926829268292683,
-            "votesWithGopCaucus": 188,
-            "fractionVotesWithGopCaucus": 0.7642276422764228,
-            "votesWithDemCaucus": 243,
-            "fractionVotesWithDemCaucus": 0.9878048780487805,
+            "numVotesPresent": 247,
+            "votesOnWinningSide": 196,
+            "fractionVotesOnWinningSide": 0.7935222672064778,
+            "votesWithGopCaucus": 189,
+            "fractionVotesWithGopCaucus": 0.7651821862348178,
+            "votesWithDemCaucus": 244,
+            "fractionVotesWithDemCaucus": 0.9878542510121457,
             "averageAbsences": 4.04,
-            "averageVotesOnWinningSideGop": 0.9360486986859824,
-            "averageVotesOnWinningSideDem": 0.7757716770678286,
-            "averageVotesWithGopCaucusGop": 0.9409486428732826,
-            "averageVotesWithGopCaucusDem": 0.7491076369504567,
-            "averageVotesWithDemCaucusGop": 0.7407728755246334,
-            "averageVotesWithDemCaucusDem": 0.9548874638074132
+            "averageVotesOnWinningSideGop": 0.9363080464539826,
+            "averageVotesOnWinningSideDem": 0.7767348843631394,
+            "averageVotesWithGopCaucusGop": 0.9411881612388827,
+            "averageVotesWithGopCaucusDem": 0.7501867438140609,
+            "averageVotesWithDemCaucusGop": 0.7418234432402168,
+            "averageVotesWithDemCaucusDem": 0.9550936406573314
         },
         "keyBillVotes": [
             {
@@ -66569,7 +67363,7 @@
                 "title": "Lawmakers debate ban on gender-affirming care for transgender minors",
                 "category": "2023 Legislature",
                 "subtitle": "",
-                "date": "2023-01-27T23:52:46.000Z",
+                "date": "2023-01-27T16:52:46.000Z",
                 "link": "https://montanafreepress.org/2023/01/27/montana-lawmakers-debate-ban-on-gender-affirming-care-for-trans-youth/",
                 "author": "Mara Silvers",
                 "imageUrl": "https://montanafreepress.org/2023/01/27/montana-lawmakers-debate-ban-on-gender-affirming-care-for-trans-youth/untitled-design-268/",
@@ -67432,7 +68226,7 @@
                         "statusDate": null
                     }
                 ],
-                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC4279.pdf",
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/SB0238.pdf",
                 "fiscalNoteUrl": null,
                 "legalNoteUrl": null,
                 "numArticles": 0,
@@ -67668,22 +68462,22 @@
         "votingSummary": {
             "name": "Keith Regier",
             "party": "R",
-            "numVotesCast": 246,
+            "numVotesCast": 247,
             "numVotesNotPresent": 0,
-            "numVotesPresent": 246,
-            "votesOnWinningSide": 223,
-            "fractionVotesOnWinningSide": 0.9065040650406504,
-            "votesWithGopCaucus": 228,
-            "fractionVotesWithGopCaucus": 0.926829268292683,
-            "votesWithDemCaucus": 175,
-            "fractionVotesWithDemCaucus": 0.7113821138211383,
+            "numVotesPresent": 247,
+            "votesOnWinningSide": 224,
+            "fractionVotesOnWinningSide": 0.9068825910931174,
+            "votesWithGopCaucus": 229,
+            "fractionVotesWithGopCaucus": 0.9271255060728745,
+            "votesWithDemCaucus": 176,
+            "fractionVotesWithDemCaucus": 0.7125506072874493,
             "averageAbsences": 4.04,
-            "averageVotesOnWinningSideGop": 0.9360486986859824,
-            "averageVotesOnWinningSideDem": 0.7757716770678286,
-            "averageVotesWithGopCaucusGop": 0.9409486428732826,
-            "averageVotesWithGopCaucusDem": 0.7491076369504567,
-            "averageVotesWithDemCaucusGop": 0.7407728755246334,
-            "averageVotesWithDemCaucusDem": 0.9548874638074132
+            "averageVotesOnWinningSideGop": 0.9363080464539826,
+            "averageVotesOnWinningSideDem": 0.7767348843631394,
+            "averageVotesWithGopCaucusGop": 0.9411881612388827,
+            "averageVotesWithGopCaucusDem": 0.7501867438140609,
+            "averageVotesWithDemCaucusGop": 0.7418234432402168,
+            "averageVotesWithDemCaucusDem": 0.9550936406573314
         },
         "keyBillVotes": [
             {
@@ -67993,22 +68787,22 @@
         "votingSummary": {
             "name": "Walt Sales",
             "party": "R",
-            "numVotesCast": 246,
+            "numVotesCast": 247,
             "numVotesNotPresent": 0,
-            "numVotesPresent": 246,
-            "votesOnWinningSide": 245,
-            "fractionVotesOnWinningSide": 0.9959349593495935,
-            "votesWithGopCaucus": 238,
-            "fractionVotesWithGopCaucus": 0.967479674796748,
-            "votesWithDemCaucus": 195,
-            "fractionVotesWithDemCaucus": 0.7926829268292683,
+            "numVotesPresent": 247,
+            "votesOnWinningSide": 246,
+            "fractionVotesOnWinningSide": 0.9959514170040485,
+            "votesWithGopCaucus": 239,
+            "fractionVotesWithGopCaucus": 0.9676113360323887,
+            "votesWithDemCaucus": 196,
+            "fractionVotesWithDemCaucus": 0.7935222672064778,
             "averageAbsences": 4.04,
-            "averageVotesOnWinningSideGop": 0.9360486986859824,
-            "averageVotesOnWinningSideDem": 0.7757716770678286,
-            "averageVotesWithGopCaucusGop": 0.9409486428732826,
-            "averageVotesWithGopCaucusDem": 0.7491076369504567,
-            "averageVotesWithDemCaucusGop": 0.7407728755246334,
-            "averageVotesWithDemCaucusDem": 0.9548874638074132
+            "averageVotesOnWinningSideGop": 0.9363080464539826,
+            "averageVotesOnWinningSideDem": 0.7767348843631394,
+            "averageVotesWithGopCaucusGop": 0.9411881612388827,
+            "averageVotesWithGopCaucusDem": 0.7501867438140609,
+            "averageVotesWithDemCaucusGop": 0.7418234432402168,
+            "averageVotesWithDemCaucusDem": 0.9550936406573314
         },
         "keyBillVotes": [
             {
@@ -68644,22 +69438,22 @@
         "votingSummary": {
             "name": "Dan Salomon",
             "party": "R",
-            "numVotesCast": 246,
+            "numVotesCast": 247,
             "numVotesNotPresent": 0,
-            "numVotesPresent": 246,
-            "votesOnWinningSide": 236,
-            "fractionVotesOnWinningSide": 0.959349593495935,
-            "votesWithGopCaucus": 229,
-            "fractionVotesWithGopCaucus": 0.9308943089430894,
-            "votesWithDemCaucus": 194,
-            "fractionVotesWithDemCaucus": 0.7886178861788617,
+            "numVotesPresent": 247,
+            "votesOnWinningSide": 237,
+            "fractionVotesOnWinningSide": 0.9595141700404858,
+            "votesWithGopCaucus": 230,
+            "fractionVotesWithGopCaucus": 0.9311740890688259,
+            "votesWithDemCaucus": 195,
+            "fractionVotesWithDemCaucus": 0.7894736842105263,
             "averageAbsences": 4.04,
-            "averageVotesOnWinningSideGop": 0.9360486986859824,
-            "averageVotesOnWinningSideDem": 0.7757716770678286,
-            "averageVotesWithGopCaucusGop": 0.9409486428732826,
-            "averageVotesWithGopCaucusDem": 0.7491076369504567,
-            "averageVotesWithDemCaucusGop": 0.7407728755246334,
-            "averageVotesWithDemCaucusDem": 0.9548874638074132
+            "averageVotesOnWinningSideGop": 0.9363080464539826,
+            "averageVotesOnWinningSideDem": 0.7767348843631394,
+            "averageVotesWithGopCaucusGop": 0.9411881612388827,
+            "averageVotesWithGopCaucusDem": 0.7501867438140609,
+            "averageVotesWithDemCaucusGop": 0.7418234432402168,
+            "averageVotesWithDemCaucusDem": 0.9550936406573314
         },
         "keyBillVotes": [
             {
@@ -69807,22 +70601,22 @@
         "votingSummary": {
             "name": "Jason Small",
             "party": "R",
-            "numVotesCast": 246,
+            "numVotesCast": 247,
             "numVotesNotPresent": 0,
-            "numVotesPresent": 246,
-            "votesOnWinningSide": 243,
-            "fractionVotesOnWinningSide": 0.9878048780487805,
-            "votesWithGopCaucus": 238,
-            "fractionVotesWithGopCaucus": 0.967479674796748,
-            "votesWithDemCaucus": 195,
-            "fractionVotesWithDemCaucus": 0.7926829268292683,
+            "numVotesPresent": 247,
+            "votesOnWinningSide": 244,
+            "fractionVotesOnWinningSide": 0.9878542510121457,
+            "votesWithGopCaucus": 239,
+            "fractionVotesWithGopCaucus": 0.9676113360323887,
+            "votesWithDemCaucus": 196,
+            "fractionVotesWithDemCaucus": 0.7935222672064778,
             "averageAbsences": 4.04,
-            "averageVotesOnWinningSideGop": 0.9360486986859824,
-            "averageVotesOnWinningSideDem": 0.7757716770678286,
-            "averageVotesWithGopCaucusGop": 0.9409486428732826,
-            "averageVotesWithGopCaucusDem": 0.7491076369504567,
-            "averageVotesWithDemCaucusGop": 0.7407728755246334,
-            "averageVotesWithDemCaucusDem": 0.9548874638074132
+            "averageVotesOnWinningSideGop": 0.9363080464539826,
+            "averageVotesOnWinningSideDem": 0.7767348843631394,
+            "averageVotesWithGopCaucusGop": 0.9411881612388827,
+            "averageVotesWithGopCaucusDem": 0.7501867438140609,
+            "averageVotesWithDemCaucusGop": 0.7418234432402168,
+            "averageVotesWithDemCaucusDem": 0.9550936406573314
         },
         "keyBillVotes": [
             {
@@ -70259,22 +71053,22 @@
         "votingSummary": {
             "name": "Russ Tempel",
             "party": "R",
-            "numVotesCast": 246,
+            "numVotesCast": 247,
             "numVotesNotPresent": 0,
-            "numVotesPresent": 246,
-            "votesOnWinningSide": 227,
-            "fractionVotesOnWinningSide": 0.9227642276422764,
-            "votesWithGopCaucus": 224,
-            "fractionVotesWithGopCaucus": 0.9105691056910569,
-            "votesWithDemCaucus": 187,
-            "fractionVotesWithDemCaucus": 0.7601626016260162,
+            "numVotesPresent": 247,
+            "votesOnWinningSide": 228,
+            "fractionVotesOnWinningSide": 0.9230769230769231,
+            "votesWithGopCaucus": 225,
+            "fractionVotesWithGopCaucus": 0.9109311740890689,
+            "votesWithDemCaucus": 188,
+            "fractionVotesWithDemCaucus": 0.7611336032388664,
             "averageAbsences": 4.04,
-            "averageVotesOnWinningSideGop": 0.9360486986859824,
-            "averageVotesOnWinningSideDem": 0.7757716770678286,
-            "averageVotesWithGopCaucusGop": 0.9409486428732826,
-            "averageVotesWithGopCaucusDem": 0.7491076369504567,
-            "averageVotesWithDemCaucusGop": 0.7407728755246334,
-            "averageVotesWithDemCaucusDem": 0.9548874638074132
+            "averageVotesOnWinningSideGop": 0.9363080464539826,
+            "averageVotesOnWinningSideDem": 0.7767348843631394,
+            "averageVotesWithGopCaucusGop": 0.9411881612388827,
+            "averageVotesWithGopCaucusDem": 0.7501867438140609,
+            "averageVotesWithDemCaucusGop": 0.7418234432402168,
+            "averageVotesWithDemCaucusDem": 0.9550936406573314
         },
         "keyBillVotes": [
             {
@@ -70826,22 +71620,22 @@
         "votingSummary": {
             "name": "Jeremy Trebas",
             "party": "R",
-            "numVotesCast": 246,
+            "numVotesCast": 247,
             "numVotesNotPresent": 0,
-            "numVotesPresent": 246,
-            "votesOnWinningSide": 236,
-            "fractionVotesOnWinningSide": 0.959349593495935,
-            "votesWithGopCaucus": 237,
-            "fractionVotesWithGopCaucus": 0.9634146341463414,
-            "votesWithDemCaucus": 184,
-            "fractionVotesWithDemCaucus": 0.7479674796747967,
+            "numVotesPresent": 247,
+            "votesOnWinningSide": 237,
+            "fractionVotesOnWinningSide": 0.9595141700404858,
+            "votesWithGopCaucus": 238,
+            "fractionVotesWithGopCaucus": 0.9635627530364372,
+            "votesWithDemCaucus": 185,
+            "fractionVotesWithDemCaucus": 0.7489878542510121,
             "averageAbsences": 4.04,
-            "averageVotesOnWinningSideGop": 0.9360486986859824,
-            "averageVotesOnWinningSideDem": 0.7757716770678286,
-            "averageVotesWithGopCaucusGop": 0.9409486428732826,
-            "averageVotesWithGopCaucusDem": 0.7491076369504567,
-            "averageVotesWithDemCaucusGop": 0.7407728755246334,
-            "averageVotesWithDemCaucusDem": 0.9548874638074132
+            "averageVotesOnWinningSideGop": 0.9363080464539826,
+            "averageVotesOnWinningSideDem": 0.7767348843631394,
+            "averageVotesWithGopCaucusGop": 0.9411881612388827,
+            "averageVotesWithGopCaucusDem": 0.7501867438140609,
+            "averageVotesWithDemCaucusGop": 0.7418234432402168,
+            "averageVotesWithDemCaucusDem": 0.9550936406573314
         },
         "keyBillVotes": [
             {
@@ -71419,9 +72213,9 @@
                 "title": "Name MHP headquarters for Kris Hansen",
                 "chamber": "senate",
                 "status": {
-                    "key": "In First House Committee--Nontabled",
+                    "key": "In First House--Out of Committee",
                     "step": "First chamber",
-                    "label": "In committee",
+                    "label": "Out of committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -71711,7 +72505,7 @@
                         "statusDate": null
                     }
                 ],
-                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC0099.pdf",
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/SB0234.pdf",
                 "fiscalNoteUrl": null,
                 "legalNoteUrl": null,
                 "numArticles": 0,
@@ -71727,22 +72521,22 @@
         "votingSummary": {
             "name": "Barry Usher",
             "party": "R",
-            "numVotesCast": 246,
+            "numVotesCast": 247,
             "numVotesNotPresent": 0,
-            "numVotesPresent": 246,
-            "votesOnWinningSide": 225,
-            "fractionVotesOnWinningSide": 0.9146341463414634,
-            "votesWithGopCaucus": 230,
-            "fractionVotesWithGopCaucus": 0.9349593495934959,
-            "votesWithDemCaucus": 175,
-            "fractionVotesWithDemCaucus": 0.7113821138211383,
+            "numVotesPresent": 247,
+            "votesOnWinningSide": 226,
+            "fractionVotesOnWinningSide": 0.9149797570850202,
+            "votesWithGopCaucus": 231,
+            "fractionVotesWithGopCaucus": 0.9352226720647774,
+            "votesWithDemCaucus": 176,
+            "fractionVotesWithDemCaucus": 0.7125506072874493,
             "averageAbsences": 4.04,
-            "averageVotesOnWinningSideGop": 0.9360486986859824,
-            "averageVotesOnWinningSideDem": 0.7757716770678286,
-            "averageVotesWithGopCaucusGop": 0.9409486428732826,
-            "averageVotesWithGopCaucusDem": 0.7491076369504567,
-            "averageVotesWithDemCaucusGop": 0.7407728755246334,
-            "averageVotesWithDemCaucusDem": 0.9548874638074132
+            "averageVotesOnWinningSideGop": 0.9363080464539826,
+            "averageVotesOnWinningSideDem": 0.7767348843631394,
+            "averageVotesWithGopCaucusGop": 0.9411881612388827,
+            "averageVotesWithGopCaucusDem": 0.7501867438140609,
+            "averageVotesWithDemCaucusGop": 0.7418234432402168,
+            "averageVotesWithDemCaucusDem": 0.9550936406573314
         },
         "keyBillVotes": [
             {
@@ -72031,7 +72825,7 @@
                         "statusDate": null
                     }
                 ],
-                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC2980.pdf",
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/SB0237.pdf",
                 "fiscalNoteUrl": null,
                 "legalNoteUrl": null,
                 "numArticles": 0,
@@ -72047,22 +72841,22 @@
         "votingSummary": {
             "name": "Shelley Vance",
             "party": "R",
-            "numVotesCast": 246,
+            "numVotesCast": 247,
             "numVotesNotPresent": 0,
-            "numVotesPresent": 246,
-            "votesOnWinningSide": 234,
-            "fractionVotesOnWinningSide": 0.9512195121951219,
-            "votesWithGopCaucus": 233,
-            "fractionVotesWithGopCaucus": 0.9471544715447154,
-            "votesWithDemCaucus": 182,
-            "fractionVotesWithDemCaucus": 0.7398373983739838,
+            "numVotesPresent": 247,
+            "votesOnWinningSide": 235,
+            "fractionVotesOnWinningSide": 0.951417004048583,
+            "votesWithGopCaucus": 234,
+            "fractionVotesWithGopCaucus": 0.9473684210526315,
+            "votesWithDemCaucus": 183,
+            "fractionVotesWithDemCaucus": 0.7408906882591093,
             "averageAbsences": 4.04,
-            "averageVotesOnWinningSideGop": 0.9360486986859824,
-            "averageVotesOnWinningSideDem": 0.7757716770678286,
-            "averageVotesWithGopCaucusGop": 0.9409486428732826,
-            "averageVotesWithGopCaucusDem": 0.7491076369504567,
-            "averageVotesWithDemCaucusGop": 0.7407728755246334,
-            "averageVotesWithDemCaucusDem": 0.9548874638074132
+            "averageVotesOnWinningSideGop": 0.9363080464539826,
+            "averageVotesOnWinningSideDem": 0.7767348843631394,
+            "averageVotesWithGopCaucusGop": 0.9411881612388827,
+            "averageVotesWithGopCaucusDem": 0.7501867438140609,
+            "averageVotesWithDemCaucusGop": 0.7418234432402168,
+            "averageVotesWithDemCaucusDem": 0.9550936406573314
         },
         "keyBillVotes": [
             {
@@ -72211,22 +73005,22 @@
         "votingSummary": {
             "name": "Terry Vermeire",
             "party": "R",
-            "numVotesCast": 246,
+            "numVotesCast": 247,
             "numVotesNotPresent": 0,
-            "numVotesPresent": 246,
-            "votesOnWinningSide": 242,
-            "fractionVotesOnWinningSide": 0.983739837398374,
-            "votesWithGopCaucus": 237,
-            "fractionVotesWithGopCaucus": 0.9634146341463414,
-            "votesWithDemCaucus": 196,
-            "fractionVotesWithDemCaucus": 0.7967479674796748,
+            "numVotesPresent": 247,
+            "votesOnWinningSide": 243,
+            "fractionVotesOnWinningSide": 0.9838056680161943,
+            "votesWithGopCaucus": 238,
+            "fractionVotesWithGopCaucus": 0.9635627530364372,
+            "votesWithDemCaucus": 197,
+            "fractionVotesWithDemCaucus": 0.7975708502024291,
             "averageAbsences": 4.04,
-            "averageVotesOnWinningSideGop": 0.9360486986859824,
-            "averageVotesOnWinningSideDem": 0.7757716770678286,
-            "averageVotesWithGopCaucusGop": 0.9409486428732826,
-            "averageVotesWithGopCaucusDem": 0.7491076369504567,
-            "averageVotesWithDemCaucusGop": 0.7407728755246334,
-            "averageVotesWithDemCaucusDem": 0.9548874638074132
+            "averageVotesOnWinningSideGop": 0.9363080464539826,
+            "averageVotesOnWinningSideDem": 0.7767348843631394,
+            "averageVotesWithGopCaucusGop": 0.9411881612388827,
+            "averageVotesWithGopCaucusDem": 0.7501867438140609,
+            "averageVotesWithDemCaucusGop": 0.7418234432402168,
+            "averageVotesWithDemCaucusDem": 0.9550936406573314
         },
         "keyBillVotes": [
             {
@@ -72544,9 +73338,9 @@
                 "title": "Joint resolution to recognize the Indian boarding school experience",
                 "chamber": "senate",
                 "status": {
-                    "key": "In First House Committee--Nontabled",
+                    "key": "In First House--Out of Committee",
                     "step": "First chamber",
-                    "label": "In committee",
+                    "label": "Out of committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -72592,22 +73386,22 @@
         "votingSummary": {
             "name": "Susan Webber",
             "party": "D",
-            "numVotesCast": 246,
+            "numVotesCast": 247,
             "numVotesNotPresent": 6,
-            "numVotesPresent": 240,
-            "votesOnWinningSide": 183,
-            "fractionVotesOnWinningSide": 0.7625,
-            "votesWithGopCaucus": 176,
-            "fractionVotesWithGopCaucus": 0.7333333333333333,
-            "votesWithDemCaucus": 233,
-            "fractionVotesWithDemCaucus": 0.9708333333333333,
+            "numVotesPresent": 241,
+            "votesOnWinningSide": 184,
+            "fractionVotesOnWinningSide": 0.7634854771784232,
+            "votesWithGopCaucus": 177,
+            "fractionVotesWithGopCaucus": 0.7344398340248963,
+            "votesWithDemCaucus": 234,
+            "fractionVotesWithDemCaucus": 0.970954356846473,
             "averageAbsences": 4.04,
-            "averageVotesOnWinningSideGop": 0.9360486986859824,
-            "averageVotesOnWinningSideDem": 0.7757716770678286,
-            "averageVotesWithGopCaucusGop": 0.9409486428732826,
-            "averageVotesWithGopCaucusDem": 0.7491076369504567,
-            "averageVotesWithDemCaucusGop": 0.7407728755246334,
-            "averageVotesWithDemCaucusDem": 0.9548874638074132
+            "averageVotesOnWinningSideGop": 0.9363080464539826,
+            "averageVotesOnWinningSideDem": 0.7767348843631394,
+            "averageVotesWithGopCaucusGop": 0.9411881612388827,
+            "averageVotesWithGopCaucusDem": 0.7501867438140609,
+            "averageVotesWithDemCaucusGop": 0.7418234432402168,
+            "averageVotesWithDemCaucusDem": 0.9550936406573314
         },
         "keyBillVotes": [
             {
@@ -73051,22 +73845,22 @@
         "votingSummary": {
             "name": "Jeff Welborn",
             "party": "R",
-            "numVotesCast": 246,
+            "numVotesCast": 247,
             "numVotesNotPresent": 0,
-            "numVotesPresent": 246,
-            "votesOnWinningSide": 230,
-            "fractionVotesOnWinningSide": 0.9349593495934959,
-            "votesWithGopCaucus": 227,
-            "fractionVotesWithGopCaucus": 0.9227642276422764,
-            "votesWithDemCaucus": 190,
-            "fractionVotesWithDemCaucus": 0.7723577235772358,
+            "numVotesPresent": 247,
+            "votesOnWinningSide": 231,
+            "fractionVotesOnWinningSide": 0.9352226720647774,
+            "votesWithGopCaucus": 228,
+            "fractionVotesWithGopCaucus": 0.9230769230769231,
+            "votesWithDemCaucus": 191,
+            "fractionVotesWithDemCaucus": 0.7732793522267206,
             "averageAbsences": 4.04,
-            "averageVotesOnWinningSideGop": 0.9360486986859824,
-            "averageVotesOnWinningSideDem": 0.7757716770678286,
-            "averageVotesWithGopCaucusGop": 0.9409486428732826,
-            "averageVotesWithGopCaucusDem": 0.7491076369504567,
-            "averageVotesWithDemCaucusGop": 0.7407728755246334,
-            "averageVotesWithDemCaucusDem": 0.9548874638074132
+            "averageVotesOnWinningSideGop": 0.9363080464539826,
+            "averageVotesOnWinningSideDem": 0.7767348843631394,
+            "averageVotesWithGopCaucusGop": 0.9411881612388827,
+            "averageVotesWithGopCaucusDem": 0.7501867438140609,
+            "averageVotesWithDemCaucusGop": 0.7418234432402168,
+            "averageVotesWithDemCaucusDem": 0.9550936406573314
         },
         "keyBillVotes": [
             {
@@ -73634,22 +74428,22 @@
         "votingSummary": {
             "name": "Daniel Zolnikov",
             "party": "R",
-            "numVotesCast": 246,
+            "numVotesCast": 247,
             "numVotesNotPresent": 0,
-            "numVotesPresent": 246,
-            "votesOnWinningSide": 228,
-            "fractionVotesOnWinningSide": 0.926829268292683,
-            "votesWithGopCaucus": 231,
-            "fractionVotesWithGopCaucus": 0.9390243902439024,
-            "votesWithDemCaucus": 178,
-            "fractionVotesWithDemCaucus": 0.7235772357723578,
+            "numVotesPresent": 247,
+            "votesOnWinningSide": 229,
+            "fractionVotesOnWinningSide": 0.9271255060728745,
+            "votesWithGopCaucus": 232,
+            "fractionVotesWithGopCaucus": 0.9392712550607287,
+            "votesWithDemCaucus": 179,
+            "fractionVotesWithDemCaucus": 0.7246963562753036,
             "averageAbsences": 4.04,
-            "averageVotesOnWinningSideGop": 0.9360486986859824,
-            "averageVotesOnWinningSideDem": 0.7757716770678286,
-            "averageVotesWithGopCaucusGop": 0.9409486428732826,
-            "averageVotesWithGopCaucusDem": 0.7491076369504567,
-            "averageVotesWithDemCaucusGop": 0.7407728755246334,
-            "averageVotesWithDemCaucusDem": 0.9548874638074132
+            "averageVotesOnWinningSideGop": 0.9363080464539826,
+            "averageVotesOnWinningSideDem": 0.7767348843631394,
+            "averageVotesWithGopCaucusGop": 0.9411881612388827,
+            "averageVotesWithGopCaucusDem": 0.7501867438140609,
+            "averageVotesWithDemCaucusGop": 0.7418234432402168,
+            "averageVotesWithDemCaucusDem": 0.9550936406573314
         },
         "keyBillVotes": [
             {
