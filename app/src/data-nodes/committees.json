@@ -3009,14 +3009,20 @@
         "billsUnscheduled": [
             "HB 175",
             "HB 185",
-            "SB 60",
-            "SB 94",
             "SB 121",
-            "SB 124",
-            "SB 148",
             "SB 163"
         ],
-        "billsScheduledByDay": [],
+        "billsScheduledByDay": [
+            {
+                "day": "02/02/2023",
+                "bills": [
+                    "SB 60",
+                    "SB 94",
+                    "SB 124",
+                    "SB 148"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "SB 19",
             "SB 95",
