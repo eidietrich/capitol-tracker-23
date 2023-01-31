@@ -191,7 +191,7 @@ const LawmakerPage = ({ pageContext, data }) => {
                 </div>
                 <div className="item">📋 <strong>{sponsoredBills.length}</strong> <a href={`${BASE_URL}/lawmakers/${key}#bills-sponsored`} target="_blank" rel="noopener noreferrer"> bill{pluralize(sponsoredBills.length)} introduced</a></div>
                 {/* <div className="item">📰 <strong>{articles.length}</strong> <a href={`${BASE_URL}/lawmakers/${key}#mtfp-coverage`} target="_blank" rel="noopener noreferrer">reference{pluralize(articles.length)} in MTFP coverage</a></div> */}
-                <div className="promo">🗒 <a href={`${BASE_URL}/`} target="_blank" rel="noopener noreferrer">See more</a> on MTFP's 2023 Capitol Tracker</div>
+                <div className="promo"><a href={`${BASE_URL}/`} target="_blank" rel="noopener noreferrer">See more</a> on MTFP's 2023 Capitol Tracker.</div>
             </div>
         </div>
 

@@ -23,9 +23,6 @@ import {
 } from '../config/config'
 
 const committeeSummaryStyle = css`
-    /* border: 1px solid var(--tan5); */
-    /* background-color: var(--tan1); */
-    /* padding: 0.2em; */
     display: flex;
     flex-wrap: wrap;
 
@@ -187,7 +184,7 @@ export const Head = ({ pageContext }) => {
     const { name, key } = committee
     return <Seo
         title={`${name}`}
-        description={`Bills and members for the Montana Legislature's 2023 {name}.`}
+        description={`Bills and members for the Montana Legislature's 2023 ${name} Committee.`}
         pageRelativeUrl={`committees/${key}/`}
     />
 }

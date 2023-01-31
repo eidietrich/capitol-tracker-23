@@ -22,7 +22,7 @@ const billCardCss = css`
     position: relative;
     font-size: 15px;
 
-    .title {
+    .info {
         
 
         font-size: 1.1em;
@@ -32,6 +32,9 @@ const billCardCss = css`
         color: white;
         padding: 0.5em;
         /* height: 40px; */
+        .title {
+            color: white;
+        }
         .explanation {
             font-style: italic;
             font-size: 0.9rem;
@@ -128,14 +131,14 @@ const BillCard = ({ pageContext }) => {
     } = bill
 
     const embedCode = `<div class="tracker-sidebar alignleft">
-    <style>
-        @media (max-width: 680px) {
-            .tracker-sidebar.alignleft {
-                max-width: 100% !important;  
-                width: 100%;
-            }
+<style>
+    @media (max-width: 680px) {
+        .tracker-sidebar.alignleft {
+            max-width: 100% !important;  
+            width: 100%;
         }
-    </style>
+    }
+</style>
 <iframe
     width="300px"
     height="300px"
@@ -163,8 +166,8 @@ const BillCard = ({ pageContext }) => {
 
     return <div>
         <div id="embed" css={billCardCss}>
-            <div className="title">
-                <div>{identifier}: <a href={`${BASE_URL}/bills/${key}`} target="_blank" rel="noopener noreferrer">{title}</a></div>
+            <div className="info">
+                <a href={`${BASE_URL}/bills/${key}`} target="_blank" rel="noopener noreferrer"><div className="title">{identifier}: {title}</div></a>
                 <div className="explanation">{explanation}</div>
             </div>
 
@@ -192,7 +195,7 @@ const BillCard = ({ pageContext }) => {
                     {progression}
                 </div>
             </div>
-            <div className="promo">🗒 <a href={`${BASE_URL}/bills/${key}`} target="_blank" rel="noopener noreferrer">More info</a> on MTFP's 2023 Capitol Tracker</div>
+            <div className="promo"><a href={`${BASE_URL}/bills/${key}`} target="_blank" rel="noopener noreferrer">See more</a> on MTFP's 2023 Capitol Tracker.</div>
         </div>
 
         <div css={embedInputContainerStyle}>
