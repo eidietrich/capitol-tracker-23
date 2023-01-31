@@ -1063,7 +1063,7 @@
                     }
                 ],
                 "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0278.pdf",
-                "fiscalNoteUrl": null,
+                "fiscalNoteUrl": "https://leg.mt.gov/laws/bills/2023/FNPDF/HB0278",
                 "legalNoteUrl": null,
                 "numArticles": 0,
                 "sponsor": {
@@ -2455,6 +2455,42 @@
             {
                 "lawmakerVote": "Y",
                 "voteData": {
+                    "action": "HB13-0020",
+                    "bill": "HB 13",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0013APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 13 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 17,
+                        "N": 6
+                    },
+                    "gopCount": {
+                        "Y": 10,
+                        "N": 6,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 7,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": true
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
                     "action": "HB60-0032",
                     "bill": "HB 60",
                     "date": "01/25/2023",
@@ -2488,6 +2524,150 @@
                     "motionPassed": true,
                     "gopSupported": true,
                     "demSupported": true
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "HB192-0031",
+                    "bill": "HB 192",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0192APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB0192.001.002 Be Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "HB212-0041",
+                    "bill": "HB 212",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0212APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 212 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 15,
+                        "N": 8
+                    },
+                    "gopCount": {
+                        "Y": 15,
+                        "N": 1,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "HB222-0035",
+                    "bill": "HB 222",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0222APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 222 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "HB251-0030",
+                    "bill": "HB 251",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0251APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 251 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
                 }
             }
         ]
@@ -3483,7 +3663,7 @@
                     }
                 ],
                 "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0298.pdf",
-                "fiscalNoteUrl": null,
+                "fiscalNoteUrl": "https://leg.mt.gov/laws/bills/2023/FNPDF/HB0298",
                 "legalNoteUrl": null,
                 "numArticles": 0,
                 "sponsor": {
@@ -3800,6 +3980,42 @@
             {
                 "lawmakerVote": "Y",
                 "voteData": {
+                    "action": "HB13-0020",
+                    "bill": "HB 13",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0013APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 13 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 17,
+                        "N": 6
+                    },
+                    "gopCount": {
+                        "Y": 10,
+                        "N": 6,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 7,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": true
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
                     "action": "HB60-0032",
                     "bill": "HB 60",
                     "date": "01/25/2023",
@@ -3833,6 +4049,150 @@
                     "motionPassed": true,
                     "gopSupported": true,
                     "demSupported": true
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "HB192-0031",
+                    "bill": "HB 192",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0192APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB0192.001.002 Be Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "HB212-0041",
+                    "bill": "HB 212",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0212APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 212 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 15,
+                        "N": 8
+                    },
+                    "gopCount": {
+                        "Y": 15,
+                        "N": 1,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "HB222-0035",
+                    "bill": "HB 222",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0222APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 222 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "HB251-0030",
+                    "bill": "HB 251",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0251APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 251 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
                 }
             }
         ]
@@ -7497,6 +7857,42 @@
             {
                 "lawmakerVote": "Y",
                 "voteData": {
+                    "action": "HB13-0020",
+                    "bill": "HB 13",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0013APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 13 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 17,
+                        "N": 6
+                    },
+                    "gopCount": {
+                        "Y": 10,
+                        "N": 6,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 7,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": true
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
                     "action": "HB60-0032",
                     "bill": "HB 60",
                     "date": "01/25/2023",
@@ -7530,6 +7926,150 @@
                     "motionPassed": true,
                     "gopSupported": true,
                     "demSupported": true
+                }
+            },
+            {
+                "lawmakerVote": "N",
+                "voteData": {
+                    "action": "HB192-0031",
+                    "bill": "HB 192",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0192APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB0192.001.002 Be Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "N",
+                "voteData": {
+                    "action": "HB212-0041",
+                    "bill": "HB 212",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0212APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 212 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 15,
+                        "N": 8
+                    },
+                    "gopCount": {
+                        "Y": 15,
+                        "N": 1,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "N",
+                "voteData": {
+                    "action": "HB222-0035",
+                    "bill": "HB 222",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0222APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 222 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "N",
+                "voteData": {
+                    "action": "HB251-0030",
+                    "bill": "HB 251",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0251APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 251 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
                 }
             }
         ]
@@ -10897,6 +11437,42 @@
         },
         "keyBillVotes": [
             {
+                "lawmakerVote": "N",
+                "voteData": {
+                    "action": "HB13-0020",
+                    "bill": "HB 13",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0013APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 13 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 17,
+                        "N": 6
+                    },
+                    "gopCount": {
+                        "Y": 10,
+                        "N": 6,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 7,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": true
+                }
+            },
+            {
                 "lawmakerVote": "Y",
                 "voteData": {
                     "action": "HB60-0032",
@@ -10932,6 +11508,150 @@
                     "motionPassed": true,
                     "gopSupported": true,
                     "demSupported": true
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "HB192-0031",
+                    "bill": "HB 192",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0192APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB0192.001.002 Be Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "HB212-0041",
+                    "bill": "HB 212",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0212APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 212 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 15,
+                        "N": 8
+                    },
+                    "gopCount": {
+                        "Y": 15,
+                        "N": 1,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "HB222-0035",
+                    "bill": "HB 222",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0222APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 222 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "HB251-0030",
+                    "bill": "HB 251",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0251APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 251 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
                 }
             }
         ]
@@ -12366,7 +13086,7 @@
                         "step": "first committee",
                         "status": "passed",
                         "statusLabel": "Advanced",
-                        "statusDate": "01/30/2023"
+                        "statusDate": "01/27/2023"
                     },
                     {
                         "step": "first chamber",
@@ -12492,6 +13212,42 @@
             {
                 "lawmakerVote": "Y",
                 "voteData": {
+                    "action": "HB13-0020",
+                    "bill": "HB 13",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0013APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 13 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 17,
+                        "N": 6
+                    },
+                    "gopCount": {
+                        "Y": 10,
+                        "N": 6,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 7,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": true
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
                     "action": "HB60-0032",
                     "bill": "HB 60",
                     "date": "01/25/2023",
@@ -12525,6 +13281,150 @@
                     "motionPassed": true,
                     "gopSupported": true,
                     "demSupported": true
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "HB192-0031",
+                    "bill": "HB 192",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0192APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB0192.001.002 Be Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "HB212-0041",
+                    "bill": "HB 212",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0212APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 212 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 15,
+                        "N": 8
+                    },
+                    "gopCount": {
+                        "Y": 15,
+                        "N": 1,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "HB222-0035",
+                    "bill": "HB 222",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0222APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 222 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "HB251-0030",
+                    "bill": "HB 251",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0251APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 251 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
                 }
             }
         ]
@@ -13874,6 +14774,42 @@
             {
                 "lawmakerVote": "N",
                 "voteData": {
+                    "action": "HB13-0020",
+                    "bill": "HB 13",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0013APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 13 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 17,
+                        "N": 6
+                    },
+                    "gopCount": {
+                        "Y": 10,
+                        "N": 6,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 7,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": true
+                }
+            },
+            {
+                "lawmakerVote": "N",
+                "voteData": {
                     "action": "HB60-0032",
                     "bill": "HB 60",
                     "date": "01/25/2023",
@@ -13907,6 +14843,150 @@
                     "motionPassed": true,
                     "gopSupported": true,
                     "demSupported": true
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "HB192-0031",
+                    "bill": "HB 192",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0192APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB0192.001.002 Be Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "HB212-0041",
+                    "bill": "HB 212",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0212APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 212 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 15,
+                        "N": 8
+                    },
+                    "gopCount": {
+                        "Y": 15,
+                        "N": 1,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "HB222-0035",
+                    "bill": "HB 222",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0222APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 222 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "HB251-0030",
+                    "bill": "HB 251",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0251APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 251 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
                 }
             }
         ]
@@ -15383,6 +16463,42 @@
             {
                 "lawmakerVote": "Y",
                 "voteData": {
+                    "action": "HB13-0020",
+                    "bill": "HB 13",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0013APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 13 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 17,
+                        "N": 6
+                    },
+                    "gopCount": {
+                        "Y": 10,
+                        "N": 6,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 7,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": true
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
                     "action": "HB60-0032",
                     "bill": "HB 60",
                     "date": "01/25/2023",
@@ -15416,6 +16532,150 @@
                     "motionPassed": true,
                     "gopSupported": true,
                     "demSupported": true
+                }
+            },
+            {
+                "lawmakerVote": "N",
+                "voteData": {
+                    "action": "HB192-0031",
+                    "bill": "HB 192",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0192APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB0192.001.002 Be Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "N",
+                "voteData": {
+                    "action": "HB212-0041",
+                    "bill": "HB 212",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0212APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 212 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 15,
+                        "N": 8
+                    },
+                    "gopCount": {
+                        "Y": 15,
+                        "N": 1,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "N",
+                "voteData": {
+                    "action": "HB222-0035",
+                    "bill": "HB 222",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0222APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 222 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "N",
+                "voteData": {
+                    "action": "HB251-0030",
+                    "bill": "HB 251",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0251APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 251 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
                 }
             }
         ]
@@ -16033,6 +17293,42 @@
         },
         "keyBillVotes": [
             {
+                "lawmakerVote": "N",
+                "voteData": {
+                    "action": "HB13-0020",
+                    "bill": "HB 13",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0013APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 13 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 17,
+                        "N": 6
+                    },
+                    "gopCount": {
+                        "Y": 10,
+                        "N": 6,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 7,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": true
+                }
+            },
+            {
                 "lawmakerVote": "Y",
                 "voteData": {
                     "action": "HB60-0032",
@@ -16068,6 +17364,150 @@
                     "motionPassed": true,
                     "gopSupported": true,
                     "demSupported": true
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "HB192-0031",
+                    "bill": "HB 192",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0192APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB0192.001.002 Be Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "HB212-0041",
+                    "bill": "HB 212",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0212APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 212 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 15,
+                        "N": 8
+                    },
+                    "gopCount": {
+                        "Y": 15,
+                        "N": 1,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "HB222-0035",
+                    "bill": "HB 222",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0222APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 222 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "HB251-0030",
+                    "bill": "HB 251",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0251APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 251 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
                 }
             }
         ]
@@ -16550,7 +17990,7 @@
                     }
                 ],
                 "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0327.pdf",
-                "fiscalNoteUrl": null,
+                "fiscalNoteUrl": "https://leg.mt.gov/laws/bills/2023/FNPDF/HB0327",
                 "legalNoteUrl": null,
                 "numArticles": 0,
                 "sponsor": {
@@ -16583,6 +18023,42 @@
             "averageVotesWithDemCaucusDem": 0.9357610697809544
         },
         "keyBillVotes": [
+            {
+                "lawmakerVote": "N",
+                "voteData": {
+                    "action": "HB13-0020",
+                    "bill": "HB 13",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0013APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 13 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 17,
+                        "N": 6
+                    },
+                    "gopCount": {
+                        "Y": 10,
+                        "N": 6,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 7,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": true
+                }
+            },
             {
                 "lawmakerVote": "Y",
                 "voteData": {
@@ -16619,6 +18095,150 @@
                     "motionPassed": true,
                     "gopSupported": true,
                     "demSupported": true
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "HB192-0031",
+                    "bill": "HB 192",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0192APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB0192.001.002 Be Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "HB212-0041",
+                    "bill": "HB 212",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0212APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 212 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 15,
+                        "N": 8
+                    },
+                    "gopCount": {
+                        "Y": 15,
+                        "N": 1,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "HB222-0035",
+                    "bill": "HB 222",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0222APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 222 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "HB251-0030",
+                    "bill": "HB 251",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0251APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 251 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
                 }
             }
         ]
@@ -18126,6 +19746,42 @@
             {
                 "lawmakerVote": "Y",
                 "voteData": {
+                    "action": "HB13-0020",
+                    "bill": "HB 13",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0013APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 13 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 17,
+                        "N": 6
+                    },
+                    "gopCount": {
+                        "Y": 10,
+                        "N": 6,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 7,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": true
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
                     "action": "HB60-0032",
                     "bill": "HB 60",
                     "date": "01/25/2023",
@@ -18159,6 +19815,150 @@
                     "motionPassed": true,
                     "gopSupported": true,
                     "demSupported": true
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "HB192-0031",
+                    "bill": "HB 192",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0192APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB0192.001.002 Be Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "HB212-0041",
+                    "bill": "HB 212",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0212APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 212 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 15,
+                        "N": 8
+                    },
+                    "gopCount": {
+                        "Y": 15,
+                        "N": 1,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "HB222-0035",
+                    "bill": "HB 222",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0222APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 222 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "HB251-0030",
+                    "bill": "HB 251",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0251APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 251 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
                 }
             }
         ]
@@ -19058,6 +20858,42 @@
             {
                 "lawmakerVote": "Y",
                 "voteData": {
+                    "action": "HB13-0020",
+                    "bill": "HB 13",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0013APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 13 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 17,
+                        "N": 6
+                    },
+                    "gopCount": {
+                        "Y": 10,
+                        "N": 6,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 7,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": true
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
                     "action": "HB60-0032",
                     "bill": "HB 60",
                     "date": "01/25/2023",
@@ -19091,6 +20927,150 @@
                     "motionPassed": true,
                     "gopSupported": true,
                     "demSupported": true
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "HB192-0031",
+                    "bill": "HB 192",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0192APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB0192.001.002 Be Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "HB212-0041",
+                    "bill": "HB 212",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0212APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 212 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 15,
+                        "N": 8
+                    },
+                    "gopCount": {
+                        "Y": 15,
+                        "N": 1,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "HB222-0035",
+                    "bill": "HB 222",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0222APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 222 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "HB251-0030",
+                    "bill": "HB 251",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0251APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 251 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
                 }
             }
         ]
@@ -20545,6 +22525,42 @@
         },
         "keyBillVotes": [
             {
+                "lawmakerVote": "N",
+                "voteData": {
+                    "action": "HB13-0020",
+                    "bill": "HB 13",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0013APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 13 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 17,
+                        "N": 6
+                    },
+                    "gopCount": {
+                        "Y": 10,
+                        "N": 6,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 7,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": true
+                }
+            },
+            {
                 "lawmakerVote": "Y",
                 "voteData": {
                     "action": "HB60-0032",
@@ -20580,6 +22596,150 @@
                     "motionPassed": true,
                     "gopSupported": true,
                     "demSupported": true
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "HB192-0031",
+                    "bill": "HB 192",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0192APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB0192.001.002 Be Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "HB212-0041",
+                    "bill": "HB 212",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0212APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 212 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 15,
+                        "N": 8
+                    },
+                    "gopCount": {
+                        "Y": 15,
+                        "N": 1,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "HB222-0035",
+                    "bill": "HB 222",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0222APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 222 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "HB251-0030",
+                    "bill": "HB 251",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0251APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 251 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
                 }
             }
         ]
@@ -20697,6 +22857,42 @@
         },
         "keyBillVotes": [
             {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "HB13-0020",
+                    "bill": "HB 13",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0013APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 13 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 17,
+                        "N": 6
+                    },
+                    "gopCount": {
+                        "Y": 10,
+                        "N": 6,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 7,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": true
+                }
+            },
+            {
                 "lawmakerVote": "N",
                 "voteData": {
                     "action": "HB60-0032",
@@ -20732,6 +22928,150 @@
                     "motionPassed": true,
                     "gopSupported": true,
                     "demSupported": true
+                }
+            },
+            {
+                "lawmakerVote": "N",
+                "voteData": {
+                    "action": "HB192-0031",
+                    "bill": "HB 192",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0192APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB0192.001.002 Be Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "N",
+                "voteData": {
+                    "action": "HB212-0041",
+                    "bill": "HB 212",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0212APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 212 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 15,
+                        "N": 8
+                    },
+                    "gopCount": {
+                        "Y": 15,
+                        "N": 1,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "N",
+                "voteData": {
+                    "action": "HB222-0035",
+                    "bill": "HB 222",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0222APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 222 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "N",
+                "voteData": {
+                    "action": "HB251-0030",
+                    "bill": "HB 251",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0251APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 251 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
                 }
             }
         ]
@@ -21165,7 +23505,7 @@
                         "step": "first committee",
                         "status": "passed",
                         "statusLabel": "Advanced",
-                        "statusDate": "01/26/2023"
+                        "statusDate": "01/27/2023"
                     },
                     {
                         "step": "first chamber",
@@ -21892,6 +24232,42 @@
             {
                 "lawmakerVote": "Y",
                 "voteData": {
+                    "action": "HB13-0020",
+                    "bill": "HB 13",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0013APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 13 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 17,
+                        "N": 6
+                    },
+                    "gopCount": {
+                        "Y": 10,
+                        "N": 6,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 7,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": true
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
                     "action": "HB60-0032",
                     "bill": "HB 60",
                     "date": "01/25/2023",
@@ -21925,6 +24301,150 @@
                     "motionPassed": true,
                     "gopSupported": true,
                     "demSupported": true
+                }
+            },
+            {
+                "lawmakerVote": "N",
+                "voteData": {
+                    "action": "HB192-0031",
+                    "bill": "HB 192",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0192APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB0192.001.002 Be Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "N",
+                "voteData": {
+                    "action": "HB212-0041",
+                    "bill": "HB 212",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0212APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 212 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 15,
+                        "N": 8
+                    },
+                    "gopCount": {
+                        "Y": 15,
+                        "N": 1,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "N",
+                "voteData": {
+                    "action": "HB222-0035",
+                    "bill": "HB 222",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0222APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 222 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "N",
+                "voteData": {
+                    "action": "HB251-0030",
+                    "bill": "HB 251",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0251APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 251 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
                 }
             }
         ]
@@ -26543,7 +29063,7 @@
                         "step": "first committee",
                         "status": "passed",
                         "statusLabel": "Advanced",
-                        "statusDate": "01/30/2023"
+                        "statusDate": "01/27/2023"
                     },
                     {
                         "step": "first chamber",
@@ -26731,6 +29251,42 @@
             {
                 "lawmakerVote": "Y",
                 "voteData": {
+                    "action": "HB13-0020",
+                    "bill": "HB 13",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0013APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 13 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 17,
+                        "N": 6
+                    },
+                    "gopCount": {
+                        "Y": 10,
+                        "N": 6,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 7,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": true
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
                     "action": "HB60-0032",
                     "bill": "HB 60",
                     "date": "01/25/2023",
@@ -26764,6 +29320,150 @@
                     "motionPassed": true,
                     "gopSupported": true,
                     "demSupported": true
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "HB192-0031",
+                    "bill": "HB 192",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0192APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB0192.001.002 Be Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "N",
+                "voteData": {
+                    "action": "HB212-0041",
+                    "bill": "HB 212",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0212APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 212 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 15,
+                        "N": 8
+                    },
+                    "gopCount": {
+                        "Y": 15,
+                        "N": 1,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "HB222-0035",
+                    "bill": "HB 222",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0222APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 222 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "HB251-0030",
+                    "bill": "HB 251",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0251APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 251 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
                 }
             }
         ]
@@ -27498,7 +30198,7 @@
                     }
                 ],
                 "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0306.pdf",
-                "fiscalNoteUrl": null,
+                "fiscalNoteUrl": "https://leg.mt.gov/laws/bills/2023/FNPDF/HB0306",
                 "legalNoteUrl": null,
                 "numArticles": 0,
                 "sponsor": {
@@ -28132,6 +30832,42 @@
             {
                 "lawmakerVote": "Y",
                 "voteData": {
+                    "action": "HB13-0020",
+                    "bill": "HB 13",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0013APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 13 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 17,
+                        "N": 6
+                    },
+                    "gopCount": {
+                        "Y": 10,
+                        "N": 6,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 7,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": true
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
                     "action": "HB60-0032",
                     "bill": "HB 60",
                     "date": "01/25/2023",
@@ -28165,6 +30901,150 @@
                     "motionPassed": true,
                     "gopSupported": true,
                     "demSupported": true
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "HB192-0031",
+                    "bill": "HB 192",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0192APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB0192.001.002 Be Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "HB212-0041",
+                    "bill": "HB 212",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0212APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 212 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 15,
+                        "N": 8
+                    },
+                    "gopCount": {
+                        "Y": 15,
+                        "N": 1,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "HB222-0035",
+                    "bill": "HB 222",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0222APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 222 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "HB251-0030",
+                    "bill": "HB 251",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0251APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 251 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
                 }
             }
         ]
@@ -28341,6 +31221,42 @@
         },
         "keyBillVotes": [
             {
+                "lawmakerVote": "N",
+                "voteData": {
+                    "action": "HB13-0020",
+                    "bill": "HB 13",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0013APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 13 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 17,
+                        "N": 6
+                    },
+                    "gopCount": {
+                        "Y": 10,
+                        "N": 6,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 7,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": true
+                }
+            },
+            {
                 "lawmakerVote": "Y",
                 "voteData": {
                     "action": "HB60-0032",
@@ -28376,6 +31292,150 @@
                     "motionPassed": true,
                     "gopSupported": true,
                     "demSupported": true
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "HB192-0031",
+                    "bill": "HB 192",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0192APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB0192.001.002 Be Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "HB212-0041",
+                    "bill": "HB 212",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0212APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 212 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 15,
+                        "N": 8
+                    },
+                    "gopCount": {
+                        "Y": 15,
+                        "N": 1,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "HB222-0035",
+                    "bill": "HB 222",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0222APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 222 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "HB251-0030",
+                    "bill": "HB 251",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0251APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 251 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
                 }
             }
         ]
@@ -30765,6 +33825,42 @@
             {
                 "lawmakerVote": "Y",
                 "voteData": {
+                    "action": "HB13-0020",
+                    "bill": "HB 13",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0013APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 13 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 17,
+                        "N": 6
+                    },
+                    "gopCount": {
+                        "Y": 10,
+                        "N": 6,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 7,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": true
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
                     "action": "HB60-0032",
                     "bill": "HB 60",
                     "date": "01/25/2023",
@@ -30798,6 +33894,150 @@
                     "motionPassed": true,
                     "gopSupported": true,
                     "demSupported": true
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "HB192-0031",
+                    "bill": "HB 192",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0192APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB0192.001.002 Be Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "HB212-0041",
+                    "bill": "HB 212",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0212APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 212 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 15,
+                        "N": 8
+                    },
+                    "gopCount": {
+                        "Y": 15,
+                        "N": 1,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "HB222-0035",
+                    "bill": "HB 222",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0222APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 222 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "HB251-0030",
+                    "bill": "HB 251",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0251APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 251 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
                 }
             }
         ]
@@ -31582,6 +34822,42 @@
             {
                 "lawmakerVote": "Y",
                 "voteData": {
+                    "action": "HB13-0020",
+                    "bill": "HB 13",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0013APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 13 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 17,
+                        "N": 6
+                    },
+                    "gopCount": {
+                        "Y": 10,
+                        "N": 6,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 7,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": true
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
                     "action": "HB60-0032",
                     "bill": "HB 60",
                     "date": "01/25/2023",
@@ -31615,6 +34891,150 @@
                     "motionPassed": true,
                     "gopSupported": true,
                     "demSupported": true
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "HB192-0031",
+                    "bill": "HB 192",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0192APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB0192.001.002 Be Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "HB212-0041",
+                    "bill": "HB 212",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0212APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 212 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 15,
+                        "N": 8
+                    },
+                    "gopCount": {
+                        "Y": 15,
+                        "N": 1,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "HB222-0035",
+                    "bill": "HB 222",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0222APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 222 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "HB251-0030",
+                    "bill": "HB 251",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0251APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 251 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
                 }
             }
         ]
@@ -33010,7 +36430,7 @@
                     }
                 ],
                 "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0262.pdf",
-                "fiscalNoteUrl": null,
+                "fiscalNoteUrl": "https://leg.mt.gov/laws/bills/2023/FNPDF/HB0262",
                 "legalNoteUrl": null,
                 "numArticles": 0,
                 "sponsor": {
@@ -33170,6 +36590,42 @@
             {
                 "lawmakerVote": "Y",
                 "voteData": {
+                    "action": "HB13-0020",
+                    "bill": "HB 13",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0013APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 13 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 17,
+                        "N": 6
+                    },
+                    "gopCount": {
+                        "Y": 10,
+                        "N": 6,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 7,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": true
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
                     "action": "HB60-0032",
                     "bill": "HB 60",
                     "date": "01/25/2023",
@@ -33203,6 +36659,150 @@
                     "motionPassed": true,
                     "gopSupported": true,
                     "demSupported": true
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "HB192-0031",
+                    "bill": "HB 192",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0192APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB0192.001.002 Be Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "HB212-0041",
+                    "bill": "HB 212",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0212APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 212 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 15,
+                        "N": 8
+                    },
+                    "gopCount": {
+                        "Y": 15,
+                        "N": 1,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "HB222-0035",
+                    "bill": "HB 222",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0222APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 222 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "HB251-0030",
+                    "bill": "HB 251",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0251APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 251 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
                 }
             }
         ]
@@ -34188,7 +37788,7 @@
                     }
                 ],
                 "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0300.pdf",
-                "fiscalNoteUrl": null,
+                "fiscalNoteUrl": "https://leg.mt.gov/laws/bills/2023/FNPDF/HB0300",
                 "legalNoteUrl": null,
                 "numArticles": 0,
                 "sponsor": {
@@ -35300,7 +38900,7 @@
                         "step": "first committee",
                         "status": "passed",
                         "statusLabel": "Advanced",
-                        "statusDate": "01/30/2023"
+                        "statusDate": "01/27/2023"
                     },
                     {
                         "step": "first chamber",
@@ -35853,7 +39453,7 @@
                     }
                 ],
                 "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0253.pdf",
-                "fiscalNoteUrl": null,
+                "fiscalNoteUrl": "https://leg.mt.gov/laws/bills/2023/FNPDF/HB0253",
                 "legalNoteUrl": null,
                 "numArticles": 0,
                 "sponsor": {
@@ -36131,6 +39731,42 @@
             {
                 "lawmakerVote": "Y",
                 "voteData": {
+                    "action": "HB13-0020",
+                    "bill": "HB 13",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0013APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 13 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 17,
+                        "N": 6
+                    },
+                    "gopCount": {
+                        "Y": 10,
+                        "N": 6,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 7,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": true
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
                     "action": "HB60-0032",
                     "bill": "HB 60",
                     "date": "01/25/2023",
@@ -36164,6 +39800,150 @@
                     "motionPassed": true,
                     "gopSupported": true,
                     "demSupported": true
+                }
+            },
+            {
+                "lawmakerVote": "N",
+                "voteData": {
+                    "action": "HB192-0031",
+                    "bill": "HB 192",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0192APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB0192.001.002 Be Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "N",
+                "voteData": {
+                    "action": "HB212-0041",
+                    "bill": "HB 212",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0212APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 212 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 15,
+                        "N": 8
+                    },
+                    "gopCount": {
+                        "Y": 15,
+                        "N": 1,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "N",
+                "voteData": {
+                    "action": "HB222-0035",
+                    "bill": "HB 222",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0222APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 222 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "N",
+                "voteData": {
+                    "action": "HB251-0030",
+                    "bill": "HB 251",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0251APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 251 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
                 }
             }
         ]
@@ -37166,6 +40946,42 @@
             {
                 "lawmakerVote": "Y",
                 "voteData": {
+                    "action": "HB13-0020",
+                    "bill": "HB 13",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0013APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 13 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 17,
+                        "N": 6
+                    },
+                    "gopCount": {
+                        "Y": 10,
+                        "N": 6,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 7,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": true
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
                     "action": "HB60-0032",
                     "bill": "HB 60",
                     "date": "01/25/2023",
@@ -37199,6 +41015,150 @@
                     "motionPassed": true,
                     "gopSupported": true,
                     "demSupported": true
+                }
+            },
+            {
+                "lawmakerVote": "N",
+                "voteData": {
+                    "action": "HB192-0031",
+                    "bill": "HB 192",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0192APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB0192.001.002 Be Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "N",
+                "voteData": {
+                    "action": "HB212-0041",
+                    "bill": "HB 212",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0212APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 212 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 15,
+                        "N": 8
+                    },
+                    "gopCount": {
+                        "Y": 15,
+                        "N": 1,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "N",
+                "voteData": {
+                    "action": "HB222-0035",
+                    "bill": "HB 222",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0222APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 222 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "N",
+                "voteData": {
+                    "action": "HB251-0030",
+                    "bill": "HB 251",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0251APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 251 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
                 }
             }
         ]
@@ -37556,7 +41516,7 @@
                     }
                 ],
                 "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0294.pdf",
-                "fiscalNoteUrl": null,
+                "fiscalNoteUrl": "https://leg.mt.gov/laws/bills/2023/FNPDF/HB0294",
                 "legalNoteUrl": null,
                 "numArticles": 0,
                 "sponsor": {
@@ -39037,7 +42997,7 @@
                     }
                 ],
                 "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0297.pdf",
-                "fiscalNoteUrl": null,
+                "fiscalNoteUrl": "https://leg.mt.gov/laws/bills/2023/FNPDF/HB0297",
                 "legalNoteUrl": null,
                 "numArticles": 0,
                 "sponsor": {
@@ -39630,6 +43590,42 @@
             {
                 "lawmakerVote": "Y",
                 "voteData": {
+                    "action": "HB13-0020",
+                    "bill": "HB 13",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0013APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 13 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 17,
+                        "N": 6
+                    },
+                    "gopCount": {
+                        "Y": 10,
+                        "N": 6,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 7,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": true
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
                     "action": "HB60-0032",
                     "bill": "HB 60",
                     "date": "01/25/2023",
@@ -39663,6 +43659,150 @@
                     "motionPassed": true,
                     "gopSupported": true,
                     "demSupported": true
+                }
+            },
+            {
+                "lawmakerVote": "N",
+                "voteData": {
+                    "action": "HB192-0031",
+                    "bill": "HB 192",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0192APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB0192.001.002 Be Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "N",
+                "voteData": {
+                    "action": "HB212-0041",
+                    "bill": "HB 212",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0212APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 212 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 15,
+                        "N": 8
+                    },
+                    "gopCount": {
+                        "Y": 15,
+                        "N": 1,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "N",
+                "voteData": {
+                    "action": "HB222-0035",
+                    "bill": "HB 222",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0222APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 222 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "N",
+                "voteData": {
+                    "action": "HB251-0030",
+                    "bill": "HB 251",
+                    "date": "01/27/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/house/votesheets/HB0251APH230127.pdf",
+                    "session": "20231",
+                    "motion": "Rep. Keenan made a Motion that HB 251 Do Pass as Amended",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 16,
+                        "N": 7
+                    },
+                    "gopCount": {
+                        "Y": 16,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 7,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
                 }
             }
         ]
@@ -40001,7 +44141,7 @@
                     }
                 ],
                 "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0308.pdf",
-                "fiscalNoteUrl": null,
+                "fiscalNoteUrl": "https://leg.mt.gov/laws/bills/2023/FNPDF/HB0308",
                 "legalNoteUrl": null,
                 "numArticles": 0,
                 "sponsor": {
@@ -50408,7 +54548,7 @@
                     }
                 ],
                 "textUrl": "http://leg.mt.gov/bills/2023/billpdf/SB0198.pdf",
-                "fiscalNoteUrl": null,
+                "fiscalNoteUrl": "https://leg.mt.gov/laws/bills/2023/FNPDF/SB0198",
                 "legalNoteUrl": null,
                 "numArticles": 0,
                 "sponsor": {
