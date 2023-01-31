@@ -38399,7 +38399,7 @@
       "Y": 99,
       "N": 0
     },
-    "error": "Missing vote page"
+    "error": "Skipped previously missing vote page"
   },
   {
     "url": "http://laws.leg.mt.gov/legprd/LAW0211W$BLAC.VoteTabulation?P_VOTE_SEQ=H232&P_SESS=20231",
@@ -93646,7 +93646,7 @@
     "action_id": "HB131-0014",
     "type": "committee",
     "seq_number": null,
-    "error": "Missing PDF",
+    "error": "Skipped previously missing vote page",
     "totals": {
       "Y": 18,
       "N": 1
