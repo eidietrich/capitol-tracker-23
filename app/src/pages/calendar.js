@@ -170,7 +170,7 @@ const Committee = props => {
     const committeeHearingBills = hearings.filter(d => d.committee === committee.name).map(d => d.bill)
     const bills = onCalendarBills.filter(d => committeeHearingBills.includes(d.identifier))
     return <div>
-        <h4>👥 {committee.name}</h4>
+        <h4>👥 <Link to={`/committees/${committee.key}`}>{committee.name}</Link></h4>
         {/* <div className="note">{time}{type}</div> */}
         <BillTable bills={bills} displayLimit={10} suppressCount={true} />
         {/* <ul>{committeeHearings.map(d => <Hearing key={d.id} data={d} />)}</ul> */}

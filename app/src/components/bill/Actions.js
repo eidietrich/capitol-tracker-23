@@ -1,4 +1,5 @@
 import React, { Component, useState } from 'react';
+import { Link } from 'gatsby'
 import { css } from '@emotion/react'
 
 import InfoPopup from '../InfoPopup'
@@ -7,6 +8,7 @@ import processAnnotations from '../../data/process-annotations.json'
 
 import {
   dateFormat,
+  committeeUrl,
 } from '../../config/utils'
 
 import {
@@ -182,7 +184,7 @@ const Action = (action, showVotes, annotations) => {
     <td css={actionCss}><div css={actionWidth}>
       <div css={descriptionCss}>
         <div>{description}</div>
-        <div>{committee && <>👥 <em>{committee}</em></>}</div>
+        <div>{committee && <>👥 <em><Link to={`/committees/${committeeUrl(committee)}`}>{committee}</Link></em></>}</div>
       </div>
       {/* <div css={descriptionCss}>
         { classification ? <span>Classification: {classification}</span> : null }

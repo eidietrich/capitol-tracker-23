@@ -68,11 +68,13 @@ export default class Committee {
         this.data = {
             name,
             key: commiteeKey(name),
+            chamber: this.chamberFromName(name),
             time,
             type,
             bills,
             billCount: bills.length,
             billsUnscheduled: referredAndUnscheduled,
+            billsScheduled: scheduled,
             billsScheduledByDay: scheduledByDay,
             billsAwaitingVote: awaitingVote,
             billsFailed: failed,
@@ -84,11 +86,11 @@ export default class Committee {
         // console.log(name, this.data.overview)
     }
 
-    // chamberFromName(name) {
-    //     if (name.includes('Joint')) return 'joint'
-    //     if (name.includes('House')) return 'house'
-    //     if (name.includes('Senate')) return 'senate'
-    // }
+    chamberFromName(name) {
+        if (name.includes('Joint')) return 'joint'
+        if (name.includes('House')) return 'house'
+        if (name.includes('Senate')) return 'senate'
+    }
 
     export = () => this.data
 

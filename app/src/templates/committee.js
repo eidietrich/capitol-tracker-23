@@ -1,5 +1,5 @@
 import React from "react";
-import { graphql, Link } from "gatsby"
+import { Link } from "gatsby"
 import { css } from '@emotion/react'
 import ReactMarkdown from 'react-markdown'
 
@@ -8,35 +8,23 @@ import Seo from "../components/Seo"
 import ContactUs from '../components/ContactUs'
 import NewsletterSignup from '../components/NewsletterSignup'
 
+import CommitteeSummary from "../components/committee/Summary";
 import BillTable from '../components/BillTable'
-import LawmakerInline from "../components/LawmakerInline";
 
 import {
-    percentFormat,
     lawmakerUrl,
     shortDateWithWeekday,
-    parseDate,
 } from '../config/utils'
 
 import {
     partyColors,
 } from '../config/config'
 
-const committeeSummaryStyle = css`
-    display: flex;
-    flex-wrap: wrap;
 
-    .item {
-        flex: 1 0 auto;
-        border: 1px solid var(--tan4);
-        background-color: var(--tan1);
-        margin: 0.2em;
-        padding: 0.2em 0.5em;
-    }
-`
 const committeeMemberListStyle = css`
     display: flex;
     flex-wrap: wrap;
+    margin-left: -0.5em;
 
     .col {
         flex: 1 0 250px;
@@ -44,8 +32,10 @@ const committeeMemberListStyle = css`
     }
 
     .item {
-        /* border: 1px solid var(--tan2); */
+        border: 1px solid var(--tan2);
+        background: var(--tan1);
         padding: 0.2em 0.5em;
+        margin: 0;
         margin-bottom: 0.2em;
     }
 `
@@ -68,6 +58,7 @@ const CommitteePage = ({ pageContext, data, location }) => {
         billsAdvanced,
         billsBlasted,
         members,
+        committeePageText, // not wired up in processing
     } = committee
 
     const unscheduledBills = bills.filter(d => billsUnscheduled.includes(d.identifier))
@@ -98,42 +89,45 @@ const CommitteePage = ({ pageContext, data, location }) => {
         <Layout location={location}>
             <h1>{name} Committee</h1>
 
+            <CommitteeSummary {...committee} />
 
-            <div css={committeeSummaryStyle}>
+            {/* <div css={committeeSummaryStyle}>
                 <div className="item"><strong>{bills.length} bills</strong> considered</div>
                 <div className="item"><strong>{unheard.length}</strong> <Link to="#awaiting-hearing">awaiting hearing</Link></div>
                 <div className="item"><strong>{awaitingVoteBills.length}</strong> <Link to="#awaiting-votes">awaiting votes</Link></div>
                 <div className="item"><strong>{failedBills.length}</strong> ({percentFormat(failedBills.length / denom)}) <Link to="#failed"> voted down</Link></div>
                 <div className="item"><strong>{passedBills.length}</strong> ({percentFormat(passedBills.length / denom)}) <Link to="#passed">voted forward</Link></div>
-            </div>
+            </div> */}
 
             <div style={{ fontSize: '1.2em', margin: '0.5em 0' }}>🪑 Chair: <Link to={`/lawmakers/${lawmakerUrl(chair.name)}`}><strong>{chair.name}</strong> <span style={{ color: partyColors(chair.party) }}>({chair.party}-{chair.locale})</span></Link></div>
 
+            <ReactMarkdown>{committeePageText}</ReactMarkdown>
+
+            <hr />
+
             <h2>Members ({members.length})</h2>
-            <div>
-                🔴 <strong>{members.filter(d => d.party === 'R').length}</strong> Republicans,
-                🔵 <strong> {members.filter(d => d.party === 'D').length}</strong> Democrats
-            </div>
             <div css={committeeMemberListStyle}>
                 <div className="col">
+                    <div className="header"><strong>{members.filter(d => d.party === 'R').length}</strong> Republicans</div>
                     {
-                        members.filter(d => d.party === 'R').map(m => <div className="item" key={m.name}><>👤 </>
+                        members.filter(d => d.party === 'R').map(m => <div className="item" key={m.name} style={{ borderLeft: `5px solid ${partyColors(m.party)}` }}><>👤 </>
                             <Link to={`/lawmakers/${lawmakerUrl(m.name)}`}><strong>{m.name}</strong> <span style={{ color: partyColors(m.party) }}>({m.party}-{m.locale})</span></Link>
                             {(m.role !== 'Member') && <span> – {m.role}</span>}
                         </div>)
                     }
                 </div>
                 <div className="col">
+                    <div className="header"><strong> {members.filter(d => d.party === 'D').length}</strong> Democrats</div>
                     {
-                        members.filter(d => d.party === 'D').map(m => <div className="item" key={m.name}><>👤 </>
-                            <Link to={`/lawmakers/${lawmakerUrl(m.name)}`}><strong>{m.name}</strong> <span style={{ color: partyColors(m.party) }}>({m.party}-{m.locale})</span></Link>
+                        members.filter(d => d.party === 'D').map(m => <div className="item" key={m.name} style={{ borderLeft: `5px solid ${partyColors(m.party)}` }}><>👤 </>
+                            <Link to={`/ lawmakers / ${lawmakerUrl(m.name)}`}><strong>{m.name}</strong> <span style={{ color: partyColors(m.party) }}>({m.party}-{m.locale})</span></Link>
                             {(m.role !== 'Member') && <span> – {m.role}</span>}
                         </div>)
                     }
                 </div>
             </div>
 
-
+            <hr />
 
             <h2>Commitee bills ({billCount})</h2>
 
@@ -172,12 +166,11 @@ const CommitteePage = ({ pageContext, data, location }) => {
 
             <ContactUs />
 
-        </Layout>
-    </div>;
+        </Layout >
+    </div >;
 };
 
 export default CommitteePage
-
 
 export const Head = ({ pageContext }) => {
     const { committee } = pageContext

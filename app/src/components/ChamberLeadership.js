@@ -19,12 +19,11 @@ const roleCss = css`
 const nameCss = css`
   color: #444;
 `
-const ChamberLeadership = ({leadership}) => {
+const ChamberLeadership = ({ leadership }) => {
   return <div>
-    <h3>Leadership</h3>
     <div css={leadershipCss}>
       {
-        leadership.map((d,i) => {
+        leadership.map((d, i) => {
           return <div key={d.name} css={leadershipItemCss}>
             <div css={roleCss}>{d.role}</div>
             <div css={nameCss}><Link to={`/lawmakers/${d.key}`}>{d.name}</Link></div>

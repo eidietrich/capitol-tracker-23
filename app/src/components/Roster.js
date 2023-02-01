@@ -16,13 +16,11 @@ const tableContainerCss = css`
 `
 
 const Roster = (props) => {
-  const { title, lawmakers,
+  const { lawmakers,
     // chamberLabel 
   } = props
   // const numVotesRecorded = lawmakers.map(d => d.votingSummary.numVotesRecorded)[1]
   return <div>
-    <h3>{title}</h3>
-
     <div css={sideBySideTableCss}>
       <div css={tableContainerCss}>
         <h4>Republicans</h4>
