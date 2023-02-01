@@ -118,10 +118,38 @@
         "SR 32",
         "SR 33",
         "SR 44",
-        "SJ 6",
+        "HB 192",
+        "HB 212",
+        "HB 221",
+        "HB 222",
+        "HB 251",
+        "HB 266",
+        "HB 267",
+        "SB 6",
+        "SB 45",
+        "SB 49",
+        "SB 51",
+        "SB 73",
+        "SB 77",
+        "SB 80",
+        "SB 86",
+        "SB 136",
+        "SB 168",
+        "SB 171",
+        "SB 177",
+        "SB 207",
+        "SR 9",
+        "SR 28",
+        "SR 34",
+        "SR 36",
+        "SR 37",
+        "SR 39",
+        "SR 41",
+        "SR 42",
         "HB 173",
         "HB 186",
         "HB 188",
+        "HB 213",
         "HB 218",
         "HB 236",
         "HB 239",
@@ -132,9 +160,13 @@
         "HB 272",
         "HB 273",
         "HB 290",
+        "SB 54",
         "SB 57",
+        "SB 89",
+        "SB 108",
         "SB 184",
         "SB 191",
+        "SB 195",
         "SJ 2"
     ],
     "scheduledHearings": [
@@ -386,7 +418,7 @@
             "hearing": true
         },
         {
-            "id": "HB219-0042",
+            "id": "HB219-0043",
             "bill": "HB 219",
             "date": "02/02/2023",
             "description": "Hearing",
@@ -529,7 +561,7 @@
             "hearing": true
         },
         {
-            "id": "HB307-0022",
+            "id": "HB307-0025",
             "bill": "HB 307",
             "date": "02/01/2023",
             "description": "Hearing",
@@ -555,7 +587,7 @@
             "hearing": true
         },
         {
-            "id": "HB313-0023",
+            "id": "HB313-0024",
             "bill": "HB 313",
             "date": "02/03/2023",
             "description": "Hearing",
@@ -607,7 +639,7 @@
             "hearing": true
         },
         {
-            "id": "HB318-0029",
+            "id": "HB318-0031",
             "bill": "HB 318",
             "date": "02/01/2023",
             "description": "Hearing",
@@ -633,7 +665,7 @@
             "hearing": true
         },
         {
-            "id": "HB321-0025",
+            "id": "HB321-0027",
             "bill": "HB 321",
             "date": "02/01/2023",
             "description": "Hearing",
@@ -698,7 +730,7 @@
             "hearing": true
         },
         {
-            "id": "HB331-0036",
+            "id": "HB331-0038",
             "bill": "HB 331",
             "date": "02/02/2023",
             "description": "Hearing",
@@ -841,7 +873,7 @@
             "hearing": true
         },
         {
-            "id": "HB350-0018",
+            "id": "HB350-0019",
             "bill": "HB 350",
             "date": "02/02/2023",
             "description": "Hearing",
@@ -919,7 +951,7 @@
             "hearing": true
         },
         {
-            "id": "HB364-0018",
+            "id": "HB364-0019",
             "bill": "HB 364",
             "date": "02/06/2023",
             "description": "Hearing",
@@ -932,7 +964,7 @@
             "hearing": true
         },
         {
-            "id": "HB365-0017",
+            "id": "HB365-0018",
             "bill": "HB 365",
             "date": "02/01/2023",
             "description": "Hearing",
@@ -945,7 +977,7 @@
             "hearing": true
         },
         {
-            "id": "HB366-0019",
+            "id": "HB366-0020",
             "bill": "HB 366",
             "date": "02/01/2023",
             "description": "Hearing",
@@ -958,7 +990,7 @@
             "hearing": true
         },
         {
-            "id": "HB367-0019",
+            "id": "HB367-0020",
             "bill": "HB 367",
             "date": "02/02/2023",
             "description": "Hearing",
@@ -1101,7 +1133,20 @@
             "hearing": true
         },
         {
-            "id": "SB189-0028",
+            "id": "SB178-0020",
+            "bill": "SB 178",
+            "date": "02/02/2023",
+            "description": "Hearing",
+            "posession": "senate",
+            "committee": "Senate Business, Labor, and Economic Affairs",
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
+            "id": "SB189-0029",
             "bill": "SB 189",
             "date": "02/01/2023",
             "description": "Hearing",
@@ -1114,7 +1159,7 @@
             "hearing": true
         },
         {
-            "id": "SB190-0025",
+            "id": "SB190-0026",
             "bill": "SB 190",
             "date": "02/01/2023",
             "description": "Hearing",
@@ -1166,6 +1211,19 @@
             "hearing": true
         },
         {
+            "id": "SB209-0031",
+            "bill": "SB 209",
+            "date": "02/02/2023",
+            "description": "Hearing",
+            "posession": "senate",
+            "committee": "Senate Business, Labor, and Economic Affairs",
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
             "id": "SB210-0017",
             "bill": "SB 210",
             "date": "02/01/2023",
@@ -1205,7 +1263,7 @@
             "hearing": true
         },
         {
-            "id": "SB213-0017",
+            "id": "SB213-0018",
             "bill": "SB 213",
             "date": "02/01/2023",
             "description": "Hearing",
@@ -1309,7 +1367,7 @@
             "hearing": true
         },
         {
-            "id": "SB224-0025",
+            "id": "SB224-0026",
             "bill": "SB 224",
             "date": "02/02/2023",
             "description": "Hearing",
@@ -1400,7 +1458,7 @@
             "hearing": true
         },
         {
-            "id": "SB232-0018",
+            "id": "SB232-0019",
             "bill": "SB 232",
             "date": "02/03/2023",
             "description": "Hearing",
@@ -1413,7 +1471,7 @@
             "hearing": true
         },
         {
-            "id": "SB236-0019",
+            "id": "SB236-0020",
             "bill": "SB 236",
             "date": "02/02/2023",
             "description": "Hearing",
@@ -1610,8 +1668,344 @@
     ],
     "scheduledFloorDebates": [
         {
-            "id": "SJ6-0024",
-            "bill": "SJ 6",
+            "id": "HB192-0036",
+            "bill": "HB 192",
+            "date": "02/01/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "house",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
+            "id": "HB212-0045",
+            "bill": "HB 212",
+            "date": "02/01/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "house",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
+            "id": "HB221-0035",
+            "bill": "HB 221",
+            "date": "02/01/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "house",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
+            "id": "HB222-0039",
+            "bill": "HB 222",
+            "date": "02/01/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "house",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
+            "id": "HB251-0034",
+            "bill": "HB 251",
+            "date": "02/01/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "house",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
+            "id": "HB266-0022",
+            "bill": "HB 266",
+            "date": "02/01/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "house",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
+            "id": "HB267-0033",
+            "bill": "HB 267",
+            "date": "02/01/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "house",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
+            "id": "SB6-0036",
+            "bill": "SB 6",
+            "date": "02/01/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "house",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
+            "id": "SB45-0027",
+            "bill": "SB 45",
+            "date": "02/01/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "house",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
+            "id": "SB49-0016",
+            "bill": "SB 49",
+            "date": "02/01/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
+            "id": "SB51-0019",
+            "bill": "SB 51",
+            "date": "02/01/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
+            "id": "SB73-0019",
+            "bill": "SB 73",
+            "date": "02/01/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
+            "id": "SB77-0033",
+            "bill": "SB 77",
+            "date": "02/01/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
+            "id": "SB80-0032",
+            "bill": "SB 80",
+            "date": "02/01/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "house",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
+            "id": "SB86-0017",
+            "bill": "SB 86",
+            "date": "02/01/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
+            "id": "SB136-0023",
+            "bill": "SB 136",
+            "date": "02/01/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
+            "id": "SB168-0028",
+            "bill": "SB 168",
+            "date": "02/01/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
+            "id": "SB171-0037",
+            "bill": "SB 171",
+            "date": "02/01/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
+            "id": "SB171-0038",
+            "bill": "SB 171",
+            "date": "02/01/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
+            "id": "SB177-0023",
+            "bill": "SB 177",
+            "date": "02/01/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
+            "id": "SB207-0025",
+            "bill": "SB 207",
+            "date": "02/01/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
+            "id": "SR9-0019",
+            "bill": "SR 9",
+            "date": "02/01/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
+            "id": "SR28-0018",
+            "bill": "SR 28",
+            "date": "02/01/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
+            "id": "SR34-0019",
+            "bill": "SR 34",
+            "date": "02/01/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
+            "id": "SR36-0019",
+            "bill": "SR 36",
+            "date": "02/01/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
+            "id": "SR37-0019",
+            "bill": "SR 37",
+            "date": "02/01/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
+            "id": "SR39-0019",
+            "bill": "SR 39",
+            "date": "02/01/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
+            "id": "SR41-0019",
+            "bill": "SR 41",
+            "date": "02/01/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
+            "id": "SR42-0019",
+            "bill": "SR 42",
             "date": "02/01/2023",
             "description": "Scheduled for 2nd Reading",
             "posession": "senate",
@@ -1650,6 +2044,18 @@
         {
             "id": "HB188-0038",
             "bill": "HB 188",
+            "date": "02/01/2023",
+            "description": "Scheduled for 3rd Reading",
+            "posession": "house",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 3rd Reading",
+            "scheduledForFinalVote": true
+        },
+        {
+            "id": "HB213-0027",
+            "bill": "HB 213",
             "date": "02/01/2023",
             "description": "Scheduled for 3rd Reading",
             "posession": "house",
@@ -1780,8 +2186,44 @@
             "scheduledForFinalVote": true
         },
         {
+            "id": "SB54-0043",
+            "bill": "SB 54",
+            "date": "02/01/2023",
+            "description": "Scheduled for 3rd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 3rd Reading",
+            "scheduledForFinalVote": true
+        },
+        {
             "id": "SB57-0026",
             "bill": "SB 57",
+            "date": "02/01/2023",
+            "description": "Scheduled for 3rd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 3rd Reading",
+            "scheduledForFinalVote": true
+        },
+        {
+            "id": "SB89-0030",
+            "bill": "SB 89",
+            "date": "02/01/2023",
+            "description": "Scheduled for 3rd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 3rd Reading",
+            "scheduledForFinalVote": true
+        },
+        {
+            "id": "SB108-0037",
+            "bill": "SB 108",
             "date": "02/01/2023",
             "description": "Scheduled for 3rd Reading",
             "posession": "senate",
@@ -1806,6 +2248,18 @@
         {
             "id": "SB191-0037",
             "bill": "SB 191",
+            "date": "02/01/2023",
+            "description": "Scheduled for 3rd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 3rd Reading",
+            "scheduledForFinalVote": true
+        },
+        {
+            "id": "SB195-0027",
+            "bill": "SB 195",
             "date": "02/01/2023",
             "description": "Scheduled for 3rd Reading",
             "posession": "senate",
