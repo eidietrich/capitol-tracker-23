@@ -1176,14 +1176,14 @@
             "HB 226",
             "HB 264",
             "HB 269",
-            "HB 275",
             "HB 281",
             "HB 306"
         ],
         "billsFailed": [
             "HB 103",
             "HB 190",
-            "HB 206"
+            "HB 206",
+            "HB 275"
         ],
         "billsAdvanced": [
             "HB 47",
@@ -3216,6 +3216,7 @@
             "SB 229",
             "SB 230",
             "SB 231",
+            "SB 247",
             "SJ 3",
             "SJ 5",
             "SR 6",
@@ -3224,14 +3225,15 @@
             "SR 9",
             "SR 10"
         ],
-        "billCount": 68,
+        "billCount": 69,
         "billsUnscheduled": [
             "HB 38",
             "HB 112",
             "HB 161",
             "HB 205",
             "SB 127",
-            "SB 216"
+            "SB 216",
+            "SB 247"
         ],
         "billsScheduledByDay": [
             {
@@ -3458,6 +3460,8 @@
             "SB 216",
             "SB 223",
             "SB 236",
+            "SB 243",
+            "SB 244",
             "SJ 2",
             "SR 29",
             "SR 30",
@@ -3472,7 +3476,7 @@
             "SR 42",
             "SR 43"
         ],
-        "billCount": 77,
+        "billCount": 79,
         "billsUnscheduled": [
             "HB 49",
             "HB 95",
@@ -3481,6 +3485,8 @@
             "HB 164",
             "SB 20",
             "SB 112",
+            "SB 243",
+            "SB 244",
             "SR 29",
             "SR 30",
             "SR 35",
@@ -3681,15 +3687,17 @@
             "SB 145",
             "SB 192",
             "SB 194",
+            "SB 246",
             "SR 11"
         ],
-        "billCount": 35,
+        "billCount": 36,
         "billsUnscheduled": [
             "SB 14",
             "SB 28",
             "SB 104",
             "SB 118",
             "SB 192",
+            "SB 246",
             "SR 11"
         ],
         "billsScheduledByDay": [],
@@ -3986,13 +3994,15 @@
             "SB 225",
             "SB 226",
             "SB 227",
-            "SB 240"
+            "SB 240",
+            "SB 245"
         ],
-        "billCount": 26,
+        "billCount": 27,
         "billsUnscheduled": [
             "HB 35",
             "HB 198",
-            "SB 240"
+            "SB 240",
+            "SB 245"
         ],
         "billsScheduledByDay": [
             {
