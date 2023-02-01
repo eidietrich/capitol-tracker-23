@@ -45777,7 +45777,24 @@
                 "chamber": "house"
             }
         ],
-        "articles": [],
+        "articles": [
+            {
+                "title": "Bill would force Montana cities to allow smaller home lots",
+                "category": "2023 Legislature",
+                "subtitle": "",
+                "date": "2023-01-31T19:17:54.000Z",
+                "link": "https://montanafreepress.org/2023/01/31/bill-would-force-montana-cities-to-allow-smaller-home-lots/",
+                "author": "Eric Dietrich",
+                "imageUrl": "https://montanafreepress.org/2023/01/31/bill-would-force-montana-cities-to-allow-smaller-home-lots/untitled-design-275/",
+                "billTags": [
+                    "HB 337"
+                ],
+                "lawmakerTags": [
+                    "Katie Zolnikov"
+                ],
+                "governorTags": []
+            }
+        ],
         "lawmakerPageText": null,
         "imageSlug": "2023/katie-zolnikov.png",
         "sponsoredBills": [
@@ -46082,7 +46099,7 @@
                 "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0337.pdf",
                 "fiscalNoteUrl": null,
                 "legalNoteUrl": null,
-                "numArticles": 0,
+                "numArticles": 1,
                 "sponsor": {
                     "name": "Katie Zolnikov",
                     "lastName": "Zolnikov",
@@ -69263,14 +69280,14 @@
                     },
                     {
                         "step": "first committee",
-                        "status": "current",
-                        "statusLabel": "Pending",
-                        "statusDate": null
+                        "status": "passed",
+                        "statusLabel": "Advanced",
+                        "statusDate": "02/01/2023"
                     },
                     {
                         "step": "first chamber",
-                        "status": "future",
-                        "statusLabel": null,
+                        "status": "current",
+                        "statusLabel": "Pending",
                         "statusDate": null
                     }
                 ],
