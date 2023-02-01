@@ -1198,8 +1198,6 @@
         "billCount": 57,
         "billsUnscheduled": [
             "HB 126",
-            "HB 377",
-            "HB 378",
             "SJ 8"
         ],
         "billsScheduled": [
@@ -1211,7 +1209,9 @@
             "HB 329",
             "HB 335",
             "HB 341",
-            "HB 348"
+            "HB 348",
+            "HB 377",
+            "HB 378"
         ],
         "billsScheduledByDay": [
             {
@@ -1240,7 +1240,9 @@
             {
                 "day": "02/07/2023",
                 "bills": [
-                    "HB 341"
+                    "HB 341",
+                    "HB 377",
+                    "HB 378"
                 ]
             }
         ],
@@ -3129,14 +3131,16 @@
             "SB 148",
             "SB 160",
             "SB 163",
+            "SB 168",
             "SB 183"
         ],
-        "billCount": 23,
+        "billCount": 24,
         "billsUnscheduled": [
             "HB 175",
             "HB 185",
             "SB 160",
             "SB 163",
+            "SB 168",
             "SB 183"
         ],
         "billsScheduled": [
