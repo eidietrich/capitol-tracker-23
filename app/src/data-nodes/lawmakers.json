@@ -22115,6 +22115,68 @@
                     "locale": "Belgrade",
                     "district": "HD 67"
                 }
+            },
+            {
+                "key": "hb-384",
+                "identifier": "HB 384",
+                "title": "Allow hard copy campaign finance reports in certain circumstances",
+                "chamber": "house",
+                "status": {
+                    "key": "In First House--Introduced",
+                    "step": "First chamber",
+                    "label": "Introduced",
+                    "status": "live",
+                    "statusAtSessionEnd": "failed"
+                },
+                "progress": [
+                    {
+                        "step": "introduced",
+                        "status": "passed",
+                        "statusLabel": "Introduced",
+                        "statusDate": "02/01/2023"
+                    },
+                    {
+                        "step": "first committee",
+                        "status": "current",
+                        "statusLabel": "Pending",
+                        "statusDate": null
+                    },
+                    {
+                        "step": "first chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "second chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "reconciliation",
+                        "status": "skipped",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "governor",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    }
+                ],
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC1888.pdf",
+                "fiscalNoteUrl": null,
+                "legalNoteUrl": null,
+                "numArticles": 0,
+                "sponsor": {
+                    "name": "Jedediah Hinkle",
+                    "lastName": "Hinkle",
+                    "party": "R",
+                    "locale": "Belgrade",
+                    "district": "HD 67"
+                }
             }
         ],
         "votingSummary": {
@@ -54661,9 +54723,9 @@
                 "title": "Generally revise cabin site sales",
                 "chamber": "senate",
                 "status": {
-                    "key": "In First House--Through 2nd Reading",
+                    "key": "In First House Committee--Nontabled",
                     "step": "First chamber",
-                    "label": "Passed second reading vote",
+                    "label": "In committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -54678,7 +54740,7 @@
                         "step": "first committee",
                         "status": "passed",
                         "statusLabel": "Advanced",
-                        "statusDate": "01/30/2023"
+                        "statusDate": "02/01/2023"
                     },
                     {
                         "step": "first chamber",
@@ -56293,9 +56355,9 @@
                 "title": "Clarify definition of election officials",
                 "chamber": "senate",
                 "status": {
-                    "key": "In First House--Through 3rd Reading",
-                    "step": "First chamber",
-                    "label": "Passed chamber",
+                    "key": "Transmitted to Second House",
+                    "step": "Second chamber",
+                    "label": "Transmitted",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -57980,9 +58042,9 @@
                 "title": "Generally revise laws related to alcohol",
                 "chamber": "senate",
                 "status": {
-                    "key": "In First House--Through 3rd Reading",
-                    "step": "First chamber",
-                    "label": "Passed chamber",
+                    "key": "Transmitted to Second House",
+                    "step": "Second chamber",
+                    "label": "Transmitted",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -58600,9 +58662,9 @@
                 "title": "Provide for preservation of prescriptive easements on land acquired by state",
                 "chamber": "senate",
                 "status": {
-                    "key": "In First House--Through 3rd Reading",
-                    "step": "First chamber",
-                    "label": "Passed chamber",
+                    "key": "Transmitted to Second House",
+                    "step": "Second chamber",
+                    "label": "Transmitted",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -59582,9 +59644,9 @@
                 "title": "Generally revise laws related to Montana national guard benefits and rights",
                 "chamber": "senate",
                 "status": {
-                    "key": "In First House--Through 3rd Reading",
-                    "step": "First chamber",
-                    "label": "Passed chamber",
+                    "key": "Transmitted to Second House",
+                    "step": "Second chamber",
+                    "label": "Transmitted",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -62865,9 +62927,9 @@
                 "title": "Require ballot for bond election to estimate additional taxes for residence",
                 "chamber": "senate",
                 "status": {
-                    "key": "In First House--Through 3rd Reading",
-                    "step": "First chamber",
-                    "label": "Passed chamber",
+                    "key": "Transmitted to Second House",
+                    "step": "Second chamber",
+                    "label": "Transmitted",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -66211,9 +66273,9 @@
                 "title": "Require notice of parent legal rights in child protective services cases",
                 "chamber": "senate",
                 "status": {
-                    "key": "In First House--Through 3rd Reading",
-                    "step": "First chamber",
-                    "label": "Passed chamber",
+                    "key": "Transmitted to Second House",
+                    "step": "Second chamber",
+                    "label": "Transmitted",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -67857,9 +67919,9 @@
                 "title": "Allow for administrative minor subdivision process",
                 "chamber": "senate",
                 "status": {
-                    "key": "In First House--Through 3rd Reading",
-                    "step": "First chamber",
-                    "label": "Passed chamber",
+                    "key": "Transmitted to Second House",
+                    "step": "Second chamber",
+                    "label": "Transmitted",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -69749,9 +69811,9 @@
                 "title": "Generally review gambling laws related to parimutuel wagering",
                 "chamber": "senate",
                 "status": {
-                    "key": "In First House--Through 3rd Reading",
-                    "step": "First chamber",
-                    "label": "Passed chamber",
+                    "key": "Transmitted to Second House",
+                    "step": "Second chamber",
+                    "label": "Transmitted",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -73853,6 +73915,68 @@
                     }
                 ],
                 "textUrl": "http://leg.mt.gov/bills/2023/billpdf/SB0147.pdf",
+                "fiscalNoteUrl": null,
+                "legalNoteUrl": null,
+                "numArticles": 0,
+                "sponsor": {
+                    "name": "Chris Pope",
+                    "lastName": "Pope",
+                    "party": "D",
+                    "locale": "Bozeman",
+                    "district": "SD 31"
+                }
+            },
+            {
+                "key": "sb-255",
+                "identifier": "SB 255",
+                "title": "Revising electric vehicle charging station laws",
+                "chamber": "senate",
+                "status": {
+                    "key": "In First House--Introduced",
+                    "step": "First chamber",
+                    "label": "Introduced",
+                    "status": "live",
+                    "statusAtSessionEnd": "failed"
+                },
+                "progress": [
+                    {
+                        "step": "introduced",
+                        "status": "passed",
+                        "statusLabel": "Introduced",
+                        "statusDate": "02/01/2023"
+                    },
+                    {
+                        "step": "first committee",
+                        "status": "current",
+                        "statusLabel": "Pending",
+                        "statusDate": null
+                    },
+                    {
+                        "step": "first chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "second chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "reconciliation",
+                        "status": "skipped",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "governor",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    }
+                ],
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC2357.pdf",
                 "fiscalNoteUrl": null,
                 "legalNoteUrl": null,
                 "numArticles": 0,
