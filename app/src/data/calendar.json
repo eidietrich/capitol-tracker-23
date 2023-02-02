@@ -12,8 +12,10 @@
     ],
     "billsOnCalendar": [
         "HB 2",
+        "HB 19",
         "HB 42",
         "HB 51",
+        "HB 52",
         "HB 66",
         "HB 76",
         "HB 79",
@@ -90,6 +92,7 @@
         "SB 222",
         "SB 223",
         "SB 224",
+        "SB 228",
         "SB 229",
         "SB 230",
         "SB 231",
@@ -226,6 +229,19 @@
             "hearing": true
         },
         {
+            "id": "HB19-0033",
+            "bill": "HB 19",
+            "date": "02/07/2023",
+            "description": "Hearing",
+            "posession": "senate",
+            "committee": "Senate Energy and Telecommunications",
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
             "id": "HB42-0026",
             "bill": "HB 42",
             "date": "02/02/2023",
@@ -245,6 +261,19 @@
             "description": "Hearing",
             "posession": "senate",
             "committee": "Senate Agriculture, Livestock and Irrigation",
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
+            "id": "HB52-0030",
+            "bill": "HB 52",
+            "date": "02/07/2023",
+            "description": "Hearing",
+            "posession": "senate",
+            "committee": "Senate Energy and Telecommunications",
             "actionUrl": null,
             "recordings": [],
             "key": "Hearing",
@@ -1266,6 +1295,19 @@
             "hearing": true
         },
         {
+            "id": "SB228-0021",
+            "bill": "SB 228",
+            "date": "02/07/2023",
+            "description": "Hearing",
+            "posession": "senate",
+            "committee": "Senate Energy and Telecommunications",
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
             "id": "SB229-0019",
             "bill": "SB 229",
             "date": "02/03/2023",
@@ -1908,7 +1950,7 @@
             "scheduledForFloorDebate": true
         },
         {
-            "id": "SB164-0026",
+            "id": "SB164-0025",
             "bill": "SB 164",
             "date": "02/02/2023",
             "description": "Scheduled for 2nd Reading",
@@ -2366,7 +2408,7 @@
             "scheduledForFinalVote": true
         },
         {
-            "id": "SB164-0028",
+            "id": "SB164-0027",
             "bill": "SB 164",
             "date": "02/03/2023",
             "description": "Scheduled for 3rd Reading",

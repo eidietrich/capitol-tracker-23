@@ -4991,13 +4991,23 @@
         ],
         "billCount": 8,
         "billsUnscheduled": [
-            "HB 19",
-            "HB 52",
-            "SB 228",
             "SB 242"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduled": [
+            "HB 19",
+            "HB 52",
+            "SB 228"
+        ],
+        "billsScheduledByDay": [
+            {
+                "day": "02/07/2023",
+                "bills": [
+                    "HB 19",
+                    "HB 52",
+                    "SB 228"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "HB 170",
             "SB 109",
