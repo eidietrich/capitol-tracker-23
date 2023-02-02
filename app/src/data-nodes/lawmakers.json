@@ -41127,6 +41127,68 @@
                     "locale": "Colstrip",
                     "district": "HD 39"
                 }
+            },
+            {
+                "key": "hb-290",
+                "identifier": "HB 290",
+                "title": "Revise laws related to membership of wetlands protection advisory council",
+                "chamber": "house",
+                "status": {
+                    "key": "In First House--Through 3rd Reading",
+                    "step": "First chamber",
+                    "label": "Passed chamber",
+                    "status": "live",
+                    "statusAtSessionEnd": "failed"
+                },
+                "progress": [
+                    {
+                        "step": "introduced",
+                        "status": "passed",
+                        "statusLabel": "Introduced",
+                        "statusDate": "01/18/2023"
+                    },
+                    {
+                        "step": "first committee",
+                        "status": "passed",
+                        "statusLabel": "Advanced",
+                        "statusDate": "01/26/2023"
+                    },
+                    {
+                        "step": "first chamber",
+                        "status": "passed",
+                        "statusLabel": "Passed House",
+                        "statusDate": "02/01/2023"
+                    },
+                    {
+                        "step": "second chamber",
+                        "status": "current",
+                        "statusLabel": "Pending",
+                        "statusDate": null
+                    },
+                    {
+                        "step": "reconciliation",
+                        "status": "skipped",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "governor",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    }
+                ],
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0290.pdf",
+                "fiscalNoteUrl": null,
+                "legalNoteUrl": null,
+                "numArticles": 0,
+                "sponsor": {
+                    "name": "Gary Parry",
+                    "lastName": "Parry",
+                    "party": "R",
+                    "locale": "Colstrip",
+                    "district": "HD 39"
+                }
             }
         ],
         "votingSummary": {
@@ -41676,68 +41738,6 @@
                     }
                 ],
                 "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0237.pdf",
-                "fiscalNoteUrl": null,
-                "legalNoteUrl": null,
-                "numArticles": 0,
-                "sponsor": {
-                    "name": "Bob Phalen",
-                    "lastName": "Phalen",
-                    "party": "R",
-                    "locale": "Lindsay",
-                    "district": "HD 36"
-                }
-            },
-            {
-                "key": "hb-290",
-                "identifier": "HB 290",
-                "title": "Revise laws related to membership of wetlands protection advisory council",
-                "chamber": "house",
-                "status": {
-                    "key": "In First House--Through 3rd Reading",
-                    "step": "First chamber",
-                    "label": "Passed chamber",
-                    "status": "live",
-                    "statusAtSessionEnd": "failed"
-                },
-                "progress": [
-                    {
-                        "step": "introduced",
-                        "status": "passed",
-                        "statusLabel": "Introduced",
-                        "statusDate": "01/18/2023"
-                    },
-                    {
-                        "step": "first committee",
-                        "status": "passed",
-                        "statusLabel": "Advanced",
-                        "statusDate": "01/26/2023"
-                    },
-                    {
-                        "step": "first chamber",
-                        "status": "passed",
-                        "statusLabel": "Passed House",
-                        "statusDate": "02/01/2023"
-                    },
-                    {
-                        "step": "second chamber",
-                        "status": "current",
-                        "statusLabel": "Pending",
-                        "statusDate": null
-                    },
-                    {
-                        "step": "reconciliation",
-                        "status": "skipped",
-                        "statusLabel": null,
-                        "statusDate": null
-                    },
-                    {
-                        "step": "governor",
-                        "status": "future",
-                        "statusLabel": null,
-                        "statusDate": null
-                    }
-                ],
-                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0290.pdf",
                 "fiscalNoteUrl": null,
                 "legalNoteUrl": null,
                 "numArticles": 0,
