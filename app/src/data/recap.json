@@ -276,23 +276,6 @@
                     "explanation": null
                 },
                 {
-                    "id": "HB169-0030",
-                    "bill": "HB 169",
-                    "date": "02/02/2023",
-                    "description": "Committee Executive Action--Bill Concurred",
-                    "posession": "senate",
-                    "committee": "Senate Judiciary",
-                    "actionUrl": null,
-                    "recordings": [],
-                    "key": "Committee Executive Action--Bill Concurred",
-                    "isMajor": true,
-                    "isHighlight": true,
-                    "committeeAction": true,
-                    "advanced": true,
-                    "title": "Clarify confirmation requirements for interim judicial appointees",
-                    "explanation": null
-                },
-                {
                     "id": "HB171-0035",
                     "bill": "HB 171",
                     "date": "02/02/2023",
@@ -308,6 +291,77 @@
                     "advanced": true,
                     "finalPassage": true,
                     "title": "Revise education laws related to residential treatment facilities"
+                },
+                {
+                    "id": "HB192-0040",
+                    "bill": "HB 192",
+                    "date": "02/02/2023",
+                    "description": "3rd Reading Passed",
+                    "posession": "house",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "3rd Reading Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "firstChamberFloorAction": true,
+                    "advanced": true,
+                    "finalPassage": true,
+                    "title": "Use surplus revenue for income tax and property tax refunds and payment of bonds",
+                    "explanation": "Would put a portion of the state budget surplus to income tax rebates."
+                },
+                {
+                    "id": "HB212-0049",
+                    "bill": "HB 212",
+                    "date": "02/02/2023",
+                    "description": "3rd Reading Passed",
+                    "posession": "house",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "3rd Reading Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "firstChamberFloorAction": true,
+                    "advanced": true,
+                    "finalPassage": true,
+                    "title": "Increase business equipment tax exemption",
+                    "explanation": "Raises threshold for tax-exempt business property from $300,000 to $1 million."
+                },
+                {
+                    "id": "HB221-0039",
+                    "bill": "HB 221",
+                    "date": "02/02/2023",
+                    "description": "3rd Reading Passed",
+                    "posession": "house",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "3rd Reading Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "firstChamberFloorAction": true,
+                    "advanced": true,
+                    "finalPassage": true,
+                    "title": "Revise income tax rates for net-long term capital gains"
+                },
+                {
+                    "id": "HB222-0044",
+                    "bill": "HB 222",
+                    "date": "02/02/2023",
+                    "description": "3rd Reading Passed",
+                    "posession": "house",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "3rd Reading Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "firstChamberFloorAction": true,
+                    "advanced": true,
+                    "finalPassage": true,
+                    "title": "Provide rebates of property taxes paid on a principal residence",
+                    "explanation": "Would use a portion of the state budget surplus for short-term property tax rebates."
                 },
                 {
                     "id": "HB232-0029",
@@ -360,6 +414,23 @@
                     "title": "Revise alcohol laws relating to server training"
                 },
                 {
+                    "id": "HB255-0033",
+                    "bill": "HB 255",
+                    "date": "02/02/2023",
+                    "description": "3rd Reading Passed",
+                    "posession": "house",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "3rd Reading Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "firstChamberFloorAction": true,
+                    "advanced": true,
+                    "finalPassage": true,
+                    "title": "Generally revise catalytic converter sale laws"
+                },
+                {
                     "id": "HB257-0024",
                     "bill": "HB 257",
                     "date": "02/02/2023",
@@ -390,6 +461,23 @@
                     "firstChamberFloorAction": true,
                     "preliminaryPassage": true,
                     "title": "Revise insurance coverage for prescription eyedrop refills"
+                },
+                {
+                    "id": "HB267-0037",
+                    "bill": "HB 267",
+                    "date": "02/02/2023",
+                    "description": "3rd Reading Passed",
+                    "posession": "house",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "3rd Reading Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "firstChamberFloorAction": true,
+                    "advanced": true,
+                    "finalPassage": true,
+                    "title": "Create SAFER account for federal highway grants"
                 },
                 {
                     "id": "HB279-0019",
@@ -609,7 +697,7 @@
                     "explanation": null
                 },
                 {
-                    "id": "SB34-0035",
+                    "id": "SB34-0034",
                     "bill": "SB 34",
                     "date": "02/02/2023",
                     "description": "2nd Reading House Amendments Concurred",
@@ -1280,7 +1368,9 @@
                     "posession": "house",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46116?agendaId=250023"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -1314,7 +1404,9 @@
                     "posession": "house",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46116?agendaId=250024"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -1365,7 +1457,9 @@
                     "posession": "house",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46116?agendaId=250025"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -1381,7 +1475,9 @@
                     "posession": "house",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46116?agendaId=250026"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -1553,7 +1649,9 @@
                     "posession": "house",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46116?agendaId=250028"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -2801,7 +2899,9 @@
                     "posession": "house",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46115?agendaId=249800"
+                    ],
                     "key": "2nd Reading Passed as Amended",
                     "isMajor": true,
                     "isHighlight": true,
@@ -3017,7 +3117,7 @@
                     "title": "Revise laws related to fentanyl test strips"
                 },
                 {
-                    "id": "SB34-0031",
+                    "id": "SB34-0030",
                     "bill": "SB 34",
                     "date": "01/31/2023",
                     "description": "3rd Reading Concurred",
@@ -3042,7 +3142,9 @@
                     "posession": "senate",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46202?agendaId=249819"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -3296,7 +3398,9 @@
                     "posession": "senate",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46202?agendaId=249823"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -3329,7 +3433,9 @@
                     "posession": "senate",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46202?agendaId=249824"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -3801,7 +3907,7 @@
                     "title": "Repeal Montana Ballot Interference Prevention Act"
                 },
                 {
-                    "id": "SB34-0029",
+                    "id": "SB34-0028",
                     "bill": "SB 34",
                     "date": "01/30/2023",
                     "description": "2nd Reading Concurred",
@@ -4177,7 +4283,9 @@
                     "posession": "senate",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46201?agendaId=249522"
+                    ],
                     "key": "2nd Reading Passed as Amended",
                     "isMajor": true,
                     "isHighlight": true,
@@ -5062,24 +5170,6 @@
                     "committeeAction": true,
                     "advanced": true,
                     "title": "Join Interstate Mining Compact Commission"
-                },
-                {
-                    "id": "SB57-0021",
-                    "bill": "SB 57",
-                    "date": "01/27/2023",
-                    "description": "Committee Executive Action--Bill Passed as Amended",
-                    "posession": "senate",
-                    "committee": "Senate Highways and Transportation",
-                    "actionUrl": null,
-                    "recordings": [],
-                    "key": "Committee Executive Action--Bill Passed as Amended",
-                    "isMajor": true,
-                    "isHighlight": true,
-                    "committeeAction": true,
-                    "advanced": true,
-                    "amended": true,
-                    "title": "Allow department of transportation to use alternative project delivery methods",
-                    "explanation": null
                 },
                 {
                     "id": "SB59-0021",
@@ -6612,6 +6702,24 @@
                     "advanced": true,
                     "finalPassage": true,
                     "title": "Revise laws related to weights and measures",
+                    "explanation": null
+                },
+                {
+                    "id": "SB57-0021",
+                    "bill": "SB 57",
+                    "date": "01/26/2023",
+                    "description": "Committee Executive Action--Bill Passed as Amended",
+                    "posession": "senate",
+                    "committee": "Senate Highways and Transportation",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed as Amended",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "amended": true,
+                    "title": "Allow department of transportation to use alternative project delivery methods",
                     "explanation": null
                 },
                 {
@@ -9469,7 +9577,7 @@
                     "title": "Repeal Clean Campaign Act"
                 },
                 {
-                    "id": "SB34-0025",
+                    "id": "SB34-0024",
                     "bill": "SB 34",
                     "date": "01/24/2023",
                     "description": "Committee Executive Action--Bill Concurred as Amended",
@@ -16219,7 +16327,7 @@
                     "title": "Increase and Extend the PERS Supplemental Employer Contribution"
                 },
                 {
-                    "id": "SB34-0020",
+                    "id": "SB34-0019",
                     "bill": "SB 34",
                     "date": "01/16/2023",
                     "description": "3rd Reading Passed",

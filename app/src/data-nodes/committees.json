@@ -53,6 +53,7 @@
             "HB 221",
             "HB 222",
             "HB 223",
+            "HB 243",
             "HB 244",
             "HB 245",
             "HB 251",
@@ -65,7 +66,7 @@
             "HB 367",
             "HB 375"
         ],
-        "billCount": 58,
+        "billCount": 59,
         "billsUnscheduled": [
             "HB 2",
             "HB 5",
@@ -75,7 +76,8 @@
             "HB 9",
             "HB 10",
             "HB 11",
-            "HB 12"
+            "HB 12",
+            "HB 243"
         ],
         "billsScheduled": [
             "HB 219",
@@ -5787,8 +5789,17 @@
         ],
         "billCount": 1,
         "billsUnscheduled": [],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduled": [
+            "HB 2"
+        ],
+        "billsScheduledByDay": [
+            {
+                "day": "02/03/2023",
+                "bills": [
+                    "HB 2"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "HB 2"
         ],
@@ -5915,8 +5926,17 @@
         ],
         "billCount": 1,
         "billsUnscheduled": [],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduled": [
+            "HB 2"
+        ],
+        "billsScheduledByDay": [
+            {
+                "day": "02/03/2023",
+                "bills": [
+                    "HB 2"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "HB 2"
         ],
@@ -5985,6 +6005,12 @@
         "billsScheduledByDay": [
             {
                 "day": "02/02/2023",
+                "bills": [
+                    "HB 2"
+                ]
+            },
+            {
+                "day": "02/03/2023",
                 "bills": [
                     "HB 2"
                 ]
