@@ -194,9 +194,9 @@ const History = ({ name, history }) => {
 }
 
 export const Head = ({ pageContext }) => {
-  const { title, name, district, key } = pageContext.lawmaker
+  const { title, name, party, locale, district, key } = pageContext.lawmaker
   return <Seo
-    title={`${name}`}
+    title={`${title} ${name}, ${party}-${locale}`}
     description={`Election history, sponsored bills, committee assignments and more for ${title} ${name}, ${district}.`}
     pageRelativeUrl={`lawmakers/${key}/`}
   />
