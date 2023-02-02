@@ -62060,11 +62060,11 @@
                 "title": "Joint resolution on redistricting",
                 "chamber": "senate",
                 "status": {
-                    "key": "Passed By Legislature--Enrolling and Final Preparation Process",
-                    "step": "Through Legislature",
-                    "label": "Passed both chambers",
-                    "status": "live",
-                    "statusAtSessionEnd": "pending, passed legislature"
+                    "key": "Became Law",
+                    "label": "",
+                    "step": "Passed",
+                    "status": "became-law",
+                    "statusAtSessionEnd": "became law"
                 },
                 "progress": [
                     {
@@ -64281,11 +64281,11 @@
                 "title": "Senate Joint Resolution on the joint rules",
                 "chamber": "senate",
                 "status": {
-                    "key": "Passed By Legislature--Enrolling and Final Preparation Process",
-                    "step": "Through Legislature",
-                    "label": "Passed both chambers",
-                    "status": "live",
-                    "statusAtSessionEnd": "pending, passed legislature"
+                    "key": "Became Law",
+                    "label": "",
+                    "step": "Passed",
+                    "status": "became-law",
+                    "statusAtSessionEnd": "became law"
                 },
                 "progress": [
                     {
@@ -66780,7 +66780,7 @@
                         "statusDate": null
                     }
                 ],
-                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC1038.pdf",
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/SB0256.pdf",
                 "fiscalNoteUrl": null,
                 "legalNoteUrl": null,
                 "numArticles": 0,
@@ -81419,6 +81419,68 @@
                 }
             },
             {
+                "key": "sb-260",
+                "identifier": "SB 260",
+                "title": "Revise insurance unfair trade practices act relating to certain insurers",
+                "chamber": "senate",
+                "status": {
+                    "key": "In First House--Introduced",
+                    "step": "First chamber",
+                    "label": "Introduced",
+                    "status": "live",
+                    "statusAtSessionEnd": "failed"
+                },
+                "progress": [
+                    {
+                        "step": "introduced",
+                        "status": "passed",
+                        "statusLabel": "Introduced",
+                        "statusDate": "02/02/2023"
+                    },
+                    {
+                        "step": "first committee",
+                        "status": "current",
+                        "statusLabel": "Pending",
+                        "statusDate": null
+                    },
+                    {
+                        "step": "first chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "second chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "reconciliation",
+                        "status": "skipped",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "governor",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    }
+                ],
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC4327.pdf",
+                "fiscalNoteUrl": null,
+                "legalNoteUrl": null,
+                "numArticles": 0,
+                "sponsor": {
+                    "name": "Dan Salomon",
+                    "lastName": "Salomon",
+                    "party": "R",
+                    "locale": "Ronan",
+                    "district": "SD 47"
+                }
+            },
+            {
                 "key": "sr-31",
                 "identifier": "SR 31",
                 "title": "Confirm governor's appointees for historical society board of trustees",
@@ -84727,7 +84789,7 @@
                         "statusDate": null
                     }
                 ],
-                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC0091.pdf",
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/SB0257.pdf",
                 "fiscalNoteUrl": null,
                 "legalNoteUrl": null,
                 "numArticles": 0,
