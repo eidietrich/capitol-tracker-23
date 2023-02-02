@@ -4000,16 +4000,22 @@
         "billsUnscheduled": [
             "HB 79",
             "SB 9",
-            "SB 235",
             "SR 31",
             "SR 47"
         ],
         "billsScheduled": [
             "SB 141",
+            "SB 235",
             "SR 32",
             "SR 33"
         ],
         "billsScheduledByDay": [
+            {
+                "day": "02/06/2023",
+                "bills": [
+                    "SB 235"
+                ]
+            },
             {
                 "day": "02/08/2023",
                 "bills": [
