@@ -1826,11 +1826,18 @@
             "HB 374"
         ],
         "billCount": 19,
-        "billsUnscheduled": [
+        "billsUnscheduled": [],
+        "billsScheduled": [
             "HB 374"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduledByDay": [
+            {
+                "day": "02/06/2023",
+                "bills": [
+                    "HB 374"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "HB 46",
             "HB 55",
