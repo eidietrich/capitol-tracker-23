@@ -2001,7 +2001,6 @@
         ],
         "billsAwaitingVote": [
             "HB 259",
-            "HB 287",
             "HB 332",
             "HB 334",
             "HB 352"
@@ -2021,6 +2020,7 @@
             "HB 231",
             "HB 240",
             "HB 257",
+            "HB 287",
             "HB 344"
         ],
         "billsBlasted": [],
@@ -2624,17 +2624,16 @@
             "SB 103"
         ],
         "billCount": 25,
-        "billsUnscheduled": [
+        "billsUnscheduled": [],
+        "billsScheduled": [
+            "HB 291",
+            "HB 295",
+            "HB 299",
             "HB 323",
             "HB 324",
             "HB 328",
             "HB 360",
             "HB 369"
-        ],
-        "billsScheduled": [
-            "HB 291",
-            "HB 295",
-            "HB 299"
         ],
         "billsScheduledByDay": [
             {
@@ -2647,7 +2646,17 @@
             {
                 "day": "02/07/2023",
                 "bills": [
-                    "HB 291"
+                    "HB 291",
+                    "HB 323",
+                    "HB 328"
+                ]
+            },
+            {
+                "day": "02/09/2023",
+                "bills": [
+                    "HB 324",
+                    "HB 360",
+                    "HB 369"
                 ]
             }
         ],
