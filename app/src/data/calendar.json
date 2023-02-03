@@ -95,6 +95,7 @@
         "SR 44",
         "SR 46",
         "SR 48",
+        "HB 59",
         "HB 30",
         "HB 39",
         "HB 43",
@@ -1238,7 +1239,20 @@
             "hearing": true
         }
     ],
-    "scheduledFloorDebates": [],
+    "scheduledFloorDebates": [
+        {
+            "id": "HB59-0035",
+            "bill": "HB 59",
+            "date": "02/03/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        }
+    ],
     "scheduledFinalVotes": [
         {
             "id": "HB30-0045",
