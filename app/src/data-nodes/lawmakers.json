@@ -395,7 +395,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -1184,7 +1184,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -1909,7 +1909,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -2448,7 +2448,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -3822,7 +3822,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -4490,7 +4490,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -5418,7 +5418,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -6037,7 +6037,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -6639,7 +6639,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -7418,7 +7418,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -8705,7 +8705,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -9165,7 +9165,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -11094,7 +11094,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -11644,7 +11644,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -12723,7 +12723,7 @@
                     "voteChamber": "house",
                     "voteUrl": "http://laws.leg.mt.gov/legprd/LAW0211W$BLAC.VoteTabulation?P_VOTE_SEQ=H452&P_SESS=20231",
                     "session": "20231",
-                    "motion": "Do Pass",
+                    "motion": "Rep. Stafman made a Motion that HB0017.001.001 Be Amended",
                     "thresholdRequired": "simple",
                     "count": {
                         "Y": 70,
@@ -12732,7 +12732,7 @@
                         "A": 1
                     },
                     "gopCount": {
-                        "Y": 68,
+                        "Y": 14,
                         "N": 0,
                         "A": 0,
                         "E": 0,
@@ -12747,7 +12747,7 @@
                     },
                     "motionPassed": true,
                     "gopSupported": true,
-                    "demSupported": false
+                    "demSupported": true
                 }
             },
             {
@@ -12770,8 +12770,8 @@
                         "A": 1
                     },
                     "gopCount": {
-                        "Y": 67,
-                        "N": 1,
+                        "Y": 64,
+                        "N": 3,
                         "A": 0,
                         "E": 0,
                         "O": 0
@@ -12785,7 +12785,7 @@
                     },
                     "motionPassed": true,
                     "gopSupported": true,
-                    "demSupported": false
+                    "demSupported": true
                 }
             },
             {
@@ -12897,38 +12897,8 @@
                     },
                     "motionPassed": true,
                     "gopSupported": true,
-                    "demSupported": false
+                    "demSupported": true
                 }
-            }
-        ]
-    },
-    {
-        "key": "Bob-Carter",
-        "name": "Bob Carter",
-        "lastName": "Carter",
-        "locale": "Missoula",
-        "isActive": true,
-        "district": "HD 98",
-        "districtElexHistory": {
-            "last_election": "2022",
-            "pri_elex": {
-                "leg": [
-                    {
-                        "name": "BOB CARTER",
-                        "party": "D",
-                        "votes": 994
-                    },
-                    {
-                        "name": "SONIA SHEARER-HIETT",
-                        "party": "R",
-                        "votes": 983
-                    },
-                    {
-                        "name": "ANDY NELSON",
-                        "party": "D",
-                        "votes": 738
-                    }
-                ]
             },
             "gen_elex": {
                 "gov": [
@@ -13274,7 +13244,7 @@
                 }
             },
             {
-                "lawmakerVote": "N",
+                "lawmakerVote": "Y",
                 "voteData": {
                     "action": "HB212-0049",
                     "bill": "HB 212",
@@ -13312,7 +13282,7 @@
                 }
             },
             {
-                "lawmakerVote": "N",
+                "lawmakerVote": "Y",
                 "voteData": {
                     "action": "HB222-0044",
                     "bill": "HB 222",
@@ -13342,6 +13312,51 @@
                         "N": 30,
                         "A": 1,
                         "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 31,
+                        "A": 1,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "E",
+                "voteData": {
+                    "action": "HB251-0042",
+                    "bill": "HB 251",
+                    "date": "02/03/2023",
+                    "type": "floor",
+                    "seqNumber": "H469",
+                    "voteChamber": "house",
+                    "voteUrl": "http://laws.leg.mt.gov/legprd/LAW0211W$BLAC.VoteTabulation?P_VOTE_SEQ=H469&P_SESS=20231",
+                    "session": "20231",
+                    "motion": "Do Pass",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 70,
+                        "N": 25,
+                        "E": 3,
+                        "A": 2
+                    },
+                    "gopCount": {
+                        "Y": 65,
+                        "N": 0,
+                        "A": 2,
+                        "E": 1,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 5,
+                        "N": 25,
+                        "A": 0,
+                        "E": 2,
                         "O": 0
                     },
                     "motionPassed": true,
@@ -13738,7 +13753,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -14214,7 +14229,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -15114,7 +15129,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -15881,7 +15896,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -16538,7 +16553,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -17295,7 +17310,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -17978,7 +17993,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -18782,7 +18797,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -18804,7 +18819,7 @@
                 }
             },
             {
-                "lawmakerVote": "Y",
+                "lawmakerVote": "N",
                 "voteData": {
                     "action": "HB192-0040",
                     "bill": "HB 192",
@@ -18842,7 +18857,7 @@
                 }
             },
             {
-                "lawmakerVote": "N",
+                "lawmakerVote": "Y",
                 "voteData": {
                     "action": "HB212-0049",
                     "bill": "HB 212",
@@ -18899,10 +18914,10 @@
                         "A": 1
                     },
                     "gopCount": {
-                        "Y": 68,
+                        "Y": 65,
                         "N": 0,
-                        "A": 0,
-                        "E": 0,
+                        "A": 2,
+                        "E": 1,
                         "O": 0
                     },
                     "demCount": {
@@ -19261,7 +19276,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -20193,7 +20208,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -20888,7 +20903,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -22124,7 +22139,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -22827,7 +22842,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -23664,7 +23679,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -24273,7 +24288,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -25188,7 +25203,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -25775,7 +25790,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -27124,7 +27139,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -27616,7 +27631,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -28895,7 +28910,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -29605,7 +29620,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -30324,7 +30339,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -31439,7 +31454,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -32098,7 +32113,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -33073,7 +33088,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -33769,7 +33784,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -34866,7 +34881,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -35410,7 +35425,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -36763,7 +36778,7 @@
                 "status": {
                     "key": "In First House Committee--Nontabled",
                     "step": "First chamber",
-                    "label": "In committee",
+                    "label": "Out of committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -37032,7 +37047,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -38106,7 +38121,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -38768,7 +38783,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -39302,7 +39317,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -39929,7 +39944,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -40692,7 +40707,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -41648,7 +41663,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -42730,7 +42745,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -44291,7 +44306,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -44695,7 +44710,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -45980,7 +45995,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -46571,7 +46586,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -47325,7 +47340,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -48249,7 +48264,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -48762,7 +48777,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -49385,7 +49400,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -50147,7 +50162,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -51037,7 +51052,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -51694,7 +51709,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -53027,7 +53042,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -53876,7 +53891,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -54525,7 +54540,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -55130,7 +55145,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -55599,7 +55614,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -56748,7 +56763,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -57613,7 +57628,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -58270,7 +58285,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -59711,7 +59726,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -60851,7 +60866,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -61581,7 +61596,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -63068,7 +63083,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -63685,7 +63700,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -64143,6 +64158,112 @@
                 "title": "Create a mini-COBRA law for small employer health insurance plans",
                 "chamber": "house",
                 "status": {
+                    "key": "Transmitted to Second House",
+                    "step": "Second chamber",
+                    "label": "Transmitted",
+                    "status": "live",
+                    "statusAtSessionEnd": "failed"
+                },
+                "progress": [
+                    {
+                        "step": "introduced",
+                        "status": "passed",
+                        "statusLabel": "Introduced",
+                        "statusDate": "02/02/2023"
+                    },
+                    {
+                        "step": "first committee",
+                        "status": "current",
+                        "statusLabel": "Pending",
+                        "statusDate": null
+                    },
+                    {
+                        "step": "first chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    }
+                ],
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0240.pdf",
+                "fiscalNoteUrl": null,
+                "legalNoteUrl": null,
+                "numArticles": 0,
+                "sponsor": {
+                    "name": "Mark Thane",
+                    "lastName": "Thane",
+                    "party": "D",
+                    "locale": "Missoula",
+                    "district": "HD 99"
+                }
+            },
+            {
+                "key": "hb-344",
+                "identifier": "HB 344",
+                "title": "Require new school buses to be equipped with lap-shoulder belts",
+                "chamber": "house",
+                "status": {
+                    "key": "In First House--Out of Committee",
+                    "step": "First chamber",
+                    "label": "Out of committee",
+                    "status": "live",
+                    "statusAtSessionEnd": "failed"
+                },
+                "progress": [
+                    {
+                        "step": "introduced",
+                        "status": "passed",
+                        "statusLabel": "Introduced",
+                        "statusDate": "01/26/2023"
+                    },
+                    {
+                        "step": "first committee",
+                        "status": "passed",
+                        "statusLabel": "Advanced",
+                        "statusDate": "02/01/2023"
+                    },
+                    {
+                        "step": "first chamber",
+                        "status": "current",
+                        "statusLabel": "Pending",
+                        "statusDate": null
+                    },
+                    {
+                        "step": "second chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "reconciliation",
+                        "status": "skipped",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "governor",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    }
+                ],
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0389.pdf",
+                "fiscalNoteUrl": null,
+                "legalNoteUrl": null,
+                "numArticles": 0,
+                "sponsor": {
+                    "name": "Mark Thane",
+                    "lastName": "Thane",
+                    "party": "D",
+                    "locale": "Missoula",
+                    "district": "HD 99"
+                }
+            },
+            {
+                "key": "hb-389",
+                "identifier": "HB 389",
+                "title": "Create a mini-COBRA law for small employer health insurance plans",
+                "chamber": "house",
+                "status": {
                     "key": "In First House Committee--Nontabled",
                     "step": "First chamber",
                     "label": "In committee",
@@ -64336,7 +64457,7 @@
                 }
             },
             {
-                "lawmakerVote": "N",
+                "lawmakerVote": "Y",
                 "voteData": {
                     "action": "HB172-0034",
                     "bill": "HB 172",
@@ -64352,7 +64473,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -65743,7 +65864,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -66656,7 +66777,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -67129,7 +67250,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -68182,7 +68303,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -69515,7 +69636,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -70184,7 +70305,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -70729,7 +70850,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -71569,7 +71690,7 @@
                         "Y": 81,
                         "N": 19,
                         "E": 0,
-                        "A": 0
+                        "A": 1
                     },
                     "gopCount": {
                         "Y": 65,
@@ -76312,6 +76433,68 @@
                         "status": "blocked",
                         "statusLabel": "Withdrawn",
                         "statusDate": "01/26/2023"
+                    },
+                    {
+                        "step": "first chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "second chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "reconciliation",
+                        "status": "skipped",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "governor",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    }
+                ],
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/SB0192.pdf",
+                "fiscalNoteUrl": null,
+                "legalNoteUrl": null,
+                "numArticles": 0,
+                "sponsor": {
+                    "name": "Mary Ann Dunwell",
+                    "lastName": "Dunwell",
+                    "party": "D",
+                    "locale": "Helena",
+                    "district": "SD 42"
+                }
+            },
+            {
+                "key": "sb-193",
+                "identifier": "SB 193",
+                "title": "Require legal review notes be provided to the legislature and the public",
+                "chamber": "senate",
+                "status": {
+                    "key": "In First House Committee--Nontabled",
+                    "step": "First chamber",
+                    "label": "In committee",
+                    "status": "live",
+                    "statusAtSessionEnd": "failed"
+                },
+                "progress": [
+                    {
+                        "step": "introduced",
+                        "status": "passed",
+                        "statusLabel": "Introduced",
+                        "statusDate": "01/18/2023"
+                    },
+                    {
+                        "step": "first committee",
+                        "status": "current",
+                        "statusLabel": "Pending",
+                        "statusDate": null
                     },
                     {
                         "step": "first chamber",
@@ -85486,9 +85669,9 @@
                 "title": "Require Montana to provide funding for enforcement of PL280",
                 "chamber": "senate",
                 "status": {
-                    "key": "In First House Committee--Nontabled",
+                    "key": "In First House--Out of Committee",
                     "step": "First chamber",
-                    "label": "In committee",
+                    "label": "Out of committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -85879,9 +86062,9 @@
                     },
                     {
                         "step": "first chamber",
-                        "status": "current",
-                        "statusLabel": "Pending",
-                        "statusDate": null
+                        "status": "blocked",
+                        "statusLabel": "Voted down",
+                        "statusDate": "02/02/2023"
                     },
                     {
                         "step": "second chamber",
@@ -85997,14 +86180,14 @@
                     },
                     {
                         "step": "first committee",
-                        "status": "current",
-                        "statusLabel": "Pending",
-                        "statusDate": null
+                        "status": "passed",
+                        "statusLabel": "Advanced",
+                        "statusDate": "02/03/2023"
                     },
                     {
                         "step": "first chamber",
-                        "status": "future",
-                        "statusLabel": null,
+                        "status": "current",
+                        "statusLabel": "Pending",
                         "statusDate": null
                     },
                     {
@@ -86044,9 +86227,9 @@
                 "title": "Require court report on district court case numbers and substitutions",
                 "chamber": "senate",
                 "status": {
-                    "key": "In First House Committee--Nontabled",
+                    "key": "In First House--Out of Committee",
                     "step": "First chamber",
-                    "label": "In committee",
+                    "label": "Out of committee",
                     "status": "live",
                     "statusAtSessionEnd": "failed"
                 },
@@ -86059,14 +86242,14 @@
                     },
                     {
                         "step": "first committee",
-                        "status": "current",
-                        "statusLabel": "Pending",
-                        "statusDate": null
+                        "status": "passed",
+                        "statusLabel": "Advanced",
+                        "statusDate": "02/01/2023"
                     },
                     {
                         "step": "first chamber",
-                        "status": "future",
-                        "statusLabel": null,
+                        "status": "current",
+                        "statusLabel": "Pending",
                         "statusDate": null
                     },
                     {
@@ -86121,14 +86304,14 @@
                     },
                     {
                         "step": "first committee",
-                        "status": "current",
-                        "statusLabel": "Pending",
-                        "statusDate": null
+                        "status": "passed",
+                        "statusLabel": "Advanced",
+                        "statusDate": "02/03/2023"
                     },
                     {
                         "step": "first chamber",
-                        "status": "future",
-                        "statusLabel": null,
+                        "status": "current",
+                        "statusLabel": "Pending",
                         "statusDate": null
                     },
                     {
@@ -87641,6 +87824,44 @@
                     "motionPassed": true,
                     "gopSupported": true,
                     "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "E",
+                "voteData": {
+                    "action": "SB115-0025",
+                    "bill": "SB 115",
+                    "date": "01/27/2023",
+                    "type": "floor",
+                    "seqNumber": "S261",
+                    "voteChamber": "senate",
+                    "voteUrl": "http://laws.leg.mt.gov/legprd/LAW0211W$BLAC.VoteTabulation?P_VOTE_SEQ=S261&P_SESS=20231",
+                    "session": "20231",
+                    "motion": "Do Pass",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 47,
+                        "N": 2,
+                        "E": 1,
+                        "A": 0
+                    },
+                    "gopCount": {
+                        "Y": 34,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 13,
+                        "N": 2,
+                        "A": 0,
+                        "E": 1,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": true
                 }
             },
             {
@@ -98268,6 +98489,44 @@
                 }
             },
             {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "SB115-0025",
+                    "bill": "SB 115",
+                    "date": "01/27/2023",
+                    "type": "floor",
+                    "seqNumber": "S261",
+                    "voteChamber": "senate",
+                    "voteUrl": "http://laws.leg.mt.gov/legprd/LAW0211W$BLAC.VoteTabulation?P_VOTE_SEQ=S261&P_SESS=20231",
+                    "session": "20231",
+                    "motion": "Do Pass",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 47,
+                        "N": 2,
+                        "E": 1,
+                        "A": 0
+                    },
+                    "gopCount": {
+                        "Y": 34,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 13,
+                        "N": 2,
+                        "A": 0,
+                        "E": 1,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": true
+                }
+            },
+            {
                 "lawmakerVote": "N",
                 "voteData": {
                     "action": "SB99-0035",
@@ -106387,6 +106646,44 @@
                     "gopSupported": true,
                     "demSupported": false
                 }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "SB191-0038",
+                    "bill": "SB 191",
+                    "date": "02/01/2023",
+                    "type": "floor",
+                    "seqNumber": "S333",
+                    "voteChamber": "senate",
+                    "voteUrl": "http://laws.leg.mt.gov/legprd/LAW0211W$BLAC.VoteTabulation?P_VOTE_SEQ=S333&P_SESS=20231",
+                    "session": "20231",
+                    "motion": "Do Pass",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 33,
+                        "N": 17,
+                        "E": 0,
+                        "A": 0
+                    },
+                    "gopCount": {
+                        "Y": 33,
+                        "N": 1,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 16,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": false
+                }
             }
         ]
     },
@@ -106729,6 +107026,44 @@
                     "motionPassed": true,
                     "gopSupported": true,
                     "demSupported": false
+                }
+            },
+            {
+                "lawmakerVote": "Y",
+                "voteData": {
+                    "action": "SB115-0025",
+                    "bill": "SB 115",
+                    "date": "01/27/2023",
+                    "type": "floor",
+                    "seqNumber": "S261",
+                    "voteChamber": "senate",
+                    "voteUrl": "http://laws.leg.mt.gov/legprd/LAW0211W$BLAC.VoteTabulation?P_VOTE_SEQ=S261&P_SESS=20231",
+                    "session": "20231",
+                    "motion": "Do Pass",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 47,
+                        "N": 2,
+                        "E": 1,
+                        "A": 0
+                    },
+                    "gopCount": {
+                        "Y": 34,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 13,
+                        "N": 2,
+                        "A": 0,
+                        "E": 1,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": true
                 }
             },
             {
