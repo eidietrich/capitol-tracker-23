@@ -4094,17 +4094,23 @@
         "billCount": 27,
         "billsUnscheduled": [
             "HB 35",
-            "HB 198",
-            "SB 245"
+            "HB 198"
         ],
         "billsScheduled": [
-            "SB 240"
+            "SB 240",
+            "SB 245"
         ],
         "billsScheduledByDay": [
             {
                 "day": "02/06/2023",
                 "bills": [
                     "SB 240"
+                ]
+            },
+            {
+                "day": "02/08/2023",
+                "bills": [
+                    "SB 245"
                 ]
             }
         ],
