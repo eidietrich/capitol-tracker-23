@@ -358,18 +358,20 @@
             "HB 372",
             "HB 373",
             "HB 376",
+            "HB 385",
             "HJ 1",
             "SB 7",
             "SB 91"
         ],
-        "billCount": 59,
+        "billCount": 60,
         "billsUnscheduled": [
             "HB 38",
             "HB 197",
             "HB 216",
             "HB 359",
             "HB 372",
-            "HB 376"
+            "HB 376",
+            "HB 385"
         ],
         "billsScheduled": [
             "HB 322",
@@ -647,14 +649,19 @@
             "HB 358",
             "HB 371",
             "HB 379",
+            "HB 386",
+            "HB 389",
             "SB 20",
             "SB 35",
             "SB 80",
             "SB 102",
             "SB 107"
         ],
-        "billCount": 70,
-        "billsUnscheduled": [],
+        "billCount": 72,
+        "billsUnscheduled": [
+            "HB 386",
+            "HB 389"
+        ],
         "billsScheduled": [
             "HB 300",
             "HB 313",
@@ -922,14 +929,18 @@
             "HB 363",
             "HB 368",
             "HB 370",
+            "HB 390",
+            "HB 391",
             "HJ 2",
             "SB 62"
         ],
-        "billCount": 35,
+        "billCount": 37,
         "billsUnscheduled": [
             "HB 235",
             "HB 258",
             "HB 294",
+            "HB 390",
+            "HB 391",
             "HJ 2"
         ],
         "billsScheduled": [
@@ -1176,14 +1187,18 @@
             "HB 348",
             "HB 377",
             "HB 378",
+            "HB 384",
+            "HB 387",
             "SB 18",
             "SB 40",
             "SJ 4",
             "SJ 8"
         ],
-        "billCount": 57,
+        "billCount": 59,
         "billsUnscheduled": [
             "HB 126",
+            "HB 384",
+            "HB 387",
             "SJ 8"
         ],
         "billsScheduled": [
@@ -1436,16 +1451,18 @@
             "HB 317",
             "HB 336",
             "HB 380",
+            "HB 392",
             "SB 6",
             "SB 34",
             "SB 45",
             "SB 87"
         ],
-        "billCount": 37,
+        "billCount": 38,
         "billsUnscheduled": [
             "HB 264",
             "HB 300",
             "HB 313",
+            "HB 392",
             "SB 87"
         ],
         "billsScheduled": [
@@ -1971,13 +1988,15 @@
             "HB 346",
             "HB 352",
             "HB 382",
+            "HB 393",
             "SB 1",
             "SB 10",
             "SB 69"
         ],
-        "billCount": 24,
+        "billCount": 25,
         "billsUnscheduled": [
             "HB 346",
+            "HB 393",
             "SB 1",
             "SB 10",
             "SB 69"
@@ -2245,10 +2264,13 @@
             "HB 158",
             "HB 159",
             "HB 276",
-            "HB 350"
+            "HB 350",
+            "HB 388"
         ],
-        "billCount": 14,
-        "billsUnscheduled": [],
+        "billCount": 15,
+        "billsUnscheduled": [
+            "HB 388"
+        ],
         "billsScheduled": [
             "HB 158",
             "HB 159"
@@ -2429,10 +2451,13 @@
             "HB 243",
             "HB 290",
             "HB 331",
-            "HB 333"
+            "HB 333",
+            "HB 383"
         ],
-        "billCount": 14,
-        "billsUnscheduled": [],
+        "billCount": 15,
+        "billsUnscheduled": [
+            "HB 383"
+        ],
         "billsScheduled": [
             "HB 331",
             "HB 333"
