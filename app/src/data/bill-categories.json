@@ -2,7 +2,7 @@
     {
         "category": "Major budget bills",
         "description": null,
-        "order": 1,
+        "order": null,
         "show": true
     },
     {
@@ -18,15 +18,57 @@
         "show": true
     },
     {
+        "category": "Abortion",
+        "description": null,
+        "order": 7,
+        "show": true
+    },
+    {
         "category": "Energy",
         "description": null,
-        "order": 4,
+        "order": 11,
         "show": true
     },
     {
         "category": "Wildlife",
         "description": null,
+        "order": 12,
+        "show": true
+    },
+    {
+        "category": "Court administration",
+        "description": "Changes to laws governing the Montana court system.",
+        "order": 4,
+        "show": true
+    },
+    {
+        "category": "Health systems",
+        "description": null,
         "order": 5,
+        "show": true
+    },
+    {
+        "category": "Child health and welfare",
+        "description": null,
+        "order": 6,
+        "show": true
+    },
+    {
+        "category": "LGBTQ rights",
+        "description": "Bills at the intersection of religious liberty, free speech and human rights.",
+        "order": 8,
+        "show": true
+    },
+    {
+        "category": "Education",
+        "description": null,
+        "order": 9,
+        "show": true
+    },
+    {
+        "category": "Election administration",
+        "description": null,
+        "order": 10,
         "show": true
     }
 ]

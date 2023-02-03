@@ -97,9 +97,6 @@ lawmakers.forEach(lawmaker => {
     }
 })
 
-// const committeeList = Array.from(new Set(lawmakersRaw.map(d => d.committees.map(c => c.committee)).flat())).map(c => ({key: c}))
-// writeJson('./process/config/committees.json', committeeList)
-
 // const summaryRoster = lawmakers.map(d => {
 //     return {
 //         title: d.data.title,
