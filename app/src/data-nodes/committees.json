@@ -2463,12 +2463,11 @@
             "HB 383"
         ],
         "billCount": 15,
-        "billsUnscheduled": [
-            "HB 383"
-        ],
+        "billsUnscheduled": [],
         "billsScheduled": [
             "HB 331",
-            "HB 333"
+            "HB 333",
+            "HB 383"
         ],
         "billsScheduledByDay": [
             {
@@ -2476,6 +2475,12 @@
                 "bills": [
                     "HB 331",
                     "HB 333"
+                ]
+            },
+            {
+                "day": "02/09/2023",
+                "bills": [
+                    "HB 383"
                 ]
             }
         ],
