@@ -2,7 +2,7 @@
     {
         "category": "Major budget bills",
         "description": null,
-        "order": 1,
+        "order": null,
         "show": true
     },
     {
@@ -20,13 +20,31 @@
     {
         "category": "Energy",
         "description": null,
-        "order": 4,
+        "order": 11,
         "show": true
     },
     {
         "category": "Wildlife",
         "description": null,
+        "order": 12,
+        "show": true
+    },
+    {
+        "category": "Court administration",
+        "description": "Changes to laws governing the Montana court system.",
+        "order": 4,
+        "show": true
+    },
+    {
+        "category": "Health systems",
+        "description": null,
         "order": 5,
+        "show": true
+    },
+    {
+        "category": "Child health and welfare",
+        "description": null,
+        "order": 6,
         "show": true
     }
 ]
