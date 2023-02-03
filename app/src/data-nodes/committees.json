@@ -95,7 +95,6 @@
             }
         ],
         "billsAwaitingVote": [
-            "HB 3",
             "HB 4",
             "HB 16",
             "HB 29",
@@ -117,6 +116,7 @@
         ],
         "billsAdvanced": [
             "HB 1",
+            "HB 3",
             "HB 13",
             "HB 15",
             "HB 19",
@@ -928,14 +928,29 @@
         "billsUnscheduled": [
             "HB 235",
             "HB 258",
-            "HB 294",
             "HB 363",
-            "HB 368",
-            "HB 370",
             "HJ 2"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduled": [
+            "HB 294",
+            "HB 368",
+            "HB 370"
+        ],
+        "billsScheduledByDay": [
+            {
+                "day": "02/07/2023",
+                "bills": [
+                    "HB 368",
+                    "HB 370"
+                ]
+            },
+            {
+                "day": "02/09/2023",
+                "bills": [
+                    "HB 294"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "HB 118",
             "HB 268",
