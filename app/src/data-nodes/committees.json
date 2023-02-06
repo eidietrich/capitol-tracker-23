@@ -362,6 +362,11 @@
             "HB 373",
             "HB 376",
             "HB 385",
+            "HB 397",
+            "HB 398",
+            "HB 399",
+            "HB 404",
+            "HB 405",
             "HJ 1",
             "SB 7",
             "SB 91",
@@ -370,7 +375,7 @@
             "SB 136",
             "SB 191"
         ],
-        "billCount": 64,
+        "billCount": 69,
         "billsUnscheduled": [
             "HB 38",
             "HB 197",
@@ -378,6 +383,11 @@
             "HB 372",
             "HB 376",
             "HB 385",
+            "HB 397",
+            "HB 398",
+            "HB 399",
+            "HB 404",
+            "HB 405",
             "SB 134",
             "SB 135",
             "SB 136"
@@ -1203,16 +1213,20 @@
             "HB 378",
             "HB 384",
             "HB 387",
+            "HB 400",
+            "HB 402",
             "SB 18",
             "SB 40",
             "SJ 4",
             "SJ 8"
         ],
-        "billCount": 59,
+        "billCount": 61,
         "billsUnscheduled": [
             "HB 126",
             "HB 384",
             "HB 387",
+            "HB 400",
+            "HB 402",
             "SJ 8"
         ],
         "billsScheduled": [
@@ -1842,10 +1856,13 @@
             "HB 339",
             "HB 365",
             "HB 366",
-            "HB 374"
+            "HB 374",
+            "HB 401"
         ],
-        "billCount": 19,
-        "billsUnscheduled": [],
+        "billCount": 20,
+        "billsUnscheduled": [
+            "HB 401"
+        ],
         "billsScheduled": [
             "HB 374"
         ],
@@ -2009,14 +2026,18 @@
             "HB 352",
             "HB 382",
             "HB 393",
+            "HB 396",
+            "HB 403",
             "SB 1",
             "SB 10",
             "SB 69"
         ],
-        "billCount": 25,
+        "billCount": 27,
         "billsUnscheduled": [
             "HB 346",
             "HB 393",
+            "HB 396",
+            "HB 403",
             "SB 1",
             "SB 10",
             "SB 69"
@@ -2161,11 +2182,15 @@
             "HB 278",
             "HB 284",
             "HB 349",
+            "HB 394",
+            "HB 395",
             "HJ 3"
         ],
-        "billCount": 9,
+        "billCount": 11,
         "billsUnscheduled": [
-            "HB 220"
+            "HB 220",
+            "HB 394",
+            "HB 395"
         ],
         "billsScheduled": [],
         "billsScheduledByDay": [],
