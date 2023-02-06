@@ -1,6 +1,95 @@
 {
     "actionsByDate": [
         {
+            "date": "02/06/2023",
+            "actions": [
+                {
+                    "id": "HB294-0025",
+                    "bill": "HB 294",
+                    "date": "02/06/2023",
+                    "description": "Bill Withdrawn per House Rule H30-50(3)(b)",
+                    "posession": "house",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Bill Withdrawn per House Rule H30-50(3)(b)",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "withdrawn": true,
+                    "title": "Increase aggregate limit for student scholarship and innovative education credit"
+                },
+                {
+                    "id": "SR17-0017",
+                    "bill": "SR 17",
+                    "date": "02/06/2023",
+                    "description": "Committee Executive Action--Resolution Adopted",
+                    "posession": "senate",
+                    "committee": "Senate Public Health, Welfare and Safety",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Resolution Adopted",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "secondChamberAction": true,
+                    "advanced": true,
+                    "title": "Confirm governor's appointees for the board of chiropractors"
+                },
+                {
+                    "id": "SR18-0017",
+                    "bill": "SR 18",
+                    "date": "02/06/2023",
+                    "description": "Committee Executive Action--Resolution Adopted",
+                    "posession": "senate",
+                    "committee": "Senate Public Health, Welfare and Safety",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Resolution Adopted",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "secondChamberAction": true,
+                    "advanced": true,
+                    "title": "Confirm governor's appointees for the board of radiologic technologists"
+                },
+                {
+                    "id": "SR19-0017",
+                    "bill": "SR 19",
+                    "date": "02/06/2023",
+                    "description": "Committee Executive Action--Resolution Adopted",
+                    "posession": "senate",
+                    "committee": "Senate Public Health, Welfare and Safety",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Resolution Adopted",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "secondChamberAction": true,
+                    "advanced": true,
+                    "title": "Confirm governor's appointees for the board of psychologists"
+                },
+                {
+                    "id": "SR20-0017",
+                    "bill": "SR 20",
+                    "date": "02/06/2023",
+                    "description": "Committee Executive Action--Resolution Adopted",
+                    "posession": "senate",
+                    "committee": "Senate Public Health, Welfare and Safety",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Resolution Adopted",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "secondChamberAction": true,
+                    "advanced": true,
+                    "title": "Confirm governor's appointees for the board of physical therapy examiners"
+                }
+            ]
+        },
+        {
             "date": "02/03/2023",
             "actions": [
                 {
@@ -107,6 +196,23 @@
                     "finalPassage": true,
                     "title": "Revise document requirements for state stock inspectors",
                     "explanation": null
+                },
+                {
+                    "id": "HB55-0025",
+                    "bill": "HB 55",
+                    "date": "02/03/2023",
+                    "description": "Committee Executive Action--Bill Passed as Amended",
+                    "posession": "house",
+                    "committee": "House Transportation",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed as Amended",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "amended": true,
+                    "title": "An act establishing a tax on electric vehicle charging stations"
                 },
                 {
                     "id": "HB59-0036",
@@ -300,24 +406,7 @@
                     "explanation": null
                 },
                 {
-                    "id": "HB113-0028",
-                    "bill": "HB 113",
-                    "date": "02/03/2023",
-                    "description": "2nd Reading Concurred",
-                    "posession": "senate",
-                    "committee": null,
-                    "actionUrl": null,
-                    "recordings": [],
-                    "key": "2nd Reading Concurred",
-                    "isMajor": true,
-                    "isHighlight": true,
-                    "secondChamberAction": true,
-                    "preliminaryPassage": true,
-                    "title": "Repeal licensing of hucksters",
-                    "explanation": null
-                },
-                {
-                    "id": "HB113-0030",
+                    "id": "HB113-0029",
                     "bill": "HB 113",
                     "date": "02/03/2023",
                     "description": "2nd Reading Concurred",
@@ -485,6 +574,22 @@
                     "title": "Revise laws relating to dangerous drugs"
                 },
                 {
+                    "id": "HB327-0023",
+                    "bill": "HB 327",
+                    "date": "02/03/2023",
+                    "description": "Committee Executive Action--Bill Passed",
+                    "posession": "house",
+                    "committee": "House Transportation",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "title": "Revise allowed uses of transportation services account"
+                },
+                {
                     "id": "HB342-0026",
                     "bill": "HB 342",
                     "date": "02/03/2023",
@@ -517,6 +622,39 @@
                     "advanced": true,
                     "finalPassage": true,
                     "title": "Define administrative deficiencies for certain mining operations"
+                },
+                {
+                    "id": "HB365-0019",
+                    "bill": "HB 365",
+                    "date": "02/03/2023",
+                    "description": "Committee Executive Action--Bill Passed",
+                    "posession": "house",
+                    "committee": "House Transportation",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "title": "Revise suspended driver's license laws"
+                },
+                {
+                    "id": "HB366-0022",
+                    "bill": "HB 366",
+                    "date": "02/03/2023",
+                    "description": "Committee Executive Action--Bill Passed as Amended",
+                    "posession": "house",
+                    "committee": "House Transportation",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed as Amended",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "amended": true,
+                    "title": "Increase penalties for passing school buses"
                 },
                 {
                     "id": "SB6-0039",
@@ -687,6 +825,24 @@
                     "title": "Revise the Quality Educator Loan Assistance Program"
                 },
                 {
+                    "id": "SB72-0027",
+                    "bill": "SB 72",
+                    "date": "02/03/2023",
+                    "description": "Committee Executive Action--Bill Passed as Amended",
+                    "posession": "senate",
+                    "committee": "Senate Natural Resources",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed as Amended",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "amended": true,
+                    "title": "Revise judicial administration of water rights",
+                    "explanation": null
+                },
+                {
                     "id": "SB102-0034",
                     "bill": "SB 102",
                     "date": "02/03/2023",
@@ -750,6 +906,42 @@
                     "advanced": true,
                     "finalPassage": true,
                     "title": "Name MHP headquarters for Kris Hansen"
+                },
+                {
+                    "id": "SB175-0022",
+                    "bill": "SB 175",
+                    "date": "02/03/2023",
+                    "description": "Tabled in Committee",
+                    "posession": "senate",
+                    "committee": "Senate State Administration",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Tabled in Committee",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "secondChamberAction": true,
+                    "failed": true,
+                    "tabled": true,
+                    "title": "Generally revise economic laws related to public works contracts"
+                },
+                {
+                    "id": "SB175-0023",
+                    "bill": "SB 175",
+                    "date": "02/03/2023",
+                    "description": "Tabled in Committee",
+                    "posession": "senate",
+                    "committee": "Senate State Administration",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Tabled in Committee",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "secondChamberAction": true,
+                    "failed": true,
+                    "tabled": true,
+                    "title": "Generally revise economic laws related to public works contracts"
                 },
                 {
                     "id": "SB199-0026",
@@ -1340,7 +1532,9 @@
                     "posession": "house",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46117?agendaId=250304"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -5549,7 +5743,7 @@
                     "explanation": null
                 },
                 {
-                    "id": "HB79-0034",
+                    "id": "HB79-0033",
                     "bill": "HB 79",
                     "date": "01/27/2023",
                     "description": "3rd Reading Passed",
@@ -8363,7 +8557,7 @@
                     "title": "Generally revise laws related to bail bonds"
                 },
                 {
-                    "id": "HB79-0031",
+                    "id": "HB79-0030",
                     "bill": "HB 79",
                     "date": "01/25/2023",
                     "description": "Committee Executive Action--Bill Passed",
@@ -11171,7 +11365,7 @@
                     "explanation": null
                 },
                 {
-                    "id": "HB79-0027",
+                    "id": "HB79-0026",
                     "bill": "HB 79",
                     "date": "01/23/2023",
                     "description": "2nd Reading Passed as Amended",
