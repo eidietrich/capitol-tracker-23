@@ -57,6 +57,7 @@
             "HB 244",
             "HB 245",
             "HB 251",
+            "HB 257",
             "HB 258",
             "HB 267",
             "HB 270",
@@ -67,7 +68,7 @@
             "HB 367",
             "HB 375"
         ],
-        "billCount": 60,
+        "billCount": 61,
         "billsUnscheduled": [
             "HB 2",
             "HB 5",
@@ -78,7 +79,8 @@
             "HB 10",
             "HB 11",
             "HB 12",
-            "HB 245"
+            "HB 245",
+            "HB 257"
         ],
         "billsScheduled": [
             "HB 243",
@@ -3155,6 +3157,7 @@
         "type": "fiscal",
         "bills": [
             "HB 1",
+            "HB 15",
             "HB 175",
             "HB 185",
             "HB 192",
@@ -3183,8 +3186,9 @@
             "SB 168",
             "SB 183"
         ],
-        "billCount": 28,
+        "billCount": 29,
         "billsUnscheduled": [
+            "HB 15",
             "HB 185",
             "HB 192",
             "HB 222",
