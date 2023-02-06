@@ -364,23 +364,31 @@
             "HB 385",
             "HJ 1",
             "SB 7",
-            "SB 91"
+            "SB 91",
+            "SB 134",
+            "SB 135",
+            "SB 136",
+            "SB 191"
         ],
-        "billCount": 60,
+        "billCount": 64,
         "billsUnscheduled": [
             "HB 38",
             "HB 197",
             "HB 216",
             "HB 372",
             "HB 376",
-            "HB 385"
+            "HB 385",
+            "SB 134",
+            "SB 135",
+            "SB 136"
         ],
         "billsScheduled": [
             "HB 322",
             "HB 356",
             "HB 359",
             "HB 361",
-            "HB 373"
+            "HB 373",
+            "SB 191"
         ],
         "billsScheduledByDay": [
             {
@@ -400,7 +408,8 @@
             {
                 "day": "02/09/2023",
                 "bills": [
-                    "HB 359"
+                    "HB 359",
+                    "SB 191"
                 ]
             }
         ],
@@ -1850,7 +1859,6 @@
         ],
         "billsAwaitingVote": [
             "HB 46",
-            "HB 261",
             "HB 320",
             "HB 339"
         ],
@@ -1867,6 +1875,7 @@
             "HB 179",
             "HB 184",
             "HB 224",
+            "HB 261",
             "HB 327",
             "HB 365",
             "HB 366"
