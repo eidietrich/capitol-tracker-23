@@ -34320,6 +34320,68 @@
                     "locale": "Conrad",
                     "district": "HD 18"
                 }
+            },
+            {
+                "key": "hb-424",
+                "identifier": "HB 424",
+                "title": "Generally revise sustainability of state finance and provide for transfers",
+                "chamber": "house",
+                "status": {
+                    "key": "In First House--Introduced",
+                    "step": "First chamber",
+                    "label": "Introduced",
+                    "status": "live",
+                    "statusAtSessionEnd": "failed"
+                },
+                "progress": [
+                    {
+                        "step": "introduced",
+                        "status": "passed",
+                        "statusLabel": "Introduced",
+                        "statusDate": "02/06/2023"
+                    },
+                    {
+                        "step": "first committee",
+                        "status": "current",
+                        "statusLabel": "Pending",
+                        "statusDate": null
+                    },
+                    {
+                        "step": "first chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "second chamber",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "reconciliation",
+                        "status": "skipped",
+                        "statusLabel": null,
+                        "statusDate": null
+                    },
+                    {
+                        "step": "governor",
+                        "status": "future",
+                        "statusLabel": null,
+                        "statusDate": null
+                    }
+                ],
+                "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC0112.pdf",
+                "fiscalNoteUrl": null,
+                "legalNoteUrl": null,
+                "numArticles": 0,
+                "sponsor": {
+                    "name": "Llew Jones",
+                    "lastName": "Jones",
+                    "party": "R",
+                    "locale": "Conrad",
+                    "district": "HD 18"
+                }
             }
         ],
         "votingSummary": {
