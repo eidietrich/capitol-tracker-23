@@ -4993,20 +4993,21 @@
             "SR 28"
         ],
         "billCount": 20,
-        "billsUnscheduled": [
-            "SB 217",
-            "SJ 9"
-        ],
+        "billsUnscheduled": [],
         "billsScheduled": [
             "HB 100",
-            "HB 104"
+            "HB 104",
+            "SB 217",
+            "SJ 9"
         ],
         "billsScheduledByDay": [
             {
                 "day": "02/07/2023",
                 "bills": [
                     "HB 100",
-                    "HB 104"
+                    "HB 104",
+                    "SB 217",
+                    "SJ 9"
                 ]
             }
         ],
