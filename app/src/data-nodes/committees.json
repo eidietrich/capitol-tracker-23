@@ -3184,7 +3184,6 @@
             "SB 182"
         ],
         "billsScheduled": [
-            "HB 175",
             "SB 160",
             "SB 163",
             "SB 168",
@@ -3194,7 +3193,6 @@
             {
                 "day": "02/07/2023",
                 "bills": [
-                    "HB 175",
                     "SB 160",
                     "SB 163",
                     "SB 168",
@@ -3203,6 +3201,7 @@
             }
         ],
         "billsAwaitingVote": [
+            "HB 175",
             "SB 19",
             "SB 60",
             "SB 94",
@@ -4148,11 +4147,12 @@
             }
         ],
         "billsAwaitingVote": [
-            "SB 212",
             "SB 213",
             "SB 235"
         ],
-        "billsFailed": [],
+        "billsFailed": [
+            "SB 212"
+        ],
         "billsAdvanced": [
             "HB 15",
             "HB 21",
