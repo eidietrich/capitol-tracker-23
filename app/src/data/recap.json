@@ -1139,23 +1139,6 @@
             "date": "02/03/2023",
             "actions": [
                 {
-                    "id": "HB3-0016",
-                    "bill": "HB 3",
-                    "date": "02/03/2023",
-                    "description": "Committee Executive Action--Bill Passed as Amended",
-                    "posession": "house",
-                    "committee": "House Appropriations",
-                    "actionUrl": null,
-                    "recordings": [],
-                    "key": "Committee Executive Action--Bill Passed as Amended",
-                    "isMajor": true,
-                    "isHighlight": true,
-                    "committeeAction": true,
-                    "advanced": true,
-                    "amended": true,
-                    "title": "Supplemental Appropriations Bill"
-                },
-                {
                     "id": "HB24-0027",
                     "bill": "HB 24",
                     "date": "02/03/2023",
@@ -1888,24 +1871,6 @@
                     "title": "Revise the Quality Educator Loan Assistance Program"
                 },
                 {
-                    "id": "SB72-0027",
-                    "bill": "SB 72",
-                    "date": "02/03/2023",
-                    "description": "Committee Executive Action--Bill Passed as Amended",
-                    "posession": "senate",
-                    "committee": "Senate Natural Resources",
-                    "actionUrl": null,
-                    "recordings": [],
-                    "key": "Committee Executive Action--Bill Passed as Amended",
-                    "isMajor": true,
-                    "isHighlight": true,
-                    "committeeAction": true,
-                    "advanced": true,
-                    "amended": true,
-                    "title": "Revise judicial administration of water rights",
-                    "explanation": null
-                },
-                {
                     "id": "SB102-0034",
                     "bill": "SB 102",
                     "date": "02/03/2023",
@@ -1920,38 +1885,6 @@
                     "secondChamberAction": true,
                     "preliminaryPassage": true,
                     "title": "Generally revising laws related to sports wagering sales agents' commissions"
-                },
-                {
-                    "id": "SB103-0035",
-                    "bill": "SB 103",
-                    "date": "02/03/2023",
-                    "description": "Committee Executive Action--Bill Concurred",
-                    "posession": "house",
-                    "committee": "House Local Government",
-                    "actionUrl": null,
-                    "recordings": [],
-                    "key": "Committee Executive Action--Bill Concurred",
-                    "isMajor": true,
-                    "isHighlight": true,
-                    "committeeAction": true,
-                    "advanced": true,
-                    "title": "Revise airport courtesy car insurance requirements"
-                },
-                {
-                    "id": "SB124-0034",
-                    "bill": "SB 124",
-                    "date": "02/03/2023",
-                    "description": "Committee Executive Action--Bill Passed",
-                    "posession": "senate",
-                    "committee": "Senate Finance and Claims",
-                    "actionUrl": null,
-                    "recordings": [],
-                    "key": "Committee Executive Action--Bill Passed",
-                    "isMajor": true,
-                    "isHighlight": true,
-                    "committeeAction": true,
-                    "advanced": true,
-                    "title": "Revise corporate income tax apportionment"
                 },
                 {
                     "id": "SB164-0028",
@@ -2007,7 +1940,7 @@
                     "title": "Generally revise economic laws related to public works contracts"
                 },
                 {
-                    "id": "SB199-0026",
+                    "id": "SB199-0025",
                     "bill": "SB 199",
                     "date": "02/03/2023",
                     "description": "Reconsidered Previous Action; Remains in 2nd Reading Process",
@@ -2191,6 +2124,23 @@
         {
             "date": "02/02/2023",
             "actions": [
+                {
+                    "id": "HB3-0016",
+                    "bill": "HB 3",
+                    "date": "02/02/2023",
+                    "description": "Committee Executive Action--Bill Passed as Amended",
+                    "posession": "house",
+                    "committee": "House Appropriations",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed as Amended",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "amended": true,
+                    "title": "Supplemental Appropriations Bill"
+                },
                 {
                     "id": "HB17-0022",
                     "bill": "HB 17",
@@ -2606,7 +2556,7 @@
                     "title": "Revise hunter education laws"
                 },
                 {
-                    "id": "HB245-0028",
+                    "id": "HB245-0027",
                     "bill": "HB 245",
                     "date": "02/02/2023",
                     "description": "Committee Executive Action--Bill Passed as Amended",
@@ -3146,6 +3096,38 @@
                     "title": "Limiting the number of registered voters in each election precinct"
                 },
                 {
+                    "id": "SB103-0035",
+                    "bill": "SB 103",
+                    "date": "02/02/2023",
+                    "description": "Committee Executive Action--Bill Concurred",
+                    "posession": "house",
+                    "committee": "House Local Government",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Concurred",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "title": "Revise airport courtesy car insurance requirements"
+                },
+                {
+                    "id": "SB124-0034",
+                    "bill": "SB 124",
+                    "date": "02/02/2023",
+                    "description": "Committee Executive Action--Bill Passed",
+                    "posession": "senate",
+                    "committee": "Senate Finance and Claims",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "title": "Revise corporate income tax apportionment"
+                },
+                {
                     "id": "SB136-0026",
                     "bill": "SB 136",
                     "date": "02/02/2023",
@@ -3215,7 +3197,7 @@
                     "title": "Revising allowed local government employer benefits"
                 },
                 {
-                    "id": "SB199-0024",
+                    "id": "SB199-0023",
                     "bill": "SB 199",
                     "date": "02/02/2023",
                     "description": "2nd Reading Pass Motion Failed",
@@ -3232,7 +3214,7 @@
                     "title": "Revise eligibility for resort communities and resort areas"
                 },
                 {
-                    "id": "SB199-0025",
+                    "id": "SB199-0024",
                     "bill": "SB 199",
                     "date": "02/02/2023",
                     "description": "2nd Reading Indefinitely Postponed",
@@ -3548,7 +3530,7 @@
                     "title": "Revise workers' compensation laws relating to social or recreational activity"
                 },
                 {
-                    "id": "HB183-0034",
+                    "id": "HB183-0035",
                     "bill": "HB 183",
                     "date": "02/01/2023",
                     "description": "Committee Executive Action--Bill Concurred as Amended",
@@ -4107,6 +4089,24 @@
                     "advanced": true,
                     "finalPassage": true,
                     "title": "Allow department of transportation to use alternative project delivery methods",
+                    "explanation": null
+                },
+                {
+                    "id": "SB72-0027",
+                    "bill": "SB 72",
+                    "date": "02/01/2023",
+                    "description": "Committee Executive Action--Bill Passed as Amended",
+                    "posession": "senate",
+                    "committee": "Senate Natural Resources",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed as Amended",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "amended": true,
+                    "title": "Revise judicial administration of water rights",
                     "explanation": null
                 },
                 {
@@ -4682,7 +4682,7 @@
             "date": "01/31/2023",
             "actions": [
                 {
-                    "id": "HB82-0027",
+                    "id": "HB82-0026",
                     "bill": "HB 82",
                     "date": "01/31/2023",
                     "description": "Committee Executive Action--Bill Passed as Amended",
@@ -11048,7 +11048,7 @@
                     "explanation": null
                 },
                 {
-                    "id": "HB91-0028",
+                    "id": "HB91-0027",
                     "bill": "HB 91",
                     "date": "01/24/2023",
                     "description": "Committee Executive Action--Bill Passed as Amended",
@@ -13376,7 +13376,7 @@
                     "explanation": null
                 },
                 {
-                    "id": "HB82-0025",
+                    "id": "HB82-0024",
                     "bill": "HB 82",
                     "date": "01/20/2023",
                     "description": "2nd Reading Passed",
@@ -18971,7 +18971,7 @@
                     "explanation": null
                 },
                 {
-                    "id": "HB91-0024",
+                    "id": "HB91-0023",
                     "bill": "HB 91",
                     "date": "01/13/2023",
                     "description": "2nd Reading Passed",
