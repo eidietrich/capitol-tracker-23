@@ -2027,15 +2027,30 @@
         "billsUnscheduled": [
             "HB 257",
             "HB 346",
-            "HB 393",
-            "HB 396",
-            "HB 403",
             "SB 1",
             "SB 10",
             "SB 69"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduled": [
+            "HB 393",
+            "HB 396",
+            "HB 403"
+        ],
+        "billsScheduledByDay": [
+            {
+                "day": "02/08/2023",
+                "bills": [
+                    "HB 393",
+                    "HB 396"
+                ]
+            },
+            {
+                "day": "02/13/2023",
+                "bills": [
+                    "HB 403"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "HB 259",
             "HB 332",
@@ -3699,19 +3714,19 @@
             "HB 263",
             "SB 20",
             "SB 112",
-            "SB 243",
             "SB 259",
-            "SB 263",
-            "SB 264",
             "SB 267",
-            "SB 269",
-            "SB 270",
             "SR 35",
             "SR 43"
         ],
         "billsScheduled": [
+            "SB 243",
             "SB 244",
             "SB 260",
+            "SB 263",
+            "SB 264",
+            "SB 269",
+            "SB 270",
             "SR 29",
             "SR 30",
             "SR 38",
@@ -3721,17 +3736,27 @@
             {
                 "day": "02/08/2023",
                 "bills": [
-                    "SB 244"
+                    "SB 244",
+                    "SB 270"
                 ]
             },
             {
                 "day": "02/09/2023",
                 "bills": [
+                    "SB 243",
                     "SB 260",
                     "SR 29",
                     "SR 30",
                     "SR 38",
                     "SR 40"
+                ]
+            },
+            {
+                "day": "02/10/2023",
+                "bills": [
+                    "SB 263",
+                    "SB 264",
+                    "SB 269"
                 ]
             }
         ],
