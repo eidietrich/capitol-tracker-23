@@ -120,6 +120,7 @@ export const Head = () => (
     <Seo
         title="Recap"
         description="Procedural action on bills under consideration by the 2023 Legislature."
+        pageRelativeUrl="recap/"
     />
 )
 

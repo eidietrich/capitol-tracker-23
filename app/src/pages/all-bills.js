@@ -69,7 +69,7 @@ const AllBills = ({ data, location }) => {
 export const Head = () => (
   <Seo
     title="All 2023 bills"
-    pageRelativeUrl=''
+    pageRelativeUrl="all-bills/"
   />
 )
 

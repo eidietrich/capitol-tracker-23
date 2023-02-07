@@ -78,7 +78,7 @@ function SEO({
             "@type": "NewsArticle",
             "name": "${metaTitle}",
             "url": "${metaUrl}",
-            "thumbnailUrl": "${metaTitle}",
+            "thumbnailUrl": "${metaImage}",
             "datePublished": "${new Date().toISOString()}",
             "articleSection": "News apps",
             "creator": "Eric Dietrich"
