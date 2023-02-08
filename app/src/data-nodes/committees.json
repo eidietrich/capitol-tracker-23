@@ -5337,12 +5337,20 @@
             "SB 280",
             "SB 281",
             "SB 293",
-            "SB 295",
             "SR 2",
             "SR 3"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduled": [
+            "SB 295"
+        ],
+        "billsScheduledByDay": [
+            {
+                "day": "02/14/2023",
+                "bills": [
+                    "SB 295"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "HB 42",
             "HB 74",
