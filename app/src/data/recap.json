@@ -4,6 +4,22 @@
             "date": "02/08/2023",
             "actions": [
                 {
+                    "id": "HB3-0020",
+                    "bill": "HB 3",
+                    "date": "02/08/2023",
+                    "description": "2nd Reading Passed",
+                    "posession": "house",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "2nd Reading Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "firstChamberFloorAction": true,
+                    "preliminaryPassage": true,
+                    "title": "Supplemental Appropriations Bill"
+                },
+                {
                     "id": "HB54-0029",
                     "bill": "HB 54",
                     "date": "02/08/2023",
@@ -158,6 +174,22 @@
                     "committeeAction": true,
                     "advanced": true,
                     "title": "Create a 250th commission for Montana"
+                },
+                {
+                    "id": "HJ1-0034",
+                    "bill": "HJ 1",
+                    "date": "02/08/2023",
+                    "description": "2nd Reading Concurred",
+                    "posession": "senate",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "2nd Reading Concurred",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "secondChamberAction": true,
+                    "preliminaryPassage": true,
+                    "title": "Request interim study on missing youth"
                 }
             ]
         },
