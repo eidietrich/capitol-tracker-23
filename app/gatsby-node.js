@@ -213,7 +213,12 @@ exports.createSchemaCustomization = ({ actions }) => {
 
 
 
-exports.createPages = async ({ graphql, actions: { createPage } }) => {
+exports.createPages = async ({ graphql, actions: { createPage, createSlice } }) => {
+
+    createSlice({
+        id: 'header',
+        component: require.resolve('./src/components/Header.js')
+    })
 
     lawmakers.forEach(async lawmaker => {
         const key = lawmaker.key
