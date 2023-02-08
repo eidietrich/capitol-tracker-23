@@ -40,14 +40,28 @@ const Actions = ({ location }) => {
         const displayCommittees = committeesWithActions.filter(d => d !== null)
             .sort((a, b) => a - b) // alphabetical
         const nonCommitteeActions = day.actions.filter(d => d.committee === null)
+        const governorActions = nonCommitteeActions.filter(d => d.posession === 'governor')
         const houseActions = nonCommitteeActions.filter(d => d.posession === 'house')
         const senateActions = nonCommitteeActions.filter(d => d.posession === 'senate')
+        const governorActionTypes = Array.from(new Set(governorActions.map(d => d.description))).sort()
         const houseActionTypes = Array.from(new Set(houseActions.map(d => d.description))).sort()
         const senateActionTypes = Array.from(new Set(senateActions.map(d => d.description))).sort()
 
         return <div css={actionsDayStyle} key={day.date}>
             <h2>📅 {shortDateWithWeekday(new Date(day.date))}</h2>
             <div>
+                {(governorActionTypes.length > 0) && <div>
+                    <h3>🖋️ GOVERNOR</h3>
+                    {
+                        governorActionTypes.map(description => {
+                            const actionsOfType = governorActions.filter(d => d.description === description)
+                            return <div key={`governor-${description}`}>
+                                <h4>{description} ({actionsOfType.length})</h4>
+                                <ul>{actionsOfType.map(action => <Action key={action.id} data={action} />)}</ul>
+                            </div>
+                        })
+                    }
+                </div>}
                 <div>
                     <h3>🏛 HOUSE FLOOR</h3>
                     {houseActionTypes.length === 0 && <div className="note">Nothing recorded. The House usually convenes in early afternoon.</div>}

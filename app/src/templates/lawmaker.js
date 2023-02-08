@@ -128,16 +128,19 @@ const LawmakerPage = ({ pageContext, data, location }) => {
       </div>
 
       <div css={anchorLinksBoxStyle}>
+        <AnchorLink to="#committees">Committees</AnchorLink> •
         <AnchorLink to="#bills-sponsored">Bills</AnchorLink> •
         <AnchorLink to="#key-votes">Key votes</AnchorLink> •
-        <AnchorLink to="#floor-statistics">Stats</AnchorLink> •
-        {(articles.length > 0) && <><AnchorLink to="#mtfp-coverage">MTFP Coverage</AnchorLink> •</>}
-        <AnchorLink to="#committees">Committees</AnchorLink> •
-        <AnchorLink to="#election-history">2022 election margin</AnchorLink>
+        <AnchorLink to="#floor-statistics">Voting stats</AnchorLink> •
+        <AnchorLink to="#election-history">2022 election margin</AnchorLink> •
+        {(articles.length > 0) && <><AnchorLink to="#mtfp-coverage">MTFP Coverage</AnchorLink></>}
       </div>
 
       <ReactMarkdown>{lawmakerPageText}</ReactMarkdown>
       <History name={lastName} history={legislativeHistory} />
+
+      <h3 id="committees">Committee assignments</h3>
+      <LawmakerCommittees committees={committees} />
 
       <h3 id="bills-sponsored">Bills sponsored</h3>
       <BillTable bills={sponsoredBills} />
@@ -145,14 +148,11 @@ const LawmakerPage = ({ pageContext, data, location }) => {
       <NewsletterSignup />
 
       <h3 id="key-votes">Key bill votes</h3>
-      <div>Most recent votes on bills identified as notable by MTFP staff.</div>
+      <div>Most recent floor votes on bills identified as notable by MTFP staff.</div>
       <LawmakerKeyVotes lastName={lastName} party={party} keyBillVotes={keyBillVotes} />
 
       <h3 id="floor-statistics">Floor vote statistics</h3>
       <LawmakerVotingSummary lawmaker={lawmaker} votingSummary={votingSummary} />
-
-      <h3 id="committees">Committee assignments</h3>
-      <LawmakerCommittees committees={committees} />
 
       <h3 id="election-history">{district} election results</h3>
       <LawmakerElectionHistory lawmaker={lawmaker} />

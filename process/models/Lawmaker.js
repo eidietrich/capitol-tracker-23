@@ -143,14 +143,27 @@ export default class Lawmaker {
 
     addKeyBillVotes = ({ name, keyBills }) => {
         const keyBillVotes = keyBills
-            .map(bill => bill.getLastVoteInvolvingLawmaker(name))
-            .filter(vote => vote !== null)
-            .map(vote => {
+            .map(bill => {
                 return {
-                    lawmakerVote: vote.votes.find(d => d.name === name).option,
-                    voteData: vote.data,
+                    identifier: bill.data.identifier,
+                    key: bill.data.key,
+                    title: bill.data.title,
+                    explanation: bill.data.explanation,
+                    lawmakerLastVote: bill.getLastVoteInvolvingLawmaker(name)
                 }
             })
+            .filter(bill => bill.lawmakerLastVote !== null)
+            .map(bill => {
+                return {
+                    identifier: bill.identifier,
+                    key: bill.key,
+                    title: bill.title,
+                    explanation: bill.explanation,
+                    lawmakerVote: bill.lawmakerLastVote.votes.find(d => d.name === name).option,
+                    voteData: bill.lawmakerLastVote.data,
+                }
+            })
+        // console.log(keyBillVotes)
         this.keyBillVotes = keyBillVotes
 
     }

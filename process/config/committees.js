@@ -141,5 +141,7 @@ export const EXCLUDE_COMMITTEES = [
     'Joint Fish, Wildlife & Parks',
     'Joint Appropriations',
     'Joint Natural Resources',
+    'Select Committee on Judicial Transparency and Accountability',
+    'Joint Select Committee on Redistricting',
 ]
 

@@ -13,7 +13,6 @@ export default class Committee {
             time,
             type
         } = schema
-        // const commiteeBills = this.getBillsThroughCommittee(name, bills)
         const bills = Array.from(new Set(billActions.map(d => d.bill)))
 
         const referred = Array.from(new Set(

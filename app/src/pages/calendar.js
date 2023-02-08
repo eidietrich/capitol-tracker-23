@@ -102,7 +102,7 @@ const Calendar = ({ data, location }) => {
                 <div className="note">Bill hearings are an opportunity for the sponsor to explain a bill. They also allow for lobbyists and other members of the public to testify in support or opposition.</div>
                 {
                     amPolicyCommittees.length > 0 && <>
-                        <h5>Morning policy committees</h5>
+                        <h4>MORNING POLICY COMMITTEES</h4>
                         <div>
                             {
                                 amPolicyCommittees.map(committee => <Committee key={`${day}-${committee.name}`} committee={committee} hearings={hearings} onCalendarBills={onCalendarBills} />)
@@ -112,7 +112,7 @@ const Calendar = ({ data, location }) => {
                 }
                 {
                     pmPolicyCommittees.length > 0 && <>
-                        <h5>Afternoon policy committees</h5>
+                        <h4>AFTERNOON POLICY COMMITTEES</h4>
                         <div>
                             {
                                 pmPolicyCommittees.map(committee => <Committee key={`${day}-${committee.name}`} committee={committee} hearings={hearings} onCalendarBills={onCalendarBills} />)
@@ -122,7 +122,7 @@ const Calendar = ({ data, location }) => {
                 }
                 {
                     appropsCommittees.length > 0 && <>
-                        <h5>Budget committees</h5>
+                        <h4>BUDGET COMMITTEES</h4>
                         <div>
                             {
                                 appropsCommittees.map(committee => <Committee key={`${day}-${committee.name}`} committee={committee} hearings={hearings} onCalendarBills={onCalendarBills} />)
@@ -132,7 +132,7 @@ const Calendar = ({ data, location }) => {
                 }
                 {
                     otherCommittees.length > 0 && <>
-                        <h5>Other committees</h5>
+                        <h4>OTHER COMMITTEES</h4>
                         <div>
                             {
                                 otherCommittees.map(committee => <Committee key={`${day}-${committee.name}`} committee={committee} hearings={hearings} onCalendarBills={onCalendarBills} />)

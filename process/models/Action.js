@@ -22,14 +22,7 @@ export default class Action {
         } = action
 
         const description = action.action.replace(/\((C|H|S)\) /, '').replace(/\&nbsp/g, '')
-        const posessionSearch = action.action.match(/(?<=\()(C|H|S)(?=\))/)
-        const posessionKey = posessionSearch && posessionSearch[0] || 'O'
-        const posession = {
-            'C': 'staff',
-            'H': 'house',
-            'S': 'senate',
-            'O': 'other'
-        }[posessionKey]
+
 
         this.vote = vote
 
@@ -40,7 +33,7 @@ export default class Action {
             bill,
             date: standardizeDate(date),
             description,
-            posession,
+            posession: this.determinePosession(action, description),
             committee: committeeName,
             // committeeTime: getCommitteeTime(committeeName),
             // committeeType: getCommitteeType(committeeName),
@@ -50,6 +43,25 @@ export default class Action {
             ...this.getActionFlags(description)
         }
         // leave vote out of this.data, merge in at export step
+    }
+
+    determinePosession = (action, description) => {
+        const posessionSearch = action.action.match(/(?<=\()(C|H|S)(?=\))/)
+        const posessionKey = posessionSearch && posessionSearch[0] || 'O'
+        const posession = {
+            'C': 'staff',
+            'H': 'house',
+            'S': 'senate',
+            'O': 'other'
+        }[posessionKey]
+
+        const flags = this.getActionFlags(description)
+        if (flags.governorAction) {
+            // overrides encoding on the action description
+            return 'governor'
+        }
+        return posession
+
     }
 
 

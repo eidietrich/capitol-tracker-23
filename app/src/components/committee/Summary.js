@@ -42,11 +42,11 @@ const CommitteeSummary = (props) => {
         billsUnscheduled.concat(billsScheduled)
     ))
     return <div css={committeeSummaryStyle}>
-        <div className="item main"><strong class="num">{billCount}</strong> bills considered</div>
-        <div className="item"><strong class="num">{unheard.length}</strong> <Link to={`/committees/${committeeUrl(name)}#awaiting-hearing`}>awaiting hearing</Link></div>
-        <div className="item"><strong class="num">{billsAwaitingVote.length}</strong> <Link to={`/committees/${committeeUrl(name)}#awaiting-votes`}>awaiting votes</Link></div>
-        <div className="item"><strong class="num">{billsFailed.length}</strong> ({percentFormat(billsFailed.length / billCount)}) <Link to={`/committees/${committeeUrl(name)}#failed`}> voted down</Link></div>
-        <div className="item"><strong class="num">{billsAdvanced.length}</strong> ({percentFormat(billsAdvanced.length / billCount)}) <Link to={`/committees/${committeeUrl(name)}#passed`}> voted forward</Link></div>
+        <div className="item main"><strong className="num">{billCount}</strong> bills considered</div>
+        <div className="item"><strong className="num">{unheard.length}</strong> <Link to={`/committees/${committeeUrl(name)}#awaiting-hearing`}>awaiting hearing</Link></div>
+        <div className="item"><strong className="num">{billsAwaitingVote.length}</strong> <Link to={`/committees/${committeeUrl(name)}#awaiting-votes`}>awaiting votes</Link></div>
+        <div className="item"><strong className="num">{billsFailed.length}</strong> ({percentFormat(billsFailed.length / billCount || 0)}) <Link to={`/committees/${committeeUrl(name)}#failed`}> voted down</Link></div>
+        <div className="item"><strong className="num">{billsAdvanced.length}</strong> ({percentFormat(billsAdvanced.length / billCount || 0)}) <Link to={`/committees/${committeeUrl(name)}#passed`}> voted forward</Link></div>
     </div >
 }
 
