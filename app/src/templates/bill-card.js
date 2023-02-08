@@ -171,7 +171,7 @@ const BillCard = ({ pageContext }) => {
                 <div className="explanation">{explanation}</div>
             </div>
 
-            <div className="sponsor">Sponsor: <a href={`${BASE_URL}/lawmakers/${lawmakerUrl(sponsor.name)}`}><strong>{sponsor.name}</strong></a> ({sponsor.party}-{sponsor.locale})</div>
+            <div className="sponsor">Sponsor: <a href={`${BASE_URL}/lawmakers/${lawmakerUrl(sponsor.name)}`} target="_blank" rel="noopener noreferrer"><strong>{sponsor.name}</strong></a> ({sponsor.party}-{sponsor.locale})</div>
             {/* <div className="requestor">Requestor: {requestor}</div> */}
             {/* <div className="status">{status.key.replace('--', ' — ')}</div> */}
             <div className="row">
