@@ -49,16 +49,12 @@ export default class Bill {
             amendedReturnDeadline,
         } = bill
 
-        if (legalNoteUrl) {
-            console.log({ key, legalNoteUrl })
-        }
-
         const {
             isKeyBill,
             category,
             Explanation,
             BillPageText,
-            legalNoteLink,
+            // legalNoteLink, // Replaced by legal notes direct from LAWS system
             tags,
             // vetoNoteLink,
         } = annotation
@@ -105,8 +101,8 @@ export default class Bill {
             textUrl: billPdfUrl || null,
             fiscalNoteUrl: fiscalNotesListUrl || null,
             amendmentsUrl: amendmentListUrl || null,
-            legalNoteUrl: legalNoteLink || null,
-            vetoMemoUrl: legalNoteLink,
+            legalNoteUrl: legalNoteUrl || null,
+            vetoMemoUrl: null, // TODO - implement when we get our first one
 
             // annotations
             isMajorBill: isKeyBill,
