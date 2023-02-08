@@ -38,6 +38,7 @@ export default class Bill {
             // lastAction,
             billStatus,
             fiscalNotesListUrl,
+            legalNoteUrl,
             amendmentListUrl,
             // draftRequestor,
             billRequestor,
@@ -47,6 +48,10 @@ export default class Bill {
             transmittalDeadline,
             amendedReturnDeadline,
         } = bill
+
+        if (legalNoteUrl) {
+            console.log({ key, legalNoteUrl })
+        }
 
         const {
             isKeyBill,
@@ -101,7 +106,7 @@ export default class Bill {
             fiscalNoteUrl: fiscalNotesListUrl || null,
             amendmentsUrl: amendmentListUrl || null,
             legalNoteUrl: legalNoteLink || null,
-            // vetoMemoUrl: legalNoteLink,
+            vetoMemoUrl: legalNoteLink,
 
             // annotations
             isMajorBill: isKeyBill,

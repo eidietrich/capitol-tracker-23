@@ -162,6 +162,7 @@ const ultimatelyFailed = true
 const ultimatelyPassed = true
 
 const committeeReferral = true
+const committeeSubsequentReferral = true
 
 
 export const ACTIONS = [
@@ -297,7 +298,7 @@ export const ACTIONS = [
 
     // Committee referrals
     { key: 'Referred to Committee', isMajor, committeeReferral },
-    { key: 'Rereferred to Committee', isMajor, committeeReferral },
+    { key: 'Rereferred to Committee', isMajor, committeeReferral, committeeSubsequentReferral },
     { key: 'Taken from 2nd Reading; Rereferred to Committee', isMajor, committeeReferral },
 
     // Other major, no votes expected

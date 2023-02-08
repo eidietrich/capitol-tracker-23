@@ -13,28 +13,41 @@ export default class Committee {
             time,
             type
         } = schema
+        const beginningOfToday = new Date(updateTime).setUTCHours(7, 0, 0, 0) // 7 accounts for Montana vs GMT time
+
+        // Bills that have actions with the committee attached
         const bills = Array.from(new Set(billActions.map(d => d.bill)))
 
-        const referred = Array.from(new Set(
+        // Sorting bills by category
+        const billsReferred = Array.from(new Set(
             billActions.filter(d => d.committeeReferral).map(d => d.bill)
         ))
 
-        const beginningOfToday = new Date(updateTime).setUTCHours(7, 0, 0, 0) // 7 accounts for Montana vs GMT time
+        const billsRereferredToOtherCommittee = [] // TODO
+        // TODO - add a step here that separates out bills that have been rereferred to another committee before getting action here
+        // Needs to account for rerefers that came after a hearing has been held
+        // LOGIC: If there's a subsequent rerefer action that comes before a bill action action
+        // Also TODO - figure out how re-referred bills fit into counts
+
+
         const hearings = billActions.filter(d => d.hearing)
-        const pastHearings = hearings.filter(d => dateParse(d.date) < beginningOfToday)
-        const heard = Array.from(new Set(pastHearings.map(d => d.bill)))
-        const scheduledHearings = hearings.filter(d => dateParse(d.date) >= beginningOfToday)
+        const hearingsPast = hearings.filter(d => dateParse(d.date) < beginningOfToday)
+        const billsHeard = Array.from(new Set(hearingsPast.map(d => d.bill)))
 
-        const scheduled = Array.from(new Set(scheduledHearings.map(d => d.bill)))
-        const daysOnSchedule = Array.from(new Set(scheduledHearings.map(d => d.date)))
+        const hearingsScheduled = hearings.filter(d => dateParse(d.date) >= beginningOfToday)
+        const billsScheduled = Array.from(new Set(hearingsScheduled.map(d => d.bill)))
+        const daysOnSchedule = Array.from(new Set(hearingsScheduled.map(d => d.date)))
             .sort((a, b) => new Date(a) - new Date(b))
-
-        const scheduledByDay = daysOnSchedule.map(day => ({
+        const billsScheduledByDay = daysOnSchedule.map(day => ({
             day,
-            bills: scheduledHearings.filter(d => d.date === day).map(d => d.bill)
+            bills: hearingsScheduled.filter(d => d.date === day).map(d => d.bill)
         }))
 
-        const referredAndUnscheduled = referred.filter(d => !heard.includes(d) && !scheduled.includes(d))
+        const billsUnscheduled = billsReferred.filter(d =>
+            !billsHeard.includes(d)
+            && !billsScheduled.includes(d)
+            && !billsRereferredToOtherCommittee.includes(d)
+        )
 
         // This wrinkle is an attempt to sort out bills that ended up reconsidered
         const lastActionsByBill = bills.map(bill => {
@@ -45,12 +58,17 @@ export default class Committee {
             return actions.slice(-1)[0]
         })
 
-        const failed = lastActionsByBill.filter(d => d.failed).map(d => d.bill)
-        const advanced = lastActionsByBill.filter(d => d.advanced && !d.blasted).map(d => d.bill)
-        const blasted = Array.from(new Set(
+        const billsFailed = lastActionsByBill.filter(d => d.failed).map(d => d.bill)
+        const billsAdvanced = lastActionsByBill.filter(d => d.advanced && !d.blasted).map(d => d.bill)
+        const billsBlasted = Array.from(new Set(
             billActions.filter(d => d.blasted).map(d => d.bill)
         ))
-        const awaitingVote = heard.filter(d => !failed.includes(d) && !advanced.includes(d) && !blasted.includes(d))
+        const billsAwaitingVote = billsHeard.filter(d =>
+            !billsFailed.includes(d)
+            && !billsAdvanced.includes(d)
+            && !billsBlasted.includes(d)
+            && !billsRereferredToOtherCommittee.includes(d)
+        )
 
         const members = lawmakers.map(d => {
             const lawmaker = d.data
@@ -72,13 +90,13 @@ export default class Committee {
             type,
             bills,
             billCount: bills.length,
-            billsUnscheduled: referredAndUnscheduled,
-            billsScheduled: scheduled,
-            billsScheduledByDay: scheduledByDay,
-            billsAwaitingVote: awaitingVote,
-            billsFailed: failed,
-            billsAdvanced: advanced,
-            billsBlasted: blasted,
+            billsUnscheduled,
+            billsScheduled,
+            billsScheduledByDay,
+            billsAwaitingVote,
+            billsFailed,
+            billsAdvanced,
+            billsBlasted,
 
             members,
         }
