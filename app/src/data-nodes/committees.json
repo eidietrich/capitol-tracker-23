@@ -2303,12 +2303,21 @@
         ],
         "billCount": 11,
         "billsUnscheduled": [
-            "HB 220",
+            "HB 220"
+        ],
+        "billsScheduled": [
             "HB 394",
             "HB 395"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduledByDay": [
+            {
+                "day": "02/13/2023",
+                "bills": [
+                    "HB 394",
+                    "HB 395"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "HB 284",
             "HB 349"
