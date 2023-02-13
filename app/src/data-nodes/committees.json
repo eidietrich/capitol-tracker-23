@@ -3436,6 +3436,7 @@
             "HB 192",
             "HB 222",
             "HB 251",
+            "HB 260",
             "HB 267",
             "SB 3",
             "SB 19",
@@ -3460,10 +3461,18 @@
             "SB 168",
             "SB 182",
             "SB 183",
-            "SB 225"
+            "SB 225",
+            "SB 226",
+            "SB 227",
+            "SB 229"
         ],
-        "billCount": 33,
-        "billsUnscheduled": [],
+        "billCount": 37,
+        "billsUnscheduled": [
+            "HB 260",
+            "SB 226",
+            "SB 227",
+            "SB 229"
+        ],
         "billsScheduled": [
             "HB 28",
             "HB 185",
