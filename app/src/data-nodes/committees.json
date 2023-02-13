@@ -450,10 +450,7 @@
             "HB 405",
             "HB 423",
             "HB 444",
-            "HB 451",
-            "HB 479",
-            "HB 480",
-            "HB 488"
+            "HB 451"
         ],
         "billsScheduled": [
             "HB 385",
@@ -479,6 +476,9 @@
             "HB 464",
             "HB 471",
             "HB 474",
+            "HB 479",
+            "HB 480",
+            "HB 488",
             "HB 491"
         ],
         "billsScheduledByDay": [
@@ -533,7 +533,15 @@
                 "day": "02/20/2023",
                 "bills": [
                     "HB 452",
-                    "HB 453"
+                    "HB 453",
+                    "HB 480",
+                    "HB 488"
+                ]
+            },
+            {
+                "day": "02/21/2023",
+                "bills": [
+                    "HB 479"
                 ]
             }
         ],
@@ -3432,6 +3440,7 @@
         "type": "fiscal",
         "bills": [
             "HB 1",
+            "HB 3",
             "HB 15",
             "HB 28",
             "HB 175",
@@ -3469,8 +3478,9 @@
             "SB 227",
             "SB 229"
         ],
-        "billCount": 37,
+        "billCount": 38,
         "billsUnscheduled": [
+            "HB 3",
             "HB 260",
             "SB 226",
             "SB 227",
@@ -4540,12 +4550,12 @@
             }
         ],
         "billsAwaitingVote": [
-            "SB 141",
-            "SB 213",
-            "SB 235"
+            "SB 213"
         ],
         "billsFailed": [
-            "SB 212"
+            "SB 141",
+            "SB 212",
+            "SB 235"
         ],
         "billsAdvanced": [
             "HB 15",
