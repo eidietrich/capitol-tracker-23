@@ -1898,16 +1898,16 @@
         "billCount": 23,
         "billsUnscheduled": [
             "HB 130",
-            "HB 185",
-            "HB 438",
-            "HB 460",
-            "HB 473"
+            "HB 185"
         ],
         "billsScheduled": [
             "HB 406",
             "HB 418",
             "HB 431",
-            "HB 435"
+            "HB 435",
+            "HB 438",
+            "HB 460",
+            "HB 473"
         ],
         "billsScheduledByDay": [
             {
@@ -1921,7 +1921,15 @@
             {
                 "day": "02/15/2023",
                 "bills": [
-                    "HB 431"
+                    "HB 431",
+                    "HB 460",
+                    "HB 473"
+                ]
+            },
+            {
+                "day": "02/17/2023",
+                "bills": [
+                    "HB 438"
                 ]
             }
         ],
@@ -2740,17 +2748,22 @@
             "HB 456"
         ],
         "billCount": 17,
-        "billsUnscheduled": [
-            "HB 456"
-        ],
+        "billsUnscheduled": [],
         "billsScheduled": [
-            "HB 440"
+            "HB 440",
+            "HB 456"
         ],
         "billsScheduledByDay": [
             {
                 "day": "02/14/2023",
                 "bills": [
                     "HB 440"
+                ]
+            },
+            {
+                "day": "02/16/2023",
+                "bills": [
+                    "HB 456"
                 ]
             }
         ],
