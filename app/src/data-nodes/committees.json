@@ -4468,7 +4468,6 @@
         "billsUnscheduled": [
             "HB 79",
             "SB 9",
-            "SB 289",
             "SB 315",
             "SR 31",
             "SR 47",
@@ -4476,6 +4475,7 @@
         ],
         "billsScheduled": [
             "HB 171",
+            "SB 289",
             "SB 306",
             "SR 32",
             "SR 33"
@@ -4484,7 +4484,8 @@
             {
                 "day": "02/15/2023",
                 "bills": [
-                    "HB 171"
+                    "HB 171",
+                    "SB 289"
                 ]
             },
             {
@@ -5478,6 +5479,7 @@
         "type": "policy",
         "bills": [
             "HB 19",
+            "HB 47",
             "HB 52",
             "HB 170",
             "SB 109",
@@ -5489,8 +5491,9 @@
             "SB 316",
             "SJ 10"
         ],
-        "billCount": 11,
+        "billCount": 12,
         "billsUnscheduled": [
+            "HB 47",
             "SB 242",
             "SB 316"
         ],
