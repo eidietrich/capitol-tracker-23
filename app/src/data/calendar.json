@@ -103,6 +103,7 @@
         "HB 473",
         "HB 474",
         "HB 478",
+        "HB 491",
         "SB 28",
         "SB 107",
         "SB 127",
@@ -173,6 +174,7 @@
         "SR 30",
         "SR 38",
         "SR 40",
+        "SR 49",
         "HB 16",
         "HB 29",
         "HB 37",
@@ -1505,6 +1507,19 @@
             "hearing": true
         },
         {
+            "id": "HB491-0018",
+            "bill": "HB 491",
+            "date": "02/16/2023",
+            "description": "Hearing",
+            "posession": "house",
+            "committee": "House Judiciary",
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
             "id": "SB28-0019",
             "bill": "SB 28",
             "date": "02/13/2023",
@@ -2405,6 +2420,18 @@
             "recordings": [],
             "key": "Scheduled for 2nd Reading",
             "scheduledForFloorDebate": true
+        },
+        {
+            "id": "SR49-0020",
+            "bill": "SR 49",
+            "date": "02/14/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
         }
     ],
     "scheduledFinalVotes": [
@@ -2457,6 +2484,30 @@
             "scheduledForFinalVote": true
         },
         {
+            "id": "HB56-0031",
+            "bill": "HB 56",
+            "date": "02/14/2023",
+            "description": "Scheduled for 3rd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 3rd Reading",
+            "scheduledForFinalVote": true
+        },
+        {
+            "id": "HB65-0030",
+            "bill": "HB 65",
+            "date": "02/14/2023",
+            "description": "Scheduled for 3rd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 3rd Reading",
+            "scheduledForFinalVote": true
+        },
+        {
             "id": "HB68-0038",
             "bill": "HB 68",
             "date": "02/13/2023",
@@ -2484,6 +2535,30 @@
             "id": "HB92-0031",
             "bill": "HB 92",
             "date": "02/13/2023",
+            "description": "Scheduled for 3rd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 3rd Reading",
+            "scheduledForFinalVote": true
+        },
+        {
+            "id": "HB93-0031",
+            "bill": "HB 93",
+            "date": "02/14/2023",
+            "description": "Scheduled for 3rd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 3rd Reading",
+            "scheduledForFinalVote": true
+        },
+        {
+            "id": "HB94-0036",
+            "bill": "HB 94",
+            "date": "02/14/2023",
             "description": "Scheduled for 3rd Reading",
             "posession": "senate",
             "committee": null,
@@ -2796,6 +2871,30 @@
             "id": "SB234-0026",
             "bill": "SB 234",
             "date": "02/13/2023",
+            "description": "Scheduled for 3rd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 3rd Reading",
+            "scheduledForFinalVote": true
+        },
+        {
+            "id": "SB260-0027",
+            "bill": "SB 260",
+            "date": "02/14/2023",
+            "description": "Scheduled for 3rd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 3rd Reading",
+            "scheduledForFinalVote": true
+        },
+        {
+            "id": "SB265-0031",
+            "bill": "SB 265",
+            "date": "02/14/2023",
             "description": "Scheduled for 3rd Reading",
             "posession": "senate",
             "committee": null,
