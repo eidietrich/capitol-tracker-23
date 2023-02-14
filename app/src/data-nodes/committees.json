@@ -2119,20 +2119,27 @@
         ],
         "billCount": 25,
         "billsUnscheduled": [
-            "HB 470",
-            "HB 486",
-            "HB 489"
+            "HB 470"
         ],
         "billsScheduled": [
             "HB 439",
-            "HB 472"
+            "HB 472",
+            "HB 486",
+            "HB 489"
         ],
         "billsScheduledByDay": [
             {
                 "day": "02/15/2023",
                 "bills": [
                     "HB 439",
-                    "HB 472"
+                    "HB 472",
+                    "HB 489"
+                ]
+            },
+            {
+                "day": "02/17/2023",
+                "bills": [
+                    "HB 486"
                 ]
             }
         ],
@@ -4758,7 +4765,6 @@
             "HB 33",
             "SB 240",
             "SB 245",
-            "SB 262",
             "SB 275",
             "SB 285"
         ],
@@ -4784,7 +4790,8 @@
             "SB 220",
             "SB 225",
             "SB 226",
-            "SB 227"
+            "SB 227",
+            "SB 262"
         ],
         "billsBlasted": [],
         "members": [
