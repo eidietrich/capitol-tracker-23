@@ -809,8 +809,6 @@
         ],
         "billCount": 85,
         "billsUnscheduled": [
-            "HB 468",
-            "HB 490",
             "HB 499",
             "HB 505",
             "HB 506",
@@ -824,6 +822,8 @@
             "HB 434",
             "HB 448",
             "HB 455",
+            "HB 468",
+            "HB 490",
             "SB 107"
         ],
         "billsScheduledByDay": [
@@ -851,6 +851,13 @@
                 "bills": [
                     "HB 448",
                     "HB 455"
+                ]
+            },
+            {
+                "day": "02/21/2023",
+                "bills": [
+                    "HB 468",
+                    "HB 490"
                 ]
             }
         ],
