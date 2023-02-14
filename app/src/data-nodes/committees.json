@@ -800,16 +800,15 @@
             "SB 107"
         ],
         "billCount": 79,
-        "billsUnscheduled": [
-            "HB 455",
-            "HB 468",
-            "HB 490"
-        ],
+        "billsUnscheduled": [],
         "billsScheduled": [
             "HB 417",
             "HB 433",
             "HB 434",
             "HB 448",
+            "HB 455",
+            "HB 468",
+            "HB 490",
             "SB 107"
         ],
         "billsScheduledByDay": [
@@ -829,13 +828,16 @@
             {
                 "day": "02/16/2023",
                 "bills": [
-                    "HB 434"
+                    "HB 434",
+                    "HB 455",
+                    "HB 490"
                 ]
             },
             {
                 "day": "02/17/2023",
                 "bills": [
-                    "HB 448"
+                    "HB 448",
+                    "HB 468"
                 ]
             }
         ],
