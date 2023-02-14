@@ -92,11 +92,11 @@
             "HB 11",
             "HB 12",
             "HB 245",
-            "HB 262",
-            "HB 321"
+            "HB 262"
         ],
         "billsScheduled": [
             "HB 297",
+            "HB 321",
             "HB 362",
             "HB 377",
             "HB 462",
@@ -107,6 +107,7 @@
                 "day": "02/14/2023",
                 "bills": [
                     "HB 297",
+                    "HB 321",
                     "HB 362",
                     "HB 377"
                 ]
@@ -2568,13 +2569,23 @@
         ],
         "billCount": 18,
         "billsUnscheduled": [
+            "HB 475"
+        ],
+        "billsScheduled": [
             "HB 388",
-            "HB 475",
             "HB 487",
             "HJ 7"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduledByDay": [
+            {
+                "day": "02/16/2023",
+                "bills": [
+                    "HB 388",
+                    "HB 487",
+                    "HJ 7"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "HB 158",
             "HB 159"
