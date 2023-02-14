@@ -2609,19 +2609,26 @@
         "billsUnscheduled": [
             "HB 477",
             "HB 484",
-            "HB 492",
-            "HJ 6",
             "SB 32",
             "SB 33"
         ],
         "billsScheduled": [
-            "HB 220"
+            "HB 220",
+            "HB 492",
+            "HJ 6"
         ],
         "billsScheduledByDay": [
             {
                 "day": "02/15/2023",
                 "bills": [
                     "HB 220"
+                ]
+            },
+            {
+                "day": "02/20/2023",
+                "bills": [
+                    "HB 492",
+                    "HJ 6"
                 ]
             }
         ],
