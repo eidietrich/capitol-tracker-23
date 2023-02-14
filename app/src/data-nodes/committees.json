@@ -802,6 +802,7 @@
         ],
         "billCount": 82,
         "billsUnscheduled": [
+            "HB 455",
             "HB 499",
             "HB 505",
             "HB 506"
@@ -811,7 +812,6 @@
             "HB 433",
             "HB 434",
             "HB 448",
-            "HB 455",
             "HB 468",
             "HB 490",
             "SB 107"
@@ -834,7 +834,6 @@
                 "day": "02/16/2023",
                 "bills": [
                     "HB 434",
-                    "HB 455",
                     "HB 490"
                 ]
             },
@@ -3526,12 +3525,10 @@
             }
         ],
         "billsAwaitingVote": [
-            "HB 15",
             "HB 28",
             "HB 185",
             "HB 192",
             "SB 28",
-            "SB 182",
             "SB 225"
         ],
         "billsFailed": [
@@ -3541,6 +3538,7 @@
         ],
         "billsAdvanced": [
             "HB 1",
+            "HB 15",
             "HB 175",
             "SB 3",
             "SB 19",
@@ -3559,7 +3557,8 @@
             "SB 132",
             "SB 148",
             "SB 163",
-            "SB 168"
+            "SB 168",
+            "SB 182"
         ],
         "billsBlasted": [],
         "members": [
