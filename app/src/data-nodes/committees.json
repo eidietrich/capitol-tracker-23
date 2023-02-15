@@ -1488,9 +1488,6 @@
         "billCount": 79,
         "billsUnscheduled": [
             "HB 126",
-            "HB 527",
-            "HB 528",
-            "HB 529",
             "SJ 8"
         ],
         "billsScheduled": [
@@ -1499,6 +1496,9 @@
             "HB 495",
             "HB 510",
             "HB 511",
+            "HB 527",
+            "HB 528",
+            "HB 529",
             "SB 29",
             "SB 30",
             "SB 56",
@@ -1521,6 +1521,7 @@
             {
                 "day": "02/21/2023",
                 "bills": [
+                    "HB 527",
                     "SB 29",
                     "SB 66",
                     "SB 74"
@@ -1529,6 +1530,7 @@
             {
                 "day": "02/22/2023",
                 "bills": [
+                    "HB 529",
                     "SB 30",
                     "SB 56",
                     "SB 61"
@@ -1538,6 +1540,7 @@
                 "day": "02/23/2023",
                 "bills": [
                     "HB 510",
+                    "HB 528",
                     "SB 77",
                     "SB 86"
                 ]
@@ -5081,10 +5084,11 @@
             "SB 261",
             "SB 271",
             "SB 274",
+            "SB 316",
             "SR 44",
             "SR 45"
         ],
-        "billCount": 29,
+        "billCount": 30,
         "billsUnscheduled": [
             "HB 34",
             "HB 53",
@@ -5094,6 +5098,7 @@
             "HB 347",
             "SB 82",
             "SB 271",
+            "SB 316",
             "SR 45"
         ],
         "billsScheduled": [
@@ -5699,11 +5704,19 @@
         ],
         "billCount": 22,
         "billsUnscheduled": [
-            "SB 347",
+            "SB 347"
+        ],
+        "billsScheduled": [
             "SR 52"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduledByDay": [
+            {
+                "day": "02/23/2023",
+                "bills": [
+                    "SR 52"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "HB 100",
             "SB 52",

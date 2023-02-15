@@ -98,6 +98,9 @@
         "HB 511",
         "HB 512",
         "HB 515",
+        "HB 527",
+        "HB 528",
+        "HB 529",
         "HJ 6",
         "HJ 7",
         "SB 23",
@@ -171,6 +174,7 @@
         "SR 15",
         "SR 32",
         "SR 33",
+        "SR 52",
         "HB 225",
         "HB 268",
         "HB 280",
@@ -1415,6 +1419,45 @@
             "hearing": true
         },
         {
+            "id": "HB527-0020",
+            "bill": "HB 527",
+            "date": "02/21/2023",
+            "description": "Hearing",
+            "posession": "house",
+            "committee": "House State Administration",
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
+            "id": "HB528-0020",
+            "bill": "HB 528",
+            "date": "02/23/2023",
+            "description": "Hearing",
+            "posession": "house",
+            "committee": "House State Administration",
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
+            "id": "HB529-0018",
+            "bill": "HB 529",
+            "date": "02/22/2023",
+            "description": "Hearing",
+            "posession": "house",
+            "committee": "House State Administration",
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
             "id": "HJ6-0019",
             "bill": "HJ 6",
             "date": "02/20/2023",
@@ -2375,6 +2418,19 @@
             "key": "Hearing",
             "isMajor": true,
             "hearing": true
+        },
+        {
+            "id": "SR52-0017",
+            "bill": "SR 52",
+            "date": "02/23/2023",
+            "description": "Hearing",
+            "posession": "senate",
+            "committee": "Senate Agriculture, Livestock and Irrigation",
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
         }
     ],
     "scheduledFloorDebates": [
@@ -2487,7 +2543,7 @@
             "scheduledForFloorDebate": true
         },
         {
-            "id": "SB169-0032",
+            "id": "SB169-0031",
             "bill": "SB 169",
             "date": "02/15/2023",
             "description": "Scheduled for 2nd Reading",
