@@ -1,6 +1,77 @@
 {
     "actionsByDate": [
         {
+            "date": "02/16/2023",
+            "actions": [
+                {
+                    "id": "HB233-0022",
+                    "bill": "HB 233",
+                    "date": "02/16/2023",
+                    "description": "Taken from Table in Committee",
+                    "posession": "house",
+                    "committee": "House Judiciary",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Taken from Table in Committee",
+                    "isMajor": true,
+                    "committeeAction": true,
+                    "secondChamberAction": true,
+                    "title": "Require the refund of residential lease application fees"
+                },
+                {
+                    "id": "HB397-0023",
+                    "bill": "HB 397",
+                    "date": "02/16/2023",
+                    "description": "Committee Executive Action--Bill Passed",
+                    "posession": "house",
+                    "committee": "House Judiciary",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "title": "Allow DOJ to share SSNs with DOR in certain situations"
+                },
+                {
+                    "id": "HB425-0022",
+                    "bill": "HB 425",
+                    "date": "02/16/2023",
+                    "description": "Committee Executive Action--Bill Passed as Amended",
+                    "posession": "house",
+                    "committee": "House Judiciary",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed as Amended",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "amended": true,
+                    "title": "Generally revising laws rel. to restitution payments under the Youth Court Act"
+                },
+                {
+                    "id": "SB259-0026",
+                    "bill": "SB 259",
+                    "date": "02/16/2023",
+                    "description": "Tabled in Committee",
+                    "posession": "senate",
+                    "committee": "Senate Business, Labor, and Economic Affairs",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Tabled in Committee",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "secondChamberAction": true,
+                    "failed": true,
+                    "tabled": true,
+                    "title": "Small business tax credit for paying a livable wage"
+                }
+            ]
+        },
+        {
             "date": "02/15/2023",
             "actions": [
                 {
