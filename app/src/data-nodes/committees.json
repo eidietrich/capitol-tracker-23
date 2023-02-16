@@ -102,14 +102,14 @@
             "HB 11",
             "HB 12",
             "HB 245",
-            "HB 311",
-            "HB 381",
-            "HB 408",
             "HB 569"
         ],
         "billsScheduled": [
             "HB 225",
             "HB 268",
+            "HB 311",
+            "HB 381",
+            "HB 408",
             "HB 462",
             "HB 478"
         ],
@@ -121,6 +121,14 @@
                     "HB 268",
                     "HB 462",
                     "HB 478"
+                ]
+            },
+            {
+                "day": "02/20/2023",
+                "bills": [
+                    "HB 311",
+                    "HB 381",
+                    "HB 408"
                 ]
             }
         ],
@@ -6594,12 +6602,21 @@
         ],
         "billCount": 8,
         "billsUnscheduled": [
-            "HB 140",
-            "HB 167",
             "SR 53"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduled": [
+            "HB 140",
+            "HB 167"
+        ],
+        "billsScheduledByDay": [
+            {
+                "day": "02/20/2023",
+                "bills": [
+                    "HB 140",
+                    "HB 167"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "SB 193",
             "SB 233"
