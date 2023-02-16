@@ -176,6 +176,24 @@
                     "explanation": null
                 },
                 {
+                    "id": "HB269-0035",
+                    "bill": "HB 269",
+                    "date": "02/15/2023",
+                    "description": "Tabled in Committee",
+                    "posession": "house",
+                    "committee": "House Appropriations",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Tabled in Committee",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "secondChamberAction": true,
+                    "failed": true,
+                    "tabled": true,
+                    "title": "Establish a local disaster resiliency fund"
+                },
+                {
                     "id": "HB280-0034",
                     "bill": "HB 280",
                     "date": "02/15/2023",
@@ -5758,7 +5776,9 @@
                     "posession": "house",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46121?agendaId=251704"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
