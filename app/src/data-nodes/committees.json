@@ -2404,21 +2404,37 @@
         "billCount": 40,
         "billsUnscheduled": [
             "HB 257",
-            "HB 482",
-            "HB 501",
             "HB 502",
-            "HB 503",
             "HB 504",
             "HB 514",
             "HB 531",
-            "HB 562",
             "SB 1",
             "SB 8",
             "SB 10",
             "SB 69"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduled": [
+            "HB 482",
+            "HB 501",
+            "HB 503",
+            "HB 562"
+        ],
+        "billsScheduledByDay": [
+            {
+                "day": "02/17/2023",
+                "bills": [
+                    "HB 482",
+                    "HB 501",
+                    "HB 503"
+                ]
+            },
+            {
+                "day": "02/20/2023",
+                "bills": [
+                    "HB 562"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "HB 259",
             "HB 332",
