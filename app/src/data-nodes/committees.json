@@ -4912,14 +4912,18 @@
             "SB 335",
             "SB 336",
             "SB 343",
-            "SB 358"
+            "SB 358",
+            "SB 374",
+            "SB 376"
         ],
-        "billCount": 44,
+        "billCount": 46,
         "billsUnscheduled": [
             "HB 35",
             "HB 198",
             "HB 283",
-            "SB 343"
+            "SB 343",
+            "SB 374",
+            "SB 376"
         ],
         "billsScheduled": [
             "SB 268",
@@ -5571,7 +5575,6 @@
         ],
         "billsAwaitingVote": [
             "SB 156",
-            "SR 4",
             "SR 5"
         ],
         "billsFailed": [
@@ -5610,6 +5613,7 @@
             "SJ 4",
             "SJ 7",
             "SJ 8",
+            "SR 4",
             "SR 49"
         ],
         "billsBlasted": [],
@@ -5700,6 +5704,7 @@
             "SB 203",
             "SB 217",
             "SB 347",
+            "SB 375",
             "SJ 9",
             "SJ 13",
             "SR 26",
@@ -5707,9 +5712,10 @@
             "SR 28",
             "SR 52"
         ],
-        "billCount": 23,
+        "billCount": 24,
         "billsUnscheduled": [
             "SB 347",
+            "SB 375",
             "SJ 13"
         ],
         "billsScheduled": [
