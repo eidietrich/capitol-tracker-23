@@ -491,8 +491,8 @@
             "HB 444",
             "HB 451",
             "HB 479",
-            "HB 516",
             "HB 517",
+            "HB 541",
             "HB 551",
             "HB 590",
             "SB 12",
@@ -513,11 +513,11 @@
             "HB 491",
             "HB 500",
             "HB 512",
+            "HB 516",
             "HB 518",
             "HB 519",
             "HB 525",
             "HB 532",
-            "HB 541",
             "HB 544",
             "HB 552",
             "HB 555",
@@ -576,7 +576,6 @@
                 "day": "02/22/2023",
                 "bills": [
                     "HB 519",
-                    "HB 541",
                     "HB 544",
                     "HB 552",
                     "HB 555",
@@ -587,6 +586,7 @@
             {
                 "day": "02/23/2023",
                 "bills": [
+                    "HB 516",
                     "HB 564",
                     "HB 565",
                     "HB 575",
@@ -3123,11 +3123,6 @@
         ],
         "billCount": 27,
         "billsUnscheduled": [
-            "HB 522",
-            "HB 547",
-            "HB 548",
-            "HB 593",
-            "HB 596",
             "SB 58",
             "SB 76",
             "SB 84",
@@ -3135,13 +3130,28 @@
             "SB 88"
         ],
         "billsScheduled": [
-            "HB 456"
+            "HB 456",
+            "HB 522",
+            "HB 547",
+            "HB 548",
+            "HB 593",
+            "HB 596"
         ],
         "billsScheduledByDay": [
             {
                 "day": "02/16/2023",
                 "bills": [
                     "HB 456"
+                ]
+            },
+            {
+                "day": "02/21/2023",
+                "bills": [
+                    "HB 522",
+                    "HB 547",
+                    "HB 548",
+                    "HB 593",
+                    "HB 596"
                 ]
             }
         ],
@@ -3512,13 +3522,27 @@
             "SB 128"
         ],
         "billCount": 10,
-        "billsUnscheduled": [
+        "billsUnscheduled": [],
+        "billsScheduled": [
             "HB 580",
             "HB 585",
             "SB 128"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduledByDay": [
+            {
+                "day": "02/22/2023",
+                "bills": [
+                    "HB 580",
+                    "SB 128"
+                ]
+            },
+            {
+                "day": "02/23/2023",
+                "bills": [
+                    "HB 585"
+                ]
+            }
+        ],
         "billsAwaitingVote": [],
         "billsFailed": [],
         "billsAdvanced": [
