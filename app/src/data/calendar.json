@@ -78,6 +78,7 @@
         "HB 523",
         "HB 524",
         "HB 525",
+        "HB 526",
         "HB 527",
         "HB 528",
         "HB 529",
@@ -88,7 +89,10 @@
         "HB 537",
         "HB 539",
         "HB 541",
+        "HB 542",
+        "HB 543",
         "HB 544",
+        "HB 546",
         "HB 547",
         "HB 548",
         "HB 549",
@@ -1101,6 +1105,19 @@
             "hearing": true
         },
         {
+            "id": "HB526-0022",
+            "bill": "HB 526",
+            "date": "02/23/2023",
+            "description": "Hearing",
+            "posession": "house",
+            "committee": "House Taxation",
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
             "id": "HB527-0020",
             "bill": "HB 527",
             "date": "02/27/2023",
@@ -1231,12 +1248,51 @@
             "hearing": true
         },
         {
+            "id": "HB542-0020",
+            "bill": "HB 542",
+            "date": "02/24/2023",
+            "description": "Hearing",
+            "posession": "house",
+            "committee": "House Taxation",
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
+            "id": "HB543-0019",
+            "bill": "HB 543",
+            "date": "02/23/2023",
+            "description": "Hearing",
+            "posession": "house",
+            "committee": "House Taxation",
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
             "id": "HB544-0018",
             "bill": "HB 544",
             "date": "02/22/2023",
             "description": "Hearing",
             "posession": "house",
             "committee": "House Judiciary",
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
+            "id": "HB546-0019",
+            "bill": "HB 546",
+            "date": "02/24/2023",
+            "description": "Hearing",
+            "posession": "house",
+            "committee": "House Taxation",
             "actionUrl": null,
             "recordings": [],
             "key": "Hearing",
@@ -2948,7 +3004,7 @@
             "scheduledForFloorDebate": true
         },
         {
-            "id": "HB28-0044",
+            "id": "HB28-0045",
             "bill": "HB 28",
             "date": "02/17/2023",
             "description": "Scheduled for 2nd Reading",
@@ -2972,7 +3028,7 @@
             "scheduledForFloorDebate": true
         },
         {
-            "id": "HB150-0028",
+            "id": "HB150-0029",
             "bill": "HB 150",
             "date": "02/17/2023",
             "description": "Scheduled for 2nd Reading",
@@ -3116,7 +3172,7 @@
             "scheduledForFloorDebate": true
         },
         {
-            "id": "SB262-0027",
+            "id": "SB262-0028",
             "bill": "SB 262",
             "date": "02/17/2023",
             "description": "Scheduled for 2nd Reading",
