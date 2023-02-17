@@ -2179,6 +2179,7 @@
             "HB 586",
             "HB 592",
             "HB 641",
+            "HB 642",
             "HJ 4",
             "SB 17",
             "SB 39",
@@ -2190,10 +2191,11 @@
             "SB 83",
             "SB 207"
         ],
-        "billCount": 41,
+        "billCount": 42,
         "billsUnscheduled": [
             "HB 130",
             "HB 185",
+            "HB 642",
             "SB 17",
             "SB 39",
             "SB 42",
@@ -5649,7 +5651,6 @@
         "billsAwaitingVote": [
             "HB 116",
             "HB 147",
-            "HB 200",
             "HB 286",
             "SB 150",
             "SB 180",
@@ -5672,6 +5673,7 @@
         "billsAdvanced": [
             "HB 39",
             "HB 102",
+            "HB 200",
             "SB 4",
             "SB 34",
             "SB 36",
@@ -5890,8 +5892,7 @@
             }
         ],
         "billsAwaitingVote": [
-            "SB 156",
-            "SR 5"
+            "SB 156"
         ],
         "billsFailed": [
             "SB 25",
@@ -5930,6 +5931,7 @@
             "SJ 7",
             "SJ 8",
             "SR 4",
+            "SR 5",
             "SR 49"
         ],
         "billsBlasted": [],
