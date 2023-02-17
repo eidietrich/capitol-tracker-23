@@ -4224,8 +4224,7 @@
             "HB 326",
             "SB 216",
             "SB 257",
-            "SB 276",
-            "SB 377"
+            "SB 276"
         ],
         "billsScheduled": [
             "SB 307",
@@ -4238,6 +4237,7 @@
             "SB 363",
             "SB 368",
             "SB 372",
+            "SB 377",
             "SJ 11"
         ],
         "billsScheduledByDay": [
@@ -4269,7 +4269,8 @@
             {
                 "day": "02/23/2023",
                 "bills": [
-                    "SB 372"
+                    "SB 372",
+                    "SB 377"
                 ]
             }
         ],
@@ -5888,19 +5889,19 @@
             "HB 273",
             "SB 185",
             "SB 207",
-            "SB 232",
             "SB 248",
             "SB 290",
+            "SB 385"
+        ],
+        "billsScheduled": [
+            "SB 232",
+            "SB 302",
+            "SB 322",
             "SB 338",
             "SB 341",
             "SB 348",
             "SB 367",
-            "SB 385",
             "SB 391"
-        ],
-        "billsScheduled": [
-            "SB 302",
-            "SB 322"
         ],
         "billsScheduledByDay": [
             {
@@ -5908,6 +5909,22 @@
                 "bills": [
                     "SB 302",
                     "SB 322"
+                ]
+            },
+            {
+                "day": "02/22/2023",
+                "bills": [
+                    "SB 232",
+                    "SB 338",
+                    "SB 341"
+                ]
+            },
+            {
+                "day": "02/24/2023",
+                "bills": [
+                    "SB 348",
+                    "SB 367",
+                    "SB 391"
                 ]
             }
         ],
@@ -6328,19 +6345,20 @@
         "billsUnscheduled": [
             "HB 131",
             "SB 354",
-            "SB 357",
             "SB 388",
             "SR 2"
         ],
         "billsScheduled": [
             "SB 324",
             "SB 356",
+            "SB 357",
             "SR 3"
         ],
         "billsScheduledByDay": [
             {
                 "day": "02/21/2023",
                 "bills": [
+                    "SB 357",
                     "SR 3"
                 ]
             },
