@@ -2891,13 +2891,21 @@
         ],
         "billCount": 21,
         "billsUnscheduled": [
-            "HB 475",
             "SB 37",
             "SB 71",
             "SB 78"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduled": [
+            "HB 475"
+        ],
+        "billsScheduledByDay": [
+            {
+                "day": "02/21/2023",
+                "bills": [
+                    "HB 475"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "HB 388",
             "HB 487"
@@ -4498,7 +4506,6 @@
             "HB 155",
             "HB 228",
             "SB 243",
-            "SB 264",
             "SB 269",
             "SB 276",
             "SB 283"
@@ -4566,6 +4573,7 @@
             "SB 244",
             "SB 260",
             "SB 263",
+            "SB 264",
             "SB 270",
             "SB 312",
             "SB 314",
@@ -5157,8 +5165,6 @@
             "HB 33",
             "SB 240",
             "SB 245",
-            "SB 275",
-            "SB 285",
             "SB 317",
             "SB 319"
         ],
@@ -5185,7 +5191,9 @@
             "SB 225",
             "SB 226",
             "SB 227",
-            "SB 262"
+            "SB 262",
+            "SB 275",
+            "SB 285"
         ],
         "billsBlasted": [],
         "members": [
