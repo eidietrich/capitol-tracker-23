@@ -469,6 +469,8 @@
             "HJ 1",
             "SB 7",
             "SB 12",
+            "SB 13",
+            "SB 19",
             "SB 89",
             "SB 91",
             "SB 134",
@@ -476,7 +478,7 @@
             "SB 136",
             "SB 191"
         ],
-        "billCount": 119,
+        "billCount": 121,
         "billsUnscheduled": [
             "HB 38",
             "HB 197",
@@ -490,6 +492,8 @@
             "HB 517",
             "HB 551",
             "SB 12",
+            "SB 13",
+            "SB 19",
             "SB 89"
         ],
         "billsScheduled": [
@@ -589,13 +593,8 @@
             "HB 373",
             "HB 385",
             "HB 399",
-            "HB 404",
-            "HB 419",
             "HB 426",
-            "HB 432",
-            "HB 436",
-            "HB 443",
-            "HB 491"
+            "HB 432"
         ],
         "billsFailed": [
             "HB 57",
@@ -610,6 +609,7 @@
             "HB 330",
             "HB 340",
             "HB 354",
+            "HB 404",
             "HB 414",
             "HB 415",
             "HB 428",
@@ -658,8 +658,12 @@
             "HB 397",
             "HB 398",
             "HB 410",
+            "HB 419",
             "HB 425",
+            "HB 436",
             "HB 437",
+            "HB 443",
+            "HB 491",
             "HJ 1",
             "SB 7",
             "SB 91",
@@ -881,19 +885,27 @@
             "HB 590",
             "HB 591",
             "SB 20",
+            "SB 21",
             "SB 35",
+            "SB 53",
             "SB 59",
             "SB 63",
             "SB 75",
             "SB 80",
+            "SB 100",
+            "SB 101",
             "SB 102",
             "SB 107"
         ],
-        "billCount": 95,
+        "billCount": 99,
         "billsUnscheduled": [
             "HB 568",
             "HB 574",
-            "HB 590"
+            "HB 590",
+            "SB 21",
+            "SB 53",
+            "SB 100",
+            "SB 101"
         ],
         "billsScheduled": [
             "HB 448",
@@ -1556,6 +1568,8 @@
             "SB 29",
             "SB 30",
             "SB 40",
+            "SB 50",
+            "SB 51",
             "SB 56",
             "SB 61",
             "SB 66",
@@ -1565,7 +1579,7 @@
             "SJ 4",
             "SJ 8"
         ],
-        "billCount": 84,
+        "billCount": 86,
         "billsUnscheduled": [
             "HB 126",
             "HB 536",
@@ -1574,6 +1588,8 @@
             "HB 573",
             "HB 577",
             "HB 583",
+            "SB 50",
+            "SB 51",
             "SJ 8"
         ],
         "billsScheduled": [
@@ -2165,18 +2181,28 @@
             "HB 641",
             "HJ 4",
             "SB 17",
+            "SB 39",
+            "SB 42",
             "SB 43",
             "SB 48",
+            "SB 49",
+            "SB 55",
+            "SB 83",
             "SB 207"
         ],
-        "billCount": 36,
+        "billCount": 41,
         "billsUnscheduled": [
             "HB 130",
             "HB 185",
             "HB 641",
             "SB 17",
+            "SB 39",
+            "SB 42",
             "SB 43",
-            "SB 48"
+            "SB 48",
+            "SB 49",
+            "SB 55",
+            "SB 83"
         ],
         "billsScheduled": [
             "HB 438",
@@ -2368,10 +2394,19 @@
             "HB 470",
             "HB 472",
             "HB 486",
-            "HB 489"
+            "HB 489",
+            "SB 57",
+            "SB 108",
+            "SB 111",
+            "SB 120"
         ],
-        "billCount": 25,
-        "billsUnscheduled": [],
+        "billCount": 29,
+        "billsUnscheduled": [
+            "SB 57",
+            "SB 108",
+            "SB 111",
+            "SB 120"
+        ],
         "billsScheduled": [
             "HB 470",
             "HB 486"
@@ -2570,9 +2605,10 @@
             "SB 8",
             "SB 10",
             "SB 69",
+            "SB 70",
             "SB 129"
         ],
-        "billCount": 46,
+        "billCount": 47,
         "billsUnscheduled": [
             "HB 257",
             "HB 502",
@@ -2586,7 +2622,8 @@
             "SB 1",
             "SB 8",
             "SB 10",
-            "SB 69"
+            "SB 69",
+            "SB 70"
         ],
         "billsScheduled": [
             "HB 482",
