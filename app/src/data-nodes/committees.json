@@ -589,7 +589,6 @@
             }
         ],
         "billsAwaitingVote": [
-            "HB 322",
             "HB 373",
             "HB 385",
             "HB 399",
@@ -649,6 +648,7 @@
             "HB 296",
             "HB 301",
             "HB 303",
+            "HB 322",
             "HB 326",
             "HB 356",
             "HB 359",
@@ -939,7 +939,8 @@
                 "bills": [
                     "HB 468",
                     "HB 490",
-                    "HB 499"
+                    "HB 499",
+                    "HB 572"
                 ]
             },
             {
@@ -964,7 +965,6 @@
                 "day": "02/24/2023",
                 "bills": [
                     "HB 539",
-                    "HB 572",
                     "HB 578",
                     "HB 579"
                 ]
@@ -2194,7 +2194,6 @@
         "billsUnscheduled": [
             "HB 130",
             "HB 185",
-            "HB 641",
             "SB 17",
             "SB 39",
             "SB 42",
@@ -2214,6 +2213,7 @@
             "HB 581",
             "HB 586",
             "HB 592",
+            "HB 641",
             "SB 207"
         ],
         "billsScheduledByDay": [
@@ -2230,7 +2230,8 @@
                 "bills": [
                     "HB 520",
                     "HB 561",
-                    "HB 581"
+                    "HB 581",
+                    "HB 641"
                 ]
             },
             {
@@ -2398,14 +2399,20 @@
             "SB 57",
             "SB 108",
             "SB 111",
-            "SB 120"
+            "SB 120",
+            "SB 144",
+            "SB 221",
+            "SB 234"
         ],
-        "billCount": 29,
+        "billCount": 32,
         "billsUnscheduled": [
             "SB 57",
             "SB 108",
             "SB 111",
-            "SB 120"
+            "SB 120",
+            "SB 144",
+            "SB 221",
+            "SB 234"
         ],
         "billsScheduled": [
             "HB 470",
@@ -2964,13 +2971,15 @@
             "HJ 7",
             "SB 37",
             "SB 71",
-            "SB 78"
+            "SB 78",
+            "SB 202"
         ],
-        "billCount": 21,
+        "billCount": 22,
         "billsUnscheduled": [
             "SB 37",
             "SB 71",
-            "SB 78"
+            "SB 78",
+            "SB 202"
         ],
         "billsScheduled": [
             "HB 475"
@@ -3383,11 +3392,17 @@
             "SB 98",
             "SB 103",
             "SB 130",
-            "SB 131"
+            "SB 131",
+            "SB 142",
+            "SB 143",
+            "SB 152"
         ],
-        "billCount": 33,
+        "billCount": 36,
         "billsUnscheduled": [
-            "HB 262"
+            "HB 262",
+            "SB 142",
+            "SB 143",
+            "SB 152"
         ],
         "billsScheduled": [
             "HB 465",
@@ -3565,10 +3580,13 @@
             "HB 271",
             "HB 580",
             "HB 585",
-            "SB 128"
+            "SB 128",
+            "SB 176"
         ],
-        "billCount": 10,
-        "billsUnscheduled": [],
+        "billCount": 11,
+        "billsUnscheduled": [
+            "SB 176"
+        ],
         "billsScheduled": [
             "HB 580",
             "HB 585",
@@ -5579,11 +5597,17 @@
         "billCount": 71,
         "billsUnscheduled": [
             "HB 171",
-            "HB 218",
             "SB 39",
             "SB 48",
             "SB 99",
             "SB 241",
+            "SJ 6"
+        ],
+        "billsScheduled": [
+            "HB 218",
+            "SB 296",
+            "SB 300",
+            "SB 308",
             "SB 328",
             "SB 329",
             "SB 334",
@@ -5591,13 +5615,7 @@
             "SB 345",
             "SB 352",
             "SB 364",
-            "SB 369",
-            "SJ 6"
-        ],
-        "billsScheduled": [
-            "SB 296",
-            "SB 300",
-            "SB 308"
+            "SB 369"
         ],
         "billsScheduledByDay": [
             {
@@ -5608,9 +5626,23 @@
                 ]
             },
             {
+                "day": "02/20/2023",
+                "bills": [
+                    "HB 218",
+                    "SB 328",
+                    "SB 329",
+                    "SB 334",
+                    "SB 339"
+                ]
+            },
+            {
                 "day": "02/22/2023",
                 "bills": [
-                    "SB 308"
+                    "SB 308",
+                    "SB 345",
+                    "SB 352",
+                    "SB 364",
+                    "SB 369"
                 ]
             }
         ],
@@ -6438,16 +6470,17 @@
             "HB 129",
             "HB 179",
             "HB 184",
-            "HB 344",
-            "SB 342"
+            "HB 344"
         ],
         "billsScheduled": [
+            "SB 342",
             "SB 344"
         ],
         "billsScheduledByDay": [
             {
                 "day": "02/21/2023",
                 "bills": [
+                    "SB 342",
                     "SB 344"
                 ]
             }
@@ -6455,8 +6488,7 @@
         "billsAwaitingVote": [
             "HB 26",
             "HB 27",
-            "SB 288",
-            "SB 309"
+            "SB 288"
         ],
         "billsFailed": [
             "SB 137"
@@ -6468,7 +6500,8 @@
             "SB 111",
             "SB 144",
             "SB 221",
-            "SB 234"
+            "SB 234",
+            "SB 309"
         ],
         "billsBlasted": [
             "SB 120"
