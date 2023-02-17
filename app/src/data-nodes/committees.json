@@ -2740,23 +2740,25 @@
             "HB 484",
             "HB 492",
             "HB 524",
+            "HB 527",
             "HB 558",
             "HJ 3",
             "HJ 6",
             "SB 32",
             "SB 33"
         ],
-        "billCount": 19,
+        "billCount": 20,
         "billsUnscheduled": [
             "HB 477",
-            "HB 484",
-            "HB 524",
-            "HB 558",
+            "HB 527",
             "SB 32",
             "SB 33"
         ],
         "billsScheduled": [
+            "HB 484",
             "HB 492",
+            "HB 524",
+            "HB 558",
             "HJ 6"
         ],
         "billsScheduledByDay": [
@@ -2765,6 +2767,14 @@
                 "bills": [
                     "HB 492",
                     "HJ 6"
+                ]
+            },
+            {
+                "day": "02/22/2023",
+                "bills": [
+                    "HB 484",
+                    "HB 524",
+                    "HB 558"
                 ]
             }
         ],
