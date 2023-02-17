@@ -2771,29 +2771,32 @@
         ],
         "billCount": 20,
         "billsUnscheduled": [
-            "HB 477",
-            "HB 492",
             "HB 527",
-            "HB 558",
             "SB 32",
             "SB 33"
         ],
         "billsScheduled": [
+            "HB 477",
             "HB 484",
+            "HB 492",
             "HB 524",
+            "HB 558",
             "HJ 6"
         ],
         "billsScheduledByDay": [
             {
                 "day": "02/20/2023",
                 "bills": [
+                    "HB 558",
                     "HJ 6"
                 ]
             },
             {
                 "day": "02/22/2023",
                 "bills": [
+                    "HB 477",
                     "HB 484",
+                    "HB 492",
                     "HB 524"
                 ]
             }
