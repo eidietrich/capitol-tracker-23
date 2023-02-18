@@ -6119,12 +6119,12 @@
         "billCount": 14,
         "billsUnscheduled": [
             "SB 242",
-            "SB 316",
-            "SB 387"
+            "SB 316"
         ],
         "billsScheduled": [
             "HB 47",
-            "SB 353"
+            "SB 353",
+            "SB 387"
         ],
         "billsScheduledByDay": [
             {
@@ -6132,6 +6132,13 @@
                 "bills": [
                     "HB 47",
                     "SB 353"
+                ]
+            },
+            {
+                "day": "02/23/2023",
+                "bills": [
+                    "SB 353",
+                    "SB 387"
                 ]
             }
         ],
