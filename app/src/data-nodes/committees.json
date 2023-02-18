@@ -3885,13 +3885,22 @@
             "SB 229"
         ],
         "billCount": 40,
-        "billsUnscheduled": [
+        "billsUnscheduled": [],
+        "billsScheduled": [
             "HB 212",
             "HB 221",
             "HB 260"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduledByDay": [
+            {
+                "day": "02/21/2023",
+                "bills": [
+                    "HB 212",
+                    "HB 221",
+                    "HB 260"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "HB 3",
             "HB 185",
