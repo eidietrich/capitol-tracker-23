@@ -4780,11 +4780,19 @@
             "SB 28",
             "SB 118",
             "SB 192",
-            "SB 273",
+            "SB 273"
+        ],
+        "billsScheduled": [
             "SB 362"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduledByDay": [
+            {
+                "day": "02/21/2023",
+                "bills": [
+                    "SB 362"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "SB 104",
             "SB 110",
