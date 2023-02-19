@@ -5998,14 +5998,20 @@
         ],
         "billCount": 24,
         "billsUnscheduled": [
-            "SB 347",
             "SB 375",
             "SJ 13"
         ],
         "billsScheduled": [
+            "SB 347",
             "SR 52"
         ],
         "billsScheduledByDay": [
+            {
+                "day": "02/21/2023",
+                "bills": [
+                    "SB 347"
+                ]
+            },
             {
                 "day": "02/23/2023",
                 "bills": [
