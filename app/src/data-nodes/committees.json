@@ -4051,13 +4051,12 @@
             "SB 229"
         ],
         "billCount": 41,
-        "billsUnscheduled": [
-            "SB 186"
-        ],
+        "billsUnscheduled": [],
         "billsScheduled": [
             "HB 212",
             "HB 221",
-            "HB 260"
+            "HB 260",
+            "SB 186"
         ],
         "billsScheduledByDay": [
             {
@@ -4065,7 +4064,8 @@
                 "bills": [
                     "HB 212",
                     "HB 221",
-                    "HB 260"
+                    "HB 260",
+                    "SB 186"
                 ]
             }
         ],
