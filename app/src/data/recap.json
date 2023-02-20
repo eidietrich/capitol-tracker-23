@@ -4,6 +4,23 @@
             "date": "02/20/2023",
             "actions": [
                 {
+                    "id": "HB385-0025",
+                    "bill": "HB 385",
+                    "date": "02/20/2023",
+                    "description": "Committee Executive Action--Bill Passed as Amended",
+                    "posession": "house",
+                    "committee": "House Judiciary",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed as Amended",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "amended": true,
+                    "title": "Require evidence discovery in CPS cases"
+                },
+                {
                     "id": "HB399-0019",
                     "bill": "HB 399",
                     "date": "02/20/2023",
@@ -121,6 +138,25 @@
                     "committeeAction": true,
                     "advanced": true,
                     "title": "Revise background checks for employees with federal tax information"
+                },
+                {
+                    "id": "SB82-0016",
+                    "bill": "SB 82",
+                    "date": "02/20/2023",
+                    "description": "Tabled in Committee",
+                    "posession": "senate",
+                    "committee": "Senate Natural Resources",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Tabled in Committee",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "secondChamberAction": true,
+                    "failed": true,
+                    "tabled": true,
+                    "title": "Increase public water supply connection fees",
+                    "explanation": null
                 },
                 {
                     "id": "SB186-0040",
