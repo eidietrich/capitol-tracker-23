@@ -162,7 +162,6 @@
         "SB 74",
         "SB 75",
         "SB 77",
-        "SB 86",
         "SB 120",
         "SB 121",
         "SB 124",
@@ -198,6 +197,7 @@
         "SB 347",
         "SB 348",
         "SB 349",
+        "SB 351",
         "SB 352",
         "SB 353",
         "SB 354",
@@ -224,6 +224,7 @@
         "SB 378",
         "SB 381",
         "SB 382",
+        "SB 384",
         "SB 387",
         "SB 388",
         "SB 389",
@@ -238,6 +239,7 @@
         "SB 405",
         "SB 406",
         "SB 407",
+        "SB 409",
         "SJ 12",
         "SR 3",
         "SR 32",
@@ -2300,19 +2302,6 @@
             "hearing": true
         },
         {
-            "id": "SB86-0024",
-            "bill": "SB 86",
-            "date": "02/23/2023",
-            "description": "Hearing",
-            "posession": "house",
-            "committee": "House State Administration",
-            "actionUrl": null,
-            "recordings": [],
-            "key": "Hearing",
-            "isMajor": true,
-            "hearing": true
-        },
-        {
             "id": "SB120-0034",
             "bill": "SB 120",
             "date": "02/22/2023",
@@ -2781,6 +2770,19 @@
             "hearing": true
         },
         {
+            "id": "SB351-0024",
+            "bill": "SB 351",
+            "date": "02/24/2023",
+            "description": "Hearing",
+            "posession": "senate",
+            "committee": "Senate Business, Labor, and Economic Affairs",
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
             "id": "SB352-0019",
             "bill": "SB 352",
             "date": "02/22/2023",
@@ -3119,6 +3121,19 @@
             "hearing": true
         },
         {
+            "id": "SB384-0022",
+            "bill": "SB 384",
+            "date": "02/24/2023",
+            "description": "Hearing",
+            "posession": "senate",
+            "committee": "Senate Business, Labor, and Economic Affairs",
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
             "id": "SB387-0018",
             "bill": "SB 387",
             "date": "02/23/2023",
@@ -3290,6 +3305,19 @@
         {
             "id": "SB407-0019",
             "bill": "SB 407",
+            "date": "02/24/2023",
+            "description": "Hearing",
+            "posession": "senate",
+            "committee": "Senate Local Government",
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
+            "id": "SB409-0019",
+            "bill": "SB 409",
             "date": "02/24/2023",
             "description": "Hearing",
             "posession": "senate",
