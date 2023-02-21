@@ -157,6 +157,7 @@
         "HB 662",
         "HB 663",
         "HB 664",
+        "HB 665",
         "HB 669",
         "HB 671",
         "HB 672",
@@ -247,6 +248,7 @@
         "SB 407",
         "SB 409",
         "SB 411",
+        "SB 426",
         "SJ 12",
         "SR 3",
         "SR 32",
@@ -2244,6 +2246,19 @@
             "hearing": true
         },
         {
+            "id": "HB665-0019",
+            "bill": "HB 665",
+            "date": "02/22/2023",
+            "description": "Hearing",
+            "posession": "house",
+            "committee": "House Human Services",
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
             "id": "HB669-0020",
             "bill": "HB 669",
             "date": "02/23/2023",
@@ -3427,6 +3442,19 @@
             "hearing": true
         },
         {
+            "id": "SB426-0021",
+            "bill": "SB 426",
+            "date": "02/22/2023",
+            "description": "Hearing",
+            "posession": "senate",
+            "committee": "Senate Natural Resources",
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
             "id": "SJ12-0021",
             "bill": "SJ 12",
             "date": "02/23/2023",
@@ -3724,7 +3752,7 @@
             "scheduledForFloorDebate": true
         },
         {
-            "id": "SB182-0035",
+            "id": "SB182-0036",
             "bill": "SB 182",
             "date": "02/21/2023",
             "description": "Scheduled for 2nd Reading",
