@@ -4180,12 +4180,20 @@
             "SB 417"
         ],
         "billCount": 43,
-        "billsUnscheduled": [
+        "billsUnscheduled": [],
+        "billsScheduled": [
             "SB 224",
             "SB 417"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduledByDay": [
+            {
+                "day": "02/24/2023",
+                "bills": [
+                    "SB 224",
+                    "SB 417"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "HB 192",
             "HB 212",
