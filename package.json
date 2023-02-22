@@ -8,7 +8,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "data:refresh": "sh refresh-inputs.sh",
     "data:process": "node process/main.js",
-    "sync": "git pull -X theirs --no-edit && git push"
+    "sync": "git pull -X theirs --no-edit && git push",
+    "build": "(cd app && npm run build)"
   },
   "keywords": [],
   "author": "",

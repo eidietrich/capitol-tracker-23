@@ -83,6 +83,7 @@ export const LAWMAKER_NAME_CLEANING = {
     'Margaret (Margie) MacDonald': 'Margie MacDonald',
     'Sands, Diane': 'Diane Sands',
     'Abbott, Kim': 'Kim Abbott',
+    'bbott, Kim': 'Kim Abbott',
     'Farris-Olsen, Robert': 'Robert Farris-Olsen',
     'Keogh, Connie': 'Connie Keogh',
     'Redfield, Alan': 'Alan Redfield',

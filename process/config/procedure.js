@@ -204,6 +204,7 @@ export const ACTIONS = [
     { key: 'Committee Executive Action--Bill Passed', isMajor, isHighlight, committeeAction, advanced },
     { key: 'Committee Executive Action--Bill Passed as Amended', isMajor, isHighlight, committeeAction, advanced, amended },
     { key: 'Committee Executive Action--Bill Not Passed', isMajor, isHighlight, committeeAction, failed },
+    { key: 'Committee Executive Action--Bill Not Passed as Amended', isMajor, isHighlight, committeeAction, failed },
     // second chamber committee actions
     { key: 'Committee Executive Action--Bill Concurred', isMajor, isHighlight, committeeAction, advanced, },
     { key: 'Committee Executive Action--Bill Concurred as Amended', isMajor, isHighlight, committeeAction, advanced, amended },

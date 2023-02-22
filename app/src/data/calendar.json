@@ -102,7 +102,6 @@
         "HB 594",
         "HB 595",
         "HB 596",
-        "HB 597",
         "HB 598",
         "HB 599",
         "HB 600",
@@ -174,7 +173,6 @@
         "SB 120",
         "SB 121",
         "SB 124",
-        "SB 128",
         "SB 144",
         "SB 186",
         "SB 232",
@@ -231,6 +229,7 @@
         "SB 378",
         "SB 381",
         "SB 382",
+        "SB 383",
         "SB 384",
         "SB 387",
         "SB 388",
@@ -246,9 +245,12 @@
         "SB 405",
         "SB 406",
         "SB 407",
+        "SB 408",
         "SB 409",
         "SB 411",
         "SB 426",
+        "SB 427",
+        "SB 442",
         "SJ 12",
         "SR 3",
         "SR 32",
@@ -1531,19 +1533,6 @@
             "hearing": true
         },
         {
-            "id": "HB597-0034",
-            "bill": "HB 597",
-            "date": "02/22/2023",
-            "description": "Hearing",
-            "posession": "house",
-            "committee": "House Judiciary",
-            "actionUrl": null,
-            "recordings": [],
-            "key": "Hearing",
-            "isMajor": true,
-            "hearing": true
-        },
-        {
             "id": "HB598-0017",
             "bill": "HB 598",
             "date": "02/27/2023",
@@ -2467,19 +2456,6 @@
             "hearing": true
         },
         {
-            "id": "SB128-0030",
-            "bill": "SB 128",
-            "date": "02/22/2023",
-            "description": "Hearing",
-            "posession": "house",
-            "committee": "House Legislative Administration",
-            "actionUrl": null,
-            "recordings": [],
-            "key": "Hearing",
-            "isMajor": true,
-            "hearing": true
-        },
-        {
             "id": "SB144-0027",
             "bill": "SB 144",
             "date": "02/22/2023",
@@ -3221,6 +3197,19 @@
             "hearing": true
         },
         {
+            "id": "SB383-0023",
+            "bill": "SB 383",
+            "date": "02/24/2023",
+            "description": "Hearing",
+            "posession": "senate",
+            "committee": "Senate Natural Resources",
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
             "id": "SB384-0022",
             "bill": "SB 384",
             "date": "02/24/2023",
@@ -3416,6 +3405,19 @@
             "hearing": true
         },
         {
+            "id": "SB408-0031",
+            "bill": "SB 408",
+            "date": "02/23/2023",
+            "description": "Hearing",
+            "posession": "senate",
+            "committee": "Senate Taxation",
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
             "id": "SB409-0019",
             "bill": "SB 409",
             "date": "02/24/2023",
@@ -3448,6 +3450,32 @@
             "description": "Hearing",
             "posession": "senate",
             "committee": "Senate Natural Resources",
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
+            "id": "SB427-0023",
+            "bill": "SB 427",
+            "date": "02/23/2023",
+            "description": "Hearing",
+            "posession": "senate",
+            "committee": "Senate Taxation",
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
+            "id": "SB442-0018",
+            "bill": "SB 442",
+            "date": "02/23/2023",
+            "description": "Hearing",
+            "posession": "senate",
+            "committee": "Senate Taxation",
             "actionUrl": null,
             "recordings": [],
             "key": "Hearing",
@@ -3862,18 +3890,6 @@
             "scheduledForFinalVote": true
         },
         {
-            "id": "HB21-0034",
-            "bill": "HB 21",
-            "date": "02/21/2023",
-            "description": "Scheduled for 3rd Reading",
-            "posession": "house",
-            "committee": null,
-            "actionUrl": null,
-            "recordings": [],
-            "key": "Scheduled for 3rd Reading",
-            "scheduledForFinalVote": true
-        },
-        {
             "id": "HB86-0039",
             "bill": "HB 86",
             "date": "02/21/2023",
@@ -3886,31 +3902,7 @@
             "scheduledForFinalVote": true
         },
         {
-            "id": "HB86-0040",
-            "bill": "HB 86",
-            "date": "02/21/2023",
-            "description": "Scheduled for 3rd Reading",
-            "posession": "house",
-            "committee": null,
-            "actionUrl": null,
-            "recordings": [],
-            "key": "Scheduled for 3rd Reading",
-            "scheduledForFinalVote": true
-        },
-        {
             "id": "HB183-0042",
-            "bill": "HB 183",
-            "date": "02/21/2023",
-            "description": "Scheduled for 3rd Reading",
-            "posession": "house",
-            "committee": null,
-            "actionUrl": null,
-            "recordings": [],
-            "key": "Scheduled for 3rd Reading",
-            "scheduledForFinalVote": true
-        },
-        {
-            "id": "HB183-0043",
             "bill": "HB 183",
             "date": "02/21/2023",
             "description": "Scheduled for 3rd Reading",
