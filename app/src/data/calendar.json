@@ -191,6 +191,7 @@
         "HB 719",
         "HB 724",
         "HB 748",
+        "HB 753",
         "SB 59",
         "SB 63",
         "SB 75",
@@ -2688,6 +2689,19 @@
             "hearing": true
         },
         {
+            "id": "HB753-0019",
+            "bill": "HB 753",
+            "date": "02/24/2023",
+            "description": "Hearing",
+            "posession": "house",
+            "committee": "House Natural Resources",
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
             "id": "SB59-0028",
             "bill": "SB 59",
             "date": "02/22/2023",
@@ -4301,7 +4315,7 @@
             "scheduledForFloorDebate": true
         },
         {
-            "id": "SB240-0024",
+            "id": "SB240-0023",
             "bill": "SB 240",
             "date": "02/22/2023",
             "description": "Scheduled for 2nd Reading",
