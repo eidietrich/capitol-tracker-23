@@ -1,6 +1,95 @@
 {
     "actionsByDate": [
         {
+            "date": "02/23/2023",
+            "actions": [
+                {
+                    "id": "HB38-0040",
+                    "bill": "HB 38",
+                    "date": "02/23/2023",
+                    "description": "Committee Executive Action--Bill Concurred",
+                    "posession": "senate",
+                    "committee": "Senate Judiciary",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Concurred",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "title": "Generally revise theft laws to enumerate theft of a light vehicle"
+                },
+                {
+                    "id": "HB511-0021",
+                    "bill": "HB 511",
+                    "date": "02/23/2023",
+                    "description": "Tabled in Committee",
+                    "posession": "house",
+                    "committee": "House State Administration",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Tabled in Committee",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "secondChamberAction": true,
+                    "failed": true,
+                    "tabled": true,
+                    "title": "Revising candidate self-finance laws"
+                },
+                {
+                    "id": "SB250-0025",
+                    "bill": "SB 250",
+                    "date": "02/23/2023",
+                    "description": "Committee Executive Action--Bill Passed as Amended",
+                    "posession": "senate",
+                    "committee": "Senate Judiciary",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed as Amended",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "amended": true,
+                    "title": "Adopt Safety of the Child First Act"
+                },
+                {
+                    "id": "SB278-0023",
+                    "bill": "SB 278",
+                    "date": "02/23/2023",
+                    "description": "Committee Executive Action--Bill Passed as Amended",
+                    "posession": "senate",
+                    "committee": "Senate Judiciary",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed as Amended",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "amended": true,
+                    "title": "Authorize legislative officer intervention in declaratory judgment action"
+                },
+                {
+                    "id": "SB355-0019",
+                    "bill": "SB 355",
+                    "date": "02/23/2023",
+                    "description": "Committee Executive Action--Bill Passed",
+                    "posession": "senate",
+                    "committee": "Senate Judiciary",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "title": "Require disqualification of certain judges receiving political contributions"
+                }
+            ]
+        },
+        {
             "date": "02/22/2023",
             "actions": [
                 {
@@ -1305,6 +1394,22 @@
                     "firstChamberFloorAction": true,
                     "preliminaryPassage": true,
                     "title": "Revise transportation laws related to invasive species"
+                },
+                {
+                    "id": "SB302-0022",
+                    "bill": "SB 302",
+                    "date": "02/22/2023",
+                    "description": "Committee Executive Action--Bill Passed",
+                    "posession": "senate",
+                    "committee": "Senate State Administration",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "title": "Require partisan general elections for judges"
                 },
                 {
                     "id": "SB309-0031",
