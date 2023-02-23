@@ -1157,8 +1157,6 @@
             "HB 434",
             "HB 468",
             "HB 490",
-            "HB 572",
-            "HB 615",
             "SB 59",
             "SB 63",
             "SB 75",
@@ -1237,6 +1235,8 @@
             "HB 455",
             "HB 499",
             "HB 550",
+            "HB 572",
+            "HB 615",
             "SB 20",
             "SB 35",
             "SB 80",
@@ -2509,12 +2509,8 @@
         "billsUnscheduled": [
             "HB 130",
             "HB 185",
-            "HB 537",
             "HB 634",
             "HB 638",
-            "HB 775",
-            "HB 795",
-            "HR 2",
             "SB 17",
             "SB 39",
             "SB 42",
@@ -2525,15 +2521,23 @@
             "SB 83"
         ],
         "billsScheduled": [
+            "HB 537",
             "HB 592",
-            "HB 753"
+            "HB 753",
+            "HB 775",
+            "HB 795",
+            "HR 2"
         ],
         "billsScheduledByDay": [
             {
                 "day": "02/24/2023",
                 "bills": [
+                    "HB 537",
                     "HB 592",
-                    "HB 753"
+                    "HB 753",
+                    "HB 775",
+                    "HB 795",
+                    "HR 2"
                 ]
             }
         ],
@@ -5579,13 +5583,13 @@
             "SB 9",
             "SB 337",
             "SB 350",
-            "SB 480",
             "SR 31"
         ],
         "billsScheduled": [
             "SB 389",
             "SB 390",
             "SB 413",
+            "SB 480",
             "SR 32",
             "SR 33",
             "SR 47",
@@ -5602,7 +5606,8 @@
             {
                 "day": "02/27/2023",
                 "bills": [
-                    "SB 413"
+                    "SB 413",
+                    "SB 480"
                 ]
             },
             {
@@ -7399,12 +7404,21 @@
         ],
         "billCount": 10,
         "billsUnscheduled": [
-            "SB 394",
-            "SB 446",
             "SR 53"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduled": [
+            "SB 394",
+            "SB 446"
+        ],
+        "billsScheduledByDay": [
+            {
+                "day": "02/27/2023",
+                "bills": [
+                    "SB 394",
+                    "SB 446"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "HB 140"
         ],
