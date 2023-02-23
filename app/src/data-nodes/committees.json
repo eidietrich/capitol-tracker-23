@@ -114,14 +114,16 @@
         "billsScheduled": [
             "HB 669",
             "HB 722",
-            "SB 121"
+            "SB 121",
+            "SB 124"
         ],
         "billsScheduledByDay": [
             {
                 "day": "02/23/2023",
                 "bills": [
                     "HB 669",
-                    "SB 121"
+                    "SB 121",
+                    "SB 124"
                 ]
             },
             {
@@ -2693,18 +2695,16 @@
             }
         ],
         "billsAwaitingVote": [
-            "HB 470",
             "HB 472",
             "HB 486",
             "HB 622",
             "HB 664",
-            "SB 57",
-            "SB 108",
             "SB 120",
             "SB 144"
         ],
         "billsFailed": [
-            "HB 46"
+            "HB 46",
+            "SB 108"
         ],
         "billsAdvanced": [
             "HB 26",
@@ -2727,7 +2727,9 @@
             "HB 374",
             "HB 401",
             "HB 439",
+            "HB 470",
             "HB 489",
+            "SB 57",
             "SB 111"
         ],
         "billsBlasted": [],
