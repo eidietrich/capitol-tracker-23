@@ -1236,9 +1236,12 @@
             "HB 455",
             "HB 468",
             "HB 499",
+            "HB 505",
             "HB 550",
             "HB 572",
+            "HB 591",
             "HB 615",
+            "HB 702",
             "SB 20",
             "SB 35",
             "SB 80",
@@ -4393,10 +4396,9 @@
             "SB 417"
         ],
         "billCount": 45,
-        "billsUnscheduled": [
-            "SB 93"
-        ],
+        "billsUnscheduled": [],
         "billsScheduled": [
+            "SB 93",
             "SB 127",
             "SB 224",
             "SB 417"
@@ -4405,6 +4407,7 @@
             {
                 "day": "02/24/2023",
                 "bills": [
+                    "SB 93",
                     "SB 127",
                     "SB 224",
                     "SB 417"
