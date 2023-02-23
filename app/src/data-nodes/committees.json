@@ -139,12 +139,8 @@
             "HB 55",
             "HB 119",
             "HB 121",
-            "HB 226",
             "HB 276",
             "HB 332",
-            "HB 362",
-            "HB 398",
-            "HB 408",
             "HB 424",
             "HB 462",
             "HB 569",
@@ -196,6 +192,7 @@
             "HB 222",
             "HB 223",
             "HB 225",
+            "HB 226",
             "HB 243",
             "HB 244",
             "HB 245",
@@ -212,10 +209,13 @@
             "HB 325",
             "HB 345",
             "HB 355",
+            "HB 362",
             "HB 367",
             "HB 375",
             "HB 377",
-            "HB 381"
+            "HB 381",
+            "HB 398",
+            "HB 408"
         ],
         "billsBlasted": [],
         "members": [
@@ -4065,9 +4065,7 @@
                 ]
             }
         ],
-        "billsAwaitingVote": [
-            "HB 580"
-        ],
+        "billsAwaitingVote": [],
         "billsFailed": [],
         "billsAdvanced": [
             "HB 28",
@@ -4076,7 +4074,8 @@
             "HB 150",
             "HB 167",
             "HB 260",
-            "HB 271"
+            "HB 271",
+            "HB 580"
         ],
         "billsBlasted": [],
         "members": [
@@ -4413,14 +4412,14 @@
             "HB 267",
             "SB 28",
             "SB 186",
-            "SB 225",
-            "SB 226",
-            "SB 227"
+            "SB 226"
         ],
         "billsFailed": [
             "SB 126",
             "SB 160",
-            "SB 183"
+            "SB 183",
+            "SB 225",
+            "SB 227"
         ],
         "billsAdvanced": [
             "HB 1",
@@ -5159,9 +5158,7 @@
         ],
         "billsAwaitingVote": [
             "HB 155",
-            "SB 243",
             "SB 276",
-            "SB 359",
             "SB 360",
             "SB 361",
             "SB 366",
@@ -5173,6 +5170,7 @@
             "SB 146",
             "SB 161",
             "SB 223",
+            "SB 243",
             "SB 259"
         ],
         "billsAdvanced": [
@@ -5240,6 +5238,7 @@
             "SB 312",
             "SB 314",
             "SB 340",
+            "SB 359",
             "SJ 2",
             "SR 29",
             "SR 30",
