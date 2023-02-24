@@ -745,6 +745,22 @@
                     "title": "Revise pharmacist laws relating to immunization"
                 },
                 {
+                    "id": "HB711-0017",
+                    "bill": "HB 711",
+                    "date": "02/24/2023",
+                    "description": "Bill Withdrawn per House Rule H30-50(3)(b)",
+                    "posession": "house",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Bill Withdrawn per House Rule H30-50(3)(b)",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "withdrawn": true,
+                    "title": "Revise alcohol laws relating to the collection of payment for beer and wine"
+                },
+                {
                     "id": "HB727-0024",
                     "bill": "HB 727",
                     "date": "02/24/2023",
@@ -991,6 +1007,37 @@
                     "firstChamberFloorAction": true,
                     "preliminaryPassage": true,
                     "title": "Revise speech pathologist and audiologist licensing laws"
+                },
+                {
+                    "id": "SB311-0032",
+                    "bill": "SB 311",
+                    "date": "02/24/2023",
+                    "description": "2nd Reading Pass Motion Failed",
+                    "posession": "senate",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "2nd Reading Pass Motion Failed",
+                    "isMajor": true,
+                    "firstChamberFloorAction": true,
+                    "failed": true,
+                    "title": "Reduce the number of associate judges on the Supreme Court"
+                },
+                {
+                    "id": "SB311-0033",
+                    "bill": "SB 311",
+                    "date": "02/24/2023",
+                    "description": "2nd Reading Indefinitely Postponed",
+                    "posession": "senate",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "2nd Reading Indefinitely Postponed",
+                    "isMajor": true,
+                    "firstChamberFloorAction": true,
+                    "secondChamberAction": true,
+                    "failed": true,
+                    "title": "Reduce the number of associate judges on the Supreme Court"
                 },
                 {
                     "id": "SB320-0025",
@@ -4894,7 +4941,9 @@
                     "posession": "senate",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46218?agendaId=254088"
+                    ],
                     "key": "2nd Reading Pass Motion Failed",
                     "isMajor": true,
                     "firstChamberFloorAction": true,
