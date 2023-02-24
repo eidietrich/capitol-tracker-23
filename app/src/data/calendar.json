@@ -56,6 +56,7 @@
         "HB 633",
         "HB 636",
         "HB 637",
+        "HB 638",
         "HB 643",
         "HB 645",
         "HB 646",
@@ -120,6 +121,7 @@
         "HB 736",
         "HB 737",
         "HB 739",
+        "HB 740",
         "HB 741",
         "HB 742",
         "HB 743",
@@ -157,14 +159,17 @@
         "HB 783",
         "HB 784",
         "HB 787",
+        "HB 789",
         "HB 794",
         "HB 795",
         "HB 796",
         "HB 797",
         "HB 798",
         "HB 799",
+        "HB 805",
         "HB 806",
         "HB 807",
+        "HB 808",
         "HB 811",
         "HB 812",
         "HJ 5",
@@ -770,6 +775,19 @@
             "hearing": true
         },
         {
+            "id": "HB609-0021",
+            "bill": "HB 609",
+            "date": "02/28/2023",
+            "description": "Hearing",
+            "posession": "house",
+            "committee": "House Human Services",
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
             "id": "HB610-0021",
             "bill": "HB 610",
             "date": "02/27/2023",
@@ -942,6 +960,19 @@
             "id": "HB637-0017",
             "bill": "HB 637",
             "date": "02/24/2023",
+            "description": "Hearing",
+            "posession": "house",
+            "committee": "House Business and Labor",
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
+            "id": "HB638-0023",
+            "bill": "HB 638",
+            "date": "02/28/2023",
             "description": "Hearing",
             "posession": "house",
             "committee": "House Business and Labor",
@@ -1784,6 +1815,19 @@
             "hearing": true
         },
         {
+            "id": "HB740-0025",
+            "bill": "HB 740",
+            "date": "02/28/2023",
+            "description": "Hearing",
+            "posession": "house",
+            "committee": "House Human Services",
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
             "id": "HB741-0022",
             "bill": "HB 741",
             "date": "02/24/2023",
@@ -2265,6 +2309,19 @@
             "hearing": true
         },
         {
+            "id": "HB789-0019",
+            "bill": "HB 789",
+            "date": "02/28/2023",
+            "description": "Hearing",
+            "posession": "house",
+            "committee": "House Local Government",
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
             "id": "HB794-0019",
             "bill": "HB 794",
             "date": "02/28/2023",
@@ -2343,6 +2400,19 @@
             "hearing": true
         },
         {
+            "id": "HB805-0019",
+            "bill": "HB 805",
+            "date": "02/27/2023",
+            "description": "Hearing",
+            "posession": "house",
+            "committee": "House Business and Labor",
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
             "id": "HB806-0022",
             "bill": "HB 806",
             "date": "02/28/2023",
@@ -2362,6 +2432,19 @@
             "description": "Hearing",
             "posession": "house",
             "committee": "House State Administration",
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
+            "id": "HB808-0017",
+            "bill": "HB 808",
+            "date": "02/27/2023",
+            "description": "Hearing",
+            "posession": "house",
+            "committee": "House Business and Labor",
             "actionUrl": null,
             "recordings": [],
             "key": "Hearing",
@@ -4154,7 +4237,7 @@
             "scheduledForFloorDebate": true
         },
         {
-            "id": "HB402-0030",
+            "id": "HB402-0031",
             "bill": "HB 402",
             "date": "02/24/2023",
             "description": "Scheduled for 2nd Reading",
