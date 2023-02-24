@@ -125,7 +125,6 @@
         "HB 746",
         "HB 747",
         "HB 750",
-        "HB 752",
         "HB 753",
         "HB 754",
         "HB 755",
@@ -239,6 +238,7 @@
         "SB 447",
         "SB 448",
         "SB 450",
+        "SB 451",
         "SB 453",
         "SB 454",
         "SB 455",
@@ -272,6 +272,7 @@
         "SB 484",
         "SB 485",
         "SB 486",
+        "SB 492",
         "SB 498",
         "SJ 13",
         "SJ 14",
@@ -1849,19 +1850,6 @@
             "hearing": true
         },
         {
-            "id": "HB752-0022",
-            "bill": "HB 752",
-            "date": "02/24/2023",
-            "description": "Hearing",
-            "posession": "house",
-            "committee": "House State Administration",
-            "actionUrl": null,
-            "recordings": [],
-            "key": "Hearing",
-            "isMajor": true,
-            "hearing": true
-        },
-        {
             "id": "HB753-0019",
             "bill": "HB 753",
             "date": "02/24/2023",
@@ -3331,6 +3319,19 @@
             "hearing": true
         },
         {
+            "id": "SB451-0019",
+            "bill": "SB 451",
+            "date": "02/28/2023",
+            "description": "Hearing",
+            "posession": "senate",
+            "committee": "Senate Business, Labor, and Economic Affairs",
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
             "id": "SB453-0019",
             "bill": "SB 453",
             "date": "02/27/2023",
@@ -3753,6 +3754,19 @@
             "description": "Hearing",
             "posession": "senate",
             "committee": "Senate Local Government",
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
+            "id": "SB492-0016",
+            "bill": "SB 492",
+            "date": "02/28/2023",
+            "description": "Hearing",
+            "posession": "senate",
+            "committee": "Senate Business, Labor, and Economic Affairs",
             "actionUrl": null,
             "recordings": [],
             "key": "Hearing",
