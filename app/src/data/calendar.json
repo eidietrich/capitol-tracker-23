@@ -4,6 +4,7 @@
         "02/25/2023",
         "02/27/2023",
         "02/28/2023",
+        "03/01/2023",
         "03/10/2023",
         "03/13/2023",
         "03/15/2023"
@@ -67,6 +68,7 @@
         "HB 660",
         "HB 661",
         "HB 663",
+        "HB 667",
         "HB 668",
         "HB 670",
         "HB 673",
@@ -122,6 +124,8 @@
         "HB 741",
         "HB 742",
         "HB 743",
+        "HB 744",
+        "HB 745",
         "HB 746",
         "HB 747",
         "HB 750",
@@ -156,9 +160,11 @@
         "HB 787",
         "HB 794",
         "HB 795",
+        "HB 796",
         "HB 797",
         "HB 798",
         "HB 799",
+        "HB 811",
         "HJ 5",
         "HJ 8",
         "HJ 9",
@@ -540,7 +546,7 @@
             "hearing": true
         },
         {
-            "id": "HB545-0019",
+            "id": "HB545-0020",
             "bill": "HB 545",
             "date": "02/24/2023",
             "description": "Hearing",
@@ -579,7 +585,7 @@
             "hearing": true
         },
         {
-            "id": "HB573-0018",
+            "id": "HB573-0019",
             "bill": "HB 573",
             "date": "02/24/2023",
             "description": "Hearing",
@@ -1060,7 +1066,7 @@
             "hearing": true
         },
         {
-            "id": "HB660-0019",
+            "id": "HB660-0020",
             "bill": "HB 660",
             "date": "02/24/2023",
             "description": "Hearing",
@@ -1086,12 +1092,25 @@
             "hearing": true
         },
         {
-            "id": "HB663-0019",
+            "id": "HB663-0020",
             "bill": "HB 663",
             "date": "02/24/2023",
             "description": "Hearing",
             "posession": "house",
             "committee": "House State Administration",
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
+            "id": "HB667-0021",
+            "bill": "HB 667",
+            "date": "03/01/2023",
+            "description": "Hearing",
+            "posession": "house",
+            "committee": "House Education",
             "actionUrl": null,
             "recordings": [],
             "key": "Hearing",
@@ -1814,6 +1833,32 @@
             "hearing": true
         },
         {
+            "id": "HB744-0018",
+            "bill": "HB 744",
+            "date": "03/01/2023",
+            "description": "Hearing",
+            "posession": "house",
+            "committee": "House Education",
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
+            "id": "HB745-0017",
+            "bill": "HB 745",
+            "date": "03/01/2023",
+            "description": "Hearing",
+            "posession": "house",
+            "committee": "House Education",
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
             "id": "HB746-0021",
             "bill": "HB 746",
             "date": "02/24/2023",
@@ -2256,6 +2301,19 @@
             "hearing": true
         },
         {
+            "id": "HB796-0019",
+            "bill": "HB 796",
+            "date": "03/01/2023",
+            "description": "Hearing",
+            "posession": "house",
+            "committee": "House Education",
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
             "id": "HB797-0021",
             "bill": "HB 797",
             "date": "02/27/2023",
@@ -2288,6 +2346,19 @@
             "description": "Hearing",
             "posession": "house",
             "committee": "House Taxation",
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
+            "id": "HB811-0017",
+            "bill": "HB 811",
+            "date": "02/27/2023",
+            "description": "Hearing",
+            "posession": "house",
+            "committee": "House Education",
             "actionUrl": null,
             "recordings": [],
             "key": "Hearing",
@@ -3957,7 +4028,7 @@
             "scheduledForFloorDebate": true
         },
         {
-            "id": "HB339-0042",
+            "id": "HB339-0043",
             "bill": "HB 339",
             "date": "02/24/2023",
             "description": "Scheduled for 2nd Reading",
