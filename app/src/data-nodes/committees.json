@@ -1123,8 +1123,6 @@
             "HB 434",
             "HB 490",
             "HB 506",
-            "HB 523",
-            "HB 710",
             "SB 59",
             "SB 63",
             "SB 75",
@@ -1204,11 +1202,13 @@
             "HB 468",
             "HB 499",
             "HB 505",
+            "HB 523",
             "HB 550",
             "HB 572",
             "HB 591",
             "HB 615",
             "HB 702",
+            "HB 710",
             "SB 20",
             "SB 35",
             "SB 80",
@@ -3829,8 +3829,7 @@
         "billsAwaitingVote": [
             "HB 553",
             "HB 606",
-            "HB 618",
-            "HB 724"
+            "HB 618"
         ],
         "billsFailed": [
             "HB 323",
@@ -3861,6 +3860,7 @@
             "HB 299",
             "HB 360",
             "HB 465",
+            "HB 724",
             "HB 748",
             "SB 5",
             "SB 98",
@@ -4427,7 +4427,9 @@
             "SB 163",
             "SB 168",
             "SB 182",
-            "SB 229"
+            "SB 224",
+            "SB 229",
+            "SB 417"
         ],
         "billsBlasted": [],
         "members": [
@@ -7172,8 +7174,7 @@
         "billsScheduledByDay": [],
         "billsAwaitingVote": [
             "HB 26",
-            "HB 27",
-            "HB 320"
+            "HB 27"
         ],
         "billsFailed": [
             "SB 137",
@@ -7181,6 +7182,7 @@
         ],
         "billsAdvanced": [
             "HB 76",
+            "HB 320",
             "SB 33",
             "SB 57",
             "SB 111",

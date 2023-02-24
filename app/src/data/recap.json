@@ -4,6 +4,38 @@
             "date": "02/24/2023",
             "actions": [
                 {
+                    "id": "HB28-0049",
+                    "bill": "HB 28",
+                    "date": "02/24/2023",
+                    "description": "2nd Reading Senate Amendments Concurred",
+                    "posession": "house",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "2nd Reading Senate Amendments Concurred",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "reconciliationAction": true,
+                    "title": "Increase legislator per diem reimbursements for lodging and meals"
+                },
+                {
+                    "id": "HB45-0026",
+                    "bill": "HB 45",
+                    "date": "02/24/2023",
+                    "description": "2nd Reading Passed",
+                    "posession": "house",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "2nd Reading Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "firstChamberFloorAction": true,
+                    "preliminaryPassage": true,
+                    "title": "Provide oversight and standard for community benefits/charity care",
+                    "explanation": null
+                },
+                {
                     "id": "HB55-0038",
                     "bill": "HB 55",
                     "date": "02/24/2023",
@@ -126,6 +158,23 @@
                     "title": "Allow option to vote in school district elections"
                 },
                 {
+                    "id": "HB523-0027",
+                    "bill": "HB 523",
+                    "date": "02/24/2023",
+                    "description": "Committee Executive Action--Bill Passed as Amended",
+                    "posession": "house",
+                    "committee": "House Business and Labor",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed as Amended",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "amended": true,
+                    "title": "Require reporting on emergency rental assistance paid to businesses and landlord"
+                },
+                {
                     "id": "HB530-0020",
                     "bill": "HB 530",
                     "date": "02/24/2023",
@@ -159,6 +208,22 @@
                     "title": "Generally revise pension laws"
                 },
                 {
+                    "id": "HB710-0018",
+                    "bill": "HB 710",
+                    "date": "02/24/2023",
+                    "description": "Committee Executive Action--Bill Passed",
+                    "posession": "house",
+                    "committee": "House Business and Labor",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "title": "Revise pharmacist laws relating to immunization"
+                },
+                {
                     "id": "SB93-0025",
                     "bill": "SB 93",
                     "date": "02/24/2023",
@@ -189,6 +254,23 @@
                     "firstChamberFloorAction": true,
                     "preliminaryPassage": true,
                     "title": "Generally revise laws related to drug testing in CPS cases"
+                },
+                {
+                    "id": "SB224-0041",
+                    "bill": "SB 224",
+                    "date": "02/24/2023",
+                    "description": "Committee Executive Action--Bill Passed as Amended",
+                    "posession": "senate",
+                    "committee": "Senate Finance and Claims",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed as Amended",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "amended": true,
+                    "title": "Require court report on district court case numbers and substitutions"
                 },
                 {
                     "id": "SB257-0022",
@@ -293,6 +375,23 @@
                     "failed": true,
                     "tabled": true,
                     "title": "Generally revising the Montana Clean Indoor Air Act"
+                },
+                {
+                    "id": "SB417-0024",
+                    "bill": "SB 417",
+                    "date": "02/24/2023",
+                    "description": "Committee Executive Action--Bill Passed as Amended",
+                    "posession": "senate",
+                    "committee": "Senate Finance and Claims",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed as Amended",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "amended": true,
+                    "title": "Pay off bonded debt"
                 },
                 {
                     "id": "SB438-0024",
@@ -495,6 +594,39 @@
                     "firstChamberFloorAction": true,
                     "failed": true,
                     "title": "Revise laws related to alphabetical seating for legislators"
+                },
+                {
+                    "id": "HB320-0042",
+                    "bill": "HB 320",
+                    "date": "02/23/2023",
+                    "description": "Committee Executive Action--Bill Concurred as Amended",
+                    "posession": "senate",
+                    "committee": "Senate Highways and Transportation",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Concurred as Amended",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "amended": true,
+                    "title": "Generally revise motor vehicle laws"
+                },
+                {
+                    "id": "HB320-0043",
+                    "bill": "HB 320",
+                    "date": "02/23/2023",
+                    "description": "Committee Executive Action--Bill Concurred",
+                    "posession": "senate",
+                    "committee": "Senate Highways and Transportation",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Concurred",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "title": "Generally revise motor vehicle laws"
                 },
                 {
                     "id": "HB324-0023",
@@ -1666,6 +1798,23 @@
                     "advanced": true,
                     "amended": true,
                     "title": "Revise laws related to deceptive election practices"
+                },
+                {
+                    "id": "HB724-0021",
+                    "bill": "HB 724",
+                    "date": "02/23/2023",
+                    "description": "Committee Executive Action--Bill Passed as Amended",
+                    "posession": "house",
+                    "committee": "House Local Government",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed as Amended",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "amended": true,
+                    "title": "Generally revise public notice requirements"
                 },
                 {
                     "id": "HB748-0024",
@@ -5575,7 +5724,9 @@
                     "posession": "senate",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46217?agendaId=253824"
+                    ],
                     "key": "2nd Reading Passed as Amended",
                     "isMajor": true,
                     "isHighlight": true,
