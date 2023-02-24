@@ -159,6 +159,38 @@
                     "title": "Generally revise pension laws"
                 },
                 {
+                    "id": "SB93-0025",
+                    "bill": "SB 93",
+                    "date": "02/24/2023",
+                    "description": "Committee Executive Action--Bill Passed",
+                    "posession": "senate",
+                    "committee": "Senate Finance and Claims",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "title": "Generally revising ballot issues"
+                },
+                {
+                    "id": "SB150-0021",
+                    "bill": "SB 150",
+                    "date": "02/24/2023",
+                    "description": "2nd Reading Passed",
+                    "posession": "senate",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "2nd Reading Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "firstChamberFloorAction": true,
+                    "preliminaryPassage": true,
+                    "title": "Generally revise laws related to drug testing in CPS cases"
+                },
+                {
                     "id": "SB257-0022",
                     "bill": "SB 257",
                     "date": "02/24/2023",
@@ -190,6 +222,23 @@
                     "failed": true,
                     "tabled": true,
                     "title": "Revise laws related to prevailing wage"
+                },
+                {
+                    "id": "SB286-0034",
+                    "bill": "SB 286",
+                    "date": "02/24/2023",
+                    "description": "2nd Reading Passed as Amended",
+                    "posession": "senate",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "2nd Reading Passed as Amended",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "firstChamberFloorAction": true,
+                    "preliminaryPassage": true,
+                    "amended": true,
+                    "title": "Revise probate law regarding collection of personal property by affidavit"
                 },
                 {
                     "id": "SB360-0019",
@@ -1693,7 +1742,9 @@
                     "posession": "senate",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46219?agendaId=254471"
+                    ],
                     "key": "2nd Reading Passed",
                     "isMajor": true,
                     "isHighlight": true,
@@ -2230,6 +2281,22 @@
                     "title": "Require disqualification of certain judges receiving political contributions"
                 },
                 {
+                    "id": "SB356-0022",
+                    "bill": "SB 356",
+                    "date": "02/23/2023",
+                    "description": "Committee Executive Action--Bill Passed",
+                    "posession": "senate",
+                    "committee": "Senate Fish and Game",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "title": "Require notification to sheriff of game check stations"
+                },
+                {
                     "id": "SB377-0026",
                     "bill": "SB 377",
                     "date": "02/23/2023",
@@ -2361,6 +2428,22 @@
                     "secondChamberAction": true,
                     "finalPassage": true,
                     "title": "Confirm governor's appointees for the board of alternative health care"
+                },
+                {
+                    "id": "SR52-0018",
+                    "bill": "SR 52",
+                    "date": "02/23/2023",
+                    "description": "Committee Executive Action--Bill Passed",
+                    "posession": "senate",
+                    "committee": "Senate Agriculture, Livestock and Irrigation",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "title": "Confirm governor's appointee for the livestock loss board"
                 }
             ]
         },
