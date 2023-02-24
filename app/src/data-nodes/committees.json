@@ -1818,10 +1818,6 @@
             }
         ],
         "billsAwaitingVote": [
-            "HB 510",
-            "HB 528",
-            "HB 602",
-            "HB 608",
             "SB 29",
             "SB 66",
             "SB 74"
@@ -1836,7 +1832,10 @@
             "HB 341",
             "HB 387",
             "HB 495",
-            "HB 511"
+            "HB 511",
+            "HB 528",
+            "HB 602",
+            "HB 608"
         ],
         "billsAdvanced": [
             "HB 47",
@@ -1891,6 +1890,7 @@
             "HB 427",
             "HB 463",
             "HB 493",
+            "HB 510",
             "HB 529",
             "HB 536",
             "HB 540",
@@ -3979,9 +3979,7 @@
                 ]
             }
         ],
-        "billsAwaitingVote": [
-            "HB 585"
-        ],
+        "billsAwaitingVote": [],
         "billsFailed": [],
         "billsAdvanced": [
             "HB 28",
@@ -3991,7 +3989,8 @@
             "HB 167",
             "HB 260",
             "HB 271",
-            "HB 580"
+            "HB 580",
+            "HB 585"
         ],
         "billsBlasted": [],
         "members": [
@@ -4693,9 +4692,7 @@
             "SB 294",
             "SB 333",
             "SB 368",
-            "SB 372",
-            "SB 400",
-            "SB 431"
+            "SB 372"
         ],
         "billsFailed": [
             "HB 205",
@@ -4705,7 +4702,8 @@
             "SB 92",
             "SB 204",
             "SB 231",
-            "SB 297"
+            "SB 297",
+            "SB 431"
         ],
         "billsAdvanced": [
             "HB 18",
@@ -4781,6 +4779,7 @@
             "SB 363",
             "SB 377",
             "SB 396",
+            "SB 400",
             "SB 405",
             "SB 429",
             "SJ 3",
@@ -7074,11 +7073,11 @@
             "HB 27",
             "HB 320",
             "SB 288",
-            "SB 412",
             "SB 452"
         ],
         "billsFailed": [
-            "SB 137"
+            "SB 137",
+            "SB 412"
         ],
         "billsAdvanced": [
             "HB 76",
