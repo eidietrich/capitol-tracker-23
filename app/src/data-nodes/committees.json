@@ -4285,13 +4285,23 @@
         "billCount": 50,
         "billsUnscheduled": [
             "SB 460",
-            "SB 485",
+            "SB 485"
+        ],
+        "billsScheduled": [
             "SB 487",
             "SB 489",
             "SB 494"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduledByDay": [
+            {
+                "day": "02/27/2023",
+                "bills": [
+                    "SB 487",
+                    "SB 489",
+                    "SB 494"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "HB 260",
             "SB 127",
