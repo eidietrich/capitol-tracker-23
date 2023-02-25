@@ -8,6 +8,13 @@ const bills = require('./src/data-nodes/bills.json')
 const lawmakers = require('./src/data-nodes/lawmakers.json')
 const committees = require('./src/data-nodes/committees.json')
 
+/*
+    Exporting actions separately from processing step and merging in here 
+    to manage amount of data fed into Gatsby graphql database for build
+    time optimization purposes.
+*/
+const actions = require('./src/data/bill-actions.json')
+
 exports.createSchemaCustomization = ({ actions }) => {
     /* Explicitly defines schemas for bils and lawmakers to optimize build times */
     // see https://www.gatsbyjs.com/docs/reference/graphql-data-layer/schema-customization/#creating-type-definitions
@@ -245,6 +252,7 @@ exports.createPages = async ({ graphql, actions: { createPage, createSlice } }) 
 
     bills.forEach(bill => {
         const key = bill.key
+        bill.actions = actions.find(d => d.bill === bill.identifier).actions
         createPage({
             path: `/bills/${key}`,
             component: require.resolve('./src/templates/bill.js'),

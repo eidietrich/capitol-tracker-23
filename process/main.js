@@ -150,8 +150,16 @@ const participationPageOutput = {
 
 // Outputs 
 console.log('### Bundling tracker data')
-const billsOutput = bills.map(b => b.exportMerged())
+/*
+Exporting bill actions separately here so they can be kept outside of Gatsby graphql scope
+*/
+const billsOutput = bills.map(b => b.exportBillDataOnly())
+const actionsOutput = bills.map(b => ({
+    bill: b.data.identifier,
+    actions: b.exportActionDataWithVotes()
+}))
 writeJson('./app/src/data-nodes/bills.json', billsOutput)
+writeJson('./app/src/data/bill-actions.json', actionsOutput)
 const lawmakerOutput = lawmakers.map(l => l.exportMerged())
 writeJson('./app/src/data-nodes/lawmakers.json', lawmakerOutput)
 const committeeOutput = committees.map(l => l.export())

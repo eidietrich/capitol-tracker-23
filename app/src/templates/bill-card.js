@@ -124,7 +124,7 @@ const BillCard = ({ pageContext }) => {
     } = pageContext
     const {
         key, identifier, title, status, progress, chamber,
-        // lawsUrl, vetoMemoUrl, articles, actions,
+        // lawsUrl, vetoMemoUrl, articles,
         textUrl, fiscalNoteUrl, legalNoteUrl,
         explanation, sponsor,
         // requestor,
