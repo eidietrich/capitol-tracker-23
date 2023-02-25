@@ -117,6 +117,7 @@
         "HB 800",
         "HB 801",
         "HB 802",
+        "HB 804",
         "HB 805",
         "HB 806",
         "HB 807",
@@ -125,6 +126,7 @@
         "HB 812",
         "HJ 9",
         "HJ 11",
+        "HJ 13",
         "HJ 14",
         "HR 3",
         "SB 277",
@@ -1630,6 +1632,19 @@
             "hearing": true
         },
         {
+            "id": "HB804-0018",
+            "bill": "HB 804",
+            "date": "02/27/2023",
+            "description": "Hearing",
+            "posession": "house",
+            "committee": "House Energy, Technology and Federal Relations",
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
             "id": "HB805-0019",
             "bill": "HB 805",
             "date": "02/27/2023",
@@ -1723,6 +1738,19 @@
         {
             "id": "HJ11-0017",
             "bill": "HJ 11",
+            "date": "02/27/2023",
+            "description": "Hearing",
+            "posession": "house",
+            "committee": "House Energy, Technology and Federal Relations",
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
+            "id": "HJ13-0018",
+            "bill": "HJ 13",
             "date": "02/27/2023",
             "description": "Hearing",
             "posession": "house",
