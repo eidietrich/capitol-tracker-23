@@ -5873,11 +5873,19 @@
             "HB 347",
             "SB 82",
             "SB 271",
-            "SJ 16",
             "SR 45"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduled": [
+            "SJ 16"
+        ],
+        "billsScheduledByDay": [
+            {
+                "day": "02/27/2023",
+                "bills": [
+                    "SJ 16"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "HB 88",
             "HB 122",
