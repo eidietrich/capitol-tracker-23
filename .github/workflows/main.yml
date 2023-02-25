@@ -19,9 +19,9 @@ jobs:
         with:
           path: |
             node_modules
-          key: ${{ runner.os }}-eidietrich-capitol-tracker-23-processing-${{ github.run_id }}
+          key: ${{ runner.os }}-eidietrich-capitol-tracker-23-processing
           restore-keys: |
-            ${{ runner.os }}-eidietrich-capitol-tracker-23-processing-
+            ${{ runner.os }}-eidietrich-capitol-tracker-23-processing
       - name: Install dependencies
         run: npm install
       - name: Refresh inputs
@@ -51,9 +51,9 @@ jobs:
             app/public
             app/.cache
             app/node_modules
-          key: ${{ runner.os }}-eidietrich-capitol-tracker-23-deploying-${{ github.run_id }}
+          key: ${{ runner.os }}-eidietrich-capitol-tracker-23-deploying
           restore-keys: |
-            ${{ runner.os }}-eidietrich-capitol-tracker-23-deploying-
+            ${{ runner.os }}-eidietrich-capitol-tracker-23-deploying
       - name: Install dependencies
         run: (cd app && npm install)
       - name: Build
