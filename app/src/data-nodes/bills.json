@@ -37640,7 +37640,7 @@
                 "step": "first committee",
                 "status": "blocked",
                 "statusLabel": "Withdrawn",
-                "statusDate": "02/13/2023"
+                "statusDate": "02/16/2023"
             },
             {
                 "step": "first chamber",
@@ -59648,10 +59648,10 @@
         "lcIdentifier": "LC0492",
         "type": "house bill",
         "status": {
-            "key": "In First House Committee--Nontabled",
-            "step": "First chamber",
-            "label": "In committee",
-            "status": "live",
+            "key": "Probably Dead",
+            "label": "",
+            "step": "Failed",
+            "status": "stalled",
             "statusAtSessionEnd": "failed"
         },
         "progress": [
@@ -59663,9 +59663,9 @@
             },
             {
                 "step": "first committee",
-                "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "status": "blocked",
+                "statusLabel": "Withdrawn",
+                "statusDate": "02/26/2023"
             },
             {
                 "step": "first chamber",
