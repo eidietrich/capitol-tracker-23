@@ -50087,14 +50087,14 @@
             },
             {
                 "step": "first committee",
-                "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "status": "passed",
+                "statusLabel": "Advanced",
+                "statusDate": "02/24/2023"
             },
             {
                 "step": "first chamber",
-                "status": "future",
-                "statusLabel": null,
+                "status": "current",
+                "statusLabel": "Pending",
                 "statusDate": null
             },
             {
@@ -50139,7 +50139,7 @@
         "lawsUrl": "http://laws.leg.mt.gov/legprd/LAW0210W$BSIV.ActionQuery?P_BILL_NO1=597&P_BLTP_BILL_TYP_CD=HB&Z_ACTION=Find&P_SESS=20231",
         "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0597.pdf",
         "fiscalNoteUrl": null,
-        "amendmentsUrl": null,
+        "amendmentsUrl": "https://leg.mt.gov/laws/bills/2023/AmdPublicWeb/?bill=HB0597",
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
@@ -60126,10 +60126,10 @@
         "lcIdentifier": "LC2784",
         "type": "house bill",
         "status": {
-            "key": "In First House Committee--Nontabled",
+            "key": "In First House Committee--Tabled",
             "step": "First chamber",
-            "label": "In committee",
-            "status": "live",
+            "label": "Tabled in committee",
+            "status": "stalled",
             "statusAtSessionEnd": "failed"
         },
         "progress": [
@@ -60141,9 +60141,9 @@
             },
             {
                 "step": "first committee",
-                "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "status": "blocked",
+                "statusLabel": "Tabled",
+                "statusDate": "02/24/2023"
             },
             {
                 "step": "first chamber",
@@ -68078,10 +68078,10 @@
         "lcIdentifier": "LC4426",
         "type": "joint resolution",
         "status": {
-            "key": "In First House Committee--Nontabled",
+            "key": "In First House Committee--Tabled",
             "step": "First chamber",
-            "label": "In committee",
-            "status": "live",
+            "label": "Tabled in committee",
+            "status": "stalled",
             "statusAtSessionEnd": "failed"
         },
         "progress": [
@@ -68093,9 +68093,9 @@
             },
             {
                 "step": "first committee",
-                "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "status": "blocked",
+                "statusLabel": "Tabled",
+                "statusDate": "02/24/2023"
             },
             {
                 "step": "first chamber",
