@@ -143,7 +143,6 @@
         "SB 386",
         "SB 394",
         "SB 399",
-        "SB 409",
         "SB 410",
         "SB 413",
         "SB 415",
@@ -209,6 +208,7 @@
         "SR 33",
         "SR 47",
         "SR 51",
+        "HB 3",
         "HB 136",
         "HB 304",
         "HB 313",
@@ -2066,19 +2066,6 @@
             "hearing": true
         },
         {
-            "id": "SB409-0021",
-            "bill": "SB 409",
-            "date": "02/27/2023",
-            "description": "Hearing",
-            "posession": "senate",
-            "committee": "Senate Local Government",
-            "actionUrl": null,
-            "recordings": [],
-            "key": "Hearing",
-            "isMajor": true,
-            "hearing": true
-        },
-        {
             "id": "SB410-0019",
             "bill": "SB 410",
             "date": "02/27/2023",
@@ -2925,6 +2912,18 @@
         }
     ],
     "scheduledFloorDebates": [
+        {
+            "id": "HB3-0029",
+            "bill": "HB 3",
+            "date": "02/27/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
         {
             "id": "HB136-0029",
             "bill": "HB 136",
