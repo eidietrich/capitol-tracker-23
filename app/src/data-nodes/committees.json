@@ -3281,15 +3281,24 @@
         ],
         "billCount": 24,
         "billsUnscheduled": [
-            "HB 738",
-            "HB 767",
             "SB 37",
             "SB 71",
             "SB 78",
             "SB 202"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduled": [
+            "HB 738",
+            "HB 767"
+        ],
+        "billsScheduledByDay": [
+            {
+                "day": "02/28/2023",
+                "bills": [
+                    "HB 738",
+                    "HB 767"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "HB 475"
         ],
