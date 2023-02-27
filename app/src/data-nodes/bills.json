@@ -2183,11 +2183,11 @@
         "lcIdentifier": "LC1199",
         "type": "house bill",
         "status": {
-            "key": "In Process to Consider Second House Amendments",
-            "step": "Reconciliation",
-            "label": "In reconciliation",
+            "key": "Passed By Legislature--Enrolling and Final Preparation Process",
+            "step": "Through Legislature",
+            "label": "Passed both chambers",
             "status": "live",
-            "statusAtSessionEnd": "failed"
+            "statusAtSessionEnd": "pending, passed legislature"
         },
         "progress": [
             {
@@ -21890,7 +21890,6 @@
                 "billTags": [
                     "HB 257",
                     "HB 332",
-                    "HB 337",
                     "HB 352",
                     "HB 393",
                     "HB 445",
@@ -28291,7 +28290,6 @@
                 "billTags": [
                     "HB 257",
                     "HB 332",
-                    "HB 337",
                     "HB 352",
                     "HB 393",
                     "HB 445",
@@ -28744,36 +28742,6 @@
                 ],
                 "lawmakerTags": [
                     "Forrest Mandeville"
-                ],
-                "governorTags": []
-            },
-            {
-                "title": "Lawmakers eye deep changes to K-12 education",
-                "category": "2023 Legislature",
-                "subtitle": "",
-                "date": "2023-02-21T15:29:59.000Z",
-                "link": "https://montanafreepress.org/2023/02/21/montana-legislature-public-education-reform/",
-                "author": "Alex Sakariassen",
-                "imageUrl": "https://montanafreepress.org/2023/02/21/montana-legislature-public-education-reform/untitled-design-312/",
-                "billTags": [
-                    "HB 257",
-                    "HB 332",
-                    "HB 337",
-                    "HB 352",
-                    "HB 393",
-                    "HB 445",
-                    "HB 549",
-                    "HB 588",
-                    "SB 70",
-                    "SB 8"
-                ],
-                "lawmakerTags": [
-                    "Dan Salomon",
-                    "David Bedey",
-                    "Fred Anderson",
-                    "Llew Jones",
-                    "Marta Bertoglio",
-                    "Melissa Romano"
                 ],
                 "governorTags": []
             },
@@ -30044,7 +30012,6 @@
                 "billTags": [
                     "HB 257",
                     "HB 332",
-                    "HB 337",
                     "HB 352",
                     "HB 393",
                     "HB 445",
@@ -33448,7 +33415,6 @@
                 "billTags": [
                     "HB 257",
                     "HB 332",
-                    "HB 337",
                     "HB 352",
                     "HB 393",
                     "HB 445",
@@ -34209,7 +34175,7 @@
                 "governorTags": []
             }
         ],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "hb-403",
@@ -37858,7 +37824,6 @@
                 "billTags": [
                     "HB 257",
                     "HB 332",
-                    "HB 337",
                     "HB 352",
                     "HB 393",
                     "HB 445",
@@ -46283,7 +46248,6 @@
                 "billTags": [
                     "HB 257",
                     "HB 332",
-                    "HB 337",
                     "HB 352",
                     "HB 393",
                     "HB 445",
@@ -49473,7 +49437,6 @@
                 "billTags": [
                     "HB 257",
                     "HB 332",
-                    "HB 337",
                     "HB 352",
                     "HB 393",
                     "HB 445",
@@ -69566,7 +69529,6 @@
                 "billTags": [
                     "HB 257",
                     "HB 332",
-                    "HB 337",
                     "HB 352",
                     "HB 393",
                     "HB 445",
@@ -74774,7 +74736,6 @@
                 "billTags": [
                     "HB 257",
                     "HB 332",
-                    "HB 337",
                     "HB 352",
                     "HB 393",
                     "HB 445",
@@ -79236,7 +79197,7 @@
                 ]
             }
         ],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "sb-122",
@@ -79483,7 +79444,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "sb-125",
@@ -92344,8 +92305,8 @@
         "lcIdentifier": "LC3707",
         "type": "senate bill",
         "status": {
-            "key": "In Second House Committee--Nontabled",
-            "step": "Second chamber",
+            "key": "In First House Committee--Nontabled",
+            "step": "First chamber",
             "label": "In committee",
             "status": "live",
             "statusAtSessionEnd": "failed"
@@ -101894,14 +101855,14 @@
             },
             {
                 "step": "first committee",
-                "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "status": "passed",
+                "statusLabel": "Advanced",
+                "statusDate": "02/27/2023"
             },
             {
                 "step": "first chamber",
-                "status": "future",
-                "statusLabel": null,
+                "status": "current",
+                "statusLabel": "Pending",
                 "statusDate": null
             },
             {
@@ -105612,14 +105573,14 @@
             },
             {
                 "step": "first committee",
-                "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "status": "passed",
+                "statusLabel": "Advanced",
+                "statusDate": "02/27/2023"
             },
             {
                 "step": "first chamber",
-                "status": "future",
-                "statusLabel": null,
+                "status": "current",
+                "statusLabel": "Pending",
                 "statusDate": null
             },
             {
@@ -105772,14 +105733,14 @@
             },
             {
                 "step": "first committee",
-                "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "status": "passed",
+                "statusLabel": "Advanced",
+                "statusDate": "02/27/2023"
             },
             {
                 "step": "first chamber",
-                "status": "future",
-                "statusLabel": null,
+                "status": "current",
+                "statusLabel": "Pending",
                 "statusDate": null
             },
             {
@@ -106916,14 +106877,14 @@
             },
             {
                 "step": "first committee",
-                "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "status": "passed",
+                "statusLabel": "Advanced",
+                "statusDate": "02/27/2023"
             },
             {
                 "step": "first chamber",
-                "status": "future",
-                "statusLabel": null,
+                "status": "current",
+                "statusLabel": "Pending",
                 "statusDate": null
             },
             {
