@@ -6703,12 +6703,21 @@
         "billCount": 17,
         "billsUnscheduled": [
             "SB 242",
-            "SB 316",
+            "SB 316"
+        ],
+        "billsScheduled": [
             "SB 399",
             "SB 466"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduledByDay": [
+            {
+                "day": "02/28/2023",
+                "bills": [
+                    "SB 399",
+                    "SB 466"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "HB 19",
             "HB 47",
