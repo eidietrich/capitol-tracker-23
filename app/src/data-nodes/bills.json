@@ -981,9 +981,9 @@
         "lcIdentifier": "LC0013",
         "type": "budget bill",
         "status": {
-            "key": "In First House--Through 3rd Reading",
-            "step": "First chamber",
-            "label": "Passed chamber",
+            "key": "Transmitted to Second House",
+            "step": "Second chamber",
+            "label": "Transmitted",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -10709,9 +10709,9 @@
         "lcIdentifier": "LC0420",
         "type": "house bill",
         "status": {
-            "key": "In First House--Through 3rd Reading",
-            "step": "First chamber",
-            "label": "Passed chamber",
+            "key": "Transmitted to Second House",
+            "step": "Second chamber",
+            "label": "Transmitted",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -13355,9 +13355,9 @@
         "lcIdentifier": "LC0377",
         "type": "house bill",
         "status": {
-            "key": "In First House--Through 3rd Reading",
-            "step": "First chamber",
-            "label": "Passed chamber",
+            "key": "Transmitted to Second House",
+            "step": "Second chamber",
+            "label": "Transmitted",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -13440,9 +13440,9 @@
         "lcIdentifier": "LC0382",
         "type": "house bill",
         "status": {
-            "key": "In First House--Through 3rd Reading",
-            "step": "First chamber",
-            "label": "Passed chamber",
+            "key": "Transmitted to Second House",
+            "step": "Second chamber",
+            "label": "Transmitted",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -20598,9 +20598,9 @@
         "lcIdentifier": "LC3498",
         "type": "house bill",
         "status": {
-            "key": "In First House--Through 3rd Reading",
-            "step": "First chamber",
-            "label": "Passed chamber",
+            "key": "Transmitted to Second House",
+            "step": "Second chamber",
+            "label": "Transmitted",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -21795,9 +21795,9 @@
         "lcIdentifier": "LC1917",
         "type": "house bill",
         "status": {
-            "key": "In First House--Through 3rd Reading",
-            "step": "First chamber",
-            "label": "Passed chamber",
+            "key": "Transmitted to Second House",
+            "step": "Second chamber",
+            "label": "Transmitted",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -22408,9 +22408,9 @@
         "lcIdentifier": "LC0170",
         "type": "house bill",
         "status": {
-            "key": "In First House--Through 3rd Reading",
-            "step": "First chamber",
-            "label": "Passed chamber",
+            "key": "Transmitted to Second House",
+            "step": "Second chamber",
+            "label": "Transmitted",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -24143,9 +24143,9 @@
         "lcIdentifier": "LC0996",
         "type": "house bill",
         "status": {
-            "key": "In First House--Through 3rd Reading",
-            "step": "First chamber",
-            "label": "Passed chamber",
+            "key": "Transmitted to Second House",
+            "step": "Second chamber",
+            "label": "Transmitted",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -25268,9 +25268,9 @@
         "lcIdentifier": "LC3927",
         "type": "house bill",
         "status": {
-            "key": "In First House--Through 3rd Reading",
-            "step": "First chamber",
-            "label": "Passed chamber",
+            "key": "Transmitted to Second House",
+            "step": "Second chamber",
+            "label": "Transmitted",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -25508,9 +25508,9 @@
         "lcIdentifier": "LC3937",
         "type": "house bill",
         "status": {
-            "key": "In First House--Through 3rd Reading",
-            "step": "First chamber",
-            "label": "Passed chamber",
+            "key": "Transmitted to Second House",
+            "step": "Second chamber",
+            "label": "Transmitted",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -26388,9 +26388,9 @@
         "lcIdentifier": "LC1369",
         "type": "house bill",
         "status": {
-            "key": "In First House--Through 3rd Reading",
-            "step": "First chamber",
-            "label": "Passed chamber",
+            "key": "Transmitted to Second House",
+            "step": "Second chamber",
+            "label": "Transmitted",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -34399,7 +34399,25 @@
         "amendmentsUrl": null,
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
-        "articles": [],
+        "articles": [
+            {
+                "title": "Bills seek to permit citizen grand juries in Montana",
+                "category": "2023 Legislature",
+                "subtitle": "",
+                "date": "2023-02-23T18:39:53.000Z",
+                "link": "https://montanafreepress.org/2023/02/23/bills-seek-to-permit-citizen-grand-juries-in-montana/",
+                "author": "Arren Kimbel-Sannit",
+                "imageUrl": "https://montanafreepress.org/2023/02/16/bills-would-require-revotes-on-some-property-taxes/untitled-design-305/",
+                "billTags": [
+                    "HB 405",
+                    "HB 589"
+                ],
+                "lawmakerTags": [
+                    "Lola Sheldon-Galloway"
+                ],
+                "governorTags": []
+            }
+        ],
         "isOnCalendar": false
     },
     {
@@ -49502,7 +49520,25 @@
         "amendmentsUrl": "https://leg.mt.gov/laws/bills/2023/AmdPublicWeb/?bill=HB0589",
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
-        "articles": [],
+        "articles": [
+            {
+                "title": "Bills seek to permit citizen grand juries in Montana",
+                "category": "2023 Legislature",
+                "subtitle": "",
+                "date": "2023-02-23T18:39:53.000Z",
+                "link": "https://montanafreepress.org/2023/02/23/bills-seek-to-permit-citizen-grand-juries-in-montana/",
+                "author": "Arren Kimbel-Sannit",
+                "imageUrl": "https://montanafreepress.org/2023/02/16/bills-would-require-revotes-on-some-property-taxes/untitled-design-305/",
+                "billTags": [
+                    "HB 405",
+                    "HB 589"
+                ],
+                "lawmakerTags": [
+                    "Lola Sheldon-Galloway"
+                ],
+                "governorTags": []
+            }
+        ],
         "isOnCalendar": false
     },
     {
@@ -80678,6 +80714,27 @@
         "vetoMemoUrl": null,
         "articles": [
             {
+                "title": "Senate Judiciary tables two court appointment bills ",
+                "category": "2023 Legislature",
+                "subtitle": "",
+                "date": "2023-02-24T14:40:49.000Z",
+                "link": "https://montanafreepress.org/2023/02/24/montana-senate-judiciary-table-two-court-appointment-bills/",
+                "author": "Arren Kimbel-Sannit",
+                "imageUrl": "https://montanafreepress.org/2021/12/08/third-vaccine-mandate-blocked/untitled-design-70/",
+                "billTags": [
+                    "SB 140",
+                    "SB 372",
+                    "SB 431"
+                ],
+                "lawmakerTags": [
+                    "Chris Friedel",
+                    "Daniel Emrich"
+                ],
+                "governorTags": [
+                    "Greg Gianforte"
+                ]
+            },
+            {
                 "title": "Bill would shrink Montana Supreme Court from seven justices to five",
                 "category": "2023 Legislature",
                 "subtitle": "",
@@ -96769,14 +96826,14 @@
             },
             {
                 "step": "first committee",
-                "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "status": "passed",
+                "statusLabel": "Advanced",
+                "statusDate": "02/27/2023"
             },
             {
                 "step": "first chamber",
-                "status": "future",
-                "statusLabel": null,
+                "status": "current",
+                "statusLabel": "Pending",
                 "statusDate": null
             },
             {
@@ -98549,14 +98606,14 @@
             },
             {
                 "step": "first committee",
-                "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "status": "passed",
+                "statusLabel": "Advanced",
+                "statusDate": "02/27/2023"
             },
             {
                 "step": "first chamber",
-                "status": "future",
-                "statusLabel": null,
+                "status": "current",
+                "statusLabel": "Pending",
                 "statusDate": null
             },
             {
@@ -99727,7 +99784,29 @@
         "amendmentsUrl": null,
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
-        "articles": [],
+        "articles": [
+            {
+                "title": "Senate Judiciary tables two court appointment bills ",
+                "category": "2023 Legislature",
+                "subtitle": "",
+                "date": "2023-02-24T14:40:49.000Z",
+                "link": "https://montanafreepress.org/2023/02/24/montana-senate-judiciary-table-two-court-appointment-bills/",
+                "author": "Arren Kimbel-Sannit",
+                "imageUrl": "https://montanafreepress.org/2021/12/08/third-vaccine-mandate-blocked/untitled-design-70/",
+                "billTags": [
+                    "SB 140",
+                    "SB 372",
+                    "SB 431"
+                ],
+                "lawmakerTags": [
+                    "Chris Friedel",
+                    "Daniel Emrich"
+                ],
+                "governorTags": [
+                    "Greg Gianforte"
+                ]
+            }
+        ],
         "isOnCalendar": false
     },
     {
@@ -100475,14 +100554,14 @@
             },
             {
                 "step": "first committee",
-                "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "status": "passed",
+                "statusLabel": "Advanced",
+                "statusDate": "02/27/2023"
             },
             {
                 "step": "first chamber",
-                "status": "future",
-                "statusLabel": null,
+                "status": "current",
+                "statusLabel": "Pending",
                 "statusDate": null
             },
             {
@@ -104483,7 +104562,29 @@
         "amendmentsUrl": null,
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
-        "articles": [],
+        "articles": [
+            {
+                "title": "Senate Judiciary tables two court appointment bills ",
+                "category": "2023 Legislature",
+                "subtitle": "",
+                "date": "2023-02-24T14:40:49.000Z",
+                "link": "https://montanafreepress.org/2023/02/24/montana-senate-judiciary-table-two-court-appointment-bills/",
+                "author": "Arren Kimbel-Sannit",
+                "imageUrl": "https://montanafreepress.org/2021/12/08/third-vaccine-mandate-blocked/untitled-design-70/",
+                "billTags": [
+                    "SB 140",
+                    "SB 372",
+                    "SB 431"
+                ],
+                "lawmakerTags": [
+                    "Chris Friedel",
+                    "Daniel Emrich"
+                ],
+                "governorTags": [
+                    "Greg Gianforte"
+                ]
+            }
+        ],
         "isOnCalendar": false
     },
     {
@@ -107918,14 +108019,14 @@
             },
             {
                 "step": "first committee",
-                "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "status": "passed",
+                "statusLabel": "Advanced",
+                "statusDate": "02/27/2023"
             },
             {
                 "step": "first chamber",
-                "status": "future",
-                "statusLabel": null,
+                "status": "current",
+                "statusLabel": "Pending",
                 "statusDate": null
             },
             {
@@ -109105,10 +109206,10 @@
         "lcIdentifier": "LC0850",
         "type": "senate bill",
         "status": {
-            "key": "In First House Committee--Nontabled",
+            "key": "In First House Committee--Tabled",
             "step": "First chamber",
-            "label": "In committee",
-            "status": "live",
+            "label": "Tabled in committee",
+            "status": "stalled",
             "statusAtSessionEnd": "failed"
         },
         "progress": [
@@ -109120,9 +109221,9 @@
             },
             {
                 "step": "first committee",
-                "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "status": "blocked",
+                "statusLabel": "Tabled",
+                "statusDate": "02/27/2023"
             },
             {
                 "step": "first chamber",
@@ -109507,10 +109608,10 @@
         "lcIdentifier": "LC1774",
         "type": "senate bill",
         "status": {
-            "key": "In First House Committee--Nontabled",
+            "key": "In First House Committee--Tabled",
             "step": "First chamber",
-            "label": "In committee",
-            "status": "live",
+            "label": "Tabled in committee",
+            "status": "stalled",
             "statusAtSessionEnd": "failed"
         },
         "progress": [
@@ -109522,9 +109623,9 @@
             },
             {
                 "step": "first committee",
-                "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "status": "blocked",
+                "statusLabel": "Tabled",
+                "statusDate": "02/27/2023"
             },
             {
                 "step": "first chamber",
