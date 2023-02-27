@@ -41,6 +41,7 @@
             "HB 117",
             "HB 119",
             "HB 121",
+            "HB 136",
             "HB 141",
             "HB 147",
             "HB 163",
@@ -82,6 +83,7 @@
             "HB 325",
             "HB 332",
             "HB 345",
+            "HB 349",
             "HB 355",
             "HB 362",
             "HB 367",
@@ -93,15 +95,19 @@
             "HB 408",
             "HB 424",
             "HB 426",
+            "HB 457",
             "HB 462",
+            "HB 463",
             "HB 478",
+            "HB 519",
+            "HB 525",
             "HB 569",
             "HB 669",
             "HB 722",
             "SB 121",
             "SB 124"
         ],
-        "billCount": 94,
+        "billCount": 100,
         "billsUnscheduled": [
             "HB 2",
             "HB 5",
@@ -112,8 +118,14 @@
             "HB 10",
             "HB 11",
             "HB 12",
+            "HB 136",
             "HB 245",
-            "HB 478"
+            "HB 349",
+            "HB 457",
+            "HB 463",
+            "HB 478",
+            "HB 519",
+            "HB 525"
         ],
         "billsScheduled": [
             "HB 45",
@@ -4291,6 +4303,7 @@
             "SB 226",
             "SB 227",
             "SB 229",
+            "SB 282",
             "SB 417",
             "SB 460",
             "SB 485",
@@ -4298,12 +4311,12 @@
             "SB 489",
             "SB 494"
         ],
-        "billCount": 50,
-        "billsUnscheduled": [
-            "SB 460",
-            "SB 485"
-        ],
+        "billCount": 51,
+        "billsUnscheduled": [],
         "billsScheduled": [
+            "SB 282",
+            "SB 460",
+            "SB 485",
             "SB 487",
             "SB 489",
             "SB 494"
@@ -4315,6 +4328,14 @@
                     "SB 487",
                     "SB 489",
                     "SB 494"
+                ]
+            },
+            {
+                "day": "02/28/2023",
+                "bills": [
+                    "SB 282",
+                    "SB 460",
+                    "SB 485"
                 ]
             }
         ],
@@ -5094,7 +5115,6 @@
             "SB 276",
             "SB 349",
             "SB 360",
-            "SB 361",
             "SB 366",
             "SB 371",
             "SJ 12"
@@ -5184,7 +5204,9 @@
             "SR 41",
             "SR 42"
         ],
-        "billsBlasted": [],
+        "billsBlasted": [
+            "SB 361"
+        ],
         "members": [
             {
                 "name": "Jason Small",
