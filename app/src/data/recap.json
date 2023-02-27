@@ -386,6 +386,19 @@
                     "title": "Revise trash tie down laws"
                 },
                 {
+                    "id": "HB402-0034",
+                    "bill": "HB 402",
+                    "date": "02/27/2023",
+                    "description": "Reconsidered Previous Action; Placed on 2nd Reading",
+                    "posession": "house",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Reconsidered Previous Action; Placed on 2nd Reading",
+                    "isMajor": true,
+                    "title": "Revise elector registration laws"
+                },
+                {
                     "id": "HB418-0027",
                     "bill": "HB 418",
                     "date": "02/27/2023",
@@ -1078,6 +1091,24 @@
                     "committeeAction": true,
                     "advanced": true,
                     "title": "Require insurance coverage of conditions involving facial bones"
+                },
+                {
+                    "id": "HB799-0021",
+                    "bill": "HB 799",
+                    "date": "02/27/2023",
+                    "description": "Tabled in Committee",
+                    "posession": "house",
+                    "committee": "House Taxation",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Tabled in Committee",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "secondChamberAction": true,
+                    "failed": true,
+                    "tabled": true,
+                    "title": "Raise cap on value of estate for certain transactions with decedent's successor"
                 },
                 {
                     "id": "SB93-0029",
@@ -2375,7 +2406,9 @@
                     "posession": "house",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46133?agendaId=254777"
+                    ],
                     "key": "2nd Reading Not Passed",
                     "isMajor": true,
                     "isHighlight": true,
