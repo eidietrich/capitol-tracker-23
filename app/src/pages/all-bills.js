@@ -15,7 +15,7 @@ const types = [
   'budget bill',
   'house bill',
   'senate bill',
-  'constitutonal amendment',
+  'constitutional amendment',
   'revenue resolution',
   'study resolution',
   'house resolution',
