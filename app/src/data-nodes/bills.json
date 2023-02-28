@@ -69620,10 +69620,10 @@
         "lcIdentifier": "LC0347",
         "type": "senate bill",
         "status": {
-            "key": "In First House Committee--Nontabled",
+            "key": "In First House Committee--Tabled",
             "step": "First chamber",
-            "label": "In committee",
-            "status": "live",
+            "label": "Tabled in committee",
+            "status": "stalled",
             "statusAtSessionEnd": "failed"
         },
         "progress": [
@@ -69635,9 +69635,9 @@
             },
             {
                 "step": "first committee",
-                "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "status": "blocked",
+                "statusLabel": "Tabled",
+                "statusDate": "02/27/2023"
             },
             {
                 "step": "first chamber",
@@ -82214,10 +82214,10 @@
         "lcIdentifier": "LC1935",
         "type": "senate bill",
         "status": {
-            "key": "In First House Committee--Nontabled",
+            "key": "In First House Committee--Tabled",
             "step": "First chamber",
-            "label": "In committee",
-            "status": "live",
+            "label": "Tabled in committee",
+            "status": "stalled",
             "statusAtSessionEnd": "failed"
         },
         "progress": [
@@ -82229,9 +82229,9 @@
             },
             {
                 "step": "first committee",
-                "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "status": "blocked",
+                "statusLabel": "Tabled",
+                "statusDate": "02/27/2023"
             },
             {
                 "step": "first chamber",
@@ -101304,10 +101304,10 @@
         "lcIdentifier": "LC2216",
         "type": "senate bill",
         "status": {
-            "key": "In First House Committee--Nontabled",
+            "key": "In First House Committee--Tabled",
             "step": "First chamber",
-            "label": "In committee",
-            "status": "live",
+            "label": "Tabled in committee",
+            "status": "stalled",
             "statusAtSessionEnd": "failed"
         },
         "progress": [
@@ -101319,9 +101319,9 @@
             },
             {
                 "step": "first committee",
-                "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "status": "blocked",
+                "statusLabel": "Tabled",
+                "statusDate": "02/27/2023"
             },
             {
                 "step": "first chamber",
@@ -101383,10 +101383,10 @@
         "lcIdentifier": "LC2211",
         "type": "senate bill",
         "status": {
-            "key": "In First House Committee--Nontabled",
+            "key": "In First House Committee--Tabled",
             "step": "First chamber",
-            "label": "In committee",
-            "status": "live",
+            "label": "Tabled in committee",
+            "status": "stalled",
             "statusAtSessionEnd": "failed"
         },
         "progress": [
@@ -101398,9 +101398,9 @@
             },
             {
                 "step": "first committee",
-                "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "status": "blocked",
+                "statusLabel": "Tabled",
+                "statusDate": "02/27/2023"
             },
             {
                 "step": "first chamber",
@@ -101448,7 +101448,7 @@
         "tags": [],
         "lawsUrl": "http://laws.leg.mt.gov/legprd/LAW0210W$BSIV.ActionQuery?P_BILL_NO1=390&P_BLTP_BILL_TYP_CD=SB&Z_ACTION=Find&P_SESS=20231",
         "textUrl": "http://leg.mt.gov/bills/2023/billpdf/SB0390.pdf",
-        "fiscalNoteUrl": null,
+        "fiscalNoteUrl": "https://leg.mt.gov/laws/bills/2023/FNPDF/SB0390",
         "amendmentsUrl": "https://leg.mt.gov/laws/bills/2023/AmdPublicWeb/?bill=SB0390",
         "legalNoteUrl": "https://leg.mt.gov/laws/bills/2023/LRC/SB0390",
         "vetoMemoUrl": null,
