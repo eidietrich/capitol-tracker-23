@@ -101,13 +101,14 @@
             "HB 478",
             "HB 519",
             "HB 525",
+            "HB 541",
             "HB 569",
             "HB 669",
             "HB 722",
             "SB 121",
             "SB 124"
         ],
-        "billCount": 100,
+        "billCount": 101,
         "billsUnscheduled": [
             "HB 2",
             "HB 5",
@@ -119,7 +120,8 @@
             "HB 11",
             "HB 12",
             "HB 245",
-            "HB 478"
+            "HB 478",
+            "HB 541"
         ],
         "billsScheduled": [
             "HB 136",
@@ -4213,15 +4215,15 @@
         ],
         "billCount": 57,
         "billsUnscheduled": [
-            "SB 232",
             "SB 280",
-            "SB 294",
             "SB 334",
             "SJ 18"
         ],
         "billsScheduled": [
+            "SB 232",
             "SB 281",
             "SB 282",
+            "SB 294",
             "SB 460",
             "SB 485"
         ],
@@ -4233,6 +4235,13 @@
                     "SB 282",
                     "SB 460",
                     "SB 485"
+                ]
+            },
+            {
+                "day": "03/01/2023",
+                "bills": [
+                    "SB 232",
+                    "SB 294"
                 ]
             }
         ],

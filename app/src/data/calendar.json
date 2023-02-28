@@ -1,6 +1,7 @@
 {
     "datesOnCalendar": [
         "02/28/2023",
+        "03/01/2023",
         "03/10/2023",
         "03/13/2023",
         "03/15/2023"
@@ -61,8 +62,10 @@
         "HB 813",
         "HB 815",
         "HJ 14",
+        "SB 232",
         "SB 281",
         "SB 282",
+        "SB 294",
         "SB 375",
         "SB 380",
         "SB 386",
@@ -132,10 +135,8 @@
         "HB 662",
         "SB 121",
         "SB 124",
-        "SB 232",
         "SB 280",
         "SB 284",
-        "SB 294",
         "SB 319",
         "SB 324",
         "SB 336",
@@ -899,6 +900,19 @@
             "hearing": true
         },
         {
+            "id": "SB232-0034",
+            "bill": "SB 232",
+            "date": "03/01/2023",
+            "description": "Hearing",
+            "posession": "senate",
+            "committee": "Senate Finance and Claims",
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
             "id": "SB281-0036",
             "bill": "SB 281",
             "date": "02/28/2023",
@@ -915,6 +929,19 @@
             "id": "SB282-0032",
             "bill": "SB 282",
             "date": "02/28/2023",
+            "description": "Hearing",
+            "posession": "senate",
+            "committee": "Senate Finance and Claims",
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
+            "id": "SB294-0036",
+            "bill": "SB 294",
+            "date": "03/01/2023",
             "description": "Hearing",
             "posession": "senate",
             "committee": "Senate Finance and Claims",

@@ -25804,9 +25804,9 @@
         "lcIdentifier": "LC1884",
         "type": "house bill",
         "status": {
-            "key": "In First House--Through 2nd Reading",
+            "key": "In First House--Through 3rd Reading",
             "step": "First chamber",
-            "label": "Passed second reading vote",
+            "label": "Passed chamber",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -25825,14 +25825,14 @@
             },
             {
                 "step": "first chamber",
-                "status": "current",
-                "statusLabel": "Passed preliminary floor vote",
-                "statusDate": "02/27/2023"
+                "status": "passed",
+                "statusLabel": "Passed House",
+                "statusDate": "02/28/2023"
             },
             {
                 "step": "second chamber",
-                "status": "future",
-                "statusLabel": null,
+                "status": "current",
+                "statusLabel": "Pending",
                 "statusDate": null
             },
             {
@@ -26563,9 +26563,9 @@
         "lcIdentifier": "LC1345",
         "type": "house bill",
         "status": {
-            "key": "In First House--Through 2nd Reading",
+            "key": "In First House--Through 3rd Reading",
             "step": "First chamber",
-            "label": "Passed second reading vote",
+            "label": "Passed chamber",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -26584,14 +26584,14 @@
             },
             {
                 "step": "first chamber",
-                "status": "current",
-                "statusLabel": "Passed preliminary floor vote",
-                "statusDate": "02/27/2023"
+                "status": "passed",
+                "statusLabel": "Passed House",
+                "statusDate": "02/28/2023"
             },
             {
                 "step": "second chamber",
-                "status": "future",
-                "statusLabel": null,
+                "status": "current",
+                "statusLabel": "Pending",
                 "statusDate": null
             },
             {
@@ -26974,6 +26974,22 @@
         "billPageText": null,
         "articles": [
             {
+                "title": "Montana Indian Child Welfare Act passes key House vote",
+                "category": "2023 Legislature",
+                "subtitle": "",
+                "date": "2023-02-27T19:21:31.000Z",
+                "link": "https://montanafreepress.org/2023/02/27/state-indian-child-welfare-act-advances-in-montana/",
+                "author": "JoVonne Wagner",
+                "imageUrl": "https://montanafreepress.org/2021/06/18/montana-critical-race-theory/montana_capitol_with_tribal_flags_1200x675/",
+                "billTags": [
+                    "HB 317"
+                ],
+                "lawmakerTags": [
+                    "Jonathan Windy Boy"
+                ],
+                "governorTags": []
+            },
+            {
                 "title": "Committee advances bill that proponents say needed to protect cultural identity of Native children ",
                 "category": "2023 Legislature",
                 "subtitle": "",
@@ -27262,10 +27278,10 @@
         "lcIdentifier": "LC1343",
         "type": "house bill",
         "status": {
-            "key": "In First House Committee--Tabled",
+            "key": "In First House Committee--Nontabled",
             "step": "First chamber",
-            "label": "Tabled in committee",
-            "status": "stalled",
+            "label": "In committee",
+            "status": "live",
             "statusAtSessionEnd": "failed"
         },
         "progress": [
@@ -45525,9 +45541,9 @@
         "lcIdentifier": "LC2273",
         "type": "house bill",
         "status": {
-            "key": "In First House--Through 2nd Reading",
+            "key": "In First House Committee--Nontabled",
             "step": "First chamber",
-            "label": "Passed second reading vote",
+            "label": "In committee",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -86197,9 +86213,9 @@
         "lcIdentifier": "LC0614",
         "type": "senate bill",
         "status": {
-            "key": "In First House--Through 2nd Reading",
+            "key": "In First House--Out of Committee",
             "step": "First chamber",
-            "label": "Passed second reading vote",
+            "label": "Out of committee",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -107119,7 +107135,27 @@
         "amendmentsUrl": null,
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
-        "articles": [],
+        "articles": [
+            {
+                "title": "Bill creates strict definition for ‘sex,’ legally sidelining intersex and transgender people",
+                "category": "2023 Legislature",
+                "subtitle": "",
+                "date": "2023-02-28T10:05:04.000Z",
+                "link": "https://montanafreepress.org/2023/02/28/montana-bill-creates-strict-definition-for-sex-legally-sidelining-intersex-and-transgender-people/",
+                "author": "Mara Silvers",
+                "imageUrl": "https://montanafreepress.org/2023/02/28/montana-bill-creates-strict-definition-for-sex-legally-sidelining-intersex-and-transgender-people/screen_shot_2023-02-28_at_9-48-59_am/",
+                "billTags": [
+                    "SB 458"
+                ],
+                "lawmakerTags": [
+                    "Carl Glimm",
+                    "Jen Gross",
+                    "Tom McGillvray",
+                    "Zooey Zephyr"
+                ],
+                "governorTags": []
+            }
+        ],
         "isOnCalendar": false
     },
     {
