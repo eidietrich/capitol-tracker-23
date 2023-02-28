@@ -1415,7 +1415,6 @@
             "HB 430",
             "HB 526",
             "HB 601",
-            "HB 613",
             "HB 685"
         ],
         "billsFailed": [
@@ -1437,6 +1436,7 @@
             "HB 476",
             "HB 508",
             "HB 515",
+            "HB 613",
             "HB 799"
         ],
         "billsAdvanced": [
@@ -2831,21 +2831,17 @@
         "billsScheduledByDay": [],
         "billsAwaitingVote": [
             "HB 445",
-            "HB 538",
-            "HB 633",
-            "HB 688",
-            "HB 744",
-            "HB 745",
-            "HB 796",
-            "HB 811",
-            "HB 814",
             "SB 129"
         ],
         "billsFailed": [
             "HB 259",
             "HB 503",
             "HB 514",
-            "HB 535"
+            "HB 535",
+            "HB 538",
+            "HB 688",
+            "HB 796",
+            "HB 814"
         ],
         "billsAdvanced": [
             "HB 15",
@@ -2883,7 +2879,11 @@
             "HB 566",
             "HB 587",
             "HB 588",
-            "HB 707"
+            "HB 633",
+            "HB 707",
+            "HB 744",
+            "HB 745",
+            "HB 811"
         ],
         "billsBlasted": [],
         "members": [
@@ -3854,14 +3854,15 @@
             }
         ],
         "billsAwaitingVote": [
-            "HB 607",
-            "HB 626",
             "HB 701",
             "HB 714",
             "HB 739",
             "HB 755"
         ],
-        "billsFailed": [],
+        "billsFailed": [
+            "HB 607",
+            "HB 626"
+        ],
         "billsAdvanced": [
             "HB 28",
             "HB 110",
@@ -5779,8 +5780,7 @@
         "billsScheduledByDay": [],
         "billsAwaitingVote": [
             "HB 88",
-            "HB 122",
-            "SJ 16"
+            "HB 122"
         ],
         "billsFailed": [
             "SB 82",
@@ -5809,6 +5809,7 @@
             "SB 402",
             "SB 426",
             "SB 448",
+            "SJ 16",
             "SR 44"
         ],
         "billsBlasted": [],
