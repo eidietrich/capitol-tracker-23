@@ -67790,6 +67790,87 @@
         "isOnCalendar": false
     },
     {
+        "key": "hb-817",
+        "identifier": "HB 817",
+        "chamber": "house",
+        "title": "Provide for capital projects",
+        "session": "20231",
+        "lcIdentifier": "LC4622",
+        "type": "house bill",
+        "status": {
+            "key": "In First House--Introduced",
+            "step": "First chamber",
+            "label": "Introduced",
+            "status": "live",
+            "statusAtSessionEnd": "failed"
+        },
+        "progress": [
+            {
+                "step": "introduced",
+                "status": "passed",
+                "statusLabel": "Introduced",
+                "statusDate": "02/28/2023"
+            },
+            {
+                "step": "first committee",
+                "status": "current",
+                "statusLabel": "Pending",
+                "statusDate": null
+            },
+            {
+                "step": "first chamber",
+                "status": "future",
+                "statusLabel": null,
+                "statusDate": null
+            },
+            {
+                "step": "second chamber",
+                "status": "future",
+                "statusLabel": null,
+                "statusDate": null
+            },
+            {
+                "step": "reconciliation",
+                "status": "skipped",
+                "statusLabel": null,
+                "statusDate": null
+            },
+            {
+                "step": "governor",
+                "status": "future",
+                "statusLabel": null,
+                "statusDate": null
+            }
+        ],
+        "hasBeenSentToGovernor": false,
+        "sponsor": {
+            "name": "John Fitzpatrick",
+            "lastName": "Fitzpatrick",
+            "party": "R",
+            "locale": "Anaconda",
+            "district": "HD 77"
+        },
+        "requestor": null,
+        "deadlineCategory": "Appropriation Bills",
+        "transmittalDeadline": "04/03/2023",
+        "secondHouseReturnIfAmendedDeadline": "04/21/2023",
+        "voteMajorityRequired": "Simple",
+        "subjects": [
+            "Appropriations  (see also: State Finance)",
+            "State Finance  (see also: Appropriations; Taxation Subjects)",
+            "State Government"
+        ],
+        "tags": [],
+        "lawsUrl": "http://laws.leg.mt.gov/legprd/LAW0210W$BSIV.ActionQuery?P_BILL_NO1=817&P_BLTP_BILL_TYP_CD=HB&Z_ACTION=Find&P_SESS=20231",
+        "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC4622.pdf",
+        "fiscalNoteUrl": null,
+        "amendmentsUrl": null,
+        "legalNoteUrl": null,
+        "vetoMemoUrl": null,
+        "articles": [],
+        "isOnCalendar": false
+    },
+    {
         "key": "hj-1",
         "identifier": "HJ 1",
         "chamber": "house",
