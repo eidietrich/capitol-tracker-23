@@ -280,7 +280,7 @@ export default class Bill {
                 } else {
                     const lastFloorAction = actionsInSecondChamber.slice(-1)[0]
                     if (lastFloorAction.failed) { status = 'blocked'; statusLabel = 'Voted down' }
-                    if (lastFloorAction.preliminaryPassage) { status = 'passed'; statusLabel = 'Passed preliminary vote' }
+                    if (lastFloorAction.preliminaryPassage) { status = 'current'; statusLabel = 'Passed preliminary vote' }
                     if (lastFloorAction.finalPassage) { status = 'passed'; statusLabel = `Passed ${capitalize(secondChamber)}`, hasPassedSecondChamber = true }
                     if (lastFloorAction.finalPassage && progressFlagInActions(actionsInSecondChamber, 'amended')) {
                         reconciliationNecessary = true

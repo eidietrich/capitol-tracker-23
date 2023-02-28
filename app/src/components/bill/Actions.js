@@ -194,7 +194,7 @@ const Action = (action, showVotes, annotations) => {
         (vote && thresholdRequired !== 'simple') ? <div className="note">Supermajority required</div> : null
       }
       {
-        (showVotes && vote) ? <VoteBlock vote={vote} voteUrl={voteUrl} /> : null
+        (showVotes && vote) ? <VoteBlock description={description} vote={vote} /> : null
       }
       {
         // hearing info
@@ -269,7 +269,7 @@ const partyIconCss = (color) => css`
   font-style: normal;
 `
 
-const VoteBlock = ({ vote }) => {
+const VoteBlock = ({ vote, description }) => {
   const {
     count,
     motionPassed,
@@ -282,7 +282,9 @@ const VoteBlock = ({ vote }) => {
   } = (vote || {})
   const rColor = partyColors('R')
   const dColor = partyColors('D')
-  const passageColor = motionPassed ? positionColors('Y') : positionColors('N')
+
+  const billAdvanced = (description === 'Tabled in Committee') ? !motionPassed : motionPassed
+  const passageColor = billAdvanced ? positionColors('Y') : positionColors('N')
   const gopSupportColor = gopSupported ? positionColors('Y') : positionColors('N')
   const demSupportColor = demSupported ? positionColors('Y') : positionColors('N')
   return <div>
@@ -303,7 +305,8 @@ const VoteBlock = ({ vote }) => {
         </div>}
       </div>
     </div>
-    <VoteListing votes={votes} voteUrl={voteUrl} />
+    {(votes.length > 1) && <VoteListing votes={votes} voteUrl={voteUrl} />}
+
   </div>
 }
 
@@ -315,6 +318,10 @@ const voteListing = css`
   background-color: var(--tan2);
   margin-bottom: 1em;
   margin-top: 0.5em;
+
+  .note {
+    width: 100%;
+  }
 `
 const col = css`
   flex: 0 0 50%;

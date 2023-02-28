@@ -120,7 +120,7 @@ const CommitteePage = ({ pageContext, data, location }) => {
                     <div className="header"><strong> {members.filter(d => d.party === 'D').length}</strong> Democrats</div>
                     {
                         members.filter(d => d.party === 'D').map(m => <div className="item" key={m.name} style={{ borderLeft: `5px solid ${partyColors(m.party)}` }}><>👤 </>
-                            <Link to={`/ lawmakers / ${lawmakerUrl(m.name)}`}><strong>{m.name}</strong> <span style={{ color: partyColors(m.party) }}>({m.party}-{m.locale})</span></Link>
+                            <Link to={`/lawmakers/${lawmakerUrl(m.name)}`}><strong>{m.name}</strong> <span style={{ color: partyColors(m.party) }}>({m.party}-{m.locale})</span></Link>
                             {(m.role !== 'Member') && <span> – {m.role}</span>}
                         </div>)
                     }
