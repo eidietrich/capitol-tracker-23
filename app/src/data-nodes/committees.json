@@ -634,7 +634,6 @@
             }
         ],
         "billsAwaitingVote": [
-            "HB 762",
             "HB 763"
         ],
         "billsFailed": [
@@ -762,6 +761,7 @@
             "HB 658",
             "HB 659",
             "HB 661",
+            "HB 674",
             "HB 676",
             "HB 680",
             "HB 681",
@@ -784,6 +784,7 @@
             "HB 742",
             "HB 743",
             "HB 746",
+            "HB 762",
             "HJ 1",
             "SB 7",
             "SB 91",
@@ -4200,14 +4201,16 @@
             "SB 485",
             "SB 487",
             "SB 489",
-            "SB 494"
+            "SB 494",
+            "SJ 18"
         ],
-        "billCount": 56,
+        "billCount": 57,
         "billsUnscheduled": [
             "SB 232",
             "SB 280",
             "SB 294",
-            "SB 334"
+            "SB 334",
+            "SJ 18"
         ],
         "billsScheduled": [
             "SB 281",
@@ -4602,7 +4605,6 @@
             "SB 297",
             "SB 372",
             "SB 431",
-            "SB 464",
             "SB 468",
             "SB 476",
             "SB 477"
@@ -4701,7 +4703,9 @@
             "SR 9",
             "SR 10"
         ],
-        "billsBlasted": [],
+        "billsBlasted": [
+            "SB 464"
+        ],
         "members": [
             {
                 "name": "Keith Regier",
