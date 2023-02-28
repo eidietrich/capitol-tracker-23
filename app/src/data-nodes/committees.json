@@ -2599,8 +2599,12 @@
         "billsScheduled": [],
         "billsScheduledByDay": [],
         "billsAwaitingVote": [
+            "HB 809",
+            "SB 144"
+        ],
+        "billsFailed": [
+            "HB 46",
             "HB 472",
-            "HB 486",
             "HB 670",
             "HB 718",
             "HB 776",
@@ -2608,11 +2612,6 @@
             "HB 782",
             "HB 798",
             "HB 803",
-            "HB 809",
-            "SB 144"
-        ],
-        "billsFailed": [
-            "HB 46",
             "SB 108"
         ],
         "billsAdvanced": [
@@ -2637,6 +2636,7 @@
             "HB 401",
             "HB 439",
             "HB 470",
+            "HB 486",
             "HB 489",
             "HB 622",
             "HB 664",
