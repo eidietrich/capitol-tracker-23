@@ -18751,9 +18751,9 @@
         "lcIdentifier": "LC4332",
         "type": "house bill",
         "status": {
-            "key": "In Second House--Out of Committee",
+            "key": "In Second House--Through 2nd Reading",
             "step": "Second chamber",
-            "label": "On floor",
+            "label": "Passed 2nd reading vote",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -18779,8 +18779,8 @@
             {
                 "step": "second chamber",
                 "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "statusLabel": "Passed preliminary vote",
+                "statusDate": "02/28/2023"
             },
             {
                 "step": "reconciliation",
@@ -18881,7 +18881,7 @@
                 ]
             }
         ],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "hb-223",
@@ -21264,9 +21264,9 @@
         "lcIdentifier": "LC0108",
         "type": "house bill",
         "status": {
-            "key": "In Second House--Out of Committee",
+            "key": "In Second House--Through 2nd Reading",
             "step": "Second chamber",
-            "label": "On floor",
+            "label": "Passed 2nd reading vote",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -21292,8 +21292,8 @@
             {
                 "step": "second chamber",
                 "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "statusLabel": "Passed preliminary vote",
+                "statusDate": "02/28/2023"
             },
             {
                 "step": "reconciliation",
@@ -21391,7 +21391,7 @@
                 ]
             }
         ],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "hb-252",
@@ -30651,9 +30651,9 @@
         "lcIdentifier": "LC1316",
         "type": "house bill",
         "status": {
-            "key": "In First House--Out of Committee",
+            "key": "In First House--Through 2nd Reading",
             "step": "First chamber",
-            "label": "Out of committee",
+            "label": "Passed second reading vote",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -30673,8 +30673,8 @@
             {
                 "step": "first chamber",
                 "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "statusLabel": "Passed preliminary floor vote",
+                "statusDate": "02/28/2023"
             },
             {
                 "step": "second chamber",
@@ -30720,7 +30720,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "hb-361",
@@ -62101,14 +62101,14 @@
             },
             {
                 "step": "first committee",
-                "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "status": "passed",
+                "statusLabel": "Advanced",
+                "statusDate": "02/28/2023"
             },
             {
                 "step": "first chamber",
-                "status": "future",
-                "statusLabel": null,
+                "status": "current",
+                "statusLabel": "Pending",
                 "statusDate": null
             },
             {
@@ -62149,7 +62149,7 @@
         "tags": [],
         "lawsUrl": "http://laws.leg.mt.gov/legprd/LAW0210W$BSIV.ActionQuery?P_BILL_NO1=746&P_BLTP_BILL_TYP_CD=HB&Z_ACTION=Find&P_SESS=20231",
         "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0746.pdf",
-        "fiscalNoteUrl": null,
+        "fiscalNoteUrl": "https://leg.mt.gov/laws/bills/2023/FNPDF/HB0746",
         "amendmentsUrl": null,
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
