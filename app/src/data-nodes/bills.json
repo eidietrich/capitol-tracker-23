@@ -254,7 +254,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-4",
@@ -2270,7 +2270,7 @@
                 "governorTags": []
             }
         ],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-29",
@@ -3751,7 +3751,7 @@
                 "governorTags": []
             }
         ],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-46",
@@ -14194,7 +14194,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-169",
@@ -16044,7 +16044,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-191",
@@ -17960,7 +17960,7 @@
                 ]
             }
         ],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-213",
@@ -18740,7 +18740,7 @@
                 ]
             }
         ],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-222",
@@ -19213,7 +19213,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-227",
@@ -22966,10 +22966,10 @@
         "lcIdentifier": "LC2298",
         "type": "house bill",
         "status": {
-            "key": "In First House Committee--Tabled",
+            "key": "In First House Committee--Nontabled",
             "step": "First chamber",
-            "label": "Tabled in committee",
-            "status": "stalled",
+            "label": "In committee",
+            "status": "live",
             "statusAtSessionEnd": "failed"
         },
         "progress": [
@@ -22981,9 +22981,9 @@
             },
             {
                 "step": "first committee",
-                "status": "blocked",
-                "statusLabel": "Tabled",
-                "statusDate": "01/25/2023"
+                "status": "current",
+                "statusLabel": "Pending",
+                "statusDate": "02/27/2023"
             },
             {
                 "step": "first chamber",
@@ -23532,7 +23532,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-277",
@@ -26631,7 +26631,24 @@
         "amendmentsUrl": "https://leg.mt.gov/laws/bills/2023/AmdPublicWeb/?bill=HB0313",
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
-        "articles": [],
+        "articles": [
+            {
+                "title": "Montana considers allowing physician assistants to practice independently",
+                "category": "Health Care",
+                "subtitle": "",
+                "date": "2023-02-10T13:04:08.000Z",
+                "link": "https://montanafreepress.org/2023/02/10/montana-considers-allowing-physician-assistants-to-practice-independently/",
+                "author": "Stephanie Farmer",
+                "imageUrl": "https://montanafreepress.org/2023/02/10/montana-considers-allowing-physician-assistants-to-practice-independently/untitled-design-295/",
+                "billTags": [
+                    "HB 313"
+                ],
+                "lawmakerTags": [
+                    "Jodee Etchart"
+                ],
+                "governorTags": []
+            }
+        ],
         "isOnCalendar": true
     },
     {
@@ -28936,7 +28953,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-340",
@@ -32426,7 +32443,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-382",
@@ -32755,7 +32772,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-386",
@@ -32994,7 +33011,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-389",
@@ -33835,7 +33852,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-399",
@@ -33915,7 +33932,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-400",
@@ -34076,7 +34093,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-402",
@@ -35513,7 +35530,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-419",
@@ -36963,7 +36980,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-436",
@@ -37284,7 +37301,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-440",
@@ -37363,7 +37380,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-441",
@@ -37923,7 +37940,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-447",
@@ -40097,7 +40114,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-474",
@@ -40665,7 +40682,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-481",
@@ -41469,7 +41486,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "hb-491",
@@ -42437,7 +42454,29 @@
         "amendmentsUrl": null,
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
-        "articles": [],
+        "articles": [
+            {
+                "title": "Sex ed drives raft of public education proposals",
+                "category": "Education",
+                "subtitle": "",
+                "date": "2023-02-27T16:01:50.000Z",
+                "link": "https://montanafreepress.org/2023/02/27/montana-legislature-k12-sex-education-policy/",
+                "author": "Alex Sakariassen",
+                "imageUrl": "https://montanafreepress.org/2023/02/15/republicans-vote-down-long-term-property-tax-relief-bill/untitled-design-302/",
+                "billTags": [
+                    "HB 502",
+                    "HB 566",
+                    "SB 315",
+                    "SB 337"
+                ],
+                "lawmakerTags": [
+                    "Fred Anderson",
+                    "Mary Ann Dunwell",
+                    "Theresa Manzella"
+                ],
+                "governorTags": []
+            }
+        ],
         "isOnCalendar": false
     },
     {
@@ -43398,7 +43437,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-515",
@@ -44357,7 +44396,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-527",
@@ -44436,7 +44475,7 @@
         "legalNoteUrl": "https://leg.mt.gov/laws/bills/2023/LRC/HB0527",
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-528",
@@ -45317,7 +45356,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-539",
@@ -46076,7 +46115,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-548",
@@ -46346,7 +46385,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-551",
@@ -47003,7 +47042,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-559",
@@ -47641,7 +47680,29 @@
         "amendmentsUrl": "https://leg.mt.gov/laws/bills/2023/AmdPublicWeb/?bill=HB0566",
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
-        "articles": [],
+        "articles": [
+            {
+                "title": "Sex ed drives raft of public education proposals",
+                "category": "Education",
+                "subtitle": "",
+                "date": "2023-02-27T16:01:50.000Z",
+                "link": "https://montanafreepress.org/2023/02/27/montana-legislature-k12-sex-education-policy/",
+                "author": "Alex Sakariassen",
+                "imageUrl": "https://montanafreepress.org/2023/02/15/republicans-vote-down-long-term-property-tax-relief-bill/untitled-design-302/",
+                "billTags": [
+                    "HB 502",
+                    "HB 566",
+                    "SB 315",
+                    "SB 337"
+                ],
+                "lawmakerTags": [
+                    "Fred Anderson",
+                    "Mary Ann Dunwell",
+                    "Theresa Manzella"
+                ],
+                "governorTags": []
+            }
+        ],
         "isOnCalendar": false
     },
     {
@@ -47803,7 +47864,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-569",
@@ -49195,9 +49256,9 @@
         "lcIdentifier": "LC1108",
         "type": "house bill",
         "status": {
-            "key": "In First House Committee--Nontabled",
+            "key": "In First House--Out of Committee",
             "step": "First chamber",
-            "label": "In committee",
+            "label": "Out of committee",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -49635,7 +49696,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-591",
@@ -49875,7 +49936,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-594",
@@ -50275,7 +50336,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-599",
@@ -50354,7 +50415,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-600",
@@ -50515,7 +50576,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-602",
@@ -51245,7 +51306,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-611",
@@ -51325,7 +51386,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-612",
@@ -51406,7 +51467,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-613",
@@ -51489,7 +51550,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-614",
@@ -51976,7 +52037,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-620",
@@ -52381,7 +52442,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-625",
@@ -52461,7 +52522,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-626",
@@ -53102,7 +53163,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-634",
@@ -53662,7 +53723,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-641",
@@ -53901,7 +53962,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-644",
@@ -54470,7 +54531,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-651",
@@ -55113,7 +55174,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-659",
@@ -55434,7 +55495,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-663",
@@ -55834,7 +55895,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-669",
@@ -56234,7 +56295,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-674",
@@ -56477,7 +56538,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-677",
@@ -57200,7 +57261,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-686",
@@ -57358,7 +57419,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-688",
@@ -57438,7 +57499,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-689",
@@ -57518,7 +57579,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-690",
@@ -57600,7 +57661,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-691",
@@ -58004,7 +58065,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-696",
@@ -58084,7 +58145,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-697",
@@ -58164,7 +58225,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-698",
@@ -58244,7 +58305,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-699",
@@ -58487,7 +58548,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-702",
@@ -58891,7 +58952,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-707",
@@ -59130,7 +59191,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-710",
@@ -59530,7 +59591,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-715",
@@ -59610,7 +59671,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-716",
@@ -60087,7 +60148,7 @@
         "legalNoteUrl": "https://leg.mt.gov/laws/bills/2023/LRC/HB0721",
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-722",
@@ -60490,7 +60551,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-727",
@@ -60730,7 +60791,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-730",
@@ -61048,7 +61109,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-734",
@@ -61211,7 +61272,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-736",
@@ -61532,7 +61593,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-740",
@@ -61934,7 +61995,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-745",
@@ -62014,7 +62075,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-746",
@@ -62732,7 +62793,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-755",
@@ -62812,7 +62873,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-756",
@@ -62893,7 +62954,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-757",
@@ -63056,7 +63117,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-759",
@@ -63216,7 +63277,7 @@
         "legalNoteUrl": "https://leg.mt.gov/laws/bills/2023/LRC/HB0760",
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-761",
@@ -63375,7 +63436,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-763",
@@ -63457,7 +63518,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-764",
@@ -63697,7 +63758,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-767",
@@ -64354,9 +64415,9 @@
         "lcIdentifier": "LC4307",
         "type": "house bill",
         "status": {
-            "key": "In First House Committee--Nontabled",
+            "key": "In First House--Out of Committee",
             "step": "First chamber",
-            "label": "In committee",
+            "label": "Out of committee",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -64505,7 +64566,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-777",
@@ -64902,7 +64963,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-782",
@@ -64981,7 +65042,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-783",
@@ -65060,7 +65121,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-784",
@@ -66110,7 +66171,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-797",
@@ -66192,7 +66253,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-798",
@@ -66273,7 +66334,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-799",
@@ -66352,7 +66413,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-800",
@@ -66677,7 +66738,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-804",
@@ -66758,7 +66819,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-805",
@@ -66839,7 +66900,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-806",
@@ -67079,7 +67140,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-809",
@@ -67159,7 +67220,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-810",
@@ -67319,7 +67380,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-812",
@@ -67562,7 +67623,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-815",
@@ -68256,7 +68317,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hj-10",
@@ -68394,7 +68455,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hj-12",
@@ -68530,7 +68591,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hj-14",
@@ -68803,7 +68864,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hr-4",
@@ -76750,7 +76811,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-94",
@@ -81642,7 +81703,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-151",
@@ -83996,7 +84057,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-179",
@@ -84156,7 +84217,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-181",
@@ -89784,7 +89845,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-250",
@@ -89864,7 +89925,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-251",
@@ -90291,7 +90352,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-256",
@@ -91812,7 +91873,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-275",
@@ -92051,7 +92112,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-278",
@@ -92534,7 +92595,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-284",
@@ -93024,7 +93085,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-290",
@@ -93975,7 +94036,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-301",
@@ -94776,7 +94837,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-311",
@@ -95221,7 +95282,29 @@
         "amendmentsUrl": null,
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
-        "articles": [],
+        "articles": [
+            {
+                "title": "Sex ed drives raft of public education proposals",
+                "category": "Education",
+                "subtitle": "",
+                "date": "2023-02-27T16:01:50.000Z",
+                "link": "https://montanafreepress.org/2023/02/27/montana-legislature-k12-sex-education-policy/",
+                "author": "Alex Sakariassen",
+                "imageUrl": "https://montanafreepress.org/2023/02/15/republicans-vote-down-long-term-property-tax-relief-bill/untitled-design-302/",
+                "billTags": [
+                    "HB 502",
+                    "HB 566",
+                    "SB 315",
+                    "SB 337"
+                ],
+                "lawmakerTags": [
+                    "Fred Anderson",
+                    "Mary Ann Dunwell",
+                    "Theresa Manzella"
+                ],
+                "governorTags": []
+            }
+        ],
         "isOnCalendar": false
     },
     {
@@ -95622,7 +95705,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-321",
@@ -95702,7 +95785,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-322",
@@ -96448,7 +96531,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-331",
@@ -96852,7 +96935,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-336",
@@ -96961,14 +97044,14 @@
             },
             {
                 "step": "first committee",
-                "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "status": "passed",
+                "statusLabel": "Advanced",
+                "statusDate": "02/27/2023"
             },
             {
                 "step": "first chamber",
-                "status": "future",
-                "statusLabel": null,
+                "status": "current",
+                "statusLabel": "Pending",
                 "statusDate": null
             },
             {
@@ -97016,7 +97099,29 @@
         "amendmentsUrl": "https://leg.mt.gov/laws/bills/2023/AmdPublicWeb/?bill=SB0337",
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
-        "articles": [],
+        "articles": [
+            {
+                "title": "Sex ed drives raft of public education proposals",
+                "category": "Education",
+                "subtitle": "",
+                "date": "2023-02-27T16:01:50.000Z",
+                "link": "https://montanafreepress.org/2023/02/27/montana-legislature-k12-sex-education-policy/",
+                "author": "Alex Sakariassen",
+                "imageUrl": "https://montanafreepress.org/2023/02/15/republicans-vote-down-long-term-property-tax-relief-bill/untitled-design-302/",
+                "billTags": [
+                    "HB 502",
+                    "HB 566",
+                    "SB 315",
+                    "SB 337"
+                ],
+                "lawmakerTags": [
+                    "Fred Anderson",
+                    "Mary Ann Dunwell",
+                    "Theresa Manzella"
+                ],
+                "governorTags": []
+            }
+        ],
         "isOnCalendar": false
     },
     {
@@ -97096,7 +97201,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-339",
@@ -97417,7 +97522,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-343",
@@ -97575,7 +97680,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-345",
@@ -97757,7 +97862,7 @@
                 "governorTags": []
             }
         ],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-347",
@@ -98479,7 +98584,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-356",
@@ -99146,7 +99251,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-364",
@@ -99307,7 +99412,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-366",
@@ -100043,7 +100148,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-375",
@@ -100284,7 +100389,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-378",
@@ -101669,7 +101774,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-395",
@@ -101829,7 +101934,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-397",
@@ -102959,7 +103064,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-411",
@@ -103197,7 +103302,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-414",
@@ -103436,7 +103541,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-417",
@@ -103679,7 +103784,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-420",
@@ -104080,7 +104185,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-425",
@@ -104899,7 +105004,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-435",
@@ -105062,7 +105167,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-437",
@@ -105305,7 +105410,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-440",
@@ -105384,7 +105489,7 @@
         "legalNoteUrl": "https://leg.mt.gov/laws/bills/2023/LRC/SB0440",
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-441",
@@ -105870,7 +105975,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-447",
@@ -106205,7 +106310,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-451",
@@ -106444,7 +106549,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-454",
@@ -106524,7 +106629,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-455",
@@ -106606,7 +106711,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-456",
@@ -106685,7 +106790,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-457",
@@ -106765,7 +106870,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-458",
@@ -106851,7 +106956,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-459",
@@ -107338,7 +107443,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-465",
@@ -107418,7 +107523,7 @@
         "legalNoteUrl": "https://leg.mt.gov/laws/bills/2023/LRC/SB0465",
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-466",
@@ -107661,7 +107766,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-469",
@@ -107742,7 +107847,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-470",
@@ -107823,7 +107928,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-471",
@@ -107987,7 +108092,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-473",
@@ -108468,7 +108573,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-479",
@@ -108548,7 +108653,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-480",
@@ -108629,7 +108734,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-481",
@@ -109190,7 +109295,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-488",
@@ -109353,7 +109458,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-490",
@@ -109754,7 +109859,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-495",
@@ -109913,7 +110018,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-497",
@@ -110071,7 +110176,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-499",
@@ -110150,7 +110255,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-500",
@@ -110230,7 +110335,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-501",
@@ -110471,7 +110576,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-504",
@@ -110552,7 +110657,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sj-1",
@@ -111234,7 +111339,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sj-11",
@@ -111643,7 +111748,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sj-17",
@@ -111710,7 +111815,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sr-1",
