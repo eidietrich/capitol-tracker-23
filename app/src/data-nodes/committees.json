@@ -4800,6 +4800,14 @@
         ],
         "billCount": 133,
         "billsUnscheduled": [
+            "SB 20",
+            "SB 112",
+            "SB 267",
+            "SB 493",
+            "SR 35",
+            "SR 43"
+        ],
+        "billsScheduled": [
             "HB 49",
             "HB 62",
             "HB 95",
@@ -4808,16 +4816,29 @@
             "HB 101",
             "HB 144",
             "HB 164",
-            "HB 263",
-            "SB 20",
-            "SB 112",
-            "SB 267",
-            "SB 493",
-            "SR 35",
-            "SR 43"
+            "HB 263"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduledByDay": [
+            {
+                "day": "03/10/2023",
+                "bills": [
+                    "HB 49",
+                    "HB 95",
+                    "HB 96",
+                    "HB 97",
+                    "HB 164"
+                ]
+            },
+            {
+                "day": "03/13/2023",
+                "bills": [
+                    "HB 62",
+                    "HB 101",
+                    "HB 144",
+                    "HB 263"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "HB 155",
             "HB 187"
