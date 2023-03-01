@@ -254,7 +254,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-4",
@@ -11565,7 +11565,7 @@
         "explanation": null,
         "billPageText": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-137",
@@ -14126,11 +14126,11 @@
         "lcIdentifier": "LC1056",
         "type": "house bill",
         "status": {
-            "key": "In Second House--Through 3rd Reading",
-            "step": "Second chamber",
-            "label": "Passed chamber",
+            "key": "Passed By Legislature--Enrolling and Final Preparation Process",
+            "step": "Through Legislature",
+            "label": "Passed both chambers",
             "status": "live",
-            "statusAtSessionEnd": "failed"
+            "statusAtSessionEnd": "pending, passed legislature"
         },
         "progress": [
             {
@@ -14755,7 +14755,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-175",
@@ -16266,7 +16266,7 @@
                 ]
             }
         ],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-193",
@@ -17960,7 +17960,7 @@
                 ]
             }
         ],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-213",
@@ -18740,7 +18740,7 @@
                 ]
             }
         ],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-222",
@@ -18881,7 +18881,7 @@
                 ]
             }
         ],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-223",
@@ -21391,7 +21391,7 @@
                 ]
             }
         ],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-252",
@@ -22787,7 +22787,7 @@
                 ]
             }
         ],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-268",
@@ -25872,7 +25872,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-305",
@@ -26649,7 +26649,7 @@
                 "governorTags": []
             }
         ],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-314",
@@ -26899,9 +26899,9 @@
         "lcIdentifier": "LC0897",
         "type": "house bill",
         "status": {
-            "key": "In First House--Through 2nd Reading",
+            "key": "In First House--Through 3rd Reading",
             "step": "First chamber",
-            "label": "Passed second reading vote",
+            "label": "Passed chamber",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -26920,14 +26920,14 @@
             },
             {
                 "step": "first chamber",
-                "status": "current",
-                "statusLabel": "Passed preliminary floor vote",
-                "statusDate": "02/27/2023"
+                "status": "passed",
+                "statusLabel": "Passed House",
+                "statusDate": "02/28/2023"
             },
             {
                 "step": "second chamber",
-                "status": "future",
-                "statusLabel": null,
+                "status": "current",
+                "statusLabel": "Pending",
                 "statusDate": null
             },
             {
@@ -27023,7 +27023,7 @@
                 "governorTags": []
             }
         ],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-318",
@@ -28528,9 +28528,9 @@
         "lcIdentifier": "LC1418",
         "type": "house bill",
         "status": {
-            "key": "In First House--Through 2nd Reading",
+            "key": "In First House--Through 3rd Reading",
             "step": "First chamber",
-            "label": "Passed second reading vote",
+            "label": "Passed chamber",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -28549,14 +28549,14 @@
             },
             {
                 "step": "first chamber",
-                "status": "current",
-                "statusLabel": "Passed preliminary floor vote",
-                "statusDate": "02/27/2023"
+                "status": "passed",
+                "statusLabel": "Passed House",
+                "statusDate": "02/28/2023"
             },
             {
                 "step": "second chamber",
-                "status": "future",
-                "statusLabel": null,
+                "status": "current",
+                "statusLabel": "Pending",
                 "statusDate": null
             },
             {
@@ -28596,7 +28596,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-336",
@@ -29775,7 +29775,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-350",
@@ -30736,7 +30736,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-361",
@@ -31101,7 +31101,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-365",
@@ -32638,9 +32638,9 @@
         "lcIdentifier": "LC1888",
         "type": "house bill",
         "status": {
-            "key": "In First House--Through 2nd Reading",
+            "key": "In First House--Through 3rd Reading",
             "step": "First chamber",
-            "label": "Passed second reading vote",
+            "label": "Passed chamber",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -32659,14 +32659,14 @@
             },
             {
                 "step": "first chamber",
-                "status": "current",
-                "statusLabel": "Passed preliminary floor vote",
-                "statusDate": "02/27/2023"
+                "status": "passed",
+                "statusLabel": "Passed House",
+                "statusDate": "02/28/2023"
             },
             {
                 "step": "second chamber",
-                "status": "future",
-                "statusLabel": null,
+                "status": "current",
+                "statusLabel": "Pending",
                 "statusDate": null
             },
             {
@@ -32706,7 +32706,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-385",
@@ -33638,9 +33638,9 @@
         "lcIdentifier": "LC0290",
         "type": "house bill",
         "status": {
-            "key": "In First House--Out of Committee",
+            "key": "In First House--Through 3rd Reading",
             "step": "First chamber",
-            "label": "Out of committee",
+            "label": "Passed chamber",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -33659,14 +33659,14 @@
             },
             {
                 "step": "first chamber",
-                "status": "current",
-                "statusLabel": "Passed preliminary floor vote",
-                "statusDate": "02/24/2023"
+                "status": "passed",
+                "statusLabel": "Passed House",
+                "statusDate": "02/28/2023"
             },
             {
                 "step": "second chamber",
-                "status": "future",
-                "statusLabel": null,
+                "status": "current",
+                "statusLabel": "Pending",
                 "statusDate": null
             },
             {
@@ -33707,7 +33707,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-397",
@@ -34208,7 +34208,7 @@
                 "governorTags": []
             }
         ],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-403",
@@ -36128,9 +36128,9 @@
         "lcIdentifier": "LC3738",
         "type": "house bill",
         "status": {
-            "key": "In First House--Out of Committee",
+            "key": "In First House--Through 3rd Reading",
             "step": "First chamber",
-            "label": "Out of committee",
+            "label": "Passed chamber",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -36149,14 +36149,14 @@
             },
             {
                 "step": "first chamber",
-                "status": "current",
-                "statusLabel": "Passed preliminary floor vote",
-                "statusDate": "02/24/2023"
+                "status": "passed",
+                "statusLabel": "Passed House",
+                "statusDate": "02/28/2023"
             },
             {
                 "step": "second chamber",
-                "status": "future",
-                "statusLabel": null,
+                "status": "current",
+                "statusLabel": "Pending",
                 "statusDate": null
             },
             {
@@ -36197,7 +36197,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-427",
@@ -36208,9 +36208,9 @@
         "lcIdentifier": "LC1684",
         "type": "house bill",
         "status": {
-            "key": "In First House--Through 2nd Reading",
+            "key": "In First House--Through 3rd Reading",
             "step": "First chamber",
-            "label": "Passed second reading vote",
+            "label": "Passed chamber",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -36229,14 +36229,14 @@
             },
             {
                 "step": "first chamber",
-                "status": "current",
-                "statusLabel": "Passed preliminary floor vote",
-                "statusDate": "02/27/2023"
+                "status": "passed",
+                "statusLabel": "Passed House",
+                "statusDate": "02/28/2023"
             },
             {
                 "step": "second chamber",
-                "status": "future",
-                "statusLabel": null,
+                "status": "current",
+                "statusLabel": "Pending",
                 "statusDate": null
             },
             {
@@ -36277,7 +36277,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-428",
@@ -36917,7 +36917,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-435",
@@ -38276,7 +38276,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-451",
@@ -38615,9 +38615,9 @@
         "lcIdentifier": "LC2006",
         "type": "house bill",
         "status": {
-            "key": "In First House--Through 2nd Reading",
+            "key": "In First House--Through 3rd Reading",
             "step": "First chamber",
-            "label": "Passed second reading vote",
+            "label": "Passed chamber",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -38636,14 +38636,14 @@
             },
             {
                 "step": "first chamber",
-                "status": "current",
-                "statusLabel": "Passed preliminary floor vote",
-                "statusDate": "02/27/2023"
+                "status": "passed",
+                "statusLabel": "Passed House",
+                "statusDate": "02/28/2023"
             },
             {
                 "step": "second chamber",
-                "status": "future",
-                "statusLabel": null,
+                "status": "current",
+                "statusLabel": "Pending",
                 "statusDate": null
             },
             {
@@ -38683,7 +38683,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-456",
@@ -38694,9 +38694,9 @@
         "lcIdentifier": "LC3241",
         "type": "house bill",
         "status": {
-            "key": "In First House--Through 2nd Reading",
+            "key": "In First House--Through 3rd Reading",
             "step": "First chamber",
-            "label": "Passed second reading vote",
+            "label": "Passed chamber",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -38715,14 +38715,14 @@
             },
             {
                 "step": "first chamber",
-                "status": "current",
-                "statusLabel": "Passed preliminary floor vote",
-                "statusDate": "02/27/2023"
+                "status": "passed",
+                "statusLabel": "Passed House",
+                "statusDate": "02/28/2023"
             },
             {
                 "step": "second chamber",
-                "status": "future",
-                "statusLabel": null,
+                "status": "current",
+                "statusLabel": "Pending",
                 "statusDate": null
             },
             {
@@ -38762,7 +38762,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-457",
@@ -38842,7 +38842,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-458",
@@ -39002,7 +39002,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-460",
@@ -39161,7 +39161,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-462",
@@ -39323,7 +39323,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-464",
@@ -39483,7 +39483,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-466",
@@ -39724,7 +39724,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-469",
@@ -41274,9 +41274,9 @@
         "lcIdentifier": "LC2811",
         "type": "house bill",
         "status": {
-            "key": "In First House--Through 2nd Reading",
+            "key": "In First House--Through 3rd Reading",
             "step": "First chamber",
-            "label": "Passed second reading vote",
+            "label": "Passed chamber",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -41295,14 +41295,14 @@
             },
             {
                 "step": "first chamber",
-                "status": "current",
-                "statusLabel": "Passed preliminary floor vote",
-                "statusDate": "02/27/2023"
+                "status": "passed",
+                "statusLabel": "Passed House",
+                "statusDate": "02/28/2023"
             },
             {
                 "step": "second chamber",
-                "status": "future",
-                "statusLabel": null,
+                "status": "current",
+                "statusLabel": "Pending",
                 "statusDate": null
             },
             {
@@ -41342,7 +41342,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-489",
@@ -41353,9 +41353,9 @@
         "lcIdentifier": "LC3460",
         "type": "house bill",
         "status": {
-            "key": "In First House--Through 2nd Reading",
+            "key": "In First House--Through 3rd Reading",
             "step": "First chamber",
-            "label": "Passed second reading vote",
+            "label": "Passed chamber",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -41374,14 +41374,14 @@
             },
             {
                 "step": "first chamber",
-                "status": "current",
-                "statusLabel": "Passed preliminary floor vote",
-                "statusDate": "02/27/2023"
+                "status": "passed",
+                "statusLabel": "Passed House",
+                "statusDate": "02/28/2023"
             },
             {
                 "step": "second chamber",
-                "status": "future",
-                "statusLabel": null,
+                "status": "current",
+                "statusLabel": "Pending",
                 "statusDate": null
             },
             {
@@ -41422,7 +41422,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-490",
@@ -41502,7 +41502,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-491",
@@ -41673,9 +41673,9 @@
         "lcIdentifier": "LC3401",
         "type": "house bill",
         "status": {
-            "key": "In First House--Through 2nd Reading",
+            "key": "In First House--Through 3rd Reading",
             "step": "First chamber",
-            "label": "Passed second reading vote",
+            "label": "Passed chamber",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -41694,14 +41694,14 @@
             },
             {
                 "step": "first chamber",
-                "status": "current",
-                "statusLabel": "Passed preliminary floor vote",
-                "statusDate": "02/27/2023"
+                "status": "passed",
+                "statusLabel": "Passed House",
+                "statusDate": "02/28/2023"
             },
             {
                 "step": "second chamber",
-                "status": "future",
-                "statusLabel": null,
+                "status": "current",
+                "statusLabel": "Pending",
                 "statusDate": null
             },
             {
@@ -41742,7 +41742,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-494",
@@ -41825,7 +41825,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-495",
@@ -41988,7 +41988,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-497",
@@ -42070,7 +42070,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-498",
@@ -42165,9 +42165,9 @@
         "lcIdentifier": "LC1311",
         "type": "house bill",
         "status": {
-            "key": "In First House--Through 2nd Reading",
+            "key": "In First House--Through 3rd Reading",
             "step": "First chamber",
-            "label": "Passed second reading vote",
+            "label": "Passed chamber",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -42186,14 +42186,14 @@
             },
             {
                 "step": "first chamber",
-                "status": "current",
-                "statusLabel": "Passed preliminary floor vote",
-                "statusDate": "02/27/2023"
+                "status": "passed",
+                "statusLabel": "Passed House",
+                "statusDate": "02/28/2023"
             },
             {
                 "step": "second chamber",
-                "status": "future",
-                "statusLabel": null,
+                "status": "current",
+                "statusLabel": "Pending",
                 "statusDate": null
             },
             {
@@ -42233,7 +42233,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-500",
@@ -42731,7 +42731,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-506",
@@ -43132,7 +43132,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-511",
@@ -43222,9 +43222,9 @@
         "lcIdentifier": "LC4026",
         "type": "house bill",
         "status": {
-            "key": "In First House--Through 2nd Reading",
+            "key": "In First House--Through 3rd Reading",
             "step": "First chamber",
-            "label": "Passed second reading vote",
+            "label": "Passed chamber",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -43243,14 +43243,14 @@
             },
             {
                 "step": "first chamber",
-                "status": "current",
-                "statusLabel": "Passed preliminary floor vote",
-                "statusDate": "02/27/2023"
+                "status": "passed",
+                "statusLabel": "Passed House",
+                "statusDate": "02/28/2023"
             },
             {
                 "step": "second chamber",
-                "status": "future",
-                "statusLabel": null,
+                "status": "current",
+                "statusLabel": "Pending",
                 "statusDate": null
             },
             {
@@ -43292,7 +43292,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-513",
@@ -43373,7 +43373,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-514",
@@ -43694,9 +43694,9 @@
         "lcIdentifier": "LC4027",
         "type": "house bill",
         "status": {
-            "key": "In First House--Through 2nd Reading",
+            "key": "In First House--Through 3rd Reading",
             "step": "First chamber",
-            "label": "Passed second reading vote",
+            "label": "Passed chamber",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -43715,14 +43715,14 @@
             },
             {
                 "step": "first chamber",
-                "status": "current",
-                "statusLabel": "Passed preliminary floor vote",
-                "statusDate": "02/27/2023"
+                "status": "passed",
+                "statusLabel": "Passed House",
+                "statusDate": "02/28/2023"
             },
             {
                 "step": "second chamber",
-                "status": "future",
-                "statusLabel": null,
+                "status": "current",
+                "statusLabel": "Pending",
                 "statusDate": null
             },
             {
@@ -43765,7 +43765,7 @@
         "legalNoteUrl": "https://leg.mt.gov/laws/bills/2023/LRC/HB0518",
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-519",
@@ -43776,10 +43776,10 @@
         "lcIdentifier": "LC4451",
         "type": "house bill",
         "status": {
-            "key": "In First House Committee--Tabled",
+            "key": "In First House Committee--Nontabled",
             "step": "First chamber",
-            "label": "Tabled in committee",
-            "status": "stalled",
+            "label": "In committee",
+            "status": "live",
             "statusAtSessionEnd": "failed"
         },
         "progress": [
@@ -43844,7 +43844,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-520",
@@ -44089,7 +44089,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-523",
@@ -44169,7 +44169,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-524",
@@ -44329,7 +44329,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-526",
@@ -44423,9 +44423,9 @@
         "lcIdentifier": "LC0769",
         "type": "house bill",
         "status": {
-            "key": "In First House Committee--Nontabled",
+            "key": "In First House--Out of Committee",
             "step": "First chamber",
-            "label": "In committee",
+            "label": "Out of committee",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -44650,7 +44650,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-530",
@@ -44730,7 +44730,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-531",
@@ -45211,7 +45211,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-537",
@@ -45462,9 +45462,9 @@
         "lcIdentifier": "LC4410",
         "type": "house bill",
         "status": {
-            "key": "In First House--Through 2nd Reading",
+            "key": "In First House--Through 3rd Reading",
             "step": "First chamber",
-            "label": "Passed second reading vote",
+            "label": "Passed chamber",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -45483,14 +45483,14 @@
             },
             {
                 "step": "first chamber",
-                "status": "current",
-                "statusLabel": "Passed preliminary floor vote",
-                "statusDate": "02/27/2023"
+                "status": "passed",
+                "statusLabel": "Passed House",
+                "statusDate": "02/28/2023"
             },
             {
                 "step": "second chamber",
-                "status": "future",
-                "statusLabel": null,
+                "status": "current",
+                "statusLabel": "Pending",
                 "statusDate": null
             },
             {
@@ -45530,7 +45530,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-541",
@@ -45610,7 +45610,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-542",
@@ -45956,7 +45956,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-546",
@@ -46131,7 +46131,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-548",
@@ -46401,7 +46401,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-551",
@@ -47058,7 +47058,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-559",
@@ -49952,7 +49952,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-594",
@@ -50042,9 +50042,9 @@
         "lcIdentifier": "LC1681",
         "type": "house bill",
         "status": {
-            "key": "In First House Committee--Nontabled",
+            "key": "In First House--Out of Committee",
             "step": "First chamber",
-            "label": "In committee",
+            "label": "Out of committee",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -51242,7 +51242,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-610",
@@ -52458,7 +52458,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-625",
@@ -52469,9 +52469,9 @@
         "lcIdentifier": "LC4602",
         "type": "house bill",
         "status": {
-            "key": "In First House Committee--Nontabled",
+            "key": "In First House--Out of Committee",
             "step": "First chamber",
-            "label": "In committee",
+            "label": "Out of committee",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -53418,7 +53418,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-637",
@@ -53577,7 +53577,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-639",
@@ -53739,7 +53739,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-641",
@@ -54627,7 +54627,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-652",
@@ -54707,7 +54707,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-653",
@@ -55120,9 +55120,9 @@
         "lcIdentifier": "LC3005",
         "type": "house bill",
         "status": {
-            "key": "In First House Committee--Nontabled",
+            "key": "In First House--Out of Committee",
             "step": "First chamber",
-            "label": "In committee",
+            "label": "Out of committee",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -55511,7 +55511,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-663",
@@ -56390,7 +56390,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-675",
@@ -56472,7 +56472,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-676",
@@ -56483,9 +56483,9 @@
         "lcIdentifier": "LC1880",
         "type": "house bill",
         "status": {
-            "key": "In First House Committee--Nontabled",
+            "key": "In First House--Out of Committee",
             "step": "First chamber",
-            "label": "In committee",
+            "label": "Out of committee",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -56712,7 +56712,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-679",
@@ -57526,9 +57526,9 @@
         "lcIdentifier": "LC3745",
         "type": "house bill",
         "status": {
-            "key": "In First House Committee--Nontabled",
+            "key": "In First House--Out of Committee",
             "step": "First chamber",
-            "label": "In committee",
+            "label": "Out of committee",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -57606,9 +57606,9 @@
         "lcIdentifier": "LC4541",
         "type": "house bill",
         "status": {
-            "key": "In First House Committee--Nontabled",
+            "key": "In First House--Out of Committee",
             "step": "First chamber",
-            "label": "In committee",
+            "label": "Out of committee",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -57758,7 +57758,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-692",
@@ -58010,9 +58010,9 @@
         "lcIdentifier": "LC0923",
         "type": "house bill",
         "status": {
-            "key": "In First House Committee--Nontabled",
+            "key": "In First House--Out of Committee",
             "step": "First chamber",
-            "label": "In committee",
+            "label": "Out of committee",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -58403,7 +58403,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-700",
@@ -58484,7 +58484,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-701",
@@ -59128,7 +59128,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-709",
@@ -59139,9 +59139,9 @@
         "lcIdentifier": "LC1973",
         "type": "house bill",
         "status": {
-            "key": "In First House Committee--Nontabled",
+            "key": "In First House--Out of Committee",
             "step": "First chamber",
-            "label": "In committee",
+            "label": "Out of committee",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -59378,9 +59378,9 @@
         "lcIdentifier": "LC1977",
         "type": "house bill",
         "status": {
-            "key": "In First House--Through 2nd Reading",
+            "key": "In First House--Through 3rd Reading",
             "step": "First chamber",
-            "label": "Passed second reading vote",
+            "label": "Passed chamber",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -59399,14 +59399,14 @@
             },
             {
                 "step": "first chamber",
-                "status": "current",
-                "statusLabel": "Passed preliminary floor vote",
-                "statusDate": "02/27/2023"
+                "status": "passed",
+                "statusLabel": "Passed House",
+                "statusDate": "02/28/2023"
             },
             {
                 "step": "second chamber",
-                "status": "future",
-                "statusLabel": null,
+                "status": "current",
+                "statusLabel": "Pending",
                 "statusDate": null
             },
             {
@@ -59446,7 +59446,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-713",
@@ -60096,9 +60096,9 @@
         "lcIdentifier": "LC3239",
         "type": "house bill",
         "status": {
-            "key": "In First House Committee--Nontabled",
+            "key": "In First House--Out of Committee",
             "step": "First chamber",
-            "label": "In committee",
+            "label": "Out of committee",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -61528,7 +61528,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-739",
@@ -61690,7 +61690,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-741",
@@ -61701,9 +61701,9 @@
         "lcIdentifier": "LC3550",
         "type": "house bill",
         "status": {
-            "key": "In First House Committee--Nontabled",
+            "key": "In First House--Out of Committee",
             "step": "First chamber",
-            "label": "In committee",
+            "label": "Out of committee",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -61781,9 +61781,9 @@
         "lcIdentifier": "LC3544",
         "type": "house bill",
         "status": {
-            "key": "In First House Committee--Nontabled",
+            "key": "In First House--Out of Committee",
             "step": "First chamber",
-            "label": "In committee",
+            "label": "Out of committee",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -61862,9 +61862,9 @@
         "lcIdentifier": "LC3549",
         "type": "house bill",
         "status": {
-            "key": "In First House Committee--Nontabled",
+            "key": "In First House--Out of Committee",
             "step": "First chamber",
-            "label": "In committee",
+            "label": "Out of committee",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -62102,9 +62102,9 @@
         "lcIdentifier": "LC3747",
         "type": "house bill",
         "status": {
-            "key": "In First House Committee--Nontabled",
+            "key": "In First House--Out of Committee",
             "step": "First chamber",
-            "label": "In committee",
+            "label": "Out of committee",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -62649,7 +62649,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-753",
@@ -63052,7 +63052,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-758",
@@ -63693,7 +63693,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-766",
@@ -63854,7 +63854,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-768",
@@ -63933,7 +63933,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-769",
@@ -64015,7 +64015,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-770",
@@ -64178,7 +64178,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-772",
@@ -64259,7 +64259,7 @@
         "legalNoteUrl": "https://leg.mt.gov/laws/bills/2023/LRC/HB0772",
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-773",
@@ -64338,7 +64338,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-774",
@@ -64420,7 +64420,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-775",
@@ -64661,7 +64661,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-778",
@@ -64741,7 +64741,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-779",
@@ -64820,7 +64820,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-780",
@@ -64899,7 +64899,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-781",
@@ -65217,7 +65217,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-785",
@@ -65296,7 +65296,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-786",
@@ -65378,7 +65378,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-787",
@@ -65459,7 +65459,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-788",
@@ -65541,7 +65541,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-789",
@@ -65624,7 +65624,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-790",
@@ -65705,7 +65705,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-791",
@@ -65785,7 +65785,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-792",
@@ -65947,7 +65947,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-794",
@@ -66026,7 +66026,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-795",
@@ -66512,7 +66512,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-801",
@@ -66674,7 +66674,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-803",
@@ -66996,7 +66996,7 @@
         "legalNoteUrl": "https://leg.mt.gov/laws/bills/2023/LRC/HB0806",
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-807",
@@ -67076,7 +67076,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-808",
@@ -67475,7 +67475,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-813",
@@ -67560,7 +67560,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-814",
@@ -67720,7 +67720,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-816",
@@ -68838,7 +68838,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hr-1",
@@ -76922,9 +76922,9 @@
         "lcIdentifier": "LC0212",
         "type": "senate bill",
         "status": {
-            "key": "In First House--Through 3rd Reading",
-            "step": "First chamber",
-            "label": "Passed chamber",
+            "key": "Transmitted to Second House",
+            "step": "Second chamber",
+            "label": "Transmitted",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -79438,7 +79438,7 @@
                 ]
             }
         ],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-122",
@@ -79685,7 +79685,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-125",
@@ -81812,9 +81812,9 @@
         "lcIdentifier": "LC0547",
         "type": "senate bill",
         "status": {
-            "key": "In First House--Through 3rd Reading",
-            "step": "First chamber",
-            "label": "Passed chamber",
+            "key": "Transmitted to Second House",
+            "step": "Second chamber",
+            "label": "Transmitted",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -84397,7 +84397,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-181",
@@ -92053,7 +92053,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-275",
@@ -92535,7 +92535,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-281",
@@ -92614,7 +92614,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-282",
@@ -92695,7 +92695,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-283",
@@ -92775,7 +92775,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-284",
@@ -92858,7 +92858,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-285",
@@ -93017,7 +93017,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-287",
@@ -93265,7 +93265,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-290",
@@ -93797,7 +93797,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-296",
@@ -95017,7 +95017,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-311",
@@ -95804,7 +95804,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-320",
@@ -96227,7 +96227,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-325",
@@ -97198,7 +97198,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-337",
@@ -97381,7 +97381,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-339",
@@ -97461,7 +97461,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-340",
@@ -97541,7 +97541,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-341",
@@ -97950,10 +97950,10 @@
         "lcIdentifier": "LC1569",
         "type": "senate bill",
         "status": {
-            "key": "In First House Committee--Nontabled",
+            "key": "In First House Committee--Tabled",
             "step": "First chamber",
-            "label": "In committee",
-            "status": "live",
+            "label": "Tabled in committee",
+            "status": "stalled",
             "statusAtSessionEnd": "failed"
         },
         "progress": [
@@ -97965,9 +97965,9 @@
             },
             {
                 "step": "first committee",
-                "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "status": "blocked",
+                "statusLabel": "Tabled",
+                "statusDate": "02/28/2023"
             },
             {
                 "step": "first chamber",
@@ -98764,7 +98764,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-356",
@@ -99103,7 +99103,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-360",
@@ -99267,7 +99267,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-362",
@@ -99833,7 +99833,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-369",
@@ -100409,7 +100409,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-376",
@@ -100569,7 +100569,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-378",
@@ -100648,7 +100648,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-379",
@@ -100808,7 +100808,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-381",
@@ -101315,7 +101315,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-387",
@@ -101795,7 +101795,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-393",
@@ -102114,7 +102114,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-397",
@@ -102357,7 +102357,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-400",
@@ -103191,14 +103191,14 @@
             },
             {
                 "step": "first committee",
-                "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "status": "passed",
+                "statusLabel": "Advanced",
+                "statusDate": "02/28/2023"
             },
             {
                 "step": "first chamber",
-                "status": "future",
-                "statusLabel": null,
+                "status": "current",
+                "statusLabel": "Pending",
                 "statusDate": null
             },
             {
@@ -103641,7 +103641,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-416",
@@ -103802,7 +103802,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-418",
@@ -104125,7 +104125,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-422",
@@ -104684,7 +104684,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-429",
@@ -104843,7 +104843,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-431",
@@ -105292,14 +105292,14 @@
             },
             {
                 "step": "first committee",
-                "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "status": "passed",
+                "statusLabel": "Advanced",
+                "statusDate": "02/28/2023"
             },
             {
                 "step": "first chamber",
-                "status": "future",
-                "statusLabel": null,
+                "status": "current",
+                "statusLabel": "Pending",
                 "statusDate": null
             },
             {
@@ -105536,14 +105536,14 @@
             },
             {
                 "step": "first committee",
-                "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "status": "passed",
+                "statusLabel": "Advanced",
+                "statusDate": "02/28/2023"
             },
             {
                 "step": "first chamber",
-                "status": "future",
-                "statusLabel": null,
+                "status": "current",
+                "statusLabel": "Pending",
                 "statusDate": null
             },
             {
@@ -105616,14 +105616,14 @@
             },
             {
                 "step": "first committee",
-                "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "status": "passed",
+                "statusLabel": "Advanced",
+                "statusDate": "02/28/2023"
             },
             {
                 "step": "first chamber",
-                "status": "future",
-                "statusLabel": null,
+                "status": "current",
+                "statusLabel": "Pending",
                 "statusDate": null
             },
             {
@@ -105992,7 +105992,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-445",
@@ -106237,7 +106237,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-448",
@@ -106405,7 +106405,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-450",
@@ -106571,7 +106571,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-452",
@@ -107317,7 +107317,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-461",
@@ -107401,7 +107401,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-462",
@@ -107483,7 +107483,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-463",
@@ -107805,7 +107805,7 @@
         "legalNoteUrl": "https://leg.mt.gov/laws/bills/2023/LRC/SB0466",
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-467",
@@ -107992,14 +107992,14 @@
             },
             {
                 "step": "first committee",
-                "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "status": "passed",
+                "statusLabel": "Advanced",
+                "statusDate": "02/28/2023"
             },
             {
                 "step": "first chamber",
-                "status": "future",
-                "statusLabel": null,
+                "status": "current",
+                "statusLabel": "Pending",
                 "statusDate": null
             },
             {
@@ -108073,14 +108073,14 @@
             },
             {
                 "step": "first committee",
-                "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "status": "passed",
+                "statusLabel": "Advanced",
+                "statusDate": "02/28/2023"
             },
             {
                 "step": "first chamber",
-                "status": "future",
-                "statusLabel": null,
+                "status": "current",
+                "statusLabel": "Pending",
                 "statusDate": null
             },
             {
@@ -108373,7 +108373,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-474",
@@ -108532,7 +108532,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-476",
@@ -108612,7 +108612,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-477",
@@ -108694,7 +108694,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-478",
@@ -109334,7 +109334,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-486",
@@ -109345,10 +109345,10 @@
         "lcIdentifier": "LC4616",
         "type": "senate bill",
         "status": {
-            "key": "In First House Committee--Nontabled",
+            "key": "In First House Committee--Tabled",
             "step": "First chamber",
-            "label": "In committee",
-            "status": "live",
+            "label": "Tabled in committee",
+            "status": "stalled",
             "statusAtSessionEnd": "failed"
         },
         "progress": [
@@ -109360,9 +109360,9 @@
             },
             {
                 "step": "first committee",
-                "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": "02/24/2023"
+                "status": "blocked",
+                "statusLabel": "Tabled",
+                "statusDate": "02/27/2023"
             },
             {
                 "step": "first chamber",
@@ -109575,7 +109575,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-489",
@@ -109737,7 +109737,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-491",
@@ -109817,7 +109817,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-492",
@@ -109896,7 +109896,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-493",
@@ -110297,7 +110297,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-498",
@@ -110615,7 +110615,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-502",
@@ -111743,7 +111743,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sj-14",
@@ -111811,7 +111811,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sj-15",
@@ -111878,7 +111878,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sj-16",
@@ -115329,11 +115329,11 @@
         "lcIdentifier": "LC4600",
         "type": "senate resolution",
         "status": {
-            "key": "Became Law",
-            "label": "",
-            "step": "Passed",
-            "status": "became-law",
-            "statusAtSessionEnd": "became law"
+            "key": "Passed By Legislature--Enrolling and Final Preparation Process",
+            "step": "Through Legislature",
+            "label": "Passed both chambers",
+            "status": "live",
+            "statusAtSessionEnd": "pending, passed legislature"
         },
         "progress": [
             {
@@ -115380,7 +115380,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sr-53",
