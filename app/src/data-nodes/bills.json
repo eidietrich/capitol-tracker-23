@@ -48488,9 +48488,9 @@
         "lcIdentifier": "LC1611",
         "type": "house bill",
         "status": {
-            "key": "In First House--Out of Committee",
+            "key": "In First House--Through 2nd Reading",
             "step": "First chamber",
-            "label": "Out of committee",
+            "label": "Passed second reading vote",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -48510,8 +48510,8 @@
             {
                 "step": "first chamber",
                 "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "statusLabel": "Passed preliminary floor vote",
+                "statusDate": "03/01/2023"
             },
             {
                 "step": "second chamber",
@@ -48554,11 +48554,11 @@
         "lawsUrl": "http://laws.leg.mt.gov/legprd/LAW0210W$BSIV.ActionQuery?P_BILL_NO1=576&P_BLTP_BILL_TYP_CD=HB&Z_ACTION=Find&P_SESS=20231",
         "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0576.pdf",
         "fiscalNoteUrl": null,
-        "amendmentsUrl": null,
+        "amendmentsUrl": "https://leg.mt.gov/laws/bills/2023/AmdPublicWeb/?bill=HB0576",
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "hb-577",
@@ -48569,10 +48569,10 @@
         "lcIdentifier": "LC2898",
         "type": "house bill",
         "status": {
-            "key": "In First House--Out of Committee",
-            "step": "First chamber",
-            "label": "Out of committee",
-            "status": "live",
+            "key": "Probably Dead",
+            "label": "",
+            "step": "Failed",
+            "status": "stalled",
             "statusAtSessionEnd": "failed"
         },
         "progress": [
@@ -48590,9 +48590,9 @@
             },
             {
                 "step": "first chamber",
-                "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "status": "blocked",
+                "statusLabel": "Voted down",
+                "statusDate": "03/01/2023"
             },
             {
                 "step": "second chamber",
@@ -48637,7 +48637,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "hb-578",
@@ -48648,9 +48648,9 @@
         "lcIdentifier": "LC3210",
         "type": "house bill",
         "status": {
-            "key": "In First House--Out of Committee",
+            "key": "In First House--Through 2nd Reading",
             "step": "First chamber",
-            "label": "Out of committee",
+            "label": "Passed second reading vote",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -48670,8 +48670,8 @@
             {
                 "step": "first chamber",
                 "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "statusLabel": "Passed preliminary floor vote",
+                "statusDate": "03/01/2023"
             },
             {
                 "step": "second chamber",
@@ -48716,7 +48716,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "hb-579",
@@ -70708,11 +70708,11 @@
         "lcIdentifier": "LC0415",
         "type": "senate bill",
         "status": {
-            "key": "In Process to Consider Second House Amendments",
-            "step": "Reconciliation",
-            "label": "In reconciliation",
+            "key": "Passed By Legislature--Enrolling and Final Preparation Process",
+            "step": "Through Legislature",
+            "label": "Passed both chambers",
             "status": "live",
-            "statusAtSessionEnd": "failed"
+            "statusAtSessionEnd": "pending, passed legislature"
         },
         "progress": [
             {
@@ -94244,9 +94244,9 @@
         "lcIdentifier": "LC2647",
         "type": "senate bill",
         "status": {
-            "key": "In First House--Out of Committee",
+            "key": "In First House--Through 2nd Reading",
             "step": "First chamber",
-            "label": "Out of committee",
+            "label": "Passed second reading vote",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -94266,8 +94266,8 @@
             {
                 "step": "first chamber",
                 "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "statusLabel": "Passed preliminary floor vote",
+                "statusDate": "03/01/2023"
             },
             {
                 "step": "second chamber",
@@ -94314,7 +94314,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "sb-302",
@@ -102866,9 +102866,9 @@
         "lcIdentifier": "LC0562",
         "type": "senate bill",
         "status": {
-            "key": "In First House--Out of Committee",
+            "key": "In First House--Through 2nd Reading",
             "step": "First chamber",
-            "label": "Out of committee",
+            "label": "Passed second reading vote",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -102888,8 +102888,8 @@
             {
                 "step": "first chamber",
                 "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "statusLabel": "Passed preliminary floor vote",
+                "statusDate": "03/01/2023"
             },
             {
                 "step": "second chamber",
@@ -102937,7 +102937,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "sb-407",
