@@ -52984,9 +52984,9 @@
         "lcIdentifier": "LC1047",
         "type": "house bill",
         "status": {
-            "key": "In First House--Out of Committee",
+            "key": "In First House--Through 2nd Reading",
             "step": "First chamber",
-            "label": "Out of committee",
+            "label": "Passed second reading vote",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -53006,8 +53006,8 @@
             {
                 "step": "first chamber",
                 "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "statusLabel": "Passed preliminary floor vote",
+                "statusDate": "03/01/2023"
             },
             {
                 "step": "second chamber",
@@ -53053,7 +53053,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "hb-632",
@@ -54915,9 +54915,9 @@
         "lcIdentifier": "LC4535",
         "type": "house bill",
         "status": {
-            "key": "In First House--Out of Committee",
+            "key": "In First House--Through 2nd Reading",
             "step": "First chamber",
-            "label": "Out of committee",
+            "label": "Passed second reading vote",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -54937,8 +54937,8 @@
             {
                 "step": "first chamber",
                 "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "statusLabel": "Passed preliminary floor vote",
+                "statusDate": "03/01/2023"
             },
             {
                 "step": "second chamber",
@@ -54984,7 +54984,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "hb-656",
@@ -54995,9 +54995,9 @@
         "lcIdentifier": "LC2419",
         "type": "house bill",
         "status": {
-            "key": "In First House--Out of Committee",
+            "key": "In First House--Through 2nd Reading",
             "step": "First chamber",
-            "label": "Out of committee",
+            "label": "Passed second reading vote",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -55017,8 +55017,8 @@
             {
                 "step": "first chamber",
                 "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "statusLabel": "Passed preliminary floor vote",
+                "statusDate": "03/01/2023"
             },
             {
                 "step": "second chamber",
@@ -55063,7 +55063,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "hb-657",
@@ -55394,9 +55394,9 @@
         "lcIdentifier": "LC1947",
         "type": "house bill",
         "status": {
-            "key": "In First House--Out of Committee",
+            "key": "In First House--Through 2nd Reading",
             "step": "First chamber",
-            "label": "Out of committee",
+            "label": "Passed second reading vote",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -55416,8 +55416,8 @@
             {
                 "step": "first chamber",
                 "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "statusLabel": "Passed preliminary floor vote",
+                "statusDate": "03/01/2023"
             },
             {
                 "step": "second chamber",
@@ -55465,7 +55465,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "hb-662",
@@ -58449,10 +58449,10 @@
         "lcIdentifier": "LC0678",
         "type": "house bill",
         "status": {
-            "key": "In First House Committee--Nontabled",
+            "key": "In First House Committee--Tabled",
             "step": "First chamber",
-            "label": "In committee",
-            "status": "live",
+            "label": "Tabled in committee",
+            "status": "stalled",
             "statusAtSessionEnd": "failed"
         },
         "progress": [
@@ -58464,9 +58464,9 @@
             },
             {
                 "step": "first committee",
-                "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "status": "blocked",
+                "statusLabel": "Tabled",
+                "statusDate": "02/28/2023"
             },
             {
                 "step": "first chamber",
@@ -84283,9 +84283,9 @@
         "lcIdentifier": "LC1083",
         "type": "senate bill",
         "status": {
-            "key": "In First House--Through 3rd Reading",
-            "step": "First chamber",
-            "label": "Passed chamber",
+            "key": "Transmitted to Second House",
+            "step": "Second chamber",
+            "label": "Transmitted",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -97244,10 +97244,10 @@
         "lcIdentifier": "LC1248",
         "type": "senate bill",
         "status": {
-            "key": "In First House--Through 3rd Reading",
-            "step": "First chamber",
-            "label": "Passed chamber",
-            "status": "live",
+            "key": "Probably Dead",
+            "label": "",
+            "step": "Failed",
+            "status": "stalled",
             "statusAtSessionEnd": "failed"
         },
         "progress": [
@@ -97265,14 +97265,14 @@
             },
             {
                 "step": "first chamber",
-                "status": "passed",
-                "statusLabel": "Passed Senate",
+                "status": "blocked",
+                "statusLabel": "Voted down",
                 "statusDate": "03/01/2023"
             },
             {
                 "step": "second chamber",
-                "status": "current",
-                "statusLabel": "Pending",
+                "status": "future",
+                "statusLabel": null,
                 "statusDate": null
             },
             {
