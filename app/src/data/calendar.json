@@ -13,7 +13,10 @@
         "SR 32",
         "SR 33",
         "SR 47",
-        "SR 51"
+        "SR 51",
+        "HB 387",
+        "HB 470",
+        "HB 477"
     ],
     "scheduledHearings": [
         {
@@ -121,6 +124,43 @@
             "hearing": true
         }
     ],
-    "scheduledFloorDebates": [],
+    "scheduledFloorDebates": [
+        {
+            "id": "HB387-0023",
+            "bill": "HB 387",
+            "date": "03/01/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "house",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
+            "id": "HB470-0034",
+            "bill": "HB 470",
+            "date": "03/01/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "house",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
+            "id": "HB477-0024",
+            "bill": "HB 477",
+            "date": "03/01/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "house",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        }
+    ],
     "scheduledFinalVotes": []
 }

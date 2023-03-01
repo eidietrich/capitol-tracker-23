@@ -1,6 +1,59 @@
 {
     "actionsByDate": [
         {
+            "date": "03/01/2023",
+            "actions": [
+                {
+                    "id": "HB387-0024",
+                    "bill": "HB 387",
+                    "date": "03/01/2023",
+                    "description": "2nd Reading Passed",
+                    "posession": "house",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "2nd Reading Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "firstChamberFloorAction": true,
+                    "preliminaryPassage": true,
+                    "title": "Generally revise constituent accounts"
+                },
+                {
+                    "id": "HB470-0035",
+                    "bill": "HB 470",
+                    "date": "03/01/2023",
+                    "description": "2nd Reading Passed",
+                    "posession": "house",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "2nd Reading Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "firstChamberFloorAction": true,
+                    "preliminaryPassage": true,
+                    "title": "Revise yield -- slow down -- move over laws"
+                },
+                {
+                    "id": "HB477-0025",
+                    "bill": "HB 477",
+                    "date": "03/01/2023",
+                    "description": "2nd Reading Passed",
+                    "posession": "house",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "2nd Reading Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "firstChamberFloorAction": true,
+                    "preliminaryPassage": true,
+                    "title": "Generally revise corporation laws regarding tribal entities"
+                }
+            ]
+        },
+        {
             "date": "02/28/2023",
             "actions": [
                 {
@@ -1339,6 +1392,22 @@
                     "title": "Revise annual job growth incentive tax credit"
                 },
                 {
+                    "id": "HB609-0023",
+                    "bill": "HB 609",
+                    "date": "02/28/2023",
+                    "description": "Committee Executive Action--Bill Passed",
+                    "posession": "house",
+                    "committee": "House Human Services",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "title": "Revising laws related to continuous eligibility for medicaid"
+                },
+                {
                     "id": "HB612-0030",
                     "bill": "HB 612",
                     "date": "02/28/2023",
@@ -2096,6 +2165,22 @@
                     "title": "Generally revise DNA collection and testing laws"
                 },
                 {
+                    "id": "HB738-0019",
+                    "bill": "HB 738",
+                    "date": "02/28/2023",
+                    "description": "Committee Executive Action--Bill Passed",
+                    "posession": "house",
+                    "committee": "House Agriculture",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "title": "Revise the Montana wheat & barley checkoff program"
+                },
+                {
                     "id": "HB739-0019",
                     "bill": "HB 739",
                     "date": "02/28/2023",
@@ -2111,6 +2196,22 @@
                     "advanced": true,
                     "amended": true,
                     "title": "Provide exception for agency adoption of administrative rules"
+                },
+                {
+                    "id": "HB740-0028",
+                    "bill": "HB 740",
+                    "date": "02/28/2023",
+                    "description": "Committee Executive Action--Bill Passed",
+                    "posession": "house",
+                    "committee": "House Human Services",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "title": "Revise laws relating to out-of-state placement of youth with mental health needs"
                 },
                 {
                     "id": "HB741-0023",
@@ -2244,6 +2345,22 @@
                     "advanced": true,
                     "amended": true,
                     "title": "Revise laws concerning the best interests of a child"
+                },
+                {
+                    "id": "HB767-0017",
+                    "bill": "HB 767",
+                    "date": "02/28/2023",
+                    "description": "Committee Executive Action--Bill Passed",
+                    "posession": "house",
+                    "committee": "House Agriculture",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Committee Executive Action--Bill Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "title": "Provide board review of brands"
                 },
                 {
                     "id": "HB768-0018",
@@ -4104,6 +4221,21 @@
                     "advanced": true,
                     "finalPassage": true,
                     "title": "Require evidence discovery in CPS cases"
+                },
+                {
+                    "id": "HB387-0020",
+                    "bill": "HB 387",
+                    "date": "02/27/2023",
+                    "description": "Taken from Table in Committee",
+                    "posession": "house",
+                    "committee": "House State Administration",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "key": "Taken from Table in Committee",
+                    "isMajor": true,
+                    "committeeAction": true,
+                    "secondChamberAction": true,
+                    "title": "Generally revise constituent accounts"
                 },
                 {
                     "id": "HB387-0021",
@@ -7417,21 +7549,6 @@
         {
             "date": "02/26/2023",
             "actions": [
-                {
-                    "id": "HB387-0020",
-                    "bill": "HB 387",
-                    "date": "02/26/2023",
-                    "description": "Taken from Table in Committee",
-                    "posession": "house",
-                    "committee": "House State Administration",
-                    "actionUrl": null,
-                    "recordings": [],
-                    "key": "Taken from Table in Committee",
-                    "isMajor": true,
-                    "committeeAction": true,
-                    "secondChamberAction": true,
-                    "title": "Generally revise constituent accounts"
-                },
                 {
                     "id": "HB717-0022",
                     "bill": "HB 717",
