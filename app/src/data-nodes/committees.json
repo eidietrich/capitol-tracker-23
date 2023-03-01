@@ -121,11 +121,19 @@
             "HB 11",
             "HB 12",
             "HB 245",
-            "HB 478",
+            "HB 478"
+        ],
+        "billsScheduled": [
             "HB 817"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduledByDay": [
+            {
+                "day": "03/14/2023",
+                "bills": [
+                    "HB 817"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "HB 4",
             "HB 121",
@@ -3551,11 +3559,7 @@
         "billsScheduled": [],
         "billsScheduledByDay": [],
         "billsAwaitingVote": [
-            "HB 675",
-            "HB 699",
-            "HB 708",
-            "HB 789",
-            "HB 813"
+            "HB 675"
         ],
         "billsFailed": [
             "HB 323",
@@ -3567,7 +3571,11 @@
             "HB 483",
             "HB 553",
             "HB 606",
-            "HB 618"
+            "HB 618",
+            "HB 699",
+            "HB 708",
+            "HB 789",
+            "HB 813"
         ],
         "billsAdvanced": [
             "HB 20",
@@ -4146,8 +4154,10 @@
             "SB 182",
             "SB 224",
             "SB 229",
+            "SB 232",
             "SB 281",
             "SB 282",
+            "SB 294",
             "SB 417",
             "SB 487"
         ],
@@ -4453,8 +4463,7 @@
             "SB 11",
             "SB 286",
             "SB 434",
-            "SB 438",
-            "SJ 15"
+            "SB 438"
         ],
         "billsFailed": [
             "HB 205",
@@ -4570,6 +4579,7 @@
             "SJ 3",
             "SJ 5",
             "SJ 11",
+            "SJ 15",
             "SR 6",
             "SR 7",
             "SR 8",
@@ -4811,17 +4821,7 @@
         "billsScheduledByDay": [],
         "billsAwaitingVote": [
             "HB 155",
-            "HB 187",
-            "SB 380",
-            "SB 386",
-            "SB 411",
-            "SB 421",
-            "SB 444",
-            "SB 451",
-            "SB 454",
-            "SB 455",
-            "SB 456",
-            "SB 492"
+            "HB 187"
         ],
         "billsFailed": [
             "SB 90",
@@ -4911,14 +4911,24 @@
             "SB 359",
             "SB 370",
             "SB 378",
+            "SB 380",
             "SB 384",
+            "SB 386",
             "SB 392",
             "SB 397",
+            "SB 411",
             "SB 419",
+            "SB 421",
             "SB 430",
+            "SB 444",
+            "SB 451",
             "SB 453",
+            "SB 454",
+            "SB 455",
+            "SB 456",
             "SB 457",
             "SB 471",
+            "SB 492",
             "SB 496",
             "SJ 2",
             "SR 29",
@@ -5470,12 +5480,7 @@
         "billsAwaitingVote": [
             "HB 32",
             "HB 33",
-            "SB 330",
-            "SB 335",
-            "SB 403",
-            "SB 463",
-            "SB 499",
-            "SB 504"
+            "SB 463"
         ],
         "billsFailed": [
             "SB 343",
@@ -5517,8 +5522,10 @@
             "SB 319",
             "SB 323",
             "SB 327",
+            "SB 330",
             "SB 331",
             "SB 332",
+            "SB 335",
             "SB 336",
             "SB 358",
             "SB 374",
@@ -5526,13 +5533,16 @@
             "SB 379",
             "SB 381",
             "SB 382",
+            "SB 403",
             "SB 406",
             "SB 407",
             "SB 420",
             "SB 467",
             "SB 474",
             "SB 479",
-            "SB 500"
+            "SB 499",
+            "SB 500",
+            "SB 504"
         ],
         "billsBlasted": [],
         "members": [
@@ -5865,8 +5875,7 @@
         "billsAwaitingVote": [
             "HB 116",
             "HB 147",
-            "SB 150",
-            "SB 478"
+            "SB 150"
         ],
         "billsFailed": [
             "HB 65",
@@ -5878,7 +5887,8 @@
             "SB 241",
             "SB 266",
             "SB 329",
-            "SB 437"
+            "SB 437",
+            "SB 478"
         ],
         "billsAdvanced": [
             "HB 39",
@@ -6131,8 +6141,7 @@
         "billsScheduled": [],
         "billsScheduledByDay": [],
         "billsAwaitingVote": [
-            "SB 414",
-            "SB 503"
+            "SB 414"
         ],
         "billsFailed": [
             "SB 25",
@@ -6147,7 +6156,8 @@
             "SB 433",
             "SB 435",
             "SB 472",
-            "SB 484"
+            "SB 484",
+            "SB 503"
         ],
         "billsAdvanced": [
             "SB 18",
@@ -6303,15 +6313,11 @@
         "billsScheduled": [],
         "billsScheduledByDay": [],
         "billsAwaitingVote": [
-            "SB 52",
-            "SB 375",
-            "SB 447",
-            "SB 462",
-            "SB 473",
-            "SJ 13"
+            "SB 52"
         ],
         "billsFailed": [
-            "SB 347"
+            "SB 347",
+            "SB 473"
         ],
         "billsAdvanced": [
             "HB 44",
@@ -6329,7 +6335,11 @@
             "SB 78",
             "SB 203",
             "SB 217",
+            "SB 375",
+            "SB 447",
+            "SB 462",
             "SJ 9",
+            "SJ 13",
             "SR 26",
             "SR 27",
             "SR 28",
@@ -6582,15 +6592,14 @@
         "billsAwaitingVote": [
             "HB 42",
             "HB 74",
-            "HB 146",
-            "SB 428",
-            "SJ 14"
+            "HB 146"
         ],
         "billsFailed": [
             "SB 139",
             "SB 298",
             "SB 305",
-            "SB 357"
+            "SB 357",
+            "SB 428"
         ],
         "billsAdvanced": [
             "HB 73",
@@ -6611,6 +6620,7 @@
             "SB 354",
             "SB 356",
             "SB 388",
+            "SJ 14",
             "SR 3"
         ],
         "billsBlasted": [],
@@ -6982,12 +6992,12 @@
         "billsScheduled": [],
         "billsScheduledByDay": [],
         "billsAwaitingVote": [
-            "HB 140",
-            "SB 394"
+            "HB 140"
         ],
         "billsFailed": [
             "SB 193",
             "SB 233",
+            "SB 394",
             "SB 446"
         ],
         "billsAdvanced": [

@@ -252,6 +252,7 @@ export const LAWMAKER_NAME_CLEANING = {
     'Mitchell, Braxton': 'Braxton Mitchell',
     'Molnar, Brad': 'Brad Molnar',
     'Nave, Fiona': 'Fiona Nave',
+    'ave, Fiona': 'Fiona Nave',
     'Novak, Sara': 'Sara Novak',
     'O\'Brien, Shannon': 'Shannon O\'Brien',
     'Shannon O': 'Shannon O\'Brien',
