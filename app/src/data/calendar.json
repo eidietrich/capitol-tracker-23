@@ -27,7 +27,10 @@
         "HB 557",
         "HB 559",
         "HB 560",
-        "HB 561"
+        "HB 561",
+        "HB 562",
+        "SB 351",
+        "SB 474"
     ],
     "scheduledHearings": [
         {
@@ -298,6 +301,42 @@
             "date": "03/01/2023",
             "description": "Scheduled for 2nd Reading",
             "posession": "house",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
+            "id": "HB562-0027",
+            "bill": "HB 562",
+            "date": "03/01/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "house",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
+            "id": "SB351-0029",
+            "bill": "SB 351",
+            "date": "03/01/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
+            "id": "SB474-0021",
+            "bill": "SB 474",
+            "date": "03/01/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "senate",
             "committee": null,
             "actionUrl": null,
             "recordings": [],

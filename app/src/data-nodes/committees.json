@@ -3323,15 +3323,14 @@
         ],
         "billsScheduled": [],
         "billsScheduledByDay": [],
-        "billsAwaitingVote": [
+        "billsAwaitingVote": [],
+        "billsFailed": [
+            "HB 621",
+            "HB 677",
             "HB 757",
             "HB 765",
             "HB 773",
             "HB 779"
-        ],
-        "billsFailed": [
-            "HB 621",
-            "HB 677"
         ],
         "billsAdvanced": [
             "HB 42",
@@ -4067,16 +4066,18 @@
             "SB 334",
             "SB 417",
             "SB 460",
+            "SB 474",
             "SB 485",
             "SB 487",
             "SB 489",
             "SB 494",
             "SJ 18"
         ],
-        "billCount": 57,
+        "billCount": 58,
         "billsUnscheduled": [
             "SB 280",
             "SB 334",
+            "SB 474",
             "SJ 18"
         ],
         "billsScheduled": [
