@@ -2758,7 +2758,6 @@
             "HB 259",
             "HB 503",
             "HB 514",
-            "HB 535",
             "HB 538",
             "HB 688",
             "HB 796",
@@ -2795,6 +2794,7 @@
             "HB 502",
             "HB 504",
             "HB 531",
+            "HB 535",
             "HB 549",
             "HB 562",
             "HB 566",
@@ -3114,12 +3114,12 @@
         "billsScheduled": [],
         "billsScheduledByDay": [],
         "billsAwaitingVote": [
-            "HB 475",
             "HB 738",
             "HB 767"
         ],
         "billsFailed": [
             "HB 350",
+            "HB 475",
             "HB 487"
         ],
         "billsAdvanced": [
@@ -3326,19 +3326,15 @@
         "billsScheduled": [],
         "billsScheduledByDay": [],
         "billsAwaitingVote": [
-            "HB 600",
-            "HB 621",
-            "HB 627",
-            "HB 628",
-            "HB 630",
-            "HB 635",
-            "HB 677",
             "HB 757",
             "HB 765",
             "HB 773",
             "HB 779"
         ],
-        "billsFailed": [],
+        "billsFailed": [
+            "HB 621",
+            "HB 677"
+        ],
         "billsAdvanced": [
             "HB 42",
             "HB 73",
@@ -3361,7 +3357,12 @@
             "HB 547",
             "HB 548",
             "HB 593",
-            "HB 596"
+            "HB 596",
+            "HB 600",
+            "HB 627",
+            "HB 628",
+            "HB 630",
+            "HB 635"
         ],
         "billsBlasted": [],
         "members": [
