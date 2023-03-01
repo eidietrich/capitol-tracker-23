@@ -46845,9 +46845,9 @@
         "lcIdentifier": "LC1116",
         "type": "house bill",
         "status": {
-            "key": "In First House--Out of Committee",
+            "key": "In First House--Through 2nd Reading",
             "step": "First chamber",
-            "label": "Out of committee",
+            "label": "Passed second reading vote",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -46867,8 +46867,8 @@
             {
                 "step": "first chamber",
                 "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "statusLabel": "Passed preliminary floor vote",
+                "statusDate": "03/01/2023"
             },
             {
                 "step": "second chamber",
@@ -46914,7 +46914,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "hb-557",
@@ -46925,9 +46925,9 @@
         "lcIdentifier": "LC1467",
         "type": "house bill",
         "status": {
-            "key": "In First House--Out of Committee",
+            "key": "In First House--Through 2nd Reading",
             "step": "First chamber",
-            "label": "Out of committee",
+            "label": "Passed second reading vote",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -46947,8 +46947,8 @@
             {
                 "step": "first chamber",
                 "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "statusLabel": "Passed preliminary floor vote",
+                "statusDate": "03/01/2023"
             },
             {
                 "step": "second chamber",
@@ -46994,7 +46994,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "hb-558",
@@ -47086,9 +47086,9 @@
         "lcIdentifier": "LC3863",
         "type": "house bill",
         "status": {
-            "key": "In First House--Out of Committee",
+            "key": "In First House--Through 2nd Reading",
             "step": "First chamber",
-            "label": "Out of committee",
+            "label": "Passed second reading vote",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -47108,8 +47108,8 @@
             {
                 "step": "first chamber",
                 "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "statusLabel": "Passed preliminary floor vote",
+                "statusDate": "03/01/2023"
             },
             {
                 "step": "second chamber",
@@ -47154,7 +47154,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "hb-560",
@@ -47165,9 +47165,9 @@
         "lcIdentifier": "LC3763",
         "type": "house bill",
         "status": {
-            "key": "In First House--Out of Committee",
+            "key": "In First House--Through 2nd Reading",
             "step": "First chamber",
-            "label": "Out of committee",
+            "label": "Passed second reading vote",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -47187,8 +47187,8 @@
             {
                 "step": "first chamber",
                 "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "statusLabel": "Passed preliminary floor vote",
+                "statusDate": "03/01/2023"
             },
             {
                 "step": "second chamber",
@@ -47235,7 +47235,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "hb-561",
@@ -47246,9 +47246,9 @@
         "lcIdentifier": "LC2392",
         "type": "house bill",
         "status": {
-            "key": "In First House--Out of Committee",
+            "key": "In First House--Through 2nd Reading",
             "step": "First chamber",
-            "label": "Out of committee",
+            "label": "Passed second reading vote",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -47268,8 +47268,8 @@
             {
                 "step": "first chamber",
                 "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "statusLabel": "Passed preliminary floor vote",
+                "statusDate": "03/01/2023"
             },
             {
                 "step": "second chamber",
@@ -47315,7 +47315,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "hb-562",
@@ -59650,14 +59650,14 @@
             },
             {
                 "step": "first committee",
-                "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "status": "passed",
+                "statusLabel": "Advanced",
+                "statusDate": "02/28/2023"
             },
             {
                 "step": "first chamber",
-                "status": "future",
-                "statusLabel": null,
+                "status": "current",
+                "statusLabel": "Pending",
                 "statusDate": null
             },
             {
@@ -78321,14 +78321,14 @@
             },
             {
                 "step": "first committee",
-                "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "status": "passed",
+                "statusLabel": "Advanced",
+                "statusDate": "02/28/2023"
             },
             {
                 "step": "first chamber",
-                "status": "future",
-                "statusLabel": null,
+                "status": "current",
+                "statusLabel": "Pending",
                 "statusDate": null
             },
             {
@@ -88277,14 +88277,14 @@
             },
             {
                 "step": "first committee",
-                "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "status": "passed",
+                "statusLabel": "Advanced",
+                "statusDate": "02/28/2023"
             },
             {
                 "step": "first chamber",
-                "status": "future",
-                "statusLabel": null,
+                "status": "current",
+                "statusLabel": "Pending",
                 "statusDate": null
             },
             {
@@ -88329,7 +88329,7 @@
         "lawsUrl": "http://laws.leg.mt.gov/legprd/LAW0210W$BSIV.ActionQuery?P_BILL_NO1=228&P_BLTP_BILL_TYP_CD=SB&Z_ACTION=Find&P_SESS=20231",
         "textUrl": "http://leg.mt.gov/bills/2023/billpdf/SB0228.pdf",
         "fiscalNoteUrl": null,
-        "amendmentsUrl": null,
+        "amendmentsUrl": "https://leg.mt.gov/laws/bills/2023/AmdPublicWeb/?bill=SB0228",
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
@@ -98648,14 +98648,14 @@
             },
             {
                 "step": "first committee",
-                "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "status": "passed",
+                "statusLabel": "Advanced",
+                "statusDate": "02/28/2023"
             },
             {
                 "step": "first chamber",
-                "status": "future",
-                "statusLabel": null,
+                "status": "current",
+                "statusLabel": "Pending",
                 "statusDate": null
             },
             {
@@ -98697,7 +98697,7 @@
         "lawsUrl": "http://laws.leg.mt.gov/legprd/LAW0210W$BSIV.ActionQuery?P_BILL_NO1=354&P_BLTP_BILL_TYP_CD=SB&Z_ACTION=Find&P_SESS=20231",
         "textUrl": "http://leg.mt.gov/bills/2023/billpdf/SB0354.pdf",
         "fiscalNoteUrl": "https://leg.mt.gov/laws/bills/2023/FNPDF/SB0354",
-        "amendmentsUrl": null,
+        "amendmentsUrl": "https://leg.mt.gov/laws/bills/2023/AmdPublicWeb/?bill=SB0354",
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
@@ -101437,14 +101437,14 @@
             },
             {
                 "step": "first committee",
-                "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "status": "passed",
+                "statusLabel": "Advanced",
+                "statusDate": "02/28/2023"
             },
             {
                 "step": "first chamber",
-                "status": "future",
-                "statusLabel": null,
+                "status": "current",
+                "statusLabel": "Pending",
                 "statusDate": null
             },
             {
@@ -102239,14 +102239,14 @@
             },
             {
                 "step": "first committee",
-                "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "status": "passed",
+                "statusLabel": "Advanced",
+                "statusDate": "02/28/2023"
             },
             {
                 "step": "first chamber",
-                "status": "future",
-                "statusLabel": null,
+                "status": "current",
+                "statusLabel": "Pending",
                 "statusDate": null
             },
             {
@@ -103589,10 +103589,10 @@
         "lcIdentifier": "LC0336",
         "type": "senate bill",
         "status": {
-            "key": "In First House Committee--Nontabled",
+            "key": "In First House Committee--Tabled",
             "step": "First chamber",
-            "label": "In committee",
-            "status": "live",
+            "label": "Tabled in committee",
+            "status": "stalled",
             "statusAtSessionEnd": "failed"
         },
         "progress": [
@@ -103604,9 +103604,9 @@
             },
             {
                 "step": "first committee",
-                "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "status": "blocked",
+                "statusLabel": "Tabled",
+                "statusDate": "03/01/2023"
             },
             {
                 "step": "first chamber",
@@ -105793,14 +105793,14 @@
             },
             {
                 "step": "first committee",
-                "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "status": "passed",
+                "statusLabel": "Advanced",
+                "statusDate": "02/28/2023"
             },
             {
                 "step": "first chamber",
-                "status": "future",
-                "statusLabel": null,
+                "status": "current",
+                "statusLabel": "Pending",
                 "statusDate": null
             },
             {
@@ -105845,7 +105845,7 @@
         "lawsUrl": "http://laws.leg.mt.gov/legprd/LAW0210W$BSIV.ActionQuery?P_BILL_NO1=442&P_BLTP_BILL_TYP_CD=SB&Z_ACTION=Find&P_SESS=20231",
         "textUrl": "http://leg.mt.gov/bills/2023/billpdf/SB0442.pdf",
         "fiscalNoteUrl": null,
-        "amendmentsUrl": null,
+        "amendmentsUrl": "https://leg.mt.gov/laws/bills/2023/AmdPublicWeb/?bill=SB0442",
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
@@ -108480,10 +108480,10 @@
         "lcIdentifier": "LC4301",
         "type": "senate bill",
         "status": {
-            "key": "In First House Committee--Nontabled",
+            "key": "In First House Committee--Tabled",
             "step": "First chamber",
-            "label": "In committee",
-            "status": "live",
+            "label": "Tabled in committee",
+            "status": "stalled",
             "statusAtSessionEnd": "failed"
         },
         "progress": [
@@ -108495,9 +108495,9 @@
             },
             {
                 "step": "first committee",
-                "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "status": "blocked",
+                "statusLabel": "Tabled",
+                "statusDate": "03/01/2023"
             },
             {
                 "step": "first chamber",
@@ -108545,7 +108545,7 @@
         "lawsUrl": "http://laws.leg.mt.gov/legprd/LAW0210W$BSIV.ActionQuery?P_BILL_NO1=475&P_BLTP_BILL_TYP_CD=SB&Z_ACTION=Find&P_SESS=20231",
         "textUrl": "http://leg.mt.gov/bills/2023/billpdf/SB0475.pdf",
         "fiscalNoteUrl": null,
-        "amendmentsUrl": null,
+        "amendmentsUrl": "https://leg.mt.gov/laws/bills/2023/AmdPublicWeb/?bill=SB0475",
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
@@ -110563,10 +110563,10 @@
         "lcIdentifier": "LC3569",
         "type": "senate bill",
         "status": {
-            "key": "In First House Committee--Nontabled",
+            "key": "In First House Committee--Tabled",
             "step": "First chamber",
-            "label": "In committee",
-            "status": "live",
+            "label": "Tabled in committee",
+            "status": "stalled",
             "statusAtSessionEnd": "failed"
         },
         "progress": [
@@ -110578,9 +110578,9 @@
             },
             {
                 "step": "first committee",
-                "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "status": "blocked",
+                "statusLabel": "Tabled",
+                "statusDate": "03/01/2023"
             },
             {
                 "step": "first chamber",

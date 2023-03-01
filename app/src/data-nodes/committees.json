@@ -2029,8 +2029,7 @@
         "billsScheduled": [],
         "billsScheduledByDay": [],
         "billsAwaitingVote": [
-            "HB 700",
-            "HB 715"
+            "HB 700"
         ],
         "billsFailed": [
             "HB 64",
@@ -2103,6 +2102,7 @@
             "HB 657",
             "HB 665",
             "HB 706",
+            "HB 715",
             "HB 740",
             "HB 751",
             "SB 6",
@@ -4793,16 +4793,13 @@
             "SB 380",
             "SB 386",
             "SB 411",
-            "SB 415",
             "SB 421",
             "SB 444",
             "SB 451",
             "SB 454",
             "SB 455",
             "SB 456",
-            "SB 475",
-            "SB 492",
-            "SB 501"
+            "SB 492"
         ],
         "billsFailed": [
             "SB 90",
@@ -4818,6 +4815,9 @@
             "SB 365",
             "SB 366",
             "SB 371",
+            "SB 415",
+            "SB 475",
+            "SB 501",
             "SJ 12"
         ],
         "billsAdvanced": [
@@ -5055,7 +5055,6 @@
             "SB 145",
             "SB 194",
             "SB 258",
-            "SB 442",
             "SB 449"
         ],
         "billsFailed": [
@@ -5099,6 +5098,7 @@
             "SB 253",
             "SB 303",
             "SB 362",
+            "SB 442",
             "SB 461",
             "SR 11"
         ],
@@ -6417,10 +6417,7 @@
         "billsScheduledByDay": [],
         "billsAwaitingVote": [
             "HB 19",
-            "HB 47",
-            "SB 109",
-            "SB 228",
-            "SB 398"
+            "HB 47"
         ],
         "billsFailed": [
             "SB 147",
@@ -6432,8 +6429,11 @@
         "billsAdvanced": [
             "HB 52",
             "HB 170",
+            "SB 109",
             "SB 208",
+            "SB 228",
             "SB 255",
+            "SB 398",
             "SJ 10"
         ],
         "billsBlasted": [],
@@ -6561,8 +6561,6 @@
             "HB 42",
             "HB 74",
             "HB 146",
-            "SB 354",
-            "SB 388",
             "SB 428",
             "SJ 14"
         ],
@@ -6588,7 +6586,9 @@
             "SB 293",
             "SB 295",
             "SB 324",
+            "SB 354",
             "SB 356",
+            "SB 388",
             "SR 3"
         ],
         "billsBlasted": [],
