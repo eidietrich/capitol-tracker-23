@@ -42,8 +42,13 @@
         "HB 567",
         "SB 208",
         "SB 351",
+        "SB 370",
+        "SB 373",
         "SB 384",
-        "SB 474"
+        "SB 471",
+        "SB 474",
+        "HB 519",
+        "HB 541"
     ],
     "scheduledHearings": [
         {
@@ -486,8 +491,44 @@
             "scheduledForFloorDebate": true
         },
         {
+            "id": "SB370-0022",
+            "bill": "SB 370",
+            "date": "03/01/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
+            "id": "SB373-0028",
+            "bill": "SB 373",
+            "date": "03/01/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
             "id": "SB384-0027",
             "bill": "SB 384",
+            "date": "03/01/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
+            "id": "SB471-0021",
+            "bill": "SB 471",
             "date": "03/01/2023",
             "description": "Scheduled for 2nd Reading",
             "posession": "senate",
@@ -510,5 +551,30 @@
             "scheduledForFloorDebate": true
         }
     ],
-    "scheduledFinalVotes": []
+    "scheduledFinalVotes": [
+        {
+            "id": "HB519-0039",
+            "bill": "HB 519",
+            "date": "03/01/2023",
+            "description": "Scheduled for 3rd Reading",
+            "posession": "house",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 3rd Reading",
+            "scheduledForFinalVote": true
+        },
+        {
+            "id": "HB541-0041",
+            "bill": "HB 541",
+            "date": "03/01/2023",
+            "description": "Scheduled for 3rd Reading",
+            "posession": "house",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 3rd Reading",
+            "scheduledForFinalVote": true
+        }
+    ]
 }
