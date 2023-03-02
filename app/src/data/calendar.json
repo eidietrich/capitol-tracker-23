@@ -103,6 +103,7 @@
         "SB 313",
         "SB 337",
         "SB 397",
+        "SB 398",
         "SB 410",
         "SB 424",
         "SB 434",
@@ -123,6 +124,7 @@
         "SB 496",
         "SB 498",
         "SJ 11",
+        "SJ 15",
         "SJ 17",
         "SB 28",
         "SB 127",
@@ -1364,6 +1366,18 @@
             "scheduledForFloorDebate": true
         },
         {
+            "id": "SB398-0021",
+            "bill": "SB 398",
+            "date": "03/02/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
             "id": "SB410-0022",
             "bill": "SB 410",
             "date": "03/02/2023",
@@ -1594,6 +1608,18 @@
         {
             "id": "SJ11-0023",
             "bill": "SJ 11",
+            "date": "03/02/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
+            "id": "SJ15-0024",
+            "bill": "SJ 15",
             "date": "03/02/2023",
             "description": "Scheduled for 2nd Reading",
             "posession": "senate",
@@ -2122,7 +2148,7 @@
             "scheduledForFinalVote": true
         },
         {
-            "id": "SB450-0025",
+            "id": "SB450-0026",
             "bill": "SB 450",
             "date": "03/02/2023",
             "description": "Scheduled for 3rd Reading",
