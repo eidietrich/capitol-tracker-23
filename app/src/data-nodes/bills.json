@@ -70247,9 +70247,9 @@
         "lcIdentifier": "LC0357",
         "type": "senate bill",
         "status": {
-            "key": "In First House--Through 2nd Reading",
+            "key": "In First House Committee--Nontabled",
             "step": "First chamber",
-            "label": "Passed second reading vote",
+            "label": "In committee",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -73242,9 +73242,9 @@
         "lcIdentifier": "LC0517",
         "type": "senate bill",
         "status": {
-            "key": "In First House--Out of Committee",
+            "key": "In First House--Through 2nd Reading",
             "step": "First chamber",
-            "label": "Out of committee",
+            "label": "Passed second reading vote",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -73263,9 +73263,9 @@
             },
             {
                 "step": "first chamber",
-                "status": "blocked",
-                "statusLabel": "Voted down",
-                "statusDate": "02/03/2023"
+                "status": "current",
+                "statusLabel": "Passed preliminary floor vote",
+                "statusDate": "03/01/2023"
             },
             {
                 "step": "second chamber",
@@ -90323,9 +90323,9 @@
         "lcIdentifier": "LC0695",
         "type": "senate bill",
         "status": {
-            "key": "In First House--Through 2nd Reading",
+            "key": "In First House Committee--Nontabled",
             "step": "First chamber",
-            "label": "Passed second reading vote",
+            "label": "In committee",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -106703,9 +106703,9 @@
         "lcIdentifier": "LC2223",
         "type": "senate bill",
         "status": {
-            "key": "In First House--Out of Committee",
+            "key": "In First House--Through 2nd Reading",
             "step": "First chamber",
-            "label": "Out of committee",
+            "label": "Passed second reading vote",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -106725,8 +106725,8 @@
             {
                 "step": "first chamber",
                 "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "statusLabel": "Passed preliminary floor vote",
+                "statusDate": "03/01/2023"
             },
             {
                 "step": "second chamber",
