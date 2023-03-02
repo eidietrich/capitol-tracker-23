@@ -606,14 +606,25 @@
             "HB 597",
             "HB 647",
             "HB 717",
-            "HB 728",
+            "HB 728"
+        ],
+        "billsScheduled": [
             "SB 12",
             "SB 13",
             "SB 19",
             "SB 89"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduledByDay": [
+            {
+                "day": "03/10/2023",
+                "bills": [
+                    "SB 12",
+                    "SB 13",
+                    "SB 19",
+                    "SB 89"
+                ]
+            }
+        ],
         "billsAwaitingVote": [],
         "billsFailed": [
             "HB 57",

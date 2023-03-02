@@ -4,6 +4,9 @@
  * See: https://www.gatsbyjs.org/docs/node-apis/
  */
 
+const fs = require('fs')
+const glob = require('glob')
+
 const bills = require('./src/data-nodes/bills.json')
 const lawmakers = require('./src/data-nodes/lawmakers.json')
 const committees = require('./src/data-nodes/committees.json')
@@ -13,11 +16,10 @@ const committees = require('./src/data-nodes/committees.json')
     to manage amount of data fed into Gatsby graphql database for build
     time optimization purposes.
 */
-const actions1 = require('./src/data/bill-actions-1.json')
-const actions2 = require('./src/data/bill-actions-2.json')
-const actions3 = require('./src/data/bill-actions-3.json')
-const actions4 = require('./src/data/bill-actions-4.json')
-const actions = actions1.concat(actions2, actions3, actions4)
+const getJson = (path) => JSON.parse(fs.readFileSync(path))
+const collectJsons = (glob_path) => glob.sync(glob_path).map(getJson)
+const actionFiles = collectJsons('./src/data/bill-actions-*.json')
+const actions = actionFiles.flat()
 
 exports.createSchemaCustomization = ({ actions }) => {
     /* Explicitly defines schemas for bils and lawmakers to optimize build times */
