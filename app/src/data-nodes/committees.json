@@ -74,6 +74,7 @@
             "HB 270",
             "HB 274",
             "HB 276",
+            "HB 288",
             "HB 292",
             "HB 297",
             "HB 301",
@@ -99,17 +100,26 @@
             "HB 462",
             "HB 463",
             "HB 478",
+            "HB 482",
             "HB 519",
             "HB 525",
             "HB 541",
+            "HB 546",
+            "HB 549",
+            "HB 562",
             "HB 569",
+            "HB 587",
+            "HB 588",
+            "HB 597",
+            "HB 629",
             "HB 669",
+            "HB 672",
             "HB 722",
             "HB 817",
             "SB 121",
             "SB 124"
         ],
-        "billCount": 102,
+        "billCount": 112,
         "billsUnscheduled": [
             "HB 2",
             "HB 5",
@@ -121,7 +131,17 @@
             "HB 11",
             "HB 12",
             "HB 245",
-            "HB 478"
+            "HB 288",
+            "HB 478",
+            "HB 482",
+            "HB 546",
+            "HB 549",
+            "HB 562",
+            "HB 587",
+            "HB 588",
+            "HB 597",
+            "HB 629",
+            "HB 672"
         ],
         "billsScheduled": [
             "HB 817"
@@ -1386,7 +1406,6 @@
             "HB 454",
             "HB 476",
             "HB 508",
-            "HB 515",
             "HB 613",
             "HB 799"
         ],
@@ -1430,7 +1449,9 @@
             "SB 121",
             "SB 124"
         ],
-        "billsBlasted": [],
+        "billsBlasted": [
+            "HB 515"
+        ],
         "members": [
             {
                 "name": "Paul Fielder",
@@ -3557,9 +3578,7 @@
         ],
         "billsScheduled": [],
         "billsScheduledByDay": [],
-        "billsAwaitingVote": [
-            "HB 675"
-        ],
+        "billsAwaitingVote": [],
         "billsFailed": [
             "HB 323",
             "HB 324",
@@ -3596,6 +3615,7 @@
             "HB 360",
             "HB 465",
             "HB 534",
+            "HB 675",
             "HB 724",
             "HB 748",
             "SB 5",
