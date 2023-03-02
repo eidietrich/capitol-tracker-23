@@ -6193,25 +6193,14 @@
         ],
         "billCount": 91,
         "billsUnscheduled": [
-            "HB 63",
-            "HB 80",
-            "HB 81",
             "HB 89",
             "HB 106",
             "HB 107",
             "HB 108",
-            "HB 109",
-            "HB 110",
-            "HB 132",
             "HB 134",
-            "HB 143",
-            "HB 148",
-            "HB 151",
             "HB 172",
             "HB 173",
             "HB 186",
-            "HB 199",
-            "HB 232",
             "HB 273",
             "SB 185",
             "SB 207",
@@ -6222,8 +6211,52 @@
             "SB 485",
             "SJ 15"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduled": [
+            "HB 63",
+            "HB 80",
+            "HB 81",
+            "HB 109",
+            "HB 110",
+            "HB 132",
+            "HB 143",
+            "HB 148",
+            "HB 151",
+            "HB 199",
+            "HB 232"
+        ],
+        "billsScheduledByDay": [
+            {
+                "day": "03/10/2023",
+                "bills": [
+                    "HB 109",
+                    "HB 143",
+                    "HB 199"
+                ]
+            },
+            {
+                "day": "03/13/2023",
+                "bills": [
+                    "HB 63",
+                    "HB 80",
+                    "HB 81"
+                ]
+            },
+            {
+                "day": "03/15/2023",
+                "bills": [
+                    "HB 148",
+                    "HB 151",
+                    "HB 232"
+                ]
+            },
+            {
+                "day": "03/17/2023",
+                "bills": [
+                    "HB 110",
+                    "HB 132"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "SB 414"
         ],
