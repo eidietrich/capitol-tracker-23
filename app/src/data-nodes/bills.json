@@ -73242,9 +73242,9 @@
         "lcIdentifier": "LC0517",
         "type": "senate bill",
         "status": {
-            "key": "In First House--Through 2nd Reading",
+            "key": "In First House Committee--Nontabled",
             "step": "First chamber",
-            "label": "Passed second reading vote",
+            "label": "In committee",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -94095,9 +94095,9 @@
         "lcIdentifier": "LC0521",
         "type": "senate bill",
         "status": {
-            "key": "In First House--Through 2nd Reading",
+            "key": "In First House Committee--Nontabled",
             "step": "First chamber",
-            "label": "Passed second reading vote",
+            "label": "In committee",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -97413,10 +97413,10 @@
         "lcIdentifier": "LC1248",
         "type": "senate bill",
         "status": {
-            "key": "Probably Dead",
-            "label": "",
-            "step": "Failed",
-            "status": "stalled",
+            "key": "In First House--Through 2nd Reading",
+            "step": "First chamber",
+            "label": "Passed second reading vote",
+            "status": "live",
             "statusAtSessionEnd": "failed"
         },
         "progress": [
@@ -97469,13 +97469,14 @@
         "deadlineCategory": "General Bills",
         "transmittalDeadline": "03/03/2023",
         "secondHouseReturnIfAmendedDeadline": "04/12/2023",
-        "voteMajorityRequired": "Simple",
+        "voteMajorityRequired": "2/3 of Each House",
         "subjects": [
             "Cities and Towns  (see also: Local Government)",
             "Counties  (see also: Local Government)",
             "Emergency and Disaster Services",
             "Health Care Services (see also: Health)",
-            "Local Government  (see also: City Subjects; County Subjects)"
+            "Local Government  (see also: City Subjects; County Subjects)",
+            "State/Other Government Levels, Immunity From Suit"
         ],
         "tags": [],
         "lawsUrl": "http://laws.leg.mt.gov/legprd/LAW0210W$BSIV.ActionQuery?P_BILL_NO1=336&P_BLTP_BILL_TYP_CD=SB&Z_ACTION=Find&P_SESS=20231",
@@ -101291,9 +101292,9 @@
         "lcIdentifier": "LC0322",
         "type": "senate bill",
         "status": {
-            "key": "In First House--Through 2nd Reading",
+            "key": "In First House Committee--Nontabled",
             "step": "First chamber",
-            "label": "Passed second reading vote",
+            "label": "In committee",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -102013,10 +102014,10 @@
         "lcIdentifier": "LC2580",
         "type": "senate bill",
         "status": {
-            "key": "Probably Dead",
-            "label": "",
-            "step": "Failed",
-            "status": "stalled",
+            "key": "In First House--Through 2nd Reading",
+            "step": "First chamber",
+            "label": "Passed second reading vote",
+            "status": "live",
             "statusAtSessionEnd": "failed"
         },
         "progress": [
