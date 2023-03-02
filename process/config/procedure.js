@@ -10,7 +10,7 @@ export const VOTE_THRESHOLDS = [
 export const BILL_TYPES = [
     // bill is rawBill data here so bill.key should be un-urlized bill number, e.g. HB 205
     {
-        key: 'constitutonal amendment',
+        key: 'constitutional amendment',
         test: bill => bill.subjects.map(d => d.subject).includes('Constitutional Amendment Proposals'),
         steps: ['introduced', 'first committee', 'first chamber', 'second chamber'],
     },
