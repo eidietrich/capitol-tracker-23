@@ -31291,9 +31291,9 @@
         "lcIdentifier": "LC1425",
         "type": "house bill",
         "status": {
-            "key": "In First House--Out of Committee",
+            "key": "In First House--Through 2nd Reading",
             "step": "First chamber",
-            "label": "Out of committee",
+            "label": "Passed second reading vote",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -31313,8 +31313,8 @@
             {
                 "step": "first chamber",
                 "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "statusLabel": "Passed preliminary floor vote",
+                "statusDate": "03/02/2023"
             },
             {
                 "step": "second chamber",
@@ -52504,9 +52504,9 @@
         "lcIdentifier": "LC4602",
         "type": "house bill",
         "status": {
-            "key": "In First House--Out of Committee",
+            "key": "In First House--Through 2nd Reading",
             "step": "First chamber",
-            "label": "Out of committee",
+            "label": "Passed second reading vote",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -52526,8 +52526,8 @@
             {
                 "step": "first chamber",
                 "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "statusLabel": "Passed preliminary floor vote",
+                "statusDate": "03/02/2023"
             },
             {
                 "step": "second chamber",
@@ -70401,7 +70401,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "sb-13",
@@ -70482,7 +70482,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "sb-14",
@@ -70967,7 +70967,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "sb-20",
@@ -76941,7 +76941,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "sb-90",
@@ -79621,11 +79621,11 @@
         "lcIdentifier": "LC0179",
         "type": "senate bill",
         "status": {
-            "key": "In Second House--Through 3rd Reading",
-            "step": "Second chamber",
-            "label": "Passed chamber",
+            "key": "Passed By Legislature--Enrolling and Final Preparation Process",
+            "step": "Through Legislature",
+            "label": "Passed both chambers",
             "status": "live",
-            "statusAtSessionEnd": "failed"
+            "statusAtSessionEnd": "pending, passed legislature"
         },
         "progress": [
             {
@@ -79902,11 +79902,11 @@
         "lcIdentifier": "LC0294",
         "type": "senate bill",
         "status": {
-            "key": "In Second House--Through 3rd Reading",
-            "step": "Second chamber",
-            "label": "Passed chamber",
+            "key": "Passed By Legislature--Enrolling and Final Preparation Process",
+            "step": "Through Legislature",
+            "label": "Passed both chambers",
             "status": "live",
-            "statusAtSessionEnd": "failed"
+            "statusAtSessionEnd": "pending, passed legislature"
         },
         "progress": [
             {
@@ -111922,10 +111922,10 @@
         "lcIdentifier": "LC1963",
         "type": "joint resolution",
         "status": {
-            "key": "In First House--Out of Committee",
-            "step": "First chamber",
-            "label": "Out of committee",
-            "status": "live",
+            "key": "Probably Dead",
+            "label": "",
+            "step": "Failed",
+            "status": "stalled",
             "statusAtSessionEnd": "failed"
         },
         "progress": [
@@ -111943,9 +111943,9 @@
             },
             {
                 "step": "first chamber",
-                "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "status": "blocked",
+                "statusLabel": "Voted down",
+                "statusDate": "03/02/2023"
             },
             {
                 "step": "second chamber",
