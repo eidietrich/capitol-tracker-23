@@ -12,7 +12,8 @@
     "start": "gatsby develop",
     "build": "gatsby build --prefix-paths --verbose",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "decache": "aws cloudfront create-invalidation --distribution-id E3LVPS3XLJHLL5 --paths \"/capitol-tracker-2023/*\""
   },
   "dependencies": {
     "@emotion/react": "^11.10.5",
