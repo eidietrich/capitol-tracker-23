@@ -42439,9 +42439,9 @@
         "lcIdentifier": "LC4139",
         "type": "house bill",
         "status": {
-            "key": "In First House--Out of Committee",
+            "key": "In First House--Through 2nd Reading",
             "step": "First chamber",
-            "label": "Out of committee",
+            "label": "Passed second reading vote",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -42461,8 +42461,8 @@
             {
                 "step": "first chamber",
                 "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "statusLabel": "Passed preliminary floor vote",
+                "statusDate": "03/02/2023"
             },
             {
                 "step": "second chamber",
@@ -68166,6 +68166,87 @@
         "tags": [],
         "lawsUrl": "http://laws.leg.mt.gov/legprd/LAW0210W$BSIV.ActionQuery?P_BILL_NO1=820&P_BLTP_BILL_TYP_CD=HB&Z_ACTION=Find&P_SESS=20231",
         "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0820.pdf",
+        "fiscalNoteUrl": null,
+        "amendmentsUrl": null,
+        "legalNoteUrl": null,
+        "vetoMemoUrl": null,
+        "articles": [],
+        "isOnCalendar": false
+    },
+    {
+        "key": "hb-821",
+        "identifier": "HB 821",
+        "chamber": "house",
+        "title": "Appropriate money to dept. of ag for weed control",
+        "session": "20231",
+        "lcIdentifier": "LC4416",
+        "type": "house bill",
+        "status": {
+            "key": "In First House--Introduced",
+            "step": "First chamber",
+            "label": "Introduced",
+            "status": "live",
+            "statusAtSessionEnd": "failed"
+        },
+        "progress": [
+            {
+                "step": "introduced",
+                "status": "passed",
+                "statusLabel": "Introduced",
+                "statusDate": "03/02/2023"
+            },
+            {
+                "step": "first committee",
+                "status": "current",
+                "statusLabel": "Pending",
+                "statusDate": null
+            },
+            {
+                "step": "first chamber",
+                "status": "future",
+                "statusLabel": null,
+                "statusDate": null
+            },
+            {
+                "step": "second chamber",
+                "status": "future",
+                "statusLabel": null,
+                "statusDate": null
+            },
+            {
+                "step": "reconciliation",
+                "status": "skipped",
+                "statusLabel": null,
+                "statusDate": null
+            },
+            {
+                "step": "governor",
+                "status": "future",
+                "statusLabel": null,
+                "statusDate": null
+            }
+        ],
+        "hasBeenSentToGovernor": false,
+        "sponsor": {
+            "name": "Marty Malone",
+            "lastName": "Malone",
+            "party": "R",
+            "locale": "Pray",
+            "district": "HD 59"
+        },
+        "requestor": null,
+        "deadlineCategory": "Appropriation Bills",
+        "transmittalDeadline": "04/03/2023",
+        "secondHouseReturnIfAmendedDeadline": "04/21/2023",
+        "voteMajorityRequired": "Simple",
+        "subjects": [
+            "Agriculture  (see also: Livestock; Taxation--Agriculture/Livestock)",
+            "Appropriations  (see also: State Finance)",
+            "Counties  (see also: Local Government)"
+        ],
+        "tags": [],
+        "lawsUrl": "http://laws.leg.mt.gov/legprd/LAW0210W$BSIV.ActionQuery?P_BILL_NO1=821&P_BLTP_BILL_TYP_CD=HB&Z_ACTION=Find&P_SESS=20231",
+        "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC4416.pdf",
         "fiscalNoteUrl": null,
         "amendmentsUrl": null,
         "legalNoteUrl": null,
@@ -108265,9 +108346,9 @@
         "lcIdentifier": "LC4164",
         "type": "senate bill",
         "status": {
-            "key": "In First House--Out of Committee",
+            "key": "In First House--Through 2nd Reading",
             "step": "First chamber",
-            "label": "Out of committee",
+            "label": "Passed second reading vote",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -108287,8 +108368,8 @@
             {
                 "step": "first chamber",
                 "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "statusLabel": "Passed preliminary floor vote",
+                "statusDate": "03/02/2023"
             },
             {
                 "step": "second chamber",
