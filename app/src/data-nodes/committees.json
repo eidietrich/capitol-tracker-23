@@ -4084,22 +4084,10 @@
         "billsUnscheduled": [
             "SB 280",
             "SB 334",
-            "SB 474",
-            "SJ 18"
+            "SB 474"
         ],
-        "billsScheduled": [
-            "SB 232",
-            "SB 294"
-        ],
-        "billsScheduledByDay": [
-            {
-                "day": "03/01/2023",
-                "bills": [
-                    "SB 232",
-                    "SB 294"
-                ]
-            }
-        ],
+        "billsScheduled": [],
+        "billsScheduledByDay": [],
         "billsAwaitingVote": [
             "SB 485"
         ],
@@ -4158,7 +4146,8 @@
             "SB 282",
             "SB 294",
             "SB 417",
-            "SB 487"
+            "SB 487",
+            "SJ 18"
         ],
         "billsBlasted": [],
         "members": [
