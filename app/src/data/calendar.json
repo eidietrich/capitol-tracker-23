@@ -32,7 +32,8 @@
         "SR 33",
         "SR 47",
         "SR 51",
-        "HB 535"
+        "HB 535",
+        "SB 416"
     ],
     "scheduledHearings": [
         {
@@ -375,5 +376,18 @@
             "scheduledForFloorDebate": true
         }
     ],
-    "scheduledFinalVotes": []
+    "scheduledFinalVotes": [
+        {
+            "id": "SB416-0026",
+            "bill": "SB 416",
+            "date": "03/02/2023",
+            "description": "Scheduled for 3rd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 3rd Reading",
+            "scheduledForFinalVote": true
+        }
+    ]
 }
