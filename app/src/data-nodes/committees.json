@@ -1780,17 +1780,36 @@
         "billCount": 113,
         "billsUnscheduled": [
             "HB 126",
+            "SJ 8"
+        ],
+        "billsScheduled": [
             "SB 30",
             "SB 50",
             "SB 51",
             "SB 56",
             "SB 61",
             "SB 77",
-            "SB 86",
-            "SJ 8"
+            "SB 86"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduledByDay": [
+            {
+                "day": "03/07/2023",
+                "bills": [
+                    "SB 30",
+                    "SB 56",
+                    "SB 61"
+                ]
+            },
+            {
+                "day": "03/08/2023",
+                "bills": [
+                    "SB 50",
+                    "SB 51",
+                    "SB 77",
+                    "SB 86"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "SB 29",
             "SB 66",
