@@ -677,12 +677,10 @@
             "HB 197",
             "HB 216",
             "HB 372",
-            "HB 405",
             "HB 423",
             "HB 444",
             "HB 451",
             "HB 479",
-            "HB 517",
             "HB 551",
             "HB 597",
             "HB 647",
@@ -692,6 +690,8 @@
             "SB 89"
         ],
         "billsScheduled": [
+            "HB 405",
+            "HB 517",
             "SB 12",
             "SB 13"
         ],
@@ -701,6 +701,13 @@
                 "bills": [
                     "SB 12",
                     "SB 13"
+                ]
+            },
+            {
+                "day": "03/13/2023",
+                "bills": [
+                    "HB 405",
+                    "HB 517"
                 ]
             }
         ],
@@ -4233,12 +4240,21 @@
             "SB 334",
             "SB 352",
             "SB 383",
-            "SB 402",
+            "SB 402"
+        ],
+        "billsScheduled": [
             "SB 458",
             "SB 474"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduledByDay": [
+            {
+                "day": "03/10/2023",
+                "bills": [
+                    "SB 458",
+                    "SB 474"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "SB 485"
         ],
