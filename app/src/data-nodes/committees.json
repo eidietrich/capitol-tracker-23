@@ -5245,7 +5245,6 @@
         "billCount": 54,
         "billsUnscheduled": [
             "HB 188",
-            "SB 14",
             "SB 28",
             "SB 118",
             "SB 192",
@@ -5253,8 +5252,17 @@
             "SB 502",
             "SB 505"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduled": [
+            "SB 14"
+        ],
+        "billsScheduledByDay": [
+            {
+                "day": "03/17/2023",
+                "bills": [
+                    "SB 14"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "SB 110",
             "SB 122",
