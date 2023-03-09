@@ -1137,17 +1137,34 @@
         ],
         "billCount": 125,
         "billsUnscheduled": [
-            "HB 574",
             "HB 711",
             "HB 801",
-            "HB 810",
+            "HB 810"
+        ],
+        "billsScheduled": [
+            "HB 574",
             "SB 21",
             "SB 53",
             "SB 100",
             "SB 101"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduledByDay": [
+            {
+                "day": "03/13/2023",
+                "bills": [
+                    "HB 574",
+                    "SB 21",
+                    "SB 53"
+                ]
+            },
+            {
+                "day": "03/17/2023",
+                "bills": [
+                    "SB 100",
+                    "SB 101"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "HB 87",
             "HB 152",
