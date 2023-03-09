@@ -5943,18 +5943,28 @@
         "billCount": 36,
         "billsUnscheduled": [
             "HB 34",
-            "HB 53",
             "HB 114",
             "HB 141",
             "HB 185",
-            "HB 342",
-            "HB 347",
             "SB 82",
             "SB 271",
             "SR 45"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduled": [
+            "HB 53",
+            "HB 342",
+            "HB 347"
+        ],
+        "billsScheduledByDay": [
+            {
+                "day": "03/13/2023",
+                "bills": [
+                    "HB 53",
+                    "HB 342",
+                    "HB 347"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "HB 88",
             "HB 122"
