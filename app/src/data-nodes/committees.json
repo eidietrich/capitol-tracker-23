@@ -2925,16 +2925,34 @@
         "billsUnscheduled": [
             "HB 257",
             "HB 667",
+            "HB 759"
+        ],
+        "billsScheduled": [
             "HB 749",
-            "HB 759",
             "SB 1",
             "SB 8",
             "SB 10",
             "SB 69",
             "SB 70"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduledByDay": [
+            {
+                "day": "03/13/2023",
+                "bills": [
+                    "SB 1",
+                    "SB 8",
+                    "SB 10",
+                    "SB 69",
+                    "SB 70"
+                ]
+            },
+            {
+                "day": "03/15/2023",
+                "bills": [
+                    "HB 749"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "HB 445",
             "SB 129"
