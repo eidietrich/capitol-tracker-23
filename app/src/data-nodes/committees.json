@@ -2490,7 +2490,9 @@
             "HB 130",
             "HB 185",
             "HB 634",
-            "HB 638",
+            "HB 638"
+        ],
+        "billsScheduled": [
             "SB 17",
             "SB 39",
             "SB 42",
@@ -2500,8 +2502,36 @@
             "SB 55",
             "SB 83"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduledByDay": [
+            {
+                "day": "03/13/2023",
+                "bills": [
+                    "SB 39",
+                    "SB 49",
+                    "SB 83"
+                ]
+            },
+            {
+                "day": "03/15/2023",
+                "bills": [
+                    "SB 43",
+                    "SB 48"
+                ]
+            },
+            {
+                "day": "03/17/2023",
+                "bills": [
+                    "SB 42",
+                    "SB 55"
+                ]
+            },
+            {
+                "day": "03/20/2023",
+                "bills": [
+                    "SB 17"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "HB 642"
         ],

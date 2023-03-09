@@ -71877,7 +71877,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "sb-18",
@@ -73705,7 +73705,7 @@
         "explanation": null,
         "billPageText": null,
         "articles": [],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "sb-40",
@@ -73960,7 +73960,7 @@
         "explanation": null,
         "billPageText": null,
         "articles": [],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "sb-43",
@@ -74046,7 +74046,7 @@
         "explanation": null,
         "billPageText": null,
         "articles": [],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "sb-44",
@@ -74487,7 +74487,7 @@
         "explanation": null,
         "billPageText": null,
         "articles": [],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "sb-49",
@@ -74566,7 +74566,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "sb-50",
@@ -75069,7 +75069,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "sb-56",
@@ -77488,7 +77488,7 @@
         "explanation": null,
         "billPageText": null,
         "articles": [],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "sb-84",
@@ -84555,9 +84555,9 @@
         "lcIdentifier": "LC0087",
         "type": "senate bill",
         "status": {
-            "key": "In First House--Through 3rd Reading",
-            "step": "First chamber",
-            "label": "Passed chamber",
+            "key": "Transmitted to Second House",
+            "step": "Second chamber",
+            "label": "Transmitted",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -113539,9 +113539,9 @@
         "lcIdentifier": "LC3923",
         "type": "joint resolution",
         "status": {
-            "key": "In First House--Through 3rd Reading",
-            "step": "First chamber",
-            "label": "Passed chamber",
+            "key": "Transmitted to Second House",
+            "step": "Second chamber",
+            "label": "Transmitted",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
