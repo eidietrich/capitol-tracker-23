@@ -5771,16 +5771,34 @@
         "billCount": 69,
         "billsUnscheduled": [
             "HB 35",
+            "SB 240"
+        ],
+        "billsScheduled": [
             "HB 118",
             "HB 198",
             "HB 283",
             "HB 316",
             "HB 334",
-            "HB 366",
-            "SB 240"
+            "HB 366"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduledByDay": [
+            {
+                "day": "03/13/2023",
+                "bills": [
+                    "HB 198",
+                    "HB 316",
+                    "HB 366"
+                ]
+            },
+            {
+                "day": "03/15/2023",
+                "bills": [
+                    "HB 118",
+                    "HB 283",
+                    "HB 334"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "HB 32",
             "HB 33"
