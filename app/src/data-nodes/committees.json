@@ -4019,12 +4019,25 @@
             "SB 176"
         ],
         "billCount": 19,
-        "billsUnscheduled": [
+        "billsUnscheduled": [],
+        "billsScheduled": [
             "SB 128",
             "SB 176"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduledByDay": [
+            {
+                "day": "03/16/2023",
+                "bills": [
+                    "SB 176"
+                ]
+            },
+            {
+                "day": "03/17/2023",
+                "bills": [
+                    "SB 128"
+                ]
+            }
+        ],
         "billsAwaitingVote": [],
         "billsFailed": [
             "HB 607",
@@ -4314,6 +4327,8 @@
             "HB 3",
             "HB 15",
             "HB 28",
+            "HB 79",
+            "HB 112",
             "HB 175",
             "HB 185",
             "HB 192",
@@ -4338,6 +4353,7 @@
             "SB 93",
             "SB 94",
             "SB 95",
+            "SB 104",
             "SB 108",
             "SB 121",
             "SB 124",
@@ -4363,6 +4379,7 @@
             "SB 282",
             "SB 294",
             "SB 296",
+            "SB 303",
             "SB 334",
             "SB 352",
             "SB 383",
@@ -4377,13 +4394,18 @@
             "SB 494",
             "SJ 18"
         ],
-        "billCount": 66,
+        "billCount": 70,
         "billsUnscheduled": [
+            "HB 79",
+            "HB 112",
             "SB 11",
             "SB 47",
+            "SB 60",
+            "SB 104",
             "SB 250",
             "SB 280",
             "SB 296",
+            "SB 303",
             "SB 334",
             "SB 352",
             "SB 383",
@@ -4402,9 +4424,7 @@
                 ]
             }
         ],
-        "billsAwaitingVote": [
-            "SB 485"
-        ],
+        "billsAwaitingVote": [],
         "billsFailed": [
             "SB 126",
             "SB 160",
@@ -4460,6 +4480,7 @@
             "SB 282",
             "SB 294",
             "SB 417",
+            "SB 485",
             "SB 487",
             "SJ 18"
         ],
