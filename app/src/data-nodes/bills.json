@@ -32699,7 +32699,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "hb-373",
@@ -32871,9 +32871,9 @@
         "lcIdentifier": "LC2207",
         "type": "house bill",
         "status": {
-            "key": "In First House--Out of Committee",
+            "key": "In First House--Through 2nd Reading",
             "step": "First chamber",
-            "label": "Out of committee",
+            "label": "Passed second reading vote",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -32893,8 +32893,8 @@
             {
                 "step": "first chamber",
                 "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "statusLabel": "Passed preliminary floor vote",
+                "statusDate": "03/10/2023"
             },
             {
                 "step": "second chamber",
@@ -33031,9 +33031,9 @@
         "lcIdentifier": "LC2234",
         "type": "house bill",
         "status": {
-            "key": "In First House--Out of Committee",
+            "key": "In First House--Through 2nd Reading",
             "step": "First chamber",
-            "label": "Out of committee",
+            "label": "Passed second reading vote",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -33053,8 +33053,8 @@
             {
                 "step": "first chamber",
                 "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "statusLabel": "Passed preliminary floor vote",
+                "statusDate": "03/10/2023"
             },
             {
                 "step": "second chamber",
@@ -37107,7 +37107,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "hb-424",
@@ -82846,9 +82846,9 @@
         "lcIdentifier": "LC0179",
         "type": "senate bill",
         "status": {
-            "key": "Passed By Legislature--Enrolling and Final Preparation Process",
-            "step": "Through Legislature",
-            "label": "Passed both chambers",
+            "key": "Transmitted to Governor",
+            "step": "Governor",
+            "label": "Before governor",
             "status": "live",
             "statusAtSessionEnd": "pending, passed legislature"
         },
@@ -82890,7 +82890,7 @@
                 "statusDate": null
             }
         ],
-        "hasBeenSentToGovernor": false,
+        "hasBeenSentToGovernor": true,
         "sponsor": {
             "name": "Becky Beard",
             "lastName": "Beard",
@@ -83150,9 +83150,9 @@
         "lcIdentifier": "LC0294",
         "type": "senate bill",
         "status": {
-            "key": "Passed By Legislature--Enrolling and Final Preparation Process",
-            "step": "Through Legislature",
-            "label": "Passed both chambers",
+            "key": "Transmitted to Governor",
+            "step": "Governor",
+            "label": "Before governor",
             "status": "live",
             "statusAtSessionEnd": "pending, passed legislature"
         },
@@ -83194,7 +83194,7 @@
                 "statusDate": null
             }
         ],
-        "hasBeenSentToGovernor": false,
+        "hasBeenSentToGovernor": true,
         "sponsor": {
             "name": "Greg Hertz",
             "lastName": "Hertz",
