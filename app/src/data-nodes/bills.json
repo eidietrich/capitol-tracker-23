@@ -16911,7 +16911,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "hb-198",
@@ -93716,9 +93716,9 @@
         "lcIdentifier": "LC0943",
         "type": "senate bill",
         "status": {
-            "key": "In First House--Out of Committee",
+            "key": "In First House Committee--Nontabled",
             "step": "First chamber",
-            "label": "Out of committee",
+            "label": "In committee",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },

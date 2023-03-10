@@ -174,12 +174,6 @@
         ],
         "billsScheduledByDay": [
             {
-                "day": "03/09/2023",
-                "bills": [
-                    "HB 2"
-                ]
-            },
-            {
                 "day": "03/10/2023",
                 "bills": [
                     "HB 2"
@@ -239,6 +233,7 @@
             }
         ],
         "billsAwaitingVote": [
+            "HB 2",
             "HB 4",
             "HB 121",
             "HB 424",
@@ -677,7 +672,6 @@
         "billCount": 183,
         "billsUnscheduled": [
             "HB 38",
-            "HB 197",
             "HB 216",
             "HB 372",
             "HB 423",
@@ -693,6 +687,7 @@
             "SB 89"
         ],
         "billsScheduled": [
+            "HB 197",
             "HB 405",
             "HB 517",
             "SB 12",
@@ -711,6 +706,12 @@
                 "bills": [
                     "HB 405",
                     "HB 517"
+                ]
+            },
+            {
+                "day": "03/14/2023",
+                "bills": [
+                    "HB 197"
                 ]
             }
         ],
