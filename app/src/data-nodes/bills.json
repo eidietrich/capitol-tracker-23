@@ -4021,9 +4021,9 @@
         "lcIdentifier": "LC0425",
         "type": "house bill",
         "status": {
-            "key": "In Second House Committee--Nontabled",
+            "key": "In Second House--Out of Committee",
             "step": "Second chamber",
-            "label": "In committee",
+            "label": "On floor",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -4278,9 +4278,9 @@
         "lcIdentifier": "LC0370",
         "type": "house bill",
         "status": {
-            "key": "In Second House--Out of Committee",
+            "key": "In Second House--Through 2nd Reading",
             "step": "Second chamber",
-            "label": "On floor",
+            "label": "Passed 2nd reading vote",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -4306,8 +4306,8 @@
             {
                 "step": "second chamber",
                 "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "statusLabel": "Passed preliminary vote",
+                "statusDate": "03/10/2023"
             },
             {
                 "step": "reconciliation",
@@ -6434,9 +6434,9 @@
         "lcIdentifier": "LC0512",
         "type": "house bill",
         "status": {
-            "key": "In Second House--Out of Committee",
+            "key": "In Second House--Through 2nd Reading",
             "step": "Second chamber",
-            "label": "On floor",
+            "label": "Passed 2nd reading vote",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -6462,8 +6462,8 @@
             {
                 "step": "second chamber",
                 "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "statusLabel": "Passed preliminary vote",
+                "statusDate": "03/10/2023"
             },
             {
                 "step": "reconciliation",
@@ -8078,9 +8078,9 @@
         "lcIdentifier": "LC0440",
         "type": "house bill",
         "status": {
-            "key": "In Second House Committee--Nontabled",
+            "key": "In Second House--Out of Committee",
             "step": "Second chamber",
-            "label": "In committee",
+            "label": "On floor",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -8163,9 +8163,9 @@
         "lcIdentifier": "LC0433",
         "type": "house bill",
         "status": {
-            "key": "In Second House Committee--Nontabled",
+            "key": "In Second House--Out of Committee",
             "step": "Second chamber",
-            "label": "In committee",
+            "label": "On floor",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -8248,9 +8248,9 @@
         "lcIdentifier": "LC0428",
         "type": "house bill",
         "status": {
-            "key": "In Second House Committee--Nontabled",
+            "key": "In Second House--Out of Committee",
             "step": "Second chamber",
-            "label": "In committee",
+            "label": "On floor",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -14729,6 +14729,45 @@
         "billPageText": null,
         "articles": [
             {
+                "title": "Where the Legislature stands on election changes",
+                "category": "Elections",
+                "subtitle": "",
+                "date": "2023-03-09T13:31:24.000Z",
+                "link": "https://montanafreepress.org/2023/03/09/montana-legislature-election-administration-bills-transmittal/",
+                "author": "Alex Sakariassen",
+                "imageUrl": "https://montanafreepress.org/untitled-design-206/",
+                "billTags": [
+                    "HB 172",
+                    "HB 173",
+                    "HB 196",
+                    "HB 335",
+                    "HB 360",
+                    "HB 402",
+                    "HB 432",
+                    "HB 565",
+                    "HB 598",
+                    "HB 712",
+                    "HB 716",
+                    "HB 774",
+                    "SB 156",
+                    "SB 385",
+                    "SB 435",
+                    "SB 86"
+                ],
+                "lawmakerTags": [
+                    "Daniel Zolnikov",
+                    "David Bedey",
+                    "Ed Stafman",
+                    "Lyn Hellegaard",
+                    "Mike Hopkins",
+                    "Shane Morigeau",
+                    "Steven Galloway",
+                    "Theresa Manzella",
+                    "Wendy McKamey"
+                ],
+                "governorTags": []
+            },
+            {
                 "title": "Trust, perception and Montana elections",
                 "category": "2023 Legislature",
                 "subtitle": "",
@@ -14852,6 +14891,45 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [
+            {
+                "title": "Where the Legislature stands on election changes",
+                "category": "Elections",
+                "subtitle": "",
+                "date": "2023-03-09T13:31:24.000Z",
+                "link": "https://montanafreepress.org/2023/03/09/montana-legislature-election-administration-bills-transmittal/",
+                "author": "Alex Sakariassen",
+                "imageUrl": "https://montanafreepress.org/untitled-design-206/",
+                "billTags": [
+                    "HB 172",
+                    "HB 173",
+                    "HB 196",
+                    "HB 335",
+                    "HB 360",
+                    "HB 402",
+                    "HB 432",
+                    "HB 565",
+                    "HB 598",
+                    "HB 712",
+                    "HB 716",
+                    "HB 774",
+                    "SB 156",
+                    "SB 385",
+                    "SB 435",
+                    "SB 86"
+                ],
+                "lawmakerTags": [
+                    "Daniel Zolnikov",
+                    "David Bedey",
+                    "Ed Stafman",
+                    "Lyn Hellegaard",
+                    "Mike Hopkins",
+                    "Shane Morigeau",
+                    "Steven Galloway",
+                    "Theresa Manzella",
+                    "Wendy McKamey"
+                ],
+                "governorTags": []
+            },
             {
                 "title": "Trust, perception and Montana elections",
                 "category": "2023 Legislature",
@@ -16817,6 +16895,45 @@
         "explanation": "Requires counties to conduct Election Day ballot counts without taking a break.",
         "billPageText": null,
         "articles": [
+            {
+                "title": "Where the Legislature stands on election changes",
+                "category": "Elections",
+                "subtitle": "",
+                "date": "2023-03-09T13:31:24.000Z",
+                "link": "https://montanafreepress.org/2023/03/09/montana-legislature-election-administration-bills-transmittal/",
+                "author": "Alex Sakariassen",
+                "imageUrl": "https://montanafreepress.org/untitled-design-206/",
+                "billTags": [
+                    "HB 172",
+                    "HB 173",
+                    "HB 196",
+                    "HB 335",
+                    "HB 360",
+                    "HB 402",
+                    "HB 432",
+                    "HB 565",
+                    "HB 598",
+                    "HB 712",
+                    "HB 716",
+                    "HB 774",
+                    "SB 156",
+                    "SB 385",
+                    "SB 435",
+                    "SB 86"
+                ],
+                "lawmakerTags": [
+                    "Daniel Zolnikov",
+                    "David Bedey",
+                    "Ed Stafman",
+                    "Lyn Hellegaard",
+                    "Mike Hopkins",
+                    "Shane Morigeau",
+                    "Steven Galloway",
+                    "Theresa Manzella",
+                    "Wendy McKamey"
+                ],
+                "governorTags": []
+            },
             {
                 "title": "Trust, perception and Montana elections",
                 "category": "2023 Legislature",
@@ -29305,7 +29422,47 @@
         "amendmentsUrl": "https://leg.mt.gov/laws/bills/2023/AmdPublicWeb/?bill=HB0335",
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
-        "articles": [],
+        "articles": [
+            {
+                "title": "Where the Legislature stands on election changes",
+                "category": "Elections",
+                "subtitle": "",
+                "date": "2023-03-09T13:31:24.000Z",
+                "link": "https://montanafreepress.org/2023/03/09/montana-legislature-election-administration-bills-transmittal/",
+                "author": "Alex Sakariassen",
+                "imageUrl": "https://montanafreepress.org/untitled-design-206/",
+                "billTags": [
+                    "HB 172",
+                    "HB 173",
+                    "HB 196",
+                    "HB 335",
+                    "HB 360",
+                    "HB 402",
+                    "HB 432",
+                    "HB 565",
+                    "HB 598",
+                    "HB 712",
+                    "HB 716",
+                    "HB 774",
+                    "SB 156",
+                    "SB 385",
+                    "SB 435",
+                    "SB 86"
+                ],
+                "lawmakerTags": [
+                    "Daniel Zolnikov",
+                    "David Bedey",
+                    "Ed Stafman",
+                    "Lyn Hellegaard",
+                    "Mike Hopkins",
+                    "Shane Morigeau",
+                    "Steven Galloway",
+                    "Theresa Manzella",
+                    "Wendy McKamey"
+                ],
+                "governorTags": []
+            }
+        ],
         "isOnCalendar": false
     },
     {
@@ -31502,7 +31659,47 @@
         "amendmentsUrl": "https://leg.mt.gov/laws/bills/2023/AmdPublicWeb/?bill=HB0360",
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
-        "articles": [],
+        "articles": [
+            {
+                "title": "Where the Legislature stands on election changes",
+                "category": "Elections",
+                "subtitle": "",
+                "date": "2023-03-09T13:31:24.000Z",
+                "link": "https://montanafreepress.org/2023/03/09/montana-legislature-election-administration-bills-transmittal/",
+                "author": "Alex Sakariassen",
+                "imageUrl": "https://montanafreepress.org/untitled-design-206/",
+                "billTags": [
+                    "HB 172",
+                    "HB 173",
+                    "HB 196",
+                    "HB 335",
+                    "HB 360",
+                    "HB 402",
+                    "HB 432",
+                    "HB 565",
+                    "HB 598",
+                    "HB 712",
+                    "HB 716",
+                    "HB 774",
+                    "SB 156",
+                    "SB 385",
+                    "SB 435",
+                    "SB 86"
+                ],
+                "lawmakerTags": [
+                    "Daniel Zolnikov",
+                    "David Bedey",
+                    "Ed Stafman",
+                    "Lyn Hellegaard",
+                    "Mike Hopkins",
+                    "Shane Morigeau",
+                    "Steven Galloway",
+                    "Theresa Manzella",
+                    "Wendy McKamey"
+                ],
+                "governorTags": []
+            }
+        ],
         "isOnCalendar": false
     },
     {
@@ -35038,6 +35235,45 @@
         "vetoMemoUrl": null,
         "articles": [
             {
+                "title": "Where the Legislature stands on election changes",
+                "category": "Elections",
+                "subtitle": "",
+                "date": "2023-03-09T13:31:24.000Z",
+                "link": "https://montanafreepress.org/2023/03/09/montana-legislature-election-administration-bills-transmittal/",
+                "author": "Alex Sakariassen",
+                "imageUrl": "https://montanafreepress.org/untitled-design-206/",
+                "billTags": [
+                    "HB 172",
+                    "HB 173",
+                    "HB 196",
+                    "HB 335",
+                    "HB 360",
+                    "HB 402",
+                    "HB 432",
+                    "HB 565",
+                    "HB 598",
+                    "HB 712",
+                    "HB 716",
+                    "HB 774",
+                    "SB 156",
+                    "SB 385",
+                    "SB 435",
+                    "SB 86"
+                ],
+                "lawmakerTags": [
+                    "Daniel Zolnikov",
+                    "David Bedey",
+                    "Ed Stafman",
+                    "Lyn Hellegaard",
+                    "Mike Hopkins",
+                    "Shane Morigeau",
+                    "Steven Galloway",
+                    "Theresa Manzella",
+                    "Wendy McKamey"
+                ],
+                "governorTags": []
+            },
+            {
                 "title": "Health insurance trust for school employees tabled",
                 "category": "2023 Legislature",
                 "subtitle": "",
@@ -37738,6 +37974,45 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [
+            {
+                "title": "Where the Legislature stands on election changes",
+                "category": "Elections",
+                "subtitle": "",
+                "date": "2023-03-09T13:31:24.000Z",
+                "link": "https://montanafreepress.org/2023/03/09/montana-legislature-election-administration-bills-transmittal/",
+                "author": "Alex Sakariassen",
+                "imageUrl": "https://montanafreepress.org/untitled-design-206/",
+                "billTags": [
+                    "HB 172",
+                    "HB 173",
+                    "HB 196",
+                    "HB 335",
+                    "HB 360",
+                    "HB 402",
+                    "HB 432",
+                    "HB 565",
+                    "HB 598",
+                    "HB 712",
+                    "HB 716",
+                    "HB 774",
+                    "SB 156",
+                    "SB 385",
+                    "SB 435",
+                    "SB 86"
+                ],
+                "lawmakerTags": [
+                    "Daniel Zolnikov",
+                    "David Bedey",
+                    "Ed Stafman",
+                    "Lyn Hellegaard",
+                    "Mike Hopkins",
+                    "Shane Morigeau",
+                    "Steven Galloway",
+                    "Theresa Manzella",
+                    "Wendy McKamey"
+                ],
+                "governorTags": []
+            },
             {
                 "title": "Bill would enshrine abortion rights in state law",
                 "category": "2023 Legislature",
@@ -49064,7 +49339,47 @@
         "amendmentsUrl": null,
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
-        "articles": [],
+        "articles": [
+            {
+                "title": "Where the Legislature stands on election changes",
+                "category": "Elections",
+                "subtitle": "",
+                "date": "2023-03-09T13:31:24.000Z",
+                "link": "https://montanafreepress.org/2023/03/09/montana-legislature-election-administration-bills-transmittal/",
+                "author": "Alex Sakariassen",
+                "imageUrl": "https://montanafreepress.org/untitled-design-206/",
+                "billTags": [
+                    "HB 172",
+                    "HB 173",
+                    "HB 196",
+                    "HB 335",
+                    "HB 360",
+                    "HB 402",
+                    "HB 432",
+                    "HB 565",
+                    "HB 598",
+                    "HB 712",
+                    "HB 716",
+                    "HB 774",
+                    "SB 156",
+                    "SB 385",
+                    "SB 435",
+                    "SB 86"
+                ],
+                "lawmakerTags": [
+                    "Daniel Zolnikov",
+                    "David Bedey",
+                    "Ed Stafman",
+                    "Lyn Hellegaard",
+                    "Mike Hopkins",
+                    "Shane Morigeau",
+                    "Steven Galloway",
+                    "Theresa Manzella",
+                    "Wendy McKamey"
+                ],
+                "governorTags": []
+            }
+        ],
         "isOnCalendar": false
     },
     {
@@ -51665,9 +51980,9 @@
         "lcIdentifier": "LC1060",
         "type": "house bill",
         "status": {
-            "key": "Transmitted to Second House",
+            "key": "In Second House Committee--Nontabled",
             "step": "Second chamber",
-            "label": "Transmitted",
+            "label": "In committee",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -51894,7 +52209,47 @@
         "amendmentsUrl": "https://leg.mt.gov/laws/bills/2023/AmdPublicWeb/?bill=HB0598",
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
-        "articles": [],
+        "articles": [
+            {
+                "title": "Where the Legislature stands on election changes",
+                "category": "Elections",
+                "subtitle": "",
+                "date": "2023-03-09T13:31:24.000Z",
+                "link": "https://montanafreepress.org/2023/03/09/montana-legislature-election-administration-bills-transmittal/",
+                "author": "Alex Sakariassen",
+                "imageUrl": "https://montanafreepress.org/untitled-design-206/",
+                "billTags": [
+                    "HB 172",
+                    "HB 173",
+                    "HB 196",
+                    "HB 335",
+                    "HB 360",
+                    "HB 402",
+                    "HB 432",
+                    "HB 565",
+                    "HB 598",
+                    "HB 712",
+                    "HB 716",
+                    "HB 774",
+                    "SB 156",
+                    "SB 385",
+                    "SB 435",
+                    "SB 86"
+                ],
+                "lawmakerTags": [
+                    "Daniel Zolnikov",
+                    "David Bedey",
+                    "Ed Stafman",
+                    "Lyn Hellegaard",
+                    "Mike Hopkins",
+                    "Shane Morigeau",
+                    "Steven Galloway",
+                    "Theresa Manzella",
+                    "Wendy McKamey"
+                ],
+                "governorTags": []
+            }
+        ],
         "isOnCalendar": false
     },
     {
@@ -55062,9 +55417,9 @@
         "lcIdentifier": "LC3708",
         "type": "house bill",
         "status": {
-            "key": "Transmitted to Second House",
+            "key": "In Second House Committee--Nontabled",
             "step": "Second chamber",
-            "label": "Transmitted",
+            "label": "In committee",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -59190,7 +59545,30 @@
         "amendmentsUrl": null,
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
-        "articles": [],
+        "articles": [
+            {
+                "title": "Lawmakers consider legislation to loosen vaccination rules",
+                "category": "Public Health",
+                "subtitle": "",
+                "date": "2023-03-10T13:07:29.000Z",
+                "link": "https://montanafreepress.org/2023/03/10/lawmakers-consider-legislation-to-loosen-vaccination-rules/",
+                "author": "Stephanie Farmer",
+                "imageUrl": "https://montanafreepress.org/2021/05/14/the-vaccine-hesitancy-hardline/symbol-for-declining-vaccinations-hand-turns-dice-and-changes-the-word-vaccine-to-decline/",
+                "billTags": [
+                    "HB 684",
+                    "HB 715",
+                    "SB 369",
+                    "SB 450"
+                ],
+                "lawmakerTags": [
+                    "Caleb Hinkle",
+                    "Daniel Emrich",
+                    "Ed Stafman",
+                    "Jennifer Carlson"
+                ],
+                "governorTags": []
+            }
+        ],
         "isOnCalendar": false
     },
     {
@@ -61479,7 +61857,47 @@
         "amendmentsUrl": null,
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
-        "articles": [],
+        "articles": [
+            {
+                "title": "Where the Legislature stands on election changes",
+                "category": "Elections",
+                "subtitle": "",
+                "date": "2023-03-09T13:31:24.000Z",
+                "link": "https://montanafreepress.org/2023/03/09/montana-legislature-election-administration-bills-transmittal/",
+                "author": "Alex Sakariassen",
+                "imageUrl": "https://montanafreepress.org/untitled-design-206/",
+                "billTags": [
+                    "HB 172",
+                    "HB 173",
+                    "HB 196",
+                    "HB 335",
+                    "HB 360",
+                    "HB 402",
+                    "HB 432",
+                    "HB 565",
+                    "HB 598",
+                    "HB 712",
+                    "HB 716",
+                    "HB 774",
+                    "SB 156",
+                    "SB 385",
+                    "SB 435",
+                    "SB 86"
+                ],
+                "lawmakerTags": [
+                    "Daniel Zolnikov",
+                    "David Bedey",
+                    "Ed Stafman",
+                    "Lyn Hellegaard",
+                    "Mike Hopkins",
+                    "Shane Morigeau",
+                    "Steven Galloway",
+                    "Theresa Manzella",
+                    "Wendy McKamey"
+                ],
+                "governorTags": []
+            }
+        ],
         "isOnCalendar": false
     },
     {
@@ -61720,7 +62138,30 @@
         "amendmentsUrl": null,
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
-        "articles": [],
+        "articles": [
+            {
+                "title": "Lawmakers consider legislation to loosen vaccination rules",
+                "category": "Public Health",
+                "subtitle": "",
+                "date": "2023-03-10T13:07:29.000Z",
+                "link": "https://montanafreepress.org/2023/03/10/lawmakers-consider-legislation-to-loosen-vaccination-rules/",
+                "author": "Stephanie Farmer",
+                "imageUrl": "https://montanafreepress.org/2021/05/14/the-vaccine-hesitancy-hardline/symbol-for-declining-vaccinations-hand-turns-dice-and-changes-the-word-vaccine-to-decline/",
+                "billTags": [
+                    "HB 684",
+                    "HB 715",
+                    "SB 369",
+                    "SB 450"
+                ],
+                "lawmakerTags": [
+                    "Caleb Hinkle",
+                    "Daniel Emrich",
+                    "Ed Stafman",
+                    "Jennifer Carlson"
+                ],
+                "governorTags": []
+            }
+        ],
         "isOnCalendar": false
     },
     {
@@ -61800,7 +62241,47 @@
         "amendmentsUrl": "https://leg.mt.gov/laws/bills/2023/AmdPublicWeb/?bill=HB0716",
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
-        "articles": [],
+        "articles": [
+            {
+                "title": "Where the Legislature stands on election changes",
+                "category": "Elections",
+                "subtitle": "",
+                "date": "2023-03-09T13:31:24.000Z",
+                "link": "https://montanafreepress.org/2023/03/09/montana-legislature-election-administration-bills-transmittal/",
+                "author": "Alex Sakariassen",
+                "imageUrl": "https://montanafreepress.org/untitled-design-206/",
+                "billTags": [
+                    "HB 172",
+                    "HB 173",
+                    "HB 196",
+                    "HB 335",
+                    "HB 360",
+                    "HB 402",
+                    "HB 432",
+                    "HB 565",
+                    "HB 598",
+                    "HB 712",
+                    "HB 716",
+                    "HB 774",
+                    "SB 156",
+                    "SB 385",
+                    "SB 435",
+                    "SB 86"
+                ],
+                "lawmakerTags": [
+                    "Daniel Zolnikov",
+                    "David Bedey",
+                    "Ed Stafman",
+                    "Lyn Hellegaard",
+                    "Mike Hopkins",
+                    "Shane Morigeau",
+                    "Steven Galloway",
+                    "Theresa Manzella",
+                    "Wendy McKamey"
+                ],
+                "governorTags": []
+            }
+        ],
         "isOnCalendar": false
     },
     {
@@ -66572,7 +67053,47 @@
         "amendmentsUrl": null,
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
-        "articles": [],
+        "articles": [
+            {
+                "title": "Where the Legislature stands on election changes",
+                "category": "Elections",
+                "subtitle": "",
+                "date": "2023-03-09T13:31:24.000Z",
+                "link": "https://montanafreepress.org/2023/03/09/montana-legislature-election-administration-bills-transmittal/",
+                "author": "Alex Sakariassen",
+                "imageUrl": "https://montanafreepress.org/untitled-design-206/",
+                "billTags": [
+                    "HB 172",
+                    "HB 173",
+                    "HB 196",
+                    "HB 335",
+                    "HB 360",
+                    "HB 402",
+                    "HB 432",
+                    "HB 565",
+                    "HB 598",
+                    "HB 712",
+                    "HB 716",
+                    "HB 774",
+                    "SB 156",
+                    "SB 385",
+                    "SB 435",
+                    "SB 86"
+                ],
+                "lawmakerTags": [
+                    "Daniel Zolnikov",
+                    "David Bedey",
+                    "Ed Stafman",
+                    "Lyn Hellegaard",
+                    "Mike Hopkins",
+                    "Shane Morigeau",
+                    "Steven Galloway",
+                    "Theresa Manzella",
+                    "Wendy McKamey"
+                ],
+                "governorTags": []
+            }
+        ],
         "isOnCalendar": false
     },
     {
@@ -72536,7 +73057,7 @@
                 "governorTags": []
             }
         ],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-9",
@@ -79280,6 +79801,45 @@
         "vetoMemoUrl": null,
         "articles": [
             {
+                "title": "Where the Legislature stands on election changes",
+                "category": "Elections",
+                "subtitle": "",
+                "date": "2023-03-09T13:31:24.000Z",
+                "link": "https://montanafreepress.org/2023/03/09/montana-legislature-election-administration-bills-transmittal/",
+                "author": "Alex Sakariassen",
+                "imageUrl": "https://montanafreepress.org/untitled-design-206/",
+                "billTags": [
+                    "HB 172",
+                    "HB 173",
+                    "HB 196",
+                    "HB 335",
+                    "HB 360",
+                    "HB 402",
+                    "HB 432",
+                    "HB 565",
+                    "HB 598",
+                    "HB 712",
+                    "HB 716",
+                    "HB 774",
+                    "SB 156",
+                    "SB 385",
+                    "SB 435",
+                    "SB 86"
+                ],
+                "lawmakerTags": [
+                    "Daniel Zolnikov",
+                    "David Bedey",
+                    "Ed Stafman",
+                    "Lyn Hellegaard",
+                    "Mike Hopkins",
+                    "Shane Morigeau",
+                    "Steven Galloway",
+                    "Theresa Manzella",
+                    "Wendy McKamey"
+                ],
+                "governorTags": []
+            },
+            {
                 "title": "Bill would address ‘prison gerrymandering’ in Montana ",
                 "category": "2023 Legislature",
                 "subtitle": "",
@@ -85579,7 +86139,47 @@
         "amendmentsUrl": null,
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
-        "articles": [],
+        "articles": [
+            {
+                "title": "Where the Legislature stands on election changes",
+                "category": "Elections",
+                "subtitle": "",
+                "date": "2023-03-09T13:31:24.000Z",
+                "link": "https://montanafreepress.org/2023/03/09/montana-legislature-election-administration-bills-transmittal/",
+                "author": "Alex Sakariassen",
+                "imageUrl": "https://montanafreepress.org/untitled-design-206/",
+                "billTags": [
+                    "HB 172",
+                    "HB 173",
+                    "HB 196",
+                    "HB 335",
+                    "HB 360",
+                    "HB 402",
+                    "HB 432",
+                    "HB 565",
+                    "HB 598",
+                    "HB 712",
+                    "HB 716",
+                    "HB 774",
+                    "SB 156",
+                    "SB 385",
+                    "SB 435",
+                    "SB 86"
+                ],
+                "lawmakerTags": [
+                    "Daniel Zolnikov",
+                    "David Bedey",
+                    "Ed Stafman",
+                    "Lyn Hellegaard",
+                    "Mike Hopkins",
+                    "Shane Morigeau",
+                    "Steven Galloway",
+                    "Theresa Manzella",
+                    "Wendy McKamey"
+                ],
+                "governorTags": []
+            }
+        ],
         "isOnCalendar": false
     },
     {
@@ -103781,7 +104381,30 @@
         "amendmentsUrl": "https://leg.mt.gov/laws/bills/2023/AmdPublicWeb/?bill=SB0369",
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
-        "articles": [],
+        "articles": [
+            {
+                "title": "Lawmakers consider legislation to loosen vaccination rules",
+                "category": "Public Health",
+                "subtitle": "",
+                "date": "2023-03-10T13:07:29.000Z",
+                "link": "https://montanafreepress.org/2023/03/10/lawmakers-consider-legislation-to-loosen-vaccination-rules/",
+                "author": "Stephanie Farmer",
+                "imageUrl": "https://montanafreepress.org/2021/05/14/the-vaccine-hesitancy-hardline/symbol-for-declining-vaccinations-hand-turns-dice-and-changes-the-word-vaccine-to-decline/",
+                "billTags": [
+                    "HB 684",
+                    "HB 715",
+                    "SB 369",
+                    "SB 450"
+                ],
+                "lawmakerTags": [
+                    "Caleb Hinkle",
+                    "Daniel Emrich",
+                    "Ed Stafman",
+                    "Jennifer Carlson"
+                ],
+                "governorTags": []
+            }
+        ],
         "isOnCalendar": false
     },
     {
@@ -105138,7 +105761,47 @@
         "amendmentsUrl": "https://leg.mt.gov/laws/bills/2023/AmdPublicWeb/?bill=SB0385",
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
-        "articles": [],
+        "articles": [
+            {
+                "title": "Where the Legislature stands on election changes",
+                "category": "Elections",
+                "subtitle": "",
+                "date": "2023-03-09T13:31:24.000Z",
+                "link": "https://montanafreepress.org/2023/03/09/montana-legislature-election-administration-bills-transmittal/",
+                "author": "Alex Sakariassen",
+                "imageUrl": "https://montanafreepress.org/untitled-design-206/",
+                "billTags": [
+                    "HB 172",
+                    "HB 173",
+                    "HB 196",
+                    "HB 335",
+                    "HB 360",
+                    "HB 402",
+                    "HB 432",
+                    "HB 565",
+                    "HB 598",
+                    "HB 712",
+                    "HB 716",
+                    "HB 774",
+                    "SB 156",
+                    "SB 385",
+                    "SB 435",
+                    "SB 86"
+                ],
+                "lawmakerTags": [
+                    "Daniel Zolnikov",
+                    "David Bedey",
+                    "Ed Stafman",
+                    "Lyn Hellegaard",
+                    "Mike Hopkins",
+                    "Shane Morigeau",
+                    "Steven Galloway",
+                    "Theresa Manzella",
+                    "Wendy McKamey"
+                ],
+                "governorTags": []
+            }
+        ],
         "isOnCalendar": false
     },
     {
@@ -109227,7 +109890,47 @@
         "amendmentsUrl": null,
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
-        "articles": [],
+        "articles": [
+            {
+                "title": "Where the Legislature stands on election changes",
+                "category": "Elections",
+                "subtitle": "",
+                "date": "2023-03-09T13:31:24.000Z",
+                "link": "https://montanafreepress.org/2023/03/09/montana-legislature-election-administration-bills-transmittal/",
+                "author": "Alex Sakariassen",
+                "imageUrl": "https://montanafreepress.org/untitled-design-206/",
+                "billTags": [
+                    "HB 172",
+                    "HB 173",
+                    "HB 196",
+                    "HB 335",
+                    "HB 360",
+                    "HB 402",
+                    "HB 432",
+                    "HB 565",
+                    "HB 598",
+                    "HB 712",
+                    "HB 716",
+                    "HB 774",
+                    "SB 156",
+                    "SB 385",
+                    "SB 435",
+                    "SB 86"
+                ],
+                "lawmakerTags": [
+                    "Daniel Zolnikov",
+                    "David Bedey",
+                    "Ed Stafman",
+                    "Lyn Hellegaard",
+                    "Mike Hopkins",
+                    "Shane Morigeau",
+                    "Steven Galloway",
+                    "Theresa Manzella",
+                    "Wendy McKamey"
+                ],
+                "governorTags": []
+            }
+        ],
         "isOnCalendar": false
     },
     {
@@ -110508,7 +111211,30 @@
         "amendmentsUrl": null,
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
-        "articles": [],
+        "articles": [
+            {
+                "title": "Lawmakers consider legislation to loosen vaccination rules",
+                "category": "Public Health",
+                "subtitle": "",
+                "date": "2023-03-10T13:07:29.000Z",
+                "link": "https://montanafreepress.org/2023/03/10/lawmakers-consider-legislation-to-loosen-vaccination-rules/",
+                "author": "Stephanie Farmer",
+                "imageUrl": "https://montanafreepress.org/2021/05/14/the-vaccine-hesitancy-hardline/symbol-for-declining-vaccinations-hand-turns-dice-and-changes-the-word-vaccine-to-decline/",
+                "billTags": [
+                    "HB 684",
+                    "HB 715",
+                    "SB 369",
+                    "SB 450"
+                ],
+                "lawmakerTags": [
+                    "Caleb Hinkle",
+                    "Daniel Emrich",
+                    "Ed Stafman",
+                    "Jennifer Carlson"
+                ],
+                "governorTags": []
+            }
+        ],
         "isOnCalendar": false
     },
     {
