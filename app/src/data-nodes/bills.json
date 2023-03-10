@@ -57827,11 +57827,11 @@
         "lcIdentifier": "LC1174",
         "type": "house bill",
         "status": {
-            "key": "In First House Committee--Nontabled",
-            "step": "First chamber",
-            "label": "In committee",
-            "status": "live",
-            "statusAtSessionEnd": "failed"
+            "key": "In Drafting Process",
+            "step": "Drafting",
+            "label": "In drafting",
+            "status": "not introduced",
+            "statusAtSessionEnd": "not introduced"
         },
         "progress": [
             {
@@ -57880,12 +57880,13 @@
             "district": "HD 46"
         },
         "requestor": null,
-        "deadlineCategory": "General Bills",
-        "transmittalDeadline": "03/03/2023",
-        "secondHouseReturnIfAmendedDeadline": "04/12/2023",
+        "deadlineCategory": "Appropriation Bills",
+        "transmittalDeadline": "04/03/2023",
+        "secondHouseReturnIfAmendedDeadline": "04/21/2023",
         "voteMajorityRequired": "Simple",
         "subjects": [
             "Alcohol and Drugs",
+            "Appropriations  (see also: State Finance)",
             "State Finance  (see also: Appropriations; Taxation Subjects)",
             "Taxation (Generally)"
         ],
