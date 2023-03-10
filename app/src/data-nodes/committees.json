@@ -7196,17 +7196,41 @@
         "billCount": 27,
         "billsUnscheduled": [
             "HB 52",
+            "SB 495"
+        ],
+        "billsScheduled": [
             "HB 75",
             "HB 105",
             "HB 129",
             "HB 179",
             "HB 184",
             "HB 344",
-            "HB 401",
-            "SB 495"
+            "HB 401"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduledByDay": [
+            {
+                "day": "03/14/2023",
+                "bills": [
+                    "HB 105",
+                    "HB 179",
+                    "HB 401"
+                ]
+            },
+            {
+                "day": "03/16/2023",
+                "bills": [
+                    "HB 75",
+                    "HB 129",
+                    "HB 184"
+                ]
+            },
+            {
+                "day": "03/21/2023",
+                "bills": [
+                    "HB 344"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "HB 26",
             "HB 27"
