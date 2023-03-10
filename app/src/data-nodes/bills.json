@@ -6699,9 +6699,9 @@
         "lcIdentifier": "LC0203",
         "type": "house bill",
         "status": {
-            "key": "In Second House--Out of Committee",
+            "key": "In Second House--Through 2nd Reading",
             "step": "Second chamber",
-            "label": "On floor",
+            "label": "Passed 2nd reading vote",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -6727,8 +6727,8 @@
             {
                 "step": "second chamber",
                 "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "statusLabel": "Passed preliminary vote",
+                "statusDate": "03/10/2023"
             },
             {
                 "step": "reconciliation",
@@ -9528,9 +9528,9 @@
         "lcIdentifier": "LC0200",
         "type": "house bill",
         "status": {
-            "key": "In Second House--Out of Committee",
+            "key": "In Second House--Through 2nd Reading",
             "step": "Second chamber",
-            "label": "On floor",
+            "label": "Passed 2nd reading vote",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -9556,8 +9556,8 @@
             {
                 "step": "second chamber",
                 "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "statusLabel": "Passed preliminary vote",
+                "statusDate": "03/10/2023"
             },
             {
                 "step": "reconciliation",
@@ -17028,7 +17028,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-198",
@@ -27945,9 +27945,9 @@
         "lcIdentifier": "LC4413",
         "type": "house bill",
         "status": {
-            "key": "In Second House--Out of Committee",
+            "key": "In Second House--Through 2nd Reading",
             "step": "Second chamber",
-            "label": "On floor",
+            "label": "Passed 2nd reading vote",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -27973,8 +27973,8 @@
             {
                 "step": "second chamber",
                 "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "statusLabel": "Passed preliminary vote",
+                "statusDate": "03/10/2023"
             },
             {
                 "step": "reconciliation",
@@ -75239,11 +75239,11 @@
         "lcIdentifier": "LC0226",
         "type": "senate bill",
         "status": {
-            "key": "Transmitted to Governor",
-            "step": "Governor",
-            "label": "Before governor",
-            "status": "live",
-            "statusAtSessionEnd": "pending, passed legislature"
+            "key": "Became Law",
+            "label": "",
+            "step": "Passed",
+            "status": "became-law",
+            "statusAtSessionEnd": "became law"
         },
         "progress": [
             {
@@ -75278,9 +75278,9 @@
             },
             {
                 "step": "governor",
-                "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "status": "passed",
+                "statusLabel": "Signed",
+                "statusDate": "02/16/2023"
             }
         ],
         "hasBeenSentToGovernor": true,
@@ -76082,11 +76082,11 @@
         "lcIdentifier": "LC0265",
         "type": "senate bill",
         "status": {
-            "key": "Transmitted to Governor",
-            "step": "Governor",
-            "label": "Before governor",
-            "status": "live",
-            "statusAtSessionEnd": "pending, passed legislature"
+            "key": "Became Law",
+            "label": "",
+            "step": "Passed",
+            "status": "became-law",
+            "statusAtSessionEnd": "became law"
         },
         "progress": [
             {
@@ -76121,9 +76121,9 @@
             },
             {
                 "step": "governor",
-                "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "status": "passed",
+                "statusLabel": "Signed",
+                "statusDate": "02/23/2023"
             }
         ],
         "hasBeenSentToGovernor": true,
@@ -77580,11 +77580,11 @@
         "lcIdentifier": "LC0460",
         "type": "senate bill",
         "status": {
-            "key": "Transmitted to Governor",
-            "step": "Governor",
-            "label": "Before governor",
-            "status": "live",
-            "statusAtSessionEnd": "pending, passed legislature"
+            "key": "Became Law",
+            "label": "",
+            "step": "Passed",
+            "status": "became-law",
+            "statusAtSessionEnd": "became law"
         },
         "progress": [
             {
@@ -77619,9 +77619,9 @@
             },
             {
                 "step": "governor",
-                "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "status": "passed",
+                "statusLabel": "Signed",
+                "statusDate": "02/23/2023"
             }
         ],
         "hasBeenSentToGovernor": true,
@@ -79161,11 +79161,11 @@
         "lcIdentifier": "LC0410",
         "type": "senate bill",
         "status": {
-            "key": "Transmitted to Governor",
-            "step": "Governor",
-            "label": "Before governor",
-            "status": "live",
-            "statusAtSessionEnd": "pending, passed legislature"
+            "key": "Became Law",
+            "label": "",
+            "step": "Passed",
+            "status": "became-law",
+            "statusAtSessionEnd": "became law"
         },
         "progress": [
             {
@@ -79200,9 +79200,9 @@
             },
             {
                 "step": "governor",
-                "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "status": "passed",
+                "statusLabel": "Signed",
+                "statusDate": "02/23/2023"
             }
         ],
         "hasBeenSentToGovernor": true,
@@ -81175,11 +81175,11 @@
         "lcIdentifier": "LC0148",
         "type": "senate bill",
         "status": {
-            "key": "Transmitted to Governor",
-            "step": "Governor",
-            "label": "Before governor",
-            "status": "live",
-            "statusAtSessionEnd": "pending, passed legislature"
+            "key": "Became Law",
+            "label": "",
+            "step": "Passed",
+            "status": "became-law",
+            "statusAtSessionEnd": "became law"
         },
         "progress": [
             {
@@ -81214,9 +81214,9 @@
             },
             {
                 "step": "governor",
-                "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "status": "passed",
+                "statusLabel": "Signed",
+                "statusDate": "02/23/2023"
             }
         ],
         "hasBeenSentToGovernor": true,
