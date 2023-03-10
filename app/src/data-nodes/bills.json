@@ -111267,10 +111267,10 @@
         "lcIdentifier": "LC4095",
         "type": "senate bill",
         "status": {
-            "key": "In First House Committee--Tabled",
+            "key": "In First House Committee--Nontabled",
             "step": "First chamber",
-            "label": "Tabled in committee",
-            "status": "stalled",
+            "label": "In committee",
+            "status": "live",
             "statusAtSessionEnd": "failed"
         },
         "progress": [
@@ -111282,9 +111282,9 @@
             },
             {
                 "step": "first committee",
-                "status": "blocked",
-                "statusLabel": "Tabled",
-                "statusDate": "03/01/2023"
+                "status": "current",
+                "statusLabel": "Pending",
+                "statusDate": "03/10/2023"
             },
             {
                 "step": "first chamber",
