@@ -72706,11 +72706,11 @@
         "lcIdentifier": "LC0357",
         "type": "senate bill",
         "status": {
-            "key": "In First House Committee--Nontabled",
-            "step": "First chamber",
-            "label": "In committee",
-            "status": "live",
-            "statusAtSessionEnd": "failed"
+            "key": "In Drafting Process",
+            "step": "Drafting",
+            "label": "In drafting",
+            "status": "not introduced",
+            "statusAtSessionEnd": "not introduced"
         },
         "progress": [
             {
@@ -72759,9 +72759,9 @@
             "district": "SD 20"
         },
         "requestor": "Law and Justice Interim Committee",
-        "deadlineCategory": "General Bills",
-        "transmittalDeadline": "03/03/2023",
-        "secondHouseReturnIfAmendedDeadline": "04/12/2023",
+        "deadlineCategory": "Revenue Bills",
+        "transmittalDeadline": "04/03/2023",
+        "secondHouseReturnIfAmendedDeadline": "04/21/2023",
         "voteMajorityRequired": "Simple",
         "subjects": [
             "Corrections",
@@ -72769,7 +72769,8 @@
             "Courts  (see also: Judges and Justices; Juries and Jurors)",
             "Criminal Procedure  (see also: Law Enforcement)",
             "Information Technology  (see also: Communications)",
-            "Law Enforcement  (see also: Criminal Procedure)"
+            "Law Enforcement  (see also: Criminal Procedure)",
+            "Revenue, State"
         ],
         "tags": [],
         "lawsUrl": "http://laws.leg.mt.gov/legprd/LAW0210W$BSIV.ActionQuery?P_BILL_NO1=11&P_BLTP_BILL_TYP_CD=SB&Z_ACTION=Find&P_SESS=20231",
@@ -75733,11 +75734,11 @@
         "lcIdentifier": "LC0517",
         "type": "senate bill",
         "status": {
-            "key": "In First House Committee--Nontabled",
-            "step": "First chamber",
-            "label": "In committee",
-            "status": "live",
-            "statusAtSessionEnd": "failed"
+            "key": "In Drafting Process",
+            "step": "Drafting",
+            "label": "In drafting",
+            "status": "not introduced",
+            "statusAtSessionEnd": "not introduced"
         },
         "progress": [
             {
@@ -75786,12 +75787,13 @@
             "district": "SD 44"
         },
         "requestor": "Department of Transportation",
-        "deadlineCategory": "General Bills",
-        "transmittalDeadline": "03/03/2023",
-        "secondHouseReturnIfAmendedDeadline": "04/12/2023",
+        "deadlineCategory": "Revenue Bills",
+        "transmittalDeadline": "04/03/2023",
+        "secondHouseReturnIfAmendedDeadline": "04/21/2023",
         "voteMajorityRequired": "Simple",
         "subjects": [
             "Highways and Roads",
+            "Revenue, State",
             "Traffic Regulations  (see also: Motor Vehicles)"
         ],
         "tags": [],
