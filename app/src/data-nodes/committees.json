@@ -2769,12 +2769,20 @@
             "SB 234"
         ],
         "billCount": 47,
-        "billsUnscheduled": [
+        "billsUnscheduled": [],
+        "billsScheduled": [
             "SB 221",
             "SB 234"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduledByDay": [
+            {
+                "day": "03/15/2023",
+                "bills": [
+                    "SB 221",
+                    "SB 234"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "SB 144"
         ],
@@ -5459,18 +5467,26 @@
         ],
         "billCount": 54,
         "billsUnscheduled": [
-            "HB 188",
             "SB 28",
             "SB 118",
             "SB 192",
-            "SB 273",
+            "SB 273"
+        ],
+        "billsScheduled": [
+            "HB 188",
+            "SB 14",
             "SB 502",
             "SB 505"
         ],
-        "billsScheduled": [
-            "SB 14"
-        ],
         "billsScheduledByDay": [
+            {
+                "day": "03/14/2023",
+                "bills": [
+                    "HB 188",
+                    "SB 502",
+                    "SB 505"
+                ]
+            },
             {
                 "day": "03/17/2023",
                 "bills": [
