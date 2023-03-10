@@ -3554,15 +3554,31 @@
             "SB 88"
         ],
         "billCount": 38,
-        "billsUnscheduled": [
+        "billsUnscheduled": [],
+        "billsScheduled": [
             "SB 58",
             "SB 76",
             "SB 84",
             "SB 85",
             "SB 88"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduledByDay": [
+            {
+                "day": "03/14/2023",
+                "bills": [
+                    "SB 58",
+                    "SB 76",
+                    "SB 88"
+                ]
+            },
+            {
+                "day": "03/16/2023",
+                "bills": [
+                    "SB 84",
+                    "SB 85"
+                ]
+            }
+        ],
         "billsAwaitingVote": [],
         "billsFailed": [
             "HB 621",
