@@ -4537,9 +4537,9 @@
         "lcIdentifier": "LC0506",
         "type": "house bill",
         "status": {
-            "key": "In First House--Out of Committee",
+            "key": "In First House--Through 2nd Reading",
             "step": "First chamber",
-            "label": "Out of committee",
+            "label": "Passed second reading vote",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -4560,7 +4560,7 @@
                 "step": "first chamber",
                 "status": "current",
                 "statusLabel": "Passed preliminary floor vote",
-                "statusDate": "02/09/2023"
+                "statusDate": "03/11/2023"
             },
             {
                 "step": "second chamber",
@@ -4668,7 +4668,7 @@
                 "governorTags": []
             }
         ],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "hb-56",
@@ -81653,7 +81653,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "sb-107",

@@ -134,6 +134,7 @@
         "SB 88",
         "SB 100",
         "SB 101",
+        "SB 106",
         "SB 112",
         "SB 113",
         "SB 128",
@@ -152,6 +153,7 @@
         "SR 32",
         "SR 47",
         "SR 51",
+        "HB 55",
         "HB 52",
         "HB 76",
         "HB 297",
@@ -1788,6 +1790,19 @@
             "hearing": true
         },
         {
+            "id": "SB106-0028",
+            "bill": "SB 106",
+            "date": "03/15/2023",
+            "description": "Hearing",
+            "posession": "house",
+            "committee": "House Transportation",
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
             "id": "SB112-0030",
             "bill": "SB 112",
             "date": "03/17/2023",
@@ -2022,7 +2037,20 @@
             "hearing": true
         }
     ],
-    "scheduledFloorDebates": [],
+    "scheduledFloorDebates": [
+        {
+            "id": "HB55-0043",
+            "bill": "HB 55",
+            "date": "03/11/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "house",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        }
+    ],
     "scheduledFinalVotes": [
         {
             "id": "HB52-0035",
