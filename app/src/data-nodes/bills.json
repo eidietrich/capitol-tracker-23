@@ -46524,8 +46524,8 @@
             {
                 "step": "first committee",
                 "status": "blocked",
-                "statusLabel": "Withdrawn",
-                "statusDate": "02/21/2023"
+                "statusLabel": "Missed deadline",
+                "statusDate": "03/11/2023"
             },
             {
                 "step": "first chamber",
@@ -46827,9 +46827,9 @@
         "lcIdentifier": "LC2199",
         "type": "house bill",
         "status": {
-            "key": "In First House Committee--Tabled",
-            "step": "First chamber",
-            "label": "Tabled in committee",
+            "key": "Probably Dead",
+            "label": "",
+            "step": "Failed",
             "status": "stalled",
             "statusAtSessionEnd": "failed"
         },
@@ -46908,9 +46908,9 @@
         "lcIdentifier": "LC3225",
         "type": "house bill",
         "status": {
-            "key": "In First House Committee--Tabled",
-            "step": "First chamber",
-            "label": "Tabled in committee",
+            "key": "Probably Dead",
+            "label": "",
+            "step": "Failed",
             "status": "stalled",
             "statusAtSessionEnd": "failed"
         },
@@ -48143,9 +48143,9 @@
         "lcIdentifier": "LC3603",
         "type": "house bill",
         "status": {
-            "key": "In First House Committee--Tabled",
-            "step": "First chamber",
-            "label": "Tabled in committee",
+            "key": "Probably Dead",
+            "label": "",
+            "step": "Failed",
             "status": "stalled",
             "statusAtSessionEnd": "failed"
         },
@@ -48224,9 +48224,9 @@
         "lcIdentifier": "LC4238",
         "type": "house bill",
         "status": {
-            "key": "In First House Committee--Tabled",
-            "step": "First chamber",
-            "label": "Tabled in committee",
+            "key": "Probably Dead",
+            "label": "",
+            "step": "Failed",
             "status": "stalled",
             "statusAtSessionEnd": "failed"
         },
@@ -48368,9 +48368,9 @@
         "lcIdentifier": "LC1149",
         "type": "house bill",
         "status": {
-            "key": "In First House Committee--Tabled",
-            "step": "First chamber",
-            "label": "Tabled in committee",
+            "key": "Probably Dead",
+            "label": "",
+            "step": "Failed",
             "status": "stalled",
             "statusAtSessionEnd": "failed"
         },
@@ -49111,9 +49111,9 @@
         "lcIdentifier": "LC1579",
         "type": "house bill",
         "status": {
-            "key": "In First House Committee--Tabled",
-            "step": "First chamber",
-            "label": "Tabled in committee",
+            "key": "Probably Dead",
+            "label": "",
+            "step": "Failed",
             "status": "stalled",
             "statusAtSessionEnd": "failed"
         },
@@ -49191,9 +49191,9 @@
         "lcIdentifier": "LC4543",
         "type": "house bill",
         "status": {
-            "key": "In First House Committee--Tabled",
-            "step": "First chamber",
-            "label": "Tabled in committee",
+            "key": "Probably Dead",
+            "label": "",
+            "step": "Failed",
             "status": "stalled",
             "statusAtSessionEnd": "failed"
         },
@@ -86432,9 +86432,9 @@
         "lcIdentifier": "LC0339",
         "type": "senate bill",
         "status": {
-            "key": "Transmitted to Second House",
+            "key": "In Second House Committee--Nontabled",
             "step": "Second chamber",
-            "label": "Transmitted",
+            "label": "In committee",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -86671,9 +86671,9 @@
         "lcIdentifier": "LC0528",
         "type": "senate bill",
         "status": {
-            "key": "Transmitted to Second House",
+            "key": "In Second House Committee--Nontabled",
             "step": "Second chamber",
-            "label": "Transmitted",
+            "label": "In committee",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -86991,9 +86991,9 @@
         "lcIdentifier": "LC0077",
         "type": "senate bill",
         "status": {
-            "key": "Transmitted to Second House",
+            "key": "In Second House Committee--Nontabled",
             "step": "Second chamber",
-            "label": "Transmitted",
+            "label": "In committee",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -87077,9 +87077,9 @@
         "lcIdentifier": "LC2674",
         "type": "senate bill",
         "status": {
-            "key": "Transmitted to Second House",
+            "key": "In Second House Committee--Nontabled",
             "step": "Second chamber",
-            "label": "Transmitted",
+            "label": "In committee",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -87319,9 +87319,9 @@
         "lcIdentifier": "LC0724",
         "type": "senate bill",
         "status": {
-            "key": "Transmitted to Second House",
+            "key": "In Second House Committee--Nontabled",
             "step": "Second chamber",
-            "label": "Transmitted",
+            "label": "In committee",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -87399,9 +87399,9 @@
         "lcIdentifier": "LC0076",
         "type": "senate bill",
         "status": {
-            "key": "Transmitted to Second House",
+            "key": "In Second House Committee--Nontabled",
             "step": "Second chamber",
-            "label": "Transmitted",
+            "label": "In committee",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -87558,9 +87558,9 @@
         "lcIdentifier": "LC0962",
         "type": "senate bill",
         "status": {
-            "key": "Transmitted to Second House",
+            "key": "In Second House Committee--Nontabled",
             "step": "Second chamber",
-            "label": "Transmitted",
+            "label": "In committee",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -87880,9 +87880,9 @@
         "lcIdentifier": "LC3009",
         "type": "senate bill",
         "status": {
-            "key": "Transmitted to Second House",
+            "key": "In Second House Committee--Nontabled",
             "step": "Second chamber",
-            "label": "Transmitted",
+            "label": "In committee",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -88046,9 +88046,9 @@
         "lcIdentifier": "LC0762",
         "type": "senate bill",
         "status": {
-            "key": "Transmitted to Second House",
+            "key": "In Second House Committee--Nontabled",
             "step": "Second chamber",
-            "label": "Transmitted",
+            "label": "In committee",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -88206,9 +88206,9 @@
         "lcIdentifier": "LC0534",
         "type": "senate bill",
         "status": {
-            "key": "Transmitted to Second House",
+            "key": "In Second House Committee--Nontabled",
             "step": "Second chamber",
-            "label": "Transmitted",
+            "label": "In committee",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -88450,9 +88450,9 @@
         "lcIdentifier": "LC0527",
         "type": "senate bill",
         "status": {
-            "key": "Transmitted to Second House",
+            "key": "In Second House Committee--Nontabled",
             "step": "Second chamber",
-            "label": "Transmitted",
+            "label": "In committee",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -89406,9 +89406,9 @@
         "lcIdentifier": "LC1965",
         "type": "senate bill",
         "status": {
-            "key": "Transmitted to Second House",
+            "key": "In Second House Committee--Nontabled",
             "step": "Second chamber",
-            "label": "Transmitted",
+            "label": "In committee",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
