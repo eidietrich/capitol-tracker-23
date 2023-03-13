@@ -4537,9 +4537,9 @@
         "lcIdentifier": "LC0506",
         "type": "house bill",
         "status": {
-            "key": "In First House--Through 3rd Reading",
-            "step": "First chamber",
-            "label": "Passed chamber",
+            "key": "In Second House Committee--Nontabled",
+            "step": "Second chamber",
+            "label": "In committee",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -16434,11 +16434,11 @@
         "lcIdentifier": "LC1159",
         "type": "house bill",
         "status": {
-            "key": "Transmitted to Governor",
-            "step": "Governor",
-            "label": "Before governor",
-            "status": "live",
-            "statusAtSessionEnd": "pending, passed legislature"
+            "key": "Became Law",
+            "label": "",
+            "step": "Passed",
+            "status": "became-law",
+            "statusAtSessionEnd": "became law"
         },
         "progress": [
             {
@@ -16473,9 +16473,9 @@
             },
             {
                 "step": "governor",
-                "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "status": "passed",
+                "statusLabel": "Signed",
+                "statusDate": "03/13/2023"
             }
         ],
         "hasBeenSentToGovernor": true,
@@ -19190,11 +19190,11 @@
         "lcIdentifier": "LC4332",
         "type": "house bill",
         "status": {
-            "key": "Transmitted to Governor",
-            "step": "Governor",
-            "label": "Before governor",
-            "status": "live",
-            "statusAtSessionEnd": "pending, passed legislature"
+            "key": "Became Law",
+            "label": "",
+            "step": "Passed",
+            "status": "became-law",
+            "statusAtSessionEnd": "became law"
         },
         "progress": [
             {
@@ -19229,9 +19229,9 @@
             },
             {
                 "step": "governor",
-                "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "status": "passed",
+                "statusLabel": "Signed",
+                "statusDate": "03/13/2023"
             }
         ],
         "hasBeenSentToGovernor": true,
@@ -21864,11 +21864,11 @@
         "lcIdentifier": "LC0108",
         "type": "house bill",
         "status": {
-            "key": "Transmitted to Governor",
-            "step": "Governor",
-            "label": "Before governor",
-            "status": "live",
-            "statusAtSessionEnd": "pending, passed legislature"
+            "key": "Became Law",
+            "label": "",
+            "step": "Passed",
+            "status": "became-law",
+            "statusAtSessionEnd": "became law"
         },
         "progress": [
             {
@@ -21903,9 +21903,9 @@
             },
             {
                 "step": "governor",
-                "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "status": "passed",
+                "statusLabel": "Signed",
+                "statusDate": "03/13/2023"
             }
         ],
         "hasBeenSentToGovernor": true,
@@ -23406,11 +23406,11 @@
         "lcIdentifier": "LC1915",
         "type": "house bill",
         "status": {
-            "key": "Transmitted to Governor",
-            "step": "Governor",
-            "label": "Before governor",
-            "status": "live",
-            "statusAtSessionEnd": "pending, passed legislature"
+            "key": "Became Law",
+            "label": "",
+            "step": "Passed",
+            "status": "became-law",
+            "statusAtSessionEnd": "became law"
         },
         "progress": [
             {
@@ -23445,9 +23445,9 @@
             },
             {
                 "step": "governor",
-                "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "status": "passed",
+                "statusLabel": "Signed",
+                "statusDate": "03/13/2023"
             }
         ],
         "hasBeenSentToGovernor": true,
@@ -25968,9 +25968,9 @@
         "lcIdentifier": "LC1106",
         "type": "house bill",
         "status": {
-            "key": "Transmitted to Second House",
+            "key": "In Second House Committee--Nontabled",
             "step": "Second chamber",
-            "label": "Transmitted",
+            "label": "In committee",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -31855,9 +31855,9 @@
         "lcIdentifier": "LC0097",
         "type": "house bill",
         "status": {
-            "key": "Transmitted to Second House",
+            "key": "In Second House Committee--Nontabled",
             "step": "Second chamber",
-            "label": "Transmitted",
+            "label": "In committee",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -32891,9 +32891,9 @@
         "lcIdentifier": "LC2207",
         "type": "house bill",
         "status": {
-            "key": "Transmitted to Second House",
+            "key": "In Second House Committee--Nontabled",
             "step": "Second chamber",
-            "label": "Transmitted",
+            "label": "In committee",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -33051,9 +33051,9 @@
         "lcIdentifier": "LC2234",
         "type": "house bill",
         "status": {
-            "key": "Transmitted to Second House",
+            "key": "In Second House Committee--Nontabled",
             "step": "Second chamber",
-            "label": "Transmitted",
+            "label": "In committee",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -39301,9 +39301,9 @@
         "lcIdentifier": "LC1932",
         "type": "house bill",
         "status": {
-            "key": "In First House--Through 3rd Reading",
-            "step": "First chamber",
-            "label": "Passed chamber",
+            "key": "In Second House Committee--Nontabled",
+            "step": "Second chamber",
+            "label": "In committee",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -42388,7 +42388,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "hb-482",
