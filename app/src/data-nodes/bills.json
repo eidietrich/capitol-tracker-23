@@ -13516,9 +13516,9 @@
         "lcIdentifier": "LC0377",
         "type": "house bill",
         "status": {
-            "key": "Transmitted to Second House",
+            "key": "In Second House Committee--Nontabled",
             "step": "Second chamber",
-            "label": "Transmitted",
+            "label": "In committee",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -13601,9 +13601,9 @@
         "lcIdentifier": "LC0382",
         "type": "house bill",
         "status": {
-            "key": "Transmitted to Second House",
+            "key": "In Second House Committee--Nontabled",
             "step": "Second chamber",
-            "label": "Transmitted",
+            "label": "In committee",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -14017,8 +14017,8 @@
         "lcIdentifier": "LC0419",
         "type": "house bill",
         "status": {
-            "key": "In First House Committee--Nontabled",
-            "step": "First chamber",
+            "key": "In Second House Committee--Nontabled",
+            "step": "Second chamber",
             "label": "In committee",
             "status": "live",
             "statusAtSessionEnd": "failed"
@@ -17211,87 +17211,6 @@
         "majorBillCategory": null,
         "explanation": null,
         "billPageText": null,
-        "articles": [],
-        "isOnCalendar": false
-    },
-    {
-        "key": "hb-200",
-        "identifier": "HB 200",
-        "chamber": "house",
-        "title": "Revise the Montana Safe Haven Newborn Protection Act",
-        "session": "20231",
-        "lcIdentifier": "LC0533",
-        "type": "house bill",
-        "status": {
-            "key": "In Second House Committee--Nontabled",
-            "step": "Second chamber",
-            "label": "In committee",
-            "status": "live",
-            "statusAtSessionEnd": "failed"
-        },
-        "progress": [
-            {
-                "step": "introduced",
-                "status": "passed",
-                "statusLabel": "Introduced",
-                "statusDate": "01/06/2023"
-            },
-            {
-                "step": "first committee",
-                "status": "passed",
-                "statusLabel": "Advanced",
-                "statusDate": "01/19/2023"
-            },
-            {
-                "step": "first chamber",
-                "status": "passed",
-                "statusLabel": "Passed House",
-                "statusDate": "01/27/2023"
-            },
-            {
-                "step": "second chamber",
-                "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
-            },
-            {
-                "step": "reconciliation",
-                "status": "skipped",
-                "statusLabel": null,
-                "statusDate": null
-            },
-            {
-                "step": "governor",
-                "status": "future",
-                "statusLabel": null,
-                "statusDate": null
-            }
-        ],
-        "hasBeenSentToGovernor": false,
-        "sponsor": {
-            "name": "Sherry Essmann",
-            "lastName": "Essmann",
-            "party": "R",
-            "locale": "Billings",
-            "district": "HD 52"
-        },
-        "requestor": null,
-        "deadlineCategory": "General Bills",
-        "transmittalDeadline": "03/03/2023",
-        "secondHouseReturnIfAmendedDeadline": "04/12/2023",
-        "voteMajorityRequired": "Simple",
-        "subjects": [
-            "Health Care Services (see also: Health)",
-            "Minors  (see also: Family Law)",
-            "Social Services"
-        ],
-        "tags": [],
-        "lawsUrl": "http://laws.leg.mt.gov/legprd/LAW0210W$BSIV.ActionQuery?P_BILL_NO1=200&P_BLTP_BILL_TYP_CD=HB&Z_ACTION=Find&P_SESS=20231",
-        "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0200.pdf",
-        "fiscalNoteUrl": null,
-        "amendmentsUrl": null,
-        "legalNoteUrl": null,
-        "vetoMemoUrl": null,
         "articles": [],
         "isOnCalendar": false
     },
@@ -21172,9 +21091,9 @@
         "lcIdentifier": "LC3498",
         "type": "house bill",
         "status": {
-            "key": "Transmitted to Second House",
+            "key": "In Second House Committee--Nontabled",
             "step": "Second chamber",
-            "label": "Transmitted",
+            "label": "In committee",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -22464,9 +22383,9 @@
         "lcIdentifier": "LC1917",
         "type": "house bill",
         "status": {
-            "key": "Transmitted to Second House",
+            "key": "In Second House Committee--Nontabled",
             "step": "Second chamber",
-            "label": "Transmitted",
+            "label": "In committee",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -24923,9 +24842,9 @@
         "lcIdentifier": "LC0996",
         "type": "house bill",
         "status": {
-            "key": "Transmitted to Second House",
+            "key": "In Second House Committee--Nontabled",
             "step": "Second chamber",
-            "label": "Transmitted",
+            "label": "In committee",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -26289,9 +26208,9 @@
         "lcIdentifier": "LC3937",
         "type": "house bill",
         "status": {
-            "key": "Transmitted to Second House",
+            "key": "In Second House Committee--Nontabled",
             "step": "Second chamber",
-            "label": "Transmitted",
+            "label": "In committee",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -27169,9 +27088,9 @@
         "lcIdentifier": "LC1369",
         "type": "house bill",
         "status": {
-            "key": "Transmitted to Second House",
+            "key": "In Second House Committee--Nontabled",
             "step": "Second chamber",
-            "label": "Transmitted",
+            "label": "In committee",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -28130,9 +28049,9 @@
         "lcIdentifier": "LC2016",
         "type": "house bill",
         "status": {
-            "key": "Transmitted to Second House",
+            "key": "In Second House Committee--Nontabled",
             "step": "Second chamber",
-            "label": "Transmitted",
+            "label": "In committee",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -28983,9 +28902,9 @@
         "lcIdentifier": "LC1512",
         "type": "house bill",
         "status": {
-            "key": "Transmitted to Second House",
+            "key": "In Second House Committee--Nontabled",
             "step": "Second chamber",
-            "label": "Transmitted",
+            "label": "In committee",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -29494,9 +29413,9 @@
         "lcIdentifier": "LC1291",
         "type": "house bill",
         "status": {
-            "key": "Transmitted to Second House",
+            "key": "In Second House Committee--Nontabled",
             "step": "Second chamber",
-            "label": "Transmitted",
+            "label": "In committee",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -29747,9 +29666,9 @@
         "lcIdentifier": "LC0520",
         "type": "house bill",
         "status": {
-            "key": "Transmitted to Second House",
+            "key": "In Second House Committee--Nontabled",
             "step": "Second chamber",
-            "label": "Transmitted",
+            "label": "In committee",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -34351,9 +34270,9 @@
         "lcIdentifier": "LC2237",
         "type": "house bill",
         "status": {
-            "key": "Transmitted to Second House",
+            "key": "In Second House Committee--Nontabled",
             "step": "Second chamber",
-            "label": "Transmitted",
+            "label": "In committee",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -34784,9 +34703,9 @@
         "lcIdentifier": "LC1180",
         "type": "house bill",
         "status": {
-            "key": "Transmitted to Second House",
+            "key": "In Second House Committee--Nontabled",
             "step": "Second chamber",
-            "label": "Transmitted",
+            "label": "In committee",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -47971,7 +47890,7 @@
                 "date": "2023-03-02T17:34:37.000Z",
                 "link": "https://montanafreepress.org/2023/03/02/montana-legislature-charter-school-bills-house-debate/",
                 "author": "Alex Sakariassen",
-                "imageUrl": "https://montanafreepress.org/classroompinkgreen-2/",
+                "imageUrl": "https://montanafreepress.org/2023/03/02/montana-legislature-charter-school-bills-house-debate/untitled-design-330/",
                 "billTags": [
                     "HB 549",
                     "HB 562"
@@ -49116,7 +49035,7 @@
                 "date": "2023-03-02T17:34:37.000Z",
                 "link": "https://montanafreepress.org/2023/03/02/montana-legislature-charter-school-bills-house-debate/",
                 "author": "Alex Sakariassen",
-                "imageUrl": "https://montanafreepress.org/classroompinkgreen-2/",
+                "imageUrl": "https://montanafreepress.org/2023/03/02/montana-legislature-charter-school-bills-house-debate/untitled-design-330/",
                 "billTags": [
                     "HB 549",
                     "HB 562"
@@ -119414,14 +119333,14 @@
             },
             {
                 "step": "first committee",
-                "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "status": "passed",
+                "statusLabel": "Advanced",
+                "statusDate": "03/10/2023"
             },
             {
                 "step": "first chamber",
-                "status": "future",
-                "statusLabel": null,
+                "status": "current",
+                "statusLabel": "Pending",
                 "statusDate": null
             }
         ],
