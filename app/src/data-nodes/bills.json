@@ -2775,7 +2775,7 @@
         "explanation": null,
         "billPageText": null,
         "articles": [],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "hb-35",
@@ -4537,9 +4537,9 @@
         "lcIdentifier": "LC0506",
         "type": "house bill",
         "status": {
-            "key": "In First House--Through 2nd Reading",
+            "key": "In First House--Through 3rd Reading",
             "step": "First chamber",
-            "label": "Passed second reading vote",
+            "label": "Passed chamber",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -4558,14 +4558,14 @@
             },
             {
                 "step": "first chamber",
-                "status": "current",
-                "statusLabel": "Passed preliminary floor vote",
-                "statusDate": "03/11/2023"
+                "status": "passed",
+                "statusLabel": "Passed House",
+                "statusDate": "03/13/2023"
             },
             {
                 "step": "second chamber",
-                "status": "future",
-                "statusLabel": null,
+                "status": "current",
+                "statusLabel": "Pending",
                 "statusDate": null
             },
             {
@@ -22804,7 +22804,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "hb-261",
@@ -25392,7 +25392,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "hb-290",
@@ -29364,7 +29364,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "hb-335",
@@ -30233,7 +30233,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "hb-344",
@@ -34533,7 +34533,7 @@
                 "governorTags": []
             }
         ],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-394",
@@ -39301,9 +39301,9 @@
         "lcIdentifier": "LC1932",
         "type": "house bill",
         "status": {
-            "key": "In First House--Through 2nd Reading",
+            "key": "In First House--Through 3rd Reading",
             "step": "First chamber",
-            "label": "Passed second reading vote",
+            "label": "Passed chamber",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -39322,14 +39322,14 @@
             },
             {
                 "step": "first chamber",
-                "status": "current",
-                "statusLabel": "Passed preliminary floor vote",
-                "statusDate": "03/11/2023"
+                "status": "passed",
+                "statusLabel": "Passed House",
+                "statusDate": "03/13/2023"
             },
             {
                 "step": "second chamber",
-                "status": "future",
-                "statusLabel": null,
+                "status": "current",
+                "statusLabel": "Pending",
                 "statusDate": null
             },
             {
@@ -49128,7 +49128,7 @@
                 "governorTags": []
             }
         ],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "hb-563",
