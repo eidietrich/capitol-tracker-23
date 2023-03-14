@@ -548,7 +548,6 @@
             "HB 163",
             "HB 169",
             "HB 174",
-            "HB 183",
             "HB 193",
             "HB 197",
             "HB 202",
@@ -749,7 +748,7 @@
             "SJ 3",
             "SJ 15"
         ],
-        "billCount": 219,
+        "billCount": 218,
         "billsUnscheduled": [
             "HB 38",
             "HB 197",
@@ -916,7 +915,6 @@
             "HB 163",
             "HB 169",
             "HB 174",
-            "HB 183",
             "HB 205",
             "HB 213",
             "HB 228",
@@ -5055,7 +5053,6 @@
             "HB 161",
             "HB 169",
             "HB 176",
-            "HB 183",
             "HB 205",
             "HB 213",
             "HB 236",
@@ -5235,11 +5232,12 @@
             "SR 9",
             "SR 10"
         ],
-        "billCount": 193,
+        "billCount": 192,
         "billsUnscheduled": [
             "HB 256",
             "HB 301",
             "HB 317",
+            "HB 322",
             "HB 356",
             "HB 361",
             "HB 398",
@@ -5297,7 +5295,6 @@
             "HB 161",
             "HB 176",
             "HB 213",
-            "HB 322",
             "HB 374",
             "HB 381",
             "HB 397",
@@ -5328,7 +5325,6 @@
             {
                 "day": "03/16/2023",
                 "bills": [
-                    "HB 322",
                     "HB 374",
                     "HB 397",
                     "HB 426"
@@ -5369,7 +5365,6 @@
             "HB 112",
             "HB 149",
             "HB 169",
-            "HB 183",
             "HB 236",
             "HB 239",
             "HB 266",
@@ -8520,13 +8515,23 @@
         "billCount": 14,
         "billsUnscheduled": [
             "HB 412",
-            "HB 493",
-            "HB 714",
-            "HB 739",
             "SR 53"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduled": [
+            "HB 493",
+            "HB 714",
+            "HB 739"
+        ],
+        "billsScheduledByDay": [
+            {
+                "day": "03/21/2023",
+                "bills": [
+                    "HB 493",
+                    "HB 714",
+                    "HB 739"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "HB 140"
         ],
