@@ -22583,7 +22583,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "hb-257",
@@ -24454,7 +24454,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "hb-277",
@@ -27946,7 +27946,7 @@
                 "governorTags": []
             }
         ],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "hb-318",
@@ -32482,7 +32482,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "hb-368",
@@ -34249,7 +34249,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "hb-389",
@@ -36846,7 +36846,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "hb-419",
@@ -41976,7 +41976,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "hb-475",
@@ -45075,7 +45075,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "hb-513",
@@ -45565,7 +45565,7 @@
         "legalNoteUrl": "https://leg.mt.gov/laws/bills/2023/LRC/HB0518",
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "hb-519",
@@ -64276,7 +64276,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "hb-739",
@@ -66685,7 +66685,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "hb-768",
@@ -72038,6 +72038,170 @@
         "tags": [],
         "lawsUrl": "http://laws.leg.mt.gov/legprd/LAW0210W$BSIV.ActionQuery?P_BILL_NO1=830&P_BLTP_BILL_TYP_CD=HB&Z_ACTION=Find&P_SESS=20231",
         "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0830.pdf",
+        "fiscalNoteUrl": null,
+        "amendmentsUrl": null,
+        "legalNoteUrl": null,
+        "vetoMemoUrl": null,
+        "articles": [],
+        "isOnCalendar": false
+    },
+    {
+        "key": "hb-831",
+        "identifier": "HB 831",
+        "chamber": "house",
+        "title": "Fund school meals for all students",
+        "session": "20231",
+        "lcIdentifier": "LC3486",
+        "type": "house bill",
+        "status": {
+            "key": "In First House--Introduced",
+            "step": "First chamber",
+            "label": "Introduced",
+            "status": "live",
+            "statusAtSessionEnd": "failed"
+        },
+        "progress": [
+            {
+                "step": "introduced",
+                "status": "passed",
+                "statusLabel": "Introduced",
+                "statusDate": "03/14/2023"
+            },
+            {
+                "step": "first committee",
+                "status": "current",
+                "statusLabel": "Pending",
+                "statusDate": null
+            },
+            {
+                "step": "first chamber",
+                "status": "future",
+                "statusLabel": null,
+                "statusDate": null
+            },
+            {
+                "step": "second chamber",
+                "status": "future",
+                "statusLabel": null,
+                "statusDate": null
+            },
+            {
+                "step": "reconciliation",
+                "status": "skipped",
+                "statusLabel": null,
+                "statusDate": null
+            },
+            {
+                "step": "governor",
+                "status": "future",
+                "statusLabel": null,
+                "statusDate": null
+            }
+        ],
+        "hasBeenSentToGovernor": false,
+        "sponsor": {
+            "name": "Melissa Romano",
+            "lastName": "Romano",
+            "party": "D",
+            "locale": "Helena",
+            "district": "HD 81"
+        },
+        "requestor": null,
+        "deadlineCategory": "General Bills",
+        "transmittalDeadline": "03/03/2023",
+        "secondHouseReturnIfAmendedDeadline": "04/12/2023",
+        "voteMajorityRequired": "Simple",
+        "subjects": [
+            "Health (see also: Health Care Services; Safety)",
+            "School Finance",
+            "Schools and Education"
+        ],
+        "tags": [],
+        "lawsUrl": "http://laws.leg.mt.gov/legprd/LAW0210W$BSIV.ActionQuery?P_BILL_NO1=831&P_BLTP_BILL_TYP_CD=HB&Z_ACTION=Find&P_SESS=20231",
+        "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC3486.pdf",
+        "fiscalNoteUrl": null,
+        "amendmentsUrl": null,
+        "legalNoteUrl": null,
+        "vetoMemoUrl": null,
+        "articles": [],
+        "isOnCalendar": false
+    },
+    {
+        "key": "hb-832",
+        "identifier": "HB 832",
+        "chamber": "house",
+        "title": "Provide tax credit for early childhood workforce",
+        "session": "20231",
+        "lcIdentifier": "LC3491",
+        "type": "house bill",
+        "status": {
+            "key": "In First House--Introduced",
+            "step": "First chamber",
+            "label": "Introduced",
+            "status": "live",
+            "statusAtSessionEnd": "failed"
+        },
+        "progress": [
+            {
+                "step": "introduced",
+                "status": "passed",
+                "statusLabel": "Introduced",
+                "statusDate": "03/14/2023"
+            },
+            {
+                "step": "first committee",
+                "status": "current",
+                "statusLabel": "Pending",
+                "statusDate": null
+            },
+            {
+                "step": "first chamber",
+                "status": "future",
+                "statusLabel": null,
+                "statusDate": null
+            },
+            {
+                "step": "second chamber",
+                "status": "future",
+                "statusLabel": null,
+                "statusDate": null
+            },
+            {
+                "step": "reconciliation",
+                "status": "skipped",
+                "statusLabel": null,
+                "statusDate": null
+            },
+            {
+                "step": "governor",
+                "status": "future",
+                "statusLabel": null,
+                "statusDate": null
+            }
+        ],
+        "hasBeenSentToGovernor": false,
+        "sponsor": {
+            "name": "Melissa Romano",
+            "lastName": "Romano",
+            "party": "D",
+            "locale": "Helena",
+            "district": "HD 81"
+        },
+        "requestor": null,
+        "deadlineCategory": "Revenue Bills",
+        "transmittalDeadline": "04/03/2023",
+        "secondHouseReturnIfAmendedDeadline": "04/21/2023",
+        "voteMajorityRequired": "Simple",
+        "subjects": [
+            "Minors  (see also: Family Law)",
+            "Professions and Occupations E-N",
+            "Revenue, State",
+            "Taxation (Generally)",
+            "Taxation--Individual Income"
+        ],
+        "tags": [],
+        "lawsUrl": "http://laws.leg.mt.gov/legprd/LAW0210W$BSIV.ActionQuery?P_BILL_NO1=832&P_BLTP_BILL_TYP_CD=HB&Z_ACTION=Find&P_SESS=20231",
+        "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC3491.pdf",
         "fiscalNoteUrl": null,
         "amendmentsUrl": null,
         "legalNoteUrl": null,
@@ -82298,7 +82462,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "sb-105",
@@ -108118,7 +108282,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "sb-403",

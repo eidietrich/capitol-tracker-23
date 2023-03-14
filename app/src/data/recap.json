@@ -247,6 +247,22 @@
                     "explanation": null
                 },
                 {
+                    "id": "HB70-0041",
+                    "bill": "HB 70",
+                    "date": "03/14/2023",
+                    "description": "Chapter Number Assigned",
+                    "posession": "other",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "transcriptUrl": null,
+                    "key": "Chapter Number Assigned",
+                    "isMajor": true,
+                    "ultimatelyPassed": true,
+                    "title": "Revise alcohol laws pertaining to renewal of licenses",
+                    "explanation": null
+                },
+                {
                     "id": "HB71-0046",
                     "bill": "HB 71",
                     "date": "03/14/2023",
@@ -1245,6 +1261,22 @@
                     "governorAction": true,
                     "signed": true,
                     "title": "Revise corporate income tax apportionment"
+                },
+                {
+                    "id": "SB191-0055",
+                    "bill": "SB 191",
+                    "date": "03/14/2023",
+                    "description": "Chapter Number Assigned",
+                    "posession": "other",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "transcriptUrl": null,
+                    "key": "Chapter Number Assigned",
+                    "isMajor": true,
+                    "ultimatelyPassed": true,
+                    "title": "Revise preliminary injunction laws",
+                    "explanation": "Raises the bar for courts to issue preliminary injunctions and temporary restraining orders in legal proceedings."
                 },
                 {
                     "id": "SB280-0033",
@@ -9131,7 +9163,9 @@
                     "posession": "senate",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46230?agendaId=257535"
+                    ],
                     "transcriptUrl": null,
                     "key": "2nd Reading Passed as Amended",
                     "isMajor": true,
