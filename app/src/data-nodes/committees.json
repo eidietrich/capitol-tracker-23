@@ -3576,27 +3576,42 @@
         "billCount": 46,
         "billsUnscheduled": [
             "HB 792",
+            "HR 4"
+        ],
+        "billsScheduled": [
             "SB 32",
             "SB 33",
             "SB 109",
             "SB 208",
             "SB 274",
-            "SJ 10"
-        ],
-        "billsScheduled": [
-            "HR 4",
             "SJ 5",
             "SJ 6",
-            "SJ 7"
+            "SJ 7",
+            "SJ 10"
         ],
         "billsScheduledByDay": [
             {
                 "day": "03/15/2023",
                 "bills": [
-                    "HR 4",
                     "SJ 5",
                     "SJ 6",
                     "SJ 7"
+                ]
+            },
+            {
+                "day": "03/20/2023",
+                "bills": [
+                    "SB 109",
+                    "SB 208",
+                    "SB 274"
+                ]
+            },
+            {
+                "day": "03/22/2023",
+                "bills": [
+                    "SB 32",
+                    "SB 33",
+                    "SJ 10"
                 ]
             }
         ],
