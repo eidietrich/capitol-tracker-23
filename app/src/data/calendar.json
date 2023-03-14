@@ -11,6 +11,7 @@
         "03/24/2023"
     ],
     "billsOnCalendar": [
+        "HB 2",
         "HB 5",
         "HB 6",
         "HB 7",
@@ -170,6 +171,7 @@
         "SB 61",
         "SB 64",
         "SB 65",
+        "SB 68",
         "SB 73",
         "SB 76",
         "SB 77",
@@ -202,6 +204,7 @@
         "SB 166",
         "SB 167",
         "SB 168",
+        "SB 171",
         "SB 176",
         "SB 177",
         "SB 179",
@@ -246,6 +249,19 @@
         "SB 98"
     ],
     "scheduledHearings": [
+        {
+            "id": "HB2-0126",
+            "bill": "HB 2",
+            "date": "03/14/2023",
+            "description": "Hearing",
+            "posession": "house",
+            "committee": "House Appropriations",
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
         {
             "id": "HB5-0033",
             "bill": "HB 5",
@@ -1651,9 +1667,35 @@
             "hearing": true
         },
         {
+            "id": "HB587-0032",
+            "bill": "HB 587",
+            "date": "03/20/2023",
+            "description": "Hearing",
+            "posession": "house",
+            "committee": "House Appropriations",
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
             "id": "HB588-0030",
             "bill": "HB 588",
             "date": "03/14/2023",
+            "description": "Hearing",
+            "posession": "house",
+            "committee": "House Appropriations",
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
+            "id": "HB588-0031",
+            "bill": "HB 588",
+            "date": "03/20/2023",
             "description": "Hearing",
             "posession": "house",
             "committee": "House Appropriations",
@@ -2327,6 +2369,19 @@
             "hearing": true
         },
         {
+            "id": "SB68-0028",
+            "bill": "SB 68",
+            "date": "03/21/2023",
+            "description": "Hearing",
+            "posession": "house",
+            "committee": "House Judiciary",
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
             "id": "SB73-0026",
             "bill": "SB 73",
             "date": "03/16/2023",
@@ -2736,6 +2791,19 @@
             "description": "Hearing",
             "posession": "house",
             "committee": "House Business and Labor",
+            "actionUrl": null,
+            "recordings": [],
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
+            "id": "SB171-0047",
+            "bill": "SB 171",
+            "date": "03/21/2023",
+            "description": "Hearing",
+            "posession": "house",
+            "committee": "House Judiciary",
             "actionUrl": null,
             "recordings": [],
             "key": "Hearing",
