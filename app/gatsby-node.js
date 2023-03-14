@@ -98,6 +98,7 @@ exports.createSchemaCustomization = ({ actions }) => {
             committee: String
             actionUrl: String
             recordings: [String]
+            transcriptUrl: String
             key: String
             vote: BillVote
         }

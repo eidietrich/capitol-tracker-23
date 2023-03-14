@@ -19,6 +19,7 @@ export default class Action {
             hasVote,
             committee,
             recordings,
+            transcriptUrl, // From third-party council data project integration
         } = action
 
         const description = action.action.replace(/\((C|H|S)\) /, '').replace(/\&nbsp/g, '')
@@ -39,6 +40,7 @@ export default class Action {
             // committeeType: getCommitteeType(committeeName),
             actionUrl,
             recordings,
+            transcriptUrl: transcriptUrl || null,
             // Flags
             ...this.getActionFlags(description)
         }

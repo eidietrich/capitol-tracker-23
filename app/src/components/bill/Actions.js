@@ -25,7 +25,10 @@ const descriptionCss = css`
 `
 
 const recordingLineCss = css`
-  font-style: italic;
+  /* font-style: italic; */
+  border: 1px solid var(--tan5);
+  background-color: var(--tan2);
+  padding: 0.5em 0.5em;
   margin: 0.3em 0;
 `
 
@@ -172,10 +175,10 @@ class BillActions extends Component {
   }
 }
 const Action = (action, showVotes, annotations) => {
-  const { id, committee, description, vote, voteUrl, date, recordings, isHighlight,
-    //  classification
+  const { id, committee, description, vote, date, recordings, isHighlight, transcriptUrl
   } = action
   const { thresholdRequired } = (vote || {})
+
   return <tr key={id} css={isHighlight ? highlightRow : null}>
     <td css={dateCss}><div css={dateColWidth}>
       {dateFormat(new Date(date))}
@@ -198,10 +201,17 @@ const Action = (action, showVotes, annotations) => {
       }
       {
         // hearing info
-        recordings.length > 0 ?
-          <div css={recordingLineCss}>
-            {recordings.map((url, i) => <span key={String(i)}><a href={url}>Recording {i + 1}.</a> </span>)}
-          </div> : null
+        recordings.length > 0 &&
+        <div css={recordingLineCss}>
+          📺🎙 {recordings.map((url, i) => <span key={String(i)}><a href={url}>Official recording {i + 1}</a>. </span>)}
+        </div>
+      }
+      {
+        transcriptUrl &&
+        <div css={recordingLineCss}>
+          <div>🤖📝 <a href={transcriptUrl}>Video and searchable computer-generated transcript</a></div>
+          <span class="note">via <a href="https://www.openmontana.org/">Open Montana</a> and <a href="https://councildataproject.org/">Council Data Project</a></span>
+        </div>
       }
       {
         // veto memo text and other custom annotations
@@ -220,34 +230,23 @@ const Action = (action, showVotes, annotations) => {
 
 export default BillActions
 
-const voteUrlCss = css`
-  font-style: italic;
-  margin-bottom: 0.1em;
+const voteSummariesCss = css`
+  margin: 0.2em 0;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
 `
-const colCss = css`
-  display: flex;
-  flex-wrap: wrap;
-`
-const col1 = css`
-  flex: 0 0 7em;
-`
-const col2 = css`
-  flex: 1 0 12em;
-`
 const rowCss = css`
-  margin-bottom: 0.6em;
-  flex: 0 0 7em;
-  margin: 0.2em 0;
+  margin-right: 0.7em;
+  margin-bottom: 0.3em;
 `
 const totalVoteCss = (color) => css`
   display: inline-block;
   border: 1px solid #473d29;
-  border-left: 3px solid  #473d29;
+  /* border-left: 3px solid  #473d29; */
   background-color: ${color};
-  padding: 0.2em 0.3em;
+  padding: 0.5em 0.8em;
+  font-weight: bold;
 `
 const partyVoteCss = (color, secondary) => css`
   display: inline-block;
@@ -255,7 +254,7 @@ const partyVoteCss = (color, secondary) => css`
   background-color: ${secondary};
 
   width: 3em;
-  padding: 0.2em 0.5em;
+  padding: 0.5em 0.8em;
 `
 const partyIconCss = (color) => css`
   display: inline-block;
@@ -264,9 +263,10 @@ const partyIconCss = (color) => css`
   background-color: #e0d4b8;
   color: ${color};
   width: 1em;
-  padding: 0.2em 0.2em;
+  padding: 0.5em 0.2em;
   padding-left: 0.5em;
   font-style: normal;
+  font-weight: bold;
 `
 
 const VoteBlock = ({ vote, description }) => {
@@ -285,25 +285,28 @@ const VoteBlock = ({ vote, description }) => {
 
   const billAdvanced = (description === 'Tabled in Committee') ? !motionPassed : motionPassed
   const passageColor = billAdvanced ? positionColors('Y') : positionColors('N')
+  const icon = billAdvanced ? '✅' : '❌'
   const gopSupportColor = gopSupported ? positionColors('Y') : positionColors('N')
   const demSupportColor = demSupported ? positionColors('Y') : positionColors('N')
   return <div>
-    <div css={voteUrlCss}>
-      <div css={[colCss, col1]}>
-        {(count.Y + count.N > 0) && <div css={[rowCss]}>
-          <span css={[totalVoteCss(passageColor)]}>{count && count.Y}-{count && count.N}</span>
-        </div>}
-      </div>
-      <div css={[colCss, col2]}>
-        {(gopCount.Y + gopCount.N > 0) && <div css={[rowCss]}>
+    <div css={voteSummariesCss}>
+      {
+        (count.Y + count.N > 0) && <div css={[rowCss]}>
+          <span css={[totalVoteCss(passageColor)]}><span>{icon} </span>{count && count.Y}-{count && count.N}</span>
+        </div>
+      }
+      {
+        (gopCount.Y + gopCount.N > 0) && <div css={[rowCss]}>
           <span css={partyIconCss(rColor)}>R</span>
           <span css={partyVoteCss(rColor, gopSupportColor)}>{gopCount && gopCount.Y}-{gopCount && gopCount.N}</span>
-        </div>}
-        {(demCount.Y + demCount.N > 0) && <div css={rowCss}>
+        </div>
+      }
+      {
+        (demCount.Y + demCount.N > 0) && <div css={rowCss}>
           <span css={partyIconCss(dColor)}>D</span>
           <span css={partyVoteCss(dColor, demSupportColor)}>{demCount && demCount.Y}-{demCount && demCount.N}</span>
-        </div>}
-      </div>
+        </div>
+      }
     </div>
     {(votes.length > 1) && <VoteListing votes={votes} voteUrl={voteUrl} />}
 

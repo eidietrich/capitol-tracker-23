@@ -32,6 +32,9 @@ const lawmakersRaw = getJson('./inputs/lawmakers/leg-roster-2023.json')
 // Legislative article list from Montana Free Press CMS
 const articlesRaw = getJson('./inputs/coverage/articles.json')
 
+// List of hearing/floor recordings and associated pages in the third-party Council Data Project system
+const recordings = getJson('./inputs/hearing-transcripts/recordings.json')
+
 // Bill annotations from standalone Strapi CMS
 const billAnnotations = getJson('./inputs/annotations/bill-annotations.json')
 const lawmakerAnnotations = getJson('./inputs/annotations/lawmaker-annotations.json')
@@ -52,7 +55,17 @@ const lawmakers = lawmakersRaw.map(lawmaker => new Lawmaker({
 
 const bills = billsRaw.map(bill => new Bill({
     bill,
-    actions: actionsRaw.filter(d => d.bill === bill.key),
+    actions: actionsRaw.filter(d => d.bill === bill.key).map(a => {
+        const match = recordings.find(d => a.recordings.includes(d.external_source_id))
+        let transcriptUrl = null
+        if (match) {
+            transcriptUrl = `https://www.openmontana.org/montana-legislature-council-data-project/#/events/${match.event_id}`
+        }
+        return {
+            ...a,
+            transcriptUrl,
+        }
+    }),
     votes: votesRaw.filter(d => d.bill === bill.key),
     annotation: billAnnotations.find(d => d.Identifier === bill.key) || {},
     articles: articles.filter(d => d.billTags.includes(bill.key)),
