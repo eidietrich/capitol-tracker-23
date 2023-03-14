@@ -15683,6 +15683,86 @@
         "isOnCalendar": false
     },
     {
+        "key": "hb-183",
+        "identifier": "HB 183",
+        "chamber": "house",
+        "title": "Revise the Crime Victims Restitution Fund relating to burial amounts",
+        "session": "20231",
+        "lcIdentifier": "LC0706",
+        "type": "house bill",
+        "status": {
+            "key": "Passed By Legislature--Enrolling and Final Preparation Process",
+            "step": "Through Legislature",
+            "label": "Passed both chambers",
+            "status": "live",
+            "statusAtSessionEnd": "pending, passed legislature"
+        },
+        "progress": [
+            {
+                "step": "introduced",
+                "status": "passed",
+                "statusLabel": "Introduced",
+                "statusDate": "01/05/2023"
+            },
+            {
+                "step": "first committee",
+                "status": "passed",
+                "statusLabel": "Advanced",
+                "statusDate": "01/17/2023"
+            },
+            {
+                "step": "first chamber",
+                "status": "passed",
+                "statusLabel": "Passed House",
+                "statusDate": "01/23/2023"
+            },
+            {
+                "step": "second chamber",
+                "status": "passed",
+                "statusLabel": "Passed Senate",
+                "statusDate": "02/13/2023"
+            },
+            {
+                "step": "reconciliation",
+                "status": "skipped",
+                "statusLabel": null,
+                "statusDate": null
+            },
+            {
+                "step": "governor",
+                "status": "current",
+                "statusLabel": "Pending",
+                "statusDate": null
+            }
+        ],
+        "hasBeenSentToGovernor": false,
+        "sponsor": {
+            "name": "Nelly Nicol",
+            "lastName": "Nicol",
+            "party": "R",
+            "locale": "Billings",
+            "district": "HD 53"
+        },
+        "requestor": null,
+        "deadlineCategory": "General Bills",
+        "transmittalDeadline": "03/03/2023",
+        "secondHouseReturnIfAmendedDeadline": "04/12/2023",
+        "voteMajorityRequired": "Simple",
+        "subjects": [
+            "Crimes",
+            "Health (see also: Health Care Services; Safety)"
+        ],
+        "tags": [],
+        "lawsUrl": "http://laws.leg.mt.gov/legprd/LAW0210W$BSIV.ActionQuery?P_BILL_NO1=183&P_BLTP_BILL_TYP_CD=HB&Z_ACTION=Find&P_SESS=20231",
+        "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0183.pdf",
+        "fiscalNoteUrl": "https://leg.mt.gov/laws/bills/2023/FNPDF/HB0183",
+        "amendmentsUrl": "https://leg.mt.gov/laws/bills/2023/AmdPublicWeb/?bill=HB0183",
+        "legalNoteUrl": null,
+        "vetoMemoUrl": null,
+        "articles": [],
+        "isOnCalendar": false
+    },
+    {
         "key": "hb-184",
         "identifier": "HB 184",
         "chamber": "house",
@@ -21185,7 +21265,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "hb-243",
@@ -30795,7 +30875,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "hb-350",
@@ -48881,7 +48961,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "hb-559",
@@ -66849,7 +66929,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "hb-771",
@@ -69845,7 +69925,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "hb-805",
@@ -74804,7 +74884,7 @@
         "explanation": null,
         "billPageText": null,
         "articles": [],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "sb-24",
@@ -84285,7 +84365,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "sb-131",
@@ -84364,7 +84444,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "sb-132",
@@ -85443,7 +85523,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "sb-143",
@@ -85523,7 +85603,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "sb-144",
@@ -86277,7 +86357,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "sb-153",
