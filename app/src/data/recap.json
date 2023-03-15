@@ -56,6 +56,25 @@
                     "title": "Create select committee on energy resource planning and acquisition"
                 },
                 {
+                    "id": "HB225-0041",
+                    "bill": "HB 225",
+                    "date": "03/15/2023",
+                    "description": "3rd Reading Passed",
+                    "posession": "house",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "transcriptUrl": null,
+                    "key": "3rd Reading Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "firstChamberFloorAction": true,
+                    "advanced": true,
+                    "finalPassage": true,
+                    "title": "Establish adoption tax credit",
+                    "explanation": null
+                },
+                {
                     "id": "HB407-0040",
                     "bill": "HB 407",
                     "date": "03/15/2023",
@@ -71,6 +90,96 @@
                     "firstChamberFloorAction": true,
                     "preliminaryPassage": true,
                     "title": "Provide for affordable housing abatements"
+                },
+                {
+                    "id": "HJ6-0025",
+                    "bill": "HJ 6",
+                    "date": "03/15/2023",
+                    "description": "3rd Reading Passed",
+                    "posession": "house",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "transcriptUrl": null,
+                    "key": "3rd Reading Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "firstChamberFloorAction": true,
+                    "advanced": true,
+                    "finalPassage": true,
+                    "title": "Interim study of electric power reserves"
+                },
+                {
+                    "id": "HR2-0025",
+                    "bill": "HR 2",
+                    "date": "03/15/2023",
+                    "description": "Resolution Adopted",
+                    "posession": "house",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "transcriptUrl": null,
+                    "key": "Resolution Adopted",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "firstChamberFloorAction": true,
+                    "secondChamberAction": true,
+                    "finalPassage": true,
+                    "title": "Resolution supporting the CARD clinic"
+                },
+                {
+                    "id": "SB57-0036",
+                    "bill": "SB 57",
+                    "date": "03/15/2023",
+                    "description": "2nd Reading Concurred",
+                    "posession": "house",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "transcriptUrl": null,
+                    "key": "2nd Reading Concurred",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "secondChamberAction": true,
+                    "preliminaryPassage": true,
+                    "title": "Allow department of transportation to use alternative project delivery methods",
+                    "explanation": null
+                },
+                {
+                    "id": "SB111-0040",
+                    "bill": "SB 111",
+                    "date": "03/15/2023",
+                    "description": "3rd Reading Concurred",
+                    "posession": "house",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "transcriptUrl": null,
+                    "key": "3rd Reading Concurred",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "secondChamberAction": true,
+                    "advanced": true,
+                    "finalPassage": true,
+                    "title": "Establish the Jacob Allmendinger memorial highway"
+                },
+                {
+                    "id": "SB120-0040",
+                    "bill": "SB 120",
+                    "date": "03/15/2023",
+                    "description": "3rd Reading Concurred",
+                    "posession": "house",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "transcriptUrl": null,
+                    "key": "3rd Reading Concurred",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "secondChamberAction": true,
+                    "advanced": true,
+                    "finalPassage": true,
+                    "title": "Establish the Chief Earl Old Person memorial highway"
                 },
                 {
                     "id": "SB303-0037",
@@ -1822,7 +1931,7 @@
                     "governorAction": true,
                     "signed": true,
                     "title": "Use surplus revenue for income tax and property tax refunds and payment of bonds",
-                    "explanation": "Would put a portion of the state budget surplus to income tax rebates."
+                    "explanation": "Puts a portion of the state budget surplus to income tax rebates."
                 },
                 {
                     "id": "HB212-0076",
@@ -1875,7 +1984,7 @@
                     "governorAction": true,
                     "signed": true,
                     "title": "Provide rebates of property taxes paid on a principal residence",
-                    "explanation": "Would use a portion of the state budget surplus for short-term property tax rebates."
+                    "explanation": "Uses a portion of the state budget surplus for short-term property tax rebates."
                 },
                 {
                     "id": "HB251-0063",
@@ -1910,7 +2019,8 @@
                     "isHighlight": true,
                     "governorAction": true,
                     "signed": true,
-                    "title": "Create SAFER account for federal highway grants"
+                    "title": "Create SAFER account for federal highway grants",
+                    "explanation": "Puts $100 million into a highway fund to help the state access federal match dollars."
                 },
                 {
                     "id": "HB286-0038",
@@ -4214,6 +4324,23 @@
                     "failed": true,
                     "missedDeadline": true,
                     "title": "Generally revise abortion laws"
+                },
+                {
+                    "id": "SB438-0028",
+                    "bill": "SB 438",
+                    "date": "03/13/2023",
+                    "description": "Missed Deadline for General Bill Transmittal",
+                    "posession": "senate",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "transcriptUrl": null,
+                    "key": "Missed Deadline for General Bill Transmittal",
+                    "isMajor": true,
+                    "committeeAction": true,
+                    "failed": true,
+                    "missedDeadline": true,
+                    "title": "Revise laws relating to the judiciary to require audit of state bar of Montana"
                 },
                 {
                     "id": "SB439-0025",
@@ -14521,7 +14648,7 @@
                     "title": "Revise laws related to behavioral health peer support specialists"
                 },
                 {
-                    "id": "SB203-0033",
+                    "id": "SB203-0034",
                     "bill": "SB 203",
                     "date": "03/02/2023",
                     "description": "3rd Reading Passed",
@@ -15615,7 +15742,8 @@
                     "firstChamberFloorAction": true,
                     "advanced": true,
                     "finalPassage": true,
-                    "title": "Create the Montana Land Use Planning Act"
+                    "title": "Create the Montana Land Use Planning Act",
+                    "explanation": "SB 382: Create the Montana Land Use Planning Act Comprehensive planning statute overhaul that would require large cities to allocate space to house population growth."
                 },
                 {
                     "id": "SB384-0030",
@@ -18064,7 +18192,7 @@
                     "advanced": true,
                     "finalPassage": true,
                     "title": "Use surplus revenue for income tax and property tax refunds and payment of bonds",
-                    "explanation": "Would put a portion of the state budget surplus to income tax rebates."
+                    "explanation": "Puts a portion of the state budget surplus to income tax rebates."
                 },
                 {
                     "id": "HB222-0059",
@@ -18083,7 +18211,7 @@
                     "advanced": true,
                     "finalPassage": true,
                     "title": "Provide rebates of property taxes paid on a principal residence",
-                    "explanation": "Would use a portion of the state budget surplus for short-term property tax rebates."
+                    "explanation": "Uses a portion of the state budget surplus for short-term property tax rebates."
                 },
                 {
                     "id": "HB251-0054",
@@ -18120,7 +18248,8 @@
                     "secondChamberAction": true,
                     "advanced": true,
                     "finalPassage": true,
-                    "title": "Create SAFER account for federal highway grants"
+                    "title": "Create SAFER account for federal highway grants",
+                    "explanation": "Puts $100 million into a highway fund to help the state access federal match dollars."
                 },
                 {
                     "id": "HB288-0031",
@@ -18745,7 +18874,8 @@
                     "isHighlight": true,
                     "firstChamberFloorAction": true,
                     "preliminaryPassage": true,
-                    "title": "Authorize additional funding for coal trust loan program for housing"
+                    "title": "Authorize additional funding for coal trust loan program for housing",
+                    "explanation": "Would expand existing program to subsidized price-controlled housing developments."
                 },
                 {
                     "id": "HB547-0025",
@@ -20533,7 +20663,7 @@
                     "title": "Revise laws related to behavioral health peer support specialists"
                 },
                 {
-                    "id": "SB203-0030",
+                    "id": "SB203-0031",
                     "bill": "SB 203",
                     "date": "03/01/2023",
                     "description": "2nd Reading Passed as Amended",
@@ -21451,7 +21581,8 @@
                     "isHighlight": true,
                     "firstChamberFloorAction": true,
                     "preliminaryPassage": true,
-                    "title": "Create the Montana Land Use Planning Act"
+                    "title": "Create the Montana Land Use Planning Act",
+                    "explanation": "SB 382: Create the Montana Land Use Planning Act Comprehensive planning statute overhaul that would require large cities to allocate space to house population growth."
                 },
                 {
                     "id": "SB383-0031",
@@ -22548,7 +22679,7 @@
                     "secondChamberAction": true,
                     "preliminaryPassage": true,
                     "title": "Use surplus revenue for income tax and property tax refunds and payment of bonds",
-                    "explanation": "Would put a portion of the state budget surplus to income tax rebates."
+                    "explanation": "Puts a portion of the state budget surplus to income tax rebates."
                 },
                 {
                     "id": "HB212-0067",
@@ -22605,7 +22736,7 @@
                     "secondChamberAction": true,
                     "preliminaryPassage": true,
                     "title": "Provide rebates of property taxes paid on a principal residence",
-                    "explanation": "Would use a portion of the state budget surplus for short-term property tax rebates."
+                    "explanation": "Uses a portion of the state budget surplus for short-term property tax rebates."
                 },
                 {
                     "id": "HB251-0052",
@@ -22678,7 +22809,8 @@
                     "isHighlight": true,
                     "secondChamberAction": true,
                     "preliminaryPassage": true,
-                    "title": "Create SAFER account for federal highway grants"
+                    "title": "Create SAFER account for federal highway grants",
+                    "explanation": "Puts $100 million into a highway fund to help the state access federal match dollars."
                 },
                 {
                     "id": "HB304-0031",
@@ -25614,7 +25746,7 @@
                     "title": "Generally revise court-appointed special advocate and guardian ad litem laws"
                 },
                 {
-                    "id": "SB203-0027",
+                    "id": "SB203-0028",
                     "bill": "SB 203",
                     "date": "02/28/2023",
                     "description": "Reconsidered Previous Action; Placed on 2nd Reading",
@@ -28195,7 +28327,8 @@
                     "committeeAction": true,
                     "advanced": true,
                     "amended": true,
-                    "title": "Authorize additional funding for coal trust loan program for housing"
+                    "title": "Authorize additional funding for coal trust loan program for housing",
+                    "explanation": "Would expand existing program to subsidized price-controlled housing developments."
                 },
                 {
                     "id": "HB566-0021",
@@ -30426,7 +30559,8 @@
                     "committeeAction": true,
                     "advanced": true,
                     "amended": true,
-                    "title": "Create the Montana Land Use Planning Act"
+                    "title": "Create the Montana Land Use Planning Act",
+                    "explanation": "SB 382: Create the Montana Land Use Planning Act Comprehensive planning statute overhaul that would require large cities to allocate space to house population growth."
                 },
                 {
                     "id": "SB389-0018",
@@ -33664,7 +33798,7 @@
                     "title": "Generally revise laws related to drug testing in CPS cases"
                 },
                 {
-                    "id": "SB203-0026",
+                    "id": "SB203-0027",
                     "bill": "SB 203",
                     "date": "02/24/2023",
                     "description": "2nd Reading Passed as Amended",
@@ -35045,7 +35179,7 @@
                     "committeeAction": true,
                     "advanced": true,
                     "title": "Use surplus revenue for income tax and property tax refunds and payment of bonds",
-                    "explanation": "Would put a portion of the state budget surplus to income tax rebates."
+                    "explanation": "Puts a portion of the state budget surplus to income tax rebates."
                 },
                 {
                     "id": "HB212-0064",
@@ -35098,7 +35232,7 @@
                     "committeeAction": true,
                     "advanced": true,
                     "title": "Provide rebates of property taxes paid on a principal residence",
-                    "explanation": "Would use a portion of the state budget surplus for short-term property tax rebates."
+                    "explanation": "Uses a portion of the state budget surplus for short-term property tax rebates."
                 },
                 {
                     "id": "HB226-0038",
@@ -35150,7 +35284,8 @@
                     "isHighlight": true,
                     "committeeAction": true,
                     "advanced": true,
-                    "title": "Create SAFER account for federal highway grants"
+                    "title": "Create SAFER account for federal highway grants",
+                    "explanation": "Puts $100 million into a highway fund to help the state access federal match dollars."
                 },
                 {
                     "id": "HB268-0034",
@@ -45064,7 +45199,7 @@
                     "firstChamberFloorAction": true,
                     "failed": true,
                     "title": "Providing for circuit breaker income tax credit for property taxes paid",
-                    "explanation": "Would create an income tax credit for property tax relief."
+                    "explanation": "Creates an income tax credit for property tax relief."
                 },
                 {
                     "id": "HB284-0023",
@@ -53001,7 +53136,7 @@
                     "advanced": true,
                     "amended": true,
                     "title": "Providing for circuit breaker income tax credit for property taxes paid",
-                    "explanation": "Would create an income tax credit for property tax relief."
+                    "explanation": "Creates an income tax credit for property tax relief."
                 },
                 {
                     "id": "HB285-0031",
@@ -56545,7 +56680,7 @@
                     "advanced": true,
                     "finalPassage": true,
                     "title": "Use surplus revenue for income tax and property tax refunds and payment of bonds",
-                    "explanation": "Would put a portion of the state budget surplus to income tax rebates."
+                    "explanation": "Puts a portion of the state budget surplus to income tax rebates."
                 },
                 {
                     "id": "HB212-0049",
@@ -56601,7 +56736,7 @@
                     "advanced": true,
                     "finalPassage": true,
                     "title": "Provide rebates of property taxes paid on a principal residence",
-                    "explanation": "Would use a portion of the state budget surplus for short-term property tax rebates."
+                    "explanation": "Uses a portion of the state budget surplus for short-term property tax rebates."
                 },
                 {
                     "id": "HB232-0029",
@@ -56784,7 +56919,8 @@
                     "firstChamberFloorAction": true,
                     "advanced": true,
                     "finalPassage": true,
-                    "title": "Create SAFER account for federal highway grants"
+                    "title": "Create SAFER account for federal highway grants",
+                    "explanation": "Puts $100 million into a highway fund to help the state access federal match dollars."
                 },
                 {
                     "id": "HB279-0019",
@@ -57743,7 +57879,7 @@
                     "firstChamberFloorAction": true,
                     "preliminaryPassage": true,
                     "title": "Use surplus revenue for income tax and property tax refunds and payment of bonds",
-                    "explanation": "Would put a portion of the state budget surplus to income tax rebates."
+                    "explanation": "Puts a portion of the state budget surplus to income tax rebates."
                 },
                 {
                     "id": "HB196-0020",
@@ -57857,7 +57993,7 @@
                     "firstChamberFloorAction": true,
                     "preliminaryPassage": true,
                     "title": "Provide rebates of property taxes paid on a principal residence",
-                    "explanation": "Would use a portion of the state budget surplus for short-term property tax rebates."
+                    "explanation": "Uses a portion of the state budget surplus for short-term property tax rebates."
                 },
                 {
                     "id": "HB226-0026",
@@ -58059,7 +58195,8 @@
                     "isHighlight": true,
                     "firstChamberFloorAction": true,
                     "preliminaryPassage": true,
-                    "title": "Create SAFER account for federal highway grants"
+                    "title": "Create SAFER account for federal highway grants",
+                    "explanation": "Puts $100 million into a highway fund to help the state access federal match dollars."
                 },
                 {
                     "id": "HB272-0024",
@@ -61451,7 +61588,7 @@
                     "advanced": true,
                     "amended": true,
                     "title": "Use surplus revenue for income tax and property tax refunds and payment of bonds",
-                    "explanation": "Would put a portion of the state budget surplus to income tax rebates."
+                    "explanation": "Puts a portion of the state budget surplus to income tax rebates."
                 },
                 {
                     "id": "HB198-0028",
@@ -61581,7 +61718,7 @@
                     "advanced": true,
                     "amended": true,
                     "title": "Provide rebates of property taxes paid on a principal residence",
-                    "explanation": "Would use a portion of the state budget surplus for short-term property tax rebates."
+                    "explanation": "Uses a portion of the state budget surplus for short-term property tax rebates."
                 },
                 {
                     "id": "HB223-0029",
@@ -61690,7 +61827,8 @@
                     "committeeAction": true,
                     "advanced": true,
                     "amended": true,
-                    "title": "Create SAFER account for federal highway grants"
+                    "title": "Create SAFER account for federal highway grants",
+                    "explanation": "Puts $100 million into a highway fund to help the state access federal match dollars."
                 },
                 {
                     "id": "HB273-0023",
@@ -70240,7 +70378,7 @@
                     "committeeAction": true,
                     "secondChamberAction": true,
                     "title": "Provide rebates of property taxes paid on a principal residence",
-                    "explanation": "Would use a portion of the state budget surplus for short-term property tax rebates."
+                    "explanation": "Uses a portion of the state budget surplus for short-term property tax rebates."
                 },
                 {
                     "id": "HB222-0026",
@@ -70259,7 +70397,7 @@
                     "advanced": true,
                     "amended": true,
                     "title": "Provide rebates of property taxes paid on a principal residence",
-                    "explanation": "Would use a portion of the state budget surplus for short-term property tax rebates."
+                    "explanation": "Uses a portion of the state budget surplus for short-term property tax rebates."
                 },
                 {
                     "id": "HB227-0022",
@@ -71379,7 +71517,7 @@
                     "failed": true,
                     "tabled": true,
                     "title": "Provide rebates of property taxes paid on a principal residence",
-                    "explanation": "Would use a portion of the state budget surplus for short-term property tax rebates."
+                    "explanation": "Uses a portion of the state budget surplus for short-term property tax rebates."
                 },
                 {
                     "id": "HB224-0035",
