@@ -1684,6 +1684,7 @@
             "HB 818",
             "HB 819",
             "HB 820",
+            "HB 825",
             "HJ 2",
             "SB 3",
             "SB 16",
@@ -1701,7 +1702,7 @@
             "SB 123",
             "SB 124"
         ],
-        "billCount": 85,
+        "billCount": 86,
         "billsUnscheduled": [
             "HB 121",
             "HB 258",
@@ -1711,6 +1712,7 @@
             "HB 634",
             "HB 816",
             "HB 819",
+            "HB 825",
             "HJ 2",
             "SB 28",
             "SB 124"
@@ -3050,6 +3052,7 @@
             "HB 798",
             "HB 803",
             "HB 809",
+            "HB 823",
             "SB 57",
             "SB 106",
             "SB 108",
@@ -3063,8 +3066,9 @@
             "SB 263",
             "SB 288"
         ],
-        "billCount": 52,
+        "billCount": 53,
         "billsUnscheduled": [
+            "HB 823",
             "SB 228",
             "SB 255",
             "SB 263",
@@ -3948,6 +3952,7 @@
             "HB 765",
             "HB 773",
             "HB 779",
+            "HB 826",
             "SB 58",
             "SB 76",
             "SB 84",
@@ -3957,8 +3962,10 @@
             "SB 295",
             "SJ 14"
         ],
-        "billCount": 41,
-        "billsUnscheduled": [],
+        "billCount": 42,
+        "billsUnscheduled": [
+            "HB 826"
+        ],
         "billsScheduled": [
             "SB 84",
             "SB 85",
