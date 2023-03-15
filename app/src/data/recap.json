@@ -4,6 +4,23 @@
             "date": "03/15/2023",
             "actions": [
                 {
+                    "id": "SB303-0037",
+                    "bill": "SB 303",
+                    "date": "03/15/2023",
+                    "description": "Committee Executive Action--Bill Passed",
+                    "posession": "senate",
+                    "committee": "Senate Finance and Claims",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "transcriptUrl": null,
+                    "key": "Committee Executive Action--Bill Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "advanced": true,
+                    "title": "Revise witholding penalties for certain taxes"
+                },
+                {
                     "id": "SR35-0019",
                     "bill": "SR 35",
                     "date": "03/15/2023",
@@ -9265,7 +9282,9 @@
                     "posession": "senate",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46230?agendaId=257536"
+                    ],
                     "transcriptUrl": null,
                     "key": "2nd Reading Passed as Amended",
                     "isMajor": true,

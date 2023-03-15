@@ -4018,14 +4018,14 @@
         ],
         "billCount": 42,
         "billsUnscheduled": [
-            "HB 826",
-            "SJ 14"
+            "HB 826"
         ],
         "billsScheduled": [
             "SB 84",
             "SB 85",
             "SB 281",
-            "SB 295"
+            "SB 295",
+            "SJ 14"
         ],
         "billsScheduledByDay": [
             {
@@ -4040,6 +4040,12 @@
                 "day": "03/21/2023",
                 "bills": [
                     "SB 295"
+                ]
+            },
+            {
+                "day": "03/23/2023",
+                "bills": [
+                    "SJ 14"
                 ]
             }
         ],
@@ -4928,7 +4934,6 @@
         ],
         "billsAwaitingVote": [
             "SB 11",
-            "SB 303",
             "SB 352",
             "SB 474"
         ],
@@ -4990,6 +4995,7 @@
             "SB 281",
             "SB 282",
             "SB 294",
+            "SB 303",
             "SB 417",
             "SB 458",
             "SB 485",
