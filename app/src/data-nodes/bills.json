@@ -71560,6 +71560,95 @@
         "isOnCalendar": false
     },
     {
+        "key": "hb-824",
+        "identifier": "HB 824",
+        "chamber": "house",
+        "title": "Revise registration fee on certain high-value vehicles and watercraft",
+        "session": "20231",
+        "lcIdentifier": "LC2568",
+        "type": "house bill",
+        "status": {
+            "key": "In Drafting Process",
+            "step": "Drafting",
+            "label": "In drafting",
+            "status": "not introduced",
+            "statusAtSessionEnd": "not introduced"
+        },
+        "progress": [
+            {
+                "step": "introduced",
+                "status": "passed",
+                "statusLabel": "Introduced",
+                "statusDate": "03/11/2023"
+            },
+            {
+                "step": "first committee",
+                "status": "current",
+                "statusLabel": "Pending",
+                "statusDate": null
+            },
+            {
+                "step": "first chamber",
+                "status": "future",
+                "statusLabel": null,
+                "statusDate": null
+            },
+            {
+                "step": "second chamber",
+                "status": "future",
+                "statusLabel": null,
+                "statusDate": null
+            },
+            {
+                "step": "reconciliation",
+                "status": "skipped",
+                "statusLabel": null,
+                "statusDate": null
+            },
+            {
+                "step": "governor",
+                "status": "future",
+                "statusLabel": null,
+                "statusDate": null
+            }
+        ],
+        "hasBeenSentToGovernor": false,
+        "sponsor": {
+            "name": "Brad Barker",
+            "lastName": "Barker",
+            "party": "R",
+            "locale": "Roberts",
+            "district": "HD 58"
+        },
+        "requestor": null,
+        "deadlineCategory": "Revenue Bills",
+        "transmittalDeadline": "04/03/2023",
+        "secondHouseReturnIfAmendedDeadline": "04/21/2023",
+        "voteMajorityRequired": "Simple",
+        "subjects": [
+            "Agriculture  (see also: Livestock; Taxation--Agriculture/Livestock)",
+            "Bond Issues, Public",
+            "Environmental Protection",
+            "Local Finance  (see also: City Finance; County Finance)",
+            "Revenue, Local",
+            "Taxation (Generally)",
+            "Taxation--Property",
+            "Motor Vehicles (see also: Taxation--Trans; Traffic Regulations; Transportation)",
+            "Revenue, State",
+            "Taxation (Generally)",
+            "Taxation--Transportation and Vehicles"
+        ],
+        "tags": [],
+        "lawsUrl": "http://laws.leg.mt.gov/legprd/LAW0210W$BSIV.ActionQuery?P_BILL_NO1=824&P_BLTP_BILL_TYP_CD=HB&Z_ACTION=Find&P_SESS=20231",
+        "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC2568.pdf",
+        "fiscalNoteUrl": null,
+        "amendmentsUrl": null,
+        "legalNoteUrl": null,
+        "vetoMemoUrl": null,
+        "articles": [],
+        "isOnCalendar": false
+    },
+    {
         "key": "hb-825",
         "identifier": "HB 825",
         "chamber": "house",
@@ -77383,7 +77472,7 @@
         "explanation": null,
         "billPageText": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sb-47",
@@ -118563,7 +118652,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": true
+        "isOnCalendar": false
     },
     {
         "key": "sj-15",
