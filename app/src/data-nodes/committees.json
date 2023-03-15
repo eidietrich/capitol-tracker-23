@@ -3107,17 +3107,16 @@
             "SB 288"
         ],
         "billCount": 53,
-        "billsUnscheduled": [
+        "billsUnscheduled": [],
+        "billsScheduled": [
             "HB 823",
+            "SB 106",
+            "SB 221",
             "SB 228",
+            "SB 234",
             "SB 255",
             "SB 263",
             "SB 288"
-        ],
-        "billsScheduled": [
-            "SB 106",
-            "SB 221",
-            "SB 234"
         ],
         "billsScheduledByDay": [
             {
@@ -3126,6 +3125,21 @@
                     "SB 106",
                     "SB 221",
                     "SB 234"
+                ]
+            },
+            {
+                "day": "03/17/2023",
+                "bills": [
+                    "HB 823"
+                ]
+            },
+            {
+                "day": "03/20/2023",
+                "bills": [
+                    "SB 228",
+                    "SB 255",
+                    "SB 263",
+                    "SB 288"
                 ]
             }
         ],
@@ -5107,6 +5121,7 @@
         "time": "morning",
         "type": "policy",
         "bills": [
+            "HB 16",
             "HB 18",
             "HB 38",
             "HB 77",
@@ -5308,8 +5323,9 @@
             "SR 9",
             "SR 10"
         ],
-        "billCount": 200,
+        "billCount": 201,
         "billsUnscheduled": [
+            "HB 16",
             "HB 174",
             "HB 398",
             "HB 410",
