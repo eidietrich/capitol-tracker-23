@@ -3104,10 +3104,13 @@
             "SB 234",
             "SB 255",
             "SB 263",
-            "SB 288"
+            "SB 288",
+            "SB 293"
         ],
-        "billCount": 53,
-        "billsUnscheduled": [],
+        "billCount": 54,
+        "billsUnscheduled": [
+            "SB 293"
+        ],
         "billsScheduled": [
             "HB 823",
             "SB 106",
@@ -4287,7 +4290,6 @@
             "SB 195",
             "SB 199",
             "SB 206",
-            "SB 220",
             "SB 245",
             "SB 275"
         ],
@@ -4298,7 +4300,8 @@
             "SB 143",
             "SB 158",
             "SB 173",
-            "SB 174"
+            "SB 174",
+            "SB 220"
         ],
         "billsScheduledByDay": [
             {
@@ -4316,6 +4319,12 @@
                     "SB 158",
                     "SB 173",
                     "SB 174"
+                ]
+            },
+            {
+                "day": "03/28/2023",
+                "bills": [
+                    "SB 220"
                 ]
             }
         ],
@@ -6212,6 +6221,7 @@
             "HB 121",
             "HB 124",
             "HB 188",
+            "HB 189",
             "HB 212",
             "HB 221",
             "HB 223",
@@ -6272,8 +6282,9 @@
             "SB 511",
             "SR 11"
         ],
-        "billCount": 66,
+        "billCount": 67,
         "billsUnscheduled": [
+            "HB 189",
             "HB 345",
             "HB 459",
             "HB 497",
@@ -6471,6 +6482,7 @@
             "HB 338",
             "HB 377",
             "HB 396",
+            "HB 408",
             "HB 450",
             "HB 458",
             "HB 501",
@@ -6513,7 +6525,7 @@
             "SR 47",
             "SR 51"
         ],
-        "billCount": 62,
+        "billCount": 63,
         "billsUnscheduled": [
             "HB 36",
             "HB 79",
@@ -6527,6 +6539,7 @@
             "HB 338",
             "HB 377",
             "HB 396",
+            "HB 408",
             "HB 450",
             "HB 458",
             "HB 501",
@@ -7989,13 +8002,13 @@
         "billsUnscheduled": [
             "HB 158",
             "HB 159",
-            "HB 662"
+            "HB 662",
+            "HB 738"
         ],
         "billsScheduled": [
             "HB 276",
             "HB 388",
             "HB 418",
-            "HB 738",
             "HB 767"
         ],
         "billsScheduledByDay": [
@@ -8004,7 +8017,6 @@
                 "bills": [
                     "HB 388",
                     "HB 418",
-                    "HB 738",
                     "HB 767"
                 ]
             },
