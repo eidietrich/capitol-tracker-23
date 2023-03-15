@@ -116,7 +116,6 @@
         "HB 353",
         "HB 356",
         "HB 361",
-        "HB 362",
         "HB 367",
         "HB 374",
         "HB 375",
@@ -175,6 +174,7 @@
         "HB 548",
         "HB 549",
         "HB 551",
+        "HB 556",
         "HB 558",
         "HB 561",
         "HB 562",
@@ -371,6 +371,7 @@
         "HB 95",
         "HB 109",
         "HB 143",
+        "HB 185",
         "HB 199",
         "HB 220",
         "HB 228",
@@ -395,6 +396,7 @@
         "SB 111",
         "SB 120",
         "SB 280",
+        "SB 303",
         "SB 362"
     ],
     "scheduledHearings": [
@@ -1785,20 +1787,6 @@
             "hearing": true
         },
         {
-            "id": "HB362-0040",
-            "bill": "HB 362",
-            "date": "03/20/2023",
-            "description": "Hearing",
-            "posession": "senate",
-            "committee": "Senate Public Health, Welfare and Safety",
-            "actionUrl": null,
-            "recordings": [],
-            "transcriptUrl": null,
-            "key": "Hearing",
-            "isMajor": true,
-            "hearing": true
-        },
-        {
             "id": "HB367-0032",
             "bill": "HB 367",
             "date": "03/17/2023",
@@ -2603,6 +2591,20 @@
             "description": "Hearing",
             "posession": "house",
             "committee": "House Judiciary",
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
+            "id": "HB556-0033",
+            "bill": "HB 556",
+            "date": "03/20/2023",
+            "description": "Hearing",
+            "posession": "senate",
+            "committee": "Senate Public Health, Welfare and Safety",
             "actionUrl": null,
             "recordings": [],
             "transcriptUrl": null,
@@ -5354,6 +5356,19 @@
             "scheduledForFloorDebate": true
         },
         {
+            "id": "HB185-0045",
+            "bill": "HB 185",
+            "date": "03/16/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
             "id": "HB199-0031",
             "bill": "HB 199",
             "date": "03/15/2023",
@@ -5551,9 +5566,35 @@
             "scheduledForFinalVote": true
         },
         {
+            "id": "HB109-0032",
+            "bill": "HB 109",
+            "date": "03/16/2023",
+            "description": "Scheduled for 3rd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Scheduled for 3rd Reading",
+            "scheduledForFinalVote": true
+        },
+        {
             "id": "HB112-0047",
             "bill": "HB 112",
             "date": "03/15/2023",
+            "description": "Scheduled for 3rd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Scheduled for 3rd Reading",
+            "scheduledForFinalVote": true
+        },
+        {
+            "id": "HB143-0033",
+            "bill": "HB 143",
+            "date": "03/16/2023",
             "description": "Scheduled for 3rd Reading",
             "posession": "senate",
             "committee": null,
@@ -5577,11 +5618,37 @@
             "scheduledForFinalVote": true
         },
         {
+            "id": "HB199-0033",
+            "bill": "HB 199",
+            "date": "03/16/2023",
+            "description": "Scheduled for 3rd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Scheduled for 3rd Reading",
+            "scheduledForFinalVote": true
+        },
+        {
             "id": "HB225-0040",
             "bill": "HB 225",
             "date": "03/15/2023",
             "description": "Scheduled for 3rd Reading",
             "posession": "house",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Scheduled for 3rd Reading",
+            "scheduledForFinalVote": true
+        },
+        {
+            "id": "HB228-0038",
+            "bill": "HB 228",
+            "date": "03/16/2023",
+            "description": "Scheduled for 3rd Reading",
+            "posession": "senate",
             "committee": null,
             "actionUrl": null,
             "recordings": [],
@@ -5681,9 +5748,35 @@
             "scheduledForFinalVote": true
         },
         {
+            "id": "SB303-0039",
+            "bill": "SB 303",
+            "date": "03/16/2023",
+            "description": "Scheduled for 3rd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Scheduled for 3rd Reading",
+            "scheduledForFinalVote": true
+        },
+        {
             "id": "SB362-0032",
             "bill": "SB 362",
             "date": "03/15/2023",
+            "description": "Scheduled for 3rd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Scheduled for 3rd Reading",
+            "scheduledForFinalVote": true
+        },
+        {
+            "id": "SB485-0035",
+            "bill": "SB 485",
+            "date": "03/16/2023",
             "description": "Scheduled for 3rd Reading",
             "posession": "senate",
             "committee": null,
