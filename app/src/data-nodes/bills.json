@@ -71478,108 +71478,23 @@
         "key": "hb-824",
         "identifier": "HB 824",
         "chamber": "house",
-        "title": "Exempt agricultural property from open space bonds",
-        "session": "20231",
-        "lcIdentifier": "LC1972",
-        "type": "house bill",
-        "status": {
-            "key": "In Drafting Process",
-            "step": "Drafting",
-            "label": "In drafting",
-            "status": "not introduced",
-            "statusAtSessionEnd": "not introduced"
-        },
-        "progress": [
-            {
-                "step": "introduced",
-                "status": "passed",
-                "statusLabel": "Introduced",
-                "statusDate": "03/11/2023"
-            },
-            {
-                "step": "first committee",
-                "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
-            },
-            {
-                "step": "first chamber",
-                "status": "future",
-                "statusLabel": null,
-                "statusDate": null
-            },
-            {
-                "step": "second chamber",
-                "status": "future",
-                "statusLabel": null,
-                "statusDate": null
-            },
-            {
-                "step": "reconciliation",
-                "status": "skipped",
-                "statusLabel": null,
-                "statusDate": null
-            },
-            {
-                "step": "governor",
-                "status": "future",
-                "statusLabel": null,
-                "statusDate": null
-            }
-        ],
-        "hasBeenSentToGovernor": false,
-        "sponsor": {
-            "name": "Brad Barker",
-            "lastName": "Barker",
-            "party": "R",
-            "locale": "Roberts",
-            "district": "HD 58"
-        },
-        "requestor": null,
-        "deadlineCategory": "Revenue Bills",
-        "transmittalDeadline": "04/03/2023",
-        "secondHouseReturnIfAmendedDeadline": "04/21/2023",
-        "voteMajorityRequired": "Simple",
-        "subjects": [
-            "Agriculture  (see also: Livestock; Taxation--Agriculture/Livestock)",
-            "Bond Issues, Public",
-            "Environmental Protection",
-            "Local Finance  (see also: City Finance; County Finance)",
-            "Revenue, Local",
-            "Taxation (Generally)",
-            "Taxation--Property"
-        ],
-        "tags": [],
-        "lawsUrl": "http://laws.leg.mt.gov/legprd/LAW0210W$BSIV.ActionQuery?P_BILL_NO1=824&P_BLTP_BILL_TYP_CD=HB&Z_ACTION=Find&P_SESS=20231",
-        "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0824.pdf",
-        "fiscalNoteUrl": null,
-        "amendmentsUrl": null,
-        "legalNoteUrl": null,
-        "vetoMemoUrl": null,
-        "articles": [],
-        "isOnCalendar": false
-    },
-    {
-        "key": "hb-824",
-        "identifier": "HB 824",
-        "chamber": "house",
         "title": "Revise registration fee on certain high-value vehicles and watercraft",
         "session": "20231",
         "lcIdentifier": "LC2568",
         "type": "house bill",
         "status": {
-            "key": "In Drafting Process",
-            "step": "Drafting",
-            "label": "In drafting",
-            "status": "not introduced",
-            "statusAtSessionEnd": "not introduced"
+            "key": "In First House--Introduced",
+            "step": "First chamber",
+            "label": "Introduced",
+            "status": "live",
+            "statusAtSessionEnd": "failed"
         },
         "progress": [
             {
                 "step": "introduced",
                 "status": "passed",
                 "statusLabel": "Introduced",
-                "statusDate": "03/11/2023"
+                "statusDate": "03/15/2023"
             },
             {
                 "step": "first committee",
@@ -71626,13 +71541,6 @@
         "secondHouseReturnIfAmendedDeadline": "04/21/2023",
         "voteMajorityRequired": "Simple",
         "subjects": [
-            "Agriculture  (see also: Livestock; Taxation--Agriculture/Livestock)",
-            "Bond Issues, Public",
-            "Environmental Protection",
-            "Local Finance  (see also: City Finance; County Finance)",
-            "Revenue, Local",
-            "Taxation (Generally)",
-            "Taxation--Property",
             "Motor Vehicles (see also: Taxation--Trans; Traffic Regulations; Transportation)",
             "Revenue, State",
             "Taxation (Generally)",
@@ -72374,6 +72282,256 @@
         "tags": [],
         "lawsUrl": "http://laws.leg.mt.gov/legprd/LAW0210W$BSIV.ActionQuery?P_BILL_NO1=833&P_BLTP_BILL_TYP_CD=HB&Z_ACTION=Find&P_SESS=20231",
         "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0833.pdf",
+        "fiscalNoteUrl": null,
+        "amendmentsUrl": null,
+        "legalNoteUrl": null,
+        "vetoMemoUrl": null,
+        "articles": [],
+        "isOnCalendar": false
+    },
+    {
+        "key": "hb-834",
+        "identifier": "HB 834",
+        "chamber": "house",
+        "title": "Exempt agricultural property from open space bonds",
+        "session": "20231",
+        "lcIdentifier": "LC1972",
+        "type": "house bill",
+        "status": {
+            "key": "In First House--Introduced",
+            "step": "First chamber",
+            "label": "Introduced",
+            "status": "live",
+            "statusAtSessionEnd": "failed"
+        },
+        "progress": [
+            {
+                "step": "introduced",
+                "status": "passed",
+                "statusLabel": "Introduced",
+                "statusDate": "03/11/2023"
+            },
+            {
+                "step": "first committee",
+                "status": "current",
+                "statusLabel": "Pending",
+                "statusDate": null
+            },
+            {
+                "step": "first chamber",
+                "status": "future",
+                "statusLabel": null,
+                "statusDate": null
+            },
+            {
+                "step": "second chamber",
+                "status": "future",
+                "statusLabel": null,
+                "statusDate": null
+            },
+            {
+                "step": "reconciliation",
+                "status": "skipped",
+                "statusLabel": null,
+                "statusDate": null
+            },
+            {
+                "step": "governor",
+                "status": "future",
+                "statusLabel": null,
+                "statusDate": null
+            }
+        ],
+        "hasBeenSentToGovernor": false,
+        "sponsor": {
+            "name": "Brad Barker",
+            "lastName": "Barker",
+            "party": "R",
+            "locale": "Roberts",
+            "district": "HD 58"
+        },
+        "requestor": null,
+        "deadlineCategory": "Revenue Bills",
+        "transmittalDeadline": "04/03/2023",
+        "secondHouseReturnIfAmendedDeadline": "04/21/2023",
+        "voteMajorityRequired": "Simple",
+        "subjects": [
+            "Agriculture  (see also: Livestock; Taxation--Agriculture/Livestock)",
+            "Bond Issues, Public",
+            "Environmental Protection",
+            "Local Finance  (see also: City Finance; County Finance)",
+            "Revenue, Local",
+            "Taxation (Generally)",
+            "Taxation--Property"
+        ],
+        "tags": [],
+        "lawsUrl": "http://laws.leg.mt.gov/legprd/LAW0210W$BSIV.ActionQuery?P_BILL_NO1=834&P_BLTP_BILL_TYP_CD=HB&Z_ACTION=Find&P_SESS=20231",
+        "textUrl": "http://leg.mt.gov/bills/2023/billpdf/HB0834.pdf",
+        "fiscalNoteUrl": null,
+        "amendmentsUrl": null,
+        "legalNoteUrl": null,
+        "vetoMemoUrl": null,
+        "articles": [],
+        "isOnCalendar": false
+    },
+    {
+        "key": "hb-835",
+        "identifier": "HB 835",
+        "chamber": "house",
+        "title": "Create Medicaid and 24/7 contingency fund",
+        "session": "20231",
+        "lcIdentifier": "LC2013",
+        "type": "house bill",
+        "status": {
+            "key": "In First House--Introduced",
+            "step": "First chamber",
+            "label": "Introduced",
+            "status": "live",
+            "statusAtSessionEnd": "failed"
+        },
+        "progress": [
+            {
+                "step": "introduced",
+                "status": "passed",
+                "statusLabel": "Introduced",
+                "statusDate": "03/15/2023"
+            },
+            {
+                "step": "first committee",
+                "status": "current",
+                "statusLabel": "Pending",
+                "statusDate": null
+            },
+            {
+                "step": "first chamber",
+                "status": "future",
+                "statusLabel": null,
+                "statusDate": null
+            },
+            {
+                "step": "second chamber",
+                "status": "future",
+                "statusLabel": null,
+                "statusDate": null
+            },
+            {
+                "step": "reconciliation",
+                "status": "skipped",
+                "statusLabel": null,
+                "statusDate": null
+            },
+            {
+                "step": "governor",
+                "status": "future",
+                "statusLabel": null,
+                "statusDate": null
+            }
+        ],
+        "hasBeenSentToGovernor": false,
+        "sponsor": {
+            "name": "Bob Keenan",
+            "lastName": "Keenan",
+            "party": "R",
+            "locale": "Bigfork",
+            "district": "HD 10"
+        },
+        "requestor": null,
+        "deadlineCategory": "Appropriation Bills",
+        "transmittalDeadline": "04/03/2023",
+        "secondHouseReturnIfAmendedDeadline": "04/21/2023",
+        "voteMajorityRequired": "Simple",
+        "subjects": [
+            "Appropriations  (see also: State Finance)",
+            "Developmental Disabilities, Persons With (see also: Institutions)",
+            "Health (see also: Health Care Services; Safety)",
+            "Senior Citizens  (see also: Retirement)",
+            "Social Services",
+            "State Finance  (see also: Appropriations; Taxation Subjects)"
+        ],
+        "tags": [],
+        "lawsUrl": "http://laws.leg.mt.gov/legprd/LAW0210W$BSIV.ActionQuery?P_BILL_NO1=835&P_BLTP_BILL_TYP_CD=HB&Z_ACTION=Find&P_SESS=20231",
+        "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC2013.pdf",
+        "fiscalNoteUrl": null,
+        "amendmentsUrl": null,
+        "legalNoteUrl": null,
+        "vetoMemoUrl": null,
+        "articles": [],
+        "isOnCalendar": false
+    },
+    {
+        "key": "hb-836",
+        "identifier": "HB 836",
+        "chamber": "house",
+        "title": "Revise insurance laws relating to regulatory waivers",
+        "session": "20231",
+        "lcIdentifier": "LC1455",
+        "type": "house bill",
+        "status": {
+            "key": "In First House--Introduced",
+            "step": "First chamber",
+            "label": "Introduced",
+            "status": "live",
+            "statusAtSessionEnd": "failed"
+        },
+        "progress": [
+            {
+                "step": "introduced",
+                "status": "passed",
+                "statusLabel": "Introduced",
+                "statusDate": "03/15/2023"
+            },
+            {
+                "step": "first committee",
+                "status": "current",
+                "statusLabel": "Pending",
+                "statusDate": null
+            },
+            {
+                "step": "first chamber",
+                "status": "future",
+                "statusLabel": null,
+                "statusDate": null
+            },
+            {
+                "step": "second chamber",
+                "status": "future",
+                "statusLabel": null,
+                "statusDate": null
+            },
+            {
+                "step": "reconciliation",
+                "status": "skipped",
+                "statusLabel": null,
+                "statusDate": null
+            },
+            {
+                "step": "governor",
+                "status": "future",
+                "statusLabel": null,
+                "statusDate": null
+            }
+        ],
+        "hasBeenSentToGovernor": false,
+        "sponsor": {
+            "name": "Katie Zolnikov",
+            "lastName": "Zolnikov",
+            "party": "R",
+            "locale": "Billings",
+            "district": "HD 45"
+        },
+        "requestor": null,
+        "deadlineCategory": "Revenue Bills",
+        "transmittalDeadline": "04/03/2023",
+        "secondHouseReturnIfAmendedDeadline": "04/21/2023",
+        "voteMajorityRequired": "Simple",
+        "subjects": [
+            "Insurance",
+            "Revenue, State",
+            "Rule Making"
+        ],
+        "tags": [],
+        "lawsUrl": "http://laws.leg.mt.gov/legprd/LAW0210W$BSIV.ActionQuery?P_BILL_NO1=836&P_BLTP_BILL_TYP_CD=HB&Z_ACTION=Find&P_SESS=20231",
+        "textUrl": "http://leg.mt.gov/bills/2023/billpdf/LC1455.pdf",
         "fiscalNoteUrl": null,
         "amendmentsUrl": null,
         "legalNoteUrl": null,
@@ -81673,7 +81831,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "sb-94",
@@ -83817,7 +83975,7 @@
                 "governorTags": []
             }
         ],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "sb-118",
@@ -90832,7 +90990,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "sb-198",
@@ -93038,7 +93196,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "sb-223",
@@ -93983,7 +94141,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "sb-233",
@@ -95835,7 +95993,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "sb-255",
@@ -117460,9 +117618,9 @@
         "lcIdentifier": "LC0874",
         "type": "senate bill",
         "status": {
-            "key": "In First House--Introduced",
+            "key": "In First House Committee--Nontabled",
             "step": "First chamber",
-            "label": "Introduced",
+            "label": "In committee",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -117542,9 +117700,9 @@
         "lcIdentifier": "LC2690",
         "type": "senate bill",
         "status": {
-            "key": "In First House--Introduced",
+            "key": "In First House Committee--Nontabled",
             "step": "First chamber",
-            "label": "Introduced",
+            "label": "In committee",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -117624,9 +117782,9 @@
         "lcIdentifier": "LC1096",
         "type": "senate bill",
         "status": {
-            "key": "In First House--Introduced",
+            "key": "In First House Committee--Nontabled",
             "step": "First chamber",
-            "label": "Introduced",
+            "label": "In committee",
             "status": "live",
             "statusAtSessionEnd": "failed"
         },
@@ -118856,7 +119014,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "sj-18",
@@ -118923,7 +119081,7 @@
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
-        "isOnCalendar": false
+        "isOnCalendar": true
     },
     {
         "key": "sr-1",
@@ -121104,14 +121262,14 @@
             },
             {
                 "step": "first committee",
-                "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "status": "passed",
+                "statusLabel": "Advanced",
+                "statusDate": "03/15/2023"
             },
             {
                 "step": "first chamber",
-                "status": "future",
-                "statusLabel": null,
+                "status": "current",
+                "statusLabel": "Pending",
                 "statusDate": null
             }
         ],
@@ -121136,7 +121294,7 @@
         "lawsUrl": "http://laws.leg.mt.gov/legprd/LAW0210W$BSIV.ActionQuery?P_BILL_NO1=35&P_BLTP_BILL_TYP_CD=SR&Z_ACTION=Find&P_SESS=20231",
         "textUrl": "http://leg.mt.gov/bills/2023/billpdf/SR0035.pdf",
         "fiscalNoteUrl": null,
-        "amendmentsUrl": null,
+        "amendmentsUrl": "https://leg.mt.gov/laws/bills/2023/AmdPublicWeb/?bill=SR0035",
         "legalNoteUrl": null,
         "vetoMemoUrl": null,
         "articles": [],
@@ -121603,14 +121761,14 @@
             },
             {
                 "step": "first committee",
-                "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "status": "passed",
+                "statusLabel": "Advanced",
+                "statusDate": "03/15/2023"
             },
             {
                 "step": "first chamber",
-                "status": "future",
-                "statusLabel": null,
+                "status": "current",
+                "statusLabel": "Pending",
                 "statusDate": null
             }
         ],
@@ -122371,14 +122529,14 @@
             },
             {
                 "step": "first committee",
-                "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "status": "passed",
+                "statusLabel": "Advanced",
+                "statusDate": "03/15/2023"
             },
             {
                 "step": "first chamber",
-                "status": "future",
-                "statusLabel": null,
+                "status": "current",
+                "statusLabel": "Pending",
                 "statusDate": null
             }
         ],
@@ -122432,14 +122590,14 @@
             },
             {
                 "step": "first committee",
-                "status": "current",
-                "statusLabel": "Pending",
-                "statusDate": null
+                "status": "passed",
+                "statusLabel": "Advanced",
+                "statusDate": "03/15/2023"
             },
             {
                 "step": "first chamber",
-                "status": "future",
-                "statusLabel": null,
+                "status": "current",
+                "statusLabel": "Pending",
                 "statusDate": null
             }
         ],
