@@ -111,6 +111,7 @@ export default class Bill {
             billPageText: BillPageText,
 
             articles,
+            numArticles: articles.length // for bill table summaries
 
             // leave actions out here + merge in export
         }

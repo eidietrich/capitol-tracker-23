@@ -13,7 +13,7 @@
     },
     {
         "category": "Other budget bills",
-        "description": "Budget bills brought as alternatives to the governor’s proposal.",
+        "description": "Budget bills brought independently from the governor’s proposal.",
         "order": 3,
         "show": true
     },
@@ -24,7 +24,7 @@
         "show": true
     },
     {
-        "category": "Energy and Transportation",
+        "category": "Energy and transportation",
         "description": null,
         "order": 11,
         "show": true
@@ -75,6 +75,12 @@
         "category": "Housing",
         "description": null,
         "order": 13,
+        "show": true
+    },
+    {
+        "category": "Legislative Power",
+        "description": null,
+        "order": 4,
         "show": true
     }
 ]

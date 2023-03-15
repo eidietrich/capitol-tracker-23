@@ -37,7 +37,7 @@ const Index = ({ data, location }) => {
       <h2 id="key-bill-status">Key bill progress</h2>
 
       <div>
-        {keyBillCategories.map((c, i) => <span key={c.category}>
+        {keyBillCategories.sort((a, b) => a.order - b.order).map((c, i) => <span key={c.category}>
           {i !== 0 ? ' • ' : ''}<Link to={`/#${urlize(c.category)}`}>{c.category}</Link>
         </span>)}
       </div>

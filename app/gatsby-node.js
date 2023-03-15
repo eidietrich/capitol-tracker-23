@@ -55,6 +55,7 @@ exports.createSchemaCustomization = ({ actions }) => {
             vetoMemoUrl: String
             fiscalNoteUrl: String
             amendmentsUrl: String
+            numArticles: Int
             articles: [Article]
             actions: [BillAction]
         }

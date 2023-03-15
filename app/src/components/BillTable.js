@@ -272,6 +272,7 @@ export const BillTableDataFragment = graphql`
     legalNoteUrl
     amendmentsUrl
     vetoMemoUrl
+    numArticles
     sponsor {
       name
       district
