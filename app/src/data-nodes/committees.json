@@ -3481,7 +3481,6 @@
         "bills": [
             "HB 15",
             "HB 21",
-            "HB 22",
             "HB 36",
             "HB 171",
             "HB 181",
@@ -3544,7 +3543,7 @@
             "SB 444",
             "SB 480"
         ],
-        "billCount": 64,
+        "billCount": 63,
         "billsUnscheduled": [
             "HB 257",
             "HB 482",
@@ -3586,7 +3585,6 @@
         "billsAdvanced": [
             "HB 15",
             "HB 21",
-            "HB 22",
             "HB 36",
             "HB 171",
             "HB 181",
@@ -6710,7 +6708,6 @@
         "bills": [
             "HB 15",
             "HB 21",
-            "HB 22",
             "HB 36",
             "HB 61",
             "HB 79",
@@ -6772,7 +6769,7 @@
             "SR 47",
             "SR 51"
         ],
-        "billCount": 63,
+        "billCount": 62,
         "billsUnscheduled": [
             "HB 36",
             "HB 79",
@@ -6843,7 +6840,6 @@
         "billsAdvanced": [
             "HB 15",
             "HB 21",
-            "HB 22",
             "HB 61",
             "SB 1",
             "SB 8",
@@ -7300,17 +7296,12 @@
         "billCount": 50,
         "billsUnscheduled": [
             "HB 185",
-            "HB 270",
-            "HB 460",
             "HB 473",
             "HB 576",
             "HB 586",
             "HB 641",
             "HB 656",
             "HB 775",
-            "HB 795",
-            "HJ 7",
-            "HJ 11",
             "SB 82",
             "SB 271",
             "SR 45"
@@ -7319,9 +7310,14 @@
             "HB 34",
             "HB 114",
             "HB 141",
+            "HB 270",
             "HB 289",
             "HB 343",
-            "HB 561"
+            "HB 460",
+            "HB 561",
+            "HB 795",
+            "HJ 7",
+            "HJ 11"
         ],
         "billsScheduledByDay": [
             {
@@ -7340,8 +7336,18 @@
                 ]
             },
             {
+                "day": "03/20/2023",
+                "bills": [
+                    "HB 795",
+                    "HJ 7",
+                    "HJ 11"
+                ]
+            },
+            {
                 "day": "03/24/2023",
                 "bills": [
+                    "HB 270",
+                    "HB 460",
                     "HB 561"
                 ]
             }
