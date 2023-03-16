@@ -1385,7 +1385,6 @@
             "SB 340",
             "SB 369",
             "SB 370",
-            "SB 373",
             "SB 378",
             "SB 411",
             "SB 425",
@@ -1423,7 +1422,8 @@
             "SB 262",
             "SB 264",
             "SB 269",
-            "SB 270"
+            "SB 270",
+            "SB 373"
         ],
         "billsScheduledByDay": [
             {
@@ -1446,7 +1446,8 @@
                 "bills": [
                     "SB 168",
                     "SB 209",
-                    "SB 262"
+                    "SB 262",
+                    "SB 373"
                 ]
             },
             {
@@ -8423,20 +8424,19 @@
         "billCount": 21,
         "billsUnscheduled": [
             "HB 284",
+            "HB 804",
             "HJ 6",
             "SB 242",
             "SB 316"
         ],
         "billsScheduled": [
-            "HB 558",
-            "HB 804"
+            "HB 558"
         ],
         "billsScheduledByDay": [
             {
                 "day": "03/16/2023",
                 "bills": [
-                    "HB 558",
-                    "HB 804"
+                    "HB 558"
                 ]
             }
         ],
