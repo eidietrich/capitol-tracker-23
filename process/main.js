@@ -88,7 +88,8 @@ const committees = COMMITTEES
     ].includes(d.type))
     .map(schema => new Committee({
         schema,
-        billActions: actions.filter(a => a.committee === schema.name),
+        committeeBills: bills.filter(b => b.committees.includes(schema.name)),
+        // billActions: actions.filter(a => a.committee === schema.name),
         lawmakers: lawmakers.filter(l => l.data.committees.map(d => d.committee).includes(schema.name)),
         updateTime
     }))

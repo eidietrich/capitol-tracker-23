@@ -51,6 +51,7 @@ const CommitteePage = ({ pageContext, data, location }) => {
         time,
         type,
         billCount,
+        billsWithdrawn,
         billsUnscheduled,
         billsScheduledByDay,
         billsAwaitingVote,
@@ -75,6 +76,7 @@ const CommitteePage = ({ pageContext, data, location }) => {
     ))
 
     const awaitingVoteBills = bills.filter(d => billsAwaitingVote.includes(d.identifier))
+    const withdrawnBills = bills.filter(d => billsWithdrawn.includes(d.identifier))
     const failedBills = bills.filter(d => billsFailed.includes(d.identifier))
     const passedBills = bills.filter(d => billsAdvanced.includes(d.identifier))
     const blastedBills = bills.filter(d => billsBlasted.includes(d.identifier))
@@ -149,6 +151,9 @@ const CommitteePage = ({ pageContext, data, location }) => {
 
             <h3 id="awaiting-votes">⌛️ Heard, awaiting vote ({awaitingVoteBills.length})</h3>
             <BillTable bills={awaitingVoteBills} displayLimit={5} />
+
+            <h3>🚫 Withdrawn ({withdrawnBills.length})</h3>
+            <BillTable bills={withdrawnBills} displayLimit={5} />
 
             <h3 id="failed">🚫 Voted down ({failedBills.length})</h3>
             <BillTable bills={failedBills} displayLimit={5} />

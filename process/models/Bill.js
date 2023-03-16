@@ -65,6 +65,7 @@ export default class Bill {
         this.sponsor = standardizeLawmakerName(sponsor) // TODO clean name here
         this.voteMajorityRequired = this.getVoteMajorityRequired(subjects)
         this.actions = this.buildActionList(actions, votes, this.voteMajorityRequired, this.getChamber(key))
+        this.committees = Array.from(new Set(this.actions.map(a => a.data.committee))).filter(d => d !== null)
         this.progress = this.getProgress({
             billType: this.type,
             firstChamber: this.chamber,
