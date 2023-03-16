@@ -4,6 +4,23 @@
             "date": "03/16/2023",
             "actions": [
                 {
+                    "id": "HB831-0016",
+                    "bill": "HB 831",
+                    "date": "03/16/2023",
+                    "description": "Bill Withdrawn per House Rule H30-50(3)(b)",
+                    "posession": "house",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "transcriptUrl": null,
+                    "key": "Bill Withdrawn per House Rule H30-50(3)(b)",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "withdrawn": true,
+                    "title": "Fund school meals for all students"
+                },
+                {
                     "id": "SB12-0032",
                     "bill": "SB 12",
                     "date": "03/16/2023",
@@ -55,6 +72,25 @@
                     "committeeAction": true,
                     "advanced": true,
                     "title": "Name MHP headquarters for Kris Hansen"
+                },
+                {
+                    "id": "SB296-0033",
+                    "bill": "SB 296",
+                    "date": "03/16/2023",
+                    "description": "Tabled in Committee",
+                    "posession": "senate",
+                    "committee": "Senate Finance and Claims",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "transcriptUrl": null,
+                    "key": "Tabled in Committee",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "secondChamberAction": true,
+                    "failed": true,
+                    "tabled": true,
+                    "title": "Revise nursing home and/or assisted living funding"
                 },
                 {
                     "id": "SJ3-0030",
