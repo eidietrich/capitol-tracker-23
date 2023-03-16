@@ -4037,10 +4037,6 @@
         "billsWithdrawn": [],
         "billsUnscheduled": [
             "HB 834",
-            "SB 78",
-            "SB 202",
-            "SB 217",
-            "SB 375",
             "SB 447",
             "SB 462",
             "SJ 9",
@@ -4049,7 +4045,11 @@
         "billsScheduled": [
             "HB 821",
             "SB 37",
-            "SB 71"
+            "SB 71",
+            "SB 78",
+            "SB 202",
+            "SB 217",
+            "SB 375"
         ],
         "billsScheduledByDay": [
             {
@@ -4058,6 +4058,15 @@
                     "HB 821",
                     "SB 37",
                     "SB 71"
+                ]
+            },
+            {
+                "day": "03/21/2023",
+                "bills": [
+                    "SB 78",
+                    "SB 202",
+                    "SB 217",
+                    "SB 375"
                 ]
             }
         ],
@@ -8956,10 +8965,10 @@
             "HB 26",
             "HB 27",
             "HB 105",
-            "HB 179",
             "HB 401"
         ],
         "billsFailed": [
+            "HB 179",
             "SB 137",
             "SB 412"
         ],
