@@ -1,6 +1,30 @@
 {
     "actionsByDate": [
         {
+            "date": "03/17/2023",
+            "actions": [
+                {
+                    "id": "HB272-0029",
+                    "bill": "HB 272",
+                    "date": "03/17/2023",
+                    "description": "Tabled in Committee",
+                    "posession": "senate",
+                    "committee": "Senate Business, Labor, and Economic Affairs",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "transcriptUrl": null,
+                    "key": "Tabled in Committee",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "committeeAction": true,
+                    "secondChamberAction": true,
+                    "failed": true,
+                    "tabled": true,
+                    "title": "Revise alcohol laws relating to contrived events and employees of licensees"
+                }
+            ]
+        },
+        {
             "date": "03/16/2023",
             "actions": [
                 {
@@ -1231,7 +1255,9 @@
                     "posession": "house",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46147?agendaId=259926"
+                    ],
                     "transcriptUrl": null,
                     "key": "2nd Reading Concurred",
                     "isMajor": true,
@@ -1298,6 +1324,23 @@
                     "explanation": null
                 },
                 {
+                    "id": "SB103-0046",
+                    "bill": "SB 103",
+                    "date": "03/16/2023",
+                    "description": "Signed by Governor",
+                    "posession": "governor",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "transcriptUrl": null,
+                    "key": "Signed by Governor",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "governorAction": true,
+                    "signed": true,
+                    "title": "Revise airport courtesy car insurance requirements"
+                },
+                {
                     "id": "SB163-0045",
                     "bill": "SB 163",
                     "date": "03/16/2023",
@@ -1349,6 +1392,22 @@
                     "failed": true,
                     "tabled": true,
                     "title": "Revise nursing home and/or assisted living funding"
+                },
+                {
+                    "id": "SB298-0039",
+                    "bill": "SB 298",
+                    "date": "03/16/2023",
+                    "description": "Taken from Table in Committee",
+                    "posession": "senate",
+                    "committee": "Senate Fish and Game",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "transcriptUrl": null,
+                    "key": "Taken from Table in Committee",
+                    "isMajor": true,
+                    "committeeAction": true,
+                    "secondChamberAction": true,
+                    "title": "Revise laws related to hunting by disabled persons"
                 },
                 {
                     "id": "SB303-0040",
@@ -3420,7 +3479,9 @@
                     "posession": "senate",
                     "committee": null,
                     "actionUrl": null,
-                    "recordings": [],
+                    "recordings": [
+                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46231?agendaId=258061"
+                    ],
                     "transcriptUrl": null,
                     "key": "2nd Reading Concurred",
                     "isMajor": true,
