@@ -3604,13 +3604,12 @@
             "HB 667",
             "HB 759"
         ],
-        "billsUnscheduled": [
+        "billsUnscheduled": [],
+        "billsScheduled": [
             "HB 833",
             "HB 837",
-            "SB 213"
-        ],
-        "billsScheduled": [
             "SB 132",
+            "SB 213",
             "SB 289",
             "SB 374",
             "SB 444",
@@ -3627,9 +3626,22 @@
             {
                 "day": "03/20/2023",
                 "bills": [
+                    "SB 213",
                     "SB 289",
                     "SB 444",
                     "SB 480"
+                ]
+            },
+            {
+                "day": "03/24/2023",
+                "bills": [
+                    "HB 833"
+                ]
+            },
+            {
+                "day": "03/27/2023",
+                "bills": [
+                    "HB 837"
                 ]
             }
         ],
