@@ -8423,12 +8423,20 @@
         "billsWithdrawn": [],
         "billsUnscheduled": [
             "HB 284",
-            "HB 804",
             "HJ 6",
             "SB 242"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduled": [
+            "HB 804"
+        ],
+        "billsScheduledByDay": [
+            {
+                "day": "03/21/2023",
+                "bills": [
+                    "HB 804"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "HB 47",
             "HB 558"
