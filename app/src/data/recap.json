@@ -1,6 +1,26 @@
 {
     "actionsByDate": [
         {
+            "date": "03/20/2023",
+            "actions": [
+                {
+                    "id": "HB3-0041",
+                    "bill": "HB 3",
+                    "date": "03/20/2023",
+                    "description": "Chapter Number Assigned",
+                    "posession": "other",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "transcriptUrl": null,
+                    "key": "Chapter Number Assigned",
+                    "isMajor": true,
+                    "ultimatelyPassed": true,
+                    "title": "Supplemental Appropriations Bill"
+                }
+            ]
+        },
+        {
             "date": "03/18/2023",
             "actions": [
                 {
@@ -918,7 +938,8 @@
                     "isHighlight": true,
                     "committeeAction": true,
                     "advanced": true,
-                    "title": "Provide requirements for coverage of abortion under Medicaid and CHIP"
+                    "title": "Provide requirements for coverage of abortion under Medicaid and CHIP",
+                    "explanation": "Requires pre-authorization and increased documentation for Medicaid-eligible abortions."
                 },
                 {
                     "id": "HB546-0039",
@@ -1678,7 +1699,8 @@
                     "firstChamberFloorAction": true,
                     "advanced": true,
                     "finalPassage": true,
-                    "title": "Define sex in Montana law"
+                    "title": "Define sex in Montana law",
+                    "explanation": "Precludes legal recognition of transgender people and those with intersex conditions by defining 'sex' based on reproductive systems."
                 },
                 {
                     "id": "SB487-0042",
@@ -4316,7 +4338,8 @@
                     "firstChamberFloorAction": true,
                     "preliminaryPassage": true,
                     "amended": true,
-                    "title": "Define sex in Montana law"
+                    "title": "Define sex in Montana law",
+                    "explanation": "Precludes legal recognition of transgender people and those with intersex conditions by defining 'sex' based on reproductive systems."
                 },
                 {
                     "id": "SB485-0034",
@@ -8229,7 +8252,8 @@
                     "isHighlight": true,
                     "committeeAction": true,
                     "advanced": true,
-                    "title": "Define sex in Montana law"
+                    "title": "Define sex in Montana law",
+                    "explanation": "Precludes legal recognition of transgender people and those with intersex conditions by defining 'sex' based on reproductive systems."
                 },
                 {
                     "id": "SB463-0027",
@@ -14060,7 +14084,8 @@
                     "firstChamberFloorAction": true,
                     "advanced": true,
                     "finalPassage": true,
-                    "title": "Infant safety and care act"
+                    "title": "Infant safety and care act",
+                    "explanation": "Requires life-sustaining medical care for newborns, including those diagnosed with fatal health conditions."
                 },
                 {
                     "id": "HB635-0026",
@@ -14421,7 +14446,8 @@
                     "firstChamberFloorAction": true,
                     "advanced": true,
                     "finalPassage": true,
-                    "title": "Restrict unborn child from dismemberment abortion"
+                    "title": "Restrict unborn child from dismemberment abortion",
+                    "explanation": "Prohibits most second trimester abortions by barring dilation and evacuation procedures."
                 },
                 {
                     "id": "HB722-0035",
@@ -15842,7 +15868,8 @@
                     "isHighlight": true,
                     "firstChamberFloorAction": true,
                     "preliminaryPassage": true,
-                    "title": "Provide requirements for coverage of abortion under Medicaid and CHIP"
+                    "title": "Provide requirements for coverage of abortion under Medicaid and CHIP",
+                    "explanation": "Requires pre-authorization and increased documentation for Medicaid-eligible abortions."
                 },
                 {
                     "id": "HB548-0026",
@@ -16077,7 +16104,8 @@
                     "firstChamberFloorAction": true,
                     "advanced": true,
                     "finalPassage": true,
-                    "title": "Prohibit abortion of unborn viable children"
+                    "title": "Prohibit abortion of unborn viable children",
+                    "explanation": "Bans abortions based on gestational viability, presumed at 24 weeks."
                 },
                 {
                     "id": "HB576-0027",
@@ -16609,7 +16637,8 @@
                     "isHighlight": true,
                     "firstChamberFloorAction": true,
                     "preliminaryPassage": true,
-                    "title": "Infant safety and care act"
+                    "title": "Infant safety and care act",
+                    "explanation": "Requires life-sustaining medical care for newborns, including those diagnosed with fatal health conditions."
                 },
                 {
                     "id": "HB627-0024",
@@ -17594,7 +17623,8 @@
                     "isHighlight": true,
                     "firstChamberFloorAction": true,
                     "preliminaryPassage": true,
-                    "title": "Restrict unborn child from dismemberment abortion"
+                    "title": "Restrict unborn child from dismemberment abortion",
+                    "explanation": "Prohibits most second trimester abortions by barring dilation and evacuation procedures."
                 },
                 {
                     "id": "HB722-0033",
@@ -23363,7 +23393,8 @@
                     "isHighlight": true,
                     "firstChamberFloorAction": true,
                     "preliminaryPassage": true,
-                    "title": "Prohibit abortion of unborn viable children"
+                    "title": "Prohibit abortion of unborn viable children",
+                    "explanation": "Bans abortions based on gestational viability, presumed at 24 weeks."
                 },
                 {
                     "id": "HB576-0025",
@@ -28276,7 +28307,8 @@
                     "isHighlight": true,
                     "committeeAction": true,
                     "advanced": true,
-                    "title": "Infant safety and care act"
+                    "title": "Infant safety and care act",
+                    "explanation": "Requires life-sustaining medical care for newborns, including those diagnosed with fatal health conditions."
                 },
                 {
                     "id": "HB627-0021",
@@ -28958,7 +28990,8 @@
                     "isHighlight": true,
                     "committeeAction": true,
                     "advanced": true,
-                    "title": "Restrict unborn child from dismemberment abortion"
+                    "title": "Restrict unborn child from dismemberment abortion",
+                    "explanation": "Prohibits most second trimester abortions by barring dilation and evacuation procedures."
                 },
                 {
                     "id": "HB722-0029",
@@ -35223,7 +35256,8 @@
                     "committeeAction": true,
                     "advanced": true,
                     "amended": true,
-                    "title": "Define sex in Montana law"
+                    "title": "Define sex in Montana law",
+                    "explanation": "Precludes legal recognition of transgender people and those with intersex conditions by defining 'sex' based on reproductive systems."
                 },
                 {
                     "id": "SB459-0023",
@@ -37018,7 +37052,8 @@
                     "isHighlight": true,
                     "committeeAction": true,
                     "advanced": true,
-                    "title": "Prohibit abortion of unborn viable children"
+                    "title": "Prohibit abortion of unborn viable children",
+                    "explanation": "Bans abortions based on gestational viability, presumed at 24 weeks."
                 },
                 {
                     "id": "HB578-0020",
@@ -40404,7 +40439,8 @@
                     "isHighlight": true,
                     "committeeAction": true,
                     "advanced": true,
-                    "title": "Provide requirements for coverage of abortion under Medicaid and CHIP"
+                    "title": "Provide requirements for coverage of abortion under Medicaid and CHIP",
+                    "explanation": "Requires pre-authorization and increased documentation for Medicaid-eligible abortions."
                 },
                 {
                     "id": "HB548-0020",
