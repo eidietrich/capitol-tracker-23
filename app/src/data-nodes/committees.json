@@ -4754,10 +4754,10 @@
         "billCount": 22,
         "billsWithdrawn": [],
         "billsUnscheduled": [
-            "HB 845",
             "SB 278"
         ],
         "billsScheduled": [
+            "HB 845",
             "SB 414"
         ],
         "billsScheduledByDay": [
@@ -4765,6 +4765,12 @@
                 "day": "03/24/2023",
                 "bills": [
                     "SB 414"
+                ]
+            },
+            {
+                "day": "03/28/2023",
+                "bills": [
+                    "HB 845"
                 ]
             }
         ],
