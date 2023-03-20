@@ -3260,12 +3260,12 @@
   },
   {
     "Identifier": "HB 17",
-    "isKeyBill": true,
+    "isKeyBill": false,
     "Explanation": "Advances new funding model for mental health and addiction treatment providers.",
     "BillPageText": null,
     "legalNoteLink": null,
     "createdAt": "2023-02-03T21:33:36.940Z",
-    "updatedAt": "2023-02-03T22:14:14.062Z",
+    "updatedAt": "2023-03-20T16:52:36.797Z",
     "category": "Health systems",
     "categoryDescription": null,
     "categoryOrder": 5,
@@ -3704,6 +3704,34 @@
     "categoryDescription": null,
     "categoryOrder": null,
     "showCategory": null,
+    "tags": []
+  },
+  {
+    "Identifier": "HB 649",
+    "isKeyBill": true,
+    "Explanation": "Increases Medicaid provider rates to benchmark rates identified by a state-commissioned study.",
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-03-20T16:53:03.899Z",
+    "updatedAt": "2023-03-20T16:53:08.940Z",
+    "category": "Health systems",
+    "categoryDescription": null,
+    "categoryOrder": 5,
+    "showCategory": true,
+    "tags": []
+  },
+  {
+    "Identifier": "HB 296",
+    "isKeyBill": true,
+    "Explanation": "Provides inflation adjustments for nursing homes and revise waiver programs for senior and long-term care.",
+    "BillPageText": null,
+    "legalNoteLink": null,
+    "createdAt": "2023-03-20T16:53:33.303Z",
+    "updatedAt": "2023-03-20T16:53:33.303Z",
+    "category": "Health systems",
+    "categoryDescription": null,
+    "categoryOrder": 5,
+    "showCategory": true,
     "tags": []
   }
 ]
