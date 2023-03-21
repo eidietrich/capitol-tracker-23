@@ -15,6 +15,7 @@
         "04/11/2023"
     ],
     "billsOnCalendar": [
+        "HB 36",
         "HB 38",
         "HB 45",
         "HB 60",
@@ -349,6 +350,20 @@
         "SB 352"
     ],
     "scheduledHearings": [
+        {
+            "id": "HB36-0040",
+            "bill": "HB 36",
+            "date": "03/27/2023",
+            "description": "Hearing",
+            "posession": "senate",
+            "committee": "Senate Education and Cultural Resources",
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
         {
             "id": "HB38-0045",
             "bill": "HB 38",
