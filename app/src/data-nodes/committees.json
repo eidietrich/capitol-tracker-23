@@ -6702,11 +6702,9 @@
             "HB 325",
             "HB 447",
             "SB 14",
-            "SB 110",
             "SB 122",
             "SB 145",
             "SB 194",
-            "SB 258",
             "SB 449",
             "SB 502",
             "SB 506",
@@ -6716,8 +6714,10 @@
         "billsFailed": [
             "SB 15",
             "SB 97",
+            "SB 110",
             "SB 125",
             "SB 251",
+            "SB 258",
             "SB 273",
             "SB 291",
             "SB 292",
@@ -8425,15 +8425,14 @@
         "billsWithdrawn": [
             "SB 52"
         ],
-        "billsUnscheduled": [
-            "SR 64"
-        ],
+        "billsUnscheduled": [],
         "billsScheduled": [
             "HB 158",
             "HB 159",
             "HB 276",
             "HB 662",
-            "HB 738"
+            "HB 738",
+            "SR 64"
         ],
         "billsScheduledByDay": [
             {
@@ -8447,7 +8446,8 @@
             {
                 "day": "03/28/2023",
                 "bills": [
-                    "HB 738"
+                    "HB 738",
+                    "SR 64"
                 ]
             },
             {
