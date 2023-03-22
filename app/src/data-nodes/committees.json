@@ -5183,16 +5183,34 @@
         "billCount": 85,
         "billsWithdrawn": [],
         "billsUnscheduled": [
+            "SB 60"
+        ],
+        "billsScheduled": [
             "HB 117",
             "HB 163",
             "HB 171",
             "HB 355",
             "HB 797",
-            "SB 60",
             "SB 334"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduledByDay": [
+            {
+                "day": "03/24/2023",
+                "bills": [
+                    "HB 117",
+                    "HB 163",
+                    "HB 171",
+                    "HB 355",
+                    "HB 797"
+                ]
+            },
+            {
+                "day": "03/27/2023",
+                "bills": [
+                    "SB 334"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "HB 81",
             "HB 367",
