@@ -4847,14 +4847,13 @@
         ],
         "billCount": 24,
         "billsWithdrawn": [],
-        "billsUnscheduled": [
-            "HB 855",
-            "SB 485"
-        ],
+        "billsUnscheduled": [],
         "billsScheduled": [
             "HB 845",
+            "HB 855",
             "SB 278",
-            "SB 414"
+            "SB 414",
+            "SB 485"
         ],
         "billsScheduledByDay": [
             {
@@ -4865,9 +4864,21 @@
                 ]
             },
             {
+                "day": "03/27/2023",
+                "bills": [
+                    "HB 855"
+                ]
+            },
+            {
                 "day": "03/28/2023",
                 "bills": [
                     "HB 845"
+                ]
+            },
+            {
+                "day": "03/29/2023",
+                "bills": [
+                    "SB 485"
                 ]
             }
         ],
