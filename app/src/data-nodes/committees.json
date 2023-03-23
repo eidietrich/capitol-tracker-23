@@ -4123,18 +4123,25 @@
         "billsWithdrawn": [],
         "billsUnscheduled": [
             "SB 447",
-            "SB 462",
-            "SJ 9",
-            "SJ 13"
+            "SJ 9"
         ],
         "billsScheduled": [
-            "HB 834"
+            "HB 834",
+            "SB 462",
+            "SJ 13"
         ],
         "billsScheduledByDay": [
             {
                 "day": "03/23/2023",
                 "bills": [
                     "HB 834"
+                ]
+            },
+            {
+                "day": "03/28/2023",
+                "bills": [
+                    "SB 462",
+                    "SJ 13"
                 ]
             }
         ],
@@ -9153,11 +9160,11 @@
         ],
         "billsAwaitingVote": [
             "HB 184",
-            "HB 344",
             "HB 622"
         ],
         "billsFailed": [
             "HB 179",
+            "HB 344",
             "SB 137",
             "SB 412"
         ],
