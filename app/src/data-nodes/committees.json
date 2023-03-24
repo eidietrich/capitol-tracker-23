@@ -3398,19 +3398,18 @@
         ],
         "billCount": 64,
         "billsWithdrawn": [],
-        "billsUnscheduled": [
-            "HB 824",
-            "HB 882",
-            "SB 487"
-        ],
+        "billsUnscheduled": [],
         "billsScheduled": [
+            "HB 824",
             "HB 847",
             "HB 851",
             "HB 853",
+            "HB 882",
             "SB 309",
             "SB 344",
             "SB 421",
-            "SB 452"
+            "SB 452",
+            "SB 487"
         ],
         "billsScheduledByDay": [
             {
@@ -3428,6 +3427,14 @@
                 "bills": [
                     "HB 851",
                     "HB 853"
+                ]
+            },
+            {
+                "day": "03/29/2023",
+                "bills": [
+                    "HB 824",
+                    "HB 882",
+                    "SB 487"
                 ]
             }
         ],
