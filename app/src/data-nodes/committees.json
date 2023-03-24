@@ -9045,8 +9045,11 @@
             "SB 495"
         ],
         "billsUnscheduled": [
-            "HB 55",
+            "HB 55"
+        ],
+        "billsScheduled": [
             "HB 365",
+            "HB 439",
             "HB 470",
             "HB 486",
             "HB 491",
@@ -9055,20 +9058,37 @@
             "HB 747",
             "HB 750",
             "HB 761",
-            "SB 521"
-        ],
-        "billsScheduled": [
-            "HB 439",
             "HB 764",
-            "HB 809"
+            "HB 809",
+            "SB 521"
         ],
         "billsScheduledByDay": [
             {
                 "day": "03/28/2023",
                 "bills": [
+                    "HB 365",
                     "HB 439",
+                    "HB 486",
                     "HB 764",
                     "HB 809"
+                ]
+            },
+            {
+                "day": "03/30/2023",
+                "bills": [
+                    "HB 470",
+                    "HB 491",
+                    "HB 519",
+                    "HB 664",
+                    "HB 747"
+                ]
+            },
+            {
+                "day": "04/04/2023",
+                "bills": [
+                    "HB 750",
+                    "HB 761",
+                    "SB 521"
                 ]
             }
         ],
