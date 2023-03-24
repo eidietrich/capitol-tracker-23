@@ -3917,11 +3917,11 @@
             "HR 4"
         ],
         "billsUnscheduled": [
-            "HB 876",
             "SB 351",
             "SB 384"
         ],
         "billsScheduled": [
+            "HB 876",
             "SB 32",
             "SB 33",
             "SJ 10"
@@ -3930,6 +3930,7 @@
             {
                 "day": "03/27/2023",
                 "bills": [
+                    "HB 876",
                     "SB 32",
                     "SB 33",
                     "SJ 10"
@@ -8705,15 +8706,31 @@
         "billCount": 23,
         "billsWithdrawn": [],
         "billsUnscheduled": [
+            "SB 242",
+            "SB 539"
+        ],
+        "billsScheduled": [
             "HB 284",
             "HB 729",
             "HJ 6",
-            "SB 242",
-            "SB 539",
             "SR 59"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduledByDay": [
+            {
+                "day": "03/28/2023",
+                "bills": [
+                    "HB 284",
+                    "HJ 6"
+                ]
+            },
+            {
+                "day": "03/30/2023",
+                "bills": [
+                    "HB 729",
+                    "SR 59"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "HB 804"
         ],
