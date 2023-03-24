@@ -197,7 +197,12 @@ const Bill = ({ title, identifier, chamber, status, explanation, textUrl,
   const stepLabels = billProgressStepLabels(chamber)
 
   const progression = progress
-    .filter(d => ['first committee', 'first chamber', 'second chamber', 'governor'].includes(d.step))
+    .filter(d => ['first committee', 'first chamber', 'second chamber', 'reconciliation', 'governor'].includes(d.step))
+    .filter(d => {
+      if (d.step !== 'reconciliation') return true
+      if (d.step === 'reconciliation' && d.status !== 'skipped') return true
+      return false
+    })
     .map(d => {
       const symbol = billStatusSymbols[d.status]
       return <div key={d.step} css={progressStepStyle}>
