@@ -1520,7 +1520,6 @@
         "billsAwaitingVote": [
             "HB 87",
             "HB 574",
-            "HB 838",
             "SB 59",
             "SB 75",
             "SB 133",
@@ -1541,7 +1540,8 @@
             "HB 617",
             "HB 638",
             "HB 651",
-            "HB 768"
+            "HB 768",
+            "HB 838"
         ],
         "billsAdvanced": [
             "HB 30",
@@ -5051,12 +5051,15 @@
         "time": "on call",
         "type": "policy",
         "bills": [
+            "HB 890",
             "HR 1",
             "SJ 1"
         ],
-        "billCount": 2,
+        "billCount": 3,
         "billsWithdrawn": [],
-        "billsUnscheduled": [],
+        "billsUnscheduled": [
+            "HB 890"
+        ],
         "billsScheduled": [],
         "billsScheduledByDay": [],
         "billsAwaitingVote": [],
