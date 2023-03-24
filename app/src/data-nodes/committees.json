@@ -165,14 +165,14 @@
         "billsUnscheduled": [
             "HB 245",
             "HB 774",
-            "HB 883",
-            "SB 58"
+            "HB 883"
         ],
         "billsScheduled": [
             "HB 478",
             "HB 864",
             "HB 868",
             "HB 872",
+            "SB 58",
             "SB 127"
         ],
         "billsScheduledByDay": [
@@ -188,7 +188,8 @@
                 "bills": [
                     "HB 864",
                     "HB 868",
-                    "HB 872"
+                    "HB 872",
+                    "SB 58"
                 ]
             }
         ],
@@ -2796,7 +2797,6 @@
         "billsAwaitingVote": [
             "HB 828",
             "SB 112",
-            "SB 115",
             "SB 282",
             "SB 284"
         ],
@@ -2884,6 +2884,7 @@
             "SB 45",
             "SB 67",
             "SB 113",
+            "SB 115",
             "SB 116",
             "SB 151",
             "SB 162",
