@@ -317,6 +317,8 @@
         "SR 63",
         "SR 64",
         "SR 65",
+        "HB 597",
+        "HB 674",
         "HB 26",
         "HB 34",
         "HB 116",
@@ -4652,7 +4654,34 @@
             "hearing": true
         }
     ],
-    "scheduledFloorDebates": [],
+    "scheduledFloorDebates": [
+        {
+            "id": "HB597-0050",
+            "bill": "HB 597",
+            "date": "03/24/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "house",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
+            "id": "HB674-0054",
+            "bill": "HB 674",
+            "date": "03/24/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "house",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        }
+    ],
     "scheduledFinalVotes": [
         {
             "id": "HB26-0036",
