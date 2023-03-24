@@ -67,6 +67,7 @@ export default class Bill {
         this.actions = this.buildActionList(actions, votes, this.voteMajorityRequired, this.getChamber(key))
         this.committees = Array.from(new Set(this.actions.map(a => a.data.committee))).filter(d => d !== null)
         this.progress = this.getProgress({
+            identifier: key,
             billType: this.type,
             firstChamber: this.chamber,
             actions: this.actions.map(a => a.data),
@@ -171,7 +172,7 @@ export default class Bill {
         const actions = this.actions.map(a => a.data)
         return actions.map(d => d.transmittedToGovernor).includes(true)
     }
-    getProgress = ({ billType, firstChamber, actions }) => {
+    getProgress = ({ identifier, billType, firstChamber, actions }) => {
         // Get bill progression as calculated from actions
         // bill is rawBill data
         // actions are data only, should be sorted first to last
@@ -284,7 +285,7 @@ export default class Bill {
                     if (lastFloorAction.failed) { status = 'blocked'; statusLabel = 'Voted down' }
                     if (lastFloorAction.preliminaryPassage) { status = 'current'; statusLabel = 'Passed preliminary vote' }
                     if (lastFloorAction.finalPassage) { status = 'passed'; statusLabel = `Passed ${capitalize(secondChamber)}`, hasPassedSecondChamber = true }
-                    if (lastFloorAction.finalPassage && progressFlagInActions(actionsInSecondChamber, 'amended')) {
+                    if (lastFloorAction.finalPassage && progressFlagInActions(secondChamberActions, 'amended')) {
                         reconciliationNecessary = true
                     }
                     statusDate = lastFloorAction.date
