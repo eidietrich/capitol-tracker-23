@@ -2749,11 +2749,7 @@
         "billsWithdrawn": [
             "HB 467"
         ],
-        "billsUnscheduled": [
-            "SB 308",
-            "SB 352",
-            "SB 422"
-        ],
+        "billsUnscheduled": [],
         "billsScheduled": [
             "HB 873",
             "HB 879",
@@ -2763,8 +2759,11 @@
             "HB 918",
             "SB 150",
             "SB 198",
+            "SB 308",
             "SB 328",
-            "SB 364"
+            "SB 352",
+            "SB 364",
+            "SB 422"
         ],
         "billsScheduledByDay": [
             {
@@ -2799,7 +2798,15 @@
             {
                 "day": "04/04/2023",
                 "bills": [
-                    "SB 328"
+                    "SB 328",
+                    "SB 422"
+                ]
+            },
+            {
+                "day": "04/05/2023",
+                "bills": [
+                    "SB 308",
+                    "SB 352"
                 ]
             }
         ],
