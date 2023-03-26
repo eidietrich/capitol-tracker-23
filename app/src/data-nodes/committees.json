@@ -5275,19 +5275,19 @@
         "billsWithdrawn": [],
         "billsUnscheduled": [
             "HB 2",
-            "HB 114",
             "HB 147",
-            "HB 292",
             "HB 297",
-            "HB 311",
-            "HB 426",
-            "SB 60",
-            "SB 536"
+            "SB 60"
         ],
         "billsScheduled": [
+            "HB 114",
             "HB 226",
+            "HB 292",
+            "HB 311",
+            "HB 426",
             "HB 569",
-            "SB 334"
+            "SB 334",
+            "SB 536"
         ],
         "billsScheduledByDay": [
             {
@@ -5296,6 +5296,16 @@
                     "HB 226",
                     "HB 569",
                     "SB 334"
+                ]
+            },
+            {
+                "day": "03/28/2023",
+                "bills": [
+                    "HB 114",
+                    "HB 292",
+                    "HB 311",
+                    "HB 426",
+                    "SB 536"
                 ]
             }
         ],
