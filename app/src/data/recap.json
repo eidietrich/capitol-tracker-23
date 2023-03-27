@@ -4,6 +4,24 @@
             "date": "03/27/2023",
             "actions": [
                 {
+                    "id": "HB137-0027",
+                    "bill": "HB 137",
+                    "date": "03/27/2023",
+                    "description": "2nd Reading Passed",
+                    "posession": "house",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "transcriptUrl": null,
+                    "key": "2nd Reading Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "firstChamberFloorAction": true,
+                    "preliminaryPassage": true,
+                    "title": "Generally revise laws related to the board of behavioral health",
+                    "explanation": null
+                },
+                {
                     "id": "HB176-0039",
                     "bill": "HB 176",
                     "date": "03/27/2023",
@@ -18,6 +36,41 @@
                     "isHighlight": true,
                     "reconciliationAction": true,
                     "title": "Revising county utility permitting laws"
+                },
+                {
+                    "id": "HB220-0035",
+                    "bill": "HB 220",
+                    "date": "03/27/2023",
+                    "description": "2nd Reading Passed",
+                    "posession": "house",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "transcriptUrl": null,
+                    "key": "2nd Reading Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "firstChamberFloorAction": true,
+                    "preliminaryPassage": true,
+                    "title": "Create select committee on energy resource planning and acquisition"
+                },
+                {
+                    "id": "HB457-0052",
+                    "bill": "HB 457",
+                    "date": "03/27/2023",
+                    "description": "2nd Reading Concurred as Amended",
+                    "posession": "senate",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "transcriptUrl": null,
+                    "key": "2nd Reading Concurred as Amended",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "secondChamberAction": true,
+                    "preliminaryPassage": true,
+                    "amended": true,
+                    "title": "Criminalize use of date rape drugs"
                 },
                 {
                     "id": "HB479-0027",
@@ -263,6 +316,23 @@
                     "committeeAction": true,
                     "advanced": true,
                     "title": "Revise probate law regarding collection of personal property by affidavit"
+                },
+                {
+                    "id": "SB298-0044",
+                    "bill": "SB 298",
+                    "date": "03/27/2023",
+                    "description": "2nd Reading Passed",
+                    "posession": "senate",
+                    "committee": null,
+                    "actionUrl": null,
+                    "recordings": [],
+                    "transcriptUrl": null,
+                    "key": "2nd Reading Passed",
+                    "isMajor": true,
+                    "isHighlight": true,
+                    "firstChamberFloorAction": true,
+                    "preliminaryPassage": true,
+                    "title": "Revise laws related to hunting by disabled persons"
                 },
                 {
                     "id": "SB411-0030",
@@ -4597,24 +4667,6 @@
                     "explanation": "Gives the attorney general and speaker of the House appointment power for the body that reviews judicial misconduct complaints."
                 },
                 {
-                    "id": "HB334-0038",
-                    "bill": "HB 334",
-                    "date": "03/22/2023",
-                    "description": "3rd Reading Concurred",
-                    "posession": "senate",
-                    "committee": null,
-                    "actionUrl": null,
-                    "recordings": [],
-                    "transcriptUrl": null,
-                    "key": "3rd Reading Concurred",
-                    "isMajor": true,
-                    "isHighlight": true,
-                    "secondChamberAction": true,
-                    "advanced": true,
-                    "finalPassage": true,
-                    "title": "Revise school attendance laws to address student mental health needs"
-                },
-                {
                     "id": "HB397-0036",
                     "bill": "HB 397",
                     "date": "03/22/2023",
@@ -5334,7 +5386,7 @@
                     "title": "Revise the Montana Safe Haven Newborn Protection Act"
                 },
                 {
-                    "id": "HB220-0032",
+                    "id": "HB220-0031",
                     "bill": "HB 220",
                     "date": "03/21/2023",
                     "description": "Committee Executive Action--Bill Passed as Amended",
@@ -6252,7 +6304,7 @@
                     "title": "Revise corporate income tax water's-edge election laws"
                 },
                 {
-                    "id": "SB253-0034",
+                    "id": "SB253-0033",
                     "bill": "SB 253",
                     "date": "03/21/2023",
                     "description": "Committee Executive Action--Bill Passed as Amended",
@@ -6648,24 +6700,6 @@
                     "key": "Free Conference Committee Appointed",
                     "isMajor": true,
                     "title": "Revise laws regarding legislative special counsel"
-                },
-                {
-                    "id": "HB334-0035",
-                    "bill": "HB 334",
-                    "date": "03/20/2023",
-                    "description": "2nd Reading Concurred as Amended",
-                    "posession": "senate",
-                    "committee": null,
-                    "actionUrl": null,
-                    "recordings": [],
-                    "transcriptUrl": null,
-                    "key": "2nd Reading Concurred as Amended",
-                    "isMajor": true,
-                    "isHighlight": true,
-                    "secondChamberAction": true,
-                    "preliminaryPassage": true,
-                    "amended": true,
-                    "title": "Revise school attendance laws to address student mental health needs"
                 },
                 {
                     "id": "HB336-0034",
@@ -8103,6 +8137,23 @@
                 },
                 {
                     "id": "HB137-0022",
+                    "bill": "HB 137",
+                    "date": "03/17/2023",
+                    "description": "Taken from Table in Committee",
+                    "posession": "house",
+                    "committee": "House Business and Labor",
+                    "actionUrl": null,
+                    "recordings": [],
+                    "transcriptUrl": null,
+                    "key": "Taken from Table in Committee",
+                    "isMajor": true,
+                    "committeeAction": true,
+                    "secondChamberAction": true,
+                    "title": "Generally revise laws related to the board of behavioral health",
+                    "explanation": null
+                },
+                {
+                    "id": "HB137-0023",
                     "bill": "HB 137",
                     "date": "03/17/2023",
                     "description": "Committee Executive Action--Bill Passed as Amended",
@@ -11881,7 +11932,7 @@
                     "title": "Provide certificate of nonviable birth"
                 },
                 {
-                    "id": "HB220-0029",
+                    "id": "HB220-0028",
                     "bill": "HB 220",
                     "date": "03/15/2023",
                     "description": "2nd Reading Passed",
@@ -12028,23 +12079,6 @@
                     "advanced": true,
                     "title": "Revise laws relating to the appointment of the judicial standards commission",
                     "explanation": "Gives the attorney general and speaker of the House appointment power for the body that reviews judicial misconduct complaints."
-                },
-                {
-                    "id": "HB334-0030",
-                    "bill": "HB 334",
-                    "date": "03/15/2023",
-                    "description": "Committee Executive Action--Bill Concurred",
-                    "posession": "senate",
-                    "committee": "Senate Education and Cultural Resources",
-                    "actionUrl": null,
-                    "recordings": [],
-                    "transcriptUrl": null,
-                    "key": "Committee Executive Action--Bill Concurred",
-                    "isMajor": true,
-                    "isHighlight": true,
-                    "committeeAction": true,
-                    "advanced": true,
-                    "title": "Revise school attendance laws to address student mental health needs"
                 },
                 {
                     "id": "HB346-0029",
@@ -59240,24 +59274,6 @@
                     "title": "Generally revise motorized recreation laws"
                 },
                 {
-                    "id": "HB334-0023",
-                    "bill": "HB 334",
-                    "date": "02/14/2023",
-                    "description": "3rd Reading Passed",
-                    "posession": "house",
-                    "committee": null,
-                    "actionUrl": null,
-                    "recordings": [],
-                    "transcriptUrl": null,
-                    "key": "3rd Reading Passed",
-                    "isMajor": true,
-                    "isHighlight": true,
-                    "firstChamberFloorAction": true,
-                    "advanced": true,
-                    "finalPassage": true,
-                    "title": "Revise school attendance laws to address student mental health needs"
-                },
-                {
                     "id": "HB336-0020",
                     "bill": "HB 336",
                     "date": "02/14/2023",
@@ -60477,25 +60493,6 @@
                     "advanced": true,
                     "finalPassage": true,
                     "title": "Allow state employees to use paid sick leave for child related events"
-                },
-                {
-                    "id": "HB334-0021",
-                    "bill": "HB 334",
-                    "date": "02/13/2023",
-                    "description": "2nd Reading Passed",
-                    "posession": "house",
-                    "committee": null,
-                    "actionUrl": null,
-                    "recordings": [
-                        "http://sg001-harmony.sliq.net/00309/Harmony/en/PowerBrowser/PowerBrowserV2/20170221/-1/46124?agendaId=252304"
-                    ],
-                    "transcriptUrl": null,
-                    "key": "2nd Reading Passed",
-                    "isMajor": true,
-                    "isHighlight": true,
-                    "firstChamberFloorAction": true,
-                    "preliminaryPassage": true,
-                    "title": "Revise school attendance laws to address student mental health needs"
                 },
                 {
                     "id": "HB365-0025",
@@ -64414,23 +64411,6 @@
                     "firstChamberFloorAction": true,
                     "preliminaryPassage": true,
                     "title": "Revise allowed uses of transportation services account"
-                },
-                {
-                    "id": "HB334-0018",
-                    "bill": "HB 334",
-                    "date": "02/08/2023",
-                    "description": "Committee Executive Action--Bill Passed",
-                    "posession": "house",
-                    "committee": "House Education",
-                    "actionUrl": null,
-                    "recordings": [],
-                    "transcriptUrl": null,
-                    "key": "Committee Executive Action--Bill Passed",
-                    "isMajor": true,
-                    "isHighlight": true,
-                    "committeeAction": true,
-                    "advanced": true,
-                    "title": "Revise school attendance laws to address student mental health needs"
                 },
                 {
                     "id": "HB343-0025",
