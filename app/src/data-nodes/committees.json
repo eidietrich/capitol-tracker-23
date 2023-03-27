@@ -815,11 +815,6 @@
         ],
         "billsUnscheduled": [
             "HB 197",
-            "HB 919",
-            "HB 921",
-            "HB 934",
-            "HB 936",
-            "HB 937",
             "SB 11",
             "SB 72",
             "SB 154",
@@ -867,6 +862,11 @@
             "HB 895",
             "HB 908",
             "HB 915",
+            "HB 919",
+            "HB 921",
+            "HB 934",
+            "HB 936",
+            "HB 937",
             "SB 279",
             "SB 307",
             "SB 313",
@@ -902,7 +902,12 @@
                     "HB 886",
                     "HB 889",
                     "HB 895",
-                    "HB 915"
+                    "HB 915",
+                    "HB 919",
+                    "HB 921",
+                    "HB 934",
+                    "HB 936",
+                    "HB 937"
                 ]
             },
             {
@@ -7687,7 +7692,6 @@
         ],
         "billsUnscheduled": [
             "HB 473",
-            "HB 775",
             "HJ 7",
             "SB 41"
         ],
@@ -7696,6 +7700,7 @@
             "HB 520",
             "HB 576",
             "HB 656",
+            "HB 775",
             "SR 45",
             "SR 62",
             "SR 63"
@@ -7716,6 +7721,12 @@
                     "HB 520",
                     "HB 576",
                     "HB 656"
+                ]
+            },
+            {
+                "day": "04/03/2023",
+                "bills": [
+                    "HB 775"
                 ]
             }
         ],
@@ -9479,13 +9490,22 @@
         "billCount": 16,
         "billsWithdrawn": [],
         "billsUnscheduled": [
-            "HB 412",
-            "HB 529",
             "SR 53",
             "SR 58"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduled": [
+            "HB 412",
+            "HB 529"
+        ],
+        "billsScheduledByDay": [
+            {
+                "day": "03/31/2023",
+                "bills": [
+                    "HB 412",
+                    "HB 529"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "HB 140",
             "HB 493",
