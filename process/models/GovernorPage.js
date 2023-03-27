@@ -1,7 +1,7 @@
 const governorName = 'Greg Gianforte'
 
 class Governor {
-    constructor({ text, articles, billsSentToGov }) {
+    constructor({ text, articles }) {
         this.data = {
             text,
             articles,

@@ -11,8 +11,8 @@ import NewsletterSignup from '../components/NewsletterSignup'
 
 import governorData from '../data/governor.json'
 
-// import { numberFormat, dateFormat } from "../config/utils"
-// const plural = value => (value !== 1) ? 's' : ''
+import { numberFormat, dateFormat } from "../config/utils"
+const plural = value => (value !== 1) ? 's' : ''
 
 // filter functions
 // const toGovernor = d => d.data.progress.toGovernor
@@ -25,28 +25,64 @@ const Governor = ({ data, location }) => {
   const { text, articles } = governorData
   const bills = data.governorBills.edges.map(d => d.node)
 
+  const awaitingActionBills = bills.filter(b => b.progress.find(d => d.step === 'governor').statusLabel === 'Pending')
+  const vetoedBills = bills.filter(b => b.progress.find(d => d.step === 'governor').statusLabel === 'Vetoed')
+  const amendmentSuggestedBills = bills.filter(b => b.progress.find(d => d.step === 'governor').statusLabel === 'Amendment suggested')
+  const vetoOverrideAttempts = bills.filter(b => b.progress.find(d => d.step === 'governor').statusLabel === 'Veto Override Pending')
+  const successfulVetoOverrides = bills.filter(b => b.progress.find(d => d.step === 'governor').statusLabel === 'Veto Overriden')
+  const signedBills = bills.filter(b => b.progress.find(d => d.step === 'governor').statusLabel === 'Signed')
+
+  // console.log({
+  //   bills,
+  //   awaitingActionBills,
+  //   vetoedBills,
+  //   amendmentSuggestedBills,
+  //   vetoOverrideAttempts,
+  //   successfulVetoOverrides,
+  //   signedBills
+  // })
+
   return <div>
 
     <Layout location={location}>
       <h1>Gov. Greg Gianforte</h1>
       <ReactMarkdown>{text}</ReactMarkdown>
 
-      <h3>Bills advanced to the governor</h3>
-      <BillTable bills={bills} />
+      <div><strong style={{ fontSize: '1.8em' }}>{numberFormat(bills.length)}</strong> 2023 bill{plural(bills.length)} have been sent to Gov. Gianforte for his signature.</div>
 
-      {/* <h2 id="governor-bills">The governor's desk</h2>
-      <p><strong>{numberFormat(billsSentToGov.length)} bill{plural(billsSentToGov.length)}</strong> from the 2023 Legislature have been sent to Gov. Gianforte for his signature.</p>
-      <h4>Currently before the governor</h4>
+      {/* <p><strong>{numberFormat(billsSentToGov.length)} bill{plural(billsSentToGov.length)}</strong> from the 2023 Legislature have been sent to Gov. Gianforte for his signature.</p> */}
+      <h4>Awaiting action ({numberFormat(awaitingActionBills.length)})</h4>
       <BillTable bills={awaitingActionBills} />
 
-      <h4>Vetoed</h4>
-      <div className="note">The Montana Constitution requires that the governor provide explanation for vetos. Vetos can be overridden by two-thirds majorities in the House and Senate.</div>
+      <h4>Vetoed ({numberFormat(vetoedBills.length)})</h4>
+      <div className="note">Vetos can be overridden by two-thirds majorities in the House and Senate.</div>
       <BillTable bills={vetoedBills} />
 
-      <h4>Signed into law</h4>
+      {
+        (vetoOverrideAttempts.length > 0) && <>
+          <h4>Pending veto override efforts ({numberFormat(vetoOverrideAttempts.length)})</h4>
+          <BillTable bills={vetoOverrideAttempts} />
+        </>
+      }
+
+      {
+        (amendmentSuggestedBills.length > 0) && <>
+          <h4>Returned with suggested amendment  ({numberFormat(amendmentSuggestedBills.length)})</h4>
+          <BillTable bills={amendmentSuggestedBills} />
+        </>
+      }
+
+      {
+        (successfulVetoOverrides.length > 0) && <>
+          <h4>Vetoes overridden by Legislature ({numberFormat(successfulVetoOverrides.length)})</h4>
+          <BillTable bills={successfulVetoOverrides} />
+        </>
+      }
+
+      <h4>Signed into law ({numberFormat(signedBills.length)})</h4>
       <BillTable bills={signedBills} />
 
-      <h4>Became law without signature</h4>
+      {/* <h4>Became law without signature</h4>
       <div className="note">Bills that have become law without the governor's signature after the governor chooses not to issue a signature or a veto by the 10-day deadline specified in the Montana Constitution.</div>
       <BillTable bills={letBecomeLawBills} /> */}
 

@@ -146,6 +146,7 @@ const finalPassage = true // for 3rd readings
 
 const transmittedToGovernor = true // for bills in governor's posession
 const vetoed = true
+const amendmentSuggested = true
 const signed = true
 const vetoOverridePending = true
 const vetoOverriddenHouse = true
@@ -270,6 +271,8 @@ export const ACTIONS = [
     // Governor
     { key: 'Vetoed by Governor', isMajor, isHighlight, governorAction, failed, vetoed },
     { key: 'Signed by Governor', isMajor, isHighlight, governorAction, signed },
+    { key: 'Returned with Governor\'s Proposed Amendments', isMajor, isHighlight, governorAction, amendmentSuggested },
+    { key: 'Returned with Governor\'s Line-item Veto', isMajor, isHighlight, governorAction, amendmentSuggested },
     { key: 'Veto Overridden in Senate', isMajor, isHighlight, governorAction, vetoed, vetoOverriddenSenate },
     { key: 'Veto Overridden in House', isMajor, isHighlight, governorAction, vetoed, vetoOverriddenHouse },
     { key: 'Veto Override Vote Mail Poll in Progress', isMajor, governorAction, failed, vetoed, vetoOverridePending },
@@ -311,8 +314,6 @@ export const ACTIONS = [
     { key: 'Returned to Senate', isMajor, },
     { key: 'Returned to House with Amendments', isMajor, },
     { key: 'Returned to Senate with Amendments', isMajor, },
-    { key: 'Returned with Governor\'s Proposed Amendments', isMajor, },
-    { key: 'Returned with Governor\'s Line-item Veto', isMajor, },
     { key: 'Transmitted to Senate for Consideration of Governor\'s Proposed Amendments', isMajor, },
     { key: 'Transmitted to House for Consideration of Governor\'s Proposed Amendments', isMajor, },
     { key: 'Returned to Senate Concurred in Governor\'s Proposed Amendments', isMajor, },

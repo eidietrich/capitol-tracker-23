@@ -326,9 +326,10 @@ export default class Bill {
                     const senateHasOverridenVeto = progressFlagInActions(governorActions, 'vetoOverriddenSenate')
                     if (lastGovernorAction.signed) { status = 'passed'; statusLabel = 'Signed', hasPassedGovernor = true }
                     if (lastGovernorAction.vetoed) { status = 'blocked'; statusLabel = 'Vetoed' }
+                    if (lastGovernorAction.amendmentSuggested) { statusLabel = 'Amendment suggested' }
                     if (lastGovernorAction.vetoOverridePending
                         || (houseHasOverridenVeto || senateHasOverridenVeto) && !lastGovernorAction.vetoOverrideFailed
-                    ) { status = 'blocked'; statusLabel = 'Vetoed Override Pending' }
+                    ) { status = 'blocked'; statusLabel = 'Veto Override Pending' }
                     if (lastGovernorAction.vetoOverridden || (houseHasOverridenVeto && senateHasOverridenVeto)) {
                         status = 'passed'; statusLabel = 'Veto Overriden'; hasPassedGovernor = true
                     }
