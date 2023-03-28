@@ -175,11 +175,10 @@
         "billCount": 165,
         "billsWithdrawn": [],
         "billsUnscheduled": [
-            "HB 245",
-            "HB 390",
-            "HB 927"
+            "HB 245"
         ],
         "billsScheduled": [
+            "HB 390",
             "HB 648",
             "HB 774",
             "HB 816",
@@ -191,6 +190,7 @@
             "HB 916",
             "HB 917",
             "HB 922",
+            "HB 927",
             "HB 939",
             "HB 946"
         ],
@@ -210,10 +210,12 @@
             {
                 "day": "03/29/2023",
                 "bills": [
+                    "HB 390",
                     "HB 774",
                     "HB 816",
                     "HB 872",
                     "HB 922",
+                    "HB 927",
                     "HB 939",
                     "HB 946"
                 ]
