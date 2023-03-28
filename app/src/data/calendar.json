@@ -191,6 +191,7 @@
         "HB 941",
         "HB 942",
         "HB 943",
+        "HB 946",
         "HJ 6",
         "HJ 12",
         "HR 5",
@@ -1809,7 +1810,7 @@
             "hearing": true
         },
         {
-            "id": "HB845-0020",
+            "id": "HB845-0023",
             "bill": "HB 845",
             "date": "03/28/2023",
             "description": "Hearing",
@@ -2851,6 +2852,20 @@
             "description": "Hearing",
             "posession": "house",
             "committee": "House Taxation",
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
+            "id": "HB946-0021",
+            "bill": "HB 946",
+            "date": "03/29/2023",
+            "description": "Hearing",
+            "posession": "house",
+            "committee": "House Appropriations",
             "actionUrl": null,
             "recordings": [],
             "transcriptUrl": null,
