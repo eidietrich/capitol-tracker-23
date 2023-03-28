@@ -817,6 +817,7 @@
             "HB 728"
         ],
         "billsUnscheduled": [
+            "HB 919",
             "HB 950",
             "SB 11",
             "SB 72",
@@ -863,7 +864,6 @@
             "HB 895",
             "HB 908",
             "HB 915",
-            "HB 919",
             "HB 921",
             "HB 934",
             "HB 936",
@@ -890,7 +890,6 @@
                     "HB 886",
                     "HB 889",
                     "HB 915",
-                    "HB 919",
                     "HB 921",
                     "HB 934",
                     "HB 936",
@@ -3983,13 +3982,22 @@
             "HR 4"
         ],
         "billsUnscheduled": [
-            "HB 961",
-            "HB 962",
             "SB 351",
             "SB 384"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduled": [
+            "HB 961",
+            "HB 962"
+        ],
+        "billsScheduledByDay": [
+            {
+                "day": "03/29/2023",
+                "bills": [
+                    "HB 961",
+                    "HB 962"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "HB 876",
             "SB 32",
