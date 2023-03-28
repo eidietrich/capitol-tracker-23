@@ -2359,8 +2359,6 @@
             "HB 126"
         ],
         "billsUnscheduled": [
-            "HB 933",
-            "HB 941",
             "SJ 8"
         ],
         "billsScheduled": [
@@ -2369,8 +2367,9 @@
             "HB 892",
             "HB 893",
             "HB 905",
-            "HR 5",
-            "SB 385"
+            "HB 933",
+            "HB 941",
+            "HR 5"
         ],
         "billsScheduledByDay": [
             {
@@ -2391,8 +2390,9 @@
             {
                 "day": "03/30/2023",
                 "bills": [
-                    "HR 5",
-                    "SB 385"
+                    "HB 933",
+                    "HB 941",
+                    "HR 5"
                 ]
             }
         ],
@@ -3177,10 +3177,7 @@
         ],
         "billsAwaitingVote": [
             "HB 642",
-            "SB 285",
-            "SB 398",
-            "SB 426",
-            "SB 448"
+            "SB 285"
         ],
         "billsFailed": [
             "HB 406",
@@ -3237,6 +3234,9 @@
             "SB 219",
             "SB 237",
             "SB 240",
+            "SB 398",
+            "SB 426",
+            "SB 448",
             "SJ 16"
         ],
         "billsBlasted": [],
