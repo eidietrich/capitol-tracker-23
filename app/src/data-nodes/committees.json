@@ -1432,7 +1432,10 @@
         ],
         "billsUnscheduled": [
             "HB 948",
-            "HB 958"
+            "HB 958",
+            "SB 165",
+            "SB 236",
+            "SB 269"
         ],
         "billsScheduled": [
             "HB 871",
@@ -1443,9 +1446,6 @@
             "HB 907",
             "HB 923",
             "HB 932",
-            "SB 165",
-            "SB 236",
-            "SB 269",
             "SB 300",
             "SB 310",
             "SB 312",
@@ -1492,9 +1492,6 @@
             {
                 "day": "03/30/2023",
                 "bills": [
-                    "SB 165",
-                    "SB 236",
-                    "SB 269",
                     "SB 436"
                 ]
             },
@@ -1543,7 +1540,6 @@
             "HB 867",
             "SB 59",
             "SB 75",
-            "SB 203",
             "SB 262"
         ],
         "billsFailed": [
@@ -1678,6 +1674,7 @@
             "SB 168",
             "SB 177",
             "SB 178",
+            "SB 203",
             "SB 209",
             "SB 214",
             "SB 244",
@@ -3728,18 +3725,19 @@
             "HB 759"
         ],
         "billsUnscheduled": [
-            "HB 913",
             "HB 944",
             "HB 949"
         ],
         "billsScheduled": [
-            "HB 888"
+            "HB 888",
+            "HB 913"
         ],
         "billsScheduledByDay": [
             {
                 "day": "03/29/2023",
                 "bills": [
-                    "HB 888"
+                    "HB 888",
+                    "HB 913"
                 ]
             }
         ],
@@ -4676,14 +4674,13 @@
         ],
         "billCount": 76,
         "billsWithdrawn": [],
-        "billsUnscheduled": [
-            "HB 959"
-        ],
+        "billsUnscheduled": [],
         "billsScheduled": [
             "HB 874",
             "HB 890",
             "HB 914",
             "HB 938",
+            "HB 959",
             "SB 174",
             "SB 206",
             "SB 220",
@@ -4707,6 +4704,7 @@
                     "HB 890",
                     "HB 914",
                     "HB 938",
+                    "HB 959",
                     "SB 220",
                     "SB 323",
                     "SB 379",
