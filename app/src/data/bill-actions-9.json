@@ -30140,6 +30140,145 @@
                 "isMajor": true,
                 "hearing": true,
                 "vote": null
+            },
+            {
+                "id": "SR64-0018",
+                "bill": "SR 64",
+                "date": "03/28/2023",
+                "description": "Committee Executive Action--Bill Passed",
+                "posession": "senate",
+                "committee": "Senate Agriculture, Livestock and Irrigation",
+                "actionUrl": null,
+                "recordings": [],
+                "transcriptUrl": null,
+                "key": "Committee Executive Action--Bill Passed",
+                "isMajor": true,
+                "isHighlight": true,
+                "committeeAction": true,
+                "advanced": true,
+                "vote": {
+                    "action": "SR64-0018",
+                    "bill": "SR 64",
+                    "date": "03/28/2023",
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/senate/votesheets/SR0064AGS230328.pdf",
+                    "session": "20231",
+                    "motion": "Sen. Gillespie made a Motion that SR 64 Do Pass",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 11,
+                        "N": 0
+                    },
+                    "gopCount": {
+                        "Y": 7,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 4,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": true,
+                    "demSupported": true,
+                    "votes": [
+                        {
+                            "option": "Y",
+                            "name": "Susan Webber",
+                            "lastName": "Webber",
+                            "party": "D",
+                            "locale": "Browning",
+                            "district": "SD 8"
+                        },
+                        {
+                            "option": "Y",
+                            "name": "Bruce Gillespie",
+                            "lastName": "Gillespie",
+                            "party": "R",
+                            "locale": "Ethridge",
+                            "district": "SD 9"
+                        },
+                        {
+                            "option": "Y",
+                            "name": "Dan Bartel",
+                            "lastName": "Bartel",
+                            "party": "R",
+                            "locale": "Lewistown",
+                            "district": "SD 15"
+                        },
+                        {
+                            "option": "Y",
+                            "name": "Ellie Boldman",
+                            "lastName": "Boldman",
+                            "party": "D",
+                            "locale": "Missoula",
+                            "district": "SD 45"
+                        },
+                        {
+                            "option": "Y",
+                            "name": "Dennis Lenz",
+                            "lastName": "Lenz",
+                            "party": "R",
+                            "locale": "Billings",
+                            "district": "SD 27"
+                        },
+                        {
+                            "option": "Y",
+                            "name": "Shane Morigeau",
+                            "lastName": "Morigeau",
+                            "party": "D",
+                            "locale": "Missoula",
+                            "district": "SD 48"
+                        },
+                        {
+                            "option": "Y",
+                            "name": "Wendy McKamey",
+                            "lastName": "McKamey",
+                            "party": "R",
+                            "locale": "Great Falls",
+                            "district": "SD 12"
+                        },
+                        {
+                            "option": "Y",
+                            "name": "Shannon O'Brien",
+                            "lastName": "O'Brien",
+                            "party": "D",
+                            "locale": "Missoula",
+                            "district": "SD 46"
+                        },
+                        {
+                            "option": "Y",
+                            "name": "Dan Salomon",
+                            "lastName": "Salomon",
+                            "party": "R",
+                            "locale": "Ronan",
+                            "district": "SD 47"
+                        },
+                        {
+                            "option": "Y",
+                            "name": "Jeff Welborn",
+                            "lastName": "Welborn",
+                            "party": "R",
+                            "locale": "Dillon",
+                            "district": "SD 36"
+                        },
+                        {
+                            "option": "Y",
+                            "name": "Mike Lang",
+                            "lastName": "Lang",
+                            "party": "R",
+                            "locale": "Malta",
+                            "district": "SD 17"
+                        }
+                    ]
+                }
             }
         ]
     },
@@ -31081,6 +31220,263 @@
                 "key": "Referred to Committee",
                 "isMajor": true,
                 "committeeReferral": true,
+                "vote": null
+            }
+        ]
+    },
+    {
+        "bill": "SR 69",
+        "actions": [
+            {
+                "id": "SR69-0000",
+                "bill": "SR 69",
+                "date": "11/13/2022",
+                "description": "Draft Request Received",
+                "posession": "staff",
+                "committee": null,
+                "actionUrl": null,
+                "recordings": [],
+                "transcriptUrl": null,
+                "key": "Draft Request Received",
+                "draftRequest": true,
+                "vote": null
+            },
+            {
+                "id": "SR69-0001",
+                "bill": "SR 69",
+                "date": "12/19/2022",
+                "description": "Draft to Requester for Review",
+                "posession": "staff",
+                "committee": null,
+                "actionUrl": null,
+                "recordings": [],
+                "transcriptUrl": null,
+                "key": "Draft to Requester for Review",
+                "vote": null
+            },
+            {
+                "id": "SR69-0002",
+                "bill": "SR 69",
+                "date": "12/19/2022",
+                "description": "Draft to Requester for Review",
+                "posession": "staff",
+                "committee": null,
+                "actionUrl": null,
+                "recordings": [],
+                "transcriptUrl": null,
+                "key": "Draft to Requester for Review",
+                "vote": null
+            },
+            {
+                "id": "SR69-0003",
+                "bill": "SR 69",
+                "date": "03/15/2023",
+                "description": "Draft to Requester for Review",
+                "posession": "staff",
+                "committee": null,
+                "actionUrl": null,
+                "recordings": [],
+                "transcriptUrl": null,
+                "key": "Draft to Requester for Review",
+                "vote": null
+            },
+            {
+                "id": "SR69-0004",
+                "bill": "SR 69",
+                "date": "03/17/2023",
+                "description": "Draft in Legal Review",
+                "posession": "staff",
+                "committee": null,
+                "actionUrl": null,
+                "recordings": [],
+                "transcriptUrl": null,
+                "key": "Draft in Legal Review",
+                "vote": null
+            },
+            {
+                "id": "SR69-0005",
+                "bill": "SR 69",
+                "date": "03/17/2023",
+                "description": "Draft in Edit",
+                "posession": "staff",
+                "committee": null,
+                "actionUrl": null,
+                "recordings": [],
+                "transcriptUrl": null,
+                "key": "Draft in Edit",
+                "vote": null
+            },
+            {
+                "id": "SR69-0006",
+                "bill": "SR 69",
+                "date": "03/21/2023",
+                "description": "Draft to Drafter - Edit Review",
+                "posession": "staff",
+                "committee": null,
+                "actionUrl": null,
+                "recordings": [],
+                "transcriptUrl": null,
+                "key": "Draft to Drafter - Edit Review",
+                "vote": null
+            },
+            {
+                "id": "SR69-0007",
+                "bill": "SR 69",
+                "date": "03/21/2023",
+                "description": "Draft in Input/Proofing",
+                "posession": "staff",
+                "committee": null,
+                "actionUrl": null,
+                "recordings": [],
+                "transcriptUrl": null,
+                "key": "Draft in Input/Proofing",
+                "vote": null
+            },
+            {
+                "id": "SR69-0008",
+                "bill": "SR 69",
+                "date": "03/21/2023",
+                "description": "Draft in Final Drafter Review",
+                "posession": "staff",
+                "committee": null,
+                "actionUrl": null,
+                "recordings": [],
+                "transcriptUrl": null,
+                "key": "Draft in Final Drafter Review",
+                "vote": null
+            },
+            {
+                "id": "SR69-0009",
+                "bill": "SR 69",
+                "date": "03/21/2023",
+                "description": "Bill Draft Text Available Electronically",
+                "posession": "staff",
+                "committee": null,
+                "actionUrl": null,
+                "recordings": [],
+                "transcriptUrl": null,
+                "key": "Bill Draft Text Available Electronically",
+                "draftReady": true,
+                "vote": null
+            },
+            {
+                "id": "SR69-0010",
+                "bill": "SR 69",
+                "date": "03/22/2023",
+                "description": "Executive Director Review",
+                "posession": "staff",
+                "committee": null,
+                "actionUrl": null,
+                "recordings": [],
+                "transcriptUrl": null,
+                "key": "Executive Director Review",
+                "vote": null
+            },
+            {
+                "id": "SR69-0011",
+                "bill": "SR 69",
+                "date": "03/22/2023",
+                "description": "Draft in Assembly",
+                "posession": "staff",
+                "committee": null,
+                "actionUrl": null,
+                "recordings": [],
+                "transcriptUrl": null,
+                "key": "Draft in Assembly",
+                "vote": null
+            },
+            {
+                "id": "SR69-0012",
+                "bill": "SR 69",
+                "date": "03/22/2023",
+                "description": "Draft Ready for Delivery",
+                "posession": "staff",
+                "committee": null,
+                "actionUrl": null,
+                "recordings": [],
+                "transcriptUrl": null,
+                "key": "Draft Ready for Delivery",
+                "vote": null
+            },
+            {
+                "id": "SR69-0013",
+                "bill": "SR 69",
+                "date": "03/22/2023",
+                "description": "Executive Director Final Review",
+                "posession": "staff",
+                "committee": null,
+                "actionUrl": null,
+                "recordings": [],
+                "transcriptUrl": null,
+                "key": "Executive Director Final Review",
+                "vote": null
+            },
+            {
+                "id": "SR69-0014",
+                "bill": "SR 69",
+                "date": "03/22/2023",
+                "description": "Draft Ready for Delivery",
+                "posession": "staff",
+                "committee": null,
+                "actionUrl": null,
+                "recordings": [],
+                "transcriptUrl": null,
+                "key": "Draft Ready for Delivery",
+                "vote": null
+            },
+            {
+                "id": "SR69-0015",
+                "bill": "SR 69",
+                "date": "03/22/2023",
+                "description": "Executive Director Final Review",
+                "posession": "staff",
+                "committee": null,
+                "actionUrl": null,
+                "recordings": [],
+                "transcriptUrl": null,
+                "key": "Executive Director Final Review",
+                "vote": null
+            },
+            {
+                "id": "SR69-0016",
+                "bill": "SR 69",
+                "date": "03/22/2023",
+                "description": "Draft Ready for Delivery",
+                "posession": "staff",
+                "committee": null,
+                "actionUrl": null,
+                "recordings": [],
+                "transcriptUrl": null,
+                "key": "Draft Ready for Delivery",
+                "vote": null
+            },
+            {
+                "id": "SR69-0017",
+                "bill": "SR 69",
+                "date": "03/27/2023",
+                "description": "Draft Delivered to Requester",
+                "posession": "staff",
+                "committee": null,
+                "actionUrl": null,
+                "recordings": [],
+                "transcriptUrl": null,
+                "key": "Draft Delivered to Requester",
+                "vote": null
+            },
+            {
+                "id": "SR69-0018",
+                "bill": "SR 69",
+                "date": "03/28/2023",
+                "description": "Introduced",
+                "posession": "senate",
+                "committee": null,
+                "actionUrl": null,
+                "recordings": [],
+                "transcriptUrl": null,
+                "key": "Introduced",
+                "isMajor": true,
+                "isHighlight": true,
+                "introduction": true,
                 "vote": null
             }
         ]
