@@ -196,6 +196,7 @@
         "HB 116",
         "HB 213",
         "HB 270",
+        "HB 313",
         "HB 377",
         "HB 381",
         "HB 399",
@@ -229,6 +230,7 @@
         "HB 352",
         "HB 367",
         "HB 417",
+        "HB 423",
         "HB 426",
         "HB 505",
         "HB 510",
@@ -2884,6 +2886,19 @@
             "scheduledForFloorDebate": true
         },
         {
+            "id": "HB313-0040",
+            "bill": "HB 313",
+            "date": "03/30/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
             "id": "HB377-0044",
             "bill": "HB 377",
             "date": "03/30/2023",
@@ -3159,7 +3174,7 @@
             "scheduledForFinalVote": true
         },
         {
-            "id": "HB8-0030",
+            "id": "HB8-0031",
             "bill": "HB 8",
             "date": "03/30/2023",
             "description": "Scheduled for 3rd Reading",
@@ -3211,7 +3226,7 @@
             "scheduledForFinalVote": true
         },
         {
-            "id": "HB128-0036",
+            "id": "HB128-0038",
             "bill": "HB 128",
             "date": "03/30/2023",
             "description": "Scheduled for 3rd Reading",
@@ -3307,6 +3322,19 @@
             "date": "03/30/2023",
             "description": "Scheduled for 3rd Reading",
             "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Scheduled for 3rd Reading",
+            "scheduledForFinalVote": true
+        },
+        {
+            "id": "HB423-0034",
+            "bill": "HB 423",
+            "date": "03/30/2023",
+            "description": "Scheduled for 3rd Reading",
+            "posession": "house",
             "committee": null,
             "actionUrl": null,
             "recordings": [],
