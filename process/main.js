@@ -159,7 +159,19 @@ const participationPageOutput = {
     text: guideText.ParticipationPage
 }
 
-
+// // Hacky analyses
+// const start = new Date('03/27/23')
+// const end = new Date('03/31/23')
+// const hearingsOnFBBillsThisWeek = bills
+//     .filter(d => d.data.fiscalNoteUrl)
+//     .map(d => d.actions.filter(d => d.data.description === 'Hearing')).flat()
+//     .filter(a => (new Date(a.data.date) >= start) && (new Date(a.data.date) <= end))
+// const hearingsOnCABillsThisWeek = bills
+//     .filter(d => d.data.type === 'constitutional amendment')
+//     .map(d => d.actions.filter(d => d.data.description === 'Hearing')).flat()
+//     .filter(a => (new Date(a.data.date) >= start) && (new Date(a.data.date) <= end))
+// console.log('Fiscal note bill hearings week of 3/27:', hearingsOnFBBillsThisWeek.length)
+// console.log('Const. Amend. bill hearings week of 3/27:', hearingsOnCABillsThisWeek.length)
 
 
 // Outputs 
