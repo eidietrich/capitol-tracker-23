@@ -4868,17 +4868,22 @@
         ],
         "billCount": 27,
         "billsWithdrawn": [],
-        "billsUnscheduled": [
-            "SB 485"
-        ],
+        "billsUnscheduled": [],
         "billsScheduled": [
-            "HB 929"
+            "HB 929",
+            "SB 485"
         ],
         "billsScheduledByDay": [
             {
                 "day": "03/30/2023",
                 "bills": [
                     "HB 929"
+                ]
+            },
+            {
+                "day": "04/05/2023",
+                "bills": [
+                    "SB 485"
                 ]
             }
         ],
@@ -6853,6 +6858,7 @@
             "SB 110",
             "SB 118",
             "SB 125",
+            "SB 192",
             "SB 194",
             "SB 251",
             "SB 258",
