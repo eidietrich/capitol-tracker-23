@@ -182,6 +182,7 @@
         "SB 566",
         "SJ 13",
         "SR 59",
+        "SB 6",
         "HB 6",
         "HB 7",
         "HB 8",
@@ -2644,7 +2645,21 @@
             "hearing": true
         }
     ],
-    "scheduledFloorDebates": [],
+    "scheduledFloorDebates": [
+        {
+            "id": "SB6-0057",
+            "bill": "SB 6",
+            "date": "03/30/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "house",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        }
+    ],
     "scheduledFinalVotes": [
         {
             "id": "HB6-0026",

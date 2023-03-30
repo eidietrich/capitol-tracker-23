@@ -3127,23 +3127,18 @@
         "billsUnscheduled": [],
         "billsScheduled": [],
         "billsScheduledByDay": [],
-        "billsAwaitingVote": [
-            "HB 642",
-            "HB 859",
-            "HB 885",
-            "HB 924",
-            "HB 928",
-            "HB 942",
-            "SB 285"
-        ],
+        "billsAwaitingVote": [],
         "billsFailed": [
             "HB 406",
             "HB 431",
             "HB 537",
             "HB 581",
+            "HB 642",
             "HB 671",
             "HB 753",
             "HB 827",
+            "HB 859",
+            "HB 885",
             "HJ 4",
             "SB 207"
         ],
@@ -3178,6 +3173,9 @@
             "HB 672",
             "HB 775",
             "HB 795",
+            "HB 924",
+            "HB 928",
+            "HB 942",
             "HR 2",
             "SB 17",
             "SB 39",
@@ -3191,6 +3189,7 @@
             "SB 219",
             "SB 237",
             "SB 240",
+            "SB 285",
             "SB 398",
             "SB 426",
             "SB 448",
@@ -3610,6 +3609,7 @@
             "HB 837",
             "HB 863",
             "HB 875",
+            "HB 888",
             "HB 913",
             "HB 944",
             "HB 949",
@@ -3626,7 +3626,7 @@
             "SB 444",
             "SB 480"
         ],
-        "billCount": 71,
+        "billCount": 72,
         "billsWithdrawn": [
             "HB 667",
             "HB 759"
@@ -3635,12 +3635,7 @@
         "billsScheduled": [],
         "billsScheduledByDay": [],
         "billsAwaitingVote": [
-            "HB 837",
-            "HB 863",
-            "HB 875",
-            "HB 913",
-            "HB 944",
-            "HB 949"
+            "HB 913"
         ],
         "billsFailed": [
             "HB 259",
@@ -3650,6 +3645,9 @@
             "HB 688",
             "HB 796",
             "HB 814",
+            "HB 837",
+            "HB 863",
+            "HB 875",
             "SB 129"
         ],
         "billsAdvanced": [
@@ -3697,6 +3695,9 @@
             "HB 749",
             "HB 811",
             "HB 833",
+            "HB 888",
+            "HB 944",
+            "HB 949",
             "SB 1",
             "SB 8",
             "SB 10",
