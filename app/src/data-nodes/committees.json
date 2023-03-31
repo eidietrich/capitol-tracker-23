@@ -193,28 +193,35 @@
         "billCount": 183,
         "billsWithdrawn": [],
         "billsUnscheduled": [
-            "HB 245",
+            "HB 245"
+        ],
+        "billsScheduled": [
             "HB 829",
             "HB 853",
             "HB 888",
             "HB 957"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduledByDay": [
+            {
+                "day": "03/31/2023",
+                "bills": [
+                    "HB 829",
+                    "HB 853",
+                    "HB 888",
+                    "HB 957"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "HB 121",
             "HB 430",
             "HB 445",
             "HB 462",
-            "HB 485",
             "HB 648",
             "HB 649",
             "HB 774",
             "HB 816",
             "HB 825",
-            "HB 828",
-            "HB 840",
-            "HB 904",
             "HB 906",
             "HB 944",
             "HB 949",
@@ -339,6 +346,7 @@
             "HB 469",
             "HB 479",
             "HB 482",
+            "HB 485",
             "HB 500",
             "HB 519",
             "HB 520",
@@ -367,15 +375,18 @@
             "HB 817",
             "HB 821",
             "HB 822",
+            "HB 828",
             "HB 833",
             "HB 835",
             "HB 839",
+            "HB 840",
             "HB 856",
             "HB 864",
             "HB 868",
             "HB 872",
             "HB 883",
             "HB 891",
+            "HB 904",
             "HB 916",
             "HB 917",
             "HB 922",
