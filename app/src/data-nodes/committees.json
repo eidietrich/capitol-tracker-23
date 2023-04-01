@@ -4580,6 +4580,7 @@
             "SB 331",
             "SB 335",
             "SB 358",
+            "SB 359",
             "SB 379",
             "SB 381",
             "SB 382",
@@ -4589,16 +4590,23 @@
             "SB 420",
             "SB 500"
         ],
-        "billCount": 76,
+        "billCount": 77,
         "billsWithdrawn": [],
         "billsUnscheduled": [],
         "billsScheduled": [
             "SB 330",
             "SB 331",
             "SB 335",
-            "SB 358"
+            "SB 358",
+            "SB 359"
         ],
         "billsScheduledByDay": [
+            {
+                "day": "04/01/2023",
+                "bills": [
+                    "SB 359"
+                ]
+            },
             {
                 "day": "04/04/2023",
                 "bills": [
