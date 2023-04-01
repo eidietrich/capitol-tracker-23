@@ -5268,13 +5268,7 @@
         "billCount": 132,
         "billsWithdrawn": [],
         "billsUnscheduled": [
-            "HB 2",
-            "HB 6",
-            "HB 7",
-            "HB 8",
             "HB 9",
-            "HB 10",
-            "HB 11",
             "HB 82",
             "HB 91",
             "HB 147",
@@ -5285,11 +5279,42 @@
             "HB 377",
             "HB 381",
             "HB 597",
-            "HB 817",
             "SB 60"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduled": [
+            "HB 2",
+            "HB 6",
+            "HB 7",
+            "HB 8",
+            "HB 10",
+            "HB 11",
+            "HB 817"
+        ],
+        "billsScheduledByDay": [
+            {
+                "day": "04/04/2023",
+                "bills": [
+                    "HB 6",
+                    "HB 7",
+                    "HB 8",
+                    "HB 10",
+                    "HB 11",
+                    "HB 817"
+                ]
+            },
+            {
+                "day": "04/05/2023",
+                "bills": [
+                    "HB 2"
+                ]
+            },
+            {
+                "day": "04/06/2023",
+                "bills": [
+                    "HB 2"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "HB 114",
             "HB 163",
