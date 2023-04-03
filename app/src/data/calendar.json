@@ -142,6 +142,8 @@
         "SR 61",
         "SR 66",
         "SR 67",
+        "HB 372",
+        "HB 517",
         "HB 81",
         "HB 158",
         "HB 159",
@@ -2069,7 +2071,34 @@
             "hearing": true
         }
     ],
-    "scheduledFloorDebates": [],
+    "scheduledFloorDebates": [
+        {
+            "id": "HB372-0024",
+            "bill": "HB 372",
+            "date": "04/03/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "house",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
+            "id": "HB517-0023",
+            "bill": "HB 517",
+            "date": "04/03/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "house",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        }
+    ],
     "scheduledFinalVotes": [
         {
             "id": "HB81-0043",
