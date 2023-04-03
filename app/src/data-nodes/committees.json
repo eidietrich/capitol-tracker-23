@@ -3912,12 +3912,20 @@
             "HB 792",
             "HR 4"
         ],
-        "billsUnscheduled": [
+        "billsUnscheduled": [],
+        "billsScheduled": [
             "SB 351",
             "SB 384"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduledByDay": [
+            {
+                "day": "04/05/2023",
+                "bills": [
+                    "SB 351",
+                    "SB 384"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "SB 32",
             "SB 33",
@@ -5353,9 +5361,7 @@
             "HB 163",
             "HB 226",
             "HB 355",
-            "HB 569",
-            "SB 533",
-            "SB 555"
+            "HB 569"
         ],
         "billsFailed": [
             "HB 375",
@@ -5463,9 +5469,11 @@
             "SB 516",
             "SB 522",
             "SB 529",
+            "SB 533",
             "SB 536",
             "SB 549",
             "SB 550",
+            "SB 555",
             "SJ 18"
         ],
         "billsBlasted": [],
@@ -8285,8 +8293,7 @@
             "SB 503",
             "SB 542",
             "SB 560",
-            "SB 562",
-            "SB 566"
+            "SB 562"
         ],
         "billsAdvanced": [
             "HB 63",
@@ -8319,12 +8326,14 @@
             "HB 329",
             "HB 335",
             "HB 384",
+            "HB 387",
             "HB 400",
             "HB 510",
             "HB 536",
             "HB 585",
             "HB 663",
             "HB 712",
+            "HB 733",
             "HB 754",
             "HJ 14",
             "SB 18",
@@ -8370,6 +8379,7 @@
             "SB 498",
             "SB 534",
             "SB 565",
+            "SB 566",
             "SJ 4",
             "SJ 7",
             "SJ 8",
