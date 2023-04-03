@@ -5294,7 +5294,9 @@
             "SB 529",
             "SB 530",
             "SB 533",
+            "SB 535",
             "SB 536",
+            "SB 538",
             "SB 547",
             "SB 549",
             "SB 550",
@@ -5302,7 +5304,7 @@
             "SB 555",
             "SJ 18"
         ],
-        "billCount": 136,
+        "billCount": 138,
         "billsWithdrawn": [],
         "billsUnscheduled": [
             "HB 4",
@@ -5329,9 +5331,18 @@
             "HB 8",
             "HB 10",
             "HB 11",
-            "HB 817"
+            "HB 817",
+            "SB 535",
+            "SB 538"
         ],
         "billsScheduledByDay": [
+            {
+                "day": "04/03/2023",
+                "bills": [
+                    "SB 535",
+                    "SB 538"
+                ]
+            },
             {
                 "day": "04/04/2023",
                 "bills": [
