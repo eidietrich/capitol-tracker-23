@@ -1979,19 +1979,28 @@
         "billsUnscheduled": [
             "HB 121",
             "HJ 2",
-            "SB 104",
-            "SB 246",
-            "SB 332",
             "SB 505"
         ],
         "billsScheduled": [
-            "SB 303"
+            "SB 104",
+            "SB 246",
+            "SB 303",
+            "SB 332"
         ],
         "billsScheduledByDay": [
             {
                 "day": "04/04/2023",
                 "bills": [
                     "SB 303"
+                ]
+            },
+            {
+                "day": "04/06/2023",
+                "bills": [
+                    "SB 104",
+                    "SB 246",
+                    "SB 303",
+                    "SB 332"
                 ]
             }
         ],
@@ -3423,11 +3432,18 @@
         ],
         "billCount": 70,
         "billsWithdrawn": [],
-        "billsUnscheduled": [
+        "billsUnscheduled": [],
+        "billsScheduled": [
             "SB 47"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduledByDay": [
+            {
+                "day": "04/05/2023",
+                "bills": [
+                    "SB 47"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "SB 228",
             "SB 421",
