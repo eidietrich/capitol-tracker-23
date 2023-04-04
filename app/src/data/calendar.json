@@ -166,6 +166,7 @@
         "HB 379",
         "HB 384",
         "HB 385",
+        "HB 387",
         "HB 427",
         "HB 550",
         "HB 557",
@@ -2544,6 +2545,19 @@
             "scheduledForFloorDebate": true
         },
         {
+            "id": "HB387-0033",
+            "bill": "HB 387",
+            "date": "04/04/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
             "id": "HB427-0038",
             "bill": "HB 427",
             "date": "04/04/2023",
@@ -3198,6 +3212,19 @@
         {
             "id": "HB385-0041",
             "bill": "HB 385",
+            "date": "04/05/2023",
+            "description": "Scheduled for 3rd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Scheduled for 3rd Reading",
+            "scheduledForFinalVote": true
+        },
+        {
+            "id": "HB387-0035",
+            "bill": "HB 387",
             "date": "04/05/2023",
             "description": "Scheduled for 3rd Reading",
             "posession": "senate",
@@ -4418,7 +4445,7 @@
             "scheduledForFinalVote": true
         },
         {
-            "id": "SB522-0037",
+            "id": "SB522-0038",
             "bill": "SB 522",
             "date": "04/04/2023",
             "description": "Scheduled for 3rd Reading",
