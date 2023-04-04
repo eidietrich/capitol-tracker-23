@@ -214,13 +214,23 @@
         "billCount": 204,
         "billsWithdrawn": [],
         "billsUnscheduled": [
-            "HB 245",
+            "HB 245"
+        ],
+        "billsScheduled": [
             "SB 19",
             "SB 89",
             "SB 229"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduledByDay": [
+            {
+                "day": "04/05/2023",
+                "bills": [
+                    "SB 19",
+                    "SB 89",
+                    "SB 229"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "HB 121",
             "SB 29"
