@@ -835,7 +835,7 @@
             "date": "04/05/2023",
             "description": "Hearing",
             "posession": "senate",
-            "committee": "Senate State Administration",
+            "committee": "Senate Business, Labor, and Economic Affairs",
             "actionUrl": null,
             "recordings": [],
             "transcriptUrl": null,
@@ -891,7 +891,7 @@
             "date": "04/05/2023",
             "description": "Hearing",
             "posession": "senate",
-            "committee": "Senate Judiciary",
+            "committee": "Senate Business, Labor, and Economic Affairs",
             "actionUrl": null,
             "recordings": [],
             "transcriptUrl": null,
@@ -1521,7 +1521,7 @@
             "date": "04/04/2023",
             "description": "Hearing",
             "posession": "house",
-            "committee": "House Judiciary",
+            "committee": "House Business and Labor",
             "actionUrl": null,
             "recordings": [],
             "transcriptUrl": null,
@@ -1549,7 +1549,7 @@
             "date": "04/05/2023",
             "description": "Hearing",
             "posession": "house",
-            "committee": "House Judiciary",
+            "committee": "House Human Services",
             "actionUrl": null,
             "recordings": [],
             "transcriptUrl": null,
@@ -1605,7 +1605,7 @@
             "date": "04/05/2023",
             "description": "Hearing",
             "posession": "house",
-            "committee": "House Judiciary",
+            "committee": "House Business and Labor",
             "actionUrl": null,
             "recordings": [],
             "transcriptUrl": null,
@@ -1954,8 +1954,8 @@
             "bill": "SB 491",
             "date": "04/06/2023",
             "description": "Hearing",
-            "posession": "house",
-            "committee": "House Judiciary",
+            "posession": "senate",
+            "committee": "Senate Finance and Claims",
             "actionUrl": null,
             "recordings": [],
             "transcriptUrl": null,
@@ -2032,7 +2032,9 @@
             "key": "Hearing",
             "isMajor": true,
             "hearing": true
-        },
+        }
+    ],
+    "scheduledFloorDebates": [
         {
             "id": "SR66-0016",
             "bill": "SR 66",
@@ -2043,9 +2045,8 @@
             "actionUrl": null,
             "recordings": [],
             "transcriptUrl": null,
-            "key": "Hearing",
-            "isMajor": true,
-            "hearing": true
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
         },
         {
             "id": "SR67-0018",
