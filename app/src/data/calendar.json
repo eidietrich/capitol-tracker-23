@@ -140,7 +140,8 @@
         "SR 60",
         "SR 61",
         "SR 66",
-        "SR 67"
+        "SR 67",
+        "SB 538"
     ],
     "scheduledHearings": [
         {
@@ -2063,5 +2064,19 @@
         }
     ],
     "scheduledFloorDebates": [],
-    "scheduledFinalVotes": []
+    "scheduledFinalVotes": [
+        {
+            "id": "SB538-0036",
+            "bill": "SB 538",
+            "date": "04/04/2023",
+            "description": "Scheduled for 3rd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Scheduled for 3rd Reading",
+            "scheduledForFinalVote": true
+        }
+    ]
 }
