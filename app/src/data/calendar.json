@@ -149,6 +149,7 @@
         "SR 61",
         "SR 66",
         "SR 67",
+        "HB 203",
         "SB 538"
     ],
     "scheduledHearings": [
@@ -2171,6 +2172,19 @@
     ],
     "scheduledFloorDebates": [],
     "scheduledFinalVotes": [
+        {
+            "id": "HB203-0043",
+            "bill": "HB 203",
+            "date": "04/04/2023",
+            "description": "Scheduled for 3rd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Scheduled for 3rd Reading",
+            "scheduledForFinalVote": true
+        },
         {
             "id": "SB538-0036",
             "bill": "SB 538",
