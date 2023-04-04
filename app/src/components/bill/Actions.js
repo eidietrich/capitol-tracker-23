@@ -194,7 +194,7 @@ const Action = (action, showVotes, annotations) => {
       </div> */}
       {
         // TODO - flesh this out
-        (vote && thresholdRequired !== 'simple') ? <div className="note">Supermajority required</div> : null
+        (vote && thresholdRequired !== 'simple') ? <div className="note">Supermajority required - {thresholdRequired}</div> : null
       }
       {
         (showVotes && vote) ? <VoteBlock description={description} vote={vote} /> : null
@@ -278,16 +278,23 @@ const VoteBlock = ({ vote, description }) => {
     demCount,
     demSupported,
     votes,
-    voteUrl
+    voteUrl,
+    thresholdRequired
   } = (vote || {})
   const rColor = partyColors('R')
   const dColor = partyColors('D')
 
   const billAdvanced = (description === 'Tabled in Committee') ? !motionPassed : motionPassed
-  const passageColor = billAdvanced ? positionColors('Y') : positionColors('N')
-  const icon = billAdvanced ? '✅' : '❌'
-  const gopSupportColor = gopSupported ? positionColors('Y') : positionColors('N')
-  const demSupportColor = demSupported ? positionColors('Y') : positionColors('N')
+  let icon = ''
+  let passageColor = 'var(--gray2)'
+  let gopSupportColor = 'var(--gray2)'
+  let demSupportColor = 'var(--gray2)'
+  if ((thresholdRequired !== '2/3 entire legislature') || (description !== '2nd Reading Passed')) {
+    icon = billAdvanced ? '✅' : '❌'
+    passageColor = billAdvanced ? positionColors('Y') : positionColors('N')
+    gopSupportColor = gopSupported ? positionColors('Y') : positionColors('N')
+    demSupportColor = demSupported ? positionColors('Y') : positionColors('N')
+  }
   return <div>
     <div css={voteSummariesCss}>
       {
