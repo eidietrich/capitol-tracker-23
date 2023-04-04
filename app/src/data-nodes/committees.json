@@ -9370,13 +9370,22 @@
         "billCount": 16,
         "billsWithdrawn": [],
         "billsUnscheduled": [
-            "HB 412",
-            "HB 529",
             "SR 53",
             "SR 58"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduled": [
+            "HB 412",
+            "HB 529"
+        ],
+        "billsScheduledByDay": [
+            {
+                "day": "04/06/2023",
+                "bills": [
+                    "HB 412",
+                    "HB 529"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "HB 140",
             "HB 493",
