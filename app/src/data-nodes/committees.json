@@ -882,7 +882,6 @@
         ],
         "billsUnscheduled": [
             "SB 250",
-            "SB 359",
             "SB 458"
         ],
         "billsScheduled": [
@@ -899,6 +898,7 @@
             "SB 333",
             "SB 339",
             "SB 355",
+            "SB 359",
             "SB 376",
             "SB 392",
             "SB 396",
@@ -937,6 +937,7 @@
                 "bills": [
                     "SB 333",
                     "SB 339",
+                    "SB 359",
                     "SB 376",
                     "SB 392",
                     "SB 396",
@@ -4648,7 +4649,6 @@
             "SB 331",
             "SB 335",
             "SB 358",
-            "SB 359",
             "SB 379",
             "SB 381",
             "SB 382",
@@ -4658,15 +4658,14 @@
             "SB 420",
             "SB 500"
         ],
-        "billCount": 77,
+        "billCount": 76,
         "billsWithdrawn": [],
         "billsUnscheduled": [],
         "billsScheduled": [
             "SB 330",
             "SB 331",
             "SB 335",
-            "SB 358",
-            "SB 359"
+            "SB 358"
         ],
         "billsScheduledByDay": [
             {
@@ -4676,12 +4675,6 @@
                     "SB 331",
                     "SB 335",
                     "SB 358"
-                ]
-            },
-            {
-                "day": "04/05/2023",
-                "bills": [
-                    "SB 359"
                 ]
             }
         ],
@@ -4694,7 +4687,6 @@
             "SB 301",
             "SB 323",
             "SB 327",
-            "SB 359",
             "SB 379",
             "SB 381",
             "SB 382",
