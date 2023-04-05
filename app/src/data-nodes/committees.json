@@ -4195,17 +4195,22 @@
         ],
         "billCount": 35,
         "billsWithdrawn": [],
-        "billsUnscheduled": [
-            "SB 561"
-        ],
+        "billsUnscheduled": [],
         "billsScheduled": [
-            "HR 6"
+            "HR 6",
+            "SB 561"
         ],
         "billsScheduledByDay": [
             {
                 "day": "04/06/2023",
                 "bills": [
                     "HR 6"
+                ]
+            },
+            {
+                "day": "04/11/2023",
+                "bills": [
+                    "SB 561"
                 ]
             }
         ],
