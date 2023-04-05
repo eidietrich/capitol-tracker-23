@@ -227,6 +227,10 @@ export const ACTIONS = [
     { key: 'Resolution Adopted', isMajor, isHighlight, firstChamberFloorAction, secondChamberAction, finalPassage },
     { key: 'Resolution Not Adopted', isMajor, isHighlight, firstChamberFloorAction, secondChamberAction, failed },
     { key: 'Adverse Committee Report Adopted', isMajor, isHighlight, firstChamberFloorAction, secondChamberAction, failed }, // Seems to be how resolutions are killed?
+    // some constitutional amendments
+    { key: '2nd Reading Pass Motion Failed; 3rd Reading Vote Required', isMajor, isHighlight, firstChamberFloorAction, advanced },
+    { key: '3rd Reading Failed; 2nd House Vote Required', isMajor, isHighlight, firstChamberFloorAction, advanced, finalPassage },
+
     // 2005 session
     { key: '2nd Reading Passed as Amended on Voice Vote', isMajor, isHighlight, firstChamberFloorAction, amended, preliminaryPassage },
     { key: '2nd Reading Passed on Voice Vote', isMajor, isHighlight, firstChamberFloorAction, preliminaryPassage },
@@ -387,6 +391,7 @@ export const ACTIONS = [
     { key: 'Revised Fiscal Note Received', },
     { key: 'Revised Fiscal Note Requested', },
     { key: 'Revised Fiscal Note Signed', },
+    { key: 'Fiscal Impact Unchanged' },
     { key: 'Scheduled for 2nd Reading', scheduledForFloorDebate },
     { key: '2nd Reading Pass Consideration' },
     { key: '2nd Reading Indefinitely Postpone Motion Failed' },
