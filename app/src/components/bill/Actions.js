@@ -289,7 +289,7 @@ const VoteBlock = ({ vote, description }) => {
   let passageColor = 'var(--gray2)'
   let gopSupportColor = 'var(--gray2)'
   let demSupportColor = 'var(--gray2)'
-  if ((thresholdRequired !== '2/3 entire legislature') || (description !== '2nd Reading Passed')) {
+  if ((thresholdRequired !== '2/3 entire legislature') || (!['2nd Reading Passed', '3rd Reading Passed'].includes(description))) {
     icon = billAdvanced ? '✅' : '❌'
     passageColor = billAdvanced ? positionColors('Y') : positionColors('N')
     gopSupportColor = gopSupported ? positionColors('Y') : positionColors('N')
