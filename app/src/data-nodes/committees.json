@@ -213,9 +213,7 @@
         ],
         "billCount": 204,
         "billsWithdrawn": [],
-        "billsUnscheduled": [
-            "HB 245"
-        ],
+        "billsUnscheduled": [],
         "billsScheduled": [
             "SB 19",
             "SB 89",
@@ -891,6 +889,7 @@
             "SB 160",
             "SB 250",
             "SB 272",
+            "SB 359",
             "SB 458",
             "SB 518",
             "SB 534",
@@ -907,7 +906,6 @@
             "SB 325",
             "SB 333",
             "SB 339",
-            "SB 359",
             "SB 376",
             "SB 392",
             "SB 396",
@@ -926,7 +924,6 @@
                 "bills": [
                     "SB 333",
                     "SB 339",
-                    "SB 359",
                     "SB 376",
                     "SB 392",
                     "SB 396",
@@ -953,12 +950,8 @@
             }
         ],
         "billsAwaitingVote": [
-            "SB 211",
             "SB 268",
-            "SB 326",
-            "SB 355",
-            "SB 361",
-            "SB 499"
+            "SB 355"
         ],
         "billsFailed": [
             "HB 57",
@@ -1011,7 +1004,10 @@
             "SB 12",
             "SB 180",
             "SB 187",
+            "SB 211",
             "SB 277",
+            "SB 326",
+            "SB 361",
             "SB 368",
             "SB 429"
         ],
@@ -1199,6 +1195,7 @@
             "SB 459",
             "SB 488",
             "SB 490",
+            "SB 499",
             "SJ 3",
             "SJ 15"
         ],
@@ -4681,6 +4678,7 @@
             "SB 331",
             "SB 335",
             "SB 358",
+            "SB 359",
             "SB 379",
             "SB 381",
             "SB 382",
@@ -4692,14 +4690,23 @@
             "SB 528",
             "SB 536"
         ],
-        "billCount": 78,
+        "billCount": 79,
         "billsWithdrawn": [],
         "billsUnscheduled": [
             "SB 528",
             "SB 536"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduled": [
+            "SB 359"
+        ],
+        "billsScheduledByDay": [
+            {
+                "day": "04/05/2023",
+                "bills": [
+                    "SB 359"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "SB 301",
             "SB 330",
@@ -5266,6 +5273,7 @@
             "HB 222",
             "HB 226",
             "HB 243",
+            "HB 245",
             "HB 251",
             "HB 257",
             "HB 260",
@@ -5379,7 +5387,7 @@
             "SB 555",
             "SJ 18"
         ],
-        "billCount": 151,
+        "billCount": 152,
         "billsWithdrawn": [],
         "billsUnscheduled": [
             "HB 4",
@@ -5389,6 +5397,7 @@
             "HB 82",
             "HB 91",
             "HB 217",
+            "HB 245",
             "HB 297",
             "HB 377",
             "HB 424",
