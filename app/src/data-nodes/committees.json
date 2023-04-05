@@ -813,7 +813,6 @@
             "SB 94",
             "SB 95",
             "SB 96",
-            "SB 99",
             "SB 105",
             "SB 127",
             "SB 134",
@@ -895,7 +894,7 @@
             "SJ 3",
             "SJ 15"
         ],
-        "billCount": 280,
+        "billCount": 279,
         "billsWithdrawn": [
             "HB 197",
             "HB 444",
@@ -909,7 +908,6 @@
             "SB 160",
             "SB 250",
             "SB 272",
-            "SB 359",
             "SB 458",
             "SB 518",
             "SB 534",
@@ -926,6 +924,7 @@
             "SB 325",
             "SB 333",
             "SB 339",
+            "SB 359",
             "SB 376",
             "SB 392",
             "SB 396",
@@ -944,6 +943,7 @@
                 "bills": [
                     "SB 333",
                     "SB 339",
+                    "SB 359",
                     "SB 376",
                     "SB 392",
                     "SB 396",
@@ -1176,7 +1176,6 @@
             "SB 94",
             "SB 95",
             "SB 96",
-            "SB 99",
             "SB 105",
             "SB 134",
             "SB 135",
@@ -5332,6 +5331,7 @@
             "HB 839",
             "HB 864",
             "HB 868",
+            "HB 883",
             "HB 891",
             "HB 916",
             "HB 917",
@@ -5418,7 +5418,7 @@
             "SB 555",
             "SJ 18"
         ],
-        "billCount": 152,
+        "billCount": 153,
         "billsWithdrawn": [],
         "billsUnscheduled": [
             "HB 4",
@@ -5439,6 +5439,7 @@
             "HB 839",
             "HB 864",
             "HB 868",
+            "HB 883",
             "HB 891",
             "HB 916",
             "HB 917",
@@ -5783,10 +5784,12 @@
             "HB 500",
             "HB 512",
             "HB 513",
+            "HB 517",
             "HB 518",
             "HB 525",
             "HB 541",
             "HB 545",
+            "HB 551",
             "HB 555",
             "HB 560",
             "HB 573",
@@ -5828,6 +5831,9 @@
             "HB 793",
             "HB 800",
             "HB 802",
+            "HB 886",
+            "HB 915",
+            "HB 937",
             "HB 968",
             "HJ 1",
             "SB 2",
@@ -5848,7 +5854,6 @@
             "SB 94",
             "SB 95",
             "SB 96",
-            "SB 99",
             "SB 106",
             "SB 127",
             "SB 134",
@@ -5950,7 +5955,7 @@
             "SR 10",
             "SR 65"
         ],
-        "billCount": 216,
+        "billCount": 220,
         "billsWithdrawn": [
             "SB 157",
             "SB 257",
@@ -5958,7 +5963,12 @@
         ],
         "billsUnscheduled": [
             "HB 317",
-            "HB 479"
+            "HB 479",
+            "HB 517",
+            "HB 551",
+            "HB 886",
+            "HB 915",
+            "HB 937"
         ],
         "billsScheduled": [
             "HB 423",
@@ -6126,7 +6136,6 @@
             "SB 94",
             "SB 95",
             "SB 96",
-            "SB 99",
             "SB 106",
             "SB 127",
             "SB 134",
@@ -6305,6 +6314,7 @@
             "HB 70",
             "HB 71",
             "HB 72",
+            "HB 87",
             "HB 95",
             "HB 96",
             "HB 97",
@@ -6378,6 +6388,7 @@
             "HB 612",
             "HB 615",
             "HB 636",
+            "HB 648",
             "HB 652",
             "HB 658",
             "HB 665",
@@ -6394,8 +6405,17 @@
             "HB 783",
             "HB 805",
             "HB 808",
+            "HB 819",
+            "HB 828",
             "HB 836",
+            "HB 867",
+            "HB 881",
+            "HB 889",
+            "HB 898",
             "HB 903",
+            "HB 918",
+            "HB 952",
+            "HB 969",
             "HJ 10",
             "SB 20",
             "SB 21",
@@ -6513,16 +6533,27 @@
             "SR 66",
             "SR 67"
         ],
-        "billCount": 218,
+        "billCount": 229,
         "billsWithdrawn": [
             "SB 267",
             "SB 493"
         ],
         "billsUnscheduled": [
+            "HB 87",
             "HB 128",
             "HB 455",
+            "HB 648",
+            "HB 819",
+            "HB 828",
             "HB 836",
-            "HB 903"
+            "HB 867",
+            "HB 881",
+            "HB 889",
+            "HB 898",
+            "HB 903",
+            "HB 918",
+            "HB 952",
+            "HB 969"
         ],
         "billsScheduled": [
             "HB 137",
@@ -6854,12 +6885,17 @@
             "HB 447",
             "HB 459",
             "HB 481",
+            "HB 485",
             "HB 496",
             "HB 497",
             "HB 601",
             "HB 823",
             "HB 830",
+            "HB 840",
+            "HB 861",
+            "HB 906",
             "HB 925",
+            "HB 943",
             "SB 3",
             "SB 14",
             "SB 15",
@@ -6924,13 +6960,18 @@
             "SB 554",
             "SR 11"
         ],
-        "billCount": 87,
+        "billCount": 92,
         "billsWithdrawn": [
             "SB 192",
             "SB 273",
             "SB 461"
         ],
         "billsUnscheduled": [
+            "HB 485",
+            "HB 840",
+            "HB 861",
+            "HB 906",
+            "HB 943",
             "SB 118"
         ],
         "billsScheduled": [
@@ -7141,6 +7182,7 @@
             "HB 287",
             "HB 288",
             "HB 321",
+            "HB 332",
             "HB 334",
             "HB 338",
             "HB 346",
@@ -7171,6 +7213,11 @@
             "HB 745",
             "HB 749",
             "HB 811",
+            "HB 833",
+            "HB 913",
+            "HB 944",
+            "HB 949",
+            "HB 950",
             "HJ 9",
             "SB 1",
             "SB 8",
@@ -7201,7 +7248,7 @@
             "SR 47",
             "SR 51"
         ],
-        "billCount": 77,
+        "billCount": 83,
         "billsWithdrawn": [
             "SB 9",
             "SB 350"
@@ -7209,6 +7256,7 @@
         "billsUnscheduled": [
             "HB 288",
             "HB 321",
+            "HB 332",
             "HB 352",
             "HB 382",
             "HB 393",
@@ -7218,6 +7266,11 @@
             "HB 587",
             "HB 588",
             "HB 749",
+            "HB 833",
+            "HB 913",
+            "HB 944",
+            "HB 949",
+            "HB 950",
             "SB 337"
         ],
         "billsScheduled": [
@@ -7430,9 +7483,13 @@
             "HB 731",
             "HB 748",
             "HB 780",
+            "HB 874",
             "HB 890",
             "HB 914",
+            "HB 927",
             "HB 938",
+            "HB 941",
+            "HB 948",
             "SB 5",
             "SB 98",
             "SB 103",
@@ -7499,15 +7556,19 @@
             "SB 549",
             "SB 558"
         ],
-        "billCount": 108,
+        "billCount": 112,
         "billsWithdrawn": [
             "SB 409"
         ],
         "billsUnscheduled": [
             "HB 334",
+            "HB 874",
             "HB 890",
             "HB 914",
-            "HB 938"
+            "HB 927",
+            "HB 938",
+            "HB 941",
+            "HB 948"
         ],
         "billsScheduled": [
             "HB 55",
@@ -7727,7 +7788,9 @@
             "HB 656",
             "HB 775",
             "HB 795",
+            "HB 870",
             "HB 924",
+            "HB 928",
             "HJ 7",
             "HJ 11",
             "SB 17",
@@ -7761,7 +7824,7 @@
             "SR 62",
             "SR 63"
         ],
-        "billCount": 55,
+        "billCount": 57,
         "billsWithdrawn": [
             "SB 41",
             "SB 82",
@@ -7770,7 +7833,9 @@
             "SR 45"
         ],
         "billsUnscheduled": [
+            "HB 870",
             "HB 924",
+            "HB 928",
             "HJ 7"
         ],
         "billsScheduled": [
@@ -7963,6 +8028,7 @@
             "HB 740",
             "HB 822",
             "HB 862",
+            "HB 872",
             "HJ 12",
             "SB 4",
             "SB 26",
@@ -7973,7 +8039,6 @@
             "SB 48",
             "SB 67",
             "SB 87",
-            "SB 99",
             "SB 112",
             "SB 113",
             "SB 114",
@@ -8038,7 +8103,7 @@
             "SR 50",
             "SR 54"
         ],
-        "billCount": 113,
+        "billCount": 114,
         "billsWithdrawn": [
             "SB 239",
             "SB 241",
@@ -8048,6 +8113,7 @@
         "billsUnscheduled": [
             "HB 362",
             "HB 822",
+            "HB 872",
             "SB 39",
             "SR 54"
         ],
@@ -8303,8 +8369,10 @@
             "HB 724",
             "HB 733",
             "HB 754",
+            "HB 774",
             "HB 845",
             "HB 852",
+            "HB 855",
             "HB 892",
             "HB 947",
             "HJ 14",
@@ -8389,7 +8457,7 @@
             "SR 49",
             "SR 69"
         ],
-        "billCount": 135,
+        "billCount": 137,
         "billsWithdrawn": [
             "SB 185",
             "SB 248",
@@ -8399,8 +8467,10 @@
         "billsUnscheduled": [
             "HB 360",
             "HB 402",
+            "HB 774",
             "HB 845",
             "HB 852",
+            "HB 855",
             "HB 892",
             "HB 947",
             "SB 441",
@@ -8641,6 +8711,7 @@
             "HB 662",
             "HB 738",
             "HB 767",
+            "HB 821",
             "HB 880",
             "SB 37",
             "SB 52",
@@ -8661,11 +8732,12 @@
             "SR 52",
             "SR 64"
         ],
-        "billCount": 39,
+        "billCount": 40,
         "billsWithdrawn": [
             "SB 52"
         ],
         "billsUnscheduled": [
+            "HB 821",
             "HB 880"
         ],
         "billsScheduled": [
@@ -8962,6 +9034,7 @@
             "HB 217",
             "HB 243",
             "HB 290",
+            "HB 372",
             "HB 375",
             "HB 383",
             "HB 419",
@@ -8976,6 +9049,7 @@
             "HB 596",
             "HB 600",
             "HB 635",
+            "HB 846",
             "SB 58",
             "SB 76",
             "SB 84",
@@ -9003,10 +9077,12 @@
             "SR 3",
             "SR 68"
         ],
-        "billCount": 52,
+        "billCount": 54,
         "billsWithdrawn": [],
         "billsUnscheduled": [
+            "HB 372",
             "HB 375",
+            "HB 846",
             "SR 2",
             "SR 68"
         ],
@@ -9191,6 +9267,7 @@
             "HB 764",
             "HB 809",
             "HB 902",
+            "HB 904",
             "SB 33",
             "SB 57",
             "SB 111",
@@ -9209,13 +9286,14 @@
             "SB 510",
             "SB 521"
         ],
-        "billCount": 47,
+        "billCount": 48,
         "billsWithdrawn": [
             "SB 495"
         ],
         "billsUnscheduled": [
             "HB 55",
-            "HB 902"
+            "HB 902",
+            "HB 904"
         ],
         "billsScheduled": [],
         "billsScheduledByDay": [],
@@ -9484,6 +9562,9 @@
             "HB 529",
             "HB 714",
             "HB 739",
+            "HB 856",
+            "HB 920",
+            "HB 929",
             "SB 193",
             "SB 233",
             "SB 394",
@@ -9491,9 +9572,12 @@
             "SR 53",
             "SR 58"
         ],
-        "billCount": 16,
+        "billCount": 19,
         "billsWithdrawn": [],
         "billsUnscheduled": [
+            "HB 856",
+            "HB 920",
+            "HB 929",
             "SR 53",
             "SR 58"
         ],
