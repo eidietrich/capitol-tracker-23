@@ -636,6 +636,7 @@
             "HB 202",
             "HB 204",
             "HB 205",
+            "HB 213",
             "HB 216",
             "HB 228",
             "HB 233",
@@ -894,7 +895,7 @@
             "SJ 3",
             "SJ 15"
         ],
-        "billCount": 279,
+        "billCount": 280,
         "billsWithdrawn": [
             "HB 197",
             "HB 444",
@@ -1053,6 +1054,7 @@
             "HB 183",
             "HB 193",
             "HB 205",
+            "HB 213",
             "HB 228",
             "HB 234",
             "HB 236",
@@ -2887,14 +2889,13 @@
         "billsWithdrawn": [
             "HB 467"
         ],
-        "billsUnscheduled": [
-            "SB 296",
-            "SB 564"
-        ],
+        "billsUnscheduled": [],
         "billsScheduled": [
+            "SB 296",
             "SB 308",
             "SB 352",
-            "SB 364"
+            "SB 364",
+            "SB 564"
         ],
         "billsScheduledByDay": [
             {
@@ -2908,6 +2909,13 @@
                 "day": "04/06/2023",
                 "bills": [
                     "SB 364"
+                ]
+            },
+            {
+                "day": "04/13/2023",
+                "bills": [
+                    "SB 296",
+                    "SB 564"
                 ]
             }
         ],
@@ -5748,6 +5756,7 @@
             "HB 176",
             "HB 183",
             "HB 205",
+            "HB 213",
             "HB 236",
             "HB 239",
             "HB 255",
@@ -5955,7 +5964,7 @@
             "SR 10",
             "SR 65"
         ],
-        "billCount": 220,
+        "billCount": 221,
         "billsWithdrawn": [
             "SB 157",
             "SB 257",
@@ -6073,6 +6082,7 @@
             "HB 174",
             "HB 176",
             "HB 183",
+            "HB 213",
             "HB 236",
             "HB 239",
             "HB 255",
@@ -7855,11 +7865,11 @@
             "HB 141",
             "HB 460",
             "HB 520",
-            "HB 561",
             "HB 576",
             "HB 656"
         ],
         "billsFailed": [
+            "HB 561",
             "SB 82",
             "SB 261",
             "SB 271",
