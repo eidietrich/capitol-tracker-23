@@ -6806,20 +6806,22 @@
             "SB 461"
         ],
         "billsUnscheduled": [
-            "HB 830",
-            "HB 925",
             "SB 118"
         ],
         "billsScheduled": [
             "HB 345",
-            "HB 481"
+            "HB 481",
+            "HB 830",
+            "HB 925"
         ],
         "billsScheduledByDay": [
             {
                 "day": "04/07/2023",
                 "bills": [
                     "HB 345",
-                    "HB 481"
+                    "HB 481",
+                    "HB 830",
+                    "HB 925"
                 ]
             }
         ],
