@@ -7467,7 +7467,9 @@
             "SB 409"
         ],
         "billsUnscheduled": [
-            "HB 334",
+            "HB 334"
+        ],
+        "billsScheduled": [
             "HB 874",
             "HB 890",
             "HB 914",
@@ -7476,8 +7478,25 @@
             "HB 941",
             "HB 948"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduledByDay": [
+            {
+                "day": "04/12/2023",
+                "bills": [
+                    "HB 874",
+                    "HB 890",
+                    "HB 914"
+                ]
+            },
+            {
+                "day": "04/14/2023",
+                "bills": [
+                    "HB 927",
+                    "HB 938",
+                    "HB 941",
+                    "HB 948"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "HB 32",
             "HB 33",
