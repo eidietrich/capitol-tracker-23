@@ -3504,12 +3504,20 @@
         ],
         "billCount": 72,
         "billsWithdrawn": [],
-        "billsUnscheduled": [
+        "billsUnscheduled": [],
+        "billsScheduled": [
             "HJ 15",
             "SB 521"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduledByDay": [
+            {
+                "day": "04/12/2023",
+                "bills": [
+                    "HJ 15",
+                    "SB 521"
+                ]
+            }
+        ],
         "billsAwaitingVote": [],
         "billsFailed": [
             "HB 46",
