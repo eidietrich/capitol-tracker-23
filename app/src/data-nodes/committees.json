@@ -3467,9 +3467,7 @@
         ],
         "billsScheduled": [],
         "billsScheduledByDay": [],
-        "billsAwaitingVote": [
-            "SB 47"
-        ],
+        "billsAwaitingVote": [],
         "billsFailed": [
             "HB 46",
             "HB 472",
@@ -3525,6 +3523,7 @@
             "HB 902",
             "HB 904",
             "HB 957",
+            "SB 47",
             "SB 57",
             "SB 106",
             "SB 111",
@@ -5674,6 +5673,7 @@
             "HB 174",
             "HB 176",
             "HB 183",
+            "HB 193",
             "HB 205",
             "HB 213",
             "HB 236",
@@ -5883,13 +5883,14 @@
             "SR 10",
             "SR 65"
         ],
-        "billCount": 221,
+        "billCount": 222,
         "billsWithdrawn": [
             "SB 157",
             "SB 257",
             "SB 438"
         ],
         "billsUnscheduled": [
+            "HB 193",
             "HB 317",
             "HB 479",
             "HB 517",
@@ -7206,10 +7207,8 @@
         "billsAwaitingVote": [
             "HB 214",
             "HB 338",
-            "HB 396",
             "HB 403",
             "HB 482",
-            "HB 504",
             "HB 566"
         ],
         "billsFailed": [
@@ -7243,8 +7242,10 @@
             "HB 287",
             "HB 334",
             "HB 377",
+            "HB 396",
             "HB 408",
             "HB 458",
+            "HB 504",
             "HB 531",
             "HB 535",
             "HB 583",
@@ -7754,8 +7755,7 @@
             "HB 473",
             "HB 520",
             "HB 576",
-            "HB 656",
-            "HB 775"
+            "HB 656"
         ],
         "billsFailed": [
             "HB 561",
@@ -7778,6 +7778,7 @@
             "HB 347",
             "HB 586",
             "HB 641",
+            "HB 775",
             "HB 795",
             "HJ 7",
             "HJ 11",
@@ -8382,13 +8383,10 @@
             }
         ],
         "billsAwaitingVote": [
-            "HB 135",
             "HB 196",
             "HB 348",
             "HB 543",
             "HB 580",
-            "HB 660",
-            "HB 693",
             "SB 414"
         ],
         "billsFailed": [
@@ -8426,6 +8424,7 @@
             "HB 110",
             "HB 132",
             "HB 134",
+            "HB 135",
             "HB 143",
             "HB 148",
             "HB 151",
@@ -8450,7 +8449,9 @@
             "HB 510",
             "HB 536",
             "HB 585",
+            "HB 660",
             "HB 663",
+            "HB 693",
             "HB 712",
             "HB 733",
             "HB 754",
