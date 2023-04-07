@@ -6000,11 +6000,9 @@
         "billsAwaitingVote": [
             "HB 322",
             "HB 359",
-            "HB 423",
             "HB 452",
             "HB 512",
             "HB 697",
-            "HB 722",
             "HB 735",
             "SB 286"
         ],
@@ -6069,6 +6067,7 @@
             "HB 398",
             "HB 399",
             "HB 410",
+            "HB 423",
             "HB 425",
             "HB 426",
             "HB 436",
@@ -6103,6 +6102,7 @@
             "HB 705",
             "HB 709",
             "HB 721",
+            "HB 722",
             "HB 786",
             "HB 790",
             "HB 791",
@@ -7882,13 +7882,23 @@
             "SR 45"
         ],
         "billsUnscheduled": [
-            "HB 870",
-            "HB 924",
-            "HB 928",
             "HJ 7"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduled": [
+            "HB 870",
+            "HB 924",
+            "HB 928"
+        ],
+        "billsScheduledByDay": [
+            {
+                "day": "04/12/2023",
+                "bills": [
+                    "HB 870",
+                    "HB 924",
+                    "HB 928"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "HB 141",
             "HB 460",
