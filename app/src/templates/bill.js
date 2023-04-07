@@ -25,6 +25,7 @@ const BillPage = ({ pageContext, location }) => {
     billPageText,
     // isMajorBill
   } = bill
+  console.log(actions)
   return <div>
 
     <Layout location={location}>

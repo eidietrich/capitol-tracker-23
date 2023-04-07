@@ -301,6 +301,7 @@ export const LAWMAKER_NAME_CLEANING = {
     'Russel Miner': 'Russ Miner',
     'Miner, Russel': 'Russ Miner',
     'Nelly Nicol': 'Nelly Nicol',
+    'icol, Nelly': 'Nelly Nicol',
     'George Nikolakakos': 'George Nikolakakos',
     'Greg Oblander': 'Greg Oblander',
     'Gary Parry': 'Gary Parry',

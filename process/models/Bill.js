@@ -190,6 +190,19 @@ export default class Bill {
         const secondChamber = (firstChamber === 'house') ? 'senate' : 'house'
         const secondChamberActions = actions.filter(a => a.posession === secondChamber)
 
+        const committeeActionsInFirstChamber = actionsWithFlag(firstChamberActions, 'committeeAction')
+        const firstChamberCommittees = Array.from(new Set(committeeActionsInFirstChamber.map(d => d.committee)))
+            .filter(d => ![
+                // remove approps subcommittees so HB 2 process doesn't get confused
+                'Joint Appropriations Section A — General Government',
+                'Joint Appropriations Section B — Health and Human Services',
+                'Joint Appropriations Section E — Education',
+                'Joint Appropriations Section C — Natural Resources and Transportation',
+                'Joint Appropriations Section D — Judicial Branch, Law Enforcement, and Justice'
+            ].includes(d))
+        const committeeActionsInFirstCommittee = committeeActionsInFirstChamber.filter(d => d.committee === firstChamberCommittees[0])
+        const committeeActionsInSubsequentCommittees = committeeActionsInFirstChamber.filter(d => firstChamberCommittees.slice(1,).includes(d.committee))
+
         const typeConfig = BILL_TYPES.find(type => type.key === billType)
         if (!typeConfig) throw `Unhandled bill type "${billType}"`
 
@@ -221,17 +234,7 @@ export default class Bill {
                     statusLabel = 'Pending'
                 }
 
-                const committeeActionsInFirstChamber = actionsWithFlag(firstChamberActions, 'committeeAction')
-                const firstChamberCommittees = Array.from(new Set(committeeActionsInFirstChamber.map(d => d.committee)))
-                    .filter(d => ![
-                        // remove approps subcommittees so HB 2 process doesn't get confused
-                        'Joint Appropriations Section A — General Government',
-                        'Joint Appropriations Section B — Health and Human Services',
-                        'Joint Appropriations Section E — Education',
-                        'Joint Appropriations Section C — Natural Resources and Transportation',
-                        'Joint Appropriations Section D — Judicial Branch, Law Enforcement, and Justice'
-                    ].includes(d))
-                const committeeActionsInFirstCommittee = committeeActionsInFirstChamber.filter(d => d.committee === firstChamberCommittees[0])
+
                 if (committeeActionsInFirstChamber.length === 0) {
                     return { step, status, statusLabel, statusDate } // nulls
                 } else {
@@ -258,7 +261,20 @@ export default class Bill {
                 }
                 const floorActionsInFirstChamber = actionsWithFlag(firstChamberActions, 'firstChamberFloorAction')
                 if (floorActionsInFirstChamber.length === 0) {
-                    return { step, status, statusLabel, statusDate } // nulls
+                    if (committeeActionsInSubsequentCommittees.length === 0) {
+                        return { step, status, statusLabel, statusDate } // nulls
+                    } else {
+                        const lastCommitteeAction = committeeActionsInSubsequentCommittees.slice(-1)[0]
+                        if (lastCommitteeAction.failed) { status = 'blocked'; statusLabel = 'Voted down' }
+                        if (lastCommitteeAction.missedDeadline) { status = 'blocked'; statusLabel = 'Missed deadline' }
+                        if (lastCommitteeAction.tabled) { status = 'blocked'; statusLabel = 'Tabled' }
+                        if (lastCommitteeAction.withdrawn) { status = 'blocked'; statusLabel = 'Withdrawn' }
+                        if (lastCommitteeAction.advanced) { status = 'passed'; statusLabel = 'Advanced'; hasPassedACommittee = true }
+                        if (lastCommitteeAction.blasted) { status = 'passed'; statusLabel = 'Blasted to floor'; hasPassedACommittee = true }
+                        // unlabled actions default to 'Pending'
+                        statusDate = lastCommitteeAction.date
+                        return { step, status, statusLabel, statusDate }
+                    }
                 } else {
                     const lastFloorAction = floorActionsInFirstChamber.slice(-1)[0]
                     if (lastFloorAction.failed) { status = 'blocked'; statusLabel = 'Voted down' }
