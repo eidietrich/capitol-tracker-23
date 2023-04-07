@@ -94,6 +94,12 @@
         "SB 564",
         "SB 565",
         "SB 566",
+        "SB 74",
+        "SB 143",
+        "SB 165",
+        "SB 174",
+        "SB 220",
+        "SJ 16",
         "HB 210",
         "HB 289",
         "HB 361",
@@ -106,6 +112,7 @@
         "SB 61",
         "SB 76",
         "SB 88",
+        "SB 106",
         "SB 107",
         "SB 117",
         "SB 138",
@@ -1363,7 +1370,86 @@
             "hearing": true
         }
     ],
-    "scheduledFloorDebates": [],
+    "scheduledFloorDebates": [
+        {
+            "id": "SB74-0033",
+            "bill": "SB 74",
+            "date": "04/07/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "house",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
+            "id": "SB143-0037",
+            "bill": "SB 143",
+            "date": "04/07/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "house",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
+            "id": "SB165-0033",
+            "bill": "SB 165",
+            "date": "04/07/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "house",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
+            "id": "SB174-0037",
+            "bill": "SB 174",
+            "date": "04/07/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "house",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
+            "id": "SB220-0033",
+            "bill": "SB 220",
+            "date": "04/07/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "house",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
+            "id": "SJ16-0040",
+            "bill": "SJ 16",
+            "date": "04/07/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "house",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        }
+    ],
     "scheduledFinalVotes": [
         {
             "id": "HB210-0046",
@@ -1511,6 +1597,19 @@
         {
             "id": "SB88-0028",
             "bill": "SB 88",
+            "date": "04/07/2023",
+            "description": "Scheduled for 3rd Reading",
+            "posession": "house",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Scheduled for 3rd Reading",
+            "scheduledForFinalVote": true
+        },
+        {
+            "id": "SB106-0035",
+            "bill": "SB 106",
             "date": "04/07/2023",
             "description": "Scheduled for 3rd Reading",
             "posession": "house",
