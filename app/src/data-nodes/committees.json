@@ -216,12 +216,15 @@
             "SB 168",
             "SB 182",
             "SB 229",
+            "SB 281",
             "SB 294",
             "SB 417"
         ],
-        "billCount": 212,
+        "billCount": 213,
         "billsWithdrawn": [],
-        "billsUnscheduled": [],
+        "billsUnscheduled": [
+            "SB 281"
+        ],
         "billsScheduled": [
             "SB 148",
             "SB 168",
@@ -2810,7 +2813,6 @@
             "HB 559",
             "HB 560",
             "HB 567",
-            "HB 582",
             "HB 603",
             "HB 609",
             "HB 616",
@@ -2877,7 +2879,7 @@
             "SB 422",
             "SB 564"
         ],
-        "billCount": 115,
+        "billCount": 114,
         "billsWithdrawn": [
             "HB 467"
         ],
@@ -2975,7 +2977,6 @@
             "HB 559",
             "HB 560",
             "HB 567",
-            "HB 582",
             "HB 603",
             "HB 609",
             "HB 616",
@@ -7513,15 +7514,17 @@
             "SB 530",
             "SB 545",
             "SB 549",
-            "SB 558"
+            "SB 558",
+            "SJ 21"
         ],
-        "billCount": 112,
+        "billCount": 113,
         "billsWithdrawn": [
             "SB 409"
         ],
         "billsUnscheduled": [
             "HB 334",
-            "HB 941"
+            "HB 941",
+            "SJ 21"
         ],
         "billsScheduled": [
             "HB 874",
@@ -7967,7 +7970,6 @@
             "HB 559",
             "HB 566",
             "HB 567",
-            "HB 582",
             "HB 610",
             "HB 616",
             "HB 619",
@@ -8055,7 +8057,7 @@
             "SR 50",
             "SR 54"
         ],
-        "billCount": 114,
+        "billCount": 113,
         "billsWithdrawn": [
             "SB 239",
             "SB 241",
@@ -8132,7 +8134,6 @@
             "HB 556",
             "HB 557",
             "HB 567",
-            "HB 582",
             "HB 610",
             "HB 619",
             "HB 655",
@@ -9209,15 +9210,17 @@
             "SB 495",
             "SB 510",
             "SB 521",
-            "SJ 20"
+            "SJ 20",
+            "SJ 22"
         ],
-        "billCount": 49,
+        "billCount": 50,
         "billsWithdrawn": [
             "SB 495"
         ],
         "billsUnscheduled": [
             "HB 55",
-            "SJ 20"
+            "SJ 20",
+            "SJ 22"
         ],
         "billsScheduled": [
             "HB 902",
