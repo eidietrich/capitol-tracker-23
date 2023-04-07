@@ -1968,6 +1968,7 @@
             "SB 461",
             "SB 505",
             "SB 506",
+            "SB 507",
             "SB 510",
             "SB 522",
             "SB 523",
@@ -1979,7 +1980,7 @@
             "SB 554",
             "SB 555"
         ],
-        "billCount": 134,
+        "billCount": 135,
         "billsWithdrawn": [
             "HB 294",
             "HB 533",
@@ -1988,6 +1989,7 @@
         "billsUnscheduled": [
             "HB 121",
             "HJ 2",
+            "SB 507",
             "SB 523"
         ],
         "billsScheduled": [
@@ -2449,12 +2451,21 @@
             "HB 126"
         ],
         "billsUnscheduled": [
-            "SB 565",
-            "SB 566",
             "SJ 8"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduled": [
+            "SB 565",
+            "SB 566"
+        ],
+        "billsScheduledByDay": [
+            {
+                "day": "04/14/2023",
+                "bills": [
+                    "SB 565",
+                    "SB 566"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "SB 385",
             "SB 481",
