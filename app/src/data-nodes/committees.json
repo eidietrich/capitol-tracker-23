@@ -8495,21 +8495,21 @@
             "SB 515"
         ],
         "billsUnscheduled": [
+            "SB 441",
+            "SB 460",
+            "SB 485"
+        ],
+        "billsScheduled": [
+            "HB 360",
+            "HB 402",
             "HB 774",
             "HB 845",
             "HB 852",
             "HB 855",
             "HB 892",
             "HB 947",
-            "SB 441",
-            "SB 460",
-            "SB 485",
             "SJ 19",
             "SR 69"
-        ],
-        "billsScheduled": [
-            "HB 360",
-            "HB 402"
         ],
         "billsScheduledByDay": [
             {
@@ -8517,6 +8517,29 @@
                 "bills": [
                     "HB 360",
                     "HB 402"
+                ]
+            },
+            {
+                "day": "04/12/2023",
+                "bills": [
+                    "HB 845",
+                    "HB 855",
+                    "HB 947"
+                ]
+            },
+            {
+                "day": "04/17/2023",
+                "bills": [
+                    "HB 852",
+                    "SJ 19",
+                    "SR 69"
+                ]
+            },
+            {
+                "day": "04/19/2023",
+                "bills": [
+                    "HB 774",
+                    "HB 892"
                 ]
             }
         ],
