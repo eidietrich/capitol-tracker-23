@@ -4708,12 +4708,20 @@
         ],
         "billCount": 78,
         "billsWithdrawn": [],
-        "billsUnscheduled": [
+        "billsUnscheduled": [],
+        "billsScheduled": [
             "SB 528",
             "SB 536"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduledByDay": [
+            {
+                "day": "04/13/2023",
+                "bills": [
+                    "SB 528",
+                    "SB 536"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "SB 335"
         ],
@@ -5430,12 +5438,12 @@
             "HB 226",
             "HB 243",
             "HB 355",
-            "HB 381",
             "HB 569",
             "HB 817"
         ],
         "billsFailed": [
             "HB 375",
+            "HB 381",
             "SB 126",
             "SB 145",
             "SB 183",
