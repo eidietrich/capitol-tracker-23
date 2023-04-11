@@ -1515,10 +1515,9 @@
             "HB 958",
             "HB 964"
         ],
-        "billsUnscheduled": [
-            "SB 516"
-        ],
+        "billsUnscheduled": [],
         "billsScheduled": [
+            "SB 516",
             "SB 531",
             "SB 535",
             "SB 538",
@@ -1536,6 +1535,7 @@
             {
                 "day": "04/14/2023",
                 "bills": [
+                    "SB 516",
                     "SB 535",
                     "SB 538",
                     "SB 543"
