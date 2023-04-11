@@ -892,12 +892,13 @@
             "HB 728",
             "HB 919"
         ],
-        "billsUnscheduled": [],
-        "billsScheduled": [
+        "billsUnscheduled": [
             "SB 250",
             "SB 272",
+            "SB 518"
+        ],
+        "billsScheduled": [
             "SB 458",
-            "SB 518",
             "SB 534",
             "SB 544",
             "SB 559",
@@ -910,14 +911,6 @@
                     "SB 458",
                     "SB 544",
                     "SB 559"
-                ]
-            },
-            {
-                "day": "04/14/2023",
-                "bills": [
-                    "SB 250",
-                    "SB 272",
-                    "SB 518"
                 ]
             },
             {
@@ -5410,11 +5403,9 @@
         "billCount": 155,
         "billsWithdrawn": [],
         "billsUnscheduled": [
-            "HB 4",
             "HB 5",
             "HB 424",
             "HB 669",
-            "HB 818",
             "HB 839",
             "HB 864",
             "HB 868",
@@ -5425,6 +5416,7 @@
             "HB 946"
         ],
         "billsScheduled": [
+            "HB 4",
             "HB 9",
             "HB 12",
             "HB 82",
@@ -5436,6 +5428,7 @@
             "HB 408",
             "HB 597",
             "HB 707",
+            "HB 818",
             "HB 835",
             "HB 922"
         ],
@@ -5454,13 +5447,15 @@
             {
                 "day": "04/13/2023",
                 "bills": [
+                    "HB 4",
                     "HB 82",
                     "HB 91",
                     "HB 217",
                     "HB 245",
                     "HB 297",
                     "HB 377",
-                    "HB 597"
+                    "HB 597",
+                    "HB 818"
                 ]
             }
         ],
@@ -8918,17 +8913,8 @@
         "billsUnscheduled": [
             "SB 242"
         ],
-        "billsScheduled": [
-            "HB 220"
-        ],
-        "billsScheduledByDay": [
-            {
-                "day": "04/11/2023",
-                "bills": [
-                    "HB 220"
-                ]
-            }
-        ],
+        "billsScheduled": [],
+        "billsScheduledByDay": [],
         "billsAwaitingVote": [
             "HB 220",
             "HB 804"
