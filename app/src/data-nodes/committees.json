@@ -5283,13 +5283,17 @@
             "HB 181",
             "HB 185",
             "HB 188",
+            "HB 189",
+            "HB 190",
             "HB 192",
             "HB 212",
             "HB 217",
             "HB 221",
             "HB 222",
+            "HB 225",
             "HB 226",
             "HB 243",
+            "HB 244",
             "HB 245",
             "HB 251",
             "HB 257",
@@ -5301,6 +5305,7 @@
             "HB 297",
             "HB 311",
             "HB 355",
+            "HB 362",
             "HB 367",
             "HB 375",
             "HB 377",
@@ -5407,10 +5412,15 @@
             "SB 555",
             "SJ 18"
         ],
-        "billCount": 155,
+        "billCount": 160,
         "billsWithdrawn": [],
         "billsUnscheduled": [
             "HB 5",
+            "HB 189",
+            "HB 190",
+            "HB 225",
+            "HB 244",
+            "HB 362",
             "HB 424",
             "HB 669",
             "HB 839",
@@ -5996,12 +6006,8 @@
             }
         ],
         "billsAwaitingVote": [
-            "HB 322",
             "HB 359",
-            "HB 452",
-            "HB 697",
             "HB 741",
-            "HB 743",
             "HB 968",
             "SB 286"
         ],
@@ -6061,6 +6067,7 @@
             "HB 296",
             "HB 301",
             "HB 309",
+            "HB 322",
             "HB 326",
             "HB 356",
             "HB 361",
@@ -6075,6 +6082,7 @@
             "HB 426",
             "HB 436",
             "HB 450",
+            "HB 452",
             "HB 457",
             "HB 461",
             "HB 500",
@@ -6102,10 +6110,12 @@
             "HB 680",
             "HB 689",
             "HB 695",
+            "HB 697",
             "HB 705",
             "HB 709",
             "HB 721",
             "HB 722",
+            "HB 743",
             "HB 786",
             "HB 790",
             "HB 791",
@@ -7504,6 +7514,7 @@
             "HB 675",
             "HB 685",
             "HB 703",
+            "HB 724",
             "HB 731",
             "HB 748",
             "HB 780",
@@ -7581,12 +7592,13 @@
             "SB 558",
             "SJ 21"
         ],
-        "billCount": 112,
+        "billCount": 113,
         "billsWithdrawn": [
             "SB 409"
         ],
         "billsUnscheduled": [
-            "HB 334"
+            "HB 334",
+            "HB 724"
         ],
         "billsScheduled": [
             "HB 874",
@@ -8132,7 +8144,7 @@
             "SR 50",
             "SR 54"
         ],
-        "billCount": 114,
+        "billCount": 113,
         "billsWithdrawn": [
             "SB 239",
             "SB 241",
@@ -8140,7 +8152,6 @@
             "SB 437"
         ],
         "billsUnscheduled": [
-            "HB 362",
             "SB 39",
             "SR 54"
         ],
@@ -8160,7 +8171,6 @@
         "billsAwaitingVote": [
             "HB 45",
             "HB 218",
-            "HB 317",
             "HB 544",
             "HB 740",
             "HB 862",
@@ -8199,6 +8209,7 @@
             "HB 310",
             "HB 311",
             "HB 313",
+            "HB 317",
             "HB 376",
             "HB 385",
             "HB 392",
@@ -8478,7 +8489,7 @@
             "SR 49",
             "SR 69"
         ],
-        "billCount": 137,
+        "billCount": 136,
         "billsWithdrawn": [
             "SB 185",
             "SB 248",
@@ -9311,13 +9322,13 @@
             "SB 495"
         ],
         "billsUnscheduled": [
-            "HB 55",
-            "SJ 20",
-            "SJ 22"
+            "HB 55"
         ],
         "billsScheduled": [
             "HB 902",
-            "HB 904"
+            "HB 904",
+            "SJ 20",
+            "SJ 22"
         ],
         "billsScheduledByDay": [
             {
@@ -9325,6 +9336,13 @@
                 "bills": [
                     "HB 902",
                     "HB 904"
+                ]
+            },
+            {
+                "day": "04/18/2023",
+                "bills": [
+                    "SJ 20",
+                    "SJ 22"
                 ]
             }
         ],
