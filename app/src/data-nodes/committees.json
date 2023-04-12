@@ -227,15 +227,26 @@
         ],
         "billCount": 218,
         "billsWithdrawn": [],
-        "billsUnscheduled": [
+        "billsUnscheduled": [],
+        "billsScheduled": [
             "SB 3",
             "SB 11",
             "SB 93",
             "SB 94",
             "SB 282"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduledByDay": [
+            {
+                "day": "04/12/2023",
+                "bills": [
+                    "SB 3",
+                    "SB 11",
+                    "SB 93",
+                    "SB 94",
+                    "SB 282"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "HB 121",
             "SB 28",
@@ -8968,12 +8979,14 @@
             "SB 466",
             "SB 539",
             "SJ 10",
-            "SR 59"
+            "SR 59",
+            "SR 70"
         ],
-        "billCount": 24,
+        "billCount": 25,
         "billsWithdrawn": [],
         "billsUnscheduled": [
-            "SB 242"
+            "SB 242",
+            "SR 70"
         ],
         "billsScheduled": [],
         "billsScheduledByDay": [],
