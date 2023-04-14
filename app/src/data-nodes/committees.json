@@ -2466,10 +2466,10 @@
             "HB 126"
         ],
         "billsUnscheduled": [
-            "HR 7",
             "SJ 8"
         ],
         "billsScheduled": [
+            "HR 7",
             "SB 565",
             "SB 566"
         ],
@@ -2479,6 +2479,12 @@
                 "bills": [
                     "SB 565",
                     "SB 566"
+                ]
+            },
+            {
+                "day": "04/17/2023",
+                "bills": [
+                    "HR 7"
                 ]
             }
         ],
@@ -2895,8 +2901,7 @@
         "billsScheduled": [],
         "billsScheduledByDay": [],
         "billsAwaitingVote": [
-            "SB 364",
-            "SB 564"
+            "SB 364"
         ],
         "billsFailed": [
             "HB 64",
@@ -3012,7 +3017,8 @@
             "SB 308",
             "SB 328",
             "SB 352",
-            "SB 422"
+            "SB 422",
+            "SB 564"
         ],
         "billsBlasted": [],
         "members": [
@@ -8009,6 +8015,7 @@
             "SB 563",
             "SB 564",
             "SJ 6",
+            "SJ 23",
             "SR 12",
             "SR 13",
             "SR 14",
@@ -8028,7 +8035,7 @@
             "SR 50",
             "SR 54"
         ],
-        "billCount": 113,
+        "billCount": 114,
         "billsWithdrawn": [
             "SB 239",
             "SB 241",
@@ -8037,6 +8044,7 @@
         ],
         "billsUnscheduled": [
             "SB 39",
+            "SJ 23",
             "SR 54"
         ],
         "billsScheduled": [],
