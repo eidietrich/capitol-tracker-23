@@ -9515,13 +9515,23 @@
         "billsWithdrawn": [],
         "billsUnscheduled": [
             "HB 856",
-            "HB 920",
+            "HB 920"
+        ],
+        "billsScheduled": [
             "HB 929",
             "SR 53",
             "SR 58"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduledByDay": [
+            {
+                "day": "04/17/2023",
+                "bills": [
+                    "HB 929",
+                    "SR 53",
+                    "SR 58"
+                ]
+            }
+        ],
         "billsAwaitingVote": [],
         "billsFailed": [
             "HB 714",
