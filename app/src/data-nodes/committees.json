@@ -2003,15 +2003,15 @@
             "SB 461"
         ],
         "billsUnscheduled": [
-            "HB 121"
+            "HB 121",
+            "SB 507",
+            "SB 523"
         ],
         "billsScheduled": [
             "HJ 2",
             "SB 442",
-            "SB 507",
             "SB 510",
             "SB 522",
-            "SB 523",
             "SB 540"
         ],
         "billsScheduledByDay": [
@@ -2025,13 +2025,6 @@
                 ]
             },
             {
-                "day": "04/17/2023",
-                "bills": [
-                    "SB 507",
-                    "SB 523"
-                ]
-            },
-            {
                 "day": "04/19/2023",
                 "bills": [
                     "HJ 2"
@@ -2040,12 +2033,8 @@
         ],
         "billsAwaitingVote": [
             "SB 14",
-            "SB 104",
             "SB 122",
-            "SB 123",
-            "SB 246",
             "SB 253",
-            "SB 303",
             "SB 332",
             "SB 362",
             "SB 505",
@@ -2164,9 +2153,13 @@
             "SB 64",
             "SB 65",
             "SB 81",
+            "SB 104",
             "SB 119",
             "SB 121",
-            "SB 124"
+            "SB 123",
+            "SB 124",
+            "SB 246",
+            "SB 303"
         ],
         "billsBlasted": [
             "HB 515"
@@ -4174,10 +4167,7 @@
         "billsUnscheduled": [],
         "billsScheduled": [],
         "billsScheduledByDay": [],
-        "billsAwaitingVote": [
-            "SB 561",
-            "SJ 9"
-        ],
+        "billsAwaitingVote": [],
         "billsFailed": [
             "HB 350",
             "HB 475",
@@ -4213,6 +4203,8 @@
             "SB 217",
             "SB 375",
             "SB 462",
+            "SB 561",
+            "SJ 9",
             "SJ 13"
         ],
         "billsBlasted": [],
@@ -5453,6 +5445,7 @@
             "HB 13",
             "HB 15",
             "HB 28",
+            "HB 29",
             "HB 36",
             "HB 38",
             "HB 60",
@@ -5465,6 +5458,7 @@
             "HB 147",
             "HB 163",
             "HB 171",
+            "HB 174",
             "HB 175",
             "HB 181",
             "HB 185",
@@ -5490,6 +5484,7 @@
             "HB 311",
             "HB 367",
             "HB 377",
+            "HB 396",
             "HB 408",
             "HB 426",
             "HB 457",
