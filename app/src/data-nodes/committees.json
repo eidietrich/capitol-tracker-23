@@ -231,11 +231,18 @@
         ],
         "billCount": 222,
         "billsWithdrawn": [],
-        "billsUnscheduled": [
+        "billsUnscheduled": [],
+        "billsScheduled": [
             "SB 108"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduledByDay": [
+            {
+                "day": "04/17/2023",
+                "bills": [
+                    "SB 108"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "HB 121",
             "SB 3",
@@ -3206,6 +3213,7 @@
             "HB 924",
             "HB 928",
             "HB 942",
+            "HB 971",
             "HJ 4",
             "HR 2",
             "SB 17",
@@ -3230,11 +3238,13 @@
             "SB 557",
             "SJ 16"
         ],
-        "billCount": 67,
+        "billCount": 68,
         "billsWithdrawn": [
             "HB 130"
         ],
-        "billsUnscheduled": [],
+        "billsUnscheduled": [
+            "HB 971"
+        ],
         "billsScheduled": [
             "SB 557"
         ],
