@@ -97,6 +97,7 @@
         "HB 715",
         "HB 731",
         "HB 733",
+        "HB 748",
         "SB 37",
         "SB 59",
         "SB 71",
@@ -105,9 +106,13 @@
         "SB 148",
         "SB 217",
         "SB 232",
+        "SB 312",
+        "SB 333",
         "SB 370",
+        "SB 375",
         "SB 462",
-        "SJ 9"
+        "SJ 9",
+        "SJ 13"
     ],
     "scheduledHearings": [
         {
@@ -1448,6 +1453,19 @@
             "scheduledForFloorDebate": true
         },
         {
+            "id": "HB748-0038",
+            "bill": "HB 748",
+            "date": "04/17/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
             "id": "SB37-0027",
             "bill": "SB 37",
             "date": "04/17/2023",
@@ -1552,8 +1570,47 @@
             "scheduledForFloorDebate": true
         },
         {
+            "id": "SB312-0031",
+            "bill": "SB 312",
+            "date": "04/17/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "house",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
+            "id": "SB333-0038",
+            "bill": "SB 333",
+            "date": "04/17/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "house",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
             "id": "SB370-0034",
             "bill": "SB 370",
+            "date": "04/17/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "house",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
+            "id": "SB375-0034",
+            "bill": "SB 375",
             "date": "04/17/2023",
             "description": "Scheduled for 2nd Reading",
             "posession": "house",
@@ -1580,6 +1637,19 @@
         {
             "id": "SJ9-0036",
             "bill": "SJ 9",
+            "date": "04/17/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "house",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
+            "id": "SJ13-0031",
+            "bill": "SJ 13",
             "date": "04/17/2023",
             "description": "Scheduled for 2nd Reading",
             "posession": "house",
