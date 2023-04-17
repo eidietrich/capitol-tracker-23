@@ -920,10 +920,10 @@
             "HB 919"
         ],
         "billsUnscheduled": [
-            "HJ 17",
             "SB 272"
         ],
         "billsScheduled": [
+            "HJ 17",
             "SB 250",
             "SB 518",
             "SB 534",
@@ -940,6 +940,7 @@
             {
                 "day": "04/18/2023",
                 "bills": [
+                    "HJ 17",
                     "SB 250",
                     "SB 518"
                 ]
@@ -2471,8 +2472,6 @@
             }
         ],
         "billsAwaitingVote": [
-            "SB 481",
-            "SB 482",
             "SB 565",
             "SB 566"
         ],
@@ -2507,7 +2506,9 @@
             "HB 933",
             "SB 190",
             "SB 222",
-            "SB 385"
+            "SB 385",
+            "SB 481",
+            "SB 482"
         ],
         "billsAdvanced": [
             "HB 47",
