@@ -8818,11 +8818,19 @@
         "billCount": 25,
         "billsWithdrawn": [],
         "billsUnscheduled": [
-            "SB 242",
+            "SB 242"
+        ],
+        "billsScheduled": [
             "SR 70"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduledByDay": [
+            {
+                "day": "04/18/2023",
+                "bills": [
+                    "SR 70"
+                ]
+            }
+        ],
         "billsAwaitingVote": [],
         "billsFailed": [
             "HB 558",

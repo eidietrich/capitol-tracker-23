@@ -50,6 +50,7 @@
         "SR 53",
         "SR 58",
         "SR 69",
+        "SR 70",
         "SR 71"
     ],
     "scheduledHearings": [
@@ -648,6 +649,20 @@
             "description": "Hearing",
             "posession": "senate",
             "committee": "Senate State Administration",
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
+            "id": "SR70-0018",
+            "bill": "SR 70",
+            "date": "04/18/2023",
+            "description": "Hearing",
+            "posession": "senate",
+            "committee": "Senate Energy and Telecommunications",
             "actionUrl": null,
             "recordings": [],
             "transcriptUrl": null,
