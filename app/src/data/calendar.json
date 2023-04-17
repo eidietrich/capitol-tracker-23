@@ -40,6 +40,7 @@
         "HB 971",
         "HJ 2",
         "HJ 16",
+        "HJ 17",
         "HR 7",
         "SB 108",
         "SB 160",
@@ -58,7 +59,9 @@
         "SR 68",
         "SR 69",
         "SR 70",
-        "SR 71"
+        "SR 71",
+        "HB 37",
+        "HB 45"
     ],
     "scheduledHearings": [
         {
@@ -118,7 +121,7 @@
             "hearing": true
         },
         {
-            "id": "HB437-0029",
+            "id": "HB437-0030",
             "bill": "HB 437",
             "date": "04/17/2023",
             "description": "Hearing",
@@ -510,6 +513,20 @@
             "hearing": true
         },
         {
+            "id": "HJ17-0020",
+            "bill": "HJ 17",
+            "date": "04/19/2023",
+            "description": "Hearing",
+            "posession": "house",
+            "committee": "House Judiciary",
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
             "id": "HR7-0018",
             "bill": "HR 7",
             "date": "04/17/2023",
@@ -776,6 +793,33 @@
             "hearing": true
         }
     ],
-    "scheduledFloorDebates": [],
+    "scheduledFloorDebates": [
+        {
+            "id": "HB37-0052",
+            "bill": "HB 37",
+            "date": "04/17/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
+            "id": "HB45-0039",
+            "bill": "HB 45",
+            "date": "04/17/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        }
+    ],
     "scheduledFinalVotes": []
 }
