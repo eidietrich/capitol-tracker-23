@@ -9500,11 +9500,10 @@
         ],
         "billCount": 19,
         "billsWithdrawn": [],
-        "billsUnscheduled": [
-            "HB 856",
-            "HB 920"
-        ],
+        "billsUnscheduled": [],
         "billsScheduled": [
+            "HB 856",
+            "HB 920",
             "HB 929",
             "SR 53",
             "SR 58"
@@ -9516,6 +9515,13 @@
                     "HB 929",
                     "SR 53",
                     "SR 58"
+                ]
+            },
+            {
+                "day": "04/19/2023",
+                "bills": [
+                    "HB 856",
+                    "HB 920"
                 ]
             }
         ],
