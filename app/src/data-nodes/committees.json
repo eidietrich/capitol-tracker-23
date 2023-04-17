@@ -1446,7 +1446,6 @@
             "HB 612",
             "HB 615",
             "HB 617",
-            "HB 636",
             "HB 637",
             "HB 638",
             "HB 651",
@@ -1544,7 +1543,7 @@
             "SB 543",
             "SB 558"
         ],
-        "billCount": 189,
+        "billCount": 188,
         "billsWithdrawn": [
             "HB 711",
             "HB 801",
@@ -1669,7 +1668,6 @@
             "HB 611",
             "HB 612",
             "HB 615",
-            "HB 636",
             "HB 637",
             "HB 652",
             "HB 668",
@@ -2481,7 +2479,6 @@
             }
         ],
         "billsAwaitingVote": [
-            "SB 565",
             "SB 566"
         ],
         "billsFailed": [
@@ -2517,7 +2514,8 @@
             "SB 222",
             "SB 385",
             "SB 481",
-            "SB 482"
+            "SB 482",
+            "SB 565"
         ],
         "billsAdvanced": [
             "HB 47",
@@ -5228,7 +5226,9 @@
             "HB 28",
             "HB 29",
             "HB 36",
+            "HB 37",
             "HB 38",
+            "HB 45",
             "HB 60",
             "HB 79",
             "HB 81",
@@ -5268,6 +5268,7 @@
             "HB 311",
             "HB 355",
             "HB 362",
+            "HB 364",
             "HB 367",
             "HB 375",
             "HB 377",
@@ -5284,6 +5285,7 @@
             "HB 669",
             "HB 680",
             "HB 707",
+            "HB 722",
             "HB 743",
             "HB 791",
             "HB 797",
@@ -5380,9 +5382,13 @@
             "SB 555",
             "SJ 18"
         ],
-        "billCount": 169,
+        "billCount": 173,
         "billsWithdrawn": [],
         "billsUnscheduled": [
+            "HB 37",
+            "HB 45",
+            "HB 364",
+            "HB 722",
             "HB 916",
             "HB 917",
             "HB 946"
@@ -6353,7 +6359,6 @@
             "HB 611",
             "HB 612",
             "HB 615",
-            "HB 636",
             "HB 648",
             "HB 652",
             "HB 658",
@@ -6499,7 +6504,7 @@
             "SR 66",
             "SR 67"
         ],
-        "billCount": 230,
+        "billCount": 229,
         "billsWithdrawn": [
             "SB 267",
             "SB 493"
@@ -6639,7 +6644,6 @@
             "HB 591",
             "HB 612",
             "HB 615",
-            "HB 636",
             "HB 652",
             "HB 665",
             "HB 668",
@@ -8067,12 +8071,20 @@
         ],
         "billsUnscheduled": [
             "SB 39",
-            "SJ 23",
             "SJ 25",
             "SR 54"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduled": [
+            "SJ 23"
+        ],
+        "billsScheduledByDay": [
+            {
+                "day": "04/19/2023",
+                "bills": [
+                    "SJ 23"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "HB 218",
             "HB 822",
