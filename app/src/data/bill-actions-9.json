@@ -60551,6 +60551,55 @@
                 "isMajor": true,
                 "hearing": true,
                 "vote": null
+            },
+            {
+                "id": "SR71-0018",
+                "bill": "SR 71",
+                "date": "04/18/2023",
+                "description": "Committee Executive Action--Bill Passed",
+                "posession": "senate",
+                "committee": "Senate Judiciary",
+                "actionUrl": null,
+                "recordings": [],
+                "transcriptUrl": null,
+                "key": "Committee Executive Action--Bill Passed",
+                "isMajor": true,
+                "isHighlight": true,
+                "committeeAction": true,
+                "advanced": true,
+                "vote": {
+                    "action": "SR71-0018",
+                    "bill": "SR 71",
+                    "date": null,
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": null,
+                    "session": "20231",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 7,
+                        "N": 4
+                    },
+                    "gopCount": {
+                        "Y": 0,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": false,
+                    "demSupported": false,
+                    "votes": []
+                }
             }
         ]
     }
