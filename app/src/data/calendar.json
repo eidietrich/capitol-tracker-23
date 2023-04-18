@@ -44,6 +44,7 @@
         "SB 209",
         "SB 250",
         "SB 296",
+        "SB 303",
         "SB 352",
         "SB 469",
         "SB 507",
@@ -644,6 +645,20 @@
             "hearing": true
         },
         {
+            "id": "SB303-0053",
+            "bill": "SB 303",
+            "date": "04/18/2023",
+            "description": "Hearing",
+            "posession": "house",
+            "committee": "House Appropriations",
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
             "id": "SB352-0045",
             "bill": "SB 352",
             "date": "04/18/2023",
@@ -1156,6 +1171,19 @@
             "scheduledForFloorDebate": true
         },
         {
+            "id": "SB303-0050",
+            "bill": "SB 303",
+            "date": "04/18/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "house",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
             "id": "SB332-0037",
             "bill": "SB 332",
             "date": "04/18/2023",
@@ -1471,19 +1499,6 @@
         },
         {
             "id": "SB99-0068",
-            "bill": "SB 99",
-            "date": "04/19/2023",
-            "description": "Scheduled for 3rd Reading",
-            "posession": "house",
-            "committee": null,
-            "actionUrl": null,
-            "recordings": [],
-            "transcriptUrl": null,
-            "key": "Scheduled for 3rd Reading",
-            "scheduledForFinalVote": true
-        },
-        {
-            "id": "SB99-0069",
             "bill": "SB 99",
             "date": "04/19/2023",
             "description": "Scheduled for 3rd Reading",
