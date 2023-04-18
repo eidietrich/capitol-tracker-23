@@ -227,15 +227,19 @@
             "SB 281",
             "SB 282",
             "SB 294",
+            "SB 296",
+            "SB 303",
             "SB 352",
             "SB 417",
             "SB 469",
             "SB 485"
         ],
-        "billCount": 225,
+        "billCount": 227,
         "billsWithdrawn": [],
         "billsUnscheduled": [
-            "HJ 20"
+            "HJ 20",
+            "SB 296",
+            "SB 303"
         ],
         "billsScheduled": [
             "SB 352",
@@ -4358,6 +4362,7 @@
             "HB 333",
             "HB 383",
             "HB 440",
+            "HB 456",
             "HB 522",
             "HB 547",
             "HB 548",
@@ -4396,7 +4401,7 @@
             "SB 533",
             "SJ 14"
         ],
-        "billCount": 53,
+        "billCount": 54,
         "billsWithdrawn": [
             "HB 945"
         ],
@@ -4436,6 +4441,7 @@
             "HB 333",
             "HB 383",
             "HB 440",
+            "HB 456",
             "HB 522",
             "HB 547",
             "HB 548",
@@ -5267,7 +5273,11 @@
             "HB 408",
             "HB 424",
             "HB 426",
+            "HB 449",
             "HB 457",
+            "HB 479",
+            "HB 482",
+            "HB 496",
             "HB 569",
             "HB 597",
             "HB 612",
@@ -5280,6 +5290,7 @@
             "HB 797",
             "HB 817",
             "HB 818",
+            "HB 828",
             "HB 835",
             "HB 839",
             "HB 864",
@@ -5371,9 +5382,15 @@
             "SB 555",
             "SJ 18"
         ],
-        "billCount": 174,
+        "billCount": 179,
         "billsWithdrawn": [],
-        "billsUnscheduled": [],
+        "billsUnscheduled": [
+            "HB 449",
+            "HB 479",
+            "HB 482",
+            "HB 496",
+            "HB 828"
+        ],
         "billsScheduled": [
             "HB 424",
             "HB 669",
@@ -8969,6 +8986,7 @@
             "HB 419",
             "HB 438",
             "HB 440",
+            "HB 456",
             "HB 521",
             "HB 522",
             "HB 547",
@@ -9005,7 +9023,7 @@
             "SR 3",
             "SR 68"
         ],
-        "billCount": 53,
+        "billCount": 54,
         "billsWithdrawn": [],
         "billsUnscheduled": [
             "HB 375"
@@ -9058,6 +9076,7 @@
             "HB 419",
             "HB 438",
             "HB 440",
+            "HB 456",
             "HB 593",
             "HB 596",
             "HB 635",
