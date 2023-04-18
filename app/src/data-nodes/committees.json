@@ -959,8 +959,7 @@
             "SB 458",
             "SB 534",
             "SB 544",
-            "SB 559",
-            "SB 563"
+            "SB 559"
         ],
         "billsFailed": [
             "HB 57",
@@ -1024,7 +1023,8 @@
             "SB 376",
             "SB 429",
             "SB 450",
-            "SB 471"
+            "SB 471",
+            "SB 563"
         ],
         "billsAdvanced": [
             "HB 16",
@@ -3220,11 +3220,18 @@
         "billsWithdrawn": [
             "HB 130"
         ],
-        "billsUnscheduled": [
+        "billsUnscheduled": [],
+        "billsScheduled": [
             "HJ 18"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduledByDay": [
+            {
+                "day": "04/19/2023",
+                "bills": [
+                    "HJ 18"
+                ]
+            }
+        ],
         "billsAwaitingVote": [],
         "billsFailed": [
             "HB 406",
