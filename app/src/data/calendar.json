@@ -47,6 +47,7 @@
         "SR 69",
         "SR 70",
         "SR 71",
+        "HB 325",
         "SB 99",
         "SB 188",
         "SB 455",
@@ -628,6 +629,19 @@
         }
     ],
     "scheduledFloorDebates": [
+        {
+            "id": "HB325-0051",
+            "bill": "HB 325",
+            "date": "04/18/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
         {
             "id": "SB99-0067",
             "bill": "SB 99",
