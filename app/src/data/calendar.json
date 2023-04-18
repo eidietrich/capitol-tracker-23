@@ -47,6 +47,7 @@
         "SR 69",
         "SR 70",
         "SR 71",
+        "SB 99",
         "SB 188",
         "SB 455",
         "SB 456",
@@ -626,7 +627,21 @@
             "hearing": true
         }
     ],
-    "scheduledFloorDebates": [],
+    "scheduledFloorDebates": [
+        {
+            "id": "SB99-0067",
+            "bill": "SB 99",
+            "date": "04/18/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "house",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        }
+    ],
     "scheduledFinalVotes": [
         {
             "id": "SB188-0035",
