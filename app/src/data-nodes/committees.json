@@ -5266,6 +5266,7 @@
             "HB 396",
             "HB 398",
             "HB 402",
+            "HB 403",
             "HB 408",
             "HB 424",
             "HB 426",
@@ -5377,9 +5378,11 @@
             "SB 555",
             "SJ 18"
         ],
-        "billCount": 179,
+        "billCount": 180,
         "billsWithdrawn": [],
-        "billsUnscheduled": [],
+        "billsUnscheduled": [
+            "HB 403"
+        ],
         "billsScheduled": [
             "HB 220",
             "HB 424",
