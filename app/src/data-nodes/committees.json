@@ -3199,17 +3199,17 @@
         "billsWithdrawn": [
             "HB 130"
         ],
-        "billsUnscheduled": [
-            "HR 8"
-        ],
+        "billsUnscheduled": [],
         "billsScheduled": [
-            "HJ 18"
+            "HJ 18",
+            "HR 8"
         ],
         "billsScheduledByDay": [
             {
                 "day": "04/19/2023",
                 "bills": [
-                    "HJ 18"
+                    "HJ 18",
+                    "HR 8"
                 ]
             }
         ],
@@ -4658,12 +4658,20 @@
         ],
         "billCount": 80,
         "billsWithdrawn": [],
-        "billsUnscheduled": [
+        "billsUnscheduled": [],
+        "billsScheduled": [
             "HJ 21",
             "HJ 22"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduledByDay": [
+            {
+                "day": "04/20/2023",
+                "bills": [
+                    "HJ 21",
+                    "HJ 22"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "SB 528",
             "SB 536"
