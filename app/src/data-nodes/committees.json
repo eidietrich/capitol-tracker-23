@@ -5416,7 +5416,6 @@
             "HB 449",
             "HB 479",
             "HB 482",
-            "HB 496",
             "HB 569",
             "HB 669",
             "HB 817",
@@ -5429,6 +5428,8 @@
             "HB 375",
             "HB 381",
             "HB 398",
+            "HB 403",
+            "HB 496",
             "HB 680",
             "HB 722",
             "HB 818",
@@ -6502,13 +6503,11 @@
         "billsAwaitingVote": [
             "HB 87",
             "HB 152",
-            "HB 546",
             "HB 648",
             "HB 819",
             "HB 867",
             "HB 903",
-            "HB 952",
-            "HB 969"
+            "HB 952"
         ],
         "billsFailed": [
             "HB 272",
@@ -6518,10 +6517,12 @@
             "HB 468",
             "HB 484",
             "HB 492",
+            "HB 546",
             "HB 571",
             "HB 611",
             "HB 658",
             "HB 770",
+            "HB 969",
             "SB 90",
             "SB 140",
             "SB 146",
@@ -7489,14 +7490,16 @@
             "SB 545",
             "SB 549",
             "SB 558",
-            "SJ 21"
+            "SJ 21",
+            "SJ 29"
         ],
-        "billCount": 114,
+        "billCount": 115,
         "billsWithdrawn": [
             "SB 409"
         ],
         "billsUnscheduled": [
-            "HB 334"
+            "HB 334",
+            "SJ 29"
         ],
         "billsScheduled": [
             "HB 816"
