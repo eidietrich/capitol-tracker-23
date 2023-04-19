@@ -203,6 +203,7 @@
             "HJ 20",
             "SB 3",
             "SB 11",
+            "SB 14",
             "SB 19",
             "SB 28",
             "SB 29",
@@ -217,6 +218,7 @@
             "SB 95",
             "SB 108",
             "SB 121",
+            "SB 122",
             "SB 124",
             "SB 127",
             "SB 132",
@@ -224,6 +226,8 @@
             "SB 168",
             "SB 182",
             "SB 229",
+            "SB 246",
+            "SB 253",
             "SB 281",
             "SB 282",
             "SB 294",
@@ -232,11 +236,20 @@
             "SB 352",
             "SB 417",
             "SB 469",
-            "SB 485"
+            "SB 485",
+            "SB 506",
+            "SB 555"
         ],
-        "billCount": 227,
+        "billCount": 233,
         "billsWithdrawn": [],
-        "billsUnscheduled": [],
+        "billsUnscheduled": [
+            "SB 14",
+            "SB 122",
+            "SB 246",
+            "SB 253",
+            "SB 506",
+            "SB 555"
+        ],
         "billsScheduled": [],
         "billsScheduledByDay": [],
         "billsAwaitingVote": [
@@ -5388,26 +5401,26 @@
         "billCount": 192,
         "billsWithdrawn": [],
         "billsUnscheduled": [
-            "HB 544",
-            "HB 649",
-            "HB 862",
-            "HB 881",
-            "HB 898",
-            "HB 949"
+            "HB 649"
         ],
         "billsScheduled": [
             "HB 332",
             "HB 382",
             "HB 403",
+            "HB 544",
             "HB 587",
             "HB 588",
             "HB 749",
+            "HB 862",
             "HB 864",
             "HB 868",
+            "HB 881",
             "HB 883",
+            "HB 898",
             "HB 916",
             "HB 917",
-            "HB 946"
+            "HB 946",
+            "HB 949"
         ],
         "billsScheduledByDay": [
             {
@@ -5416,10 +5429,15 @@
                     "HB 332",
                     "HB 382",
                     "HB 403",
+                    "HB 544",
                     "HB 588",
+                    "HB 862",
                     "HB 864",
                     "HB 868",
-                    "HB 883"
+                    "HB 881",
+                    "HB 883",
+                    "HB 898",
+                    "HB 949"
                 ]
             },
             {
