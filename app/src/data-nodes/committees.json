@@ -5366,15 +5366,14 @@
         ],
         "billCount": 186,
         "billsWithdrawn": [],
-        "billsUnscheduled": [
+        "billsUnscheduled": [],
+        "billsScheduled": [
             "HB 332",
             "HB 382",
             "HB 403",
             "HB 587",
             "HB 588",
-            "HB 749"
-        ],
-        "billsScheduled": [
+            "HB 749",
             "HB 864",
             "HB 868",
             "HB 883",
@@ -5386,6 +5385,10 @@
             {
                 "day": "04/19/2023",
                 "bills": [
+                    "HB 332",
+                    "HB 382",
+                    "HB 403",
+                    "HB 588",
                     "HB 864",
                     "HB 868",
                     "HB 883"
@@ -5394,6 +5397,8 @@
             {
                 "day": "04/20/2023",
                 "bills": [
+                    "HB 587",
+                    "HB 749",
                     "HB 916",
                     "HB 917",
                     "HB 946"
