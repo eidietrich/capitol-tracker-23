@@ -933,11 +933,10 @@
             "HB 647",
             "HB 717",
             "HB 728",
-            "HB 919"
-        ],
-        "billsUnscheduled": [
+            "HB 919",
             "SB 272"
         ],
+        "billsUnscheduled": [],
         "billsScheduled": [
             "HJ 17",
             "SB 160"
@@ -2329,7 +2328,6 @@
             "HB 172",
             "HB 173",
             "HB 180",
-            "HB 186",
             "HB 190",
             "HB 196",
             "HB 199",
@@ -2455,7 +2453,7 @@
             "SJ 17",
             "SJ 18"
         ],
-        "billCount": 152,
+        "billCount": 151,
         "billsWithdrawn": [
             "HB 126"
         ],
@@ -2527,7 +2525,6 @@
             "HB 172",
             "HB 173",
             "HB 180",
-            "HB 186",
             "HB 190",
             "HB 196",
             "HB 199",
@@ -6003,6 +6000,7 @@
         "billsWithdrawn": [
             "SB 157",
             "SB 257",
+            "SB 272",
             "SB 438"
         ],
         "billsUnscheduled": [
@@ -8312,7 +8310,6 @@
             "HB 151",
             "HB 172",
             "HB 173",
-            "HB 186",
             "HB 190",
             "HB 196",
             "HB 199",
@@ -8434,7 +8431,7 @@
             "SR 49",
             "SR 69"
         ],
-        "billCount": 135,
+        "billCount": 134,
         "billsWithdrawn": [
             "SB 185",
             "SB 248",
@@ -8503,7 +8500,6 @@
             "HB 151",
             "HB 172",
             "HB 173",
-            "HB 186",
             "HB 190",
             "HB 196",
             "HB 199",
@@ -8869,12 +8865,14 @@
             "SB 539",
             "SJ 10",
             "SR 59",
-            "SR 70"
+            "SR 70",
+            "SR 72"
         ],
-        "billCount": 25,
+        "billCount": 26,
         "billsWithdrawn": [],
         "billsUnscheduled": [
-            "SB 242"
+            "SB 242",
+            "SR 72"
         ],
         "billsScheduled": [],
         "billsScheduledByDay": [],
