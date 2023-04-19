@@ -43,6 +43,7 @@
         "SR 2",
         "SR 68",
         "SR 69",
+        "HB 487",
         "HB 296",
         "HB 385",
         "HB 443",
@@ -589,7 +590,21 @@
             "hearing": true
         }
     ],
-    "scheduledFloorDebates": [],
+    "scheduledFloorDebates": [
+        {
+            "id": "HB487-0039",
+            "bill": "HB 487",
+            "date": "04/19/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        }
+    ],
     "scheduledFinalVotes": [
         {
             "id": "HB296-0038",
