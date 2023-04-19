@@ -939,10 +939,7 @@
             }
         ],
         "billsAwaitingVote": [
-            "SB 250",
-            "SB 518",
-            "SB 534",
-            "SB 544"
+            "SB 534"
         ],
         "billsFailed": [
             "HB 57",
@@ -1178,6 +1175,7 @@
             "SB 224",
             "SB 229",
             "SB 247",
+            "SB 250",
             "SB 252",
             "SB 265",
             "SB 268",
@@ -1211,6 +1209,8 @@
             "SB 490",
             "SB 491",
             "SB 499",
+            "SB 518",
+            "SB 544",
             "SJ 3",
             "SJ 15"
         ],
@@ -6497,17 +6497,8 @@
         "billsUnscheduled": [
             "HB 455"
         ],
-        "billsScheduled": [
-            "HB 152"
-        ],
-        "billsScheduledByDay": [
-            {
-                "day": "04/21/2023",
-                "bills": [
-                    "HB 152"
-                ]
-            }
-        ],
+        "billsScheduled": [],
+        "billsScheduledByDay": [],
         "billsAwaitingVote": [
             "HB 87",
             "HB 152",
