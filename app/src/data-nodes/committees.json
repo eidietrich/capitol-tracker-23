@@ -9256,11 +9256,19 @@
             "SB 495"
         ],
         "billsUnscheduled": [
-            "HB 55",
+            "HB 55"
+        ],
+        "billsScheduled": [
             "SR 74"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduledByDay": [
+            {
+                "day": "04/25/2023",
+                "bills": [
+                    "SR 74"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "HB 904",
             "SJ 20",
