@@ -28,6 +28,7 @@
         "SR 2",
         "SR 68",
         "SR 73",
+        "SR 53",
         "HB 289",
         "HB 302",
         "HB 305",
@@ -371,23 +372,24 @@
             "hearing": true
         }
     ],
-    "scheduledFloorDebates": [],
-    "scheduledFinalVotes": [
+    "scheduledFloorDebates": [
         {
-            "id": "HB289-0042",
-            "bill": "HB 289",
+            "id": "SR53-0023",
+            "bill": "SR 53",
             "date": "04/20/2023",
-            "description": "Scheduled for 3rd Reading",
-            "posession": "house",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "senate",
             "committee": null,
             "actionUrl": null,
             "recordings": [],
             "transcriptUrl": null,
-            "key": "Scheduled for 3rd Reading",
-            "scheduledForFinalVote": true
-        },
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        }
+    ],
+    "scheduledFinalVotes": [
         {
-            "id": "HB289-0043",
+            "id": "HB289-0042",
             "bill": "HB 289",
             "date": "04/20/2023",
             "description": "Scheduled for 3rd Reading",
@@ -413,33 +415,7 @@
             "scheduledForFinalVote": true
         },
         {
-            "id": "HB302-0045",
-            "bill": "HB 302",
-            "date": "04/20/2023",
-            "description": "Scheduled for 3rd Reading",
-            "posession": "house",
-            "committee": null,
-            "actionUrl": null,
-            "recordings": [],
-            "transcriptUrl": null,
-            "key": "Scheduled for 3rd Reading",
-            "scheduledForFinalVote": true
-        },
-        {
             "id": "HB305-0039",
-            "bill": "HB 305",
-            "date": "04/20/2023",
-            "description": "Scheduled for 3rd Reading",
-            "posession": "house",
-            "committee": null,
-            "actionUrl": null,
-            "recordings": [],
-            "transcriptUrl": null,
-            "key": "Scheduled for 3rd Reading",
-            "scheduledForFinalVote": true
-        },
-        {
-            "id": "HB305-0040",
             "bill": "HB 305",
             "date": "04/20/2023",
             "description": "Scheduled for 3rd Reading",
@@ -465,33 +441,7 @@
             "scheduledForFinalVote": true
         },
         {
-            "id": "HB314-0058",
-            "bill": "HB 314",
-            "date": "04/20/2023",
-            "description": "Scheduled for 3rd Reading",
-            "posession": "house",
-            "committee": null,
-            "actionUrl": null,
-            "recordings": [],
-            "transcriptUrl": null,
-            "key": "Scheduled for 3rd Reading",
-            "scheduledForFinalVote": true
-        },
-        {
             "id": "HB365-0039",
-            "bill": "HB 365",
-            "date": "04/20/2023",
-            "description": "Scheduled for 3rd Reading",
-            "posession": "house",
-            "committee": null,
-            "actionUrl": null,
-            "recordings": [],
-            "transcriptUrl": null,
-            "key": "Scheduled for 3rd Reading",
-            "scheduledForFinalVote": true
-        },
-        {
-            "id": "HB365-0040",
             "bill": "HB 365",
             "date": "04/20/2023",
             "description": "Scheduled for 3rd Reading",
@@ -517,33 +467,7 @@
             "scheduledForFinalVote": true
         },
         {
-            "id": "HB366-0045",
-            "bill": "HB 366",
-            "date": "04/20/2023",
-            "description": "Scheduled for 3rd Reading",
-            "posession": "house",
-            "committee": null,
-            "actionUrl": null,
-            "recordings": [],
-            "transcriptUrl": null,
-            "key": "Scheduled for 3rd Reading",
-            "scheduledForFinalVote": true
-        },
-        {
             "id": "HB408-0058",
-            "bill": "HB 408",
-            "date": "04/20/2023",
-            "description": "Scheduled for 3rd Reading",
-            "posession": "house",
-            "committee": null,
-            "actionUrl": null,
-            "recordings": [],
-            "transcriptUrl": null,
-            "key": "Scheduled for 3rd Reading",
-            "scheduledForFinalVote": true
-        },
-        {
-            "id": "HB408-0059",
             "bill": "HB 408",
             "date": "04/20/2023",
             "description": "Scheduled for 3rd Reading",
