@@ -5979,14 +5979,30 @@
             "SB 438"
         ],
         "billsUnscheduled": [
-            "HB 317",
+            "HB 317"
+        ],
+        "billsScheduled": [
             "SJ 31",
             "SJ 33",
             "SJ 34",
             "SR 73"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduledByDay": [
+            {
+                "day": "04/24/2023",
+                "bills": [
+                    "SJ 31",
+                    "SJ 33",
+                    "SJ 34"
+                ]
+            },
+            {
+                "day": "04/25/2023",
+                "bills": [
+                    "SR 73"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "SB 286"
         ],
