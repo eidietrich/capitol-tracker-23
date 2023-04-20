@@ -254,8 +254,6 @@
         "billsScheduledByDay": [],
         "billsAwaitingVote": [
             "HB 121",
-            "SB 3",
-            "SB 95",
             "SB 294",
             "SB 296"
         ],
@@ -299,12 +297,16 @@
             "SB 28",
             "SB 29",
             "SB 108",
+            "SB 122",
             "SB 127",
             "SB 132",
             "SB 168",
+            "SB 246",
             "SB 282",
             "SB 417",
-            "SB 469"
+            "SB 469",
+            "SB 506",
+            "SB 555"
         ],
         "billsAdvanced": [
             "HB 1",
@@ -465,6 +467,7 @@
             "HB 952",
             "HB 963",
             "HJ 20",
+            "SB 3",
             "SB 11",
             "SB 19",
             "SB 47",
@@ -475,11 +478,13 @@
             "SB 89",
             "SB 93",
             "SB 94",
+            "SB 95",
             "SB 121",
             "SB 124",
             "SB 148",
             "SB 182",
             "SB 229",
+            "SB 253",
             "SB 281",
             "SB 303",
             "SB 352",
@@ -9189,14 +9194,16 @@
             "SB 510",
             "SB 521",
             "SJ 20",
-            "SJ 22"
+            "SJ 22",
+            "SR 74"
         ],
-        "billCount": 49,
+        "billCount": 50,
         "billsWithdrawn": [
             "SB 495"
         ],
         "billsUnscheduled": [
-            "HB 55"
+            "HB 55",
+            "SR 74"
         ],
         "billsScheduled": [],
         "billsScheduledByDay": [],
