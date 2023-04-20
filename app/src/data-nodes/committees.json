@@ -9015,10 +9015,10 @@
         "billCount": 55,
         "billsWithdrawn": [],
         "billsUnscheduled": [
-            "HB 375",
-            "SJ 32"
+            "HB 375"
         ],
         "billsScheduled": [
+            "SJ 32",
             "SR 2",
             "SR 68"
         ],
@@ -9028,6 +9028,12 @@
                 "bills": [
                     "SR 2",
                     "SR 68"
+                ]
+            },
+            {
+                "day": "04/25/2023",
+                "bills": [
+                    "SJ 32"
                 ]
             }
         ],
