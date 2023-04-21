@@ -6683,13 +6683,19 @@
             "SB 493"
         ],
         "billsUnscheduled": [
-            "HB 455",
-            "HB 914"
+            "HB 455"
         ],
         "billsScheduled": [
+            "HB 914",
             "SJ 30"
         ],
         "billsScheduledByDay": [
+            {
+                "day": "04/24/2023",
+                "bills": [
+                    "HB 914"
+                ]
+            },
             {
                 "day": "04/25/2023",
                 "bills": [
@@ -7120,14 +7126,14 @@
         ],
         "billsAwaitingVote": [
             "HB 830",
-            "HB 906",
-            "HB 963"
+            "HB 906"
         ],
         "billsFailed": [
             "HB 345",
             "HB 481",
             "HB 861",
             "HB 943",
+            "HB 963",
             "SB 15",
             "SB 97",
             "SB 110",
