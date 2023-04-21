@@ -2,7 +2,8 @@
     "datesOnCalendar": [
         "04/21/2023",
         "04/24/2023",
-        "04/25/2023"
+        "04/25/2023",
+        "04/26/2023"
     ],
     "billsOnCalendar": [
         "HB 276",
@@ -19,6 +20,7 @@
         "HB 944",
         "HB 948",
         "HB 950",
+        "HJ 19",
         "HJ 23",
         "HJ 24",
         "HJ 25",
@@ -33,6 +35,7 @@
         "HJ 38",
         "HR 9",
         "SB 14",
+        "SB 19",
         "SJ 24",
         "SJ 28",
         "SJ 29",
@@ -41,6 +44,7 @@
         "SJ 32",
         "SJ 33",
         "SJ 34",
+        "SJ 35",
         "SR 72",
         "SR 73",
         "SR 74",
@@ -75,6 +79,7 @@
         "SB 445",
         "SB 498",
         "SB 499",
+        "SB 529",
         "SB 530",
         "SB 540",
         "SB 544",
@@ -321,6 +326,20 @@
             "hearing": true
         },
         {
+            "id": "HJ19-0017",
+            "bill": "HJ 19",
+            "date": "04/24/2023",
+            "description": "Hearing",
+            "posession": "house",
+            "committee": "House Energy, Technology and Federal Relations",
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
             "id": "HJ23-0018",
             "bill": "HJ 23",
             "date": "04/21/2023",
@@ -517,6 +536,19 @@
             "hearing": true
         },
         {
+            "id": "SB19-0051",
+            "bill": "SB 19",
+            "date": "04/24/2023",
+            "description": "Hearing",
+            "posession": "senate",
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
             "id": "SJ24-0018",
             "bill": "SJ 24",
             "date": "04/21/2023",
@@ -621,6 +653,20 @@
             "description": "Hearing",
             "posession": "senate",
             "committee": "Senate Judiciary",
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
+            "id": "SJ35-0016",
+            "bill": "SJ 35",
+            "date": "04/26/2023",
+            "description": "Hearing",
+            "posession": "senate",
+            "committee": "Senate Education and Cultural Resources",
             "actionUrl": null,
             "recordings": [],
             "transcriptUrl": null,
@@ -1095,6 +1141,32 @@
             "date": "04/21/2023",
             "description": "Scheduled for 2nd Reading",
             "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
+            "id": "SB529-0055",
+            "bill": "SB 529",
+            "date": "04/24/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "house",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
+            "id": "SB529-0056",
+            "bill": "SB 529",
+            "date": "04/24/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "house",
             "committee": null,
             "actionUrl": null,
             "recordings": [],

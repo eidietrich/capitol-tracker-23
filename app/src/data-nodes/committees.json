@@ -4032,13 +4032,21 @@
             "HR 4"
         ],
         "billsUnscheduled": [
-            "HJ 19",
             "HJ 26",
             "HJ 36",
             "HJ 37"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduled": [
+            "HJ 19"
+        ],
+        "billsScheduledByDay": [
+            {
+                "day": "04/24/2023",
+                "bills": [
+                    "HJ 19"
+                ]
+            }
+        ],
         "billsAwaitingVote": [],
         "billsFailed": [
             "HB 191",
@@ -7386,13 +7394,13 @@
         ],
         "billsUnscheduled": [
             "HB 450",
-            "SB 337",
-            "SJ 35"
+            "SB 337"
         ],
         "billsScheduled": [
             "HB 944",
             "HB 950",
-            "SJ 24"
+            "SJ 24",
+            "SJ 35"
         ],
         "billsScheduledByDay": [
             {
@@ -7401,6 +7409,12 @@
                     "HB 944",
                     "HB 950",
                     "SJ 24"
+                ]
+            },
+            {
+                "day": "04/26/2023",
+                "bills": [
+                    "SJ 35"
                 ]
             }
         ],
