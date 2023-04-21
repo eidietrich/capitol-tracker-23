@@ -7280,20 +7280,22 @@
             "SB 480",
             "SJ 6",
             "SJ 24",
+            "SJ 35",
             "SR 31",
             "SR 32",
             "SR 33",
             "SR 47",
             "SR 51"
         ],
-        "billCount": 84,
+        "billCount": 85,
         "billsWithdrawn": [
             "SB 9",
             "SB 350"
         ],
         "billsUnscheduled": [
             "HB 450",
-            "SB 337"
+            "SB 337",
+            "SJ 35"
         ],
         "billsScheduled": [
             "HB 944",
@@ -9064,14 +9066,16 @@
             "SB 533",
             "SJ 14",
             "SJ 32",
+            "SJ 36",
             "SR 2",
             "SR 3",
             "SR 68"
         ],
-        "billCount": 55,
+        "billCount": 56,
         "billsWithdrawn": [],
         "billsUnscheduled": [
-            "HB 375"
+            "HB 375",
+            "SJ 36"
         ],
         "billsScheduled": [
             "SJ 32"
