@@ -2887,11 +2887,10 @@
         "billsWithdrawn": [
             "HB 467"
         ],
-        "billsUnscheduled": [
-            "HJ 31"
-        ],
+        "billsUnscheduled": [],
         "billsScheduled": [
             "HJ 28",
+            "HJ 31",
             "HR 9"
         ],
         "billsScheduledByDay": [
@@ -2899,6 +2898,7 @@
                 "day": "04/21/2023",
                 "bills": [
                     "HJ 28",
+                    "HJ 31",
                     "HR 9"
                 ]
             }
@@ -4703,18 +4703,19 @@
         ],
         "billCount": 83,
         "billsWithdrawn": [],
-        "billsUnscheduled": [
+        "billsUnscheduled": [],
+        "billsScheduled": [
+            "HJ 23",
             "HJ 34",
             "HJ 35"
-        ],
-        "billsScheduled": [
-            "HJ 23"
         ],
         "billsScheduledByDay": [
             {
                 "day": "04/21/2023",
                 "bills": [
-                    "HJ 23"
+                    "HJ 23",
+                    "HJ 34",
+                    "HJ 35"
                 ]
             }
         ],
@@ -7629,15 +7630,17 @@
             "SB 549",
             "SB 558",
             "SJ 21",
-            "SJ 29"
+            "SJ 29",
+            "SR 75"
         ],
-        "billCount": 115,
+        "billCount": 116,
         "billsWithdrawn": [
             "SB 409"
         ],
         "billsUnscheduled": [
             "HB 334",
-            "SJ 29"
+            "SJ 29",
+            "SR 75"
         ],
         "billsScheduled": [],
         "billsScheduledByDay": [],
