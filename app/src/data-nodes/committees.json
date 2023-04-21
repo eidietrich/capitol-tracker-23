@@ -5506,7 +5506,6 @@
             "HB 817",
             "HB 835",
             "HB 862",
-            "HB 872",
             "HB 881",
             "HB 883",
             "HB 898",
@@ -5623,6 +5622,7 @@
             "HB 828",
             "HB 864",
             "HB 868",
+            "HB 872",
             "HB 922",
             "SB 3",
             "SB 11",
@@ -8511,9 +8511,7 @@
         "billsScheduledByDay": [],
         "billsAwaitingVote": [
             "HB 774",
-            "HB 892",
-            "SB 414",
-            "SR 69"
+            "SB 414"
         ],
         "billsFailed": [
             "HB 108",
@@ -8590,6 +8588,7 @@
             "HB 845",
             "HB 852",
             "HB 855",
+            "HB 892",
             "HB 947",
             "HJ 14",
             "SB 18",
@@ -8643,7 +8642,8 @@
             "SJ 19",
             "SR 4",
             "SR 5",
-            "SR 49"
+            "SR 49",
+            "SR 69"
         ],
         "billsBlasted": [],
         "members": [
@@ -9127,17 +9127,13 @@
                 ]
             }
         ],
-        "billsAwaitingVote": [
-            "SR 2",
-            "SR 68"
-        ],
+        "billsAwaitingVote": [],
         "billsFailed": [
             "HB 383",
             "HB 522",
             "HB 547",
             "HB 548",
             "HB 600",
-            "HB 846",
             "SB 139",
             "SB 305",
             "SB 357",
@@ -9168,6 +9164,7 @@
             "HB 593",
             "HB 596",
             "HB 635",
+            "HB 846",
             "SB 58",
             "SB 76",
             "SB 84",
@@ -9184,7 +9181,9 @@
             "SB 388",
             "SB 533",
             "SJ 14",
-            "SR 3"
+            "SR 2",
+            "SR 3",
+            "SR 68"
         ],
         "billsBlasted": [],
         "members": [
@@ -9341,8 +9340,7 @@
             }
         ],
         "billsAwaitingVote": [
-            "HB 904",
-            "SJ 20"
+            "HB 904"
         ],
         "billsFailed": [
             "HB 179",
@@ -9389,7 +9387,8 @@
             "SB 342",
             "SB 344",
             "SB 452",
-            "SB 521"
+            "SB 521",
+            "SJ 20"
         ],
         "billsBlasted": [
             "HB 486",
