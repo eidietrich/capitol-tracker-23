@@ -843,6 +843,7 @@
             "HJ 17",
             "HJ 24",
             "HJ 30",
+            "HJ 33",
             "SB 7",
             "SB 11",
             "SB 12",
@@ -938,7 +939,7 @@
             "SJ 3",
             "SJ 15"
         ],
-        "billCount": 283,
+        "billCount": 284,
         "billsWithdrawn": [
             "HB 197",
             "HB 444",
@@ -949,7 +950,9 @@
             "HB 919",
             "SB 272"
         ],
-        "billsUnscheduled": [],
+        "billsUnscheduled": [
+            "HJ 33"
+        ],
         "billsScheduled": [
             "HJ 24",
             "HJ 30"
@@ -2851,6 +2854,7 @@
             "HB 954",
             "HB 955",
             "HJ 28",
+            "HJ 31",
             "HR 9",
             "SB 4",
             "SB 6",
@@ -2879,11 +2883,13 @@
             "SB 422",
             "SB 564"
         ],
-        "billCount": 117,
+        "billCount": 118,
         "billsWithdrawn": [
             "HB 467"
         ],
-        "billsUnscheduled": [],
+        "billsUnscheduled": [
+            "HJ 31"
+        ],
         "billsScheduled": [
             "HJ 28",
             "HR 9"
@@ -3204,6 +3210,7 @@
             "HJ 4",
             "HJ 18",
             "HJ 29",
+            "HJ 32",
             "HR 2",
             "HR 8",
             "SB 17",
@@ -3228,12 +3235,13 @@
             "SB 557",
             "SJ 16"
         ],
-        "billCount": 71,
+        "billCount": 72,
         "billsWithdrawn": [
             "HB 130"
         ],
         "billsUnscheduled": [
-            "HJ 29"
+            "HJ 29",
+            "HJ 32"
         ],
         "billsScheduled": [],
         "billsScheduledByDay": [],
@@ -4653,6 +4661,8 @@
             "HJ 21",
             "HJ 22",
             "HJ 23",
+            "HJ 34",
+            "HJ 35",
             "SB 5",
             "SB 23",
             "SB 98",
@@ -4691,9 +4701,12 @@
             "SB 528",
             "SB 536"
         ],
-        "billCount": 81,
+        "billCount": 83,
         "billsWithdrawn": [],
-        "billsUnscheduled": [],
+        "billsUnscheduled": [
+            "HJ 34",
+            "HJ 35"
+        ],
         "billsScheduled": [
             "HJ 23"
         ],
@@ -6054,9 +6067,14 @@
         ],
         "billsScheduledByDay": [
             {
+                "day": "04/21/2023",
+                "bills": [
+                    "SJ 31"
+                ]
+            },
+            {
                 "day": "04/24/2023",
                 "bills": [
-                    "SJ 31",
                     "SJ 33",
                     "SJ 34"
                 ]
