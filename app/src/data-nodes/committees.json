@@ -304,15 +304,12 @@
             "SB 28",
             "SB 29",
             "SB 108",
-            "SB 122",
             "SB 127",
             "SB 132",
             "SB 168",
-            "SB 246",
             "SB 282",
             "SB 417",
             "SB 469",
-            "SB 506",
             "SB 555"
         ],
         "billsAdvanced": [
@@ -487,15 +484,18 @@
             "SB 94",
             "SB 95",
             "SB 121",
+            "SB 122",
             "SB 124",
             "SB 148",
             "SB 182",
             "SB 229",
+            "SB 246",
             "SB 253",
             "SB 281",
             "SB 303",
             "SB 352",
-            "SB 485"
+            "SB 485",
+            "SB 506"
         ],
         "billsBlasted": [],
         "members": [
@@ -4699,12 +4699,7 @@
         ],
         "billsScheduled": [],
         "billsScheduledByDay": [],
-        "billsAwaitingVote": [
-            "HJ 21",
-            "HJ 22",
-            "SB 528",
-            "SB 536"
-        ],
+        "billsAwaitingVote": [],
         "billsFailed": [
             "HB 323",
             "HB 324",
@@ -4725,7 +4720,8 @@
             "SB 335",
             "SB 379",
             "SB 420",
-            "SB 500"
+            "SB 500",
+            "SB 528"
         ],
         "billsAdvanced": [
             "HB 20",
@@ -4755,6 +4751,8 @@
             "HB 914",
             "HB 938",
             "HB 959",
+            "HJ 21",
+            "HJ 22",
             "SB 5",
             "SB 23",
             "SB 98",
@@ -4783,7 +4781,8 @@
             "SB 382",
             "SB 391",
             "SB 406",
-            "SB 407"
+            "SB 407",
+            "SB 536"
         ],
         "billsBlasted": [],
         "members": [
@@ -7021,11 +7020,19 @@
             "SB 461"
         ],
         "billsUnscheduled": [
-            "SB 118",
+            "SB 118"
+        ],
+        "billsScheduled": [
             "SJ 28"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduledByDay": [
+            {
+                "day": "04/25/2023",
+                "bills": [
+                    "SJ 28"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "HB 345",
             "HB 830",
