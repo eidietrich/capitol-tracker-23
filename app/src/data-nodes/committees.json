@@ -5427,23 +5427,40 @@
         "billCount": 210,
         "billsWithdrawn": [],
         "billsUnscheduled": [
+            "HB 393",
+            "HB 549",
+            "HB 562",
+            "HB 856"
+        ],
+        "billsScheduled": [
             "HB 276",
             "HB 321",
             "HB 352",
-            "HB 393",
             "HB 469",
             "HB 521",
-            "HB 549",
-            "HB 562",
             "HB 649",
             "HB 652",
             "HB 833",
             "HB 840",
-            "HB 856",
             "HB 948"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduledByDay": [
+            {
+                "day": "04/21/2023",
+                "bills": [
+                    "HB 276",
+                    "HB 321",
+                    "HB 352",
+                    "HB 469",
+                    "HB 521",
+                    "HB 649",
+                    "HB 652",
+                    "HB 833",
+                    "HB 840",
+                    "HB 948"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "HB 5",
             "HB 6",
