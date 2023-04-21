@@ -2884,12 +2884,20 @@
         "billsWithdrawn": [
             "HB 467"
         ],
-        "billsUnscheduled": [
+        "billsUnscheduled": [],
+        "billsScheduled": [
             "HJ 28",
             "HR 9"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduledByDay": [
+            {
+                "day": "04/21/2023",
+                "bills": [
+                    "HJ 28",
+                    "HR 9"
+                ]
+            }
+        ],
         "billsAwaitingVote": [],
         "billsFailed": [
             "HB 64",
