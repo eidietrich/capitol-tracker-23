@@ -3238,12 +3238,20 @@
         "billsWithdrawn": [
             "HB 130"
         ],
-        "billsUnscheduled": [
+        "billsUnscheduled": [],
+        "billsScheduled": [
             "HJ 29",
             "HJ 32"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduledByDay": [
+            {
+                "day": "04/24/2023",
+                "bills": [
+                    "HJ 29",
+                    "HJ 32"
+                ]
+            }
+        ],
         "billsAwaitingVote": [],
         "billsFailed": [
             "HB 406",
@@ -7639,16 +7647,17 @@
             "SB 409"
         ],
         "billsUnscheduled": [
-            "HB 334",
-            "SJ 29"
+            "HB 334"
         ],
         "billsScheduled": [
+            "SJ 29",
             "SR 75"
         ],
         "billsScheduledByDay": [
             {
                 "day": "04/24/2023",
                 "bills": [
+                    "SJ 29",
                     "SR 75"
                 ]
             }
