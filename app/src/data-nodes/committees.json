@@ -3772,11 +3772,18 @@
             "HB 667",
             "HB 759"
         ],
-        "billsUnscheduled": [
+        "billsUnscheduled": [],
+        "billsScheduled": [
             "HJ 25"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduledByDay": [
+            {
+                "day": "04/24/2023",
+                "bills": [
+                    "HJ 25"
+                ]
+            }
+        ],
         "billsAwaitingVote": [],
         "billsFailed": [
             "HB 259",
@@ -5510,7 +5517,6 @@
             "HB 5",
             "HB 6",
             "HB 8",
-            "HB 223",
             "HB 226",
             "HB 355",
             "HB 424",
@@ -5536,6 +5542,7 @@
         ],
         "billsFailed": [
             "HB 82",
+            "HB 223",
             "HB 362",
             "HB 375",
             "HB 381",
