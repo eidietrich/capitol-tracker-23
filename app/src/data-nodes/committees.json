@@ -5393,6 +5393,7 @@
             "HB 797",
             "HB 817",
             "HB 818",
+            "HB 819",
             "HB 828",
             "HB 833",
             "HB 835",
@@ -5495,12 +5496,13 @@
             "SB 555",
             "SJ 18"
         ],
-        "billCount": 210,
+        "billCount": 211,
         "billsWithdrawn": [],
         "billsUnscheduled": [
             "HB 393",
             "HB 549",
             "HB 562",
+            "HB 819",
             "HB 856"
         ],
         "billsScheduled": [
@@ -5553,7 +5555,6 @@
             "HB 881",
             "HB 883",
             "HB 898",
-            "HB 916",
             "HB 917",
             "HB 946",
             "HB 949",
@@ -5668,6 +5669,7 @@
             "HB 864",
             "HB 868",
             "HB 872",
+            "HB 916",
             "HB 922",
             "SB 3",
             "SB 11",
@@ -6343,6 +6345,7 @@
             "SJ 5",
             "SJ 11",
             "SJ 15",
+            "SJ 31",
             "SR 6",
             "SR 7",
             "SR 8",
@@ -6544,6 +6547,7 @@
             "HB 889",
             "HB 898",
             "HB 903",
+            "HB 914",
             "HB 918",
             "HB 952",
             "HB 969",
@@ -6665,17 +6669,26 @@
             "SR 66",
             "SR 67"
         ],
-        "billCount": 231,
+        "billCount": 232,
         "billsWithdrawn": [
             "SB 267",
             "SB 493"
         ],
         "billsUnscheduled": [
             "HB 455",
+            "HB 914"
+        ],
+        "billsScheduled": [
             "SJ 30"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduledByDay": [
+            {
+                "day": "04/25/2023",
+                "bills": [
+                    "SJ 30"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "HB 152",
             "HB 903"
@@ -7672,7 +7685,7 @@
             "SJ 29",
             "SR 75"
         ],
-        "billCount": 116,
+        "billCount": 115,
         "billsWithdrawn": [
             "SB 409"
         ],
@@ -7692,11 +7705,7 @@
                 ]
             }
         ],
-        "billsAwaitingVote": [
-            "HB 874",
-            "HB 890",
-            "HB 914"
-        ],
+        "billsAwaitingVote": [],
         "billsFailed": [
             "HB 279",
             "HB 653",
@@ -7749,6 +7758,8 @@
             "HB 724",
             "HB 731",
             "HB 748",
+            "HB 874",
+            "HB 890",
             "HB 927",
             "HB 938",
             "HB 948",

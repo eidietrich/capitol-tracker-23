@@ -5437,6 +5437,21 @@
                 "isMajor": true,
                 "introduction": true,
                 "vote": null
+            },
+            {
+                "id": "SJ30-0019",
+                "bill": "SJ 30",
+                "date": "04/25/2023",
+                "description": "Hearing",
+                "posession": "senate",
+                "committee": "Senate Business, Labor, and Economic Affairs",
+                "actionUrl": null,
+                "recordings": [],
+                "transcriptUrl": null,
+                "key": "Hearing",
+                "isMajor": true,
+                "hearing": true,
+                "vote": null
             }
         ]
     },
@@ -5713,6 +5728,55 @@
                 "isMajor": true,
                 "hearing": true,
                 "vote": null
+            },
+            {
+                "id": "SJ31-0020",
+                "bill": "SJ 31",
+                "date": "04/21/2023",
+                "description": "Committee Executive Action--Bill Passed",
+                "posession": "senate",
+                "committee": "Senate Judiciary",
+                "actionUrl": null,
+                "recordings": [],
+                "transcriptUrl": null,
+                "key": "Committee Executive Action--Bill Passed",
+                "isMajor": true,
+                "isHighlight": true,
+                "committeeAction": true,
+                "advanced": true,
+                "vote": {
+                    "action": "SJ31-0020",
+                    "bill": "SJ 31",
+                    "date": null,
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": null,
+                    "session": "20231",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 7,
+                        "N": 0
+                    },
+                    "gopCount": {
+                        "Y": 0,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": false,
+                    "demSupported": false,
+                    "votes": []
+                }
             }
         ]
     },
@@ -7021,6 +7085,211 @@
                 "key": "First Reading",
                 "isMajor": true,
                 "introduction": true,
+                "vote": null
+            }
+        ]
+    },
+    {
+        "bill": "SJ 37",
+        "actions": [
+            {
+                "id": "SJ37-0000",
+                "bill": "SJ 37",
+                "date": "12/05/2022",
+                "description": "Draft Request Received",
+                "posession": "staff",
+                "committee": null,
+                "actionUrl": null,
+                "recordings": [],
+                "transcriptUrl": null,
+                "key": "Draft Request Received",
+                "draftRequest": true,
+                "vote": null
+            },
+            {
+                "id": "SJ37-0001",
+                "bill": "SJ 37",
+                "date": "04/19/2023",
+                "description": "Draft to Requester for Review",
+                "posession": "staff",
+                "committee": null,
+                "actionUrl": null,
+                "recordings": [],
+                "transcriptUrl": null,
+                "key": "Draft to Requester for Review",
+                "vote": null
+            },
+            {
+                "id": "SJ37-0002",
+                "bill": "SJ 37",
+                "date": "04/20/2023",
+                "description": "Draft to Requester for Review",
+                "posession": "staff",
+                "committee": null,
+                "actionUrl": null,
+                "recordings": [],
+                "transcriptUrl": null,
+                "key": "Draft to Requester for Review",
+                "vote": null
+            },
+            {
+                "id": "SJ37-0003",
+                "bill": "SJ 37",
+                "date": "04/20/2023",
+                "description": "Draft in Legal Review",
+                "posession": "staff",
+                "committee": null,
+                "actionUrl": null,
+                "recordings": [],
+                "transcriptUrl": null,
+                "key": "Draft in Legal Review",
+                "vote": null
+            },
+            {
+                "id": "SJ37-0004",
+                "bill": "SJ 37",
+                "date": "04/20/2023",
+                "description": "Draft in Edit",
+                "posession": "staff",
+                "committee": null,
+                "actionUrl": null,
+                "recordings": [],
+                "transcriptUrl": null,
+                "key": "Draft in Edit",
+                "vote": null
+            },
+            {
+                "id": "SJ37-0005",
+                "bill": "SJ 37",
+                "date": "04/20/2023",
+                "description": "Draft to Drafter - Edit Review",
+                "posession": "staff",
+                "committee": null,
+                "actionUrl": null,
+                "recordings": [],
+                "transcriptUrl": null,
+                "key": "Draft to Drafter - Edit Review",
+                "vote": null
+            },
+            {
+                "id": "SJ37-0006",
+                "bill": "SJ 37",
+                "date": "04/20/2023",
+                "description": "Draft in Input/Proofing",
+                "posession": "staff",
+                "committee": null,
+                "actionUrl": null,
+                "recordings": [],
+                "transcriptUrl": null,
+                "key": "Draft in Input/Proofing",
+                "vote": null
+            },
+            {
+                "id": "SJ37-0007",
+                "bill": "SJ 37",
+                "date": "04/20/2023",
+                "description": "Draft in Final Drafter Review",
+                "posession": "staff",
+                "committee": null,
+                "actionUrl": null,
+                "recordings": [],
+                "transcriptUrl": null,
+                "key": "Draft in Final Drafter Review",
+                "vote": null
+            },
+            {
+                "id": "SJ37-0008",
+                "bill": "SJ 37",
+                "date": "04/20/2023",
+                "description": "Bill Draft Text Available Electronically",
+                "posession": "staff",
+                "committee": null,
+                "actionUrl": null,
+                "recordings": [],
+                "transcriptUrl": null,
+                "key": "Bill Draft Text Available Electronically",
+                "draftReady": true,
+                "vote": null
+            },
+            {
+                "id": "SJ37-0009",
+                "bill": "SJ 37",
+                "date": "04/20/2023",
+                "description": "Executive Director Review",
+                "posession": "staff",
+                "committee": null,
+                "actionUrl": null,
+                "recordings": [],
+                "transcriptUrl": null,
+                "key": "Executive Director Review",
+                "vote": null
+            },
+            {
+                "id": "SJ37-0010",
+                "bill": "SJ 37",
+                "date": "04/21/2023",
+                "description": "Draft in Assembly",
+                "posession": "staff",
+                "committee": null,
+                "actionUrl": null,
+                "recordings": [],
+                "transcriptUrl": null,
+                "key": "Draft in Assembly",
+                "vote": null
+            },
+            {
+                "id": "SJ37-0011",
+                "bill": "SJ 37",
+                "date": "04/21/2023",
+                "description": "Executive Director Final Review",
+                "posession": "staff",
+                "committee": null,
+                "actionUrl": null,
+                "recordings": [],
+                "transcriptUrl": null,
+                "key": "Executive Director Final Review",
+                "vote": null
+            },
+            {
+                "id": "SJ37-0012",
+                "bill": "SJ 37",
+                "date": "04/21/2023",
+                "description": "Draft Ready for Delivery",
+                "posession": "staff",
+                "committee": null,
+                "actionUrl": null,
+                "recordings": [],
+                "transcriptUrl": null,
+                "key": "Draft Ready for Delivery",
+                "vote": null
+            },
+            {
+                "id": "SJ37-0013",
+                "bill": "SJ 37",
+                "date": "04/21/2023",
+                "description": "Introduced",
+                "posession": "senate",
+                "committee": null,
+                "actionUrl": null,
+                "recordings": [],
+                "transcriptUrl": null,
+                "key": "Introduced",
+                "isMajor": true,
+                "isHighlight": true,
+                "introduction": true,
+                "vote": null
+            },
+            {
+                "id": "SJ37-0014",
+                "bill": "SJ 37",
+                "date": "04/21/2023",
+                "description": "Introduced Bill Text Available Electronically",
+                "posession": "staff",
+                "committee": null,
+                "actionUrl": null,
+                "recordings": [],
+                "transcriptUrl": null,
+                "key": "Introduced Bill Text Available Electronically",
                 "vote": null
             }
         ]
