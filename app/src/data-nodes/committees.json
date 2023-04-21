@@ -4183,11 +4183,18 @@
         ],
         "billCount": 36,
         "billsWithdrawn": [],
-        "billsUnscheduled": [
+        "billsUnscheduled": [],
+        "billsScheduled": [
             "HJ 27"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduledByDay": [
+            {
+                "day": "04/25/2023",
+                "bills": [
+                    "HJ 27"
+                ]
+            }
+        ],
         "billsAwaitingVote": [],
         "billsFailed": [
             "HB 350",
