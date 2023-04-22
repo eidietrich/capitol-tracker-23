@@ -3766,6 +3766,57 @@
                 "isMajor": true,
                 "hearing": true,
                 "vote": null
+            },
+            {
+                "id": "SJ24-0019",
+                "bill": "SJ 24",
+                "date": "04/21/2023",
+                "description": "Tabled in Committee",
+                "posession": "senate",
+                "committee": "Senate Education and Cultural Resources",
+                "actionUrl": null,
+                "recordings": [],
+                "transcriptUrl": null,
+                "key": "Tabled in Committee",
+                "isMajor": true,
+                "isHighlight": true,
+                "committeeAction": true,
+                "secondChamberAction": true,
+                "failed": true,
+                "tabled": true,
+                "vote": {
+                    "action": "SJ24-0019",
+                    "bill": "SJ 24",
+                    "date": null,
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": null,
+                    "session": "20231",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 11,
+                        "N": 0
+                    },
+                    "gopCount": {
+                        "Y": 0,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": false,
+                    "demSupported": false,
+                    "votes": []
+                }
             }
         ]
     },
