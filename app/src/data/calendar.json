@@ -39,6 +39,7 @@
         "SR 73",
         "SR 74",
         "SR 75",
+        "HB 2",
         "SB 209",
         "SB 529",
         "HB 348",
@@ -543,6 +544,19 @@
         }
     ],
     "scheduledFloorDebates": [
+        {
+            "id": "HB2-0157",
+            "bill": "HB 2",
+            "date": "04/24/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
         {
             "id": "SB209-0060",
             "bill": "SB 209",
