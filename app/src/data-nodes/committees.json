@@ -956,12 +956,11 @@
             "HB 919",
             "SB 272"
         ],
-        "billsUnscheduled": [
-            "HJ 33"
-        ],
+        "billsUnscheduled": [],
         "billsScheduled": [
             "HJ 24",
-            "HJ 30"
+            "HJ 30",
+            "HJ 33"
         ],
         "billsScheduledByDay": [
             {
@@ -970,11 +969,16 @@
                     "HJ 24",
                     "HJ 30"
                 ]
+            },
+            {
+                "day": "04/25/2023",
+                "bills": [
+                    "HJ 33"
+                ]
             }
         ],
         "billsAwaitingVote": [
             "HJ 17",
-            "SB 160",
             "SB 534"
         ],
         "billsFailed": [
@@ -1027,6 +1031,7 @@
             "HB 934",
             "SB 12",
             "SB 72",
+            "SB 160",
             "SB 180",
             "SB 187",
             "SB 211",
