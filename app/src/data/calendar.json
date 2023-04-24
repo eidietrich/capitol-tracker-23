@@ -49,6 +49,7 @@
         "HB 62",
         "HB 95",
         "HB 118",
+        "HB 128",
         "HB 164",
         "HB 190",
         "HB 196",
@@ -74,13 +75,16 @@
         "HB 783",
         "HB 889",
         "SB 11",
+        "SB 59",
         "SB 182",
         "SB 209",
         "SB 250",
         "SB 352",
         "SB 481",
         "SB 516",
+        "SB 518",
         "SB 529",
+        "SB 531",
         "SB 535",
         "SB 538",
         "HB 348",
@@ -720,6 +724,19 @@
             "scheduledForFloorDebate": true
         },
         {
+            "id": "HB128-0053",
+            "bill": "HB 128",
+            "date": "04/24/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
             "id": "HB164-0046",
             "bill": "HB 164",
             "date": "04/24/2023",
@@ -1045,6 +1062,19 @@
             "scheduledForFloorDebate": true
         },
         {
+            "id": "SB59-0040",
+            "bill": "SB 59",
+            "date": "04/24/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
             "id": "SB182-0053",
             "bill": "SB 182",
             "date": "04/24/2023",
@@ -1123,6 +1153,19 @@
             "scheduledForFloorDebate": true
         },
         {
+            "id": "SB518-0040",
+            "bill": "SB 518",
+            "date": "04/24/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "house",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
             "id": "SB529-0055",
             "bill": "SB 529",
             "date": "04/24/2023",
@@ -1136,11 +1179,11 @@
             "scheduledForFloorDebate": true
         },
         {
-            "id": "SB529-0056",
-            "bill": "SB 529",
+            "id": "SB531-0051",
+            "bill": "SB 531",
             "date": "04/24/2023",
             "description": "Scheduled for 2nd Reading",
-            "posession": "house",
+            "posession": "senate",
             "committee": null,
             "actionUrl": null,
             "recordings": [],
