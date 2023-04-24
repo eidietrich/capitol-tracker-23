@@ -258,9 +258,7 @@
         "billsScheduled": [],
         "billsScheduledByDay": [],
         "billsAwaitingVote": [
-            "HB 121",
-            "SB 530",
-            "SB 550"
+            "HB 121"
         ],
         "billsFailed": [
             "HB 17",
@@ -500,7 +498,9 @@
             "SB 485",
             "SB 506",
             "SB 510",
-            "SB 522"
+            "SB 522",
+            "SB 530",
+            "SB 550"
         ],
         "billsBlasted": [],
         "members": [
@@ -3307,6 +3307,8 @@
             "HB 942",
             "HB 971",
             "HJ 18",
+            "HJ 29",
+            "HJ 32",
             "HR 2",
             "HR 8",
             "SB 17",
@@ -4700,7 +4702,6 @@
             "HJ 21",
             "HJ 22",
             "HJ 23",
-            "HJ 34",
             "HJ 35",
             "SB 5",
             "SB 23",
@@ -4740,15 +4741,13 @@
             "SB 528",
             "SB 536"
         ],
-        "billCount": 83,
+        "billCount": 82,
         "billsWithdrawn": [],
         "billsUnscheduled": [],
         "billsScheduled": [],
         "billsScheduledByDay": [],
         "billsAwaitingVote": [
-            "HJ 23",
-            "HJ 34",
-            "HJ 35"
+            "HJ 23"
         ],
         "billsFailed": [
             "HB 323",
@@ -4802,6 +4801,7 @@
             "HB 959",
             "HJ 21",
             "HJ 22",
+            "HJ 35",
             "SB 5",
             "SB 23",
             "SB 98",
@@ -5484,9 +5484,7 @@
         ],
         "billCount": 211,
         "billsWithdrawn": [],
-        "billsUnscheduled": [
-            "HB 856"
-        ],
+        "billsUnscheduled": [],
         "billsScheduled": [
             "HB 393",
             "HB 549",
@@ -5528,6 +5526,7 @@
             "HB 833",
             "HB 835",
             "HB 840",
+            "HB 856",
             "HB 862",
             "HB 881",
             "HB 883",
