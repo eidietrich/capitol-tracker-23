@@ -2860,6 +2860,7 @@
             "HJ 28",
             "HJ 31",
             "HJ 38",
+            "HJ 41",
             "HR 9",
             "SB 4",
             "SB 6",
@@ -2888,11 +2889,13 @@
             "SB 422",
             "SB 564"
         ],
-        "billCount": 119,
+        "billCount": 120,
         "billsWithdrawn": [
             "HB 467"
         ],
-        "billsUnscheduled": [],
+        "billsUnscheduled": [
+            "HJ 41"
+        ],
         "billsScheduled": [
             "HJ 38"
         ],
@@ -3214,6 +3217,7 @@
             "HJ 18",
             "HJ 29",
             "HJ 32",
+            "HJ 39",
             "HR 2",
             "HR 8",
             "SB 17",
@@ -3238,11 +3242,13 @@
             "SB 557",
             "SJ 16"
         ],
-        "billCount": 71,
+        "billCount": 72,
         "billsWithdrawn": [
             "HB 130"
         ],
-        "billsUnscheduled": [],
+        "billsUnscheduled": [
+            "HJ 39"
+        ],
         "billsScheduled": [
             "HJ 29",
             "HJ 32"
@@ -4000,6 +4006,7 @@
             "HJ 26",
             "HJ 36",
             "HJ 37",
+            "HJ 40",
             "HR 4",
             "SB 32",
             "SB 33",
@@ -4013,12 +4020,14 @@
             "SJ 7",
             "SJ 10"
         ],
-        "billCount": 55,
+        "billCount": 56,
         "billsWithdrawn": [
             "HB 792",
             "HR 4"
         ],
-        "billsUnscheduled": [],
+        "billsUnscheduled": [
+            "HJ 40"
+        ],
         "billsScheduled": [
             "HJ 19",
             "HJ 26",
@@ -4702,6 +4711,7 @@
             "HJ 21",
             "HJ 22",
             "HJ 23",
+            "HJ 34",
             "HJ 35",
             "SB 5",
             "SB 23",
@@ -4741,14 +4751,12 @@
             "SB 528",
             "SB 536"
         ],
-        "billCount": 82,
+        "billCount": 83,
         "billsWithdrawn": [],
         "billsUnscheduled": [],
         "billsScheduled": [],
         "billsScheduledByDay": [],
-        "billsAwaitingVote": [
-            "HJ 23"
-        ],
+        "billsAwaitingVote": [],
         "billsFailed": [
             "HB 323",
             "HB 324",
@@ -4801,6 +4809,8 @@
             "HB 959",
             "HJ 21",
             "HJ 22",
+            "HJ 23",
+            "HJ 34",
             "HJ 35",
             "SB 5",
             "SB 23",
