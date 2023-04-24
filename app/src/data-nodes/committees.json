@@ -2897,17 +2897,22 @@
         "billsWithdrawn": [
             "HB 467"
         ],
-        "billsUnscheduled": [
-            "HJ 41"
-        ],
+        "billsUnscheduled": [],
         "billsScheduled": [
-            "HJ 38"
+            "HJ 38",
+            "HJ 41"
         ],
         "billsScheduledByDay": [
             {
                 "day": "04/24/2023",
                 "bills": [
                     "HJ 38"
+                ]
+            },
+            {
+                "day": "04/25/2023",
+                "bills": [
+                    "HJ 41"
                 ]
             }
         ],
