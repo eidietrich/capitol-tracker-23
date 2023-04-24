@@ -24,6 +24,7 @@
         "HJ 36",
         "HJ 37",
         "HJ 38",
+        "HJ 39",
         "HJ 41",
         "SB 19",
         "SB 116",
@@ -335,6 +336,20 @@
             "hearing": true
         },
         {
+            "id": "HJ39-0016",
+            "bill": "HJ 39",
+            "date": "04/24/2023",
+            "description": "Hearing",
+            "posession": "house",
+            "committee": "House Natural Resources",
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
             "id": "HJ41-0018",
             "bill": "HJ 41",
             "date": "04/25/2023",
@@ -354,6 +369,7 @@
             "date": "04/24/2023",
             "description": "Hearing",
             "posession": "senate",
+            "committee": "House Appropriations",
             "actionUrl": null,
             "recordings": [],
             "transcriptUrl": null,
