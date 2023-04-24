@@ -4016,19 +4016,21 @@
             "HB 792",
             "HR 4"
         ],
-        "billsUnscheduled": [
+        "billsUnscheduled": [],
+        "billsScheduled": [
+            "HJ 19",
             "HJ 26",
             "HJ 36",
             "HJ 37"
-        ],
-        "billsScheduled": [
-            "HJ 19"
         ],
         "billsScheduledByDay": [
             {
                 "day": "04/24/2023",
                 "bills": [
-                    "HJ 19"
+                    "HJ 19",
+                    "HJ 26",
+                    "HJ 36",
+                    "HJ 37"
                 ]
             }
         ],
@@ -5534,7 +5536,6 @@
             "HB 917",
             "HB 946",
             "HB 948",
-            "HB 949",
             "HB 952"
         ],
         "billsFailed": [
@@ -5553,6 +5554,7 @@
             "HB 818",
             "HB 839",
             "HB 891",
+            "HB 949",
             "SB 126",
             "SB 145",
             "SB 183",
