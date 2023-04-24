@@ -12490,6 +12490,55 @@
                 "isMajor": true,
                 "hearing": true,
                 "vote": null
+            },
+            {
+                "id": "SJ29-0017",
+                "bill": "SJ 29",
+                "date": "04/24/2023",
+                "description": "Committee Executive Action--Bill Passed",
+                "posession": "senate",
+                "committee": "Senate Local Government",
+                "actionUrl": null,
+                "recordings": [],
+                "transcriptUrl": null,
+                "key": "Committee Executive Action--Bill Passed",
+                "isMajor": true,
+                "isHighlight": true,
+                "committeeAction": true,
+                "advanced": true,
+                "vote": {
+                    "action": "SJ29-0017",
+                    "bill": "SJ 29",
+                    "date": null,
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": null,
+                    "session": "20231",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 9,
+                        "N": 0
+                    },
+                    "gopCount": {
+                        "Y": 0,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": false,
+                    "demSupported": false,
+                    "votes": []
+                }
             }
         ]
     },
@@ -14970,6 +15019,21 @@
                 "key": "Referred to Committee",
                 "isMajor": true,
                 "committeeReferral": true,
+                "vote": null
+            },
+            {
+                "id": "SJ38-0017",
+                "bill": "SJ 38",
+                "date": "04/25/2023",
+                "description": "Hearing",
+                "posession": "senate",
+                "committee": "Senate Business, Labor, and Economic Affairs",
+                "actionUrl": null,
+                "recordings": [],
+                "transcriptUrl": null,
+                "key": "Hearing",
+                "isMajor": true,
+                "hearing": true,
                 "vote": null
             }
         ]
