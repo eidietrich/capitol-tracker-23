@@ -5,6 +5,7 @@
         "04/26/2023"
     ],
     "billsOnCalendar": [
+        "HB 288",
         "HB 393",
         "HB 549",
         "HB 562",
@@ -12,6 +13,7 @@
         "HB 819",
         "HB 821",
         "HB 880",
+        "HB 904",
         "HB 914",
         "HB 927",
         "HJ 19",
@@ -59,6 +61,7 @@
         "HB 234",
         "HB 322",
         "HB 333",
+        "HB 359",
         "HB 402",
         "HB 437",
         "HB 446",
@@ -72,8 +75,12 @@
         "HB 591",
         "HB 668",
         "HB 689",
+        "HB 707",
         "HB 783",
         "HB 889",
+        "HJ 18",
+        "HJ 20",
+        "HR 8",
         "SB 11",
         "SB 59",
         "SB 182",
@@ -113,6 +120,20 @@
         "SB 557"
     ],
     "scheduledHearings": [
+        {
+            "id": "HB288-0057",
+            "bill": "HB 288",
+            "date": "04/26/2023",
+            "description": "Hearing",
+            "posession": "senate",
+            "committee": "Senate Finance and Claims",
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
         {
             "id": "HB393-0062",
             "bill": "HB 393",
@@ -203,6 +224,20 @@
             "description": "Hearing",
             "posession": "senate",
             "committee": "Senate Agriculture, Livestock and Irrigation",
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
+            "id": "HB904-0044",
+            "bill": "HB 904",
+            "date": "04/26/2023",
+            "description": "Hearing",
+            "posession": "senate",
+            "committee": "Senate Finance and Claims",
             "actionUrl": null,
             "recordings": [],
             "transcriptUrl": null,
@@ -828,6 +863,19 @@
             "scheduledForFloorDebate": true
         },
         {
+            "id": "HB288-0054",
+            "bill": "HB 288",
+            "date": "04/24/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
             "id": "HB322-0052",
             "bill": "HB 322",
             "date": "04/24/2023",
@@ -843,6 +891,19 @@
         {
             "id": "HB333-0060",
             "bill": "HB 333",
+            "date": "04/24/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "house",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
+            "id": "HB359-0042",
+            "bill": "HB 359",
             "date": "04/24/2023",
             "description": "Scheduled for 2nd Reading",
             "posession": "house",
@@ -1023,6 +1084,19 @@
             "scheduledForFloorDebate": true
         },
         {
+            "id": "HB707-0054",
+            "bill": "HB 707",
+            "date": "04/24/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "house",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
             "id": "HB783-0037",
             "bill": "HB 783",
             "date": "04/24/2023",
@@ -1049,6 +1123,45 @@
             "scheduledForFloorDebate": true
         },
         {
+            "id": "HJ18-0022",
+            "bill": "HJ 18",
+            "date": "04/24/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "house",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
+            "id": "HJ20-0021",
+            "bill": "HJ 20",
+            "date": "04/24/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "house",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
+            "id": "HR8-0022",
+            "bill": "HR 8",
+            "date": "04/24/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "house",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
             "id": "SB11-0050",
             "bill": "SB 11",
             "date": "04/24/2023",
@@ -1062,7 +1175,7 @@
             "scheduledForFloorDebate": true
         },
         {
-            "id": "SB59-0040",
+            "id": "SB59-0041",
             "bill": "SB 59",
             "date": "04/24/2023",
             "description": "Scheduled for 2nd Reading",
