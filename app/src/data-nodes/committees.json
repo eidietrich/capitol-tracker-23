@@ -5512,14 +5512,13 @@
         ],
         "billCount": 212,
         "billsWithdrawn": [],
-        "billsUnscheduled": [
-            "HB 927"
-        ],
+        "billsUnscheduled": [],
         "billsScheduled": [
             "HB 393",
             "HB 549",
             "HB 562",
-            "HB 819"
+            "HB 819",
+            "HB 927"
         ],
         "billsScheduledByDay": [
             {
@@ -5529,6 +5528,12 @@
                     "HB 549",
                     "HB 562",
                     "HB 819"
+                ]
+            },
+            {
+                "day": "04/25/2023",
+                "bills": [
+                    "HB 927"
                 ]
             }
         ],
