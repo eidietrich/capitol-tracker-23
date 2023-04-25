@@ -4006,14 +4006,25 @@
             "HR 4"
         ],
         "billsUnscheduled": [
+            "HJ 40"
+        ],
+        "billsScheduled": [
             "HJ 19",
             "HJ 26",
             "HJ 36",
-            "HJ 37",
-            "HJ 40"
+            "HJ 37"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduledByDay": [
+            {
+                "day": "04/25/2023",
+                "bills": [
+                    "HJ 19",
+                    "HJ 26",
+                    "HJ 36",
+                    "HJ 37"
+                ]
+            }
+        ],
         "billsAwaitingVote": [],
         "billsFailed": [
             "HB 191",
