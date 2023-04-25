@@ -12560,36 +12560,123 @@
                 "vote": {
                     "action": "SJ29-0017",
                     "bill": "SJ 29",
-                    "date": null,
+                    "date": "04/24/2023",
                     "type": "committee",
                     "seqNumber": null,
                     "voteChamber": null,
-                    "voteUrl": null,
+                    "voteUrl": "http://leg.mt.gov/bills/2023/minutes/senate/votesheets/SJ0029LOS230424.pdf",
                     "session": "20231",
+                    "motion": "Sen. Bogner made a Motion that SJ 29 Do Pass",
                     "thresholdRequired": "simple",
                     "count": {
                         "Y": 9,
                         "N": 0
                     },
                     "gopCount": {
-                        "Y": 0,
+                        "Y": 6,
                         "N": 0,
                         "A": 0,
                         "E": 0,
                         "O": 0
                     },
                     "demCount": {
-                        "Y": 0,
+                        "Y": 3,
                         "N": 0,
                         "A": 0,
                         "E": 0,
                         "O": 0
                     },
                     "motionPassed": true,
-                    "gopSupported": false,
-                    "demSupported": false,
-                    "votes": []
+                    "gopSupported": true,
+                    "demSupported": true,
+                    "votes": [
+                        {
+                            "option": "Y",
+                            "name": "Ellie Boldman",
+                            "lastName": "Boldman",
+                            "party": "D",
+                            "locale": "Missoula",
+                            "district": "SD 45"
+                        },
+                        {
+                            "option": "Y",
+                            "name": "Chris Pope",
+                            "lastName": "Pope",
+                            "party": "D",
+                            "locale": "Bozeman",
+                            "district": "SD 31"
+                        },
+                        {
+                            "option": "Y",
+                            "name": "Mary Ann Dunwell",
+                            "lastName": "Dunwell",
+                            "party": "D",
+                            "locale": "Helena",
+                            "district": "SD 42"
+                        },
+                        {
+                            "option": "Y",
+                            "name": "Jeremy Trebas",
+                            "lastName": "Trebas",
+                            "party": "R",
+                            "locale": "Great Falls",
+                            "district": "SD 13"
+                        },
+                        {
+                            "option": "Y",
+                            "name": "Terry Vermeire",
+                            "lastName": "Vermeire",
+                            "party": "R",
+                            "locale": "Anaconda",
+                            "district": "SD 39"
+                        },
+                        {
+                            "option": "Y",
+                            "name": "Forrest Mandeville",
+                            "lastName": "Mandeville",
+                            "party": "R",
+                            "locale": "Columbus",
+                            "district": "SD 29"
+                        },
+                        {
+                            "option": "Y",
+                            "name": "Kenneth Bogner",
+                            "lastName": "Bogner",
+                            "party": "R",
+                            "locale": "Miles City",
+                            "district": "SD 19"
+                        },
+                        {
+                            "option": "Y",
+                            "name": "Daniel Zolnikov",
+                            "lastName": "Zolnikov",
+                            "party": "R",
+                            "locale": "Billings",
+                            "district": "SD 22"
+                        },
+                        {
+                            "option": "Y",
+                            "name": "Chris Friedel",
+                            "lastName": "Friedel",
+                            "party": "R",
+                            "locale": "Billings",
+                            "district": "SD 26"
+                        }
+                    ]
                 }
+            },
+            {
+                "id": "SJ29-0018",
+                "bill": "SJ 29",
+                "date": "04/25/2023",
+                "description": "Committee Report--Bill Passed",
+                "posession": "senate",
+                "committee": "Senate Local Government",
+                "actionUrl": null,
+                "recordings": [],
+                "transcriptUrl": null,
+                "key": "Committee Report--Bill Passed",
+                "vote": null
             }
         ]
     },
@@ -12865,6 +12952,68 @@
                 "key": "Hearing",
                 "isMajor": true,
                 "hearing": true,
+                "vote": null
+            },
+            {
+                "id": "SJ30-0020",
+                "bill": "SJ 30",
+                "date": "04/25/2023",
+                "description": "Committee Executive Action--Bill Passed",
+                "posession": "senate",
+                "committee": "Senate Business, Labor, and Economic Affairs",
+                "actionUrl": null,
+                "recordings": [],
+                "transcriptUrl": null,
+                "key": "Committee Executive Action--Bill Passed",
+                "isMajor": true,
+                "isHighlight": true,
+                "committeeAction": true,
+                "advanced": true,
+                "vote": {
+                    "action": "SJ30-0020",
+                    "bill": "SJ 30",
+                    "date": null,
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": null,
+                    "session": "20231",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 10,
+                        "N": 0
+                    },
+                    "gopCount": {
+                        "Y": 0,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": false,
+                    "demSupported": false,
+                    "votes": []
+                }
+            },
+            {
+                "id": "SJ30-0021",
+                "bill": "SJ 30",
+                "date": "04/25/2023",
+                "description": "Committee Report--Bill Passed",
+                "posession": "senate",
+                "committee": "Senate Business, Labor, and Economic Affairs",
+                "actionUrl": null,
+                "recordings": [],
+                "transcriptUrl": null,
+                "key": "Committee Report--Bill Passed",
                 "vote": null
             }
         ]
@@ -14101,6 +14250,55 @@
                 "isMajor": true,
                 "hearing": true,
                 "vote": null
+            },
+            {
+                "id": "SJ34-0021",
+                "bill": "SJ 34",
+                "date": "04/25/2023",
+                "description": "Committee Executive Action--Bill Passed",
+                "posession": "senate",
+                "committee": "Senate Judiciary",
+                "actionUrl": null,
+                "recordings": [],
+                "transcriptUrl": null,
+                "key": "Committee Executive Action--Bill Passed",
+                "isMajor": true,
+                "isHighlight": true,
+                "committeeAction": true,
+                "advanced": true,
+                "vote": {
+                    "action": "SJ34-0021",
+                    "bill": "SJ 34",
+                    "date": null,
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": null,
+                    "session": "20231",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 7,
+                        "N": 0
+                    },
+                    "gopCount": {
+                        "Y": 0,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": false,
+                    "demSupported": false,
+                    "votes": []
+                }
             }
         ]
     },
