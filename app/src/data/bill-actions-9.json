@@ -10352,7 +10352,7 @@
             {
                 "id": "SJ22-0022",
                 "bill": "SJ 22",
-                "date": "04/20/2023",
+                "date": "04/25/2023",
                 "description": "Tabled in Committee",
                 "posession": "senate",
                 "committee": "Senate Highways and Transportation",
@@ -10379,6 +10379,54 @@
                     "count": {
                         "Y": 11,
                         "N": 1
+                    },
+                    "gopCount": {
+                        "Y": 0,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": false,
+                    "demSupported": false,
+                    "votes": []
+                }
+            },
+            {
+                "id": "SJ22-0023",
+                "bill": "SJ 22",
+                "date": "04/25/2023",
+                "description": "Taken from Table in Committee",
+                "posession": "senate",
+                "committee": "Senate Highways and Transportation",
+                "actionUrl": null,
+                "recordings": [],
+                "transcriptUrl": null,
+                "key": "Taken from Table in Committee",
+                "isMajor": true,
+                "committeeAction": true,
+                "secondChamberAction": true,
+                "vote": {
+                    "action": "SJ22-0023",
+                    "bill": "SJ 22",
+                    "date": null,
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": null,
+                    "session": "20231",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 5,
+                        "N": 4
                     },
                     "gopCount": {
                         "Y": 0,
