@@ -15086,6 +15086,57 @@
                 "isMajor": true,
                 "hearing": true,
                 "vote": null
+            },
+            {
+                "id": "SJ38-0018",
+                "bill": "SJ 38",
+                "date": "04/25/2023",
+                "description": "Tabled in Committee",
+                "posession": "senate",
+                "committee": "Senate Business, Labor, and Economic Affairs",
+                "actionUrl": null,
+                "recordings": [],
+                "transcriptUrl": null,
+                "key": "Tabled in Committee",
+                "isMajor": true,
+                "isHighlight": true,
+                "committeeAction": true,
+                "secondChamberAction": true,
+                "failed": true,
+                "tabled": true,
+                "vote": {
+                    "action": "SJ38-0018",
+                    "bill": "SJ 38",
+                    "date": null,
+                    "type": "committee",
+                    "seqNumber": null,
+                    "voteChamber": null,
+                    "voteUrl": null,
+                    "session": "20231",
+                    "thresholdRequired": "simple",
+                    "count": {
+                        "Y": 10,
+                        "N": 0
+                    },
+                    "gopCount": {
+                        "Y": 0,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "demCount": {
+                        "Y": 0,
+                        "N": 0,
+                        "A": 0,
+                        "E": 0,
+                        "O": 0
+                    },
+                    "motionPassed": true,
+                    "gopSupported": false,
+                    "demSupported": false,
+                    "votes": []
+                }
             }
         ]
     },
