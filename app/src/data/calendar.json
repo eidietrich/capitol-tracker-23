@@ -1,7 +1,8 @@
 {
     "datesOnCalendar": [
         "04/25/2023",
-        "04/26/2023"
+        "04/26/2023",
+        "04/27/2023"
     ],
     "billsOnCalendar": [
         "HB 55",
@@ -32,6 +33,7 @@
         "SJ 35",
         "SJ 36",
         "SJ 38",
+        "SJ 39",
         "SR 72",
         "SR 73",
         "SR 74",
@@ -420,6 +422,20 @@
             "description": "Hearing",
             "posession": "senate",
             "committee": "Senate Business, Labor, and Economic Affairs",
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
+            "id": "SJ39-0017",
+            "bill": "SJ 39",
+            "date": "04/27/2023",
+            "description": "Hearing",
+            "posession": "senate",
+            "committee": "Senate Fish and Game",
             "actionUrl": null,
             "recordings": [],
             "transcriptUrl": null,

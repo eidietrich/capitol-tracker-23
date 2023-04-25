@@ -9154,12 +9154,12 @@
         "billCount": 57,
         "billsWithdrawn": [],
         "billsUnscheduled": [
-            "HB 375",
-            "SJ 39"
+            "HB 375"
         ],
         "billsScheduled": [
             "SJ 32",
-            "SJ 36"
+            "SJ 36",
+            "SJ 39"
         ],
         "billsScheduledByDay": [
             {
@@ -9167,6 +9167,12 @@
                 "bills": [
                     "SJ 32",
                     "SJ 36"
+                ]
+            },
+            {
+                "day": "04/27/2023",
+                "bills": [
+                    "SJ 39"
                 ]
             }
         ],
