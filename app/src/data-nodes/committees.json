@@ -255,15 +255,26 @@
         "billsUnscheduled": [
             "SB 442",
             "SB 510",
-            "SB 516",
             "SB 522",
-            "SB 529",
-            "SB 535",
-            "SB 538",
             "SB 555"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduled": [
+            "SB 516",
+            "SB 529",
+            "SB 535",
+            "SB 538"
+        ],
+        "billsScheduledByDay": [
+            {
+                "day": "04/25/2023",
+                "bills": [
+                    "SB 516",
+                    "SB 529",
+                    "SB 535",
+                    "SB 538"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "HB 121"
         ],
@@ -2891,18 +2902,11 @@
         "billsWithdrawn": [
             "HB 467"
         ],
-        "billsUnscheduled": [],
-        "billsScheduled": [
+        "billsUnscheduled": [
             "HJ 41"
         ],
-        "billsScheduledByDay": [
-            {
-                "day": "04/25/2023",
-                "bills": [
-                    "HJ 41"
-                ]
-            }
-        ],
+        "billsScheduled": [],
+        "billsScheduledByDay": [],
         "billsAwaitingVote": [],
         "billsFailed": [
             "HB 64",
