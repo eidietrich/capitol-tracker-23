@@ -10353,19 +10353,16 @@
                 "id": "SJ22-0022",
                 "bill": "SJ 22",
                 "date": "04/25/2023",
-                "description": "Tabled in Committee",
+                "description": "Taken from Table in Committee",
                 "posession": "senate",
                 "committee": "Senate Highways and Transportation",
                 "actionUrl": null,
                 "recordings": [],
                 "transcriptUrl": null,
-                "key": "Tabled in Committee",
+                "key": "Taken from Table in Committee",
                 "isMajor": true,
-                "isHighlight": true,
                 "committeeAction": true,
                 "secondChamberAction": true,
-                "failed": true,
-                "tabled": true,
                 "vote": {
                     "action": "SJ22-0022",
                     "bill": "SJ 22",
@@ -10377,8 +10374,8 @@
                     "session": "20231",
                     "thresholdRequired": "simple",
                     "count": {
-                        "Y": 11,
-                        "N": 1
+                        "Y": 5,
+                        "N": 4
                     },
                     "gopCount": {
                         "Y": 0,
@@ -10404,16 +10401,19 @@
                 "id": "SJ22-0023",
                 "bill": "SJ 22",
                 "date": "04/25/2023",
-                "description": "Taken from Table in Committee",
+                "description": "Tabled in Committee",
                 "posession": "senate",
                 "committee": "Senate Highways and Transportation",
                 "actionUrl": null,
                 "recordings": [],
                 "transcriptUrl": null,
-                "key": "Taken from Table in Committee",
+                "key": "Tabled in Committee",
                 "isMajor": true,
+                "isHighlight": true,
                 "committeeAction": true,
                 "secondChamberAction": true,
+                "failed": true,
+                "tabled": true,
                 "vote": {
                     "action": "SJ22-0023",
                     "bill": "SJ 22",
@@ -10425,8 +10425,8 @@
                     "session": "20231",
                     "thresholdRequired": "simple",
                     "count": {
-                        "Y": 5,
-                        "N": 4
+                        "Y": 11,
+                        "N": 1
                     },
                     "gopCount": {
                         "Y": 0,
