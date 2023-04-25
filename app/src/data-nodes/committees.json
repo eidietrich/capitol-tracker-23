@@ -3771,12 +3771,12 @@
             "HB 667",
             "HB 759"
         ],
-        "billsUnscheduled": [],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
-        "billsAwaitingVote": [
+        "billsUnscheduled": [
             "HJ 25"
         ],
+        "billsScheduled": [],
+        "billsScheduledByDay": [],
+        "billsAwaitingVote": [],
         "billsFailed": [
             "HB 259",
             "HB 503",
@@ -4209,9 +4209,10 @@
             "SB 447",
             "SB 462",
             "SB 561",
+            "SJ 9",
             "SJ 13"
         ],
-        "billCount": 35,
+        "billCount": 36,
         "billsWithdrawn": [],
         "billsUnscheduled": [],
         "billsScheduled": [
@@ -4262,6 +4263,7 @@
             "SB 375",
             "SB 462",
             "SB 561",
+            "SJ 9",
             "SJ 13"
         ],
         "billsBlasted": [],
@@ -8795,6 +8797,7 @@
             "SB 462",
             "SB 473",
             "SB 561",
+            "SJ 9",
             "SJ 13",
             "SJ 27",
             "SR 26",
@@ -8803,7 +8806,7 @@
             "SR 52",
             "SR 64"
         ],
-        "billCount": 40,
+        "billCount": 41,
         "billsWithdrawn": [
             "SB 52"
         ],
@@ -8857,6 +8860,7 @@
             "SB 447",
             "SB 462",
             "SB 561",
+            "SJ 9",
             "SJ 13",
             "SR 26",
             "SR 27",
@@ -8973,10 +8977,10 @@
         "billCount": 27,
         "billsWithdrawn": [],
         "billsUnscheduled": [
-            "SB 242",
-            "SJ 37"
+            "SB 242"
         ],
         "billsScheduled": [
+            "SJ 37",
             "SR 72"
         ],
         "billsScheduledByDay": [
@@ -8984,6 +8988,12 @@
                 "day": "04/25/2023",
                 "bills": [
                     "SR 72"
+                ]
+            },
+            {
+                "day": "04/27/2023",
+                "bills": [
+                    "SJ 37"
                 ]
             }
         ],
