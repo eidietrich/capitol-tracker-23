@@ -5465,10 +5465,11 @@
         ],
         "billCount": 216,
         "billsWithdrawn": [],
-        "billsUnscheduled": [],
+        "billsUnscheduled": [
+            "HB 816"
+        ],
         "billsScheduled": [
             "HB 288",
-            "HB 816",
             "HB 904",
             "HB 944"
         ],
@@ -5477,7 +5478,6 @@
                 "day": "04/26/2023",
                 "bills": [
                     "HB 288",
-                    "HB 816",
                     "HB 904",
                     "HB 944"
                 ]
