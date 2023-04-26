@@ -5,6 +5,7 @@
         "04/28/2023"
     ],
     "billsOnCalendar": [
+        "HB 141",
         "HB 282",
         "HB 288",
         "HB 317",
@@ -26,6 +27,20 @@
         "SJ 39"
     ],
     "scheduledHearings": [
+        {
+            "id": "HB141-0034",
+            "bill": "HB 141",
+            "date": "04/27/2023",
+            "description": "Hearing",
+            "posession": "senate",
+            "committee": "Senate Business, Labor, and Economic Affairs",
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
         {
             "id": "HB282-0048",
             "bill": "HB 282",
