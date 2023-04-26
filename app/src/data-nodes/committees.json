@@ -5466,20 +5466,21 @@
         ],
         "billCount": 216,
         "billsWithdrawn": [],
-        "billsUnscheduled": [
-            "HB 816",
-            "HB 944"
-        ],
+        "billsUnscheduled": [],
         "billsScheduled": [
             "HB 288",
-            "HB 904"
+            "HB 816",
+            "HB 904",
+            "HB 944"
         ],
         "billsScheduledByDay": [
             {
                 "day": "04/26/2023",
                 "bills": [
                     "HB 288",
-                    "HB 904"
+                    "HB 816",
+                    "HB 904",
+                    "HB 944"
                 ]
             }
         ],
