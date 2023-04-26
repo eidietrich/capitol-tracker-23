@@ -25,6 +25,7 @@
         "SJ 35",
         "SJ 37",
         "SJ 39",
+        "HB 55",
         "HB 312",
         "HB 874",
         "HB 890",
@@ -356,6 +357,19 @@
         }
     ],
     "scheduledFloorDebates": [
+        {
+            "id": "HB55-0077",
+            "bill": "HB 55",
+            "date": "04/26/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
         {
             "id": "HB312-0037",
             "bill": "HB 312",
