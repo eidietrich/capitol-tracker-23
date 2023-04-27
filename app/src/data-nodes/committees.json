@@ -5483,15 +5483,17 @@
             "SB 550",
             "SB 553",
             "SB 555",
-            "SJ 18"
+            "SJ 18",
+            "SJ 26"
         ],
-        "billCount": 218,
+        "billCount": 219,
         "billsWithdrawn": [],
         "billsUnscheduled": [],
         "billsScheduled": [
             "HB 55",
             "HB 816",
-            "HB 821"
+            "HB 821",
+            "SJ 26"
         ],
         "billsScheduledByDay": [
             {
@@ -5499,15 +5501,18 @@
                 "bills": [
                     "HB 55",
                     "HB 816",
-                    "HB 821"
+                    "HB 821",
+                    "SJ 26"
+                ]
+            },
+            {
+                "day": "04/28/2023",
+                "bills": [
+                    "SJ 26"
                 ]
             }
         ],
         "billsAwaitingVote": [
-            "HB 226",
-            "HB 355",
-            "HB 587",
-            "HB 819",
             "HB 904"
         ],
         "billsFailed": [
@@ -5515,12 +5520,10 @@
             "HB 223",
             "HB 276",
             "HB 288",
-            "HB 321",
             "HB 362",
             "HB 375",
             "HB 381",
             "HB 398",
-            "HB 403",
             "HB 496",
             "HB 649",
             "HB 669",
@@ -5574,6 +5577,7 @@
             "HB 37",
             "HB 38",
             "HB 45",
+            "HB 55",
             "HB 60",
             "HB 79",
             "HB 81",
@@ -5598,6 +5602,7 @@
             "HB 221",
             "HB 222",
             "HB 225",
+            "HB 226",
             "HB 243",
             "HB 244",
             "HB 245",
@@ -5610,8 +5615,10 @@
             "HB 292",
             "HB 297",
             "HB 311",
+            "HB 321",
             "HB 332",
             "HB 352",
+            "HB 355",
             "HB 364",
             "HB 367",
             "HB 377",
@@ -5619,6 +5626,7 @@
             "HB 393",
             "HB 396",
             "HB 402",
+            "HB 403",
             "HB 408",
             "HB 424",
             "HB 426",
@@ -5633,6 +5641,7 @@
             "HB 549",
             "HB 562",
             "HB 569",
+            "HB 587",
             "HB 588",
             "HB 597",
             "HB 612",
@@ -5642,6 +5651,9 @@
             "HB 743",
             "HB 791",
             "HB 797",
+            "HB 816",
+            "HB 819",
+            "HB 821",
             "HB 828",
             "HB 833",
             "HB 835",
@@ -9633,18 +9645,11 @@
         ],
         "billCount": 19,
         "billsWithdrawn": [],
-        "billsUnscheduled": [],
-        "billsScheduled": [
+        "billsUnscheduled": [
             "SJ 26"
         ],
-        "billsScheduledByDay": [
-            {
-                "day": "04/28/2023",
-                "bills": [
-                    "SJ 26"
-                ]
-            }
-        ],
+        "billsScheduled": [],
+        "billsScheduledByDay": [],
         "billsAwaitingVote": [],
         "billsFailed": [
             "HB 714",
