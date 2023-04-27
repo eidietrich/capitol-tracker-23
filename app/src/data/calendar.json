@@ -31,6 +31,7 @@
         "SJ 26",
         "SJ 37",
         "SJ 39",
+        "HB 5",
         "HB 6",
         "HB 8",
         "HB 10",
@@ -73,6 +74,7 @@
         "HJ 23",
         "HJ 24",
         "HJ 25",
+        "HJ 26",
         "HJ 27",
         "HJ 28",
         "HJ 29",
@@ -81,6 +83,7 @@
         "HJ 32",
         "HJ 34",
         "HJ 36",
+        "HJ 37",
         "HJ 38",
         "HJ 39",
         "HR 6",
@@ -496,6 +499,19 @@
         }
     ],
     "scheduledFloorDebates": [
+        {
+            "id": "HB5-0055",
+            "bill": "HB 5",
+            "date": "04/27/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
         {
             "id": "HB6-0035",
             "bill": "HB 6",
@@ -1056,6 +1072,19 @@
             "scheduledForFloorDebate": true
         },
         {
+            "id": "HJ26-0025",
+            "bill": "HJ 26",
+            "date": "04/27/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "house",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
             "id": "HJ27-0021",
             "bill": "HJ 27",
             "date": "04/27/2023",
@@ -1162,6 +1191,19 @@
         {
             "id": "HJ36-0021",
             "bill": "HJ 36",
+            "date": "04/27/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "house",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
+            "id": "HJ37-0021",
+            "bill": "HJ 37",
             "date": "04/27/2023",
             "description": "Scheduled for 2nd Reading",
             "posession": "house",
