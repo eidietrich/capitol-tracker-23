@@ -4022,11 +4022,18 @@
             "HB 792",
             "HR 4"
         ],
-        "billsUnscheduled": [
+        "billsUnscheduled": [],
+        "billsScheduled": [
             "HJ 40"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduledByDay": [
+            {
+                "day": "04/27/2023",
+                "bills": [
+                    "HJ 40"
+                ]
+            }
+        ],
         "billsAwaitingVote": [],
         "billsFailed": [
             "HB 191",
@@ -4043,7 +4050,8 @@
             "HJ 3",
             "HJ 5",
             "HJ 8",
-            "HJ 13"
+            "HJ 13",
+            "HJ 40"
         ],
         "billsAdvanced": [
             "HB 19",
