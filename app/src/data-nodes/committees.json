@@ -2479,11 +2479,19 @@
             "HB 126"
         ],
         "billsUnscheduled": [
-            "SJ 8",
+            "SJ 8"
+        ],
+        "billsScheduled": [
             "SJ 19"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduledByDay": [
+            {
+                "day": "04/27/2023",
+                "bills": [
+                    "SJ 19"
+                ]
+            }
+        ],
         "billsAwaitingVote": [],
         "billsFailed": [
             "HB 103",
