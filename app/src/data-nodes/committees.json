@@ -860,6 +860,7 @@
             "HJ 17",
             "HJ 24",
             "HJ 30",
+            "HJ 33",
             "SB 7",
             "SB 11",
             "SB 12",
@@ -1505,6 +1506,7 @@
             "HB 958",
             "HB 964",
             "HB 969",
+            "HJ 33",
             "HJ 41",
             "SB 20",
             "SB 21",
@@ -1567,7 +1569,7 @@
             "SB 543",
             "SB 558"
         ],
-        "billCount": 190,
+        "billCount": 191,
         "billsWithdrawn": [
             "HB 711",
             "HB 801",
@@ -1578,12 +1580,14 @@
         ],
         "billsUnscheduled": [],
         "billsScheduled": [
+            "HJ 33",
             "HJ 41"
         ],
         "billsScheduledByDay": [
             {
                 "day": "04/27/2023",
                 "bills": [
+                    "HJ 33",
                     "HJ 41"
                 ]
             }
@@ -1719,6 +1723,7 @@
             "HB 907",
             "HB 948",
             "HB 969",
+            "HJ 33",
             "HJ 41",
             "SB 20",
             "SB 21",
