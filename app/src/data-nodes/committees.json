@@ -6658,10 +6658,10 @@
             }
         ],
         "billsAwaitingVote": [
-            "HB 152",
             "HB 903"
         ],
         "billsFailed": [
+            "HB 152",
             "HB 272",
             "HB 349",
             "HB 351",
@@ -7350,11 +7350,19 @@
         ],
         "billsUnscheduled": [
             "HB 450",
-            "HJ 20",
             "SB 337"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduled": [
+            "HJ 20"
+        ],
+        "billsScheduledByDay": [
+            {
+                "day": "05/01/2023",
+                "bills": [
+                    "HJ 20"
+                ]
+            }
+        ],
         "billsAwaitingVote": [],
         "billsFailed": [
             "HB 501",
