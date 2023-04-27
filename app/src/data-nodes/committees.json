@@ -970,10 +970,7 @@
         "billsUnscheduled": [],
         "billsScheduled": [],
         "billsScheduledByDay": [],
-        "billsAwaitingVote": [
-            "HJ 24",
-            "HJ 30"
-        ],
+        "billsAwaitingVote": [],
         "billsFailed": [
             "HB 57",
             "HB 202",
@@ -1251,6 +1248,8 @@
             "SJ 15"
         ],
         "billsBlasted": [
+            "HJ 24",
+            "HJ 30",
             "SB 333"
         ],
         "members": [
@@ -9625,11 +9624,18 @@
         ],
         "billCount": 19,
         "billsWithdrawn": [],
-        "billsUnscheduled": [
+        "billsUnscheduled": [],
+        "billsScheduled": [
             "SJ 26"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduledByDay": [
+            {
+                "day": "04/28/2023",
+                "bills": [
+                    "SJ 26"
+                ]
+            }
+        ],
         "billsAwaitingVote": [],
         "billsFailed": [
             "HB 714",
