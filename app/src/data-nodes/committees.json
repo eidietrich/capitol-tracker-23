@@ -1578,12 +1578,20 @@
             "HB 958",
             "HB 964"
         ],
-        "billsUnscheduled": [
+        "billsUnscheduled": [],
+        "billsScheduled": [
             "HJ 33",
             "HJ 41"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduledByDay": [
+            {
+                "day": "04/27/2023",
+                "bills": [
+                    "HJ 33",
+                    "HJ 41"
+                ]
+            }
+        ],
         "billsAwaitingVote": [],
         "billsFailed": [
             "HB 177",
