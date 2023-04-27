@@ -4,6 +4,7 @@
         "04/28/2023"
     ],
     "billsOnCalendar": [
+        "HB 16",
         "HB 55",
         "HB 141",
         "HB 282",
@@ -46,9 +47,24 @@
         "HB 808",
         "HJ 22",
         "HR 6",
+        "SB 14",
+        "SB 95",
         "SB 294"
     ],
     "scheduledHearings": [
+        {
+            "id": "HB16-0060",
+            "bill": "HB 16",
+            "date": "04/27/2023",
+            "description": "Hearing",
+            "posession": "senate",
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
         {
             "id": "HB55-0082",
             "bill": "HB 55",
@@ -609,6 +625,32 @@
         {
             "id": "HR6-0034",
             "bill": "HR 6",
+            "date": "04/27/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "house",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
+            "id": "SB14-0051",
+            "bill": "SB 14",
+            "date": "04/27/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "house",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
+            "id": "SB95-0048",
+            "bill": "SB 95",
             "date": "04/27/2023",
             "description": "Scheduled for 2nd Reading",
             "posession": "house",
