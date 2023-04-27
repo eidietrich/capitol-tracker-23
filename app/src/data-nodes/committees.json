@@ -5495,12 +5495,10 @@
         ],
         "billsAwaitingVote": [
             "HB 226",
-            "HB 288",
             "HB 355",
             "HB 569",
             "HB 587",
             "HB 649",
-            "HB 669",
             "HB 819",
             "HB 904",
             "HB 944"
@@ -5509,6 +5507,7 @@
             "HB 82",
             "HB 223",
             "HB 276",
+            "HB 288",
             "HB 321",
             "HB 362",
             "HB 375",
@@ -5516,6 +5515,7 @@
             "HB 398",
             "HB 403",
             "HB 496",
+            "HB 669",
             "HB 680",
             "HB 722",
             "HB 749",
@@ -7308,6 +7308,7 @@
             "HB 949",
             "HB 950",
             "HJ 9",
+            "HJ 20",
             "SB 1",
             "SB 8",
             "SB 9",
@@ -7339,21 +7340,19 @@
             "SR 47",
             "SR 51"
         ],
-        "billCount": 85,
+        "billCount": 86,
         "billsWithdrawn": [
             "SB 9",
             "SB 350"
         ],
         "billsUnscheduled": [
             "HB 450",
+            "HJ 20",
             "SB 337"
         ],
         "billsScheduled": [],
         "billsScheduledByDay": [],
-        "billsAwaitingVote": [
-            "HB 913",
-            "SJ 35"
-        ],
+        "billsAwaitingVote": [],
         "billsFailed": [
             "HB 501",
             "HB 502",
@@ -7418,6 +7417,7 @@
             "HB 749",
             "HB 811",
             "HB 833",
+            "HB 913",
             "HB 944",
             "HB 949",
             "HJ 9",
@@ -7433,6 +7433,7 @@
             "SB 373",
             "SB 480",
             "SJ 6",
+            "SJ 35",
             "SR 31",
             "SR 32",
             "SR 33",
@@ -7858,6 +7859,7 @@
             "HB 928",
             "HJ 7",
             "HJ 11",
+            "HJ 18",
             "SB 17",
             "SB 32",
             "SB 39",
@@ -7889,7 +7891,7 @@
             "SR 62",
             "SR 63"
         ],
-        "billCount": 56,
+        "billCount": 57,
         "billsWithdrawn": [
             "SB 41",
             "SB 82",
@@ -7898,7 +7900,8 @@
             "SR 45"
         ],
         "billsUnscheduled": [
-            "HJ 7"
+            "HJ 7",
+            "HJ 18"
         ],
         "billsScheduled": [],
         "billsScheduledByDay": [],
