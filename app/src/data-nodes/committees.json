@@ -5460,20 +5460,10 @@
         "billCount": 219,
         "billsWithdrawn": [],
         "billsUnscheduled": [],
-        "billsScheduled": [
-            "SJ 26"
-        ],
-        "billsScheduledByDay": [
-            {
-                "day": "04/28/2023",
-                "bills": [
-                    "SJ 26"
-                ]
-            }
-        ],
+        "billsScheduled": [],
+        "billsScheduledByDay": [],
         "billsAwaitingVote": [
-            "HB 904",
-            "SJ 26"
+            "HB 904"
         ],
         "billsFailed": [
             "HB 82",
@@ -5694,7 +5684,8 @@
             "SB 549",
             "SB 550",
             "SB 555",
-            "SJ 18"
+            "SJ 18",
+            "SJ 26"
         ],
         "billsBlasted": [],
         "members": [
@@ -9577,11 +9568,9 @@
             "SR 53",
             "SR 58"
         ],
-        "billCount": 19,
+        "billCount": 18,
         "billsWithdrawn": [],
-        "billsUnscheduled": [
-            "SJ 26"
-        ],
+        "billsUnscheduled": [],
         "billsScheduled": [],
         "billsScheduledByDay": [],
         "billsAwaitingVote": [],
