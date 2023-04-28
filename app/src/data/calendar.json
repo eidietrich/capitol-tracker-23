@@ -6,8 +6,11 @@
     "billsOnCalendar": [
         "HB 317",
         "HB 338",
+        "HB 402",
         "HB 446",
+        "HJ 18",
         "HJ 20",
+        "SB 148",
         "SB 245"
     ],
     "scheduledHearings": [
@@ -38,11 +41,38 @@
             "hearing": true
         },
         {
+            "id": "HB402-0058",
+            "bill": "HB 402",
+            "date": "04/28/2023",
+            "description": "Hearing",
+            "posession": "senate",
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
             "id": "HB446-0047",
             "bill": "HB 446",
             "date": "04/28/2023",
             "description": "Hearing",
             "posession": "senate",
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
+            "id": "HJ18-0029",
+            "bill": "HJ 18",
+            "date": "04/28/2023",
+            "description": "Hearing",
+            "posession": "senate",
+            "committee": "Senate Natural Resources",
             "actionUrl": null,
             "recordings": [],
             "transcriptUrl": null,
@@ -57,6 +87,19 @@
             "description": "Hearing",
             "posession": "senate",
             "committee": "Senate Education and Cultural Resources",
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Hearing",
+            "isMajor": true,
+            "hearing": true
+        },
+        {
+            "id": "SB148-0058",
+            "bill": "SB 148",
+            "date": "04/28/2023",
+            "description": "Hearing",
+            "posession": "senate",
             "actionUrl": null,
             "recordings": [],
             "transcriptUrl": null,
