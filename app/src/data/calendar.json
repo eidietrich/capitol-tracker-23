@@ -11,7 +11,12 @@
         "HJ 18",
         "HJ 20",
         "SB 148",
-        "SB 245"
+        "SB 245",
+        "HB 141",
+        "HB 226",
+        "HB 321",
+        "HB 355",
+        "HB 587"
     ],
     "scheduledHearings": [
         {
@@ -121,6 +126,72 @@
             "hearing": true
         }
     ],
-    "scheduledFloorDebates": [],
+    "scheduledFloorDebates": [
+        {
+            "id": "HB141-0037",
+            "bill": "HB 141",
+            "date": "04/28/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
+            "id": "HB226-0049",
+            "bill": "HB 226",
+            "date": "04/28/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
+            "id": "HB321-0064",
+            "bill": "HB 321",
+            "date": "04/28/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
+            "id": "HB355-0052",
+            "bill": "HB 355",
+            "date": "04/28/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
+            "id": "HB587-0053",
+            "bill": "HB 587",
+            "date": "04/28/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "senate",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        }
+    ],
     "scheduledFinalVotes": []
 }
