@@ -4005,6 +4005,7 @@
             "HJ 37",
             "HJ 40",
             "HR 4",
+            "HR 10",
             "SB 32",
             "SB 33",
             "SB 109",
@@ -4017,12 +4018,14 @@
             "SJ 7",
             "SJ 10"
         ],
-        "billCount": 56,
+        "billCount": 57,
         "billsWithdrawn": [
             "HB 792",
             "HR 4"
         ],
-        "billsUnscheduled": [],
+        "billsUnscheduled": [
+            "HR 10"
+        ],
         "billsScheduled": [],
         "billsScheduledByDay": [],
         "billsAwaitingVote": [],
