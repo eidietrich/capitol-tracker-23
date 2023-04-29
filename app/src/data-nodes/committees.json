@@ -2915,11 +2915,18 @@
         "billsWithdrawn": [
             "HB 467"
         ],
-        "billsUnscheduled": [
+        "billsUnscheduled": [],
+        "billsScheduled": [
             "SJ 25"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduledByDay": [
+            {
+                "day": "05/02/2023",
+                "bills": [
+                    "SJ 25"
+                ]
+            }
+        ],
         "billsAwaitingVote": [],
         "billsFailed": [
             "HB 64",
@@ -7904,17 +7911,8 @@
         "billsUnscheduled": [
             "HJ 7"
         ],
-        "billsScheduled": [
-            "HJ 18"
-        ],
-        "billsScheduledByDay": [
-            {
-                "day": "04/28/2023",
-                "bills": [
-                    "HJ 18"
-                ]
-            }
-        ],
+        "billsScheduled": [],
+        "billsScheduledByDay": [],
         "billsAwaitingVote": [],
         "billsFailed": [
             "HB 473",
