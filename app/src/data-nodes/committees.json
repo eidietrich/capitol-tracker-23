@@ -6684,11 +6684,19 @@
             "SB 493"
         ],
         "billsUnscheduled": [
-            "HB 455",
+            "HB 455"
+        ],
+        "billsScheduled": [
             "HJ 41"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduledByDay": [
+            {
+                "day": "05/02/2023",
+                "bills": [
+                    "HJ 41"
+                ]
+            }
+        ],
         "billsAwaitingVote": [],
         "billsFailed": [
             "HB 152",
