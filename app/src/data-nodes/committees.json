@@ -1592,11 +1592,19 @@
             "HB 964"
         ],
         "billsUnscheduled": [
-            "HB 783",
+            "HB 783"
+        ],
+        "billsScheduled": [
             "SJ 30"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduledByDay": [
+            {
+                "day": "05/01/2023",
+                "bills": [
+                    "SJ 30"
+                ]
+            }
+        ],
         "billsAwaitingVote": [],
         "billsFailed": [
             "HB 177",
