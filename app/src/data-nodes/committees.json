@@ -7679,14 +7679,25 @@
             "SB 409"
         ],
         "billsUnscheduled": [
-            "HB 334",
+            "HB 334"
+        ],
+        "billsScheduled": [
             "HJ 21",
             "HJ 22",
             "HJ 34",
             "HJ 35"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduledByDay": [
+            {
+                "day": "05/01/2023",
+                "bills": [
+                    "HJ 21",
+                    "HJ 22",
+                    "HJ 34",
+                    "HJ 35"
+                ]
+            }
+        ],
         "billsAwaitingVote": [],
         "billsFailed": [
             "HB 279",
