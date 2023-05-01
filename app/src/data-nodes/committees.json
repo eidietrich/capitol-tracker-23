@@ -6099,14 +6099,25 @@
             "SB 438"
         ],
         "billsUnscheduled": [
-            "HB 317",
+            "HB 317"
+        ],
+        "billsScheduled": [
             "HJ 17",
             "HJ 24",
             "HJ 26",
             "HJ 30"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduledByDay": [
+            {
+                "day": "05/02/2023",
+                "bills": [
+                    "HJ 17",
+                    "HJ 24",
+                    "HJ 26",
+                    "HJ 30"
+                ]
+            }
+        ],
         "billsAwaitingVote": [
             "SB 286"
         ],
