@@ -7958,11 +7958,19 @@
             "SR 45"
         ],
         "billsUnscheduled": [
-            "HJ 7",
+            "HJ 7"
+        ],
+        "billsScheduled": [
             "HJ 32"
         ],
-        "billsScheduled": [],
-        "billsScheduledByDay": [],
+        "billsScheduledByDay": [
+            {
+                "day": "05/01/2023",
+                "bills": [
+                    "HJ 32"
+                ]
+            }
+        ],
         "billsAwaitingVote": [],
         "billsFailed": [
             "HB 473",
