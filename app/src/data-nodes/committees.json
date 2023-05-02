@@ -2908,18 +2908,11 @@
         "billsWithdrawn": [
             "HB 467"
         ],
-        "billsUnscheduled": [],
-        "billsScheduled": [
+        "billsUnscheduled": [
             "SJ 25"
         ],
-        "billsScheduledByDay": [
-            {
-                "day": "05/02/2023",
-                "bills": [
-                    "SJ 25"
-                ]
-            }
-        ],
+        "billsScheduled": [],
+        "billsScheduledByDay": [],
         "billsAwaitingVote": [],
         "billsFailed": [
             "HB 64",
@@ -4833,7 +4826,9 @@
             "SB 528",
             "SB 536"
         ],
-        "billsBlasted": [],
+        "billsBlasted": [
+            "SJ 21"
+        ],
         "members": [
             {
                 "name": "Larry Brewster",
