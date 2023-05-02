@@ -20,12 +20,15 @@
         "SJ 25",
         "HB 338",
         "HB 402",
+        "HB 437",
         "HB 539",
+        "HB 738",
         "SB 116",
         "SB 149",
         "SB 407",
         "SB 516",
         "SB 148",
+        "SB 221",
         "SB 245",
         "SB 531"
     ],
@@ -266,7 +269,20 @@
             "scheduledForFloorDebate": true
         },
         {
-            "id": "HB539-0045",
+            "id": "HB437-0044",
+            "bill": "HB 437",
+            "date": "05/02/2023",
+            "description": "Scheduled for 2nd Reading",
+            "posession": "house",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Scheduled for 2nd Reading",
+            "scheduledForFloorDebate": true
+        },
+        {
+            "id": "HB539-0044",
             "bill": "HB 539",
             "date": "05/02/2023",
             "description": "Scheduled for 2nd Reading",
@@ -279,8 +295,8 @@
             "scheduledForFloorDebate": true
         },
         {
-            "id": "HB539-0046",
-            "bill": "HB 539",
+            "id": "HB738-0048",
+            "bill": "HB 738",
             "date": "05/02/2023",
             "description": "Scheduled for 2nd Reading",
             "posession": "house",
@@ -372,7 +388,20 @@
             "scheduledForFinalVote": true
         },
         {
-            "id": "SB245-0047",
+            "id": "SB221-0059",
+            "bill": "SB 221",
+            "date": "05/02/2023",
+            "description": "Scheduled for 3rd Reading",
+            "posession": "house",
+            "committee": null,
+            "actionUrl": null,
+            "recordings": [],
+            "transcriptUrl": null,
+            "key": "Scheduled for 3rd Reading",
+            "scheduledForFinalVote": true
+        },
+        {
+            "id": "SB245-0046",
             "bill": "SB 245",
             "date": "05/02/2023",
             "description": "Scheduled for 3rd Reading",
@@ -385,33 +414,7 @@
             "scheduledForFinalVote": true
         },
         {
-            "id": "SB245-0048",
-            "bill": "SB 245",
-            "date": "05/02/2023",
-            "description": "Scheduled for 3rd Reading",
-            "posession": "house",
-            "committee": null,
-            "actionUrl": null,
-            "recordings": [],
-            "transcriptUrl": null,
-            "key": "Scheduled for 3rd Reading",
-            "scheduledForFinalVote": true
-        },
-        {
-            "id": "SB531-0060",
-            "bill": "SB 531",
-            "date": "05/02/2023",
-            "description": "Scheduled for 3rd Reading",
-            "posession": "house",
-            "committee": null,
-            "actionUrl": null,
-            "recordings": [],
-            "transcriptUrl": null,
-            "key": "Scheduled for 3rd Reading",
-            "scheduledForFinalVote": true
-        },
-        {
-            "id": "SB531-0061",
+            "id": "SB531-0059",
             "bill": "SB 531",
             "date": "05/02/2023",
             "description": "Scheduled for 3rd Reading",
