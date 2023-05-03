@@ -31,8 +31,10 @@ export const standardizeDate = date => {
 export const standardCommiteeNames = Array.from(new Set(Object.values(COMMITEE_NAME_CLEANING)))
 export const standardizeCommiteeNames = name => {
     if (standardCommiteeNames.includes(name)) return name
-    if ([null, '', ' ', '  '].includes(name)) return null
+    if ([null, '', ' ', '  ', '   ', '    '].includes(name)) return null
     const preClean = name.replace('(H) (H)', '(H)').replace('(S) (S)', '(S)')
+    if (preClean.includes('Free Conference Committee')) return 'Free Conference Committee'
+    if (preClean.includes('Conference Committee')) return 'Conference Committee'
     const clean = COMMITEE_NAME_CLEANING[preClean]
     if (!clean) console.error(`COMMITEE_NAME_CLEANING missing "${preClean}"`)
     return clean

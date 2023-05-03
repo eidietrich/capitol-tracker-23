@@ -261,14 +261,25 @@ export const ACTIONS = [
     { key: '2nd Reading Senate Amendments Not Concurred', isMajor, isHighlight, reconciliationAction },
     { key: '2nd Reading House Amendments Concurred', isMajor, isHighlight, reconciliationAction },
     { key: '2nd Reading House Amendments Not Concurred', isMajor, isHighlight, reconciliationAction },
-    { key: '3rd Reading Passed as Amended by House', isMajor, isHighlight, reconciliationAction, advanced },
-    { key: '3rd Reading Passed as Amended by Senate', isMajor, isHighlight, reconciliationAction, advanced },
+    { key: '2nd Reading House Amendments Concur Motion Failed', isMajor, isHighlight, reconciliationAction },
+    { key: '2nd Reading House Amendments Not Concur Motion Failed', isMajor, isHighlight, reconciliationAction },
+    { key: '2nd Reading Concur Motion Failed; 3rd Reading Vote Required', isMajor, isHighlight, reconciliationAction },
+
     { key: '2nd Reading Conference Committee Report Adopted', isMajor, reconciliationAction },
     { key: '2nd Reading Free Conference Committee Report Adopted', isMajor, reconciliationAction },
+    { key: '2nd Reading Conference Committee Report Rejected', isMajor, reconciliationAction },
+    { key: '2nd Reading Free Conference Committee Report Rejected', isMajor, reconciliationAction },
+
+
     { key: "2nd Reading Governor's Proposed Amendments Adopt Motion Failed", isMajor, reconciliationAction },
     { key: "2nd Reading Governor's Proposed Amendments Adopted", isMajor, reconciliationAction },
     { key: "2nd Reading Governor's Proposed Amendments Not Adopted", isMajor, reconciliationAction },
     { key: "2nd Reading Governor's Proposed Amendments Not Adopt Motion Failed", isMajor, reconciliationAction },
+
+    { key: '3rd Reading Passed as Amended by House', isMajor, isHighlight, reconciliationAction, advanced },
+    { key: '3rd Reading Not Passed as Amended by House', isMajor, isHighlight, reconciliationAction, advanced },
+    { key: '3rd Reading Passed as Amended by Senate', isMajor, isHighlight, reconciliationAction, advanced },
+
     { key: '3rd Reading Conference Committee Report Adopted', isMajor, reconciliationAction, advanced },
     { key: '3rd Reading Conference Committee Report Rejected', isMajor, reconciliationAction },
     { key: '3rd Reading Free Conference Committee Report Adopted', isMajor, reconciliationAction, advanced },
