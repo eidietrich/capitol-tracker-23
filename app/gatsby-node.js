@@ -221,6 +221,9 @@ exports.createSchemaCustomization = ({ actions }) => {
             lawmakerVote: String
             voteData: BillVote
         }
+        type CommitteesJson implements Node {
+            billsScheduled: [String]
+        }
     `
     createTypes(typeDefs)
 }
