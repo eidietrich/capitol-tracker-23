@@ -159,7 +159,22 @@ const participationPageOutput = {
     text: guideText.ParticipationPage
 }
 
-// // Hacky analyses
+// Hacky analyses
+// console.log({ votesCast: votes.map(v => v.votes).flat().length })
+// console.log({ keyBills: bills.filter(bill => bill.data.isMajorBill).length })
+// console.log({ liveAtSessionEnd: bills.map(b => b.exportBillDataOnly().status).filter(d => ['became law', 'pending, passed legislature'].includes(d.statusAtSessionEnd)).length })
+// console.log(
+//     {
+//         atOrPastGovernor: bills.map(b => b.exportBillDataOnly().progress.slice(-1)[0])
+//             .filter(d => ['current', 'passed'].includes(d.status))
+//             .length
+//     }
+// )
+// console.log({
+//     hearingCount: actions.filter(d => d.hearing).length,
+//     floorDebateCount: actions.filter(d => d.floorDebate).length
+// })
+
 // const start = new Date('03/27/23')
 // const end = new Date('03/31/23')
 // const hearingsOnFBBillsThisWeek = bills

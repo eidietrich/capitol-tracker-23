@@ -93,11 +93,10 @@ class VoteBlock extends Component {
     const houseVotes = voteActions.filter(d => d.chamber === 'House')
     const houseFloorVotes = houseVotes.filter(d => d.chamber === 'House Floor')
     const houseCommitteeVotes = houseVotes.filter(d => d.chamber !== 'House Floor')
-    
-    console.log(houseVotes)
-    return<div>
+
+    return <div>
       <h3>Votes</h3>
-      <Vote action={houseCommitteeVotes.slice(-1)[0]}/>
+      <Vote action={houseCommitteeVotes.slice(-1)[0]} />
     </div>
   }
 }

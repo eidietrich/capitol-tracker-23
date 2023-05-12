@@ -126,6 +126,7 @@ const draftReady = true
 const introduction = true
 
 const hearing = true
+const floorDebate = true
 
 // committee action tags
 const committeeAction = true
@@ -215,20 +216,20 @@ export const ACTIONS = [
     { key: 'Taken from Committee; Placed on 2nd Reading', isMajor, isHighlight, committeeAction, firstChamberFloorAction, secondChamberAction, advanced, blasted },
 
     // first chamber floor votes
-    { key: '2nd Reading Passed', isMajor, isHighlight, firstChamberFloorAction, preliminaryPassage },
-    { key: '2nd Reading Not Passed', isMajor, isHighlight, firstChamberFloorAction, failed },
-    { key: '2nd Reading Not Passed as Amended', isMajor, isHighlight, firstChamberFloorAction, failed },
-    { key: '2nd Reading Not Passed; 3rd Reading Vote Required', isMajor, isHighlight, firstChamberFloorAction, failed },
-    { key: '2nd Reading Pass as Amended Motion Failed', isMajor, firstChamberFloorAction, failed },
-    { key: '2nd Reading Pass Motion Failed', isMajor, firstChamberFloorAction, failed },
-    { key: '2nd Reading Passed as Amended', isMajor, isHighlight, firstChamberFloorAction, preliminaryPassage, amended },
+    { key: '2nd Reading Passed', isMajor, isHighlight, firstChamberFloorAction, floorDebate, preliminaryPassage },
+    { key: '2nd Reading Not Passed', isMajor, isHighlight, firstChamberFloorAction, floorDebate, failed },
+    { key: '2nd Reading Not Passed as Amended', isMajor, isHighlight, firstChamberFloorAction, floorDebate, failed },
+    { key: '2nd Reading Not Passed; 3rd Reading Vote Required', isMajor, isHighlight, firstChamberFloorAction, floorDebate, failed },
+    { key: '2nd Reading Pass as Amended Motion Failed', isMajor, firstChamberFloorAction, floorDebate, failed },
+    { key: '2nd Reading Pass Motion Failed', isMajor, firstChamberFloorAction, floorDebate, failed },
+    { key: '2nd Reading Passed as Amended', isMajor, isHighlight, firstChamberFloorAction, floorDebate, preliminaryPassage, amended },
     { key: '3rd Reading Passed', isMajor, isHighlight, firstChamberFloorAction, advanced, finalPassage },
     // resolutions
-    { key: 'Resolution Adopted', isMajor, isHighlight, firstChamberFloorAction, secondChamberAction, finalPassage },
-    { key: 'Resolution Not Adopted', isMajor, isHighlight, firstChamberFloorAction, secondChamberAction, failed },
+    { key: 'Resolution Adopted', isMajor, isHighlight, firstChamberFloorAction, floorDebate, secondChamberAction, finalPassage },
+    { key: 'Resolution Not Adopted', isMajor, isHighlight, firstChamberFloorAction, floorDebate, secondChamberAction, failed },
     { key: 'Adverse Committee Report Adopted', isMajor, isHighlight, firstChamberFloorAction, secondChamberAction, failed }, // Seems to be how resolutions are killed?
     // some constitutional amendments
-    { key: '2nd Reading Pass Motion Failed; 3rd Reading Vote Required', isMajor, isHighlight, firstChamberFloorAction, advanced },
+    { key: '2nd Reading Pass Motion Failed; 3rd Reading Vote Required', isMajor, isHighlight, firstChamberFloorAction, floorDebate, advanced },
     { key: '3rd Reading Failed; 2nd House Vote Required', isMajor, isHighlight, firstChamberFloorAction, advanced, finalPassage },
 
     // 2005 session
@@ -237,11 +238,11 @@ export const ACTIONS = [
     { key: 'Placed on Consent Calendar', isMajor, isHighlight, firstChamberFloorAction },
 
     // second chamber floor votes
-    { key: '2nd Reading Concurred', isMajor, isHighlight, secondChamberAction, preliminaryPassage },
-    { key: '2nd Reading Not Concurred', isMajor, isHighlight, secondChamberAction, failed },
-    { key: '2nd Reading Concurred as Amended', isMajor, isHighlight, secondChamberAction, preliminaryPassage, amended },
-    { key: '2nd Reading Senate Amendments Not Concur Motion Failed', isMajor, isHighlight, secondChamberAction }, // One-off; See 2021 HB 63
-    { key: '2nd Reading Not Concurred as Amended', isMajor, isHighlight, secondChamberAction, failed },
+    { key: '2nd Reading Concurred', isMajor, isHighlight, secondChamberAction, floorDebate, preliminaryPassage },
+    { key: '2nd Reading Not Concurred', isMajor, isHighlight, secondChamberAction, floorDebate, failed },
+    { key: '2nd Reading Concurred as Amended', isMajor, isHighlight, secondChamberAction, floorDebate, preliminaryPassage, amended },
+    { key: '2nd Reading Senate Amendments Not Concur Motion Failed', isMajor, isHighlight, floorDebate, secondChamberAction }, // One-off; See 2021 HB 63
+    { key: '2nd Reading Not Concurred as Amended', isMajor, isHighlight, secondChamberAction, floorDebate, failed },
     { key: '2nd Reading Concur Motion Failed', isMajor, secondChamberAction, failed },
     { key: '2nd Reading Concur as Amended Motion Failed', isMajor, secondChamberAction, failed },
     { key: '3rd Reading Concurred', isMajor, isHighlight, secondChamberAction, advanced, finalPassage },
@@ -257,24 +258,24 @@ export const ACTIONS = [
     { key: '2nd Reading Indefinitely Postponed', isMajor, firstChamberFloorAction, secondChamberAction, failed },
 
     // Reconciliation votes
-    { key: '2nd Reading Senate Amendments Concurred', isMajor, isHighlight, reconciliationAction },
-    { key: '2nd Reading Senate Amendments Not Concurred', isMajor, isHighlight, reconciliationAction },
-    { key: '2nd Reading House Amendments Concurred', isMajor, isHighlight, reconciliationAction },
-    { key: '2nd Reading House Amendments Not Concurred', isMajor, isHighlight, reconciliationAction },
-    { key: '2nd Reading House Amendments Concur Motion Failed', isMajor, isHighlight, reconciliationAction },
-    { key: '2nd Reading House Amendments Not Concur Motion Failed', isMajor, isHighlight, reconciliationAction },
-    { key: '2nd Reading Concur Motion Failed; 3rd Reading Vote Required', isMajor, isHighlight, reconciliationAction },
+    { key: '2nd Reading Senate Amendments Concurred', isMajor, isHighlight, floorDebate, reconciliationAction },
+    { key: '2nd Reading Senate Amendments Not Concurred', isMajor, isHighlight, floorDebate, reconciliationAction },
+    { key: '2nd Reading House Amendments Concurred', isMajor, isHighlight, floorDebate, reconciliationAction },
+    { key: '2nd Reading House Amendments Not Concurred', isMajor, isHighlight, floorDebate, reconciliationAction },
+    { key: '2nd Reading House Amendments Concur Motion Failed', isMajor, isHighlight, floorDebate, reconciliationAction },
+    { key: '2nd Reading House Amendments Not Concur Motion Failed', isMajor, isHighlight, floorDebate, reconciliationAction },
+    { key: '2nd Reading Concur Motion Failed; 3rd Reading Vote Required', isMajor, isHighlight, floorDebate, reconciliationAction },
 
-    { key: '2nd Reading Conference Committee Report Adopted', isMajor, reconciliationAction },
-    { key: '2nd Reading Free Conference Committee Report Adopted', isMajor, reconciliationAction },
-    { key: '2nd Reading Conference Committee Report Rejected', isMajor, reconciliationAction },
-    { key: '2nd Reading Free Conference Committee Report Rejected', isMajor, reconciliationAction },
+    { key: '2nd Reading Conference Committee Report Adopted', isMajor, floorDebate, reconciliationAction },
+    { key: '2nd Reading Free Conference Committee Report Adopted', isMajor, floorDebate, reconciliationAction },
+    { key: '2nd Reading Conference Committee Report Rejected', isMajor, floorDebate, reconciliationAction },
+    { key: '2nd Reading Free Conference Committee Report Rejected', isMajor, floorDebate, reconciliationAction },
 
 
-    { key: "2nd Reading Governor's Proposed Amendments Adopt Motion Failed", isMajor, reconciliationAction },
-    { key: "2nd Reading Governor's Proposed Amendments Adopted", isMajor, reconciliationAction },
-    { key: "2nd Reading Governor's Proposed Amendments Not Adopted", isMajor, reconciliationAction },
-    { key: "2nd Reading Governor's Proposed Amendments Not Adopt Motion Failed", isMajor, reconciliationAction },
+    { key: "2nd Reading Governor's Proposed Amendments Adopt Motion Failed", isMajor, floorDebate, reconciliationAction },
+    { key: "2nd Reading Governor's Proposed Amendments Adopted", isMajor, floorDebate, reconciliationAction },
+    { key: "2nd Reading Governor's Proposed Amendments Not Adopted", isMajor, floorDebate, reconciliationAction },
+    { key: "2nd Reading Governor's Proposed Amendments Not Adopt Motion Failed", isMajor, floorDebate, reconciliationAction },
 
     { key: '3rd Reading Passed as Amended by House', isMajor, isHighlight, reconciliationAction, advanced },
     { key: '3rd Reading Not Passed as Amended by House', isMajor, isHighlight, reconciliationAction, advanced },

@@ -6,14 +6,8 @@
         "show": true
     },
     {
-        "category": "Governor's budget",
-        "description": "Bills that implement key provisions of Gov. Greg Gianforte’s 2023-2025 budget proposal.",
-        "order": 1,
-        "show": true
-    },
-    {
-        "category": "Other budget bills",
-        "description": "Budget bills brought independently from the governor’s proposal.",
+        "category": "Other spending bills",
+        "description": null,
         "order": 3,
         "show": true
     },
@@ -84,9 +78,27 @@
         "show": true
     },
     {
+        "category": "Marijuana",
+        "description": null,
+        "order": 15,
+        "show": true
+    },
+    {
         "category": "Water",
         "description": null,
         "order": 15,
+        "show": true
+    },
+    {
+        "category": "Firearms",
+        "description": null,
+        "order": 20,
+        "show": true
+    },
+    {
+        "category": "Other",
+        "description": null,
+        "order": 40,
         "show": true
     }
 ]

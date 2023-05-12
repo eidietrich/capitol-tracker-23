@@ -68,8 +68,6 @@ class StatusTests extends Component {
     const { isTruncated } = this.state
     const displayLimit = this.props.displayLimit || DEFAULT_DISPLAY_LIMIT
 
-    // console.log(bills)
-
     if (bills.length === 0) {
       return <div css={noteStyle}>None at present</div>
     }
@@ -88,7 +86,7 @@ class StatusTests extends Component {
         <tbody>{rows}</tbody>
       </table>
       <div css={noteStyle}>
-        { !suppressCount && <span>Showing {rendered.length} of {bills.length}</span>}
+        {!suppressCount && <span>Showing {rendered.length} of {bills.length}</span>}
         {
           (bills.length > displayLimit) &&
           <span><span>. </span>
@@ -180,13 +178,12 @@ const pluralStory = val => (val !== 1) ? 'stories' : 'story'
 
 const Test = ({ title, identifier, status, label, textUrl, fiscalNoteUrl, legalNoteUrl, numArticles, sponsor, progression }) => {
   const color = statusColors(status.status)
-  console.log(progression)
   return (<tr css={tableRowCss} key={identifier}>
     <td css={tableBillCell}>
 
-        <Link css={billCss} to={`/bills/${billUrl(identifier)}`}>
-          <span css={identifierCss}>{identifier}:</span> {title}
-        </Link>
+      <Link css={billCss} to={`/bills/${billUrl(identifier)}`}>
+        <span css={identifierCss}>{identifier}:</span> {title}
+      </Link>
       <div css={billLabelCss}>{label}</div>
       <div css={billInfoLineCss}>
         {sponsor && <Link css={billLinkCss} to={`/lawmakers/${lawmakerUrl(sponsor.name)}`}>
@@ -204,11 +201,11 @@ const Test = ({ title, identifier, status, label, textUrl, fiscalNoteUrl, legalN
       <div css={labelCss}>{status.label}</div>
     </td>
     <td css={css`width: 400px;`}>
-        <div>Introduction: {progression.dates.introduction || 'none'}</div>
-        <div>Initial hearing: {progression.dates.initialHearing || 'none'} {progression.status.firstCommitteeName}</div>
-        <div>Committee vote: {progression.dates.firstCommitteeVote || 'none'} {progression.status.firstCommitteeAction}</div>
-        <div>2nd Reading: {progression.dates.firstChamberSecondReading || 'none'} {progression.status.firstChamberSecondReading}</div>
-        <div>3rd Reading: {progression.dates.firstChamberThirdReading || 'none'} {progression.status.firstChamberThirdReading}</div>
+      <div>Introduction: {progression.dates.introduction || 'none'}</div>
+      <div>Initial hearing: {progression.dates.initialHearing || 'none'} {progression.status.firstCommitteeName}</div>
+      <div>Committee vote: {progression.dates.firstCommitteeVote || 'none'} {progression.status.firstCommitteeAction}</div>
+      <div>2nd Reading: {progression.dates.firstChamberSecondReading || 'none'} {progression.status.firstChamberSecondReading}</div>
+      <div>3rd Reading: {progression.dates.firstChamberThirdReading || 'none'} {progression.status.firstChamberThirdReading}</div>
     </td>
 
   </tr>)
