@@ -193,6 +193,7 @@ const Bill = ({ title, identifier, chamber, status, explanation, textUrl,
   fiscalNoteUrl, legalNoteUrl, vetoMemoUrl, amendmentsUrl,
   numArticles, sponsor, progress
 }) => {
+  if (identifier === 'SB 485') console.log({ identifier, vetoMemoUrl })
   const statusColor = statusColors(status.status)
   const stepLabels = billProgressStepLabels(chamber)
 

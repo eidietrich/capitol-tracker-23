@@ -31,6 +31,7 @@ const Governor = ({ data, location }) => {
   const vetoOverrideAttempts = bills.filter(b => b.progress.find(d => d.step === 'governor').statusLabel === 'Veto Override Pending')
   const successfulVetoOverrides = bills.filter(b => b.progress.find(d => d.step === 'governor').statusLabel === 'Veto Overriden')
   const signedBills = bills.filter(b => b.progress.find(d => d.step === 'governor').statusLabel === 'Signed')
+  const letBecomeLawBills = bills.filter(b => b.progress.find(d => d.step === 'governor').statusLabel === 'Became law unsigned')
 
   // console.log({
   //   bills,
@@ -48,43 +49,43 @@ const Governor = ({ data, location }) => {
       <h1>Gov. Greg Gianforte</h1>
       <ReactMarkdown>{text}</ReactMarkdown>
 
-      <div><strong style={{ fontSize: '1.8em' }}>{numberFormat(bills.length)}</strong> 2023 bill{plural(bills.length)} have been sent to Gov. Gianforte for his signature.</div>
+      <div><strong style={{ fontSize: '1.8em' }}>{numberFormat(bills.length)}</strong> 2023 bill{plural(bills.length)} have been transmitted to Gov. Gianforte for his signature.</div>
 
       {/* <p><strong>{numberFormat(billsSentToGov.length)} bill{plural(billsSentToGov.length)}</strong> from the 2023 Legislature have been sent to Gov. Gianforte for his signature.</p> */}
       <h4>Awaiting action ({numberFormat(awaitingActionBills.length)})</h4>
-      <BillTable bills={awaitingActionBills} />
+      <BillTable bills={awaitingActionBills} displayLimit={5} />
 
       <h4>Vetoed ({numberFormat(vetoedBills.length)})</h4>
       <div className="note">Vetos can be overridden by two-thirds majorities in the House and Senate.</div>
-      <BillTable bills={vetoedBills} />
+      <BillTable bills={vetoedBills} displayLimit={5} />
 
       {
         (vetoOverrideAttempts.length > 0) && <>
           <h4>Pending veto override efforts ({numberFormat(vetoOverrideAttempts.length)})</h4>
-          <BillTable bills={vetoOverrideAttempts} />
+          <BillTable bills={vetoOverrideAttempts} displayLimit={5} />
         </>
       }
 
       {
         (amendmentSuggestedBills.length > 0) && <>
           <h4>Returned with suggested amendment  ({numberFormat(amendmentSuggestedBills.length)})</h4>
-          <BillTable bills={amendmentSuggestedBills} />
+          <BillTable bills={amendmentSuggestedBills} displayLimit={5} />
         </>
       }
 
       {
         (successfulVetoOverrides.length > 0) && <>
           <h4>Vetoes overridden by Legislature ({numberFormat(successfulVetoOverrides.length)})</h4>
-          <BillTable bills={successfulVetoOverrides} />
+          <BillTable bills={successfulVetoOverrides} displayLimit={5} />
         </>
       }
 
       <h4>Signed into law ({numberFormat(signedBills.length)})</h4>
-      <BillTable bills={signedBills} />
+      <BillTable bills={signedBills} displayLimit={5} />
 
-      {/* <h4>Became law without signature</h4>
+      <h4>Became law without signature</h4>
       <div className="note">Bills that have become law without the governor's signature after the governor chooses not to issue a signature or a veto by the 10-day deadline specified in the Montana Constitution.</div>
-      <BillTable bills={letBecomeLawBills} /> */}
+      <BillTable bills={letBecomeLawBills} displayLimit={5} />
 
       <NewsletterSignup />
 

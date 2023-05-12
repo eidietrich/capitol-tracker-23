@@ -44,7 +44,7 @@ const BillInfo = ({ bill }) => {
     const {
         lawsUrl, textUrl, fiscalNoteUrl, legalNoteUrl, amendmentsUrl,
         // transmittalDeadline, secondHouseReturnIfAmendedDeadline, 
-        voteMajorityRequired,
+        voteMajorityRequired, vetoMemoUrl,
         sponsor, requestor
     } = bill
     return <div>
@@ -52,6 +52,8 @@ const BillInfo = ({ bill }) => {
             Sponsor: <LawmakerInline lawmaker={sponsor} />
             {requestor && <span>| Requestor: {requestor}</span>}
         </div>
+
+
 
         <div css={infoRowCss}>
 
@@ -106,6 +108,19 @@ const BillInfo = ({ bill }) => {
                     }
                 </div>
             </div>
+
+            {vetoMemoUrl && <div css={infoColCss}>
+                <div css={infoColLabelCss}>
+                    🚫 Veto memo
+                </div>
+                <div css={infoColContentCss}>
+                    {
+                        vetoMemoUrl ?
+                            <span><a href={vetoMemoUrl} target="_blank" rel="noopener noreferrer">Available here</a></span>
+                            : <em>None on file</em>
+                    }
+                </div>
+            </div>}
         </div>
         <div className="note">
             See also: The <a href={lawsUrl} target="_blank" rel="noopener noreferrer">official bill page</a>.

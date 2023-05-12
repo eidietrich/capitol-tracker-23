@@ -56,7 +56,7 @@ export default class Bill {
             BillPageText,
             // legalNoteLink, // Replaced by legal notes direct from LAWS system
             tags,
-            // vetoNoteLink,
+            vetoMemoUrl,
         } = annotation
 
         this.identifer = key
@@ -104,7 +104,7 @@ export default class Bill {
             fiscalNoteUrl: fiscalNotesListUrl || null,
             amendmentsUrl: amendmentListUrl || null,
             legalNoteUrl: legalNoteUrl || null,
-            vetoMemoUrl: null, // TODO - implement when we get our first one
+            vetoMemoUrl: vetoMemoUrl || null,
 
             // annotations
             isMajorBill: isKeyBill,
@@ -334,7 +334,12 @@ export default class Bill {
                     statusLabel = 'Pending'
                 }
                 const governorActions = actionsWithFlag(actions, 'governorAction')
-                if (governorActions.length === 0) {
+                const becameLaw = progressFlagInActions(actions, 'ultimatelyPassed')
+                if ((governorActions.length) === 0 && !becameLaw) {
+                    return { step, status, statusLabel, statusDate }
+                } else if ((governorActions.length === 0) && becameLaw) {
+                    // Bills governor has let become law without his signature
+                    status = 'passed'; statusLabel = 'Became law unsigned', hasPassedGovernor = true
                     return { step, status, statusLabel, statusDate }
                 } else {
                     const lastGovernorAction = governorActions.slice(-1)[0]
