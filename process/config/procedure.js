@@ -1,7 +1,6 @@
 export const VOTE_THRESHOLDS = [
     // ranked most to least stringent
-    // 2/3 of entire (constitutional amendments) shouldn't co-occur with 3/4 of each house
-    '2/3 of Entire Legislature',
+    '2/3 of Entire Legislature', // constitutional amendments - these are weird
     '3/4 of Each House',
     '2/3 of Each House',
     'Simple',
