@@ -280,6 +280,7 @@ export const ACTIONS = [
     { key: '3rd Reading Passed as Amended by House', isMajor, isHighlight, reconciliationAction, advanced },
     { key: '3rd Reading Not Passed as Amended by House', isMajor, isHighlight, reconciliationAction, advanced },
     { key: '3rd Reading Passed as Amended by Senate', isMajor, isHighlight, reconciliationAction, advanced },
+    { key: ' 3rd Reading Not Passed as Amended by Senate', isMajor, isHighlight, reconciliationAction, advanced },
 
     { key: '3rd Reading Conference Committee Report Adopted', isMajor, reconciliationAction, advanced },
     { key: '3rd Reading Conference Committee Report Rejected', isMajor, reconciliationAction },
