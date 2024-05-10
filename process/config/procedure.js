@@ -151,7 +151,7 @@ const signed = true
 const vetoOverridePending = true
 const vetoOverriddenHouse = true
 const vetoOverriddenSenate = true
-const vetoOverridden = true // would be used by successful veto override poll?
+const vetoOverridden = true
 const vetoOverrideFailed = true
 
 const scheduledForFloorDebate = true
@@ -279,7 +279,7 @@ export const ACTIONS = [
     { key: '3rd Reading Passed as Amended by House', isMajor, isHighlight, reconciliationAction, advanced },
     { key: '3rd Reading Not Passed as Amended by House', isMajor, isHighlight, reconciliationAction, advanced },
     { key: '3rd Reading Passed as Amended by Senate', isMajor, isHighlight, reconciliationAction, advanced },
-    { key: ' 3rd Reading Not Passed as Amended by Senate', isMajor, isHighlight, reconciliationAction, advanced },
+    { key: '3rd Reading Not Passed as Amended by Senate', isMajor, isHighlight, reconciliationAction, advanced },
 
     { key: '3rd Reading Conference Committee Report Adopted', isMajor, reconciliationAction, advanced },
     { key: '3rd Reading Conference Committee Report Rejected', isMajor, reconciliationAction },
@@ -293,10 +293,12 @@ export const ACTIONS = [
     { key: 'Returned with Governor\'s Line-item Veto', isMajor, isHighlight, governorAction, amendmentSuggested },
     { key: 'Veto Overridden in Senate', isMajor, isHighlight, governorAction, vetoed, vetoOverriddenSenate },
     { key: 'Veto Overridden in House', isMajor, isHighlight, governorAction, vetoed, vetoOverriddenHouse },
+    { key: 'Veto Overridden by Legislature', isMajor, isHighlight, governorAction, vetoed, vetoOverridden },
     { key: 'Veto Override Vote Mail Poll in Progress', isMajor, governorAction, failed, vetoed, vetoOverridePending },
     { key: 'Veto Override Failed in Legislature', isMajor, governorAction, failed, vetoed, vetoOverrideFailed },
     { key: 'Veto Override Motion Failed in House', isMajor, governorAction, failed, vetoed, vetoOverrideFailed },
     { key: 'Veto Override Motion Failed in Senate', isMajor, governorAction, failed, vetoed, vetoOverrideFailed },
+    { key: 'Line-item Veto Override Failed', isMajor, governorAction, failed, vetoed, vetoOverrideFailed },
 
     // Other major votes
     { key: 'Motion Carried', isMajor, },
@@ -400,6 +402,7 @@ export const ACTIONS = [
     { key: 'Printed - New Version Available', },
     { key: 'Returned from Enrolling', },
     { key: 'Revised Fiscal Note Printed', },
+    { key: 'Revised Fiscal Note Printed (Local Government Fiscal Impact)', },
     { key: 'Revised Fiscal Note Received', },
     { key: 'Revised Fiscal Note Requested', },
     { key: 'Revised Fiscal Note Signed', },

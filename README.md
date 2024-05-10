@@ -36,7 +36,7 @@ Bill tracking data from the LAWS system is collected via a GitHub Actions-powere
 
 
 ## Commands
-
+- `sh refresh-inputs.sh` - Bundled command to refresh all input pipelines and run `process/main/js`.
 
 ## References
 - Deploying via GH Actions: https://www.alexhyett.com/github-actions-deploy-to-s3/

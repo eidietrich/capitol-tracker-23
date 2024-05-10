@@ -345,13 +345,14 @@ export default class Bill {
                     const lastGovernorAction = governorActions.slice(-1)[0]
                     const houseHasOverridenVeto = progressFlagInActions(governorActions, 'vetoOverriddenHouse')
                     const senateHasOverridenVeto = progressFlagInActions(governorActions, 'vetoOverriddenSenate')
+                    const legislatureHasOverridenVeto = progressFlagInActions(governorActions, 'vetoOverridden')
                     if (lastGovernorAction.signed) { status = 'passed'; statusLabel = 'Signed', hasPassedGovernor = true }
                     if (lastGovernorAction.vetoed) { status = 'blocked'; statusLabel = 'Vetoed' }
                     if (lastGovernorAction.amendmentSuggested) { statusLabel = 'Amendment suggested' }
                     if (lastGovernorAction.vetoOverridePending
                         || (houseHasOverridenVeto || senateHasOverridenVeto) && !lastGovernorAction.vetoOverrideFailed
                     ) { status = 'blocked'; statusLabel = 'Veto Override Pending' }
-                    if (lastGovernorAction.vetoOverridden || (houseHasOverridenVeto && senateHasOverridenVeto)) {
+                    if (legislatureHasOverridenVeto || lastGovernorAction.vetoOverridden || (houseHasOverridenVeto && senateHasOverridenVeto)) {
                         status = 'passed'; statusLabel = 'Veto Overriden'; hasPassedGovernor = true
                     }
                     statusDate = lastGovernorAction.date
