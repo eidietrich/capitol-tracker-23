@@ -18,7 +18,7 @@ const containerCss = css`
 const ContactUs = () => {
     return <div css={containerCss}>
         <h3>About the 2023 Montana Free Press Capitol Tracker</h3>
-        <p>This guide is an effort to make the quantifiable aspects of the Montana Legislature more accessible to the public by compiling information about lawmakers, proposed bills and the legislative process. This is a project of <a href="http://montanafreepress.org/">Montana Free Press</a>, a 501(c)(3) nonprofit newsroom that aims to provide Montanans with in-depth, nonpartisan news coverage.</p>
+        <p>This guide is an effort to make the quantifiable aspects of the Montana Legislature more accessible to the public by compiling information about lawmakers, proposed bills and the legislative process. This is a project of <a href="https://montanafreepress.org/">Montana Free Press</a>, a 501(c)(3) nonprofit newsroom that aims to provide Montanans with in-depth, nonpartisan news coverage.</p>
 
         <p>The information presented here is collected from a variety of sources including the Montana Legislature’s <a href="https://leg.mt.gov/legislator-information/">public roster</a> and its official bill-tracking system, the <a href="http://laws.leg.mt.gov/legprd/law0203w$.startup?P_SESS=20211">Legislative Automated Workflow System</a>, or LAWS. Reporting and web design was done primarily by MTFP Deputy Editor Eric Dietrich. Please contact him at <a href="mailto:edietrich@montanafreepress.org">edietrich@montanafreepress.org</a> with bug reports, questions or suggestions.</p>
 
